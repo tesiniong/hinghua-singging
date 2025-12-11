@@ -2,9 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
+    branches: ["main"]  # 當推送到 main 分支時觸發
+  workflow_dispatch:    # 允許手動觸發
 
 permissions:
   contents: read
@@ -25,27 +24,22 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
           cache: 'npm'
-          cache-dependency-path: ./website/package-lock.json
+          cache-dependency-path: website/package-lock.json
 
       - name: Install dependencies
-        run: |
-          cd website
-          npm ci
+        run: npm ci
+        working-directory: ./website  # 重要：指定在 website 資料夾執行
 
       - name: Build
-        run: |
-          cd website
-          npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+        run: npm run build
+        working-directory: ./website  # 重要：指定在 website 資料夾執行
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './website/dist'
+          path: ./website/dist  # 指定編譯後的檔案位置
 
   deploy:
     environment:
