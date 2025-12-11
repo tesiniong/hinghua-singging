@@ -1,9 +1,9 @@
 /* Font Faces */
 @font-face {
   font-family: 'Tauhu-oo';
-  src: url('/fonts/TauhuOo20.05-Regular.woff2') format('woff2'),
-       url('/fonts/TauhuOo20.05-Regular.woff') format('woff'),
-       url('/fonts/TauhuOo2005-Regular.otf') format('opentype');
+  src: url('./assets/fonts/TauhuOo20.05-Regular.woff2') format('woff2'),
+       url('./assets/fonts/TauhuOo20.05-Regular.woff') format('woff'),
+       url('./assets/fonts/TauhuOo2005-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
