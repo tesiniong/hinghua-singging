@@ -2660,8 +2660,8 @@
     "book_english": "2 Samuel"
   },
   "0389": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 10,
     "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
     "book_hanci": "撒母耳後書",
     "book_english": "2 Samuel"
@@ -2702,7 +2702,7 @@
     "book_english": "2 Samuel"
   },
   "0395": {
-    "chapter": 5,
+    "chapter": 15,
     "verse": 24,
     "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
     "book_hanci": "撒母耳後書",
@@ -2744,8 +2744,8 @@
     "book_english": "2 Samuel"
   },
   "0401": {
-    "chapter": 18,
-    "verse": null,
+    "chapter": 19,
+    "verse": 12,
     "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
     "book_hanci": "撒母耳後書",
     "book_english": "2 Samuel"
@@ -2766,13 +2766,13 @@
   },
   "0404": {
     "chapter": 20,
-    "verse": null,
+    "verse": 22,
     "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
     "book_hanci": "撒母耳後書",
     "book_english": "2 Samuel"
   },
   "0405": {
-    "chapter": 1,
+    "chapter": 21,
     "verse": 13,
     "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
     "book_hanci": "撒母耳後書",
@@ -2787,7 +2787,7 @@
   },
   "0407": {
     "chapter": 22,
-    "verse": null,
+    "verse": 32,
     "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
     "book_hanci": "撒母耳後書",
     "book_english": "2 Samuel"
@@ -2821,11 +2821,11 @@
     "book_english": "2 Samuel"
   },
   "0412": {
-    "chapter": 24,
-    "verse": null,
-    "book_lomaci": "Sah-bâ̤u-cî Hā̤u-cṳ",
-    "book_hanci": "撒母耳後書",
-    "book_english": "2 Samuel"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
+    "book_hanci": "列王上卷",
+    "book_english": "1 Kings"
   },
   "0413": {
     "chapter": 1,
@@ -2836,7 +2836,7 @@
   },
   "0414": {
     "chapter": 1,
-    "verse": null,
+    "verse": 40,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
@@ -2850,7 +2850,7 @@
   },
   "0416": {
     "chapter": 2,
-    "verse": null,
+    "verse": 25,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
@@ -2898,7 +2898,7 @@
     "book_english": "1 Kings"
   },
   "0423": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 9,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
@@ -2912,8 +2912,8 @@
     "book_english": "1 Kings"
   },
   "0425": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 2,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
@@ -2961,36 +2961,36 @@
     "book_english": "1 Kings"
   },
   "0432": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 14,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
   },
   "0433": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 34,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
   },
   "0434": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 12,
+    "verse": 10,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
   },
   "0435": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 12,
+    "verse": 28,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
   },
   "0436": {
     "chapter": 13,
-    "verse": 18,
+    "verse": 13,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
     "book_english": "1 Kings"
@@ -3087,7 +3087,7 @@
     "book_english": "1 Kings"
   },
   "0450": {
-    "chapter": 91,
+    "chapter": 21,
     "verse": 20,
     "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
     "book_hanci": "列王上卷",
@@ -3115,11 +3115,11 @@
     "book_english": "1 Kings"
   },
   "0454": {
-    "chapter": 22,
-    "verse": null,
-    "book_lomaci": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
-    "book_hanci": "列王上卷",
-    "book_english": "1 Kings"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
+    "book_hanci": "列王下卷",
+    "book_english": "2 Kings"
   },
   "0455": {
     "chapter": 1,
@@ -3165,35 +3165,35 @@
   },
   "0461": {
     "chapter": 5,
-    "verse": 19,
+    "verse": 12,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
   },
   "0462": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 1,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
   },
   "0463": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 22,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
   },
   "0464": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 5,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
   },
   "0465": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 7,
+    "verse": 20,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
@@ -3242,7 +3242,7 @@
   },
   "0472": {
     "chapter": 11,
-    "verse": null,
+    "verse": 20,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
@@ -3277,7 +3277,7 @@
   },
   "0477": {
     "chapter": 15,
-    "verse": 29,
+    "verse": 22,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
@@ -3298,7 +3298,7 @@
   },
   "0480": {
     "chapter": 17,
-    "verse": null,
+    "verse": 22,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
@@ -3340,7 +3340,7 @@
   },
   "0486": {
     "chapter": 20,
-    "verse": null,
+    "verse": 18,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
@@ -3353,8 +3353,8 @@
     "book_english": "2 Kings"
   },
   "0488": {
-    "chapter": 21,
-    "verse": null,
+    "chapter": 22,
+    "verse": 13,
     "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
     "book_hanci": "列王下卷",
     "book_english": "2 Kings"
@@ -3395,11 +3395,11 @@
     "book_english": "2 Kings"
   },
   "0494": {
-    "chapter": 25,
-    "verse": null,
-    "book_lomaci": "Le̍h-ó̤ng Hā-ge̤̍ng",
-    "book_hanci": "列王下卷",
-    "book_english": "2 Kings"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
+    "book_hanci": "歷代上卷",
+    "book_english": "1 Chronicles"
   },
   "0495": {
     "chapter": 1,
@@ -3409,8 +3409,8 @@
     "book_english": "1 Chronicles"
   },
   "0496": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 2,
+    "verse": 19,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3431,7 +3431,7 @@
   },
   "0499": {
     "chapter": 4,
-    "verse": 97,
+    "verse": 27,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3444,15 +3444,15 @@
     "book_english": "1 Chronicles"
   },
   "0501": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 7,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
   },
   "0502": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 39,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3465,15 +3465,15 @@
     "book_english": "1 Chronicles"
   },
   "0504": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 6,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
   },
   "0505": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 30,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3494,14 +3494,14 @@
   },
   "0508": {
     "chapter": 9,
-    "verse": null,
+    "verse": 39,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
   },
   "0509": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 11,
+    "verse": 4,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3535,8 +3535,8 @@
     "book_english": "1 Chronicles"
   },
   "0514": {
-    "chapter": 13,
-    "verse": null,
+    "chapter": 15,
+    "verse": 4,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3591,7 +3591,7 @@
     "book_english": "1 Chronicles"
   },
   "0522": {
-    "chapter": 91,
+    "chapter": 21,
     "verse": 19,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
@@ -3648,7 +3648,7 @@
   },
   "0530": {
     "chapter": 27,
-    "verse": null,
+    "verse": 34,
     "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
     "book_hanci": "歷代上卷",
     "book_english": "1 Chronicles"
@@ -3675,11 +3675,11 @@
     "book_english": "1 Chronicles"
   },
   "0534": {
-    "chapter": 29,
-    "verse": null,
-    "book_lomaci": "Le̍h-dāi Siō̤ng-ge̤̍ng",
-    "book_hanci": "歷代上卷",
-    "book_english": "1 Chronicles"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
+    "book_hanci": "歷代下卷",
+    "book_english": "2 Chronicles"
   },
   "0535": {
     "chapter": 1,
@@ -3710,8 +3710,8 @@
     "book_english": "2 Chronicles"
   },
   "0539": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 8,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3724,15 +3724,15 @@
     "book_english": "2 Chronicles"
   },
   "0541": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 1,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
   },
   "0542": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 18,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3759,8 +3759,8 @@
     "book_english": "2 Chronicles"
   },
   "0546": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 3,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3787,8 +3787,8 @@
     "book_english": "2 Chronicles"
   },
   "0550": {
-    "chapter": 14,
-    "verse": null,
+    "chapter": 15,
+    "verse": 9,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3822,14 +3822,14 @@
     "book_english": "2 Chronicles"
   },
   "0555": {
-    "chapter": 19,
-    "verse": null,
+    "chapter": 20,
+    "verse": 8,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
   },
   "0556": {
-    "chapter": 90,
+    "chapter": 20,
     "verse": 24,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
@@ -3857,8 +3857,8 @@
     "book_english": "2 Chronicles"
   },
   "0560": {
-    "chapter": 23,
-    "verse": null,
+    "chapter": 24,
+    "verse": 7,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3927,36 +3927,36 @@
     "book_english": "2 Chronicles"
   },
   "0570": {
-    "chapter": 30,
-    "verse": null,
+    "chapter": 31,
+    "verse": 5,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
   },
   "0571": {
-    "chapter": 2,
+    "chapter": 32,
     "verse": 1,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
   },
   "0572": {
-    "chapter": 2,
+    "chapter": 32,
     "verse": 19,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
   },
   "0573": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 33,
+    "verse": 5,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
   },
   "0574": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 33,
+    "verse": 22,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3976,8 +3976,8 @@
     "book_english": "2 Chronicles"
   },
   "0577": {
-    "chapter": 34,
-    "verse": null,
+    "chapter": 35,
+    "verse": 15,
     "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
     "book_hanci": "歷代下卷",
     "book_english": "2 Chronicles"
@@ -3997,11 +3997,11 @@
     "book_english": "2 Chronicles"
   },
   "0580": {
-    "chapter": 36,
-    "verse": null,
-    "book_lomaci": "Le̍h-dāi Hā-ge̤̍ng",
-    "book_hanci": "歷代下卷",
-    "book_english": "2 Chronicles"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Î-seō-la̍h Cṳ",
+    "book_hanci": "以斯拉書",
+    "book_english": "Ezra"
   },
   "0581": {
     "chapter": 2,
@@ -4012,14 +4012,14 @@
   },
   "0582": {
     "chapter": 2,
-    "verse": null,
+    "verse": 58,
     "book_lomaci": "Î-seō-la̍h Cṳ",
     "book_hanci": "以斯拉書",
     "book_english": "Ezra"
   },
   "0583": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 9,
     "book_lomaci": "Î-seō-la̍h Cṳ",
     "book_hanci": "以斯拉書",
     "book_english": "Ezra"
@@ -4039,22 +4039,22 @@
     "book_english": "Ezra"
   },
   "0586": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 8,
     "book_lomaci": "Î-seō-la̍h Cṳ",
     "book_hanci": "以斯拉書",
     "book_english": "Ezra"
   },
   "0587": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 7,
+    "verse": 3,
     "book_lomaci": "Î-seō-la̍h Cṳ",
     "book_hanci": "以斯拉書",
     "book_english": "Ezra"
   },
   "0588": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 7,
+    "verse": 25,
     "book_lomaci": "Î-seō-la̍h Cṳ",
     "book_hanci": "以斯拉書",
     "book_english": "Ezra"
@@ -4088,22 +4088,22 @@
     "book_english": "Ezra"
   },
   "0593": {
-    "chapter": 10,
-    "verse": null,
-    "book_lomaci": "Î-seō-la̍h Cṳ",
-    "book_hanci": "以斯拉書",
-    "book_english": "Ezra"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Ní-hi-bî Gi̍",
+    "book_hanci": "尼希米記",
+    "book_english": "Nehemiah"
   },
   "0594": {
-    "chapter": 9,
+    "chapter": 2,
     "verse": 5,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
   },
   "0595": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 3,
+    "verse": 2,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
@@ -4145,7 +4145,7 @@
   },
   "0601": {
     "chapter": 7,
-    "verse": null,
+    "verse": 49,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
@@ -4166,7 +4166,7 @@
   },
   "0604": {
     "chapter": 9,
-    "verse": null,
+    "verse": 20,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
@@ -4186,22 +4186,22 @@
     "book_english": "Nehemiah"
   },
   "0607": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 8,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
   },
   "0608": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 31,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
   },
   "0609": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 12,
+    "verse": 28,
     "book_lomaci": "Ní-hi-bî Gi̍",
     "book_hanci": "尼希米記",
     "book_english": "Nehemiah"
@@ -4221,11 +4221,11 @@
     "book_english": "Nehemiah"
   },
   "0612": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Ní-hi-bî Gi̍",
-    "book_hanci": "尼希米記",
-    "book_english": "Nehemiah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Î-seō-tiah Cṳ",
+    "book_hanci": "以斯帖書",
+    "book_english": "Esther"
   },
   "0613": {
     "chapter": 1,
@@ -4235,8 +4235,8 @@
     "book_english": "Esther"
   },
   "0614": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 2,
+    "verse": 13,
     "book_lomaci": "Î-seō-tiah Cṳ",
     "book_hanci": "以斯帖書",
     "book_english": "Esther"
@@ -4249,15 +4249,15 @@
     "book_english": "Esther"
   },
   "0616": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 4,
+    "verse": 8,
     "book_lomaci": "Î-seō-tiah Cṳ",
     "book_hanci": "以斯帖書",
     "book_english": "Esther"
   },
   "0617": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 5,
+    "verse": 10,
     "book_lomaci": "Î-seō-tiah Cṳ",
     "book_hanci": "以斯帖書",
     "book_english": "Esther"
@@ -4270,8 +4270,8 @@
     "book_english": "Esther"
   },
   "0619": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 8,
+    "verse": 6,
     "book_lomaci": "Î-seō-tiah Cṳ",
     "book_hanci": "以斯帖書",
     "book_english": "Esther"
@@ -4291,25 +4291,25 @@
     "book_english": "Esther"
   },
   "0622": {
-    "chapter": 9,
-    "verse": null,
-    "book_lomaci": "Î-seō-tiah Cṳ",
-    "book_hanci": "以斯帖書",
-    "book_english": "Esther"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Io̤h-beh Gi̍",
+    "book_hanci": "約伯記",
+    "book_english": "Job"
   },
   "0623": {
-    "chapter": 9,
-    "verse": null,
-    "book_lomaci": "Î-seō-tiah Cṳ",
-    "book_hanci": "以斯帖書",
-    "book_english": "Esther"
+    "chapter": 1,
+    "verse": 20,
+    "book_lomaci": "Io̤h-beh Gi̍",
+    "book_hanci": "約伯記",
+    "book_english": "Job"
   },
   "0624": {
-    "chapter": 9,
-    "verse": null,
-    "book_lomaci": "Î-seō-tiah Cṳ",
-    "book_hanci": "以斯帖書",
-    "book_english": "Esther"
+    "chapter": 3,
+    "verse": 6,
+    "book_lomaci": "Io̤h-beh Gi̍",
+    "book_hanci": "約伯記",
+    "book_english": "Job"
   },
   "0625": {
     "chapter": 4,
@@ -4334,14 +4334,14 @@
   },
   "0628": {
     "chapter": 6,
-    "verse": null,
+    "verse": 24,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
   },
   "0629": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 16,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4354,8 +4354,8 @@
     "book_english": "Job"
   },
   "0631": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 9,
+    "verse": 21,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4368,15 +4368,15 @@
     "book_english": "Job"
   },
   "0633": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 8,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
   },
   "0634": {
     "chapter": 12,
-    "verse": 30,
+    "verse": 10,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4424,8 +4424,8 @@
     "book_english": "Job"
   },
   "0641": {
-    "chapter": 17,
-    "verse": null,
+    "chapter": 19,
+    "verse": 6,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4522,15 +4522,15 @@
     "book_english": "Job"
   },
   "0655": {
-    "chapter": 2,
+    "chapter": 32,
     "verse": 2,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
   },
   "0656": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 33,
+    "verse": 3,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4550,8 +4550,8 @@
     "book_english": "Job"
   },
   "0659": {
-    "chapter": 34,
-    "verse": null,
+    "chapter": 35,
+    "verse": 1,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4593,7 +4593,7 @@
   },
   "0665": {
     "chapter": 39,
-    "verse": 29,
+    "verse": 28,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4607,7 +4607,7 @@
   },
   "0667": {
     "chapter": 41,
-    "verse": null,
+    "verse": 28,
     "book_lomaci": "Io̤h-beh Gi̍",
     "book_hanci": "約伯記",
     "book_english": "Job"
@@ -4620,11 +4620,11 @@
     "book_english": "Job"
   },
   "0669": {
-    "chapter": 42,
-    "verse": null,
-    "book_lomaci": "Io̤h-beh Gi̍",
-    "book_hanci": "約伯記",
-    "book_english": "Job"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Si-peng",
+    "book_hanci": "詩篇",
+    "book_english": "Psalms"
   },
   "0670": {
     "chapter": 3,
@@ -4634,22 +4634,22 @@
     "book_english": "Psalms"
   },
   "0671": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 5,
+    "verse": 3,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0672": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 7,
+    "verse": 1,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0673": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 8,
+    "verse": 3,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4718,14 +4718,14 @@
     "book_english": "Psalms"
   },
   "0683": {
-    "chapter": 21,
-    "verse": null,
+    "chapter": 22,
+    "verse": 14,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0684": {
-    "chapter": 83,
+    "chapter": 23,
     "verse": 4,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -4746,7 +4746,7 @@
     "book_english": "Psalms"
   },
   "0687": {
-    "chapter": 24,
+    "chapter": 28,
     "verse": 1,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -4767,8 +4767,8 @@
     "book_english": "Psalms"
   },
   "0690": {
-    "chapter": 31,
-    "verse": null,
+    "chapter": 32,
+    "verse": 1,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4781,15 +4781,15 @@
     "book_english": "Psalms"
   },
   "0692": {
-    "chapter": 4,
+    "chapter": 34,
     "verse": 14,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0693": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 35,
+    "verse": 15,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4802,8 +4802,8 @@
     "book_english": "Psalms"
   },
   "0695": {
-    "chapter": 36,
-    "verse": null,
+    "chapter": 37,
+    "verse": 15,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4816,7 +4816,7 @@
     "book_english": "Psalms"
   },
   "0697": {
-    "chapter": 8,
+    "chapter": 38,
     "verse": 20,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -4831,7 +4831,7 @@
   },
   "0699": {
     "chapter": 41,
-    "verse": 92,
+    "verse": 2,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4852,14 +4852,14 @@
   },
   "0702": {
     "chapter": 44,
-    "verse": null,
+    "verse": 26,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0703": {
-    "chapter": 44,
-    "verse": null,
+    "chapter": 46,
+    "verse": 2,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4886,21 +4886,21 @@
     "book_english": "Psalms"
   },
   "0707": {
-    "chapter": 50,
-    "verse": null,
+    "chapter": 51,
+    "verse": 8,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0708": {
-    "chapter": 50,
-    "verse": null,
+    "chapter": 52,
+    "verse": 9,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0709": {
-    "chapter": 85,
+    "chapter": 55,
     "verse": 2,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -4914,8 +4914,8 @@
     "book_english": "Psalms"
   },
   "0711": {
-    "chapter": 55,
-    "verse": null,
+    "chapter": 57,
+    "verse": 5,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4935,8 +4935,8 @@
     "book_english": "Psalms"
   },
   "0714": {
-    "chapter": 60,
-    "verse": null,
+    "chapter": 61,
+    "verse": 7,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4963,15 +4963,15 @@
     "book_english": "Psalms"
   },
   "0718": {
-    "chapter": 66,
-    "verse": null,
+    "chapter": 68,
+    "verse": 2,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0719": {
     "chapter": 68,
-    "verse": 91,
+    "verse": 21,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -4985,13 +4985,13 @@
   },
   "0721": {
     "chapter": 69,
-    "verse": null,
+    "verse": 26,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0722": {
-    "chapter": 1,
+    "chapter": 71,
     "verse": 5,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -5012,57 +5012,57 @@
     "book_english": "Psalms"
   },
   "0725": {
-    "chapter": 13,
-    "verse": 22,
+    "chapter": 73,
+    "verse": 28,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0726": {
-    "chapter": 4,
+    "chapter": 74,
     "verse": 22,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0727": {
-    "chapter": 46,
+    "chapter": 76,
     "verse": 10,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0728": {
-    "chapter": 46,
-    "verse": null,
+    "chapter": 77,
+    "verse": 18,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0729": {
-    "chapter": 8,
+    "chapter": 78,
     "verse": 20,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0730": {
-    "chapter": 48,
+    "chapter": 78,
     "verse": 45,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0731": {
-    "chapter": 8,
-    "verse": 79,
+    "chapter": 78,
+    "verse": 72,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0732": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 80,
+    "verse": 5,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5089,21 +5089,21 @@
     "book_english": "Psalms"
   },
   "0736": {
-    "chapter": 84,
-    "verse": null,
+    "chapter": 86,
+    "verse": 3,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0737": {
-    "chapter": 84,
-    "verse": null,
+    "chapter": 87,
+    "verse": 6,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0738": {
-    "chapter": 9,
+    "chapter": 89,
     "verse": 2,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -5111,7 +5111,7 @@
   },
   "0739": {
     "chapter": 89,
-    "verse": 94,
+    "verse": 24,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5131,22 +5131,22 @@
     "book_english": "Psalms"
   },
   "0742": {
-    "chapter": 90,
-    "verse": null,
+    "chapter": 92,
+    "verse": 3,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0743": {
-    "chapter": 4,
+    "chapter": 94,
     "verse": 5,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0744": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 95,
+    "verse": 5,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5159,8 +5159,8 @@
     "book_english": "Psalms"
   },
   "0746": {
-    "chapter": 97,
-    "verse": null,
+    "chapter": 99,
+    "verse": 1,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5194,7 +5194,7 @@
     "book_english": "Psalms"
   },
   "0751": {
-    "chapter": 5,
+    "chapter": 105,
     "verse": 6,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
@@ -5236,15 +5236,15 @@
     "book_english": "Psalms"
   },
   "0757": {
-    "chapter": 107,
-    "verse": null,
+    "chapter": 109,
+    "verse": 1,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0758": {
-    "chapter": 107,
-    "verse": null,
+    "chapter": 109,
+    "verse": 27,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5271,8 +5271,8 @@
     "book_english": "Psalms"
   },
   "0762": {
-    "chapter": 116,
-    "verse": null,
+    "chapter": 118,
+    "verse": 7,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5362,8 +5362,8 @@
     "book_english": "Psalms"
   },
   "0775": {
-    "chapter": 132,
-    "verse": null,
+    "chapter": 135,
+    "verse": 3,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5405,7 +5405,7 @@
   },
   "0781": {
     "chapter": 141,
-    "verse": null,
+    "verse": 15,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
@@ -5432,25 +5432,25 @@
     "book_english": "Psalms"
   },
   "0785": {
-    "chapter": 147,
-    "verse": null,
+    "chapter": 149,
+    "verse": 1,
     "book_lomaci": "Si-peng",
     "book_hanci": "詩篇",
     "book_english": "Psalms"
   },
   "0786": {
-    "chapter": 147,
-    "verse": null,
-    "book_lomaci": "Si-peng",
-    "book_hanci": "詩篇",
-    "book_english": "Psalms"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Cing-ngé̤ng",
+    "book_hanci": "箴言",
+    "book_english": "Proverbs"
   },
   "0787": {
-    "chapter": 147,
-    "verse": null,
-    "book_lomaci": "Si-peng",
-    "book_hanci": "詩篇",
-    "book_english": "Psalms"
+    "chapter": 1,
+    "verse": 21,
+    "book_lomaci": "Cing-ngé̤ng",
+    "book_hanci": "箴言",
+    "book_english": "Proverbs"
   },
   "0788": {
     "chapter": 2,
@@ -5495,8 +5495,8 @@
     "book_english": "Proverbs"
   },
   "0794": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 20,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
@@ -5523,15 +5523,15 @@
     "book_english": "Proverbs"
   },
   "0798": {
-    "chapter": 1,
+    "chapter": 11,
     "verse": 3,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
   },
   "0799": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 11,
+    "verse": 26,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
@@ -5559,7 +5559,7 @@
   },
   "0803": {
     "chapter": 14,
-    "verse": 82,
+    "verse": 32,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
@@ -5580,7 +5580,7 @@
   },
   "0806": {
     "chapter": 16,
-    "verse": null,
+    "verse": 33,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
@@ -5607,7 +5607,7 @@
     "book_english": "Proverbs"
   },
   "0810": {
-    "chapter": 30,
+    "chapter": 20,
     "verse": 6,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
@@ -5621,8 +5621,8 @@
     "book_english": "Proverbs"
   },
   "0812": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 21,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
@@ -5656,8 +5656,8 @@
     "book_english": "Proverbs"
   },
   "0817": {
-    "chapter": 24,
-    "verse": null,
+    "chapter": 25,
+    "verse": 6,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
@@ -5712,18 +5712,18 @@
     "book_english": "Proverbs"
   },
   "0825": {
-    "chapter": 30,
-    "verse": null,
+    "chapter": 31,
+    "verse": 11,
     "book_lomaci": "Cing-ngé̤ng",
     "book_hanci": "箴言",
     "book_english": "Proverbs"
   },
   "0826": {
-    "chapter": 30,
-    "verse": null,
-    "book_lomaci": "Cing-ngé̤ng",
-    "book_hanci": "箴言",
-    "book_english": "Proverbs"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Dé̤ng-dō̤ Cṳ",
+    "book_hanci": "傳道書",
+    "book_english": "Ecclesiastes"
   },
   "0827": {
     "chapter": 2,
@@ -5733,8 +5733,8 @@
     "book_english": "Ecclesiastes"
   },
   "0828": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 1,
     "book_lomaci": "Dé̤ng-dō̤ Cṳ",
     "book_hanci": "傳道書",
     "book_english": "Ecclesiastes"
@@ -5782,8 +5782,8 @@
     "book_english": "Ecclesiastes"
   },
   "0835": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 11,
+    "verse": 1,
     "book_lomaci": "Dé̤ng-dō̤ Cṳ",
     "book_hanci": "傳道書",
     "book_english": "Ecclesiastes"
@@ -5796,18 +5796,18 @@
     "book_english": "Ecclesiastes"
   },
   "0837": {
-    "chapter": 12,
-    "verse": null,
-    "book_lomaci": "Dé̤ng-dō̤ Cṳ",
-    "book_hanci": "傳道書",
-    "book_english": "Ecclesiastes"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
+    "book_hanci": "所羅門兮雅歌",
+    "book_english": "Song of Solomon"
   },
   "0838": {
-    "chapter": 12,
-    "verse": null,
-    "book_lomaci": "Dé̤ng-dō̤ Cṳ",
-    "book_hanci": "傳道書",
-    "book_english": "Ecclesiastes"
+    "chapter": 1,
+    "verse": 15,
+    "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
+    "book_hanci": "所羅門兮雅歌",
+    "book_english": "Song of Solomon"
   },
   "0839": {
     "chapter": 2,
@@ -5831,39 +5831,39 @@
     "book_english": "Song of Solomon"
   },
   "0842": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 2,
     "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
     "book_hanci": "所羅門兮雅歌",
     "book_english": "Song of Solomon"
   },
   "0843": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 7,
+    "verse": 5,
     "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
     "book_hanci": "所羅門兮雅歌",
     "book_english": "Song of Solomon"
   },
   "0844": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 7,
+    "verse": 7,
     "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
     "book_hanci": "所羅門兮雅歌",
     "book_english": "Song of Solomon"
   },
   "0845": {
-    "chapter": 5,
-    "verse": null,
-    "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
-    "book_hanci": "所羅門兮雅歌",
-    "book_english": "Song of Solomon"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Î-se̤̍-a̍ Cṳ",
+    "book_hanci": "以賽亞書",
+    "book_english": "Isaiah"
   },
   "0846": {
-    "chapter": 5,
-    "verse": null,
-    "book_lomaci": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
-    "book_hanci": "所羅門兮雅歌",
-    "book_english": "Song of Solomon"
+    "chapter": 1,
+    "verse": 18,
+    "book_lomaci": "Î-se̤̍-a̍ Cṳ",
+    "book_hanci": "以賽亞書",
+    "book_english": "Isaiah"
   },
   "0847": {
     "chapter": 2,
@@ -5873,15 +5873,15 @@
     "book_english": "Isaiah"
   },
   "0848": {
-    "chapter": 8,
+    "chapter": 3,
     "verse": 10,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0849": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 5,
+    "verse": 1,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -5894,43 +5894,43 @@
     "book_english": "Isaiah"
   },
   "0851": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 11,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0852": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 18,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0853": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 8,
+    "verse": 15,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0854": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 9,
+    "verse": 10,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0855": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 10,
+    "verse": 10,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0856": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 10,
+    "verse": 28,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -5943,15 +5943,15 @@
     "book_english": "Isaiah"
   },
   "0858": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 13,
+    "verse": 14,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0859": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 14,
+    "verse": 12,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -5979,7 +5979,7 @@
   },
   "0863": {
     "chapter": 19,
-    "verse": 3,
+    "verse": 8,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -5992,8 +5992,8 @@
     "book_english": "Isaiah"
   },
   "0865": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 12,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -6013,7 +6013,7 @@
     "book_english": "Isaiah"
   },
   "0868": {
-    "chapter": 4,
+    "chapter": 24,
     "verse": 14,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6042,14 +6042,14 @@
   },
   "0872": {
     "chapter": 28,
-    "verse": null,
+    "verse": 19,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0873": {
-    "chapter": 28,
-    "verse": null,
+    "chapter": 29,
+    "verse": 9,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -6063,20 +6063,20 @@
   },
   "0875": {
     "chapter": 30,
-    "verse": null,
+    "verse": 22,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0876": {
-    "chapter": 30,
-    "verse": null,
+    "chapter": 31,
+    "verse": 5,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0877": {
-    "chapter": 2,
+    "chapter": 32,
     "verse": 18,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6090,7 +6090,7 @@
     "book_english": "Isaiah"
   },
   "0879": {
-    "chapter": 4,
+    "chapter": 34,
     "verse": 15,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6104,15 +6104,15 @@
     "book_english": "Isaiah"
   },
   "0881": {
-    "chapter": 36,
-    "verse": null,
+    "chapter": 37,
+    "verse": 3,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0882": {
-    "chapter": 36,
-    "verse": null,
+    "chapter": 37,
+    "verse": 24,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -6132,8 +6132,8 @@
     "book_english": "Isaiah"
   },
   "0885": {
-    "chapter": 39,
-    "verse": null,
+    "chapter": 40,
+    "verse": 11,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -6147,20 +6147,20 @@
   },
   "0887": {
     "chapter": 41,
-    "verse": null,
+    "verse": 23,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0888": {
-    "chapter": 41,
-    "verse": null,
+    "chapter": 42,
+    "verse": 13,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0889": {
-    "chapter": 3,
+    "chapter": 43,
     "verse": 7,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6217,21 +6217,21 @@
   },
   "0897": {
     "chapter": 49,
-    "verse": 94,
+    "verse": 24,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0898": {
-    "chapter": 49,
-    "verse": null,
+    "chapter": 51,
+    "verse": 3,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0899": {
-    "chapter": 49,
-    "verse": null,
+    "chapter": 51,
+    "verse": 20,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
@@ -6244,7 +6244,7 @@
     "book_english": "Isaiah"
   },
   "0901": {
-    "chapter": 4,
+    "chapter": 54,
     "verse": 3,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6258,14 +6258,14 @@
     "book_english": "Isaiah"
   },
   "0903": {
-    "chapter": 55,
-    "verse": null,
+    "chapter": 56,
+    "verse": 9,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
     "book_english": "Isaiah"
   },
   "0904": {
-    "chapter": 47,
+    "chapter": 57,
     "verse": 17,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6279,7 +6279,7 @@
     "book_english": "Isaiah"
   },
   "0906": {
-    "chapter": 9,
+    "chapter": 59,
     "verse": 19,
     "book_lomaci": "Î-se̤̍-a̍ Cṳ",
     "book_hanci": "以賽亞書",
@@ -6335,11 +6335,11 @@
     "book_english": "Isaiah"
   },
   "0914": {
-    "chapter": 66,
-    "verse": null,
-    "book_lomaci": "Î-se̤̍-a̍ Cṳ",
-    "book_hanci": "以賽亞書",
-    "book_english": "Isaiah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Á̤-lī-bî Cṳ",
+    "book_hanci": "耶利米書",
+    "book_english": "Jeremiah"
   },
   "0915": {
     "chapter": 1,
@@ -6349,36 +6349,36 @@
     "book_english": "Jeremiah"
   },
   "0916": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 2,
+    "verse": 20,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0917": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 3,
+    "verse": 1,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0918": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 3,
+    "verse": 16,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0919": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 4,
+    "verse": 7,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0920": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 4,
+    "verse": 29,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6405,7 +6405,7 @@
     "book_english": "Jeremiah"
   },
   "0924": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 14,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
@@ -6419,8 +6419,8 @@
     "book_english": "Jeremiah"
   },
   "0926": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 16,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6433,8 +6433,8 @@
     "book_english": "Jeremiah"
   },
   "0928": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 9,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6448,7 +6448,7 @@
   },
   "0930": {
     "chapter": 11,
-    "verse": null,
+    "verse": 21,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6469,7 +6469,7 @@
   },
   "0933": {
     "chapter": 14,
-    "verse": 19,
+    "verse": 12,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6482,8 +6482,8 @@
     "book_english": "Jeremiah"
   },
   "0935": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 16,
+    "verse": 1,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6510,8 +6510,8 @@
     "book_english": "Jeremiah"
   },
   "0939": {
-    "chapter": 18,
-    "verse": null,
+    "chapter": 19,
+    "verse": 6,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6524,8 +6524,8 @@
     "book_english": "Jeremiah"
   },
   "0941": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 8,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6552,7 +6552,7 @@
     "book_english": "Jeremiah"
   },
   "0945": {
-    "chapter": 93,
+    "chapter": 23,
     "verse": 38,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
@@ -6567,7 +6567,7 @@
   },
   "0947": {
     "chapter": 25,
-    "verse": null,
+    "verse": 28,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6587,7 +6587,7 @@
     "book_english": "Jeremiah"
   },
   "0950": {
-    "chapter": 97,
+    "chapter": 27,
     "verse": 17,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
@@ -6595,14 +6595,14 @@
   },
   "0951": {
     "chapter": 28,
-    "verse": 19,
+    "verse": 12,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0952": {
-    "chapter": 28,
-    "verse": null,
+    "chapter": 29,
+    "verse": 13,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6615,29 +6615,29 @@
     "book_english": "Jeremiah"
   },
   "0954": {
-    "chapter": 29,
-    "verse": null,
+    "chapter": 30,
+    "verse": 18,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0955": {
-    "chapter": 29,
-    "verse": null,
+    "chapter": 31,
+    "verse": 11,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0956": {
-    "chapter": 29,
-    "verse": null,
+    "chapter": 31,
+    "verse": 27,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0957": {
-    "chapter": 29,
-    "verse": null,
+    "chapter": 32,
+    "verse": 6,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6650,21 +6650,21 @@
     "book_english": "Jeremiah"
   },
   "0959": {
-    "chapter": 32,
-    "verse": null,
+    "chapter": 33,
+    "verse": 1,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0960": {
-    "chapter": 32,
-    "verse": null,
+    "chapter": 33,
+    "verse": 16,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
   },
   "0961": {
-    "chapter": 4,
+    "chapter": 34,
     "verse": 8,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
@@ -6692,8 +6692,8 @@
     "book_english": "Jeremiah"
   },
   "0965": {
-    "chapter": 36,
-    "verse": null,
+    "chapter": 37,
+    "verse": 8,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6707,7 +6707,7 @@
   },
   "0967": {
     "chapter": 38,
-    "verse": 33,
+    "verse": 23,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6762,8 +6762,8 @@
     "book_english": "Jeremiah"
   },
   "0975": {
-    "chapter": 44,
-    "verse": null,
+    "chapter": 46,
+    "verse": 7,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6784,7 +6784,7 @@
   },
   "0978": {
     "chapter": 48,
-    "verse": null,
+    "verse": 33,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6819,7 +6819,7 @@
   },
   "0983": {
     "chapter": 50,
-    "verse": null,
+    "verse": 35,
     "book_lomaci": "Á̤-lī-bî Cṳ",
     "book_hanci": "耶利米書",
     "book_english": "Jeremiah"
@@ -6860,18 +6860,18 @@
     "book_english": "Jeremiah"
   },
   "0989": {
-    "chapter": 52,
-    "verse": null,
-    "book_lomaci": "Á̤-lī-bî Cṳ",
-    "book_hanci": "耶利米書",
-    "book_english": "Jeremiah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Á̤-lī-bî Ai-go̤ Cṳ",
+    "book_hanci": "耶利米哀歌書",
+    "book_english": "Lamentations"
   },
   "0990": {
-    "chapter": 52,
-    "verse": null,
-    "book_lomaci": "Á̤-lī-bî Cṳ",
-    "book_hanci": "耶利米書",
-    "book_english": "Jeremiah"
+    "chapter": 1,
+    "verse": 12,
+    "book_lomaci": "Á̤-lī-bî Ai-go̤ Cṳ",
+    "book_hanci": "耶利米哀歌書",
+    "book_english": "Lamentations"
   },
   "0991": {
     "chapter": 2,
@@ -6882,7 +6882,7 @@
   },
   "0992": {
     "chapter": 2,
-    "verse": 18,
+    "verse": 13,
     "book_lomaci": "Á̤-lī-bî Ai-go̤ Cṳ",
     "book_hanci": "耶利米哀歌書",
     "book_english": "Lamentations"
@@ -6909,8 +6909,8 @@
     "book_english": "Lamentations"
   },
   "0996": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 4,
+    "verse": 18,
     "book_lomaci": "Á̤-lī-bî Ai-go̤ Cṳ",
     "book_hanci": "耶利米哀歌書",
     "book_english": "Lamentations"
@@ -6923,11 +6923,11 @@
     "book_english": "Lamentations"
   },
   "0998": {
-    "chapter": 5,
-    "verse": null,
-    "book_lomaci": "Á̤-lī-bî Ai-go̤ Cṳ",
-    "book_hanci": "耶利米哀歌書",
-    "book_english": "Lamentations"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Î-sa̤-geh Cṳ",
+    "book_hanci": "以西結書",
+    "book_english": "Ezekiel"
   },
   "0999": {
     "chapter": 1,
@@ -6937,8 +6937,8 @@
     "book_english": "Ezekiel"
   },
   "1000": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 3,
+    "verse": 5,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -6965,14 +6965,14 @@
     "book_english": "Ezekiel"
   },
   "1004": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 6,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1005": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 27,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
@@ -6993,15 +6993,15 @@
     "book_english": "Ezekiel"
   },
   "1008": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 5,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1009": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 12,
+    "verse": 1,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7050,7 +7050,7 @@
   },
   "1016": {
     "chapter": 16,
-    "verse": null,
+    "verse": 53,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7092,56 +7092,56 @@
   },
   "1022": {
     "chapter": 20,
-    "verse": null,
+    "verse": 42,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1023": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 13,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1024": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 32,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1025": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 22,
+    "verse": 22,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1026": {
-    "chapter": 2,
+    "chapter": 23,
     "verse": 12,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1027": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 23,
+    "verse": 33,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1028": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 24,
+    "verse": 5,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1029": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 24,
+    "verse": 25,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7182,7 +7182,7 @@
     "book_english": "Ezekiel"
   },
   "1035": {
-    "chapter": 39,
+    "chapter": 29,
     "verse": 17,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
@@ -7196,29 +7196,29 @@
     "book_english": "Ezekiel"
   },
   "1037": {
-    "chapter": 30,
-    "verse": null,
+    "chapter": 31,
+    "verse": 9,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1038": {
-    "chapter": 2,
+    "chapter": 32,
     "verse": 8,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1039": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 32,
+    "verse": 27,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1040": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 33,
+    "verse": 11,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7245,22 +7245,22 @@
     "book_english": "Ezekiel"
   },
   "1044": {
-    "chapter": 35,
-    "verse": null,
+    "chapter": 36,
+    "verse": 8,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1045": {
-    "chapter": 35,
-    "verse": null,
+    "chapter": 36,
+    "verse": 29,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1046": {
-    "chapter": 35,
-    "verse": null,
+    "chapter": 37,
+    "verse": 11,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7280,8 +7280,8 @@
     "book_english": "Ezekiel"
   },
   "1049": {
-    "chapter": 38,
-    "verse": null,
+    "chapter": 39,
+    "verse": 13,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7295,7 +7295,7 @@
   },
   "1051": {
     "chapter": 40,
-    "verse": null,
+    "verse": 25,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7329,15 +7329,15 @@
     "book_english": "Ezekiel"
   },
   "1056": {
-    "chapter": 43,
-    "verse": null,
+    "chapter": 41,
+    "verse": 8,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1057": {
-    "chapter": 43,
-    "verse": null,
+    "chapter": 41,
+    "verse": 29,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
@@ -7371,22 +7371,22 @@
     "book_english": "Ezekiel"
   },
   "1062": {
-    "chapter": 45,
+    "chapter": 48,
     "verse": 16,
     "book_lomaci": "Î-sa̤-geh Cṳ",
     "book_hanci": "以西結書",
     "book_english": "Ezekiel"
   },
   "1063": {
-    "chapter": 45,
-    "verse": null,
-    "book_lomaci": "Î-sa̤-geh Cṳ",
-    "book_hanci": "以西結書",
-    "book_english": "Ezekiel"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Dāng-î-lî Cṳ",
+    "book_hanci": "但以理書",
+    "book_english": "Daniel"
   },
   "1064": {
     "chapter": 1,
-    "verse": 12,
+    "verse": 18,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
@@ -7428,21 +7428,21 @@
   },
   "1070": {
     "chapter": 4,
-    "verse": null,
+    "verse": 34,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
   },
   "1071": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 13,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
   },
   "1072": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 6,
+    "verse": 2,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
@@ -7484,7 +7484,7 @@
   },
   "1078": {
     "chapter": 9,
-    "verse": null,
+    "verse": 26,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
@@ -7505,38 +7505,38 @@
   },
   "1081": {
     "chapter": 11,
-    "verse": null,
+    "verse": 33,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
   },
   "1082": {
-    "chapter": 2,
+    "chapter": 12,
     "verse": 5,
     "book_lomaci": "Dāng-î-lî Cṳ",
     "book_hanci": "但以理書",
     "book_english": "Daniel"
   },
   "1083": {
-    "chapter": 2,
-    "verse": null,
-    "book_lomaci": "Dāng-î-lî Cṳ",
-    "book_hanci": "但以理書",
-    "book_english": "Daniel"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Hó̤-sa̤ Cṳ",
+    "book_hanci": "何西書",
+    "book_english": "Hosea"
   },
   "1084": {
     "chapter": 2,
-    "verse": null,
-    "book_lomaci": "Dāng-î-lî Cṳ",
-    "book_hanci": "但以理書",
-    "book_english": "Daniel"
+    "verse": 6,
+    "book_lomaci": "Hó̤-sa̤ Cṳ",
+    "book_hanci": "何西書",
+    "book_english": "Hosea"
   },
   "1085": {
-    "chapter": 2,
-    "verse": null,
-    "book_lomaci": "Dāng-î-lî Cṳ",
-    "book_hanci": "但以理書",
-    "book_english": "Daniel"
+    "chapter": 3,
+    "verse": 2,
+    "book_lomaci": "Hó̤-sa̤ Cṳ",
+    "book_hanci": "何西書",
+    "book_english": "Hosea"
   },
   "1086": {
     "chapter": 4,
@@ -7560,8 +7560,8 @@
     "book_english": "Hosea"
   },
   "1089": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 14,
     "book_lomaci": "Hó̤-sa̤ Cṳ",
     "book_hanci": "何西書",
     "book_english": "Hosea"
@@ -7574,8 +7574,8 @@
     "book_english": "Hosea"
   },
   "1091": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 11,
+    "verse": 3,
     "book_lomaci": "Hó̤-sa̤ Cṳ",
     "book_hanci": "何西書",
     "book_english": "Hosea"
@@ -7595,11 +7595,11 @@
     "book_english": "Hosea"
   },
   "1094": {
-    "chapter": 14,
-    "verse": null,
-    "book_lomaci": "Hó̤-sa̤ Cṳ",
-    "book_hanci": "何西書",
-    "book_english": "Hosea"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Io̤h-cî Cṳ",
+    "book_hanci": "約珥書",
+    "book_english": "Joel"
   },
   "1095": {
     "chapter": 1,
@@ -7623,18 +7623,18 @@
     "book_english": "Joel"
   },
   "1098": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Io̤h-cî Cṳ",
-    "book_hanci": "約珥書",
-    "book_english": "Joel"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "A̍-mó̤-seo Cṳ",
+    "book_hanci": "亞摩斯書",
+    "book_english": "Amos"
   },
   "1099": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Io̤h-cî Cṳ",
-    "book_hanci": "約珥書",
-    "book_english": "Joel"
+    "chapter": 2,
+    "verse": 1,
+    "book_lomaci": "A̍-mó̤-seo Cṳ",
+    "book_hanci": "亞摩斯書",
+    "book_english": "Amos"
   },
   "1100": {
     "chapter": 3,
@@ -7644,8 +7644,8 @@
     "book_english": "Amos"
   },
   "1101": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 4,
+    "verse": 8,
     "book_lomaci": "A̍-mó̤-seo Cṳ",
     "book_hanci": "亞摩斯書",
     "book_english": "Amos"
@@ -7686,11 +7686,11 @@
     "book_english": "Amos"
   },
   "1107": {
-    "chapter": 9,
-    "verse": null,
-    "book_lomaci": "A̍-mó̤-seo Cṳ",
-    "book_hanci": "亞摩斯書",
-    "book_english": "Amos"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "O̤-ba-dâ̤ Cṳ",
+    "book_hanci": "阿巴底書",
+    "book_english": "Obadiah"
   },
   "1108": {
     "chapter": 1,
@@ -7701,17 +7701,17 @@
   },
   "1109": {
     "chapter": 1,
-    "verse": null,
-    "book_lomaci": "O̤-ba-dâ̤ Cṳ",
-    "book_hanci": "阿巴底書",
-    "book_english": "Obadiah"
+    "verse": 1,
+    "book_lomaci": "Io̤h-ná Cṳ",
+    "book_hanci": "約拿書",
+    "book_english": "Jonah"
   },
   "1110": {
-    "chapter": 1,
-    "verse": null,
-    "book_lomaci": "O̤-ba-dâ̤ Cṳ",
-    "book_hanci": "阿巴底書",
-    "book_english": "Obadiah"
+    "chapter": 2,
+    "verse": 1,
+    "book_lomaci": "Io̤h-ná Cṳ",
+    "book_hanci": "約拿書",
+    "book_english": "Jonah"
   },
   "1111": {
     "chapter": 4,
@@ -7721,11 +7721,11 @@
     "book_english": "Jonah"
   },
   "1112": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Io̤h-ná Cṳ",
-    "book_hanci": "約拿書",
-    "book_english": "Jonah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bî-gia Cṳ",
+    "book_hanci": "彌迦書",
+    "book_english": "Micah"
   },
   "1113": {
     "chapter": 2,
@@ -7749,8 +7749,8 @@
     "book_english": "Micah"
   },
   "1116": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 9,
     "book_lomaci": "Bî-gia Cṳ",
     "book_hanci": "彌迦書",
     "book_english": "Micah"
@@ -7770,11 +7770,11 @@
     "book_english": "Micah"
   },
   "1119": {
-    "chapter": 7,
-    "verse": null,
-    "book_lomaci": "Bî-gia Cṳ",
-    "book_hanci": "彌迦書",
-    "book_english": "Micah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Ná-o̤ng Cṳ",
+    "book_hanci": "那翁書",
+    "book_english": "Nahum"
   },
   "1120": {
     "chapter": 2,
@@ -7784,18 +7784,18 @@
     "book_english": "Nahum"
   },
   "1121": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 8,
     "book_lomaci": "Ná-o̤ng Cṳ",
     "book_hanci": "那翁書",
     "book_english": "Nahum"
   },
   "1122": {
-    "chapter": 2,
-    "verse": null,
-    "book_lomaci": "Ná-o̤ng Cṳ",
-    "book_hanci": "那翁書",
-    "book_english": "Nahum"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Ha̍h-ba-go̤h Cṳ",
+    "book_hanci": "哈巴谷書",
+    "book_english": "Habakkuk"
   },
   "1123": {
     "chapter": 2,
@@ -7819,11 +7819,11 @@
     "book_english": "Habakkuk"
   },
   "1126": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Ha̍h-ba-go̤h Cṳ",
-    "book_hanci": "哈巴谷書",
-    "book_english": "Habakkuk"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Sa̤-huang-ngâ Cṳ",
+    "book_hanci": "西番雅書",
+    "book_english": "Zephaniah"
   },
   "1127": {
     "chapter": 1,
@@ -7847,11 +7847,11 @@
     "book_english": "Zephaniah"
   },
   "1130": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Sa̤-huang-ngâ Cṳ",
-    "book_hanci": "西番雅書",
-    "book_english": "Zephaniah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Ha̍h-gi Cṳ",
+    "book_hanci": "哈基書",
+    "book_english": "Haggai"
   },
   "1131": {
     "chapter": 2,
@@ -7861,18 +7861,18 @@
     "book_english": "Haggai"
   },
   "1132": {
-    "chapter": 8,
-    "verse": 2,
+    "chapter": 2,
+    "verse": 22,
     "book_lomaci": "Ha̍h-gi Cṳ",
     "book_hanci": "哈基書",
     "book_english": "Haggai"
   },
   "1133": {
-    "chapter": 8,
-    "verse": null,
-    "book_lomaci": "Ha̍h-gi Cṳ",
-    "book_hanci": "哈基書",
-    "book_english": "Haggai"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
+    "book_hanci": "撒迦利亞書",
+    "book_english": "Zechariah"
   },
   "1134": {
     "chapter": 1,
@@ -7882,15 +7882,15 @@
     "book_english": "Zechariah"
   },
   "1135": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 3,
+    "verse": 2,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
     "book_english": "Zechariah"
   },
   "1136": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 4,
+    "verse": 11,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
     "book_english": "Zechariah"
@@ -7903,22 +7903,22 @@
     "book_english": "Zechariah"
   },
   "1138": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 13,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
     "book_english": "Zechariah"
   },
   "1139": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 8,
+    "verse": 18,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
     "book_english": "Zechariah"
   },
   "1140": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 9,
+    "verse": 11,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
     "book_english": "Zechariah"
@@ -7931,8 +7931,8 @@
     "book_english": "Zechariah"
   },
   "1142": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 17,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
     "book_english": "Zechariah"
@@ -7949,14 +7949,14 @@
     "verse": 8,
     "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
     "book_hanci": "撒迦利亞書",
-    "book_english": "Zechariah"
+    "book_english": "z"
   },
   "1145": {
-    "chapter": 14,
-    "verse": null,
-    "book_lomaci": "Sah-ga-lī-a̍ Cṳ",
-    "book_hanci": "撒迦利亞書",
-    "book_english": "Zechariah"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Mâ-la̍h-gi Cṳ",
+    "book_hanci": "瑪拉基書",
+    "book_english": "Malachi"
   },
   "1146": {
     "chapter": 1,
@@ -7979,54 +7979,26 @@
     "book_hanci": "瑪拉基書",
     "book_english": "Malachi"
   },
-  "1149": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
-  },
-  "1150": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
-  },
-  "1151": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
-  },
-  "1152": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
-  },
   "1153": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Mâ-ta̍i",
+    "book_hanci": "馬太",
+    "book_english": "Gospel of Matthew"
   },
   "1154": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
+    "chapter": 2,
+    "verse": 1,
+    "book_lomaci": "Mâ-ta̍i",
+    "book_hanci": "馬太",
+    "book_english": "Gospel of Matthew"
   },
   "1155": {
     "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Mâ-la̍h-gi Cṳ",
-    "book_hanci": "瑪拉基書",
-    "book_english": "Malachi"
+    "verse": 1,
+    "book_lomaci": "Mâ-ta̍i",
+    "book_hanci": "馬太",
+    "book_english": "Gospel of Matthew"
   },
   "1156": {
     "chapter": 4,
@@ -8044,21 +8016,21 @@
   },
   "1158": {
     "chapter": 5,
-    "verse": null,
+    "verse": 41,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1159": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 17,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1160": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 7,
+    "verse": 6,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8072,27 +8044,27 @@
   },
   "1162": {
     "chapter": 8,
-    "verse": null,
+    "verse": 34,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1163": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 9,
+    "verse": 26,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1164": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 10,
+    "verse": 16,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1165": {
-    "chapter": 1,
+    "chapter": 11,
     "verse": 1,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
@@ -8120,29 +8092,29 @@
     "book_english": "Gospel of Matthew"
   },
   "1169": {
-    "chapter": 12,
-    "verse": null,
+    "chapter": 13,
+    "verse": 27,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1170": {
-    "chapter": 132,
+    "chapter": 13,
     "verse": 55,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1171": {
-    "chapter": 132,
-    "verse": null,
+    "chapter": 14,
+    "verse": 25,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1172": {
-    "chapter": 132,
-    "verse": null,
+    "chapter": 15,
+    "verse": 23,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8155,8 +8127,8 @@
     "book_english": "Gospel of Matthew"
   },
   "1174": {
-    "chapter": 16,
-    "verse": null,
+    "chapter": 17,
+    "verse": 6,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8183,8 +8155,8 @@
     "book_english": "Gospel of Matthew"
   },
   "1178": {
-    "chapter": 19,
-    "verse": null,
+    "chapter": 20,
+    "verse": 18,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8197,14 +8169,14 @@
     "book_english": "Gospel of Matthew"
   },
   "1180": {
-    "chapter": 1,
+    "chapter": 21,
     "verse": 34,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1181": {
-    "chapter": 72,
+    "chapter": 22,
     "verse": 18,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
@@ -8219,7 +8191,7 @@
   },
   "1183": {
     "chapter": 23,
-    "verse": null,
+    "verse": 28,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8233,21 +8205,21 @@
   },
   "1185": {
     "chapter": 24,
-    "verse": null,
+    "verse": 47,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1186": {
     "chapter": 25,
-    "verse": 22,
+    "verse": 28,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
   },
   "1187": {
     "chapter": 26,
-    "verse": 16,
+    "verse": 10,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8261,7 +8233,7 @@
   },
   "1189": {
     "chapter": 26,
-    "verse": null,
+    "verse": 64,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
     "book_english": "Gospel of Matthew"
@@ -8274,7 +8246,7 @@
     "book_english": "Gospel of Matthew"
   },
   "1191": {
-    "chapter": 1,
+    "chapter": 27,
     "verse": 47,
     "book_lomaci": "Mâ-ta̍i",
     "book_hanci": "馬太",
@@ -8288,18 +8260,18 @@
     "book_english": "Gospel of Matthew"
   },
   "1193": {
-    "chapter": 28,
-    "verse": null,
-    "book_lomaci": "Mâ-ta̍i",
-    "book_hanci": "馬太",
-    "book_english": "Gospel of Matthew"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Mâ-kô̤",
+    "book_hanci": "馬可",
+    "book_english": "Gospel of Mark"
   },
   "1194": {
-    "chapter": 28,
-    "verse": null,
-    "book_lomaci": "Mâ-ta̍i",
-    "book_hanci": "馬太",
-    "book_english": "Gospel of Matthew"
+    "chapter": 1,
+    "verse": 28,
+    "book_lomaci": "Mâ-kô̤",
+    "book_hanci": "馬可",
+    "book_english": "Gospel of Mark"
   },
   "1195": {
     "chapter": 2,
@@ -8330,43 +8302,43 @@
     "book_english": "Gospel of Mark"
   },
   "1199": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 25,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1200": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 6,
+    "verse": 9,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1201": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 6,
+    "verse": 35,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1202": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 8,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1203": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 8,
+    "verse": 1,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1204": {
     "chapter": 8,
-    "verse": 39,
+    "verse": 32,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
@@ -8380,21 +8352,21 @@
   },
   "1206": {
     "chapter": 9,
-    "verse": null,
+    "verse": 44,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1207": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 23,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1208": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 49,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
@@ -8436,20 +8408,20 @@
   },
   "1214": {
     "chapter": 14,
-    "verse": null,
+    "verse": 42,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1215": {
-    "chapter": 14,
-    "verse": null,
+    "chapter": 15,
+    "verse": 1,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
     "book_english": "Gospel of Mark"
   },
   "1216": {
-    "chapter": 5,
+    "chapter": 15,
     "verse": 34,
     "book_lomaci": "Mâ-kô̤",
     "book_hanci": "馬可",
@@ -8463,18 +8435,18 @@
     "book_english": "Gospel of Mark"
   },
   "1218": {
-    "chapter": 16,
-    "verse": null,
-    "book_lomaci": "Mâ-kô̤",
-    "book_hanci": "馬可",
-    "book_english": "Gospel of Mark"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Lō-ga",
+    "book_hanci": "路加",
+    "book_english": "Gospel of Luke"
   },
   "1219": {
-    "chapter": 16,
-    "verse": null,
-    "book_lomaci": "Mâ-kô̤",
-    "book_hanci": "馬可",
-    "book_english": "Gospel of Mark"
+    "chapter": 1,
+    "verse": 26,
+    "book_lomaci": "Lō-ga",
+    "book_hanci": "路加",
+    "book_english": "Gospel of Luke"
   },
   "1220": {
     "chapter": 1,
@@ -8492,28 +8464,28 @@
   },
   "1222": {
     "chapter": 2,
-    "verse": null,
+    "verse": 39,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1223": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 14,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1224": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 37,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1225": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 4,
+    "verse": 26,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8533,15 +8505,15 @@
     "book_english": "Gospel of Luke"
   },
   "1228": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 20,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1229": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 43,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8554,50 +8526,50 @@
     "book_english": "Gospel of Luke"
   },
   "1231": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 43,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1232": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 8,
+    "verse": 18,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1233": {
     "chapter": 8,
-    "verse": 12,
+    "verse": 42,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1234": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 9,
+    "verse": 12,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1235": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 9,
+    "verse": 37,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1236": {
-    "chapter": 8,
-    "verse": null,
+    "chapter": 10,
+    "verse": 1,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1237": {
     "chapter": 10,
-    "verse": 9,
+    "verse": 25,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8617,15 +8589,15 @@
     "book_english": "Gospel of Luke"
   },
   "1240": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 5,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1241": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 31,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8659,29 +8631,29 @@
     "book_english": "Gospel of Luke"
   },
   "1246": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 16,
+    "verse": 4,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1247": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 16,
+    "verse": 26,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1248": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 17,
+    "verse": 24,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1249": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 18,
+    "verse": 15,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8709,14 +8681,14 @@
   },
   "1253": {
     "chapter": 20,
-    "verse": null,
+    "verse": 42,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1254": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 25,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8736,7 +8708,7 @@
     "book_english": "Gospel of Luke"
   },
   "1257": {
-    "chapter": 83,
+    "chapter": 23,
     "verse": 7,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
@@ -8750,8 +8722,8 @@
     "book_english": "Gospel of Luke"
   },
   "1259": {
-    "chapter": 23,
-    "verse": null,
+    "chapter": 24,
+    "verse": 13,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8764,29 +8736,29 @@
     "book_english": "Gospel of Luke"
   },
   "1261": {
-    "chapter": 24,
-    "verse": null,
-    "book_lomaci": "Lō-ga",
-    "book_hanci": "路加",
-    "book_english": "Gospel of Luke"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Io̤h-hāng",
+    "book_hanci": "約翰",
+    "book_english": "Gospel of John"
   },
   "1262": {
-    "chapter": 24,
-    "verse": null,
+    "chapter": 1,
+    "verse": 28,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1263": {
-    "chapter": 24,
-    "verse": null,
+    "chapter": 2,
+    "verse": 2,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
   },
   "1264": {
-    "chapter": 24,
-    "verse": null,
+    "chapter": 3,
+    "verse": 5,
     "book_lomaci": "Lō-ga",
     "book_hanci": "路加",
     "book_english": "Gospel of Luke"
@@ -8806,22 +8778,22 @@
     "book_english": "Gospel of John"
   },
   "1267": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 2,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1268": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 30,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1269": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 6,
+    "verse": 13,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
@@ -8835,7 +8807,7 @@
   },
   "1271": {
     "chapter": 6,
-    "verse": null,
+    "verse": 70,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
@@ -8848,22 +8820,22 @@
     "book_english": "Gospel of John"
   },
   "1273": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 6,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1274": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 31,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1275": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 56,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
@@ -8876,15 +8848,15 @@
     "book_english": "Gospel of John"
   },
   "1277": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 13,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1278": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 42,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
@@ -8897,15 +8869,15 @@
     "book_english": "Gospel of John"
   },
   "1280": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 2,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1281": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 30,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
@@ -8919,7 +8891,7 @@
   },
   "1283": {
     "chapter": 13,
-    "verse": null,
+    "verse": 33,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
@@ -8939,99 +8911,99 @@
     "book_english": "Gospel of John"
   },
   "1286": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 16,
+    "verse": 14,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1287": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 17,
+    "verse": 3,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1288": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 18,
+    "verse": 1,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1289": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 18,
+    "verse": 26,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1290": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 19,
+    "verse": 11,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1291": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 19,
+    "verse": 31,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1292": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 20,
+    "verse": 16,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1293": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 21,
+    "verse": 6,
     "book_lomaci": "Io̤h-hāng",
     "book_hanci": "約翰",
     "book_english": "Gospel of John"
   },
   "1294": {
-    "chapter": 15,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng",
-    "book_hanci": "約翰",
-    "book_english": "Gospel of John"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
+    "book_hanci": "使徒行傳",
+    "book_english": "Acts of the Apostles"
   },
   "1295": {
-    "chapter": 15,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng",
-    "book_hanci": "約翰",
-    "book_english": "Gospel of John"
+    "chapter": 1,
+    "verse": 20,
+    "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
+    "book_hanci": "使徒行傳",
+    "book_english": "Acts of the Apostles"
   },
   "1296": {
-    "chapter": 15,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng",
-    "book_hanci": "約翰",
-    "book_english": "Gospel of John"
+    "chapter": 2,
+    "verse": 21,
+    "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
+    "book_hanci": "使徒行傳",
+    "book_english": "Acts of the Apostles"
   },
   "1297": {
-    "chapter": 15,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng",
-    "book_hanci": "約翰",
-    "book_english": "Gospel of John"
+    "chapter": 2,
+    "verse": 47,
+    "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
+    "book_hanci": "使徒行傳",
+    "book_english": "Acts of the Apostles"
   },
   "1298": {
-    "chapter": 2,
+    "chapter": 3,
     "verse": 25,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
   },
   "1299": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 4,
+    "verse": 23,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9051,15 +9023,15 @@
     "book_english": "Acts of the Apostles"
   },
   "1302": {
-    "chapter": 4,
+    "chapter": 7,
     "verse": 4,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
   },
   "1303": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 7,
+    "verse": 31,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9072,8 +9044,8 @@
     "book_english": "Acts of the Apostles"
   },
   "1305": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 18,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9087,7 +9059,7 @@
   },
   "1307": {
     "chapter": 9,
-    "verse": null,
+    "verse": 29,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9107,8 +9079,8 @@
     "book_english": "Acts of the Apostles"
   },
   "1310": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 15,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9184,8 +9156,8 @@
     "book_english": "Acts of the Apostles"
   },
   "1321": {
-    "chapter": 18,
-    "verse": null,
+    "chapter": 19,
+    "verse": 6,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9212,15 +9184,15 @@
     "book_english": "Acts of the Apostles"
   },
   "1325": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 21,
+    "verse": 25,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
   },
   "1326": {
-    "chapter": 20,
-    "verse": null,
+    "chapter": 22,
+    "verse": 6,
     "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
     "book_hanci": "使徒行傳",
     "book_english": "Acts of the Apostles"
@@ -9289,11 +9261,11 @@
     "book_english": "Acts of the Apostles"
   },
   "1336": {
-    "chapter": 28,
-    "verse": null,
-    "book_lomaci": "Seo̍-dó Hēng-dē̤ng",
-    "book_hanci": "使徒行傳",
-    "book_english": "Acts of the Apostles"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
+    "book_hanci": "保羅寄羅馬儂書",
+    "book_english": "Romans"
   },
   "1337": {
     "chapter": 1,
@@ -9303,15 +9275,15 @@
     "book_english": "Romans"
   },
   "1338": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 2,
+    "verse": 13,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1339": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 3,
+    "verse": 8,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
@@ -9324,8 +9296,8 @@
     "book_english": "Romans"
   },
   "1341": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 1,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
@@ -9338,43 +9310,43 @@
     "book_english": "Romans"
   },
   "1343": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 3,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1344": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 8,
+    "verse": 4,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1345": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 8,
+    "verse": 28,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1346": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 9,
+    "verse": 13,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1347": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 10,
+    "verse": 3,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1348": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 11,
+    "verse": 7,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
@@ -9387,15 +9359,15 @@
     "book_english": "Romans"
   },
   "1350": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 20,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
   },
   "1351": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 14,
+    "verse": 6,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
     "book_hanci": "保羅寄羅馬儂書",
     "book_english": "Romans"
@@ -9422,11 +9394,11 @@
     "book_english": "Romans"
   },
   "1355": {
-    "chapter": 16,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
-    "book_hanci": "保羅寄羅馬儂書",
-    "book_english": "Romans"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
+    "book_hanci": "保羅寄哥林多前書",
+    "book_english": "1 Corinthians"
   },
   "1356": {
     "chapter": 1,
@@ -9443,8 +9415,8 @@
     "book_english": "1 Corinthians"
   },
   "1358": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 22,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
@@ -9464,8 +9436,8 @@
     "book_english": "1 Corinthians"
   },
   "1361": {
-    "chapter": 6,
-    "verse": null,
+    "chapter": 7,
+    "verse": 12,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
@@ -9486,28 +9458,28 @@
   },
   "1364": {
     "chapter": 9,
-    "verse": 93,
+    "verse": 23,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
   },
   "1365": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 22,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
   },
   "1366": {
     "chapter": 11,
-    "verse": 13,
+    "verse": 15,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
   },
   "1367": {
-    "chapter": 11,
-    "verse": null,
+    "chapter": 12,
+    "verse": 9,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
@@ -9535,7 +9507,7 @@
   },
   "1371": {
     "chapter": 15,
-    "verse": 23,
+    "verse": 25,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
     "book_hanci": "保羅寄哥林多前書",
     "book_english": "1 Corinthians"
@@ -9555,11 +9527,11 @@
     "book_english": "1 Corinthians"
   },
   "1374": {
-    "chapter": 16,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
-    "book_hanci": "保羅寄哥林多前書",
-    "book_english": "1 Corinthians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
+    "book_hanci": "保羅寄哥林多後書",
+    "book_english": "2 Corinthians"
   },
   "1375": {
     "chapter": 1,
@@ -9569,8 +9541,8 @@
     "book_english": "2 Corinthians"
   },
   "1376": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 3,
+    "verse": 4,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
     "book_hanci": "保羅寄哥林多後書",
     "book_english": "2 Corinthians"
@@ -9618,8 +9590,8 @@
     "book_english": "2 Corinthians"
   },
   "1383": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 21,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
     "book_hanci": "保羅寄哥林多後書",
     "book_english": "2 Corinthians"
@@ -9639,53 +9611,53 @@
     "book_english": "2 Corinthians"
   },
   "1386": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "book_hanci": "保羅寄加拉太書",
+    "book_english": "Galatians"
   },
   "1387": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 2,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "book_hanci": "保羅寄加拉太書",
+    "book_english": "Galatians"
   },
   "1388": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 2,
+    "verse": 21,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "book_hanci": "保羅寄加拉太書",
+    "book_english": "Galatians"
   },
   "1389": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 3,
+    "verse": 23,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "book_hanci": "保羅寄加拉太書",
+    "book_english": "Galatians"
   },
   "1390": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 4,
+    "verse": 23,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "book_hanci": "保羅寄加拉太書",
+    "book_english": "Galatians"
   },
   "1391": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 5,
+    "verse": 20,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "book_hanci": "保羅寄加拉太書",
+    "book_english": "Galatians"
   },
   "1392": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
-    "book_hanci": "保羅寄哥林多後書",
-    "book_english": "2 Corinthians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Î-heo̍h-sê̤ Cṳ",
+    "book_hanci": "保羅寄以弗所書",
+    "book_english": "Ephesians"
   },
   "1393": {
     "chapter": 1,
@@ -9709,25 +9681,25 @@
     "book_english": "Ephesians"
   },
   "1396": {
-    "chapter": 3,
+    "chapter": 5,
     "verse": 1,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Î-heo̍h-sê̤ Cṳ",
     "book_hanci": "保羅寄以弗所書",
     "book_english": "Ephesians"
   },
   "1397": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 6,
+    "verse": 1,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Î-heo̍h-sê̤ Cṳ",
     "book_hanci": "保羅寄以弗所書",
     "book_english": "Ephesians"
   },
   "1398": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Î-heo̍h-sê̤ Cṳ",
-    "book_hanci": "保羅寄以弗所書",
-    "book_english": "Ephesians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
+    "book_hanci": "保羅寄腓立比儂書",
+    "book_english": "Philippians"
   },
   "1399": {
     "chapter": 1,
@@ -9744,36 +9716,36 @@
     "book_english": "Philippians"
   },
   "1401": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 13,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
     "book_hanci": "保羅寄腓立比儂書",
     "book_english": "Philippians"
   },
   "1402": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 4,
+    "verse": 13,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
     "book_hanci": "保羅寄腓立比儂書",
     "book_english": "Philippians"
   },
   "1403": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 1,
+    "verse": 1,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
     "book_hanci": "保羅寄腓立比儂書",
     "book_english": "Philippians"
   },
   "1404": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 1,
+    "verse": 23,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
     "book_hanci": "保羅寄腓立比儂書",
     "book_english": "Philippians"
   },
   "1405": {
     "chapter": 2,
-    "verse": null,
+    "verse": 15,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
     "book_hanci": "保羅寄腓立比儂書",
     "book_english": "Philippians"
@@ -9793,11 +9765,11 @@
     "book_english": "Colossians"
   },
   "1408": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Go̤-ló̤-sa̤ Náng Cṳ",
-    "book_hanci": "保羅寄歌羅西儂書",
-    "book_english": "Colossians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Céng-cṳ",
+    "book_hanci": "保羅寄帖撒羅尼迦儂前書",
+    "book_english": "1 Thessalonians"
   },
   "1409": {
     "chapter": 2,
@@ -9821,18 +9793,18 @@
     "book_english": "1 Thessalonians"
   },
   "1412": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Céng-cṳ",
-    "book_hanci": "保羅寄帖撒羅尼迦儂前書",
-    "book_english": "1 Thessalonians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Hā̤u-cṳ",
+    "book_hanci": "保羅寄帖撒羅尼迦儂後書",
+    "book_english": "2 Thessalonians"
   },
   "1413": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Céng-cṳ",
-    "book_hanci": "保羅寄帖撒羅尼迦儂前書",
-    "book_english": "1 Thessalonians"
+    "chapter": 2,
+    "verse": 5,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Hā̤u-cṳ",
+    "book_hanci": "保羅寄帖撒羅尼迦儂後書",
+    "book_english": "2 Thessalonians"
   },
   "1414": {
     "chapter": 3,
@@ -9842,11 +9814,11 @@
     "book_english": "2 Thessalonians"
   },
   "1415": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Hā̤u-cṳ",
-    "book_hanci": "保羅寄帖撒羅尼迦儂後書",
-    "book_english": "2 Thessalonians"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ",
+    "book_hanci": "保羅寄提摩太前書",
+    "book_english": "1 Timothy"
   },
   "1416": {
     "chapter": 2,
@@ -9856,7 +9828,7 @@
     "book_english": "1 Timothy"
   },
   "1417": {
-    "chapter": 8,
+    "chapter": 3,
     "verse": 14,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ",
     "book_hanci": "保羅寄提摩太前書",
@@ -9870,18 +9842,18 @@
     "book_english": "1 Timothy"
   },
   "1419": {
-    "chapter": 5,
-    "verse": null,
+    "chapter": 6,
+    "verse": 5,
     "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ",
     "book_hanci": "保羅寄提摩太前書",
     "book_english": "1 Timothy"
   },
   "1420": {
-    "chapter": 5,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ",
-    "book_hanci": "保羅寄提摩太前書",
-    "book_english": "1 Timothy"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Hā̤u-cṳ",
+    "book_hanci": "保羅寄提摩太後書",
+    "book_english": "2 Timothy"
   },
   "1421": {
     "chapter": 2,
@@ -9905,18 +9877,18 @@
     "book_english": "2 Timothy"
   },
   "1424": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Hā̤u-cṳ",
-    "book_hanci": "保羅寄提摩太後書",
-    "book_english": "2 Timothy"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ",
+    "book_hanci": "保羅寄提多書",
+    "book_english": "Titus"
   },
   "1425": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Hā̤u-cṳ",
-    "book_hanci": "保羅寄提摩太後書",
-    "book_english": "2 Timothy"
+    "chapter": 2,
+    "verse": 5,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ",
+    "book_hanci": "保羅寄提多書",
+    "book_english": "Titus"
   },
   "1426": {
     "chapter": 3,
@@ -9926,18 +9898,18 @@
     "book_english": "Titus"
   },
   "1427": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ",
-    "book_hanci": "保羅寄提多書",
-    "book_english": "Titus"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Hi-lī-meóng Cṳ",
+    "book_hanci": "保羅寄腓利門書",
+    "book_english": "Philemon"
   },
   "1428": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ",
-    "book_hanci": "保羅寄提多書",
-    "book_english": "Titus"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Hi-beh-lái Náng Cṳ",
+    "book_hanci": "希伯來儂書",
+    "book_english": "Hebrews"
   },
   "1429": {
     "chapter": 2,
@@ -9989,8 +9961,8 @@
     "book_english": "Hebrews"
   },
   "1436": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 10,
+    "verse": 1,
     "book_lomaci": "Hi-beh-lái Náng Cṳ",
     "book_hanci": "希伯來儂書",
     "book_english": "Hebrews"
@@ -10003,21 +9975,21 @@
     "book_english": "Hebrews"
   },
   "1438": {
-    "chapter": 10,
-    "verse": null,
+    "chapter": 11,
+    "verse": 9,
     "book_lomaci": "Hi-beh-lái Náng Cṳ",
     "book_hanci": "希伯來儂書",
     "book_english": "Hebrews"
   },
   "1439": {
-    "chapter": 1,
+    "chapter": 11,
     "verse": 33,
     "book_lomaci": "Hi-beh-lái Náng Cṳ",
     "book_hanci": "希伯來儂書",
     "book_english": "Hebrews"
   },
   "1440": {
-    "chapter": 13,
+    "chapter": 12,
     "verse": 16,
     "book_lomaci": "Hi-beh-lái Náng Cṳ",
     "book_hanci": "希伯來儂書",
@@ -10025,17 +9997,17 @@
   },
   "1441": {
     "chapter": 13,
-    "verse": null,
+    "verse": 10,
     "book_lomaci": "Hi-beh-lái Náng Cṳ",
     "book_hanci": "希伯來儂書",
     "book_english": "Hebrews"
   },
   "1442": {
-    "chapter": 13,
-    "verse": null,
-    "book_lomaci": "Hi-beh-lái Náng Cṳ",
-    "book_hanci": "希伯來儂書",
-    "book_english": "Hebrews"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Seo̍-dó Ngâ-go̤h Cṳ",
+    "book_hanci": "使徒雅各書",
+    "book_english": "James"
   },
   "1443": {
     "chapter": 1,
@@ -10059,18 +10031,18 @@
     "book_english": "James"
   },
   "1446": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 10,
     "book_lomaci": "Seo̍-dó Ngâ-go̤h Cṳ",
     "book_hanci": "使徒雅各書",
     "book_english": "James"
   },
   "1447": {
-    "chapter": 4,
-    "verse": null,
-    "book_lomaci": "Seo̍-dó Ngâ-go̤h Cṳ",
-    "book_hanci": "使徒雅各書",
-    "book_english": "James"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bî-deh Céng-cṳ",
+    "book_hanci": "彼得前書",
+    "book_english": "1 Peter"
   },
   "1448": {
     "chapter": 1,
@@ -10080,8 +10052,8 @@
     "book_english": "1 Peter"
   },
   "1449": {
-    "chapter": 1,
-    "verse": null,
+    "chapter": 2,
+    "verse": 13,
     "book_lomaci": "Bî-deh Céng-cṳ",
     "book_hanci": "彼得前書",
     "book_english": "1 Peter"
@@ -10094,8 +10066,8 @@
     "book_english": "1 Peter"
   },
   "1451": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 4,
+    "verse": 9,
     "book_lomaci": "Bî-deh Céng-cṳ",
     "book_hanci": "彼得前書",
     "book_english": "1 Peter"
@@ -10108,11 +10080,11 @@
     "book_english": "1 Peter"
   },
   "1453": {
-    "chapter": 5,
-    "verse": null,
-    "book_lomaci": "Bî-deh Céng-cṳ",
-    "book_hanci": "彼得前書",
-    "book_english": "1 Peter"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Bî-deh Hā̤u-cṳ",
+    "book_hanci": "彼得後書",
+    "book_english": "2 Peter"
   },
   "1454": {
     "chapter": 1,
@@ -10122,22 +10094,22 @@
     "book_english": "2 Peter"
   },
   "1455": {
-    "chapter": 3,
+    "chapter": 2,
     "verse": 21,
     "book_lomaci": "Bî-deh Hā̤u-cṳ",
     "book_hanci": "彼得後書",
     "book_english": "2 Peter"
   },
   "1456": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Bî-deh Hā̤u-cṳ",
-    "book_hanci": "彼得後書",
-    "book_english": "2 Peter"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Io̤h-hāng Ih Cṳ",
+    "book_hanci": "約翰一書",
+    "book_english": "1 John"
   },
   "1457": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 2,
+    "verse": 11,
     "book_lomaci": "Bî-deh Hā̤u-cṳ",
     "book_hanci": "彼得後書",
     "book_english": "2 Peter"
@@ -10150,39 +10122,39 @@
     "book_english": "1 John"
   },
   "1459": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 4,
+    "verse": 2,
     "book_lomaci": "Io̤h-hāng Ih Cṳ",
     "book_hanci": "約翰一書",
     "book_english": "1 John"
   },
   "1460": {
-    "chapter": 3,
-    "verse": null,
+    "chapter": 5,
+    "verse": 2,
     "book_lomaci": "Io̤h-hāng Ih Cṳ",
     "book_hanci": "約翰一書",
     "book_english": "1 John"
   },
   "1461": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng Ih Cṳ",
-    "book_hanci": "約翰一書",
-    "book_english": "1 John"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Io̤h-hāng Cī Cṳ",
+    "book_hanci": "約翰二書",
+    "book_english": "2 John"
   },
   "1462": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng Ih Cṳ",
-    "book_hanci": "約翰一書",
-    "book_english": "1 John"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Io̤h-hāng So̤ⁿ Cṳ",
+    "book_hanci": "約翰三書",
+    "book_english": "3 John"
   },
   "1463": {
-    "chapter": 3,
-    "verse": null,
-    "book_lomaci": "Io̤h-hāng Ih Cṳ",
-    "book_hanci": "約翰一書",
-    "book_english": "1 John"
+    "chapter": 1,
+    "verse": 1,
+    "book_lomaci": "Seo̍-dó Iú-dāi Cṳ",
+    "book_hanci": "使徒猶大書",
+    "book_english": "Jude"
   },
   "1464": {
     "chapter": 1,
@@ -10193,10 +10165,10 @@
   },
   "1465": {
     "chapter": 1,
-    "verse": null,
-    "book_lomaci": "Seo̍-dó Iú-dāi Cṳ",
-    "book_hanci": "使徒猶大書",
-    "book_english": "Jude"
+    "verse": 1,
+    "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
+    "book_hanci": "使徒約翰默示錄",
+    "book_english": "Revelation"
   },
   "1466": {
     "chapter": 1,
@@ -10213,8 +10185,8 @@
     "book_english": "Revelation"
   },
   "1468": {
-    "chapter": 2,
-    "verse": null,
+    "chapter": 3,
+    "verse": 7,
     "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
     "book_hanci": "使徒約翰默示錄",
     "book_english": "Revelation"
@@ -10227,8 +10199,8 @@
     "book_english": "Revelation"
   },
   "1470": {
-    "chapter": 4,
-    "verse": null,
+    "chapter": 5,
+    "verse": 14,
     "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
     "book_hanci": "使徒約翰默示錄",
     "book_english": "Revelation"
@@ -10241,8 +10213,8 @@
     "book_english": "Revelation"
   },
   "1472": {
-    "chapter": 7,
-    "verse": null,
+    "chapter": 8,
+    "verse": 5,
     "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
     "book_hanci": "使徒約翰默示錄",
     "book_english": "Revelation"
@@ -10255,8 +10227,8 @@
     "book_english": "Revelation"
   },
   "1474": {
-    "chapter": 9,
-    "verse": null,
+    "chapter": 11,
+    "verse": 4,
     "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
     "book_hanci": "使徒約翰默示錄",
     "book_english": "Revelation"
@@ -10290,8 +10262,8 @@
     "book_english": "Revelation"
   },
   "1479": {
-    "chapter": 15,
-    "verse": null,
+    "chapter": 17,
+    "verse": 1,
     "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
     "book_hanci": "使徒約翰默示錄",
     "book_english": "Revelation"
@@ -10325,7 +10297,7 @@
     "book_english": "Revelation"
   },
   "1484": {
-    "chapter": 1,
+    "chapter": 21,
     "verse": 20,
     "book_lomaci": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
     "book_hanci": "使徒約翰默示錄",
