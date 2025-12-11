@@ -51,8 +51,8 @@ function App() {
           <div className="title-line title-eng">
             <span className="title-eng-large">THE HOLY BIBLE</span><br />
             <span className="title-eng-script">Containing the</span> <span className="title-eng-sc">OLD AND NEW TESTAMENTS</span><br />
-            <span className="title-eng-sc">IN THE HINGHWA DIALECT, ROMANIZED</span><br />
-            <span className="title-eng-sc">ANNO DOMINI 1912</span>
+            <span className="title-eng-sc">in the HINGHWA DIALECT, ROMANIZED</span><br />
+            <span className="title-eng-sc">anno domini 1912</span>
           </div>
         </div>
       </header>

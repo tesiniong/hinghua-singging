@@ -1,5 +1,21 @@
 /* Font Faces */
 @font-face {
+  font-family: 'Noto Sans TC';
+  src: url('./assets/fonts/NotoSansTC-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('./assets/fonts/NotoSansTC-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Tauhu-oo';
   src: url('./assets/fonts/TauhuOo20.05-Regular.woff2') format('woff2'),
        url('./assets/fonts/TauhuOo20.05-Regular.woff') format('woff'),
@@ -9,10 +25,26 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: url('./assets/fonts/DejaVuSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DejaVu Sans';
+  src: url('./assets/fonts/DejaVuSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* Font Stack */
-  --font-chinese: 'Tauhu-oo', sans-serif;
-  --font-roman: 'Tauhu-oo', serif;
+  --font-chinese: 'Noto Sans TC', 'Tauhu-oo', sans-serif;
+  --font-roman: 'DejaVu Sans', 'Arial', sans-serif;
 
   /* Colors */
   --bg-primary: #ffffff;
@@ -30,9 +62,9 @@
   --spacing-xl: 2rem;
 
   /* Typography */
-  --font-size-base: 18px;
-  --font-size-lg: 20px;
-  --font-size-xl: 22px;
+  --font-size-base: 20px;
+  --font-size-lg: 22px;
+  --font-size-xl: 24px;
   --line-height-base: 1.8;
   --line-height-compact: 1.6;
 }
@@ -151,7 +183,7 @@ rt {
 /* Responsive */
 @media (max-width: 768px) {
   :root {
-    --font-size-base: 16px;
+    --font-size-base: 18px;
   }
 
   .container {

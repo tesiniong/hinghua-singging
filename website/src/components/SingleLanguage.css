@@ -17,9 +17,13 @@
   color: var(--text-secondary);
   font-size: 0.7em;
   font-weight: 500;
-  margin-left: 0.2em;
-  margin-right: 0.2em;
-  vertical-align: super;
+  margin-left: 0.3em;
+  margin-right: 0.15em;
+  white-space: nowrap;
+}
+
+.single-verse .verse-text {
+  display: inline;
 }
 
 .verse-image-link-inline {

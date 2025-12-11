@@ -13,7 +13,7 @@ function ImageViewer() {
     const params = new URLSearchParams(window.location.search);
     const page = params.get('page');
     if (page) {
-      setImagePath(`/images/${page}.webp`);
+      setImagePath(`${import.meta.env.BASE_URL}images/${page}.webp`);
     }
   }, []);
 

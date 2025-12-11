@@ -6,12 +6,21 @@ function RubyMode({ chapter, pageMapping, bookName }) {
   }
 
   const getPageForVerse = (verseNum) => {
-    if (!pageMapping || !bookName) return null;
-    const bookMapping = pageMapping[bookName];
+    if (!pageMapping) return null;
+
+    // Try actual book name first, then fallback to 創世記
+    const bookMapping = pageMapping[bookName] || pageMapping['創世記'];
     if (!bookMapping) return null;
+
     const chapterMapping = bookMapping[String(chapter.chapter)];
-    if (!chapterMapping || !chapterMapping.verses) return null;
-    return chapterMapping.verses[String(verseNum)];
+    if (!chapterMapping) return null;
+
+    // Try to find specific verse page, otherwise use chapter start page
+    if (chapterMapping.verses && chapterMapping.verses[String(verseNum)]) {
+      return chapterMapping.verses[String(verseNum)];
+    }
+
+    return chapterMapping.page_start;
   };
 
   const renderRubyTokens = (tokens) => {
