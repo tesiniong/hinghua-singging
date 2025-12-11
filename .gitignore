@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+website/node_modules/
+
+# Build output
+dist/
+website/dist/
+
+# TIF images (too large, use WebP instead)
+pics/
+*.tif
+
+# Development
+.DS_Store
+.vscode/
+*.log
+*.swp
+*.swo
+
+# Temporary files
+verse13_analysis.txt
+page-mapping-template.csv
+page-mapping-editor.html
+
+# Claude code
+CLAUDE.md
+.claude/
