@@ -24,6 +24,21 @@
   vertical-align: super;
 }
 
+.verse-image-link-ruby {
+  font-size: 0.9em;
+  text-decoration: none;
+  margin-left: 0.1em;
+  user-select: none;
+  transition: transform 0.2s;
+  display: inline-block;
+  vertical-align: super;
+}
+
+.verse-image-link-ruby:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
 .ruby-word {
   ruby-align: center;
   margin-right: 0.05em;
@@ -31,7 +46,7 @@
 
 .ruby-word rt {
   font-size: 0.5em;
-  color: var(--text-secondary);
+  color: #555555;
   font-family: var(--font-roman);
   line-height: 1;
 }

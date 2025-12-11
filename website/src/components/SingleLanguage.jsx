@@ -1,24 +1,17 @@
 import './SingleLanguage.css';
 
-function SingleLanguage({ chapter, language }) {
+function SingleLanguage({ chapter, language, pageMapping, bookName }) {
   if (!chapter || !chapter.verses) {
     return <div>沒有經文資料</div>;
   }
 
-  const renderTokens = (tokens, lang) => {
-    return tokens.map((token, idx) => {
-      if (token.type === 'punct') {
-        return <span key={idx} className="single-punct">{token[lang]}</span>;
-      }
-      if (token.type === 'word') {
-        return (
-          <span key={idx} className={`single-word word-${token.form}`}>
-            {token[lang]}
-          </span>
-        );
-      }
-      return null;
-    });
+  const getPageForVerse = (verseNum) => {
+    if (!pageMapping || !bookName) return null;
+    const bookMapping = pageMapping[bookName];
+    if (!bookMapping) return null;
+    const chapterMapping = bookMapping[String(chapter.chapter)];
+    if (!chapterMapping || !chapterMapping.verses) return null;
+    return chapterMapping.verses[String(verseNum)];
   };
 
   const isRoman = language === 'rom';
@@ -28,12 +21,23 @@ function SingleLanguage({ chapter, language }) {
     <div className={`single-language ${fontClass}`}>
       <div className="single-chapter">
         {chapter.verses.map((verse) => (
-          <div key={verse.verse} className="single-verse">
-            <sup className="verse-number">{verse.verse}</sup>
-            <span className="verse-text">
-              {renderTokens(verse.tokens, language)}
-            </span>
-          </div>
+          <span key={verse.verse} className="single-verse">
+            <sup className="verse-number">
+              {verse.verse}
+              {getPageForVerse(verse.verse) && (
+                <a
+                  href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="verse-image-link-inline"
+                  title="查看原始掃描頁面"
+                >
+                  📖
+                </a>
+              )}
+            </sup>
+            <span className="verse-text">{verse[language]}</span>
+          </span>
         ))}
       </div>
     </div>

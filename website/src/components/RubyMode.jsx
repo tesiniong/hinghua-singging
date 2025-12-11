@@ -1,9 +1,18 @@
 import './RubyMode.css';
 
-function RubyMode({ chapter }) {
+function RubyMode({ chapter, pageMapping, bookName }) {
   if (!chapter || !chapter.verses) {
     return <div>沒有經文資料</div>;
   }
+
+  const getPageForVerse = (verseNum) => {
+    if (!pageMapping || !bookName) return null;
+    const bookMapping = pageMapping[bookName];
+    if (!bookMapping) return null;
+    const chapterMapping = bookMapping[String(chapter.chapter)];
+    if (!chapterMapping || !chapterMapping.verses) return null;
+    return chapterMapping.verses[String(verseNum)];
+  };
 
   const renderRubyTokens = (tokens) => {
     return tokens.map((token, idx) => {
@@ -41,7 +50,20 @@ function RubyMode({ chapter }) {
       <div className="ruby-chapter">
         {chapter.verses.map((verse, idx) => (
           <span key={verse.verse} className="ruby-verse">
-            <sup className="verse-marker">{verse.verse}</sup>
+            <sup className="verse-marker">
+              {verse.verse}
+              {getPageForVerse(verse.verse) && (
+                <a
+                  href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="verse-image-link-ruby"
+                  title="查看原始掃描頁面"
+                >
+                  📖
+                </a>
+              )}
+            </sup>
             {renderRubyTokens(verse.tokens)}
           </span>
         ))}

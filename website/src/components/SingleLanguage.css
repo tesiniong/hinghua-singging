@@ -22,16 +22,23 @@
   vertical-align: super;
 }
 
+.verse-image-link-inline {
+  font-size: 0.9em;
+  text-decoration: none;
+  margin-left: 0.1em;
+  user-select: none;
+  transition: transform 0.2s;
+  display: inline-block;
+  vertical-align: super;
+}
+
+.verse-image-link-inline:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
 .verse-text {
   display: inline;
-}
-
-.single-word {
-  margin-right: 0.15em;
-}
-
-.single-punct {
-  margin-right: 0.1em;
 }
 
 .font-chinese {

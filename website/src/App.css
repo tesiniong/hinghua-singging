@@ -7,20 +7,59 @@
 .app-header {
   background-color: var(--bg-secondary);
   border-bottom: 1px solid var(--border-color);
-  padding: var(--spacing-lg) 0;
+  padding: var(--spacing-xl) 0;
 }
 
-.app-header h1 {
-  margin: 0;
-  font-size: 2em;
+.header-container {
+  text-align: center;
+  max-width: 100%;
+  padding: 0 var(--spacing-md);
+}
+
+.title-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  margin: 0.3em 0;
+}
+
+.title-han {
+  font-family: var(--font-chinese);
+  font-size: clamp(18px, 4vw, 28px);
+  font-weight: 500;
   color: var(--text-primary);
+  letter-spacing: 0.1em;
 }
 
-.app-header .subtitle {
-  margin: var(--spacing-xs) 0 0 0;
-  color: var(--text-secondary);
-  font-size: 0.9em;
+.title-rom {
   font-family: var(--font-roman);
+  font-size: clamp(16px, 3.5vw, 24px);
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+}
+
+.title-eng {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(11px, 2.5vw, 16px);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.title-eng-large {
+  font-size: clamp(14px, 3vw, 20px);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.title-eng-sc {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+}
+
+.title-eng-script {
+  font-style: italic;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .app-main {
@@ -88,8 +127,16 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .app-header h1 {
-    font-size: 1.5em;
+  .app-header {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .header-container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .title-line {
+    margin: 0.2em 0;
   }
 
   .app-main {

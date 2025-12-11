@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './BibleReader.css';
+import BookSelector from './BookSelector';
 import ModeSelector from './ModeSelector';
 import DualColumn from './DualColumn';
 import RubyMode from './RubyMode';
@@ -8,6 +9,7 @@ import SearchBox from './SearchBox';
 
 function BibleReader({ bibleData }) {
   const [mode, setMode] = useState('dual'); // 'dual', 'ruby', 'han-only', 'rom-only'
+  const [currentBookIndex, setCurrentBookIndex] = useState(0);
   const [currentChapter, setCurrentChapter] = useState(0);
   const [pageMapping, setPageMapping] = useState(null);
 
@@ -22,7 +24,16 @@ function BibleReader({ bibleData }) {
     return <div className="bible-reader-error">沒有可用的聖經資料</div>;
   }
 
-  const book = bibleData.books[0];
+  const book = bibleData.books[currentBookIndex];
+
+  if (!book || !book.chapters || book.chapters.length === 0) {
+    return (
+      <div className="bible-reader-error">
+        此書卷尚未錄入資料
+      </div>
+    );
+  }
+
   const chapter = book.chapters[currentChapter];
 
   // 獲取當前章節對應的頁面
@@ -57,9 +68,20 @@ function BibleReader({ bibleData }) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleBookSelect = (bookIndex) => {
+    setCurrentBookIndex(bookIndex);
+    setCurrentChapter(0); // 切換書卷時重置到第一章
+  };
+
   return (
     <div className="bible-reader">
       <div className="container">
+        <BookSelector
+          bibleData={bibleData}
+          currentBookIndex={currentBookIndex}
+          onBookSelect={handleBookSelect}
+        />
+
         <SearchBox bibleData={bibleData} onResultClick={handleSearchResultClick} />
 
         <div className="bible-controls">
@@ -100,10 +122,36 @@ function BibleReader({ bibleData }) {
         </div>
 
         <div className="bible-content">
-          {mode === 'dual' && <DualColumn chapter={chapter} />}
-          {mode === 'ruby' && <RubyMode chapter={chapter} />}
-          {mode === 'han-only' && <SingleLanguage chapter={chapter} language="han" />}
-          {mode === 'rom-only' && <SingleLanguage chapter={chapter} language="rom" />}
+          {mode === 'dual' && (
+            <DualColumn
+              chapter={chapter}
+              pageMapping={pageMapping}
+              bookName={book.name_han}
+            />
+          )}
+          {mode === 'ruby' && (
+            <RubyMode
+              chapter={chapter}
+              pageMapping={pageMapping}
+              bookName={book.name_han}
+            />
+          )}
+          {mode === 'han-only' && (
+            <SingleLanguage
+              chapter={chapter}
+              language="han"
+              pageMapping={pageMapping}
+              bookName={book.name_han}
+            />
+          )}
+          {mode === 'rom-only' && (
+            <SingleLanguage
+              chapter={chapter}
+              language="rom"
+              pageMapping={pageMapping}
+              bookName={book.name_han}
+            />
+          )}
         </div>
       </div>
     </div>

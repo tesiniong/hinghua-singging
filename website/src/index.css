@@ -11,8 +11,8 @@
 
 :root {
   /* Font Stack */
-  --font-chinese: 'Tauhu-oo', 'Noto Sans TC', 'Noto Serif TC', 'Microsoft JhengHei', sans-serif;
-  --font-roman: 'Tauhu-oo', Georgia, 'Times New Roman', serif;
+  --font-chinese: 'Tauhu-oo', sans-serif;
+  --font-roman: 'Tauhu-oo', serif;
 
   /* Colors */
   --bg-primary: #ffffff;
@@ -30,9 +30,9 @@
   --spacing-xl: 2rem;
 
   /* Typography */
-  --font-size-base: 16px;
-  --font-size-lg: 18px;
-  --font-size-xl: 20px;
+  --font-size-base: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 22px;
   --line-height-base: 1.8;
   --line-height-compact: 1.6;
 }
@@ -151,7 +151,7 @@ rt {
 /* Responsive */
 @media (max-width: 768px) {
   :root {
-    --font-size-base: 14px;
+    --font-size-base: 16px;
   }
 
   .container {

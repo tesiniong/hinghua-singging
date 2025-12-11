@@ -1,40 +1,41 @@
 import './DualColumn.css';
 
-function DualColumn({ chapter }) {
+function DualColumn({ chapter, pageMapping, bookName }) {
   if (!chapter || !chapter.verses) {
     return <div>沒有經文資料</div>;
   }
 
-  const renderTokens = (tokens, type) => {
-    return tokens.map((token, idx) => {
-      if (token.type === 'punct') {
-        return <span key={idx} className="punct">{token[type]}</span>;
-      }
-      if (token.type === 'word') {
-        return (
-          <span key={idx} className={`word word-${token.form}`}>
-            {token[type]}
-          </span>
-        );
-      }
-      return null;
-    });
+  const getPageForVerse = (verseNum) => {
+    if (!pageMapping || !bookName) return null;
+    const bookMapping = pageMapping[bookName];
+    if (!bookMapping) return null;
+    const chapterMapping = bookMapping[String(chapter.chapter)];
+    if (!chapterMapping || !chapterMapping.verses) return null;
+    return chapterMapping.verses[String(verseNum)];
   };
 
   return (
     <div className="dual-column">
       {chapter.verses.map((verse) => (
         <div key={verse.verse} className="verse-row">
-          <div className="verse-number">{verse.verse}</div>
+          <div className="verse-number">
+            {verse.verse}
+            {getPageForVerse(verse.verse) && (
+              <a
+                href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="verse-image-link"
+                title="查看原始掃描頁面"
+              >
+                📖
+              </a>
+            )}
+          </div>
 
           <div className="verse-content">
-            <div className="verse-rom">
-              {renderTokens(verse.tokens, 'rom')}
-            </div>
-
-            <div className="verse-han">
-              {renderTokens(verse.tokens, 'han')}
-            </div>
+            <div className="verse-rom">{verse.rom}</div>
+            <div className="verse-han">{verse.han}</div>
           </div>
         </div>
       ))}
