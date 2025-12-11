@@ -22,7 +22,10 @@ function SearchBox({ bibleData, onResultClick }) {
 
     bibleData.books.forEach(book => {
       book.chapters.forEach((chapter, chapterIdx) => {
-        chapter.verses.forEach(verse => {
+        // 過濾出經節（排除段落標題）
+        const verses = chapter.sections.filter(section => section.type === 'verse');
+
+        verses.forEach(verse => {
           // 搜尋羅馬字和漢字
           const romText = verse.rom.toLowerCase();
           const hanText = verse.han;

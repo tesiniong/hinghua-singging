@@ -12,12 +12,20 @@ function BibleReader({ bibleData }) {
   const [currentBookIndex, setCurrentBookIndex] = useState(0);
   const [currentChapter, setCurrentChapter] = useState(0);
   const [pageMapping, setPageMapping] = useState(null);
+  const [pageOcrResults, setPageOcrResults] = useState(null);
 
   useEffect(() => {
+    // 載入章節-頁面對應表
     fetch(`${import.meta.env.BASE_URL}chapter-page-mapping.json`)
       .then(response => response.json())
       .then(data => setPageMapping(data))
       .catch(err => console.error('Failed to load page mapping:', err));
+
+    // 載入 OCR 結果（用於精確查找經節對應的頁面）
+    fetch(`${import.meta.env.BASE_URL}page-ocr-results.json`)
+      .then(response => response.json())
+      .then(data => setPageOcrResults(data))
+      .catch(err => console.error('Failed to load page OCR results:', err));
   }, []);
 
   if (!bibleData || !bibleData.books || bibleData.books.length === 0) {
@@ -36,14 +44,38 @@ function BibleReader({ bibleData }) {
 
   const chapter = book.chapters[currentChapter];
 
-  // 獲取當前章節對應的頁面
+  // 獲取當前章節對應的頁面（使用 OCR 結果找到該章第1節的頁面）
   const getPageForChapter = () => {
-    if (!pageMapping || !book.name_han) return null;
-    const bookMapping = pageMapping[book.name_han];
-    if (!bookMapping) return null;
-    const chapterMapping = bookMapping[String(chapter.chapter)];
-    if (!chapterMapping) return null;
-    return chapterMapping.page_start;
+    if (!pageOcrResults || !book.name_han) return null;
+
+    let targetPage = null;
+    const sortedPages = Object.keys(pageOcrResults).sort();
+
+    for (const pageNum of sortedPages) {
+      const pageInfo = pageOcrResults[pageNum];
+
+      // 檢查書名是否匹配
+      if (pageInfo.book_hanci !== book.name_han) {
+        continue;
+      }
+
+      const pageChapter = pageInfo.chapter;
+      const pageVerse = pageInfo.verse || 1;
+
+      // 找到最後一個 (chapter:verse) <= (目標chapter:1) 的頁面
+      if (pageChapter < chapter.chapter) {
+        targetPage = pageNum;
+        continue;
+      }
+      if (pageChapter === chapter.chapter && pageVerse <= 1) {
+        targetPage = pageNum;
+      }
+      if (pageChapter > chapter.chapter) {
+        break;
+      }
+    }
+
+    return targetPage;
   };
 
   const handleModeChange = (newMode) => {
@@ -97,10 +129,11 @@ function BibleReader({ bibleData }) {
             </button>
 
             <span className="chapter-indicator">
-              第 {chapter.chapter} 章
+              <div>{chapter.chapter_title_han}</div>
+              <div style={{ fontSize: '0.85em', color: '#666' }}>{chapter.chapter_title_rom}</div>
               {getPageForChapter() && (
                 <a
-                  href={`/viewer.html?page=${getPageForChapter()}`}
+                  href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForChapter()}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="page-link"
@@ -126,6 +159,7 @@ function BibleReader({ bibleData }) {
             <DualColumn
               chapter={chapter}
               pageMapping={pageMapping}
+              pageOcrResults={pageOcrResults}
               bookName={book.name_han}
             />
           )}
@@ -133,6 +167,7 @@ function BibleReader({ bibleData }) {
             <RubyMode
               chapter={chapter}
               pageMapping={pageMapping}
+              pageOcrResults={pageOcrResults}
               bookName={book.name_han}
             />
           )}
@@ -141,6 +176,7 @@ function BibleReader({ bibleData }) {
               chapter={chapter}
               language="han"
               pageMapping={pageMapping}
+              pageOcrResults={pageOcrResults}
               bookName={book.name_han}
             />
           )}
@@ -149,6 +185,7 @@ function BibleReader({ bibleData }) {
               chapter={chapter}
               language="rom"
               pageMapping={pageMapping}
+              pageOcrResults={pageOcrResults}
               bookName={book.name_han}
             />
           )}

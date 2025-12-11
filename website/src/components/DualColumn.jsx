@@ -1,31 +1,49 @@
 import './DualColumn.css';
 
-function DualColumn({ chapter, pageMapping, bookName }) {
-  if (!chapter || !chapter.verses) {
+function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
+  if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }
 
+  // 過濾出經節（排除段落標題）
+  const verses = chapter.sections.filter(section => section.type === 'verse');
+
   const getPageForVerse = (verseNum) => {
-    if (!pageMapping) return null;
+    if (!pageOcrResults) return null;
 
-    // Try actual book name first, then fallback to 創世記
-    const bookMapping = pageMapping[bookName] || pageMapping['創世記'];
-    if (!bookMapping) return null;
+    // 找到該書該章該節對應的頁面
+    // 邏輯：找到最後一個 (chapter:verse) <= (目標chapter:目標verse) 的頁面
+    let targetPage = null;
+    const sortedPages = Object.keys(pageOcrResults).sort();
 
-    const chapterMapping = bookMapping[String(chapter.chapter)];
-    if (!chapterMapping) return null;
+    for (const pageNum of sortedPages) {
+      const pageInfo = pageOcrResults[pageNum];
 
-    // Try to find specific verse page, otherwise use chapter start page
-    if (chapterMapping.verses && chapterMapping.verses[String(verseNum)]) {
-      return chapterMapping.verses[String(verseNum)];
+      // 檢查書名是否匹配
+      if (pageInfo.book_hanci !== bookName) {
+        continue;
+      }
+
+      const pageChapter = pageInfo.chapter;
+      const pageVerse = pageInfo.verse || 1;
+
+      // 比較頁面起始位置和目標位置
+      // 如果頁面起始 <= 目標，則這可能是正確的頁面
+      if (pageChapter < chapter.chapter ||
+          (pageChapter === chapter.chapter && pageVerse <= verseNum)) {
+        targetPage = pageNum;
+      } else {
+        // 頁面起始 > 目標，表示已經超過了，停止搜尋
+        break;
+      }
     }
 
-    return chapterMapping.page_start;
+    return targetPage;
   };
 
   return (
     <div className="dual-column">
-      {chapter.verses.map((verse) => (
+      {verses.map((verse) => (
         <div key={verse.verse} className="verse-row">
           <div className="verse-number">
             {verse.verse}

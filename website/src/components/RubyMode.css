@@ -41,7 +41,7 @@
 
 .ruby-word {
   ruby-align: center;
-  margin-right: 0.05em;
+  margin-right: 0.15em;  /* 增加字與字之間的間距，讓羅馬字音節有空間 */
 }
 
 .ruby-word rt {
@@ -49,6 +49,8 @@
   color: #555555;
   font-family: var(--font-roman);
   line-height: 1;
+  letter-spacing: 0.05em;  /* 為羅馬字音節增加間距 */
+  padding: 0 0.1em;  /* 左右添加內距，避免音節黏在一起 */
 }
 
 .ruby-punct {
@@ -75,5 +77,11 @@
 
   .ruby-word rt {
     font-size: 0.55em;
+    letter-spacing: 0.05em;
+    padding: 0 0.1em;
+  }
+
+  .ruby-word {
+    margin-right: 0.15em;
   }
 }
