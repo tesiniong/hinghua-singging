@@ -58,6 +58,7 @@ function App() {
       <footer className="app-footer">
         <div className="container">
           <p>&copy; 2025 興化語聖經數位化專案</p>
+          <p className="mt-1">Created by Tè Sîn-iông, 桃泽</p>
         </div>
       </footer>
     </div>
