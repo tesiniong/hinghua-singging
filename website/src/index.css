@@ -46,13 +46,17 @@
   --font-chinese: 'Noto Sans TC', 'Tauhu-oo', sans-serif;
   --font-roman: 'DejaVu Sans', 'Arial', sans-serif;
 
-  /* Colors */
+  /* Colors - Light Mode */
   --bg-primary: #ffffff;
   --bg-secondary: #f5f5f5;
   --text-primary: #333333;
   --text-secondary: #666666;
   --border-color: #e0e0e0;
   --accent-color: #2196F3;
+  --hover-bg: rgba(0, 0, 0, 0.05);
+  --active-bg: #4a90e2;
+  --active-border: #4a90e2;
+  --focus-color: #4a90e2;
 
   /* Spacing */
   --spacing-xs: 0.25rem;
@@ -67,6 +71,21 @@
   --font-size-xl: 24px;
   --line-height-base: 1.8;
   --line-height-compact: 1.6;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  /* Colors - Dark Mode */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --border-color: #404040;
+  --accent-color: #64b5f6;
+  --hover-bg: rgba(255, 255, 255, 0.1);
+  --active-bg: #1976d2;
+  --active-border: #1976d2;
+  --focus-color: #64b5f6;
 }
 
 * {
@@ -86,6 +105,7 @@ body {
   background-color: var(--bg-primary);
   margin: 0;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #root {

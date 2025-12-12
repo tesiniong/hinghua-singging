@@ -1,0 +1,122 @@
+/* 共用 AboutBible.css 的基礎樣式 */
+@import './AboutBible.css';
+
+/* AboutLanguage 特定樣式 */
+.about-section h3 {
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nested-list {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.nested-list li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.nested-list li::before {
+  content: '•';
+  position: absolute;
+  left: 1rem;
+  color: var(--text-secondary);
+}
+
+.phoneme-table {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.phoneme-table table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.phoneme-table td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  font-family: var(--font-roman);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.phoneme-table td:not(:empty) {
+  background-color: var(--bg-secondary);
+  font-weight: 500;
+}
+
+.phoneme-table td:hover:not(:empty) {
+  background-color: var(--hover-bg);
+  color: var(--accent-color);
+}
+
+.about-section code {
+  background-color: var(--bg-primary);
+  color: var(--accent-color);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95em;
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.about-section a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.about-section a:hover {
+  color: #1976D2;
+  text-decoration: none;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .about-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .phoneme-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .nested-list {
+    padding-left: 1rem;
+  }
+
+  .nested-list li {
+    font-size: 0.95rem;
+    padding-left: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .phoneme-table td {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.9rem;
+  }
+}

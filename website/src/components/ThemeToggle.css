@@ -1,0 +1,45 @@
+.theme-toggle {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.theme-button {
+  background: transparent;
+  border: 2px solid var(--border-color, #ccc);
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.theme-button:hover {
+  background: var(--hover-bg, rgba(0, 0, 0, 0.05));
+  transform: scale(1.1);
+}
+
+.theme-button.active {
+  background: var(--active-bg, #4a90e2);
+  border-color: var(--active-border, #4a90e2);
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3);
+}
+
+.theme-button:focus {
+  outline: 2px solid var(--focus-color, #4a90e2);
+  outline-offset: 2px;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .theme-button {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+}

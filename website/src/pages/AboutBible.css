@@ -1,0 +1,158 @@
+.about-page {
+  min-height: calc(100vh - 200px);
+  padding: 2rem 0;
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.about-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: var(--font-roman);
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.about-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.about-section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--border-color);
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  text-align: justify;
+  transition: color 0.3s ease;
+}
+
+.about-section p:last-child {
+  margin-bottom: 0;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0;
+}
+
+.about-list li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.about-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0.5rem;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.about-footer-section {
+  text-align: center;
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  margin-top: 1rem;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 0 1rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-section p,
+  .about-list li {
+    font-size: 1rem;
+  }
+
+  .about-list li {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 0 0.5rem;
+  }
+
+  .about-title {
+    font-size: 1.75rem;
+  }
+
+  .about-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .about-section {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.3rem;
+  }
+}

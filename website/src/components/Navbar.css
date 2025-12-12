@@ -1,0 +1,145 @@
+.navbar {
+  background-color: var(--bg-secondary);
+  border-bottom: 2px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.navbar-brand-han {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: var(--font-chinese);
+  line-height: 1.2;
+}
+
+.navbar-brand-rom {
+  font-size: 0.75rem;
+  font-family: var(--font-roman);
+  color: var(--text-secondary);
+  line-height: 1.2;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.navbar-link:hover {
+  background-color: var(--hover-bg);
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.navbar-link.active {
+  color: var(--accent-color);
+  background-color: var(--hover-bg);
+}
+
+.navbar-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+
+.navbar-theme {
+  display: flex;
+  align-items: center;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .navbar-brand {
+    order: 1;
+    flex: 0 0 auto;
+  }
+
+  .navbar-theme {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .navbar-menu {
+    order: 3;
+    flex: 1 0 100%;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  .navbar-link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .navbar-brand-han {
+    font-size: 1rem;
+  }
+
+  .navbar-brand-rom {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0.5rem;
+  }
+
+  .navbar-menu {
+    gap: 0.25rem;
+  }
+
+  .navbar-link {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
