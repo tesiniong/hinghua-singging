@@ -1,16 +1,67 @@
-# React + Vite
+# 興化語聖經網站 Hinghua Bible Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+這是興化語聖經數位化專案的網站部分，使用 React + Vite 構建。
 
-Currently, two official plugins are available:
+This is the website component of the Hinghua Bible Digital Project, built with React + Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 快速開始 Quick Start
 
-## React Compiler
+```bash
+# 安裝依賴 Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 啟動開發伺服器 Start dev server
+npm run dev
 
-## Expanding the ESLint configuration
+# 構建生產版本 Build for production
+npm run build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 預覽生產版本 Preview production build
+npm run preview
+```
+
+## 技術棧 Tech Stack
+
+- **React 18** - UI 框架
+- **Vite** - 構建工具
+- **React Router v6** - 路由管理
+- **CSS Modules** - 樣式管理
+
+## 專案結構 Project Structure
+
+```
+website/
+├── public/                 # 靜態資源
+│   ├── images/             # 1485 張 WebP 掃描圖片
+│   ├── bible_data.json     # 聖經數據
+│   └── *.json              # 其他數據文件
+├── src/
+│   ├── pages/              # 頁面組件
+│   │   ├── Home.jsx
+│   │   ├── AboutBible.jsx
+│   │   └── AboutLanguage.jsx
+│   ├── components/         # React 組件
+│   │   ├── Navbar.jsx
+│   │   ├── ThemeToggle.jsx
+│   │   ├── BibleReader.jsx
+│   │   └── ...
+│   ├── assets/
+│   │   └── fonts/          # 本地字體
+│   ├── App.jsx             # 路由容器
+│   └── main.jsx            # 應用入口
+└── vite.config.js          # Vite 配置
+```
+
+## 開發說明 Development Notes
+
+- Base URL 設定為 `/hinghua-singging/`，適用於 GitHub Pages 部署
+- 字體檔案存放在 `src/assets/fonts/`
+- 圖片和數據文件存放在 `public/`
+- 支援明亮/黑暗/系統主題切換
+- 導航欄支援自動隱藏/顯示
+
+## 更多資訊 More Information
+
+詳細的專案說明請參閱根目錄的 `CLAUDE.md` 和 `README.md`。
+
+For detailed project documentation, see `CLAUDE.md` and `README.md` in the root directory.

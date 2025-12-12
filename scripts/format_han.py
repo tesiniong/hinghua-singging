@@ -47,7 +47,7 @@ def is_chinese(char):
     return '\u4e00' <= char <= '\u9fff'
 
 
-def format_hanci_text(input_file, output_file):
+def format_han_text(input_file, output_file):
     """
     格式化漢字版文本
     - 保留所有標題行（#, ##, ###）和空行
@@ -156,15 +156,15 @@ def format_hanci_text(input_file, output_file):
 
 
 def main():
-    input_file = 'hanci.txt'
-    output_file = 'hanci_formatted.txt'
+    input_file = 'han.txt'
+    output_file = 'han_formatted.txt'
 
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
     if len(sys.argv) > 2:
         output_file = sys.argv[2]
 
-    format_hanci_text(input_file, output_file)
+    format_han_text(input_file, output_file)
 
 
 if __name__ == '__main__':

@@ -29333,13 +29333,13 @@
             {
               "type": "verse",
               "verse": 1,
-              "rom": "diô̤ng-lô̤ gio̤̍ cṳ keoh mó̤ng gâ̤ⁿ-tôiⁿ ē hu-cíng, léng i ē da̍i-giô̤ⁿ, sī guâ si̍h-sing sê̤ sā̤u dṳ̂, háng beh cing-lî ē náng iā sā̤u dṳ̂;",
+              "rom": "Diô̤ng-lô̤ gio̤̍ cṳ keoh mó̤ng gâ̤ⁿ-tôiⁿ ē hu-cíng, léng i ē da̍i-giô̤ⁿ, sī guâ si̍h-sing sê̤ sā̤u dṳ̂, háng beh cing-lî ē náng iā sā̤u dṳ̂;",
               "han": "長老寄書乞蒙揀選其夫人，連伊其da̍i囝，是我實心所惜其，不獨我惜汝，凡捌真理其儂亦惜汝，",
               "tokens": [
                 {
                   "type": "word",
                   "han": "長老",
-                  "rom": "diô̤ng-lô̤",
+                  "rom": "Diô̤ng-lô̤",
                   "form": "phrase"
                 },
                 {
@@ -33240,7 +33240,7 @@
             {
               "type": "verse",
               "verse": 50,
-              "rom": "Háng bíng Guâ Teng-Hū cî-i̍ ē náng, cuh sī Guâ hiaⁿ-dī, cî-mo̍i léng ná̤u-lâ̤. Teng-Hū.",
+              "rom": "Háng bíng Guâ Teng-Hū cî-i̍ ē náng, cuh sī Guâ hiaⁿ-dī, cî-mo̍i léng ná̤u-lâ̤.",
               "han": "",
               "tokens": []
             }

@@ -181,7 +181,7 @@ def generate_report(comparison, output_file='changes_report.txt'):
 def main():
     if len(sys.argv) < 3:
         print("用法: python incremental_update.py <舊版本.txt> <新版本.txt> [報告檔案.txt]")
-        print("範例: python incremental_update.py han_old.txt han.txt changes_report.txt")
+        print("範例: python incremental_update.py data/han_old.txt data/han.txt changes_report.txt")
         sys.exit(1)
 
     old_file = sys.argv[1]

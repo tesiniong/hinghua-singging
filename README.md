@@ -16,7 +16,7 @@ This project aims to preserve and showcase the 1912 Hinghua Bible, a valuable li
 
 ---
 
-## 🤝 如何參與 How to Participate
+## 如何參與 How to Participate
 
 發現錯字、想提供建議、或願意協助錄入經文？歡迎您的參與！
 Found a typo, have suggestions, or want to help transcribe texts? We welcome your participation!
@@ -46,26 +46,26 @@ Feel free to submit Pull Requests directly! See the "Contributing" section below
 
 ## 主要功能 Key Features
 
-### 📖 多種閱讀模式 Multiple Reading Modes
+### 多種閱讀模式 Multiple Reading Modes
 - **雙欄對照 Dual-Column**: 羅馬字與漢字並列 (Romanization | Han characters)
 - **Ruby 注音 Ruby Annotation**: 漢字上標羅馬字 (Romanization above Han)
 - **單一語言 Single Language**: 僅羅馬字或僅漢字 (Romanization only or Han only)
 
-### 🎨 主題切換 Theme Support
+### 主題切換 Theme Support
 - ☀️ 明亮模式 Light Mode
 - 🌙 黑暗模式 Dark Mode
 - 💻 系統設定 System Default
 
-### 🧭 導航與搜尋 Navigation & Search
+### 導航與搜尋 Navigation & Search
 - 固定頂端導航欄（自動隱藏/顯示） Fixed navbar with auto-hide
 - 多頁面路由（首頁、聖經介紹、語音介紹） Multi-page routing
 - 全文搜尋（羅馬字/漢字） Full-text search (Romanization/Chinese)
 
-### 📷 原始掃描頁面 Original Scans
+### 原始掃描頁面 Original Scans
 - 點擊 📖 圖示查看原書掃描 Click 📖 icon to view original scans
 - 支援縮放、平移功能 Zoom and pan support
 
-### 📱 響應式設計 Responsive Design
+### 響應式設計 Responsive Design
 - 適配桌面、平板、手機 Desktop, tablet, and mobile friendly
 
 ---

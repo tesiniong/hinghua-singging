@@ -93,7 +93,7 @@ def get_book_by_page(page_num: int):
         (羅馬字, 漢字, 英文, 起始頁) 或 None
     """
     for i, book in enumerate(ALL_BOOKS):
-        lomaci, hanci, english, start_page = book
+        rom, han, english, start_page = book
 
         # 檢查下一卷的起始頁
         if i < len(ALL_BOOKS) - 1:
@@ -110,7 +110,7 @@ def get_book_by_page(page_num: int):
 def get_book_index(page_num: int):
     """獲取書卷索引（0-based）"""
     for i, book in enumerate(ALL_BOOKS):
-        lomaci, hanci, english, start_page = book
+        rom, han, english, start_page = book
 
         if i < len(ALL_BOOKS) - 1:
             next_start = ALL_BOOKS[i + 1][3]

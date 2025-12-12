@@ -20,7 +20,7 @@ function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookNa
       const pageInfo = pageOcrResults[pageNum];
 
       // 檢查書名是否匹配
-      if (pageInfo.book_hanci !== bookName) {
+      if (pageInfo.book_han !== bookName) {
         continue;
       }
 

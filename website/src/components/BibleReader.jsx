@@ -55,7 +55,7 @@ function BibleReader({ bibleData }) {
       const pageInfo = pageOcrResults[pageNum];
 
       // 檢查書名是否匹配
-      if (pageInfo.book_hanci !== book.name_han) {
+      if (pageInfo.book_han !== book.name_han) {
         continue;
       }
 

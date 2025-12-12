@@ -126,8 +126,8 @@ def scan_all_images(image_dir: str, renamed: bool = False) -> dict:
             page_mapping[f"{page_num:04d}"] = {
                 'chapter': chapter,
                 'verse': verse,
-                'book_lomaci': book_info[0],
-                'book_hanci': book_info[1],
+                'book_rom': book_info[0],
+                'book_han': book_info[1],
                 'book_english': book_info[2]
             }
 
@@ -140,8 +140,8 @@ def scan_all_images(image_dir: str, renamed: bool = False) -> dict:
                 page_mapping[f"{page_num:04d}"] = {
                     'chapter': last_page['chapter'],
                     'verse': None,  # 無法確定
-                    'book_lomaci': last_page['book_lomaci'],
-                    'book_hanci': last_page['book_hanci'],
+                    'book_rom': last_page['book_rom'],
+                    'book_han': last_page['book_han'],
                     'book_english': last_page['book_english'],
                     'ocr_failed': True
                 }
@@ -154,7 +154,7 @@ def scan_all_images(image_dir: str, renamed: bool = False) -> dict:
     return page_mapping
 
 
-def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'chapter-page-mapping.json'):
+def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'data/chapter-page-mapping.json'):
     """
     生成章節-頁碼對應表
 
@@ -178,12 +178,12 @@ def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'chapte
     sorted_pages = sorted(page_mapping.items(), key=lambda x: int(x[0]))
 
     for page_num_str, info in sorted_pages:
-        book_hanci = info['book_hanci']
+        book_han = info['book_han']
         chapter = info['chapter']
         verse = info.get('verse')
 
         # 新書卷
-        if book_hanci != current_book:
+        if book_han != current_book:
             # 保存前一章
             if current_book and current_chapter and chapter_start_page:
                 prev_page = f"{int(page_num_str) - 1:04d}"
@@ -193,7 +193,7 @@ def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'chapte
                     'verses': chapter_verses
                 }
 
-            current_book = book_hanci
+            current_book = book_han
             current_chapter = chapter
             chapter_start_page = page_num_str
             chapter_verses = {}
@@ -274,9 +274,9 @@ if __name__ == '__main__':
     page_mapping = scan_all_images(image_dir, renamed=renamed)
 
     # 保存原始 OCR 結果
-    with open('page-ocr-results.json', 'w', encoding='utf-8') as f:
+    with open('data/page-ocr-results.json', 'w', encoding='utf-8') as f:
         json.dump(page_mapping, f, ensure_ascii=False, indent=2)
-    print(f"\n[OK] 已保存 OCR 原始結果：page-ocr-results.json")
+    print(f"\n[OK] 已保存 OCR 原始結果：data/page-ocr-results.json")
 
     # 生成章節對應表
     chapter_mapping = generate_chapter_page_mapping(page_mapping)

@@ -40,8 +40,8 @@ function Navbar() {
     <nav className={`navbar ${isVisible ? 'navbar-visible' : 'navbar-hidden'}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-brand">
-          <span className="navbar-brand-han">興化白話聖經</span>
-          <span className="navbar-brand-rom">Hing-hua̍ Bá-uā Sìng-gîng</span>
+          <span className="navbar-brand-han">興化平話聖經</span>
+          <span className="navbar-brand-rom">Hing-hua̍ Báⁿ-uā Si̍ng-ging</span>
         </Link>
 
         <div className="navbar-menu">

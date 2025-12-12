@@ -82,6 +82,8 @@ new_testament_books = [
 import re
 import json
 import sys
+import shutil
+from pathlib import Path
 
 # 創建書名映射字典
 ALL_BOOKS = old_testament_books + new_testament_books
@@ -118,7 +120,7 @@ def number_to_chinese(n):
         return str(n)  # 超過1000就用阿拉伯數字
 
 
-def tokenize_lomaci(text):
+def tokenize_rom(text):
     """
     將羅馬字文本分割為詞 tokens
     返回：[{'type': 'word', 'text': 'Kî-táu'}, {'type': 'punct', 'text': ','}, ...]
@@ -169,7 +171,7 @@ def tokenize_lomaci(text):
     return tokens
 
 
-def tokenize_hanci(text):
+def tokenize_han(text):
     """
     將漢字文本分割為 tokens
     返回：[{'type': 'char', 'text': '起'}, {'type': 'compound', 'text': '第一', 'chars': ['第', '一']}, ...]
@@ -312,14 +314,14 @@ def align_tokens(han_text, rom_text):
     返回：[{"type": "word", "han": "...", "rom": "...", "form": "..."}, ...]
     """
     # Tokenize
-    han_tokens = tokenize_hanci(han_text)
-    rom_tokens = tokenize_lomaci(rom_text)
+    han_tokens = tokenize_han(han_text)
+    rom_tokens = tokenize_rom(rom_text)
 
     # 提取羅馬字詞（忽略標點）
     rom_words = [t for t in rom_tokens if t['type'] == 'word']
 
     aligned = []
-    h_idx = 0  # hanci index
+    h_idx = 0  # han index
     r_idx = 0  # rom index
 
     while h_idx < len(han_tokens):
@@ -692,6 +694,14 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    # 自動複製到網站目錄
+    website_output = Path('website/public/bible_data.json')
+    if website_output.parent.exists():
+        shutil.copy2(output_file, website_output)
+        print(f"  已複製至: {website_output}")
+    else:
+        print(f"  警告: website/public/ 目錄不存在，跳過複製")
+
     # 統計
     total_verses_han = sum(
         len(ch['verses'])
@@ -717,9 +727,9 @@ def merge_and_generate_json(han_data, rom_data, output_file):
 
 
 def main():
-    han_file = 'han.txt'
-    rom_file = 'rom.txt'
-    output_file = 'bible_data.json'
+    han_file = 'data/han.txt'
+    rom_file = 'data/rom.txt'
+    output_file = 'data/bible_data.json'
 
     if len(sys.argv) > 1:
         han_file = sys.argv[1]

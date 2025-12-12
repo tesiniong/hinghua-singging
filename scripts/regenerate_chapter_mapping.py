@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 
-def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'chapter-page-mapping.json'):
+def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'data/chapter-page-mapping.json'):
     """
     生成章節-頁碼對應表
 
@@ -33,12 +33,12 @@ def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'chapte
     sorted_pages = sorted(page_mapping.items(), key=lambda x: int(x[0]))
 
     for page_num_str, info in sorted_pages:
-        book_hanci = info['book_hanci']
+        book_han = info['book_han']
         chapter = info['chapter']
         verse = info.get('verse')
 
         # 新書卷
-        if book_hanci != current_book:
+        if book_han != current_book:
             # 保存前一章
             if current_book and current_chapter and chapter_start_page:
                 prev_page = f"{int(page_num_str) - 1:04d}"
@@ -48,7 +48,7 @@ def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'chapte
                     'verses': chapter_verses
                 }
 
-            current_book = book_hanci
+            current_book = book_han
             chapter_mapping[current_book] = {}
             current_chapter = chapter
             chapter_start_page = page_num_str
@@ -102,14 +102,14 @@ if __name__ == '__main__':
     print("=" * 60)
 
     # 檢查 page-ocr-results.json 是否存在
-    if not Path('page-ocr-results.json').exists():
-        print("[ERROR] page-ocr-results.json not found")
+    if not Path('data/page-ocr-results.json').exists():
+        print("[ERROR] data/page-ocr-results.json not found")
         print("  Please run ocr_page_numbers.py first, or create the file manually")
         exit(1)
 
     # 讀取 OCR 結果
-    print("\n[1] Loading page-ocr-results.json...")
-    with open('page-ocr-results.json', 'r', encoding='utf-8') as f:
+    print("\n[1] Loading data/page-ocr-results.json...")
+    with open('data/page-ocr-results.json', 'r', encoding='utf-8') as f:
         page_mapping = json.load(f)
 
     print(f"[OK] Loaded {len(page_mapping)} pages")
@@ -120,5 +120,5 @@ if __name__ == '__main__':
 
     print("\n[DONE] Complete!")
     print("\nUsage:")
-    print("  1. Edit page-ocr-results.json manually")
-    print("  2. Run this script to regenerate chapter-page-mapping.json")
+    print("  1. Edit data/page-ocr-results.json manually")
+    print("  2. Run this script to regenerate data/chapter-page-mapping.json")

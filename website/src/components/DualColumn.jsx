@@ -20,7 +20,7 @@ function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
       const pageInfo = pageOcrResults[pageNum];
 
       // 檢查書名是否匹配
-      if (pageInfo.book_hanci !== bookName) {
+      if (pageInfo.book_han !== bookName) {
         continue;
       }
 
