@@ -2,6 +2,14 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 80px; /* 為 fixed 導航欄預留空間 */
+}
+
+/* 在較小螢幕上調整 */
+@media (max-width: 768px) {
+  .app {
+    padding-top: 120px; /* 手機版導航欄較高（兩行佈局） */
+  }
 }
 
 .app-footer {
