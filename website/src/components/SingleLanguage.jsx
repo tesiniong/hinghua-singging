@@ -44,18 +44,40 @@ function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookNa
   const isRoman = language === 'rom';
   const fontClass = isRoman ? 'font-roman' : 'font-chinese';
 
+  // 將文本中的換行符轉換為 <br> 元素
+  // hasLineBreaks: 如果有節內換行，結尾會額外加 <br>
+  const renderTextWithLineBreaks = (text, hasLineBreaks) => {
+    if (!text) return null;
+
+    const lines = text.split('\n');
+    return (
+      <>
+        {lines.map((line, index) => (
+          <span key={index}>
+            {line}
+            {index < lines.length - 1 && <br />}
+          </span>
+        ))}
+        {hasLineBreaks && <br />}
+      </>
+    );
+  };
+
   return (
     <div className={`single-language ${fontClass}`}>
       <div className="single-chapter">
         {verses.map((verse, index) => {
           const verseText = verse[language];
+          const hasLineBreaks = verseText && verseText.includes('\n');
+
           // 對於羅馬字模式，如果經文末尾沒有空格或標點，加上空格
+          // 但如果有節內換行，就不加空格（因為已經有 <br>）
           const needsSpace = isRoman && index < verses.length - 1 &&
-                             verseText && !/[\s.,;:!?]$/.test(verseText);
+                             verseText && !/[\s.,;:!?]$/.test(verseText) && !hasLineBreaks;
 
           return (
             <span key={verse.verse} className="single-verse">
-              <sup className="verse-number">
+              <span className="verse-number">
                 {verse.verse}
                 {getPageForVerse(verse.verse) && (
                   <a
@@ -68,8 +90,11 @@ function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookNa
                     📖
                   </a>
                 )}
-              </sup>
-              <span className="verse-text">{verseText}{needsSpace ? ' ' : ''}</span>
+              </span>
+              <span className="verse-text">
+                {renderTextWithLineBreaks(verseText, hasLineBreaks)}
+                {needsSpace ? ' ' : ''}
+              </span>
             </span>
           );
         })}

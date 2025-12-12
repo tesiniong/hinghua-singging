@@ -41,35 +41,101 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName }) {
     return targetPage;
   };
 
-  const renderRubyTokens = (tokens) => {
-    return tokens.map((token, idx) => {
-      if (token.type === 'punct') {
-        // 只使用漢字標點
-        return <span key={idx} className="ruby-punct">{token.han}</span>;
+  const renderRubyTokens = (tokens, verseHan) => {
+    // 找出漢字文本中所有換行符的位置，並轉換為"不含換行符"時的位置
+    const adjustedBreakPositions = [];
+    let charCount = 0; // 不含換行符的字符數
+
+    for (let i = 0; i < verseHan.length; i++) {
+      if (verseHan[i] === '\n') {
+        // 記錄這個換行符應該在第幾個字符之後插入
+        adjustedBreakPositions.push(charCount);
+      } else {
+        charCount++;
+      }
+    }
+
+    const hasLineBreaks = adjustedBreakPositions.length > 0;
+
+    // 渲染基本邏輯
+    const renderBasicTokens = () => {
+      return tokens.map((token, idx) => {
+        if (token.type === 'punct') {
+          return <span key={idx} className="ruby-punct">{token.han}</span>;
+        }
+
+        if (token.type === 'word' && token.han && token.rom) {
+          return (
+            <ruby key={idx} className="ruby-word">
+              {token.han}
+              <rt>{token.rom}</rt>
+            </ruby>
+          );
+        }
+
+        if (token.type === 'word' && token.han) {
+          return <span key={idx} className="ruby-word-no-rom">{token.han}</span>;
+        }
+
+        if (token.type === 'word' && token.rom) {
+          return <span key={idx} className="ruby-rom-only">{token.rom}</span>;
+        }
+
+        return null;
+      });
+    };
+
+    // 如果沒有換行符，直接渲染
+    if (!hasLineBreaks) {
+      return renderBasicTokens();
+    }
+
+    // 有換行符的情況：需要在適當位置插入 <br>
+    const result = [];
+    let charPosition = 0; // 當前已渲染的字符數（不含換行符）
+    let nextBreakIndex = 0; // 下一個需要插入的換行符索引
+
+    tokens.forEach((token, idx) => {
+      // 在渲染當前 token 之前，檢查是否需要插入換行符
+      while (nextBreakIndex < adjustedBreakPositions.length &&
+             charPosition >= adjustedBreakPositions[nextBreakIndex]) {
+        result.push(<br key={`br-${nextBreakIndex}`} />);
+        nextBreakIndex++;
       }
 
-      if (token.type === 'word' && token.han && token.rom) {
-        // 有羅馬字和漢字的詞
-        return (
+      // 渲染當前 token
+      if (token.type === 'punct') {
+        result.push(<span key={idx} className="ruby-punct">{token.han}</span>);
+        charPosition += token.han.length;
+      } else if (token.type === 'word' && token.han && token.rom) {
+        result.push(
           <ruby key={idx} className="ruby-word">
             {token.han}
             <rt>{token.rom}</rt>
           </ruby>
         );
+        charPosition += token.han.length;
+      } else if (token.type === 'word' && token.han) {
+        result.push(<span key={idx} className="ruby-word-no-rom">{token.han}</span>);
+        charPosition += token.han.length;
+      } else if (token.type === 'word' && token.rom) {
+        result.push(<span key={idx} className="ruby-rom-only">{token.rom}</span>);
+        // 只有羅馬字沒有漢字，不增加 charPosition
       }
-
-      if (token.type === 'word' && token.han) {
-        // 只有漢字
-        return <span key={idx} className="ruby-word-no-rom">{token.han}</span>;
-      }
-
-      if (token.type === 'word' && token.rom) {
-        // 只有羅馬字（這種情況應該很少見）
-        return <span key={idx} className="ruby-rom-only">{token.rom}</span>;
-      }
-
-      return null;
     });
+
+    // 檢查渲染完所有 tokens 後是否還有未處理的換行符
+    while (nextBreakIndex < adjustedBreakPositions.length) {
+      result.push(<br key={`br-${nextBreakIndex}`} />);
+      nextBreakIndex++;
+    }
+
+    // 多行經文結尾額外加一個換行
+    if (hasLineBreaks) {
+      result.push(<br key="final-break" />);
+    }
+
+    return result;
   };
 
   return (
@@ -91,7 +157,7 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName }) {
                 </a>
               )}
             </sup>
-            {renderRubyTokens(verse.tokens)}
+            {renderRubyTokens(verse.tokens, verse.han)}
           </span>
         ))}
       </div>

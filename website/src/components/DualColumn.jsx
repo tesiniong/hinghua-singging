@@ -41,6 +41,19 @@ function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
     return targetPage;
   };
 
+  // 將文本中的換行符轉換為 <br> 元素
+  const renderTextWithLineBreaks = (text) => {
+    if (!text) return null;
+
+    const lines = text.split('\n');
+    return lines.map((line, index) => (
+      <span key={index}>
+        {line}
+        {index < lines.length - 1 && <br />}
+      </span>
+    ));
+  };
+
   return (
     <div className="dual-column">
       {verses.map((verse) => (
@@ -61,8 +74,8 @@ function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
           </div>
 
           <div className="verse-content">
-            <div className="verse-rom">{verse.rom}</div>
-            <div className="verse-han">{verse.han}</div>
+            <div className="verse-rom">{renderTextWithLineBreaks(verse.rom)}</div>
+            <div className="verse-han">{renderTextWithLineBreaks(verse.han)}</div>
           </div>
         </div>
       ))}

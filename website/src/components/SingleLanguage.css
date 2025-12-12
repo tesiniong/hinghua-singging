@@ -14,12 +14,14 @@
 }
 
 .single-verse .verse-number {
+  display: inline;
   color: var(--text-secondary);
   font-size: 0.7em;
   font-weight: 500;
   margin-left: 0.3em;
   margin-right: 0.15em;
-  white-space: nowrap;
+  vertical-align: super;
+  line-height: 0;
 }
 
 .single-verse .verse-text {
@@ -32,8 +34,9 @@
   margin-left: 0.1em;
   user-select: none;
   transition: transform 0.2s;
-  display: inline-block;
+  display: inline;
   vertical-align: super;
+  line-height: 0;
 }
 
 .verse-image-link-inline:hover {
