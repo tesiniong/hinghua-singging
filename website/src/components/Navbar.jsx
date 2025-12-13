@@ -61,7 +61,7 @@ function Navbar() {
             to="/about-language"
             className={`navbar-link ${location.pathname === '/about-language' ? 'active' : ''}`}
           >
-            語音介紹
+            平話字介紹
           </Link>
         </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutLanguage.css';
+import RhymeTable from '../components/RhymeTable';
 
 function AboutLanguage() {
   return (
@@ -173,7 +174,11 @@ function AboutLanguage() {
           </div>
 
           <h3>韻母</h3>
-          <p>🚧 修訂中</p>
+          <p>
+            興化平話字共有9個元音字母，可組合成豐富的韻母系統。下表列出各方言點的韻母音值，
+            可選擇要比較的方言點進行查看。表格支援左右捲動，第一欄（韻母字）固定不動。
+          </p>
+          <RhymeTable />
 
           <h3 id="tones">聲調</h3>
           <p>🚧 修訂中</p>

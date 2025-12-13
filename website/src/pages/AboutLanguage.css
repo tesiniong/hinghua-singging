@@ -3,7 +3,7 @@
 
 /* AboutLanguage 特定樣式 */
 .about-section h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--text-primary);
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -18,7 +18,7 @@
 }
 
 .nested-list li {
-  font-size: 1rem;
+  font-size: 0.95rem;
   margin-bottom: 0.5rem;
   padding-left: 1.5rem;
 }
@@ -28,6 +28,102 @@
   position: absolute;
   left: 1rem;
   color: var(--text-secondary);
+}
+
+/* 表格容器 */
+.table-responsive {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+/* 字母表樣式 */
+.alphabet-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border: 2px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .alphabet-table {
+  background-color: #2a2a2a;
+}
+
+.alphabet-table th,
+.alphabet-table td {
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  transition: border-color 0.3s ease;
+}
+
+.alphabet-table th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .alphabet-table th {
+  background-color: #333333;
+}
+
+.alphabet-table td {
+  font-family: var(--font-roman);
+  font-size: 1rem;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+/* 音韻表樣式 */
+.phonology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border: 2px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .phonology-table {
+  background-color: #2a2a2a;
+}
+
+.phonology-table thead th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .phonology-table thead th {
+  background-color: #333333;
+}
+
+.phonology-table tbody td {
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.phonology-table tbody td:first-child {
+  font-family: var(--font-roman);
+  font-weight: 500;
+}
+
+.phonology-table tbody td:nth-child(2) {
+  font-family: var(--font-ipa);
+  font-size: 0.95rem;
+}
+
+.phonology-table tbody td:nth-child(3) {
+  font-family: var(--font-han);
 }
 
 .phoneme-table {
@@ -52,7 +148,7 @@
   text-align: center;
   border: 1px solid var(--border-color);
   font-family: var(--font-roman);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--text-primary);
   transition: color 0.3s ease, border-color 0.3s ease;
 }
@@ -73,7 +169,7 @@
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   font-family: 'Courier New', monospace;
-  font-size: 0.95em;
+  font-size: 0.9em;
   border: 1px solid var(--border-color);
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
@@ -89,15 +185,54 @@
   text-decoration: none;
 }
 
+/* 註腳樣式 */
+.footnotes {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.footnotes p {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.footnotes .rom-text,
+.footnotes .han-text {
+  font-size: inherit;
+}
+
+/* 羅馬字和漢字文本樣式 */
+.rom-text {
+  font-family: var(--font-roman);
+  font-style: normal;
+}
+
+.han-text {
+  font-family: var(--font-han);
+}
+
 /* 響應式設計 */
 @media (max-width: 768px) {
   .about-section h3 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+  }
+
+  .alphabet-table th,
+  .alphabet-table td {
+    padding: 0.6rem 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .phonology-table thead th,
+  .phonology-table tbody td {
+    padding: 0.6rem 0.4rem;
+    font-size: 0.9rem;
   }
 
   .phoneme-table td {
     padding: 0.75rem 0.5rem;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .nested-list {
@@ -105,18 +240,38 @@
   }
 
   .nested-list li {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     padding-left: 1.2rem;
+  }
+
+  .footnotes p {
+    font-size: 0.85rem;
   }
 }
 
 @media (max-width: 480px) {
   .about-section h3 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+  }
+
+  .alphabet-table th,
+  .alphabet-table td {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.85rem;
+  }
+
+  .phonology-table thead th,
+  .phonology-table tbody td {
+    padding: 0.5rem 0.3rem;
+    font-size: 0.85rem;
   }
 
   .phoneme-table td {
     padding: 0.5rem 0.25rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .footnotes p {
+    font-size: 0.8rem;
   }
 }

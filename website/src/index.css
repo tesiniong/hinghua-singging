@@ -1,3 +1,6 @@
+/* Import Gentium Plus from Google Fonts for IPA characters */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Font Faces */
 @font-face {
   font-family: 'Noto Sans TC';
@@ -45,6 +48,7 @@
   /* Font Stack */
   --font-chinese: 'Noto Sans TC', 'Tauhu-oo', sans-serif;
   --font-roman: 'DejaVu Sans', 'Arial', sans-serif;
+  --font-ipa: 'Gentium Plus', 'DejaVu Sans', 'Courier New', monospace;
 
   /* Colors - Light Mode */
   --bg-primary: #ffffff;

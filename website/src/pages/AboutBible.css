@@ -12,7 +12,7 @@
 }
 
 .about-title {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: var(--text-primary);
   text-align: center;
   margin-bottom: 0.5rem;
@@ -21,7 +21,7 @@
 }
 
 .about-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--text-secondary);
   text-align: center;
   margin-bottom: 3rem;
@@ -44,7 +44,7 @@
 }
 
 .about-section h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--accent-color);
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
@@ -53,7 +53,7 @@
 }
 
 .about-section p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: var(--text-primary);
   margin-bottom: 1rem;
@@ -72,7 +72,7 @@
 }
 
 .about-list li {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: var(--text-primary);
   margin-bottom: 1rem;
@@ -95,7 +95,7 @@
 }
 
 .contact-info {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--accent-color);
   margin-top: 1rem;
@@ -108,11 +108,11 @@
   }
 
   .about-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .about-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .about-section {
@@ -121,16 +121,20 @@
   }
 
   .about-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .about-section p,
   .about-list li {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .about-list li {
     padding-left: 1.5rem;
+  }
+
+  .contact-info {
+    font-size: 1rem;
   }
 }
 
@@ -140,11 +144,11 @@
   }
 
   .about-title {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
 
   .about-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .about-section {
@@ -153,6 +157,15 @@
   }
 
   .about-section h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .about-section p,
+  .about-list li {
+    font-size: 0.9rem;
+  }
+
+  .contact-info {
+    font-size: 0.95rem;
   }
 }

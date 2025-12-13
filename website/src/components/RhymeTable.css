@@ -1,0 +1,350 @@
+.rhyme-table-container {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+/* 方言点选择器 */
+.dialect-selector {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .dialect-selector {
+  background-color: #2a2a2a;
+}
+
+.dialect-selector h4 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.dialect-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.dialect-checkbox,
+.select-all-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.select-all-checkbox {
+  font-weight: 600;
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.select-all-checkbox:hover {
+  opacity: 0.9;
+}
+
+.dialect-checkbox:hover {
+  background-color: var(--hover-bg);
+  border-color: var(--accent-color);
+}
+
+.dialect-checkbox input[type="checkbox"],
+.select-all-checkbox input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.dialect-checkbox span,
+.select-all-checkbox span {
+  user-select: none;
+  color: var(--text-primary);
+}
+
+.select-all-checkbox span {
+  color: white;
+}
+
+/* 表格容器 - 支援橫向捲動 */
+.table-wrapper {
+  overflow-x: auto;
+  overflow-y: visible;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .table-wrapper {
+  background-color: #2a2a2a;
+}
+
+/* 韵母表格 */
+.rhyme-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+[data-theme="dark"] .rhyme-table {
+  background-color: #1a1a1a;
+}
+
+/* 表头样式 */
+.rhyme-table thead th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.7rem 0.4rem;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  white-space: nowrap;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .rhyme-table thead th {
+  background-color: #333333;
+}
+
+/* Sticky 表头 */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+/* Sticky 第一列 */
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+[data-theme="dark"] .sticky-col {
+  background-color: #1a1a1a;
+}
+
+/* 表頭的sticky列需要更高的z-index */
+.sticky-header.sticky-col {
+  z-index: 30;
+  background-color: #e9ecef;
+}
+
+[data-theme="dark"] .sticky-header.sticky-col {
+  background-color: #333333;
+}
+
+/* 第一列 - 韻母字 */
+.col-letter {
+  min-width: 80px;
+  max-width: 80px;
+  width: 80px;
+}
+
+/* 第二列 - 例字 */
+.col-examples {
+  min-width: 200px;
+  max-width: 200px;
+  width: 200px;
+}
+
+/* 第三列 - 音價 */
+.col-value {
+  min-width: 120px;
+  max-width: 120px;
+  width: 120px;
+}
+
+/* 表格单元格 */
+.rhyme-table tbody td {
+  padding: 0.6rem 0.4rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+  vertical-align: middle;
+}
+
+/* 韵母字列 */
+.rhyme-table tbody td.col-letter {
+  font-family: var(--font-roman);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* 例字列 */
+.rhyme-table tbody td.col-examples {
+  font-family: var(--font-han);
+  text-align: left;
+  padding-left: 0.8rem;
+  font-size: 0.85rem;
+}
+
+/* 音价列 */
+.rhyme-table tbody td.col-value {
+  font-family: var(--font-ipa);
+  font-size: 0.85rem;
+}
+
+/* 方言点音值列 */
+.rhyme-table tbody td.dialect-value {
+  font-family: var(--font-ipa);
+  font-size: 0.85rem;
+  min-width: 80px;
+}
+
+/* 有底線的列 */
+.rhyme-table tbody tr.border-bottom td {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* 懸停效果 */
+.rhyme-table tbody tr:hover td {
+  background-color: var(--hover-bg);
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .dialect-selector {
+    padding: 1rem;
+  }
+
+  .dialect-selector h4 {
+    font-size: 1rem;
+  }
+
+  .dialect-checkboxes {
+    gap: 0.6rem;
+  }
+
+  .dialect-checkbox,
+  .select-all-checkbox {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .rhyme-table {
+    font-size: 0.8rem;
+  }
+
+  .rhyme-table thead th {
+    padding: 0.6rem 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .rhyme-table tbody td {
+    padding: 0.5rem 0.3rem;
+  }
+
+  .rhyme-table tbody td.col-letter {
+    font-size: 0.85rem;
+  }
+
+  .rhyme-table tbody td.col-examples {
+    font-size: 0.8rem;
+  }
+
+  .rhyme-table tbody td.col-value,
+  .rhyme-table tbody td.dialect-value {
+    font-size: 0.8rem;
+  }
+
+  .col-letter {
+    min-width: 60px;
+    max-width: 60px;
+    width: 60px;
+  }
+
+  .col-examples {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+  }
+
+  .col-value {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+  }
+
+  .dialect-value {
+    min-width: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dialect-selector {
+    padding: 0.8rem;
+  }
+
+  .dialect-checkboxes {
+    gap: 0.5rem;
+  }
+
+  .dialect-checkbox,
+  .select-all-checkbox {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .rhyme-table {
+    font-size: 0.75rem;
+  }
+
+  .rhyme-table thead th {
+    font-size: 0.75rem;
+  }
+
+  .rhyme-table tbody td.col-letter {
+    font-size: 0.8rem;
+  }
+
+  .rhyme-table tbody td.col-examples {
+    font-size: 0.75rem;
+  }
+
+  .rhyme-table tbody td.col-value,
+  .rhyme-table tbody td.dialect-value {
+    font-size: 0.75rem;
+  }
+
+  .col-letter {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px;
+    font-size: 0.95rem;
+  }
+
+  .col-examples {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+  }
+
+  .col-value {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px;
+  }
+
+  .dialect-value {
+    min-width: 60px;
+  }
+}
