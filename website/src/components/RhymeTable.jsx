@@ -3,21 +3,21 @@ import './RhymeTable.css';
 import rhymeData from '../data/rhymeTableData.json';
 
 function RhymeTable() {
-  // 所有方言点
+  // 所有方言點
   const allDialects = [
     '莆田', '江口', '南日', '華亭', '常泰', '新縣',
     '笏石', '平海', '湄洲', '東莊', '東海', '仙遊',
     '游洋', '楓亭', '園莊', '鳳山'
   ];
 
-  // 预设显示莆田和仙游
+  // 預設顯示莆田和仙遊
   const [selectedDialects, setSelectedDialects] = useState(['莆田', '仙遊']);
 
-  // 切换方言点选择
+  // 切換方言點選擇
   const toggleDialect = (dialect) => {
     setSelectedDialects(prev => {
       if (prev.includes(dialect)) {
-        // 至少保留一个方言点
+        // 至少保留一個方言點
         if (prev.length > 1) {
           return prev.filter(d => d !== dialect);
         }
@@ -28,10 +28,10 @@ function RhymeTable() {
     });
   };
 
-  // 全选/全不选
+  // 全選/全不選
   const toggleAll = () => {
     if (selectedDialects.length === allDialects.length) {
-      setSelectedDialects(['莆田', '仙遊']); // 重置为预设
+      setSelectedDialects(['莆田', '仙遊']); // reset to default
     } else {
       setSelectedDialects(allDialects);
     }
@@ -64,18 +64,18 @@ function RhymeTable() {
         </div>
       </div>
 
-      {/* 表格容器（支持横向滚动） */}
+      {/* 表格容器（支援橫向捲動） */}
       <div className="table-wrapper">
         <table className="rhyme-table">
           <thead>
-            {/* 第一行表头 */}
+            {/* 第一行header */}
             <tr>
               <th rowSpan={2} className="sticky-col sticky-header col-letter">韻母字</th>
               <th rowSpan={2} className="sticky-col sticky-header col-examples">例字</th>
-              <th rowSpan={2} className="sticky-col sticky-header col-value">音價</th>
+              <th rowSpan={2} className="sticky-col sticky-header col-value">擬音</th>
               <th colSpan={selectedDialects.length} className="sticky-header">音值</th>
             </tr>
-            {/* 第二行表头 - 方言点名称 */}
+            {/* 第二行header - 方言點名稱 */}
             <tr>
               {selectedDialects.map(dialect => (
                 <th key={dialect} className="sticky-header dialect-header">
@@ -87,7 +87,7 @@ function RhymeTable() {
           <tbody>
             {rhymeData.map((row, rowIndex) => (
               <tr key={rowIndex} className={row.hasBorder ? 'border-bottom' : ''}>
-                {/* 韻母字 - 只在 rowSpan != 0 時渲染 */}
+                {/* 韻母例字 - 只在 rowSpan != 0 時渲染 */}
                 {row.rowSpan !== 0 && (
                   <td
                     className="sticky-col col-letter"
@@ -102,12 +102,12 @@ function RhymeTable() {
                   {row.examples}
                 </td>
 
-                {/* 音價 */}
+                {/* 擬音 */}
                 <td className="col-value">
                   <div dangerouslySetInnerHTML={{ __html: row.phonetic }} />
                 </td>
 
-                {/* 各方言点的音值 */}
+                {/* 各方言點音值 */}
                 {selectedDialects.map((dialect, dialectIndex) => {
                   const allDialectIndex = allDialects.indexOf(dialect);
                   const value = row.dialectValues[allDialectIndex];
