@@ -24,7 +24,7 @@ function AboutLanguage() {
             如1897年開始發行的刊物《奮興報》（<span className="rom-text">Heo̍ng-hing-beo̍</span>，現仍有部分資料保存於
             <a href="https://www.jdjcht.com/" target="_blank" rel="noopener noreferrer">南日草湖堂</a>）、
             1900年出版的《新約全書》、1912年出版的《舊新約全書》皆以此系統書寫。
-            惟興化平話字未曾在教會以外大範圍流行，自20世紀中期便逐漸淡出世人視野，今日莆仙地區的信徒亦不再使用。
+            惟興化平話字未曾在教會以外大範圍流行，自20世紀中期便逐漸淡出世人視野，今日莆仙地區的年輕信徒亦罕有使用者。
           </p>
           
           <p>興化平話字共有23個字母（9個用於元音，14個用於輔音），如下：</p>
@@ -153,8 +153,8 @@ function AboutLanguage() {
                   <td className="han-text">火好下方耳歲施魚額雨遠</td>
                 </tr>
                 <tr>
-                  <td className="rom-text">(零聲母) ∅</td>
-                  <td>-</td>
+                  <td className="rom-text">(零聲母)</td>
+                  <td>∅</td>
                   <td className="han-text">啞衣影圓雲羊阮後紅弧何</td>
                 </tr>
               </tbody>
@@ -169,7 +169,7 @@ function AboutLanguage() {
               <small>[2] 平話字聖經中以 <span className="rom-text">n</span> 書寫的一些字，如<span className="han-text">林、籃、蓮、卵、爛、欄、嶺、領、量、涼、兩<small>(斤兩)</small></span>，在一些方言中讀為 [l]。</small>
             </p>
             <p>
-              <small>[3] <span className="rom-text">s</span> 在多數方言中讀作邊擦音 [ɬ]，而在仙遊縣的鐘山鎮、遊洋鎮、石蒼鄉，莆田北部的莊邊鎮、新縣鎮、大洋鄉及其以西的福清市新厝鎮鳳跡村，則讀成齒清擦音 [θ]。</small>
+              <small>[3] <span className="rom-text">s</span> 在多數方言中讀作齦清邊擦音 [ɬ]，而在仙遊縣的鐘山鎮、遊洋鎮、石蒼鄉，莆田北部的莊邊鎮、新縣鎮、大洋鄉及其以西的福清市新厝鎮鳳跡村，則讀成齒清擦音 [θ]。</small>
             </p>
           </div>
 

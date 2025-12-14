@@ -13,6 +13,13 @@
   display: inline;
 }
 
+.single-paragraph {
+  display: block;
+  margin-bottom: 1em;
+  padding-left: 0.5em; /* Add some indentation */
+}
+
+
 .single-verse .verse-number {
   display: inline;
   color: var(--text-secondary);

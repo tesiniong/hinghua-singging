@@ -16,6 +16,12 @@
   border-bottom: none;
 }
 
+.verse-row.foreword-row {
+  grid-template-columns: 1fr;
+  padding-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
 .verse-number {
   text-align: right;
   color: var(--text-secondary);

@@ -1,6 +1,6 @@
 import './DualColumn.css';
 
-function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
+function DualColumn({ chapter, pageMapping, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }
@@ -9,6 +9,8 @@ function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
   const verses = chapter.sections.filter(section => section.type === 'verse');
 
   const getPageForVerse = (verseNum) => {
+    // 序言不顯示節級頁碼連結
+    if (isForeword) return null;
     if (!pageOcrResults) return null;
 
     // 找到該書該章該節對應的頁面
@@ -57,22 +59,23 @@ function DualColumn({ chapter, pageMapping, pageOcrResults, bookName }) {
   return (
     <div className="dual-column">
       {verses.map((verse) => (
-        <div key={verse.verse} className="verse-row">
-          <div className="verse-number">
-            {verse.verse}
-            {getPageForVerse(verse.verse) && (
-              <a
-                href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="verse-image-link"
-                title="查看原始掃描頁面"
-              >
-                📖
-              </a>
-            )}
-          </div>
-
+        <div key={verse.verse} className={`verse-row ${isForeword ? 'foreword-row' : ''}`}>
+          {!isForeword && (
+            <div className="verse-number">
+              {verse.verse}
+              {getPageForVerse(verse.verse) && (
+                <a
+                  href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="verse-image-link"
+                  title="查看原始掃描頁面"
+                >
+                  📖
+                </a>
+              )}
+            </div>
+          )}
           <div className="verse-content">
             <div className="verse-rom">{renderTextWithLineBreaks(verse.rom)}</div>
             <div className="verse-han">{renderTextWithLineBreaks(verse.han)}</div>

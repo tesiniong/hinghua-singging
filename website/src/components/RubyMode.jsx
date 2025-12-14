@@ -1,6 +1,6 @@
 import './RubyMode.css';
 
-function RubyMode({ chapter, pageMapping, pageOcrResults, bookName }) {
+function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }
@@ -9,6 +9,8 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName }) {
   const verses = chapter.sections.filter(section => section.type === 'verse');
 
   const getPageForVerse = (verseNum) => {
+    // 序言不顯示節級頁碼連結
+    if (isForeword) return null;
     if (!pageOcrResults) return null;
 
     // 找到該書該章該節對應的頁面
@@ -44,16 +46,19 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName }) {
   const renderRubyTokens = (tokens, verseHan) => {
     // 找出漢字文本中所有換行符的位置，並轉換為"不含換行符"時的位置
     const adjustedBreakPositions = [];
-    let charCount = 0; // 不含換行符的字符數
+    if (verseHan) {
+      let charCount = 0; // 不含換行符的字符數
 
-    for (let i = 0; i < verseHan.length; i++) {
-      if (verseHan[i] === '\n') {
-        // 記錄這個換行符應該在第幾個字符之後插入
-        adjustedBreakPositions.push(charCount);
-      } else {
-        charCount++;
+      for (let i = 0; i < verseHan.length; i++) {
+        if (verseHan[i] === '\n') {
+          // 記錄這個換行符應該在第幾個字符之後插入
+          adjustedBreakPositions.push(charCount);
+        } else {
+          charCount++;
+        }
       }
     }
+
 
     const hasLineBreaks = adjustedBreakPositions.length > 0;
 
@@ -138,27 +143,43 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName }) {
     return result;
   };
 
+  const renderVerse = (verse) => {
+    return (
+      <>
+        {!isForeword && (
+          <sup className="verse-marker">
+            {verse.verse}
+            {getPageForVerse(verse.verse) && (
+              <a
+                href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="verse-image-link-ruby"
+                title="查看原始掃描頁面"
+              >
+                📖
+              </a>
+            )}
+          </sup>
+        )}
+        {renderRubyTokens(verse.tokens, verse.han)}
+      </>
+    );
+  }
+
   return (
     <div className="ruby-mode">
       <div className="ruby-chapter">
-        {verses.map((verse, idx) => (
-          <span key={verse.verse} className="ruby-verse">
-            <sup className="verse-marker">
-              {verse.verse}
-              {getPageForVerse(verse.verse) && (
-                <a
-                  href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="verse-image-link-ruby"
-                  title="查看原始掃描頁面"
-                >
-                  📖
-                </a>
-              )}
-            </sup>
-            {renderRubyTokens(verse.tokens, verse.han)}
-          </span>
+        {verses.map((verse) => (
+          isForeword ? (
+            <p key={verse.verse} className="ruby-paragraph">
+              {renderVerse(verse)}
+            </p>
+          ) : (
+            <span key={verse.verse} className="ruby-verse">
+              {renderVerse(verse)}
+            </span>
+          )
         ))}
       </div>
     </div>

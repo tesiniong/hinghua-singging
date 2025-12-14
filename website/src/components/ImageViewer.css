@@ -14,6 +14,7 @@
   background-color: #2a2a2a;
   border-bottom: 1px solid #3a3a3a;
   align-items: center;
+  justify-content: center;
 }
 
 .control-btn {
@@ -26,15 +27,15 @@
   transition: background-color 0.2s;
 }
 
-.control-btn:hover {
+.control-btn:hover:not(:disabled) {
   background-color: #4a4a4a;
 }
 
-.zoom-level {
-  color: #888;
-  margin-left: auto;
-  font-size: 0.9em;
+.control-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
+
 
 .viewer-container {
   flex: 1;
@@ -54,16 +55,30 @@
 }
 
 .viewer-instructions {
+  position: sticky;
+  bottom: 0;
   padding: var(--spacing-sm);
   background-color: #2a2a2a;
   border-top: 1px solid #3a3a3a;
   text-align: center;
+  z-index: 10;
 }
 
 .viewer-instructions p {
   margin: 0;
   color: #888;
   font-size: 0.85em;
+}
+
+.viewer-instructions a {
+  color: #6b9edc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.viewer-instructions a:hover {
+  color: #8fb8e8;
+  text-decoration: underline;
 }
 
 .image-viewer-error {

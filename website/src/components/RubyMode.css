@@ -15,6 +15,11 @@
   display: inline;
 }
 
+.ruby-paragraph {
+  display: block;
+  margin-bottom: 2em; /* Needs more margin due to ruby characters */
+}
+
 .verse-marker {
   color: var(--text-secondary);
   font-size: 0.7em;

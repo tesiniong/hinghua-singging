@@ -1,6 +1,6 @@
 import './SingleLanguage.css';
 
-function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookName }) {
+function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }
@@ -9,6 +9,8 @@ function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookNa
   const verses = chapter.sections.filter(section => section.type === 'verse');
 
   const getPageForVerse = (verseNum) => {
+    // 序言不顯示節級頁碼連結
+    if (isForeword) return null;
     if (!pageOcrResults) return null;
 
     // 找到該書該章該節對應的頁面
@@ -58,7 +60,42 @@ function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookNa
             {index < lines.length - 1 && <br />}
           </span>
         ))}
-        {hasLineBreaks && <br />}
+        {hasLineBreaks && !isForeword && <br />}
+      </>
+    );
+  };
+
+  const renderVerse = (verse, index) => {
+    const verseText = verse[language];
+    const hasLineBreaks = verseText && verseText.includes('\n');
+
+    // 對於羅馬字模式，如果經文末尾沒有空格或標點，加上空格
+    // 但如果有節內換行，就不加空格（因為已經有 <br>）
+    const needsSpace = isRoman && index < verses.length - 1 &&
+                       verseText && !/[\s.,;:!?]$/.test(verseText) && !hasLineBreaks;
+
+    return (
+      <>
+        {!isForeword && (
+          <span className="verse-number">
+            {verse.verse}
+            {getPageForVerse(verse.verse) && (
+              <a
+                href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="verse-image-link-inline"
+                title="查看原始掃描頁面"
+              >
+                📖
+              </a>
+            )}
+          </span>
+        )}
+        <span className="verse-text">
+          {renderTextWithLineBreaks(verseText, hasLineBreaks)}
+          {!isForeword && needsSpace ? ' ' : ''}
+        </span>
       </>
     );
   };
@@ -66,38 +103,17 @@ function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookNa
   return (
     <div className={`single-language ${fontClass}`}>
       <div className="single-chapter">
-        {verses.map((verse, index) => {
-          const verseText = verse[language];
-          const hasLineBreaks = verseText && verseText.includes('\n');
-
-          // 對於羅馬字模式，如果經文末尾沒有空格或標點，加上空格
-          // 但如果有節內換行，就不加空格（因為已經有 <br>）
-          const needsSpace = isRoman && index < verses.length - 1 &&
-                             verseText && !/[\s.,;:!?]$/.test(verseText) && !hasLineBreaks;
-
-          return (
+        {verses.map((verse, index) => (
+          isForeword ? (
+            <p key={verse.verse} className="single-paragraph">
+              {renderVerse(verse, index)}
+            </p>
+          ) : (
             <span key={verse.verse} className="single-verse">
-              <span className="verse-number">
-                {verse.verse}
-                {getPageForVerse(verse.verse) && (
-                  <a
-                    href={`${import.meta.env.BASE_URL}viewer.html?page=${getPageForVerse(verse.verse)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="verse-image-link-inline"
-                    title="查看原始掃描頁面"
-                  >
-                    📖
-                  </a>
-                )}
-              </span>
-              <span className="verse-text">
-                {renderTextWithLineBreaks(verseText, hasLineBreaks)}
-                {needsSpace ? ' ' : ''}
-              </span>
+              {renderVerse(verse, index)}
             </span>
-          );
-        })}
+          )
+        ))}
       </div>
     </div>
   );

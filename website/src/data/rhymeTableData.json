@@ -1,7 +1,7 @@
 [
   {
     "letter": "a",
-    "examples": "加差罷馬佳涯崖百冊隔",
+    "examples": "加差罷馬佳涯崖<u>百冊隔</u>",
     "phonetic": "[*a]",
     "dialectValues": [
       "[a]",
@@ -22,11 +22,12 @@
       "[a]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "aⁿ",
-    "examples": "平病諍星晴",
+    "examples": "<u>平病諍星晴</u>",
     "phonetic": "[*ã]",
     "dialectValues": [
       "[a]",
@@ -47,6 +48,7 @@
       "[ã]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -72,11 +74,12 @@
       "[e]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "a̤ⁿ",
-    "examples": "間閒先肩前",
+    "examples": "<u>間閒先肩前</u>",
     "phonetic": "[*ẽ]",
     "dialectValues": [
       "[e]",
@@ -97,11 +100,12 @@
       "[ĩ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "e",
-    "examples": "兮",
+    "examples": "<u>其</u>",
     "phonetic": "[*ɛ]",
     "dialectValues": [
       "[ɛ]",
@@ -122,6 +126,7 @@
       "-"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -147,11 +152,12 @@
       "[ø]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "e̤ⁿ",
-    "examples": "斷卵鑽酸全頓褪",
+    "examples": "<u>斷卵鑽酸全頓褪</u>",
     "phonetic": "[*ø̃]",
     "dialectValues": [
       "[ø]",
@@ -172,6 +178,7 @@
       "[ỹ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -197,11 +204,12 @@
       "[ɒ]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "o̤ⁿ",
-    "examples": "膽籃敢柑三",
+    "examples": "<u>膽籃敢柑三</u>",
     "phonetic": "[*ɒ̃]",
     "dialectValues": [
       "[ɒ]",
@@ -222,6 +230,7 @@
       "[ɒ̃]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -247,6 +256,7 @@
       "[o]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -272,6 +282,7 @@
       "[i]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -297,6 +308,7 @@
       "[u]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -322,6 +334,7 @@
       "[y]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -347,11 +360,12 @@
       "[ia]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "iaⁿ",
-    "examples": "丙名領正鏡",
+    "examples": "<u>丙名領正鏡</u>",
     "phonetic": "[*ĩã]",
     "dialectValues": [
       "[ia]",
@@ -372,6 +386,7 @@
       "[ĩã]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -397,44 +412,20 @@
       "[ieu]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 2,
+    "hasBorder": false
   },
   {
     "letter": "a̤u",
     "examples": "標表廟條構厚母惜尺螫",
-    "phonetic": "[ieu]",
+    "phonetic": "[*eu]",
     "dialectValues": [
       "[ieu]",
       "[iɐu]",
       "[ieu]",
       "[iəu]",
       "[ieu]",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
-    "rowSpan": 0,
-    "hasBorder": false
-  },
-  {
-    "letter": "a̤uⁿ",
-    "examples": "張涼章唱上",
-    "phonetic": "[*e<font class=\"font14\">̃u<font class=\"font14\">̃]",
-    "dialectValues": [
       "[ieu]",
-      "[iɐu]",
-      "[ieu]",
-      "[ĩũ]",
-      "[ĩũ]",
-      "[ĩũ]",
       "[ieu]",
       "[ieu]",
       "[ieu]",
@@ -446,7 +437,34 @@
       "[iəu]",
       "[ieu]"
     ],
+    "rowSpan": 0,
+    "phoneticRowSpan": 0,
+    "hasBorder": false
+  },
+  {
+    "letter": "a̤uⁿ",
+    "examples": "<u>張涼章唱上</u>",
+    "phonetic": "[*ẽũ]",
+    "dialectValues": [
+      "[ieu]",
+      "[iɐu]",
+      "[ieu]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩẽũ]",
+      "[ĩẽũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]",
+      "[ĩũ]"
+    ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -472,6 +490,7 @@
       "[iu]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -497,6 +516,7 @@
       "[ai]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -522,12 +542,13 @@
       "[au]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "auⁿ",
-    "examples": "□",
-    "phonetic": "[*a<font class=\"font14\">̃ũ]",
+    "examples": "<u>□</u>",
+    "phonetic": "[*ãũ]",
     "dialectValues": [
       "-",
       "-",
@@ -547,6 +568,7 @@
       "-"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -572,6 +594,7 @@
       "[ou]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -597,11 +620,12 @@
       "[ua]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "uaⁿ",
-    "examples": "搬半滿爛傘",
+    "examples": "<u>搬半滿爛傘</u>",
     "phonetic": "[*ũã]",
     "dialectValues": [
       "[ua]",
@@ -622,6 +646,7 @@
       "[ũã]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -647,7 +672,8 @@
       "[uei]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "oi",
@@ -667,16 +693,17 @@
       "[uɤ]",
       "[uei]",
       "[oi]",
-      "",
-      "",
-      ""
+      "[uei]",
+      "[uei]",
+      "[uei]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "oiⁿ",
-    "examples": "飯軟磚關遠本門聞",
+    "examples": "<u>飯軟磚關遠本門聞</u>",
     "phonetic": "[*õĩ]",
     "dialectValues": [
       "[uei]",
@@ -692,11 +719,12 @@
       "[ũĩ]",
       "[ũĩ]",
       "[ũĩ]",
-      "[uei]",
-      "[uei]",
-      "[uei]"
+      "[ũĩ]",
+      "[ũĩ]",
+      "[ũĩ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -722,6 +750,7 @@
       "[ui]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -747,16 +776,18 @@
       "[ya]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 2,
+    "hasBorder": false
   },
   {
     "letter": "io̤ⁿ",
-    "examples": "燃煎泉線件營影聽定鼎",
-    "phonetic": "[ỹɒ̃]",
+    "examples": "<u>燃煎泉線件營影聽定鼎</u>",
+    "phonetic": "[*yɒ]",
     "dialectValues": [
       "[yɒ]",
       "[yø]",
       "[ua]",
+      "[ỹɒ̃]",
       "[ỹɒ̃]",
       "[ỹœ̃]",
       "[ỹɒ̃]",
@@ -768,15 +799,15 @@
       "[ỹã]",
       "[ĩã]",
       "[ĩã]",
-      "[ỹã]",
-      ""
+      "[ỹã]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 0,
     "hasBorder": false
   },
   {
     "letter": "ng",
-    "examples": "當長唐湯光",
+    "examples": "<u>當長唐湯光</u>",
     "phonetic": "[*ŋ]",
     "dialectValues": [
       "[uŋ]",
@@ -797,12 +828,13 @@
       "[ŋ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 2,
+    "hasBorder": false
   },
   {
     "letter": "ng",
-    "examples": "央黃行方秧",
-    "phonetic": "[ŋ]",
+    "examples": "<u>央黃行方秧</u>",
+    "phonetic": "[*ŋ]",
     "dialectValues": [
       "[ŋ]",
       "[ŋ]",
@@ -810,18 +842,19 @@
       "[ŋ]",
       "[ŋ]",
       "[ŋ]",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]",
+      "[ŋ]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 0,
     "hasBorder": false
   },
   {
@@ -835,18 +868,19 @@
       "[aŋ]",
       "[aŋ]",
       "[aŋ]",
-      "[ŋ]",
-      "[ŋ]",
-      "[ŋ]",
-      "[ŋ]",
-      "[ŋ]",
-      "[ŋ]",
       "[aŋ]",
-      "[ŋ]",
-      "[ŋ]",
-      "[ŋ]"
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]",
+      "[aŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -872,7 +906,8 @@
       "[œŋ]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "e̤ng",
@@ -892,11 +927,12 @@
       "[uɤŋ]",
       "[yøŋ]",
       "[œŋ]",
-      "",
-      "",
-      ""
+      "[ieŋ]",
+      "[ieŋ]",
+      "[œŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -905,7 +941,7 @@
     "phonetic": "[*uaŋ]",
     "dialectValues": [
       "[uaŋ]",
-      "[o<font class=\"font13\">ŋ/uo<font class=\"font13\">ŋ]",
+      "[oŋ/uoŋ]",
       "[uəŋ]",
       "[uɐŋ]",
       "[uaŋ]",
@@ -914,15 +950,16 @@
       "[uɐŋ]",
       "[uɐŋ]",
       "[uoŋ]",
+      "[uɤŋ]",
       "[uoŋ]",
       "[uaŋ]",
       "[ɯəŋ]",
       "[ɯəŋ]",
-      "[ieŋ]",
-      "[œŋ]"
+      "[uəŋ]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "eong",
@@ -930,7 +967,7 @@
     "phonetic": "[*oŋ]",
     "dialectValues": [
       "[ɵŋ]",
-      "[o<font class=\"font13\">ŋ/uo<font class=\"font13\">ŋ]",
+      "[oŋ/uoŋ]",
       "[oŋ]",
       "[oŋ]",
       "[oŋ]",
@@ -939,14 +976,15 @@
       "[oŋ]",
       "[oŋ]",
       "[uoŋ]",
+      "[uɤŋ]",
       "[uoŋ]",
       "[oŋ]",
       "[ɯəŋ]",
       "[ɯəŋ]",
-      "[oŋ]",
-      ""
+      "[oŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -972,6 +1010,7 @@
       "[ɒŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -997,7 +1036,8 @@
       "[ɛŋ]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "iang",
@@ -1022,6 +1062,7 @@
       "[ieŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1047,6 +1088,7 @@
       "[iŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1072,6 +1114,7 @@
       "[yŋ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1097,11 +1140,12 @@
       "[aʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "ah",
-    "examples": "麥白",
+    "examples": "<u>麥白</u>",
     "phonetic": "[*aːʔ]",
     "dialectValues": [
       "[a]",
@@ -1122,11 +1166,12 @@
       "[a]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "aih",
-    "examples": "□",
+    "examples": "<u>□</u>",
     "phonetic": "[*aiːʔ]",
     "dialectValues": [
       "[ai]",
@@ -1147,11 +1192,12 @@
       "[ai]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "a̤h",
-    "examples": "疊搣摕",
+    "examples": "<u>疊搣摕</u>",
     "phonetic": "[*eːʔ]",
     "dialectValues": [
       "[e]",
@@ -1172,11 +1218,12 @@
       "[e]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "a̤uh",
-    "examples": "着箬石蓆",
+    "examples": "<u>着箬石蓆</u>",
     "phonetic": "[*euːʔ]",
     "dialectValues": [
       "[ieu]",
@@ -1197,6 +1244,7 @@
       "[ieu]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1222,6 +1270,7 @@
       "[ɛʔ]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1247,7 +1296,8 @@
       "[œʔ]"
     ],
     "rowSpan": 1,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "io̤h",
@@ -1267,16 +1317,17 @@
       "[uɤʔ]",
       "[yøʔ]",
       "[yɐʔ]",
-      "",
-      "",
-      ""
+      "[ieʔ]",
+      "[ieʔ]",
+      "[œʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "io̤h",
-    "examples": "攑斜越屐揭",
+    "examples": "<u>攑斜越屐揭</u>",
     "phonetic": "[*yɒːʔ]",
     "dialectValues": [
       "[yɒ]",
@@ -1292,11 +1343,12 @@
       "[ia]",
       "[ya]",
       "[ya]",
-      "[ieʔ]",
-      "[ieʔ]",
-      "[œʔ]"
+      "[ia]",
+      "[ia]",
+      "[ya]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1322,7 +1374,8 @@
       "[uəʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "uah",
@@ -1347,6 +1400,7 @@
       "[ua]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1372,11 +1426,12 @@
       "[oʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "eoh",
-    "examples": "鐲學薄落昨",
+    "examples": "<u>鐲學薄落昨</u>",
     "phonetic": "[*oːʔ]",
     "dialectValues": [
       "[o]",
@@ -1397,6 +1452,7 @@
       "[o]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1422,11 +1478,12 @@
       "[ɒʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "o̤h",
-    "examples": "蠟磕踏沓",
+    "examples": "<u>蠟磕踏沓</u>",
     "phonetic": "[*ɒːʔ]",
     "dialectValues": [
       "[ɒ]",
@@ -1447,6 +1504,7 @@
       "[ɒ]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1472,11 +1530,12 @@
       "[iʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "ih",
-    "examples": "舌折蝕",
+    "examples": "<u>舌折蝕</u>",
     "phonetic": "[*iːʔ]",
     "dialectValues": [
       "[i]",
@@ -1497,6 +1556,7 @@
       "[i]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1522,11 +1582,12 @@
       "[ieʔ]"
     ],
     "rowSpan": 2,
-    "hasBorder": true
+    "phoneticRowSpan": 1,
+    "hasBorder": false
   },
   {
     "letter": "iah",
-    "examples": "糴搦食",
+    "examples": "<u>糴搦食</u>",
     "phonetic": "[*iaːʔ]",
     "dialectValues": [
       "[ia]",
@@ -1547,11 +1608,12 @@
       "[ia]"
     ],
     "rowSpan": 0,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "oih",
-    "examples": "襪月物",
+    "examples": "<u>襪月物</u>",
     "phonetic": "[*oiːʔ]",
     "dialectValues": [
       "[uei]",
@@ -1572,11 +1634,12 @@
       "[uei]"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
     "letter": "uh",
-    "examples": "就複",
+    "examples": "<u>就複</u>",
     "phonetic": "[*uʔ]",
     "dialectValues": [
       "-",
@@ -1597,6 +1660,7 @@
       "-"
     ],
     "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   },
   {
@@ -1622,31 +1686,7 @@
       "[yʔ]"
     ],
     "rowSpan": 1,
-    "hasBorder": false
-  },
-  {
-    "letter": "-",
-    "examples": "-",
-    "phonetic": "-",
-    "dialectValues": [
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-",
-      "-"
-    ],
-    "rowSpan": 1,
+    "phoneticRowSpan": 1,
     "hasBorder": false
   }
 ]

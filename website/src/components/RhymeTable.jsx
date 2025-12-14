@@ -87,7 +87,7 @@ function RhymeTable() {
           <tbody>
             {rhymeData.map((row, rowIndex) => (
               <tr key={rowIndex} className={row.hasBorder ? 'border-bottom' : ''}>
-                {/* 韻母例字 - 只在 rowSpan != 0 時渲染 */}
+                {/* 韻母字 - 只在 rowSpan != 0 時渲染 */}
                 {row.rowSpan !== 0 && (
                   <td
                     className="sticky-col col-letter"
@@ -97,15 +97,20 @@ function RhymeTable() {
                   </td>
                 )}
 
-                {/* 例字 */}
+                {/* 例字 - 每列都渲染 */}
                 <td className="col-examples">
-                  {row.examples}
+                  <div dangerouslySetInnerHTML={{ __html: row.examples }} />
                 </td>
 
-                {/* 擬音 */}
-                <td className="col-value">
-                  <div dangerouslySetInnerHTML={{ __html: row.phonetic }} />
-                </td>
+                {/* 擬音 - 只在 phoneticRowSpan != 0 時渲染 */}
+                {row.phoneticRowSpan !== 0 && (
+                  <td
+                    className="col-value"
+                    rowSpan={row.phoneticRowSpan > 1 ? row.phoneticRowSpan : 1}
+                  >
+                    <div dangerouslySetInnerHTML={{ __html: row.phonetic }} />
+                  </td>
+                )}
 
                 {/* 各方言點音值 */}
                 {selectedDialects.map((dialect, dialectIndex) => {

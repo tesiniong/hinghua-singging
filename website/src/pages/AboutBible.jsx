@@ -57,7 +57,7 @@ function AboutBible() {
         <section className="about-section about-footer-section">
           <h2>維護者</h2>
           <p className="contact-info">
-            Tè Sîn-iông, 桃泽
+            Siniong, 桃泽
           </p>
         </section>
       </div>

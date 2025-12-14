@@ -1,6 +1,6 @@
 import './ModeSelector.css';
 
-function ModeSelector({ currentMode, onModeChange }) {
+function ModeSelector({ currentMode, onModeChange, isEnglishForeword }) {
   const modes = [
     { id: 'dual', label: '雙欄對照', icon: '⚏' },
     { id: 'ruby', label: 'Ruby 注音', icon: '㋐' },
@@ -17,6 +17,7 @@ function ModeSelector({ currentMode, onModeChange }) {
             key={mode.id}
             className={`mode-button ${currentMode === mode.id ? 'active' : ''}`}
             onClick={() => onModeChange(mode.id)}
+            disabled={isEnglishForeword && mode.id !== 'rom-only'}
           >
             <span className="mode-icon">{mode.icon}</span>
             <span className="mode-text">{mode.label}</span>
