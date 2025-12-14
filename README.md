@@ -28,9 +28,9 @@ Found a typo, have suggestions, or want to help transcribe texts? We welcome you
 
 1. **報告錯誤或提出建議 Report Errors or Suggestions**
    - 點擊這裡 → [**提交問題或建議**](https://github.com/tesiniong/hinghua-singging/issues/new) ← Click here
-   - 用中文或英文描述您發現的問題（例如：哪一卷、哪一章、哪一節有錯字）
+   - 描述您發現的問題（例如：哪一卷、哪一章、哪一節有錯字）
    - 如果有建議的修正方式，也請告訴我們
-   - Write in Chinese or English describing the issue (e.g., which book, chapter, verse has an error)
+   - Describe the issue (e.g., which book, chapter, verse has an error)
 
 2. **查看已知問題 View Known Issues**
    - 點擊這裡 → [**查看所有問題討論**](https://github.com/tesiniong/hinghua-singging/issues) ← Click here

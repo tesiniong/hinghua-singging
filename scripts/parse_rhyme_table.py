@@ -1,199 +1,304 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-解析韵母表HTML文件并生成JSON数据
+從 Excel 檔案解析韻母表並生成 JSON 資料
+支援：
+- 合併儲存格的正確處理
+- 部分底線格式的自動識別（Rich Text）
+- 底部邊框的識別
 """
 
-from bs4 import BeautifulSoup
+import openpyxl
+from openpyxl.styles import Border
 import json
-import re
+import os
 import sys
 
-def clean_html_text(html_text):
-    """清理HTML文本，保留必要的格式"""
-    if not html_text:
-        return ''
-    # 移除多余的空格
-    text = re.sub(r'\s+', ' ', html_text).strip()
-    # 处理特殊字符
-    text = text.replace('&atilde;', 'ã')
-    text = text.replace('&oslash;', 'ø')
-    text = text.replace('&oslash;&#771;', 'ø̃')
-    text = text.replace('&#771;', '̃')
-    text = text.replace('&#603;', 'ɛ')
-    text = text.replace('&#7869;', 'ẽ')
-    text = text.replace('&#297;', 'ĩ')
-    text = text.replace('&#339;', 'œ')
-    text = text.replace('&#7929;', 'ủ')
-    text = text.replace('&#594;', 'ɔ')
-    text = text.replace('&#596;', 'ɔ')
-    text = text.replace('&#804;', '̤')  # 底线
-    text = text.replace('&#8319;', 'ⁿ')  # 上标n
+def is_cell_merged(ws, row, col):
+    """檢查儲存格是否為合併儲存格的一部分"""
+    cell = ws.cell(row, col)
+    for merged_range in ws.merged_cells.ranges:
+        if cell.coordinate in merged_range:
+            return merged_range
+    return None
+
+def get_merged_cell_value(ws, row, col):
+    """取得合併儲存格的值（從左上角儲存格取得）"""
+    merged_range = is_cell_merged(ws, row, col)
+    if merged_range:
+        # 取得合併區域的左上角儲存格
+        # bounds 格式：(min_col, min_row, max_col, max_row)
+        min_col, min_row, max_col, max_row = merged_range.bounds
+        return ws.cell(min_row, min_col).value, (max_row - min_row + 1)
+    return ws.cell(row, col).value, 1
+
+def has_underline(cell):
+    """檢查儲存格是否有底線格式"""
+    if cell.font and cell.font.underline:
+        return True
+    return False
+
+def has_bottom_border(cell):
+    """檢查儲存格是否有底部粗框線"""
+    if cell.border and cell.border.bottom:
+        # 檢查是否為粗線或雙線
+        style = cell.border.bottom.style
+        if style in ['medium', 'thick', 'double']:
+            return True
+    return False
+
+def wrap_underline(text):
+    """將文本包裹在 <u> 標籤中"""
+    if text:
+        return f"<u>{text}</u>"
     return text
 
-def extract_cell_content(cell):
-    """提取单元格内容，包括HTML格式"""
-    if not cell:
-        return '-'
+def extract_rich_text_with_underline(cell):
+    """
+    提取儲存格的 Rich Text，保留底線格式
+    支援部分文字有底線的情況
+    """
+    value = cell.value
 
-    # 获取cell的所有文本和HTML
-    html_content = str(cell)
+    # 如果是純文字
+    if isinstance(value, str):
+        # 檢查整個儲存格是否有底線
+        if has_underline(cell):
+            return wrap_underline(value)
+        return value
 
-    # 提取div中的内容（如果有）
-    div = cell.find('div')
-    if div:
-        content = ''.join(str(c) for c in div.contents)
-    else:
-        content = ''.join(str(c) for c in cell.contents)
+    # 如果是 Rich Text（InlineFont 格式）
+    # openpyxl 3.x 版本中，Rich Text 儲存為 list 或特殊物件
+    if hasattr(value, '__iter__') and not isinstance(value, str):
+        result = []
+        for item in value:
+            # 檢查是否有 text 和 font 屬性
+            if hasattr(item, 'text'):
+                text = item.text
+                # 檢查是否有底線
+                has_u = False
+                if hasattr(item, 'font') and item.font:
+                    # 檢查多種底線屬性
+                    if hasattr(item.font, 'underline') and item.font.underline:
+                        has_u = True
+                    elif hasattr(item.font, 'u') and item.font.u:
+                        has_u = True
 
-    # 清理内容
-    content = clean_html_text(content)
-    content = content.replace('<font class="font10">', '')
-    content = content.replace('<font class="font11">', '')
-    content = content.replace('<font class="font9">', '')
-    content = content.replace('<font class="font6">', '')
-    content = content.replace('</font>', '')
-    content = content.strip()
+                if has_u:
+                    result.append(wrap_underline(text))
+                else:
+                    result.append(text)
+            elif isinstance(item, str):
+                result.append(item)
 
-    return content if content else '-'
+        return ''.join(result) if result else str(value)
 
-def parse_rhyme_table(html_file):
-    """解析韵母表HTML文件"""
+    # 其他情況，直接返回字串
+    return str(value) if value else ''
 
-    # 读取文件（Big5编码）
-    with open(html_file, 'r', encoding='big5', errors='ignore') as f:
-        html_content = f.read()
-
-    soup = BeautifulSoup(html_content, 'html.parser')
-
-    # 找到表格
-    table = soup.find('table')
-    if not table:
-        print("未找到表格")
-        return []
-
-    rows = table.find_all('tr')
-
-    # 跳过前两行（表头）
-    data_rows = rows[2:]
+def parse_excel_rhyme_table(file_path):
+    """解析 Excel 韻母表"""
+    wb = openpyxl.load_workbook(file_path)
+    ws = wb.active
 
     result = []
-    current_rowspan_info = {}  # 记录跨行信息
 
-    for row_idx, row in enumerate(data_rows):
-        cells = row.find_all(['td', 'th'])
+    # 記錄每個方言點欄位的跨行狀態
+    dialect_merge_state = {}  # {col_index: {'value': '...', 'remaining': N}}
+    letter_merge_state = None  # 韻母字欄位的跨行狀態
+    phonetic_merge_state = None  # 擬音欄位的跨行狀態
 
-        if len(cells) < 3:
-            continue
-
-        cell_idx = 0
+    # 從第3行開始讀取（前2行是表頭）
+    for row_idx in range(3, ws.max_row + 1):
         row_data = {
             'letter': '',
             'examples': '',
             'phonetic': '',
-            'dialectValues': [''] * 16,
+            'dialectValues': [],
             'rowSpan': 1,
+            'phoneticRowSpan': 1,
             'hasBorder': False
         }
 
-        # 检查第一个单元格是否有rowspan
-        first_cell = cells[cell_idx]
-        rowspan = first_cell.get('rowspan')
-        if rowspan:
-            rowspan = int(rowspan)
-            row_data['rowSpan'] = rowspan
-            current_rowspan_info['letter'] = extract_cell_content(first_cell)
-            current_rowspan_info['rowspan_remaining'] = rowspan - 1
-            row_data['letter'] = current_rowspan_info['letter']
-            cell_idx += 1
-        elif 'rowspan_remaining' in current_rowspan_info and current_rowspan_info['rowspan_remaining'] > 0:
-            # 使用之前的rowspan值
-            row_data['letter'] = current_rowspan_info['letter']
-            row_data['rowSpan'] = 0  # 表示这是被合并的行
-            current_rowspan_info['rowspan_remaining'] -= 1
-        else:
-            row_data['letter'] = extract_cell_content(first_cell)
-            cell_idx += 1
+        # Column A: 韻母字（平話字）
+        letter_cell = ws.cell(row_idx, 1)
+        letter_merged_range = is_cell_merged(ws, row_idx, 1)
 
-        # 检查单元格是否有底线（border-bottom）
-        for cell in cells:
-            style = cell.get('style', '')
-            if 'border-bottom' in style and 'solid black' in style:
-                row_data['hasBorder'] = True
-                break
-
-        # 例字
-        if cell_idx < len(cells):
-            row_data['examples'] = extract_cell_content(cells[cell_idx])
-            cell_idx += 1
-
-        # 音价
-        if cell_idx < len(cells):
-            row_data['phonetic'] = extract_cell_content(cells[cell_idx])
-            cell_idx += 1
-
-        # 16个方言点的音值
-        dialect_idx = 0
-        while cell_idx < len(cells) and dialect_idx < 16:
-            cell = cells[cell_idx]
-            cell_rowspan = cell.get('rowspan')
-
-            if cell_rowspan and int(cell_rowspan) > 1:
-                # 这个单元格跨多行
-                value = extract_cell_content(cell)
-                row_data['dialectValues'][dialect_idx] = value
-                # 记录这个方言点需要在后续行中使用相同的值
-                if dialect_idx not in current_rowspan_info:
-                    current_rowspan_info[dialect_idx] = {}
-                current_rowspan_info[dialect_idx]['value'] = value
-                current_rowspan_info[dialect_idx]['remaining'] = int(cell_rowspan) - 1
-            elif dialect_idx in current_rowspan_info and 'remaining' in current_rowspan_info[dialect_idx] and current_rowspan_info[dialect_idx]['remaining'] > 0:
-                # 使用之前的rowspan值
-                row_data['dialectValues'][dialect_idx] = current_rowspan_info[dialect_idx]['value']
-                current_rowspan_info[dialect_idx]['remaining'] -= 1
-                # 不增加cell_idx，因为这个单元格被跨行了
-                dialect_idx += 1
-                continue
+        if letter_merged_range:
+            # 儲存格在合併區域內
+            min_col, min_row, max_col, max_row = letter_merged_range.bounds
+            if row_idx == min_row:
+                # 這是合併區域的第一行
+                letter_value = letter_cell.value
+                letter_rowspan = max_row - min_row + 1
+                row_data['letter'] = str(letter_value) if letter_value else ''
+                row_data['rowSpan'] = letter_rowspan
+                if letter_rowspan > 1:
+                    letter_merge_state = {
+                        'value': str(letter_value) if letter_value else '',
+                        'remaining': letter_rowspan - 1
+                    }
             else:
-                row_data['dialectValues'][dialect_idx] = extract_cell_content(cell)
+                # 這是合併區域的後續行
+                if letter_merge_state and letter_merge_state['remaining'] > 0:
+                    row_data['letter'] = letter_merge_state['value']
+                    row_data['rowSpan'] = 0
+                    letter_merge_state['remaining'] -= 1
+                else:
+                    # 應該不會到這裡，但以防萬一
+                    letter_value = ws.cell(min_row, min_col).value
+                    row_data['letter'] = str(letter_value) if letter_value else ''
+                    row_data['rowSpan'] = 0
+        else:
+            # 非合併儲存格
+            letter_value = letter_cell.value
+            row_data['letter'] = str(letter_value) if letter_value else ''
+            row_data['rowSpan'] = 1
 
-            cell_idx += 1
-            dialect_idx += 1
+        # Column B: 例字（支援 Rich Text 底線）
+        examples_cell = ws.cell(row_idx, 2)
+        row_data['examples'] = extract_rich_text_with_underline(examples_cell)
+
+        # Column C: 擬音（支援合併儲存格）
+        phonetic_cell = ws.cell(row_idx, 3)
+        phonetic_merged_range = is_cell_merged(ws, row_idx, 3)
+
+        if phonetic_merged_range:
+            # 儲存格在合併區域內
+            min_col, min_row, max_col, max_row = phonetic_merged_range.bounds
+            if row_idx == min_row:
+                # 這是合併區域的第一行
+                phonetic_value = phonetic_cell.value
+                phonetic_rowspan = max_row - min_row + 1
+                row_data['phonetic'] = str(phonetic_value) if phonetic_value else ''
+                row_data['phoneticRowSpan'] = phonetic_rowspan
+                if phonetic_rowspan > 1:
+                    phonetic_merge_state = {
+                        'value': str(phonetic_value) if phonetic_value else '',
+                        'remaining': phonetic_rowspan - 1
+                    }
+            else:
+                # 這是合併區域的後續行
+                if phonetic_merge_state and phonetic_merge_state['remaining'] > 0:
+                    row_data['phonetic'] = phonetic_merge_state['value']
+                    row_data['phoneticRowSpan'] = 0
+                    phonetic_merge_state['remaining'] -= 1
+                else:
+                    # 應該不會到這裡，但以防萬一
+                    phonetic_value = ws.cell(min_row, min_col).value
+                    row_data['phonetic'] = str(phonetic_value) if phonetic_value else ''
+                    row_data['phoneticRowSpan'] = 0
+        else:
+            # 非合併儲存格
+            phonetic_value = phonetic_cell.value
+            row_data['phonetic'] = str(phonetic_value) if phonetic_value else ''
+            row_data['phoneticRowSpan'] = 1
+
+        # Columns D-S (16個方言點)
+        for dialect_idx in range(16):
+            col_idx = 4 + dialect_idx  # D=4, E=5, ..., S=19
+            cell = ws.cell(row_idx, col_idx)
+
+            # 檢查是否在合併區域內
+            merged_range = is_cell_merged(ws, row_idx, col_idx)
+
+            if merged_range:
+                # 取得合併區域的左上角儲存格值
+                # bounds 格式：(min_col, min_row, max_col, max_row)
+                min_col, min_row, max_col, max_row = merged_range.bounds
+
+                if row_idx == min_row:
+                    # 這是合併區域的第一行，使用值並記錄狀態
+                    value = ws.cell(min_row, min_col).value
+                    value_str = str(value) if value else '-'
+                    rowspan = max_row - min_row + 1
+
+                    if rowspan > 1:
+                        dialect_merge_state[col_idx] = {
+                            'value': value_str,
+                            'remaining': rowspan - 1
+                        }
+                    row_data['dialectValues'].append(value_str)
+                else:
+                    # 這是合併區域的後續行，使用記錄的值
+                    if col_idx in dialect_merge_state and dialect_merge_state[col_idx]['remaining'] > 0:
+                        row_data['dialectValues'].append(dialect_merge_state[col_idx]['value'])
+                        dialect_merge_state[col_idx]['remaining'] -= 1
+                    else:
+                        # 意外情況：應該有記錄但沒有，直接取值
+                        value = ws.cell(min_row, min_col).value
+                        row_data['dialectValues'].append(str(value) if value else '-')
+            else:
+                # 非合併儲存格
+                value = cell.value
+                row_data['dialectValues'].append(str(value) if value else '-')
+
+        # 檢查是否有底部邊框（檢查第一個資料儲存格）
+        first_data_cell = ws.cell(row_idx, 1)
+        if has_bottom_border(first_data_cell):
+            row_data['hasBorder'] = True
 
         result.append(row_data)
 
     return result
 
 def main():
-    html_file = 'data/hinghua_rhymes.files/sheet001.htm'
+    # 更新檔案路徑為 data 目錄
+    excel_file = 'data/hinghua_rhymes.xlsx'
     output_file = 'website/src/data/rhymeTableData.json'
 
-    print(f"Parsing {html_file}...")
-    data = parse_rhyme_table(html_file)
+    if not os.path.exists(excel_file):
+        # 如果 data/ 中沒有，嘗試根目錄
+        excel_file = 'hinghua_rhymes.xlsx'
+        if not os.path.exists(excel_file):
+            print(f"錯誤：找不到 Excel 檔案")
+            print(f"請確認檔案位於 data/hinghua_rhymes.xlsx 或 hinghua_rhymes.xlsx")
+            sys.exit(1)
 
-    print(f"Extracted {len(data)} rows")
+    print(f"解析 {excel_file}...")
+    data = parse_excel_rhyme_table(excel_file)
 
-    # Create output directory
-    import os
+    print(f"提取了 {len(data)} 列資料")
+
+    # 建立輸出目錄
     os.makedirs('website/src/data', exist_ok=True)
 
-    # Save as JSON
+    # 儲存為 JSON
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"Data saved to {output_file}")
+    print(f"資料已儲存至 {output_file}")
 
-    # Print first few rows as example
-    print("\nFirst 3 rows:")
-    for i, row in enumerate(data[:3]):
-        print(f"\nRow {i+1}:")
-        print(f"  Letter: {row['letter']}")
-        print(f"  Examples: {row['examples'][:20] if len(row['examples']) > 20 else row['examples']}")
-        print(f"  Phonetic: {row['phonetic']}")
-        print(f"  Putian: {row['dialectValues'][0]}")
-        print(f"  Xianyou: {row['dialectValues'][11]}")
+    # 顯示前幾列作為範例
+    print("\n前 5 列：")
+    for i, row in enumerate(data[:5]):
+        print(f"\n第 {i+1} 列:")
+        print(f"  韻母字: {row['letter']}")
+        print(f"  例字: {row['examples'][:50] if len(row['examples']) > 50 else row['examples']}")
+        print(f"  擬音: {row['phonetic']}")
+        print(f"  莆田 (D): {row['dialectValues'][0]}")
+        print(f"  仙遊 (L): {row['dialectValues'][11]}")
         print(f"  RowSpan: {row['rowSpan']}")
+        print(f"  PhoneticRowSpan: {row['phoneticRowSpan']}")
         print(f"  HasBorder: {row['hasBorder']}")
+
+    # 顯示跨列的範例
+    print("\n\n跨列資料範例：")
+    for i, row in enumerate(data):
+        if row['rowSpan'] > 1:
+            print(f"\n第 {i+1} 列 (跨 {row['rowSpan']} 列):")
+            print(f"  韻母字: {row['letter']}")
+            print(f"  例字: {row['examples']}")
+            print(f"  擬音: {row['phonetic']}")
+            print(f"  PhoneticRowSpan: {row['phoneticRowSpan']}")
+
+            # 顯示下一列
+            if i+1 < len(data):
+                next_row = data[i+1]
+                print(f"  下一列 (rowSpan={next_row['rowSpan']}, phoneticRowSpan={next_row['phoneticRowSpan']}):")
+                print(f"    韻母字: {next_row['letter']}")
+                print(f"    例字: {next_row['examples']}")
+                print(f"    擬音: {next_row['phonetic']}")
 
 if __name__ == '__main__':
     main()

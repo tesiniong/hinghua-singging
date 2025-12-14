@@ -5,9 +5,15 @@
 包含羅馬字、漢字、英文名稱及起始頁碼
 """
 
+# 【序言】
+FOREWORD_BOOKS = [
+    ('Foreword', 'Foreword', 'Foreword', 3),
+    ('Sṳ̄.', '序', 'Preface', 5),
+]
+
 # 舊約39卷
 OLD_TESTAMENT_BOOKS = [
-    ("Cho̤̍ng-sa̤̍-gi̍", "創世記", "Genesis", 9),
+    ("Cho̤̍ng-sa̤-gi̍", "創世記", "Genesis", 9),
     ("Cheoh-Ai-gi̍h", "出伊及", "Exodus", 72),
     ("Lī-bī Gi̍", "利未記", "Leviticus", 124),
     ("Míng-so̍ Gi̍", "民數記", "Numbers", 161),
@@ -80,7 +86,12 @@ NEW_TESTAMENT_BOOKS = [
 ]
 
 # 合併所有書卷
-ALL_BOOKS = OLD_TESTAMENT_BOOKS + NEW_TESTAMENT_BOOKS
+ALL_BOOKS = FOREWORD_BOOKS + OLD_TESTAMENT_BOOKS + NEW_TESTAMENT_BOOKS
+
+# 創建書名映射字典
+ROM_TO_HAN = {rom: han for rom, han, eng, page in ALL_BOOKS}
+HAN_TO_ROM = {han: rom for rom, han, eng, page in ALL_BOOKS}
+HAN_TO_ENG = {han: eng for rom, han, eng, page in ALL_BOOKS}
 
 def get_book_by_page(page_num: int):
     """

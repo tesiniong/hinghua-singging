@@ -5,91 +5,13 @@
 支援新的格式化文本：每節一行，有標題和段落標題
 """
 
-# 【舊約 39 卷】
-old_testament_books = [
-    ("Cho̤̍ng-sa̤-gi̍", "創世記", "Genesis", 9),
-    ("Cheoh-Ai-gi̍h", "出伊及", "Exodus", 72),
-    ("Lī-bī Gi̍", "利未記", "Leviticus", 124),
-    ("Míng-so̍ Gi̍", "民數記", "Numbers", 161),
-    ("Sing-mīng Gi̍", "申命記", "Deuteronomy", 214),
-    ("Io̤h-sṳ-a̍ Cṳ", "約書亞書", "Joshua", 262),
-    ("Seō-seo Gi̍", "士師記", "Judges", 294),
-    ("Lō-deh Gi̍", "路得記", "Ruth", 327),
-    ("Sah-bâ̤u-cî Céng-cṳ", "撒母耳前書", "1 Samuel", 332),
-    ("Sah-bâ̤u-cî Hā̤u-cṳ", "撒母耳後書", "2 Samuel", 375),
-    ("Le̍h-ó̤ng Siō̤ng-ge̤̍ng", "列王上卷", "1 Kings", 412),
-    ("Le̍h-ó̤ng Hā-ge̤̍ng", "列王下卷", "2 Kings", 454),
-    ("Le̍h-dāi Siō̤ng-ge̤̍ng", "歷代上卷", "1 Chronicles", 494),
-    ("Le̍h-dāi Hā-ge̤̍ng", "歷代下卷", "2 Chronicles", 534),
-    ("Î-seō-la̍h Cṳ", "以斯拉書", "Ezra", 580),
-    ("Ní-hi-bî Gi̍", "尼希米記", "Nehemiah", 593),
-    ("Î-seō-tiah Cṳ", "以斯帖書", "Esther", 612),
-    ("Io̤h-beh Gi̍", "約伯記", "Job", 622),
-    ("Si-peng", "詩篇", "Psalms", 669),
-    ("Cing-ngé̤ng", "箴言", "Proverbs", 786),
-    ("Dé̤ng-dō̤ Cṳ", "傳道書", "Ecclesiastes", 826),
-    ("Sê̤-ló̤-meóng Ē Ngâ-go̤", "所羅門兮雅歌", "Song of Solomon", 837),
-    ("Î-se̤̍-a̍ Cṳ", "以賽亞書", "Isaiah", 845),
-    ("Á̤-lī-bî Cṳ", "耶利米書", "Jeremiah", 914),
-    ("Á̤-lī-bî Ai-go̤ Cṳ", "耶利米哀歌書", "Lamentations", 989),
-    ("Î-sa̤-geh Cṳ", "以西結書", "Ezekiel", 998),
-    ("Dāng-î-lî Cṳ", "但以理書", "Daniel", 1063),
-    ("Hó̤-sa̤ Cṳ", "何西書", "Hosea", 1083),
-    ("Io̤h-cî Cṳ", "約珥書", "Joel", 1094),
-    ("A̍-mó̤-seo Cṳ", "亞摩斯書", "Amos", 1098),
-    ("O̤-ba-dâ̤ Cṳ", "阿巴底書", "Obadiah", 1107),
-    ("Io̤h-ná Cṳ", "約拿書", "Jonah", 1109),
-    ("Bî-gia Cṳ", "彌迦書", "Micah", 1112),
-    ("Ná-o̤ng Cṳ", "那翁書", "Nahum", 1119),
-    ("Ha̍h-ba-go̤h Cṳ", "哈巴谷書", "Habakkuk", 1122),
-    ("Sa̤-huang-ngâ Cṳ", "西番雅書", "Zephaniah", 1126),
-    ("Ha̍h-gi Cṳ", "哈基書", "Haggai", 1130),
-    ("Sah-ga-lī-a̍ Cṳ", "撒迦利亞書", "Zechariah", 1133),
-    ("Mâ-la̍h-gi Cṳ", "瑪拉基書", "Malachi", 1145)
-]
-
-# 【新約 27 卷】
-new_testament_books = [
-    ("Mâ-ta̍i", "馬太", "Gospel of Matthew", 1153),
-    ("Mâ-kô̤", "馬可", "Gospel of Mark", 1193),
-    ("Lō-ga", "路加", "Gospel of Luke", 1218),
-    ("Io̤h-hāng", "約翰", "Gospel of John", 1261),
-    ("Seo̍-dó Hēng-dē̤ng", "使徒行傳", "Acts of the Apostles", 1294),
-    ("Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ", "保羅寄羅馬儂書", "Romans", 1336),
-    ("Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ", "保羅寄哥林多前書", "1 Corinthians", 1355),
-    ("Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ", "保羅寄哥林多後書", "2 Corinthians", 1374),
-    ("Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ", "保羅寄加拉太書", "Galatians", 1386),
-    ("Bô̤-ló̤ Gio̤̍ Î-heo̍h-sê̤ Cṳ", "保羅寄以弗所書", "Ephesians", 1392),
-    ("Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ", "保羅寄腓立比儂書", "Philippians", 1398),
-    ("Bô̤-ló̤ Gio̤̍ Go̤-ló̤-sa̤ Náng Cṳ", "保羅寄歌羅西儂書", "Colossians", 1403),
-    ("Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Céng-cṳ", "保羅寄帖撒羅尼迦儂前書", "1 Thessalonians", 1408),
-    ("Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Hā̤u-cṳ", "保羅寄帖撒羅尼迦儂後書", "2 Thessalonians", 1412),
-    ("Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ", "保羅寄提摩太前書", "1 Timothy", 1415),
-    ("Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Hā̤u-cṳ", "保羅寄提摩太後書", "2 Timothy", 1420),
-    ("Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ", "保羅寄提多書", "Titus", 1424),
-    ("Bô̤-ló̤ Gio̤̍ Hi-lī-meóng Cṳ", "保羅寄腓利門書", "Philemon", 1427),
-    ("Hi-beh-lái Náng Cṳ", "希伯來儂書", "Hebrews", 1428),
-    ("Seo̍-dó Ngâ-go̤h Cṳ", "使徒雅各書", "James", 1442),
-    ("Bî-deh Céng-cṳ", "彼得前書", "1 Peter", 1447),
-    ("Bî-deh Hā̤u-cṳ", "彼得後書", "2 Peter", 1453),
-    ("Io̤h-hāng Ih Cṳ", "約翰一書", "1 John", 1456),
-    ("Io̤h-hāng Cī Cṳ", "約翰二書", "2 John", 1461),
-    ("Iók-hâng So̤ⁿ Cṳ", "約翰三書", "3 John", 1462),
-    ("Seo̍-dó Iú-dāi Cṳ", "使徒猶大書", "Jude", 1463),
-    ("Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h", "使徒約翰默示錄", "Revelation", 1465)
-]
-
 import re
 import json
 import sys
 import shutil
 from pathlib import Path
-
-# 創建書名映射字典
-ALL_BOOKS = old_testament_books + new_testament_books
-ROM_TO_HAN = {rom: han for rom, han, eng, page in ALL_BOOKS}
-HAN_TO_ROM = {han: rom for rom, han, eng, page in ALL_BOOKS}
-HAN_TO_ENG = {han: eng for rom, han, eng, page in ALL_BOOKS}
+import unicodedata
+from book_info import ALL_BOOKS, HAN_TO_ROM, ROM_TO_HAN, HAN_TO_ENG
 
 def number_to_chinese(n):
     """阿拉伯數字轉漢字"""
@@ -303,131 +225,74 @@ def extract_compound_chars(han_text):
 
 def align_tokens(han_text, rom_text):
     """
-    對齊漢字和羅馬字，生成 token 陣列
-
-    規則：
-    - 1 個漢字 = 1 個羅馬字音節
-    - 1 個合音字（多個漢字在「」中）= 1 個羅馬字音節
-    - 多音節羅馬字詞（用 - 連接）= 對應數量的漢字
-    - 標點以漢字為主
-
-    返回：[{"type": "word", "han": "...", "rom": "...", "form": "..."}, ...]
+    對齊漢字和羅馬字，生成 token 陣列 (重構版)
+    以羅馬字詞為單位進行遍歷，來解決包含合音字的 phrase 的對齊問題
     """
-    # Tokenize
     han_tokens = tokenize_han(han_text)
     rom_tokens = tokenize_rom(rom_text)
 
-    # 提取羅馬字詞（忽略標點）
-    rom_words = [t for t in rom_tokens if t['type'] == 'word']
-
     aligned = []
-    h_idx = 0  # han index
-    r_idx = 0  # rom index
+    h_idx = 0  # han_tokens 的索引
+    r_idx = 0  # rom_tokens 的索引
 
-    while h_idx < len(han_tokens):
-        h_token = han_tokens[h_idx]
-
-        # 標點符號：直接添加（只用漢字版本的標點）
-        if h_token['type'] == 'punct':
+    while h_idx < len(han_tokens) or r_idx < len(rom_tokens):
+        # 優先處理漢字中的標點
+        if h_idx < len(han_tokens) and han_tokens[h_idx]['type'] == 'punct':
             aligned.append({
                 'type': 'punct',
-                'han': h_token['text'],
+                'han': han_tokens[h_idx]['text'],
                 'rom': ''
             })
             h_idx += 1
             continue
 
-        # 一般字或合音字
-        if r_idx < len(rom_words):
-            rom_word = rom_words[r_idx]['text']
+        # 如果漢字用完，或羅馬字用完，則退出（正常情況下不應發生）
+        if h_idx >= len(han_tokens) or r_idx >= len(rom_tokens):
+            break
 
-            # 計算羅馬字音節數量
-            rom_syllable_count = len(rom_word.split('-'))
+        rom_token = rom_tokens[r_idx]
+        rom_word = rom_token['text']
+        rom_syllables = rom_word.split('-')
+        num_syllables = len(rom_syllables)
 
-            # 檢查是否是專名
-            is_proper_name = h_token.get('proper_name', False)
-
-            if h_token['type'] == 'compound':
-                # 合音字：多個漢字對應1個羅馬字音節
+        # 收集對應數量的漢字 token
+        collected_han_tokens = []
+        temp_h_idx = h_idx
+        while len(collected_han_tokens) < num_syllables and temp_h_idx < len(han_tokens):
+            # 跳過標點
+            if han_tokens[temp_h_idx]['type'] == 'punct':
+                temp_h_idx += 1
+                continue
+            collected_han_tokens.append(han_tokens[temp_h_idx])
+            temp_h_idx += 1
+        
+        han_part_text = "".join([t['text'] for t in collected_han_tokens])
+        
+        # 判斷 form 類型
+        if num_syllables == 1 and len(collected_han_tokens) == 1:
+            if collected_han_tokens[0]['type'] == 'char':
+                form = 'single'
+            else: # compound
                 form = 'compound_single'
-                han_text = h_token['text']
-                h_idx += 1
-            elif h_token['type'] == 'char':
-                # 一般字
-                if rom_syllable_count == 1:
-                    form = 'single'  # 1音節1字
-                    han_text = h_token['text']
-                    h_idx += 1
-                else:
-                    # 多音節詞：需要收集多個漢字
-                    # 檢查是否所有字符都有連字號
-                    if '-' in rom_word:
-                        form = 'phrase'
-                    else:
-                        form = 'compound'
-
-                    chars = [h_token['text']]
-                    h_idx += 1
-
-                    # 收集剩餘的漢字（音節數-1個）
-                    # 跳過中間的標點
-                    collected = 1
-                    while collected < rom_syllable_count and h_idx < len(han_tokens):
-                        if han_tokens[h_idx]['type'] == 'char':
-                            chars.append(han_tokens[h_idx]['text'])
-                            collected += 1
-                            h_idx += 1
-                        elif han_tokens[h_idx]['type'] == 'compound':
-                            # 遇到合音字，也算一個音節
-                            chars.append(han_tokens[h_idx]['text'])
-                            collected += 1
-                            h_idx += 1
-                        elif han_tokens[h_idx]['type'] == 'punct':
-                            # 跳過標點，不計入詞中
-                            h_idx += 1
-                        else:
-                            break
-
-                    han_text = ''.join(chars)
-
-            token = {
-                'type': 'word',
-                'han': han_text,
-                'rom': rom_word,
-                'form': form
-            }
-
-            # 添加專名標記
-            if is_proper_name:
-                token['proper_name'] = True
-
-            aligned.append(token)
-            r_idx += 1
         else:
-            # 羅馬字已用完，漢字多出來的
-            token = {
-                'type': 'word',
-                'han': h_token['text'],
-                'rom': '',
-                'form': 'single' if h_token['type'] == 'char' else 'compound_single'
-            }
-            if h_token.get('proper_name'):
-                token['proper_name'] = True
+            form = 'phrase'
+            
+        # 檢查專有名詞
+        is_proper_name = any(t.get('proper_name', False) for t in collected_han_tokens)
 
-            aligned.append(token)
-            h_idx += 1
-
-    # 如果羅馬字還有剩餘
-    while r_idx < len(rom_words):
-        rom_word = rom_words[r_idx]['text']
-        rom_syllable_count = len(rom_word.split('-'))
-
-        aligned.append({
+        token = {
             'type': 'word',
-            'han': '',
+            'han': han_part_text,
             'rom': rom_word,
-            'form': 'single' if rom_syllable_count == 1 else 'phrase'
-        })
+            'form': form
+        }
+        if is_proper_name:
+            token['proper_name'] = True
+        
+        aligned.append(token)
+
+        # 更新索引
+        h_idx = temp_h_idx
         r_idx += 1
 
     return aligned
@@ -473,7 +338,7 @@ def parse_structured_text(file_path):
         # 一級標題：書名
         if line.startswith('# '):
             flush_verse()
-            book_name = line[2:].strip()
+            book_name = unicodedata.normalize('NFC', line[2:].strip())
             current_book = book_name
             result[current_book] = {'chapters': {}}
             current_chapter = None
@@ -535,65 +400,91 @@ def parse_structured_text(file_path):
     return result
 
 
-def find_matching_rom_book(han_book_name, han_book_data, rom_data):
-    """
-    使用書名對照表找到對應的羅馬字書名
-    只有在對照表中有明確配對關係的書才會配對
-    """
-    # 檢查漢字書名是否在對照表中
-    if han_book_name not in HAN_TO_ROM:
-        print(f"  Not in mapping table")
-        return None, {}
 
-    # 獲取對應的羅馬字書名
-    expected_rom_name = HAN_TO_ROM[han_book_name]
-
-    # 檢查這本羅馬字書是否存在於 rom_data 中
-    if expected_rom_name in rom_data:
-        print(f"  Matched")
-        return expected_rom_name, rom_data[expected_rom_name]
-    else:
-        print(f"  Rom book not found")
-        return None, {}
 
 
 def merge_and_generate_json(han_data, rom_data, output_file):
     """
     合併漢字和羅馬字資料，生成 bible_data.json
-    按照聖經書目順序（先舊約再新約）輸出
+    按照聖經書目順序（從 book_info.py 的 ALL_BOOKS）輸出
     """
     books = []
-    used_rom_books = set()  # 記錄已使用的羅馬字書名
+    
+    for rom_name_orig, han_name_orig, eng_name, page in ALL_BOOKS:
+        rom_name = unicodedata.normalize('NFC', rom_name_orig)
+        han_name = unicodedata.normalize('NFC', han_name_orig)
 
-    # 按照聖經書目順序遍歷（使用 ALL_BOOKS 的順序）
-    for rom_name, han_name, eng_name, page in ALL_BOOKS:
-        # 檢查這本書是否存在於 han_data 中
-        if han_name not in han_data:
+        print(f"處理中: {eng_name}")
+        book = { "name_han": han_name, "name_rom": rom_name, "name_eng": eng_name, "chapters": [] }
+
+        # Case 1: 英文序
+        if eng_name == 'Foreword':
+            try:
+                with open('data/foreword-en.txt', 'r', encoding='utf-8') as f:
+                    content = f.read()
+                paragraphs = [p.strip() for p in content.splitlines() if p.strip()]
+                sections = []
+                for i, para_text in enumerate(paragraphs):
+                    sections.append({ "type": "verse", "verse": i + 1, "rom": para_text, "han": "", "tokens": [] })
+                book['chapters'].append({ "chapter": 1, "chapter_title_han": "", "chapter_title_rom": "", "sections": sections })
+                books.append(book)
+            except FileNotFoundError:
+                print(f"  警告: foreword-en.txt 不存在，已跳過")
             continue
 
-        book_name_han = han_name
-        han_book_data = han_data[book_name_han]
-        # 找到對應的羅馬字書名（通過內容匹配）
-        rom_book_name, rom_book_data = find_matching_rom_book(book_name_han, han_book_data, rom_data)
+        # Case 2: 興化語序
+        if eng_name == 'Preface':
+            try:
+                with open('data/foreword-cpx.txt', 'r', encoding='utf-8') as f:
+                    content = f.read()
 
-        if rom_book_name:
-            used_rom_books.add(rom_book_name)
-        else:
-            # 沒有找到對應的羅馬字書內容，但從對照表填入書名
-            rom_book_name = HAN_TO_ROM.get(book_name_han, "")
-            rom_book_data = {'chapters': {}}
+                rom_part, han_part = "", ""
+                if "# 序" in content:
+                    parts = content.split("# 序")
+                    rom_part = parts[0].replace("# Sṳ̄.", "").strip()
+                    han_part = parts[1].strip() if len(parts) > 1 else ""
 
-        book = {
-            "name_han": book_name_han,
-            "name_rom": rom_book_name,
-            "name_eng": HAN_TO_ENG.get(book_name_han, ""),
-            "chapters": []
-        }
+                rom_lines = [p.strip() for p in rom_part.splitlines() if p.strip()]
+                han_lines = [p.strip() for p in han_part.splitlines() if p.strip()]
 
-        # 遍歷章節
-        for chapter_num in sorted(han_book_data['chapters'].keys()):
-            han_chapter = han_book_data['chapters'][chapter_num]
-            rom_chapter = rom_book_data['chapters'].get(chapter_num, {'section_titles': [], 'verses': {}})
+                sections = []
+                num_lines = max(len(rom_lines), len(han_lines))
+                for i in range(num_lines):
+                    rom_text = rom_lines[i] if i < len(rom_lines) else ""
+                    han_text = han_lines[i] if i < len(han_lines) else ""
+                    han_clean, _ = extract_proper_names(han_text)
+                    han_clean, _ = extract_compound_chars(han_clean)
+
+                    sections.append({
+                        "type": "verse", "verse": i + 1, "rom": rom_text, "han": han_clean,
+                        "tokens": align_tokens(han_text, rom_text) if rom_text and han_text else []
+                    })
+                book['chapters'].append({ "chapter": 1, "chapter_title_han": "", "chapter_title_rom": "", "sections": sections })
+                books.append(book)
+            except FileNotFoundError:
+                print(f"  警告: foreword-cpx.txt 不存在，已跳過")
+            continue
+
+        # Case 3: 一般聖經書卷
+        han_book_data = han_data.get(han_name)
+        rom_book_data = rom_data.get(rom_name)
+
+        if not han_book_data and not rom_book_data:
+            print(f"  警告: {eng_name} 在 han.txt 和 rom.txt 中均未找到，已跳過")
+            continue
+
+        chapter_keys = set()
+        if han_book_data:
+            chapter_keys.update(han_book_data.get('chapters', {}).keys())
+        if rom_book_data:
+            chapter_keys.update(rom_book_data.get('chapters', {}).keys())
+        
+        if not chapter_keys:
+            continue
+
+        for chapter_num in sorted(list(chapter_keys)):
+            han_chapter = han_book_data.get('chapters', {}).get(chapter_num) if han_book_data else None
+            rom_chapter = rom_book_data.get('chapters', {}).get(chapter_num) if rom_book_data else None
 
             chapter = {
                 "chapter": chapter_num,
@@ -601,129 +492,67 @@ def merge_and_generate_json(han_data, rom_data, output_file):
                 "chapter_title_rom": f"Dā̤ {chapter_num} Ca̤uⁿ",
                 "sections": []
             }
+            
+            han_verses = han_chapter.get('verses', {}) if han_chapter else {}
+            rom_verses = rom_chapter.get('verses', {}) if rom_chapter else {}
+            all_verse_nums = sorted(list(set(han_verses.keys()) | set(rom_verses.keys())))
 
-            # 添加段落標題
-            for section_title_han in han_chapter.get('section_titles', []):
-                section = {
-                    "type": "section_title",
-                    "han": section_title_han,
-                    "rom": "",  # 目前羅馬字版沒有段落標題
-                    "tokens": align_tokens(section_title_han, "")  # 暫時沒有對應的羅馬字
-                }
-                chapter['sections'].append(section)
+            if not all_verse_nums and not (han_chapter and han_chapter.get('section_titles')):
+                continue
 
-            # 添加經節
-            for verse_num in sorted(han_chapter['verses'].keys()):
-                han_text = han_chapter['verses'][verse_num]
-                rom_text = rom_chapter['verses'].get(verse_num, "")
+            if han_chapter and han_chapter.get('section_titles'):
+                for section_title_han in han_chapter['section_titles']:
+                     chapter['sections'].append({
+                        "type": "section_title", "han": section_title_han, "rom": "",
+                        "tokens": align_tokens(section_title_han, "")
+                    })
 
-                # 移除專名和合音字標記，得到乾淨的顯示文本
-                han_clean, _ = extract_proper_names(han_text)
-                han_clean, _ = extract_compound_chars(han_clean)
+            for verse_num in all_verse_nums:
+                han_text = han_verses.get(verse_num, "")
+                rom_text = rom_verses.get(verse_num, "")
+                
+                han_clean, tokens = "", []
+                if han_text:
+                    han_clean, _ = extract_proper_names(han_text)
+                    han_clean, _ = extract_compound_chars(han_text)
 
-                verse = {
-                    "type": "verse",
-                    "verse": verse_num,
-                    "rom": rom_text,
-                    "han": han_clean,
-                    "tokens": align_tokens(han_text, rom_text) if rom_text else []
-                }
+                if rom_text and han_text:
+                    tokens = align_tokens(han_text, rom_text)
+                elif rom_text:
+                    tokens = tokenize_rom(rom_text)
+                elif han_text:
+                    tokens = tokenize_han(han_text)
 
-                chapter['sections'].append(verse)
-
-            book['chapters'].append(chapter)
-
-        books.append(book)
-
-    # 處理只有羅馬字、沒有漢字的書卷（按照聖經書目順序）
-    for rom_name, han_name, eng_name, page in ALL_BOOKS:
-        if rom_name not in used_rom_books and rom_name in rom_data:
-            # 這本羅馬字書沒有對應的漢字版
-            rom_book_name = rom_name
-            rom_book_data = rom_data[rom_name]
-
-            book = {
-                "name_han": han_name,
-                "name_rom": rom_book_name,
-                "name_eng": eng_name,
-                "chapters": []
-            }
-
-            # 遍歷章節
-            for chapter_num in sorted(rom_book_data['chapters'].keys()):
-                rom_chapter = rom_book_data['chapters'][chapter_num]
-
-                chapter = {
-                    "chapter": chapter_num,
-                    "chapter_title_han": f"第{number_to_chinese(chapter_num)}章",
-                    "chapter_title_rom": f"Dā̤ {chapter_num} Ca̤uⁿ",
-                    "sections": []
-                }
-
-                # 添加段落標題（如果有）
-                for section_title_rom in rom_chapter.get('section_titles', []):
-                    section = {
-                        "type": "section_title",
-                        "han": "",
-                        "rom": section_title_rom,
-                        "tokens": []
-                    }
-                    chapter['sections'].append(section)
-
-                # 添加經節（只有羅馬字）
-                for verse_num in sorted(rom_chapter['verses'].keys()):
-                    rom_text = rom_chapter['verses'][verse_num]
-
-                    verse = {
-                        "type": "verse",
-                        "verse": verse_num,
-                        "rom": rom_text,
-                        "han": "",
-                        "tokens": []
-                    }
-
-                    chapter['sections'].append(verse)
-
+                chapter['sections'].append({
+                    "type": "verse", "verse": verse_num, "rom": rom_text, "han": han_clean,
+                    "tokens": tokens
+                })
+            
+            if chapter['sections']:
                 book['chapters'].append(chapter)
-
+        
+        if book['chapters']:
             books.append(book)
 
-    # 生成最終 JSON
     result = {"books": books}
-
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    # 自動複製到網站目錄
     website_output = Path('website/public/bible_data.json')
     if website_output.parent.exists():
         shutil.copy2(output_file, website_output)
-        print(f"  已複製至: {website_output}")
+        print(f"\n  已複製至: {website_output}")
     else:
-        print(f"  警告: website/public/ 目錄不存在，跳過複製")
+        print(f"\n  警告: website/public/ 目錄不存在，跳過複製")
 
-    # 統計
-    total_verses_han = sum(
-        len(ch['verses'])
-        for bk in han_data.values()
-        for ch in bk['chapters'].values()
-    )
-    total_verses_rom = sum(
-        len(ch['verses'])
-        for bk in rom_data.values()
-        for ch in bk['chapters'].values()
-    )
-    total_chapters_han = sum(len(bk['chapters']) for bk in han_data.values())
-    total_chapters_rom = sum(len(bk['chapters']) for bk in rom_data.values())
+    total_verses_han = sum(len(ch.get('verses', {})) for bk in han_data.values() for ch in bk.get('chapters', {}).values())
+    total_verses_rom = sum(len(ch.get('verses', {})) for bk in rom_data.values() for ch in bk.get('chapters', {}).values())
 
-    print(f"解析完成")
-    print(f"  書卷數: {len(books)}")
-    print(f"    - 漢字書卷: {len(han_data)}")
-    print(f"    - 羅馬字書卷: {len(rom_data)}")
-    print(f"    - 配對成功: {len(used_rom_books)}")
-    print(f"  章節數: {total_chapters_han} (漢) / {total_chapters_rom} (羅)")
-    print(f"  經節數: {total_verses_han} (漢) / {total_verses_rom} (羅)")
-    print(f"  輸出: {output_file}")
+    print(f"\n解析完成")
+    print(f"  總書卷數: {len(books)}")
+    print(f"  總經節數 (han.txt): {total_verses_han}")
+    print(f"  總經節數 (rom.txt): {total_verses_rom}")
+    print(f"  輸出檔案: {output_file}")
 
 
 def main():
