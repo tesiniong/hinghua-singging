@@ -69,6 +69,11 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
           return <span key={idx} className="ruby-punct">{token.han}</span>;
         }
 
+        // 修正：使用 NFC 正規化來比較字串
+        if (token.han && token.rom && token.han.normalize('NFC') === token.rom.normalize('NFC')) {
+            return <span key={idx} className="ruby-identical">{token.han}</span>
+        }
+
         if (token.type === 'word' && token.han && token.rom) {
           return (
             <ruby key={idx} className="ruby-word">
@@ -111,6 +116,9 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
       // 渲染當前 token
       if (token.type === 'punct') {
         result.push(<span key={idx} className="ruby-punct">{token.han}</span>);
+        charPosition += token.han.length;
+      } else if (token.han && token.rom && token.han.normalize('NFC') === token.rom.normalize('NFC')) {
+        result.push(<span key={idx} className="ruby-identical">{token.han}</span>);
         charPosition += token.han.length;
       } else if (token.type === 'word' && token.han && token.rom) {
         result.push(

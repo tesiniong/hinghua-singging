@@ -30,13 +30,13 @@
   transition: color 0.3s ease;
 }
 
+
 .about-section {
-  margin-bottom: 3rem;
-  padding: 2rem;
-  background-color: var(--bg-secondary);
+  background-color: var(--background-secondary);
+  padding: 1.5em 2em;
   border-radius: 12px;
-  border: 1px solid var(--border-color);
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-bottom: 2.5em;
+  transition: box-shadow 0.3s ease;
 }
 
 .about-section:hover {
@@ -46,6 +46,7 @@
 .about-section h2 {
   font-size: 1.6rem;
   color: var(--accent-color);
+  margin-top: 0;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 2px solid var(--border-color);
@@ -61,8 +62,38 @@
   transition: color 0.3s ease;
 }
 
-.about-section p:last-child {
+.about-section > *:last-child {
   margin-bottom: 0;
+}
+
+.progress-tables-container {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.progress-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.progress-table th,
+.progress-table td {
+  border: 1px solid var(--border-color);
+  padding: 0.6em 0.8em;
+  text-align: center;
+}
+
+.progress-table th {
+  background-color: var(--background-alt);
+  font-weight: 600;
+}
+
+.progress-table td:first-child {
+  text-align: left;
+  font-weight: 500;
 }
 
 .about-list {
@@ -91,8 +122,12 @@
 
 .about-footer-section {
   text-align: center;
-  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  background: transparent; /* Remove the gradient to simplify */
+  padding: 2em 0;
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-color);
 }
+
 
 .contact-info {
   font-size: 1.1rem;

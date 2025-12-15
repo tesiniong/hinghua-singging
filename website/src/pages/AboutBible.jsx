@@ -1,6 +1,73 @@
+import { useState, useEffect } from 'react';
 import './AboutBible.css';
 
+function ProgressTable({ stats }) {
+  if (!stats || !stats.totals) return null;
+
+  const calculatePercent = (value, total) => {
+    if (total === 0) return '0.0';
+    return ((value / total) * 100).toFixed(1);
+  };
+
+  const renderTable = (lang) => {
+    const data = stats[lang];
+    const totals = stats.totals;
+    const langText = lang === 'rom' ? '羅馬字' : '漢字';
+
+    return (
+      <table className="progress-table">
+        <thead>
+          <tr>
+            <th>{langText}</th>
+            <th>舊約</th>
+            <th>新約</th>
+            <th>總計</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>書</td>
+            <td>{data.ot.books}/{totals.ot.books} ({calculatePercent(data.ot.books, totals.ot.books)}%)</td>
+            <td>{data.nt.books}/{totals.nt.books} ({calculatePercent(data.nt.books, totals.nt.books)}%)</td>
+            <td>{data.total.books}/{totals.all.books} ({calculatePercent(data.total.books, totals.all.books)}%)</td>
+          </tr>
+          <tr>
+            <td>章</td>
+            <td>{data.ot.chapters}/{totals.ot.chapters} ({calculatePercent(data.ot.chapters, totals.ot.chapters)}%)</td>
+            <td>{data.nt.chapters}/{totals.nt.chapters} ({calculatePercent(data.nt.chapters, totals.nt.chapters)}%)</td>
+            <td>{data.total.chapters}/{totals.all.chapters} ({calculatePercent(data.total.chapters, totals.all.chapters)}%)</td>
+          </tr>
+          <tr>
+            <td>節</td>
+            <td>{data.ot.verses}/{totals.ot.verses} ({calculatePercent(data.ot.verses, totals.ot.verses)}%)</td>
+            <td>{data.nt.verses}/{totals.nt.verses} ({calculatePercent(data.nt.verses, totals.nt.verses)}%)</td>
+            <td>{data.total.verses}/{totals.all.verses} ({calculatePercent(data.total.verses, totals.all.verses)}%)</td>
+          </tr>
+        </tbody>
+      </table>
+    );
+  };
+
+  return (
+    <div className="progress-tables-container">
+      {renderTable('rom')}
+      {renderTable('han')}
+    </div>
+  );
+}
+
+
 function AboutBible() {
+  const [stats, setStats] = useState(null);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}stats.json`)
+      .then(response => response.json())
+      .then(data => setStats(data))
+      .catch(err => console.error("Failed to load stats.json:", err));
+  }, []);
+
+
   return (
     <div className="about-page">
       <div className="about-container">
@@ -33,8 +100,9 @@ function AboutBible() {
         <section className="about-section">
           <h2>當前進度</h2>
           <p>
-            目前已完成全書影像處理，並率先釋出《創世記》、《馬太福音》、《約翰二書》、《約翰三書》、《使徒猶大書》五卷的部分數位文本。其餘 61 卷的錄入工作正如火如荼進行中。
+            本專案的文本數位化工作仍在進行中。目前的錄入進度詳細如下：
           </p>
+          {stats ? <ProgressTable stats={stats} /> : <p>正在載入統計資料...</p>}
         </section>
 
         <section className="about-section">

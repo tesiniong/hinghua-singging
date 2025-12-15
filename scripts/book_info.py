@@ -80,7 +80,7 @@ NEW_TESTAMENT_BOOKS = [
     ("Bî-deh Hā̤u-cṳ", "彼得後書", "2 Peter", 1453),
     ("Io̤h-hāng Ih Cṳ", "約翰一書", "1 John", 1456),
     ("Io̤h-hāng Cī Cṳ", "約翰二書", "2 John", 1461),
-    ("Iók-hâng So̤ⁿ Cṳ", "約翰三書", "3 John", 1462),
+    ("Io̤h-hāng So̤ⁿ Cṳ", "約翰三書", "3 John", 1462),
     ("Seo̍-dó Iú-dāi Cṳ", "使徒猶大書", "Jude", 1463),
     ("Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h", "使徒約翰默示錄", "Revelation", 1465)
 ]
@@ -92,6 +92,18 @@ ALL_BOOKS = FOREWORD_BOOKS + OLD_TESTAMENT_BOOKS + NEW_TESTAMENT_BOOKS
 ROM_TO_HAN = {rom: han for rom, han, eng, page in ALL_BOOKS}
 HAN_TO_ROM = {han: rom for rom, han, eng, page in ALL_BOOKS}
 HAN_TO_ENG = {han: eng for rom, han, eng, page in ALL_BOOKS}
+
+# 聖經統計基準
+TOTALS = {
+    "ot": {"books": 39, "chapters": 929, "verses": 23145},
+    "nt": {"books": 27, "chapters": 260, "verses": 7957}
+}
+TOTALS["all"] = {
+    "books": TOTALS["ot"]["books"] + TOTALS["nt"]["books"],
+    "chapters": TOTALS["ot"]["chapters"] + TOTALS["nt"]["chapters"],
+    "verses": TOTALS["ot"]["verses"] + TOTALS["nt"]["verses"],
+}
+
 
 def get_book_by_page(page_num: int):
     """

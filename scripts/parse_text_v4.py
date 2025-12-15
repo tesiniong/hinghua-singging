@@ -93,66 +93,83 @@ def tokenize_rom(text):
     return tokens
 
 
+def is_hanzi(char):
+    """檢查一個字符是否在指定的漢字 Unicode 範圍內"""
+    return any([
+        '\u4e00' <= char <= '\u9fff',  # 基本區
+        '\u3400' <= char <= '\u4dbf',  # 擴A
+        '\u20000' <= char <= '\u2a6df', # B區
+        '\u2a700' <= char <= '\u2b73f', # C區
+        '\u2b740' <= char <= '\u2b81f', # D區
+        '\u2b820' <= char <= '\u2ceaf', # E區
+        '\u2ceb0' <= char <= '\u2ebef', # F區
+        '\u30000' <= char <= '\u3134f', # G區
+        '\u31350' <= char <= '\u323af', # H區
+        '\u2ebf0' <= char <= '\u2ee5f', # I區
+        '\u323b0' <= char <= '\u3347f', # J區
+        '\uf900' <= char <= '\ufaff',  # 相容表意文字
+        '\u3300' <= char <= '\u33ff',  # 相容字元
+        '\ufe30' <= char <= '\ufe4f',  # 相容形式
+        '\u31c0' <= char <= '\u31ef',  # 筆畫
+    ])
+
 def tokenize_han(text):
     """
-    將漢字文本分割為 tokens
-    返回：[{'type': 'char', 'text': '起'}, {'type': 'compound', 'text': '第一', 'chars': ['第', '一']}, ...]
+    將漢字文本分割為 tokens，能處理夾雜的羅馬字 (V3)。
+    將夾雜的羅馬字也按音節拆分。
     """
     tokens = []
     i = 0
+    punct_chars = '。，、；：！？（）「」『』【】…""''\u201C\u201D\u2018\u2019'
 
     while i < len(text):
         char = text[i]
 
-        # 專名標記（跳過）
-        if char == '{':
+        if char == '{': # 專名
             end = text.find('}', i)
             if end != -1:
-                # 找到專名，記錄專名內容
-                proper_name = text[i+1:end]
-                # 拆分專名中的每個字
-                for c in proper_name:
-                    if c in '。，、；：！？（）「」…':
-                        tokens.append({'type': 'punct', 'text': c})
-                    elif c.strip():
-                        tokens.append({'type': 'char', 'text': c, 'proper_name': True})
+                tokens.extend(tokenize_han(text[i+1:end]))
                 i = end + 1
                 continue
-
-        # 合音字開始（「」標記）
-        if char == '「':
+        
+        if char == '「': # 合音字
             end = text.find('」', i)
             if end != -1:
-                compound = text[i+1:end]
-                tokens.append({
-                    'type': 'compound',
-                    'text': compound,
-                    'chars': list(compound)
-                })
+                tokens.append({'type': 'compound', 'text': text[i+1:end]})
                 i = end + 1
                 continue
 
-        # 標點符號（包含中文和 Unicode 引號）
-        if char in '。，、；：！？（）「」『』【】…""''\u201C\u201D\u2018\u2019':
-            tokens.append({
-                'type': 'punct',
-                'text': char
-            })
+        if char in punct_chars:
+            tokens.append({'type': 'punct', 'text': char})
             i += 1
             continue
 
-        # 空白
-        if char.strip() == '':
+        if char.isspace():
             i += 1
             continue
 
-        # 一般漢字
-        tokens.append({
-            'type': 'char',
-            'text': char
-        })
-        i += 1
+        if is_hanzi(char):
+            tokens.append({'type': 'char', 'text': char})
+            i += 1
+            continue
 
+        # 非漢字、非標點、非空白 -> 視為羅馬字
+        j = i
+        rom_string = ""
+        while j < len(text) and not is_hanzi(text[j]) and text[j] not in punct_chars and not text[j].isspace():
+            rom_string += text[j]
+            j += 1
+        
+        if rom_string:
+            # 按連字號拆分音節
+            rom_syllables = rom_string.split('-')
+            for syllable in rom_syllables:
+                if syllable:
+                    tokens.append({'type': 'rom_in_han', 'text': syllable})
+            i = j
+        else:
+            i += 1 # 保底
+            
     return tokens
 
 
@@ -225,78 +242,75 @@ def extract_compound_chars(han_text):
 
 def align_tokens(han_text, rom_text):
     """
-    對齊漢字和羅馬字，生成 token 陣列 (重構版)
-    以羅馬字詞為單位進行遍歷，來解決包含合音字的 phrase 的對齊問題
+    對齊漢字和羅馬字，生成 token 陣列 (V4)
+    最終修正版：以羅馬字詞為單位遍歷，消耗對應數量的漢字單元，正確處理標點。
     """
-    han_tokens = tokenize_han(han_text)
-    rom_tokens = tokenize_rom(rom_text)
+    if not han_text and not rom_text:
+        return []
+        
+    han_units = tokenize_han(han_text)
+    rom_words = tokenize_rom(rom_text)
 
-    aligned = []
-    h_idx = 0  # han_tokens 的索引
-    r_idx = 0  # rom_tokens 的索引
+    aligned_tokens = []
+    h_cursor = 0  # 漢字單元流的指針
 
-    while h_idx < len(han_tokens) or r_idx < len(rom_tokens):
-        # 優先處理漢字中的標點
-        if h_idx < len(han_tokens) and han_tokens[h_idx]['type'] == 'punct':
-            aligned.append({
+    for rom_word_token in rom_words:
+        # 處理 rom_word 前的標點
+        while h_cursor < len(han_units) and han_units[h_cursor]['type'] == 'punct':
+            aligned_tokens.append({
                 'type': 'punct',
-                'han': han_tokens[h_idx]['text'],
+                'han': han_units[h_cursor]['text'],
                 'rom': ''
             })
-            h_idx += 1
-            continue
+            h_cursor += 1
 
-        # 如果漢字用完，或羅馬字用完，則退出（正常情況下不應發生）
-        if h_idx >= len(han_tokens) or r_idx >= len(rom_tokens):
-            break
-
-        rom_token = rom_tokens[r_idx]
-        rom_word = rom_token['text']
+        rom_word = rom_word_token['text']
         rom_syllables = rom_word.split('-')
         num_syllables = len(rom_syllables)
 
-        # 收集對應數量的漢字 token
-        collected_han_tokens = []
-        temp_h_idx = h_idx
-        while len(collected_han_tokens) < num_syllables and temp_h_idx < len(han_tokens):
-            # 跳過標點
-            if han_tokens[temp_h_idx]['type'] == 'punct':
-                temp_h_idx += 1
-                continue
-            collected_han_tokens.append(han_tokens[temp_h_idx])
-            temp_h_idx += 1
+        # 收集對應數量的漢字單元
+        collected_han_units = []
+        temp_h_cursor = h_cursor
+        while len(collected_han_units) < num_syllables and temp_h_cursor < len(han_units):
+            if han_units[temp_h_cursor]['type'] != 'punct':
+                collected_han_units.append(han_units[temp_h_cursor])
+            temp_h_cursor += 1
         
-        han_part_text = "".join([t['text'] for t in collected_han_tokens])
-        
-        # 判斷 form 類型
-        if num_syllables == 1 and len(collected_han_tokens) == 1:
-            if collected_han_tokens[0]['type'] == 'char':
-                form = 'single'
-            else: # compound
-                form = 'compound_single'
-        else:
-            form = 'phrase'
+        # 如果成功收集到漢字單元，則組合成一個詞
+        if collected_han_units:
+            # han_part_text = "".join([t['text'] for t in collected_han_units])
+            han_part_parts = []
+            for i, unit in enumerate(collected_han_units):
+                han_part_parts.append(unit['text'])
+                # 如果當前是 rom_in_han 且下一個也是 rom_in_han，則在中間加連字號
+                if i < len(collected_han_units) - 1 and \
+                   unit['type'] == 'rom_in_han' and \
+                   collected_han_units[i+1]['type'] == 'rom_in_han':
+                    han_part_parts.append('-')
+            han_part_text = "".join(han_part_parts)
             
-        # 檢查專有名詞
-        is_proper_name = any(t.get('proper_name', False) for t in collected_han_tokens)
+            form = 'phrase' if num_syllables > 1 or len(collected_han_units) > 1 else 'single'
+            if len(collected_han_units) == 1 and collected_han_units[0]['type'] == 'compound':
+                form = 'compound_single'
 
-        token = {
-            'type': 'word',
-            'han': han_part_text,
-            'rom': rom_word,
-            'form': form
-        }
-        if is_proper_name:
-            token['proper_name'] = True
+            aligned_tokens.append({
+                'type': 'word',
+                'han': han_part_text,
+                'rom': rom_word,
+                'form': form
+            })
+            h_cursor = temp_h_cursor # 更新主指針
+
+    # 處理結尾剩餘的標點
+    while h_cursor < len(han_units) and han_units[h_cursor]['type'] == 'punct':
+        aligned_tokens.append({
+            'type': 'punct',
+            'han': han_units[h_cursor]['text'],
+            'rom': ''
+        })
+        h_cursor += 1
         
-        aligned.append(token)
-
-        # 更新索引
-        h_idx = temp_h_idx
-        r_idx += 1
-
-    return aligned
-
+    return aligned_tokens
 
 def parse_structured_text(file_path):
     """
@@ -545,14 +559,70 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     else:
         print(f"\n  警告: website/public/ 目錄不存在，跳過複製")
 
-    total_verses_han = sum(len(ch.get('verses', {})) for bk in han_data.values() for ch in bk.get('chapters', {}).values())
-    total_verses_rom = sum(len(ch.get('verses', {})) for bk in rom_data.values() for ch in bk.get('chapters', {}).values())
+    # --- 開始產生統計資料 ---
+    from book_info import TOTALS, OLD_TESTAMENT_BOOKS, NEW_TESTAMENT_BOOKS
+    
+    ot_books_rom_names = {unicodedata.normalize('NFC', b[0]) for b in OLD_TESTAMENT_BOOKS}
+    nt_books_rom_names = {unicodedata.normalize('NFC', b[0]) for b in NEW_TESTAMENT_BOOKS}
+
+    stats = {
+        "rom": {"ot": {"books": 0, "chapters": 0, "verses": 0}, "nt": {"books": 0, "chapters": 0, "verses": 0}},
+        "han": {"ot": {"books": 0, "chapters": 0, "verses": 0}, "nt": {"books": 0, "chapters": 0, "verses": 0}},
+    }
+
+    for book in books:
+        book_rom_name = unicodedata.normalize('NFC', book['name_rom'])
+        is_ot = book_rom_name in ot_books_rom_names
+        is_nt = book_rom_name in nt_books_rom_names
+        
+        testament = None
+        if is_ot:
+            testament = "ot"
+        elif is_nt:
+            testament = "nt"
+
+        if testament:
+            has_rom_content = any(s.get('rom') for c in book['chapters'] for s in c['sections'])
+            has_han_content = any(s.get('han') for c in book['chapters'] for s in c['sections'])
+
+            if has_rom_content:
+                stats["rom"][testament]["books"] += 1
+            if has_han_content:
+                stats["han"][testament]["books"] += 1
+
+            for chapter in book['chapters']:
+                has_rom_chapter = any(s.get('rom') for s in chapter['sections'])
+                has_han_chapter = any(s.get('han') for s in chapter['sections'])
+
+                if has_rom_chapter:
+                    stats["rom"][testament]["chapters"] += 1
+                if has_han_chapter:
+                    stats["han"][testament]["chapters"] += 1
+                
+                stats["rom"][testament]["verses"] += sum(1 for s in chapter['sections'] if s.get('type') == 'verse' and s.get('rom'))
+                stats["han"][testament]["verses"] += sum(1 for s in chapter['sections'] if s.get('type') == 'verse' and s.get('han'))
+
+    # 計算總計
+    for lang in ["rom", "han"]:
+        stats[lang]["total"] = {
+            "books": stats[lang]["ot"]["books"] + stats[lang]["nt"]["books"],
+            "chapters": stats[lang]["ot"]["chapters"] + stats[lang]["nt"]["chapters"],
+            "verses": stats[lang]["ot"]["verses"] + stats[lang]["nt"]["verses"],
+        }
+    
+    stats["totals"] = TOTALS
+
+    # 寫入 stats.json
+    stats_output_path = Path('website/public/stats.json')
+    with open(stats_output_path, 'w', encoding='utf-8') as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
+    print(f"  已產生統計資料: {stats_output_path}")
 
     print(f"\n解析完成")
     print(f"  總書卷數: {len(books)}")
-    print(f"  總經節數 (han.txt): {total_verses_han}")
-    print(f"  總經節數 (rom.txt): {total_verses_rom}")
-    print(f"  輸出檔案: {output_file}")
+    print(f"  羅馬字: {stats['rom']['total']['verses']} 節 / {stats['rom']['total']['chapters']} 章 / {stats['rom']['total']['books']} 本")
+    print(f"  漢字: {stats['han']['total']['verses']} 節 / {stats['han']['total']['chapters']} 章 / {stats['han']['total']['books']} 本")
+    print(f"  輸出檔案: {output_file}, {stats_output_path.name}")
 
 
 def main():

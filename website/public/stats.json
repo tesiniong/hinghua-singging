@@ -1,0 +1,53 @@
+{
+  "rom": {
+    "ot": {
+      "books": 2,
+      "chapters": 7,
+      "verses": 163
+    },
+    "nt": {
+      "books": 4,
+      "chapters": 16,
+      "verses": 415
+    },
+    "total": {
+      "books": 6,
+      "chapters": 23,
+      "verses": 578
+    }
+  },
+  "han": {
+    "ot": {
+      "books": 2,
+      "chapters": 34,
+      "verses": 966
+    },
+    "nt": {
+      "books": 5,
+      "chapters": 6,
+      "verses": 71
+    },
+    "total": {
+      "books": 7,
+      "chapters": 40,
+      "verses": 1037
+    }
+  },
+  "totals": {
+    "ot": {
+      "books": 39,
+      "chapters": 929,
+      "verses": 23145
+    },
+    "nt": {
+      "books": 27,
+      "chapters": 260,
+      "verses": 7957
+    },
+    "all": {
+      "books": 66,
+      "chapters": 1189,
+      "verses": 31102
+    }
+  }
+}
