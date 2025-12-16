@@ -113,7 +113,7 @@
 16 Iú ciâ Gai-ṳ̂ng te̤̍, lī Cṳ̂ mi̍ng-sá̤ⁿ, kṳ̍ Ai-déng dang-bing, Nô̤-deh dā̤-ho̤ng do̍.
 
 ### Gai-ṳ̂ng ē hā̤u-dāi
-17 Gai-ṳ̂ng gah i lāu-mâ cuh dua̍-sing saⁿ Î-do̤̍h: hṳ̂ seo̍h sí Gai-ṳ̂ng kî seo̍h-ceō siáⁿ, cuh ta̤̍h i giô̤ⁿ ē miá heō ca̤̍ siáⁿ ga̤̍u Î-do̤̍h.
+17 Gai-ṳ̂ng gah i lāu-mâ ceo̍ seo̍h báng; i lāu-mâ cuh dua̍-sing saⁿ Î-do̤̍h: hṳ̂ seo̍h sí Gai-ṳ̂ng kî seo̍h-ceō siáⁿ, cuh ta̤̍h i giô̤ⁿ ē miá heō ca̤̍ siáⁿ ga̤̍u Î-do̤̍h.
 18 Î-do̤̍h saⁿ Î-la̍h; Î-la̍h saⁿ Bî-hō-ngâ-lī; Bî-hō-ngâ-lī saⁿ Mâ-tô-sah-lī; Mâ-tô-sah-lī saⁿ La̍h-be̍h.
 19 La̍h-be̍h teô nn̄g gá̤ lāu-mâ; seo̍h gá̤ miá A̍-dāi, seo̍h gá̤ miá Sêng-la̍h.
 20 A̍-dāi saⁿ Ngâ-bah: i sī do̍ da̤̍uⁿ-báng n̍g táu-saⁿ náng ē cô-co̤ng.
@@ -660,6 +660,13 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 4 Guâ kua̍ⁿ dṳ̂ ē giô̤ⁿ-cí bíng cing-lî ceo̍ seō, bíng guâ-go̤h-náng iú Teng-Hū sê̤ siū ē mīng-līng, guâ cuh duā huaⁿ-hî.
 5 Hū-cíng ā, guâ da siâ cṳ ko̍iⁿ dṳ̂, a̍i-dí guâ-go̤h-náng cá̤ seo-sā̤u, ca̤̍ n̄g-sī sing ē ga̍i-mīng, sī guâ-go̤h-náng cé̤ng kî-táu sê̤ siū ē ga̍i-mīng.
 6 Guâ-go̤h-náng bíng Cṳ̂ ē ga̍i-mīng ceo̍ seō, ca̤̍ cuh sī cíng-a̍i; iā sī dṳ̂ cé̤ng táu sê̤ tiaⁿ-mói gai-dng bíng ē ga̍i-mīng.
+7 Ing sa̤̍-gang ū cīng sā̤ iû-he̍h náng ē cheoh, n̄g-nīng Á̤-So Gi-Do̤h siáⁿ ne̤̍h-sing ga̍ng-sa̤̍. Ca̤̍ cuh sī iû-he̍h náng ē náng, iā sī gah Gi-Do̤h ceo̍ siú-de̍h.
+8 Dṳ̂-go̤h-náng da̤u̍h ga̍i sa̤̍-cī, mêng-dih pā-sih guâ-go̤h-náng ló̤-kô sê̤ ceo̍ ē seō, cuh ā̤ deh muâng-ce̤h ē siô̤ng-seo̍.
+9 Háng hāng-cōi beó dńg-dńg siû Gi-Do̤h ē dō̤-lî, ca̤̍ náng n̄g-sī se̤̍h leo̍h Siō̤ng-Da̤̍; ū dńg-dńg siû Siō̤ng-Da̤̍ ē dō̤-lî, ca̤̍ náng cuh sī se̤̍h leo̍h Teng-Hū léng I ē Giô̤ⁿ.
+10 Seh-seô ū náng ga̍u dṳ̂ hiô̤, sê̤ dóiⁿ ē n̄g-sī ca̤̍ dō̤, dṳ̂ n̄g-tang cī i di̍h cho̍, iā n̄g-tang chîng-ang i:
+11 ing-ūi náng chîng-ang i, cuh gah i ē cōi-o̤h ū heōng.
+12 Guâ ho̤̍h-ū cīng sā̤ beoh gah dṳ̂ gô̤ng, n̄g-sâi ē̤ng ciô̤, ba̍h: nō̤ ai-mō̤ng ā̤ ga̍u dṳ̂ hiô̤, gah dṳ̂ du̍i-mi̍ng gô̤ng, sâi dṳ̂ muâ-sing huaⁿ-hî.
+13 Dṳ̂ mó̤ng gâ̤ⁿ-tôiⁿ ē cî-mo̍i, i ē giô̤ⁿ-cí deo chîng-ang dṳ̂.
 
 # Io̤h-hāng So̤ⁿ Cṳ
 ## 1
@@ -673,7 +680,16 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 8 Ah-na ē náng, guâ-go̤h-náng gai-dng ciah-dāi i, î-di̍ ā̤ gah i cá̤ seo bang-cē̤ dóiⁿ ca̤̍ cing-lî.
 9 Guâ sá̤ⁿ-di̍h siâ cṳ̂ gio̤̍ keoh ga̍u-hōi: nō̤ Diu-deh-hi a̍i-dí ceo̍ ga̍u-hōi ē táu-náng, i n̄g ciah-dāi guâ-go̤h-náng.
 10 Go̍-cheô guâ lí, cuh beoh gi̍-gi̍-lē i sê̤ ceo̍ ē seō-lâ̤, i ē̤ng gái-uā pa̤-leōng guâ-go̤h-náng: ca̤̍ ho̤h beoh ce̤h-i̍, bi̍ng-chiâⁿ n̄g ciah-dāi hiaⁿ-dī; ū náng a̍i-dí ciah-dāi, i cuh lāng-cê̤ ca̤̍ náng, de̤̍h i cheoh-hōi.
-11 Ching-a̍i ē hiaⁿ-dī ā, dṳ̂ n̄g-tang eo̍h gái 
-12 
+11 Ching-a̍i ē hiaⁿ-dī ā, dṳ̂ n̄g-tang eo̍h gái, da̤u̍h eo̍h heô. Ceo̍ heô ē náng sī se̤̍h leo̍h Siō̤ng-Da̤̍ : ceo̍ gái ē náng sī bōi gi̍ng da̤u̍h Siō̤ng-Da̤̍.
+12 Dâ̤-bî-diu deh ce̤̍ng-náng ci̍ng-ge̍ng i sī heô, cing-lî iā ci̍ng-ge̍ng i: guâ-go̤h-náng iā ta̤̍ i ceo̍ ci̍ng-ge̍ng; dṳ̂ cai guâ ē ci̍ng-ge̍ng sī si̍h.
 13 Guâ ho̤h-ū cīng sā̤ uā gah dṳ̂ gô̤ng, nō̤ n̄g a̍i-dí ē̤ng bih, ba̍h, siâ keoh dṳ̂:
 14 bí-do̤̍h ai-mō̤ng gîng-gîng ā̤ kua̍ⁿ-gi̍ng dṳ̂, gah dṳ̂ du̍i-mi̍ng gô̤ng-leōng.
+15 Ngōi dṳ̂ bíng-ang. Ce̤̍ng béng-iû deo chîng-ang dṳ̂. Chiâⁿ dṳ̂ bíng miá chîng-ang hiô̤-sā̤ béng-iû.
+
+# Seô-dó Iú-dāi Cṳ
+## 1
+1 Á̤-So Gi-Do̤h ē nó-bo̤̍h, Ngâ-go̤h ē ā-dī Iú-dāi, gio̤̍ cṳ keoh mó̤ng-dā̤u ē náng, cuh sī keoh Teng-Hū Siō̤ng-Da̤̍ sê̤ sā̤u, ing-ūi Á̤-So Gi-Do̤h cuh deh bô̤-ceóng ē náng:
+2 ngōi ceó-bi bíng-ang cíng-a̍i, ga-bōi seo̍ keoh dṳ̂-go̤h-náng.
+3 Ching-a̍i ē hiaⁿ-dī ā! guâ gi̍-céng ṳnggṳ́ng siâ cṳ gio̤̍ keoh dṳ̂, gô̤ng-leōng  guâ-go̤h-náng sê̤ cá̤ deh ē cîng-giu̍, cuh da̤u̍h leo̍h cṳ lē lī-li̍ ko̍iⁿ dṳ̂ cīng-sing bēng-leōng cé̤ng-céng sê̤ dóiⁿ keoh si̍ng-dó ē dō̤-lî.
+4 Ing-ūi ū gûi gá̤ náng seo-o̤ di̍h-lí, i sī beó gi̍ng-géng ē náng, ta̤̍h guâ Siō̤ng-Da̤̍ ē ṳng be̍ng ceo̍ siâ-e̤̍h ē é̤ng-iú, buh n̄g-nīng do̤̍h-ih ē Cṳ̂ Siō̤ng-Da̤̍, léng guâ Cṳ̂ Á̤-So Gi-Do̤h, ca̤̍ náng cô̤-cô̤ diāⁿ-da̤u̍h siū ca̤̍ híng-hua̍h.
+5 Dṳ̂ sui-céng ā̤ cai ciô̤-sā̤ ē seō-lâ̤, guâ da a̍i-dí dṳ̂ ā̤-gi̍-lē, sá̤ⁿ-di̍h Cṳ̂ giu̍ bā-sa̍ⁿ cheoh Ai-gi̍h ē dā̤-ho̤ng, î-hā̤u buh be̍h ciô̤-sā̤ n̄g-se̍ng ē náng.
