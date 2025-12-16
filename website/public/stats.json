@@ -2,35 +2,35 @@
   "rom": {
     "ot": {
       "books": 2,
-      "chapters": 7,
-      "verses": 163
+      "chapters": 8,
+      "verses": 179
     },
     "nt": {
       "books": 4,
       "chapters": 16,
-      "verses": 415
+      "verses": 423
     },
     "total": {
       "books": 6,
-      "chapters": 23,
-      "verses": 578
+      "chapters": 24,
+      "verses": 602
     }
   },
   "han": {
     "ot": {
       "books": 2,
       "chapters": 34,
-      "verses": 966
+      "verses": 967
     },
     "nt": {
       "books": 5,
       "chapters": 6,
-      "verses": 71
+      "verses": 72
     },
     "total": {
       "books": 7,
       "chapters": 40,
-      "verses": 1037
+      "verses": 1039
     }
   },
   "totals": {
