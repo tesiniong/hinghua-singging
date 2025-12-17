@@ -168068,6 +168068,534 @@
                   "text": "bíng-ang"
                 }
               ]
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "Guâ sí-sió̤ng ta̤̍ dṳ̂ ce̤̍ng-náng gâng-siā guâ ē Siō̤ng-Da̤̍, ing dṳ̂ iú Gi-Do̤h Á̤-So, cuh mó̤ng Siō̤ng-Da̤̍ ē ṳng-hā̤;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "sí-sió̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ce̤̍ng-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "gâng-siā"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "iú"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "mó̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳng-hā̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "ing dṳ̂-go̤h-náng leo̍h háng seō ciā Gi-Do̤h deh hā̤u-ṳng, duā ū kâ̤u-cái di̍-sih:",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "háng"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "ciā"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "hā̤u-ṳng"
+                },
+                {
+                  "type": "word",
+                  "text": "duā"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "kâ̤u-cái"
+                },
+                {
+                  "type": "word",
+                  "text": "di̍-sih"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "ah-na ta̤̍ Gi-Do̤h sê̤ ci̍ng-ge̍ng ē dō̤, ge̤̍ng-li̍h leo̍h dṳ̂ do̤-ng:",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "ah-na"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ci̍ng-ge̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "dō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ge̤̍ng-li̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "do̤-ng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "î-di̍ dṳ̂-go̤h-náng deh ṳng-seo̍, deo beó ke̤h-a̍h; ai-mō̤ng guâ Cṳ̂ Á̤-So Gi-Do̤h hêng-hēng;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "î-di̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳng-seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "deo"
+                },
+                {
+                  "type": "word",
+                  "text": "beó"
+                },
+                {
+                  "type": "word",
+                  "text": "ke̤h-a̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ai-mō̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "hêng-hēng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "Siō̤ng-Da̤̍ iā dih-dih geng-go̍ dṳ̂ ga̍u suā-bôi, sâi dṳ̂ leo̍h guâ Cṳ̂ Á̤-So Gi-Do̤h ē di̍h-cî beó mo̍ih tang ceh-síng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "dih-dih"
+                },
+                {
+                  "type": "word",
+                  "text": "geng-go̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "suā-bôi"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "di̍h-cî"
+                },
+                {
+                  "type": "word",
+                  "text": "beó"
+                },
+                {
+                  "type": "word",
+                  "text": "mo̍ih"
+                },
+                {
+                  "type": "word",
+                  "text": "tang"
+                },
+                {
+                  "type": "word",
+                  "text": "ceh-síng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "Siō̤ng-Da̤̍ beh-céng dā̤u dṳ̂, gah I Giô̤ⁿ guâ Cṳ̂ Á̤-So Gi-Do̤h seo gau-to̤ng, I ta̍u-dâ̤ bā̤ sih-si̍ng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "beh-céng"
+                },
+                {
+                  "type": "word",
+                  "text": "dā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "Giô̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "seo"
+                },
+                {
+                  "type": "word",
+                  "text": "gau-to̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̍u-dâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "bā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sih-si̍ng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "Hiaⁿ-dī ā! guâ to̤h guâ Cṳ̂ Á̤-So Gi-Do̤h ē miá ko̍iⁿ dṳ̂, gô̤ng-leōng da̤u̍h sio̤ng-dó̤ng, dṳ̂ do̤-ng n̄g-tang geh-dô̤ng, da̤u̍h dó̤ng-sing ha̍h-i̍, cá̤ seo hó̤-bo̤̍h.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Hiaⁿ-dī"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "to̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "miá"
+                },
+                {
+                  "type": "word",
+                  "text": "ko̍iⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng-leōng"
+                },
+                {
+                  "type": "word",
+                  "text": "da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "sio̤ng-dó̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "do̤-ng"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-tang"
+                },
+                {
+                  "type": "word",
+                  "text": "geh-dô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "dó̤ng-sing"
+                },
+                {
+                  "type": "word",
+                  "text": "ha̍h-i̍"
+                },
+                {
+                  "type": "word",
+                  "text": "cá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "seo"
+                },
+                {
+                  "type": "word",
+                  "text": "hó̤-bo̤̍h"
+                }
+              ]
             }
           ]
         },
@@ -173271,1636 +173799,1741 @@
             {
               "type": "verse",
               "verse": 1,
-              "rom": "",
+              "rom": "Á̤-So Gi-Do̤h ē nó-bo̤̍h, Ngâ-go̤h ē ā-dī Iú-dāi, gio̤̍ cṳ keoh mó̤ng-dā̤u ē náng, cuh sī keoh Teng-Hū Siō̤ng-Da̤̍ sê̤ sā̤u, ing-ūi Á̤-So Gi-Do̤h cuh deh bô̤-ceóng ē náng:",
               "han": "耶穌基督其奴僕，雅各其阿弟猶大，寄書乞蒙召其儂，即是乞天父上帝所惜，因為耶穌基督即得保存其儂。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "耶"
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "穌"
+                  "type": "word",
+                  "han": "基督",
+                  "rom": "Gi-Do̤h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "基"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "督"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "奴"
-                },
-                {
-                  "type": "char",
-                  "text": "僕"
+                  "type": "word",
+                  "han": "奴僕",
+                  "rom": "nó-bo̤̍h",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "雅"
+                  "type": "word",
+                  "han": "雅各",
+                  "rom": "Ngâ-go̤h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "各"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "阿弟",
+                  "rom": "ā-dī",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "阿"
-                },
-                {
-                  "type": "char",
-                  "text": "弟"
-                },
-                {
-                  "type": "char",
-                  "text": "猶"
-                },
-                {
-                  "type": "char",
-                  "text": "大"
+                  "type": "word",
+                  "han": "猶大",
+                  "rom": "Iú-dāi",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "寄"
+                  "type": "word",
+                  "han": "寄",
+                  "rom": "gio̤̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "書"
+                  "type": "word",
+                  "han": "書",
+                  "rom": "cṳ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "乞"
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "蒙"
+                  "type": "word",
+                  "han": "蒙召",
+                  "rom": "mó̤ng-dā̤u",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "召"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "即"
-                },
-                {
-                  "type": "char",
-                  "text": "是"
-                },
-                {
-                  "type": "char",
-                  "text": "乞"
-                },
-                {
-                  "type": "char",
-                  "text": "天"
-                },
-                {
-                  "type": "char",
-                  "text": "父"
-                },
-                {
-                  "type": "char",
-                  "text": "上"
-                },
-                {
-                  "type": "char",
-                  "text": "帝"
-                },
-                {
-                  "type": "char",
-                  "text": "所"
-                },
-                {
-                  "type": "char",
-                  "text": "惜"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "因"
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "為"
+                  "type": "word",
+                  "han": "是",
+                  "rom": "sī",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "耶"
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "穌"
+                  "type": "word",
+                  "han": "天父",
+                  "rom": "Teng-Hū",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "基"
+                  "type": "word",
+                  "han": "上帝",
+                  "rom": "Siō̤ng-Da̤̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "督"
+                  "type": "word",
+                  "han": "所",
+                  "rom": "sê̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "即"
-                },
-                {
-                  "type": "char",
-                  "text": "得"
-                },
-                {
-                  "type": "char",
-                  "text": "保"
-                },
-                {
-                  "type": "char",
-                  "text": "存"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "惜",
+                  "rom": "sā̤u",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "因為",
+                  "rom": "ing-ūi",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "基督",
+                  "rom": "Gi-Do̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "得",
+                  "rom": "deh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "保存",
+                  "rom": "bô̤-ceóng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 2,
-              "rom": "",
+              "rom": "ngōi ceó-bi bíng-ang cíng-a̍i, ga-bōi seo̍ keoh dṳ̂-go̤h-náng.",
               "han": "願慈悲、平安、仁愛加倍賜乞汝各儂。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "願"
+                  "type": "word",
+                  "han": "願",
+                  "rom": "ngōi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "慈"
-                },
-                {
-                  "type": "char",
-                  "text": "悲"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "平"
-                },
-                {
-                  "type": "char",
-                  "text": "安"
+                  "type": "word",
+                  "han": "慈悲",
+                  "rom": "ceó-bi",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "、"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "仁"
-                },
-                {
-                  "type": "char",
-                  "text": "愛"
-                },
-                {
-                  "type": "char",
-                  "text": "加"
-                },
-                {
-                  "type": "char",
-                  "text": "倍"
-                },
-                {
-                  "type": "char",
-                  "text": "賜"
-                },
-                {
-                  "type": "char",
-                  "text": "乞"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
-                },
-                {
-                  "type": "char",
-                  "text": "各"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "平安",
+                  "rom": "bíng-ang",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "、",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "仁愛",
+                  "rom": "cíng-a̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "加倍",
+                  "rom": "ga-bōi",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "賜",
+                  "rom": "seo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝各儂",
+                  "rom": "dṳ̂-go̤h-náng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 3,
-              "rom": "",
+              "rom": "Ching-a̍i ē hiaⁿ-dī ā! guâ gi̍-céng ṳnggṳ́ng siâ cṳ gio̤̍ keoh dṳ̂, gô̤ng-leōng guâ-go̤h-náng sê̤ cá̤ deh ē cîng-giu̍, cuh da̤u̍h leo̍h cṳ lē lī-li̍ ko̍iⁿ dṳ̂ cīng-sing bēng-leōng cé̤ng-céng sê̤ dóiⁿ keoh si̍ng-dó ē dō̤-lî.",
               "han": "親愛其兄弟啊！我既然殷勤寫書寄乞汝，講論我各儂所得其拯救，即着落書咧內勢勸汝盡心辯論從前所傳乞聖徒其道理。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "親"
+                  "type": "word",
+                  "han": "親愛",
+                  "rom": "Ching-a̍i",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "愛"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "兄弟",
+                  "rom": "hiaⁿ-dī",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "兄"
-                },
-                {
-                  "type": "char",
-                  "text": "弟"
-                },
-                {
-                  "type": "char",
-                  "text": "啊"
-                },
-                {
-                  "type": "punct",
-                  "text": "！"
-                },
-                {
-                  "type": "char",
-                  "text": "我"
-                },
-                {
-                  "type": "char",
-                  "text": "既"
-                },
-                {
-                  "type": "char",
-                  "text": "然"
-                },
-                {
-                  "type": "char",
-                  "text": "殷"
-                },
-                {
-                  "type": "char",
-                  "text": "勤"
-                },
-                {
-                  "type": "char",
-                  "text": "寫"
-                },
-                {
-                  "type": "char",
-                  "text": "書"
-                },
-                {
-                  "type": "char",
-                  "text": "寄"
-                },
-                {
-                  "type": "char",
-                  "text": "乞"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
+                  "type": "word",
+                  "han": "啊",
+                  "rom": "ā",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "！",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "講"
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "論"
+                  "type": "word",
+                  "han": "既然",
+                  "rom": "gi̍-céng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "我"
+                  "type": "word",
+                  "han": "殷",
+                  "rom": "ṳnggṳ́ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "各"
+                  "type": "word",
+                  "han": "勤",
+                  "rom": "siâ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "寫",
+                  "rom": "cṳ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "所"
+                  "type": "word",
+                  "han": "書",
+                  "rom": "gio̤̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "得"
+                  "type": "word",
+                  "han": "寄",
+                  "rom": "keoh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "dṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "拯"
+                  "type": "word",
+                  "han": "汝講",
+                  "rom": "gô̤ng-leōng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "救"
+                  "type": "word",
+                  "han": "論我各",
+                  "rom": "guâ-go̤h-náng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "punct",
-                  "text": "，"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "sê̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "即"
+                  "type": "word",
+                  "han": "所",
+                  "rom": "cá̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "着"
+                  "type": "word",
+                  "han": "得",
+                  "rom": "deh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "落"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "書"
-                },
-                {
-                  "type": "char",
-                  "text": "咧"
-                },
-                {
-                  "type": "char",
-                  "text": "內"
-                },
-                {
-                  "type": "char",
-                  "text": "勢"
-                },
-                {
-                  "type": "char",
-                  "text": "勸"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
-                },
-                {
-                  "type": "char",
-                  "text": "盡"
-                },
-                {
-                  "type": "char",
-                  "text": "心"
-                },
-                {
-                  "type": "char",
-                  "text": "辯"
-                },
-                {
-                  "type": "char",
-                  "text": "論"
-                },
-                {
-                  "type": "char",
-                  "text": "從"
-                },
-                {
-                  "type": "char",
-                  "text": "前"
-                },
-                {
-                  "type": "char",
-                  "text": "所"
-                },
-                {
-                  "type": "char",
-                  "text": "傳"
-                },
-                {
-                  "type": "char",
-                  "text": "乞"
-                },
-                {
-                  "type": "char",
-                  "text": "聖"
-                },
-                {
-                  "type": "char",
-                  "text": "徒"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "道"
-                },
-                {
-                  "type": "char",
-                  "text": "理"
+                  "type": "word",
+                  "han": "拯救",
+                  "rom": "cîng-giu̍",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "着",
+                  "rom": "da̤u̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "書",
+                  "rom": "cṳ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "內勢",
+                  "rom": "lī-li̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "勸",
+                  "rom": "ko̍iⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "盡心",
+                  "rom": "cīng-sing",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "辯論",
+                  "rom": "bēng-leōng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "從前",
+                  "rom": "cé̤ng-céng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "所",
+                  "rom": "sê̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "傳",
+                  "rom": "dóiⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "聖徒",
+                  "rom": "si̍ng-dó",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "道理",
+                  "rom": "dō̤-lî",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 4,
-              "rom": "",
+              "rom": "Ing-ūi ū gûi gá̤ náng seo-o̤ di̍h-lí, i sī beó gi̍ng-géng ē náng, ta̤̍h guâ Siō̤ng-Da̤̍ ē ṳng be̍ng ceo̍ siâ-e̤̍h ē é̤ng-iú, buh n̄g-nīng do̤̍h-ih ē Cṳ̂ Siō̤ng-Da̤̍, léng guâ Cṳ̂ Á̤-So Gi-Do̤h, ca̤̍ náng cô̤-cô̤ diāⁿ-da̤u̍h siū ca̤̍ híng-hua̍h.",
               "han": "因為有幾個儂seo-o̤入來，伊是無敬虔其儂，摕我上帝其恩變做邪惡其緣由，複毋認獨一其主上帝，連我主耶穌基督，這儂早々定着受這刑罰。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "因"
+                  "type": "word",
+                  "han": "因為",
+                  "rom": "Ing-ūi",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "為"
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "有"
+                  "type": "word",
+                  "han": "幾",
+                  "rom": "gûi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "幾"
+                  "type": "word",
+                  "han": "個",
+                  "rom": "gá̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "個"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "seo-o̤",
+                  "rom": "seo-o̤",
+                  "form": "phrase"
                 },
                 {
-                  "type": "rom_in_han",
-                  "text": "seo"
-                },
-                {
-                  "type": "rom_in_han",
-                  "text": "o̤"
-                },
-                {
-                  "type": "char",
-                  "text": "入"
-                },
-                {
-                  "type": "char",
-                  "text": "來"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
-                },
-                {
-                  "type": "char",
-                  "text": "是"
-                },
-                {
-                  "type": "char",
-                  "text": "無"
-                },
-                {
-                  "type": "char",
-                  "text": "敬"
-                },
-                {
-                  "type": "char",
-                  "text": "虔"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "入來",
+                  "rom": "di̍h-lí",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "摕"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "我"
+                  "type": "word",
+                  "han": "是",
+                  "rom": "sī",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "上"
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "帝"
+                  "type": "word",
+                  "han": "敬虔",
+                  "rom": "gi̍ng-géng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "恩"
-                },
-                {
-                  "type": "char",
-                  "text": "變"
-                },
-                {
-                  "type": "char",
-                  "text": "做"
-                },
-                {
-                  "type": "char",
-                  "text": "邪"
-                },
-                {
-                  "type": "char",
-                  "text": "惡"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "緣"
-                },
-                {
-                  "type": "char",
-                  "text": "由"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "複"
+                  "type": "word",
+                  "han": "摕",
+                  "rom": "ta̤̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "毋"
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "認"
+                  "type": "word",
+                  "han": "上帝",
+                  "rom": "Siō̤ng-Da̤̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "獨"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "一"
+                  "type": "word",
+                  "han": "恩",
+                  "rom": "ṳng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "變",
+                  "rom": "be̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "主"
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "上"
+                  "type": "word",
+                  "han": "邪惡",
+                  "rom": "siâ-e̤̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "帝"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "連"
-                },
-                {
-                  "type": "char",
-                  "text": "我"
-                },
-                {
-                  "type": "char",
-                  "text": "主"
-                },
-                {
-                  "type": "char",
-                  "text": "耶"
-                },
-                {
-                  "type": "char",
-                  "text": "穌"
-                },
-                {
-                  "type": "char",
-                  "text": "基"
-                },
-                {
-                  "type": "char",
-                  "text": "督"
+                  "type": "word",
+                  "han": "緣由",
+                  "rom": "é̤ng-iú",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "這"
+                  "type": "word",
+                  "han": "複",
+                  "rom": "buh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "毋認",
+                  "rom": "n̄g-nīng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "早"
+                  "type": "word",
+                  "han": "獨一",
+                  "rom": "do̤̍h-ih",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "々"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "定"
+                  "type": "word",
+                  "han": "主",
+                  "rom": "Cṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "着"
-                },
-                {
-                  "type": "char",
-                  "text": "受"
-                },
-                {
-                  "type": "char",
-                  "text": "這"
-                },
-                {
-                  "type": "char",
-                  "text": "刑"
-                },
-                {
-                  "type": "char",
-                  "text": "罰"
+                  "type": "word",
+                  "han": "上帝",
+                  "rom": "Siō̤ng-Da̤̍",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "主",
+                  "rom": "Cṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "基督",
+                  "rom": "Gi-Do̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "這",
+                  "rom": "ca̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "早々",
+                  "rom": "cô̤-cô̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "定着",
+                  "rom": "diāⁿ-da̤u̍h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "受",
+                  "rom": "siū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "這",
+                  "rom": "ca̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "刑罰",
+                  "rom": "híng-hua̍h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 5,
-              "rom": "",
+              "rom": "Dṳ̂ sui-céng ā̤ cai ciô̤-sā̤ ē seō-lâ̤, guâ da a̍i-dí dṳ̂ ā̤-gi̍-lē, sá̤ⁿ-di̍h Cṳ̂ giu̍ bā-sa̍ⁿ cheoh Ai-gi̍h ē dā̤-ho̤ng, î-hā̤u buh be̍h ciô̤-sā̤ n̄g-se̍ng ē náng.",
               "han": "汝雖然解知燳穧其事體，我仱愛挃汝解記咧，前日主救百姓出埃及其地方，以後複滅燳穧毋信其儂。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "汝"
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "Dṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "雖"
+                  "type": "word",
+                  "han": "雖然",
+                  "rom": "sui-céng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "然"
+                  "type": "word",
+                  "han": "解",
+                  "rom": "ā̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "解"
+                  "type": "word",
+                  "han": "知",
+                  "rom": "cai",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "知"
+                  "type": "word",
+                  "han": "燳穧",
+                  "rom": "ciô̤-sā̤",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "燳"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "穧"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "事"
-                },
-                {
-                  "type": "char",
-                  "text": "體"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "我"
-                },
-                {
-                  "type": "char",
-                  "text": "仱"
-                },
-                {
-                  "type": "char",
-                  "text": "愛"
-                },
-                {
-                  "type": "char",
-                  "text": "挃"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
-                },
-                {
-                  "type": "char",
-                  "text": "解"
-                },
-                {
-                  "type": "char",
-                  "text": "記"
-                },
-                {
-                  "type": "char",
-                  "text": "咧"
+                  "type": "word",
+                  "han": "事體",
+                  "rom": "seō-lâ̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "前"
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "日"
+                  "type": "word",
+                  "han": "仱",
+                  "rom": "da",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "主"
+                  "type": "word",
+                  "han": "愛挃",
+                  "rom": "a̍i-dí",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "救"
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "百"
-                },
-                {
-                  "type": "char",
-                  "text": "姓"
-                },
-                {
-                  "type": "char",
-                  "text": "出"
-                },
-                {
-                  "type": "char",
-                  "text": "埃"
-                },
-                {
-                  "type": "char",
-                  "text": "及"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "方"
+                  "type": "word",
+                  "han": "解記咧",
+                  "rom": "ā̤-gi̍-lē",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "以"
+                  "type": "word",
+                  "han": "前日",
+                  "rom": "sá̤ⁿ-di̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "後"
+                  "type": "word",
+                  "han": "主",
+                  "rom": "Cṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "複"
+                  "type": "word",
+                  "han": "救",
+                  "rom": "giu̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "滅"
+                  "type": "word",
+                  "han": "百姓",
+                  "rom": "bā-sa̍ⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "燳"
+                  "type": "word",
+                  "han": "出",
+                  "rom": "cheoh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "穧"
+                  "type": "word",
+                  "han": "埃及",
+                  "rom": "Ai-gi̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "毋"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "信"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "地方",
+                  "rom": "dā̤-ho̤ng",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "以後",
+                  "rom": "î-hā̤u",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "複",
+                  "rom": "buh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "滅",
+                  "rom": "be̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "燳穧",
+                  "rom": "ciô̤-sā̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "毋信",
+                  "rom": "n̄g-se̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 6,
-              "rom": "",
+              "rom": "Bi̍ng-chiâⁿ teng-seo̍ beó siû i ga̍i beông-lái ē cih-heōng, lī kṳ̍ beông-ūi, Cṳ̂ cuh ta̤̍h bā̤ dē̤ⁿ ē tī-seô bo̤̍h i, goiⁿ leo̍h o-a̍ng ē ūi-chṳ̍, dêng ga̍u duā di̍h ē sîng-pua̍ng.",
               "han": "並且天使無守伊家己本來其職分，離去本位，主即摕𣍐斷其鐵索縛伊，關落烏暗其位處，等遘大日其審判。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "並"
+                  "type": "word",
+                  "han": "並且",
+                  "rom": "Bi̍ng-chiâⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "且"
+                  "type": "word",
+                  "han": "天使",
+                  "rom": "teng-seo̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "天"
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "使"
+                  "type": "word",
+                  "han": "守",
+                  "rom": "siû",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "無"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "守"
+                  "type": "word",
+                  "han": "家己",
+                  "rom": "ga̍i",
+                  "form": "compound_single"
                 },
                 {
-                  "type": "char",
-                  "text": "伊"
+                  "type": "word",
+                  "han": "本來",
+                  "rom": "beông-lái",
+                  "form": "phrase"
                 },
                 {
-                  "type": "compound",
-                  "text": "家己"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "本"
-                },
-                {
-                  "type": "char",
-                  "text": "來"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "職"
-                },
-                {
-                  "type": "char",
-                  "text": "分"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "離"
-                },
-                {
-                  "type": "char",
-                  "text": "去"
-                },
-                {
-                  "type": "char",
-                  "text": "本"
-                },
-                {
-                  "type": "char",
-                  "text": "位"
+                  "type": "word",
+                  "han": "職分",
+                  "rom": "cih-heōng",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "主"
+                  "type": "word",
+                  "han": "離",
+                  "rom": "lī",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "即"
+                  "type": "word",
+                  "han": "去",
+                  "rom": "kṳ̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "摕"
-                },
-                {
-                  "type": "rom_in_han",
-                  "text": "𣍐"
-                },
-                {
-                  "type": "char",
-                  "text": "斷"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "鐵"
-                },
-                {
-                  "type": "char",
-                  "text": "索"
-                },
-                {
-                  "type": "char",
-                  "text": "縛"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
+                  "type": "word",
+                  "han": "本位",
+                  "rom": "beông-ūi",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "關"
+                  "type": "word",
+                  "han": "主",
+                  "rom": "Cṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "落"
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "烏"
+                  "type": "word",
+                  "han": "摕",
+                  "rom": "ta̤̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "暗"
+                  "type": "word",
+                  "han": "𣍐",
+                  "rom": "bā̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "斷",
+                  "rom": "dē̤ⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "位"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "處"
+                  "type": "word",
+                  "han": "鐵索",
+                  "rom": "tī-seô",
+                  "form": "phrase"
                 },
                 {
-                  "type": "punct",
-                  "text": "，"
+                  "type": "word",
+                  "han": "縛",
+                  "rom": "bo̤̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "等"
-                },
-                {
-                  "type": "char",
-                  "text": "遘"
-                },
-                {
-                  "type": "char",
-                  "text": "大"
-                },
-                {
-                  "type": "char",
-                  "text": "日"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "審"
-                },
-                {
-                  "type": "char",
-                  "text": "判"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "關",
+                  "rom": "goiⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "烏暗",
+                  "rom": "o-a̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "位處",
+                  "rom": "ūi-chṳ̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "等",
+                  "rom": "dêng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "遘",
+                  "rom": "ga̍u",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "大",
+                  "rom": "duā",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "日",
+                  "rom": "di̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "審判",
+                  "rom": "sîng-pua̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 7,
-              "rom": "",
+              "rom": "Sê̤-do̤-mâ Gó̤-mó̤-la̍h léng si̍-ho̤ng-ha̤̍uⁿ gā̤ⁿ-siáⁿ ē náng, iā ah-na é̤ng-cé̤ng seo-e̤̍h, héng gang-íng, léng cé̤ng go̤h ā̤uⁿ ē siá-e̤̍h, cuh siū híng-hua̍h, ē̤ng ṳ̂ng-ê̤ng ē hôi sa̤u, láu ceo̍ gîng-ga̍i.",
               "han": "所多瑪俄摩拉連四方向縣城其儂，亦安生容縱私慾，行姦淫，連從各樣其邪慾，即受刑罰。用永遠其火燒，留作警戒。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "所"
+                  "type": "word",
+                  "han": "所多瑪",
+                  "rom": "Sê̤-do̤-mâ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "多"
+                  "type": "word",
+                  "han": "俄摩拉",
+                  "rom": "Gó̤-mó̤-la̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "瑪"
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "俄"
+                  "type": "word",
+                  "han": "四方向",
+                  "rom": "si̍-ho̤ng-ha̤̍uⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "摩"
+                  "type": "word",
+                  "han": "縣城",
+                  "rom": "gā̤ⁿ-siáⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "拉"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "連"
-                },
-                {
-                  "type": "char",
-                  "text": "四"
-                },
-                {
-                  "type": "char",
-                  "text": "方"
-                },
-                {
-                  "type": "char",
-                  "text": "向"
-                },
-                {
-                  "type": "char",
-                  "text": "縣"
-                },
-                {
-                  "type": "char",
-                  "text": "城"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "亦"
+                  "type": "word",
+                  "han": "亦",
+                  "rom": "iā",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "安"
+                  "type": "word",
+                  "han": "安生",
+                  "rom": "ah-na",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "生"
+                  "type": "word",
+                  "han": "容縱",
+                  "rom": "é̤ng-cé̤ng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "容"
-                },
-                {
-                  "type": "char",
-                  "text": "縱"
-                },
-                {
-                  "type": "char",
-                  "text": "私"
-                },
-                {
-                  "type": "char",
-                  "text": "慾"
+                  "type": "word",
+                  "han": "私慾",
+                  "rom": "seo-e̤̍h",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "行"
+                  "type": "word",
+                  "han": "行",
+                  "rom": "héng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "姦"
-                },
-                {
-                  "type": "char",
-                  "text": "淫"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "連"
-                },
-                {
-                  "type": "char",
-                  "text": "從"
-                },
-                {
-                  "type": "char",
-                  "text": "各"
-                },
-                {
-                  "type": "char",
-                  "text": "樣"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "邪"
-                },
-                {
-                  "type": "char",
-                  "text": "慾"
+                  "type": "word",
+                  "han": "姦淫",
+                  "rom": "gang-íng",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "即"
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "受"
+                  "type": "word",
+                  "han": "從",
+                  "rom": "cé̤ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "刑"
+                  "type": "word",
+                  "han": "各",
+                  "rom": "go̤h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "罰"
+                  "type": "word",
+                  "han": "樣",
+                  "rom": "ā̤uⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "punct",
-                  "text": "。"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "用"
-                },
-                {
-                  "type": "char",
-                  "text": "永"
-                },
-                {
-                  "type": "char",
-                  "text": "遠"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "火"
-                },
-                {
-                  "type": "char",
-                  "text": "燒"
+                  "type": "word",
+                  "han": "邪慾",
+                  "rom": "siá-e̤̍h",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "留"
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "作"
+                  "type": "word",
+                  "han": "受",
+                  "rom": "siū",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "警"
-                },
-                {
-                  "type": "char",
-                  "text": "戒"
+                  "type": "word",
+                  "han": "刑罰",
+                  "rom": "híng-hua̍h",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "。",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "用",
+                  "rom": "ē̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "永遠",
+                  "rom": "ṳ̂ng-ê̤ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "火",
+                  "rom": "hôi",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "燒",
+                  "rom": "sa̤u",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "留",
+                  "rom": "láu",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "作",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "警戒",
+                  "rom": "gîng-ga̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 8,
-              "rom": "",
+              "rom": "Ca̤̍ seo̍h cê̤ng ceo̍-ma̍ng ē náng, iā ah-na u̍-o̍i i ē sing-tâ̤, kua̍ⁿ-king ū gé̤ng-ba̍ⁿ ē náng, hûi-bo̤̍ng duā-náng.",
               "han": "這蜀種做夢其儂，亦安生污穢伊其身體，看輕有權柄其儂，毀謗大儂。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "這"
+                  "type": "word",
+                  "han": "這",
+                  "rom": "Ca̤̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "蜀"
+                  "type": "word",
+                  "han": "蜀",
+                  "rom": "seo̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "種"
+                  "type": "word",
+                  "han": "種",
+                  "rom": "cê̤ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "做"
+                  "type": "word",
+                  "han": "做夢",
+                  "rom": "ceo̍-ma̍ng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "夢"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "亦"
-                },
-                {
-                  "type": "char",
-                  "text": "安"
-                },
-                {
-                  "type": "char",
-                  "text": "生"
-                },
-                {
-                  "type": "char",
-                  "text": "污"
-                },
-                {
-                  "type": "char",
-                  "text": "穢"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "身"
-                },
-                {
-                  "type": "char",
-                  "text": "體"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "看"
+                  "type": "word",
+                  "han": "亦",
+                  "rom": "iā",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "輕"
+                  "type": "word",
+                  "han": "安生",
+                  "rom": "ah-na",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "有"
+                  "type": "word",
+                  "han": "污穢",
+                  "rom": "u̍-o̍i",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "權"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "柄"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "毀"
-                },
-                {
-                  "type": "char",
-                  "text": "謗"
-                },
-                {
-                  "type": "char",
-                  "text": "大"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
+                  "type": "word",
+                  "han": "身體",
+                  "rom": "sing-tâ̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "看輕",
+                  "rom": "kua̍ⁿ-king",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "權柄",
+                  "rom": "gé̤ng-ba̍ⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "毀謗",
+                  "rom": "hûi-bo̤̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "大儂",
+                  "rom": "duā-náng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 9,
-              "rom": "",
+              "rom": "Teng-seo̍-diô̤ng Bî-ga-leh, ing-ūi Mó̤-sa̤ ē sing-si, gah mó̤-gûi seo-caⁿ, deo n̄ggô̤ⁿ mo̤̍ i, diāⁿ i ē cōi, nō̤ gô̤ng, Cṳ̂ ceh-bī dṳ̂.",
               "han": "天使長米迦勒因為摩西其身屍佮魔鬼廝爭，都毋敢罵伊定伊其罪，喏講：“主責備汝。”",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "天"
+                  "type": "word",
+                  "han": "天使長",
+                  "rom": "Teng-seo̍-diô̤ng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "使"
+                  "type": "word",
+                  "han": "米迦勒",
+                  "rom": "Bî-ga-leh",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "長"
+                  "type": "word",
+                  "han": "因為",
+                  "rom": "ing-ūi",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "米"
+                  "type": "word",
+                  "han": "摩西",
+                  "rom": "Mó̤-sa̤",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "迦"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "勒"
+                  "type": "word",
+                  "han": "身屍",
+                  "rom": "sing-si",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "因"
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "為"
+                  "type": "word",
+                  "han": "魔鬼",
+                  "rom": "mó̤-gûi",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "摩"
-                },
-                {
-                  "type": "char",
-                  "text": "西"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "身"
-                },
-                {
-                  "type": "char",
-                  "text": "屍"
-                },
-                {
-                  "type": "char",
-                  "text": "佮"
-                },
-                {
-                  "type": "char",
-                  "text": "魔"
-                },
-                {
-                  "type": "char",
-                  "text": "鬼"
-                },
-                {
-                  "type": "char",
-                  "text": "廝"
-                },
-                {
-                  "type": "char",
-                  "text": "爭"
+                  "type": "word",
+                  "han": "廝爭",
+                  "rom": "seo-caⁿ",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "都"
+                  "type": "word",
+                  "han": "都",
+                  "rom": "deo",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "毋"
+                  "type": "word",
+                  "han": "毋",
+                  "rom": "n̄ggô̤ⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "敢"
+                  "type": "word",
+                  "han": "敢",
+                  "rom": "mo̤̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "罵"
+                  "type": "word",
+                  "han": "罵",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "伊"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "diāⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "定"
+                  "type": "word",
+                  "han": "定",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "伊"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "cōi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "罪"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "喏"
-                },
-                {
-                  "type": "char",
-                  "text": "講"
-                },
-                {
-                  "type": "punct",
-                  "text": "："
-                },
-                {
-                  "type": "punct",
-                  "text": "“"
-                },
-                {
-                  "type": "char",
-                  "text": "主"
-                },
-                {
-                  "type": "char",
-                  "text": "責"
-                },
-                {
-                  "type": "char",
-                  "text": "備"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
+                  "type": "word",
+                  "han": "罪",
+                  "rom": "nō̤",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "喏",
+                  "rom": "gô̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "Cṳ̂",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "”"
+                  "han": "：",
+                  "rom": ""
+                },
+                {
+                  "type": "punct",
+                  "han": "“",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "主責",
+                  "rom": "ceh-bī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "備",
+                  "rom": "dṳ̂",
+                  "form": "single"
                 }
               ]
             },
