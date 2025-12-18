@@ -48,7 +48,7 @@ function Home() {
       <header className="app-header">
         <div className="header-container">
           <div className="title-line title-han">舊新約全書　興化平話</div>
-          <div className="title-line title-rom">GŪ-SING-IO̤H CÉ̤NG-CṲ   HING-HUA̍ BÁⁿ-UĀ</div>
+          <div className="title-line title-rom">GŪ-SING-IO̤H CÉ̤ⁿ-CṲ HING-HUA̍ BÁⁿ-UĀ</div>
           <div className="title-line title-eng">
             <span className="title-eng-large">THE HOLY BIBLE</span><br />
             <span className="title-eng-script">Containing the</span> <span className="title-eng-sc">OLD AND NEW TESTAMENTS</span><br />

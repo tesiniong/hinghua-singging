@@ -2,10 +2,10 @@ import './ModeSelector.css';
 
 function ModeSelector({ currentMode, onModeChange, isEnglishForeword }) {
   const modes = [
+    { id: 'rom-only', label: '羅馬字原文', icon: 'A' },
+    { id: 'han-only', label: '漢字轉寫', icon: '漢' },
     { id: 'dual', label: '雙欄對照', icon: '⚏' },
     { id: 'ruby', label: 'Ruby 注音', icon: '㋐' },
-    { id: 'han-only', label: '僅漢字', icon: '漢' },
-    { id: 'rom-only', label: '僅羅馬字', icon: 'A' },
   ];
 
   return (

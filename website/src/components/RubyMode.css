@@ -54,7 +54,7 @@
   color: #555555;
   font-family: var(--font-roman);
   line-height: 1;
-  letter-spacing: 0.05em;  /* 為羅馬字音節增加間距 */
+  /* letter-spacing: 0.05em;  移除此屬性，以避免變音符號位移 */
   padding: 0 0.1em;  /* 左右添加內距，避免音節黏在一起 */
 }
 
@@ -82,7 +82,7 @@
 
   .ruby-word rt {
     font-size: 0.55em;
-    letter-spacing: 0.05em;
+    /* letter-spacing: 0.05em; 再次移除此屬性 */
     padding: 0 0.1em;
   }
 

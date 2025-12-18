@@ -87,7 +87,7 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
           return (
             <ruby key={idx} className="ruby-word">
               {token.han}
-              <rt>{token.rom}</rt>
+              <rt><span>{token.rom}</span></rt>
             </ruby>
           );
         }
@@ -97,7 +97,7 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
         }
 
         if (token.type === 'word' && token.rom) {
-          return <span key={idx} className="ruby-rom-only">{token.rom}</span>;
+          return <span key={idx} className="ruby-rom-only"><span>{token.rom}</span></span>;
         }
 
         return null;
@@ -144,7 +144,7 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
         result.push(
           <ruby key={idx} className="ruby-word">
             {token.han}
-            <rt>{token.rom}</rt>
+            <rt><span>{token.rom}</span></rt>
           </ruby>
         );
         charPosition += token.han.length;
@@ -152,7 +152,7 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
         result.push(<span key={idx} className="ruby-word-no-rom">{token.han}</span>);
         charPosition += token.han.length;
       } else if (token.type === 'word' && token.rom) {
-        result.push(<span key={idx} className="ruby-rom-only">{token.rom}</span>);
+        result.push(<span key={idx} className="ruby-rom-only"><span>{token.rom}</span></span>);
         // 只有羅馬字沒有漢字，不增加 charPosition
       }
     });
