@@ -65,6 +65,15 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
     // 渲染基本邏輯
     const renderBasicTokens = () => {
       return tokens.map((token, idx) => {
+        // 新增：處理只有 'text' 屬性的 token (來自 tokenize_han)
+        if (token.text && token.han === undefined) {
+          if (token.type === 'punct') {
+            return <span key={idx} className="ruby-punct">{token.text}</span>;
+          }
+          // 假定 'char', 'rom_in_han', 'compound' 類型都應顯示為純漢字
+          return <span key={idx} className="ruby-word-no-rom">{token.text}</span>;
+        }
+        
         if (token.type === 'punct') {
           return <span key={idx} className="ruby-punct">{token.han}</span>;
         }
@@ -114,9 +123,20 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
       }
 
       // 渲染當前 token
-      if (token.type === 'punct') {
+      // 新增：處理只有 'text' 屬性的 token (來自 tokenize_han)
+      if (token.text && token.han === undefined) {
+        if (token.type === 'punct') {
+          result.push(<span key={idx} className="ruby-punct">{token.text}</span>);
+        } else {
+          result.push(<span key={idx} className="ruby-word-no-rom">{token.text}</span>);
+        }
+        // 這些 token 都是漢字或標點，所以要增加 charPosition
+        if (token.text) {
+          charPosition += token.text.length;
+        }
+      } else if (token.type === 'punct') {
         result.push(<span key={idx} className="ruby-punct">{token.han}</span>);
-        charPosition += token.han.length;
+        if (token.han) charPosition += token.han.length;
       } else if (token.han && token.rom && token.han.normalize('NFC') === token.rom.normalize('NFC')) {
         result.push(<span key={idx} className="ruby-identical">{token.han}</span>);
         charPosition += token.han.length;

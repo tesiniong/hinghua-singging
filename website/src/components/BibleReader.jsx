@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './BibleReader.css';
 import BookSelector from './BookSelector';
 import ModeSelector from './ModeSelector';
@@ -13,6 +13,8 @@ function BibleReader({ bibleData }) {
   const [currentChapter, setCurrentChapter] = useState(0);
   const [pageMapping, setPageMapping] = useState(null);
   const [pageOcrResults, setPageOcrResults] = useState(null);
+  const controlsRef = useRef(null);
+  const [shouldScrollToControls, setShouldScrollToControls] = useState(false);
 
   useEffect(() => {
     // 載入章節-頁面對應表
@@ -38,6 +40,14 @@ function BibleReader({ bibleData }) {
       setMode('rom-only');
     }
   }, [currentBookIndex, isEnglishForeword]);
+
+  // Effect to scroll to controls after search result click
+  useEffect(() => {
+    if (shouldScrollToControls && controlsRef.current) {
+      controlsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setShouldScrollToControls(false);
+    }
+  }, [shouldScrollToControls, currentBookIndex, currentChapter]);
 
 
   if (!bibleData || !bibleData.books || bibleData.books.length === 0) {
@@ -118,8 +128,7 @@ function BibleReader({ bibleData }) {
   const handleSearchResultClick = (bookIndex, chapterIndex) => {
     setCurrentBookIndex(bookIndex);
     setCurrentChapter(chapterIndex);
-    // 滾動到頁面頂部
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setShouldScrollToControls(true);
   };
 
   const handleBookSelect = (bookIndex) => {
@@ -138,7 +147,7 @@ function BibleReader({ bibleData }) {
 
         <SearchBox bibleData={bibleData} onResultClick={handleSearchResultClick} />
 
-        <div className="bible-controls">
+        <div className="bible-controls" ref={controlsRef}>
           <ModeSelector
             currentMode={mode}
             onModeChange={handleModeChange}

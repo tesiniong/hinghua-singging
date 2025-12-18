@@ -20,7 +20,7 @@ function SearchBox({ bibleData, onResultClick }) {
     const searchResults = [];
     const lowerTerm = term.toLowerCase();
 
-    bibleData.books.forEach(book => {
+    bibleData.books.forEach((book, bookIndex) => { // Modified line
       book.chapters.forEach((chapter, chapterIdx) => {
         // 過濾出經節（排除段落標題）
         const verses = chapter.sections.filter(section => section.type === 'verse');
@@ -33,6 +33,7 @@ function SearchBox({ bibleData, onResultClick }) {
           if (romText.includes(lowerTerm) || hanText.includes(term)) {
             searchResults.push({
               bookName: book.name_han,
+              bookIndex: bookIndex, // Added line
               chapterNum: chapter.chapter,
               chapterIdx: chapterIdx,
               verseNum: verse.verse,
@@ -97,7 +98,7 @@ function SearchBox({ bibleData, onResultClick }) {
               <div
                 key={idx}
                 className="result-item"
-                onClick={() => onResultClick(result.chapterIdx)}
+                onClick={() => onResultClick(result.bookIndex, result.chapterIdx)}
               >
                 <div className="result-reference">
                   {result.bookName} {result.chapterNum}:{result.verseNum}
