@@ -1,0 +1,844 @@
+# 從聖經提取的漢字-羅馬字對應（輸入式）
+# 格式：漢字<TAB>讀音1<TAB>讀音2<TAB>...
+# 可手動編輯修正
+
+々	ang4	baa5	bu5	ciang5	coo3	dih4	dih6	dng2	ging3	mang5
+㖹	beong2
+䋎	ting4
+䟓	dann1
+一	ih6
+七	chih6
+丈	dah6
+三	soonn1
+上	daa4	dai5	dooh6	gah6	i3	lui5	saaunn5	sioong5
+下	goo5	ha5	oo5
+不	beoh6	boi5	hang2
+且	chiann3	cia3	ciann4
+世	saa4
+丟	diu1
+並	bing4
+中	deeng1	deeng2	li3
+主	cṳ3
+乇	noo5
+乜	meh6
+九	gau3
+乞	doinn2	geh6	keoh6
+乳	cṳ3
+了	laau3
+事	e5	seo5
+二	di1	di5
+五	ngo5
+亞	a1	a3	a4
+亡	moong2
+交	gau1
+亦	ia5
+人	cing2
+仁	cing2
+仇	giu2	siu2
+今	ging1
+代	dai5
+令	ling5
+以	i3
+仱	da1
+份	heong5
+仿	hoong3
+伊	ceo4	ching1	i1	leng2	tai2	tau2
+伏	hooh4
+伓	ng5
+伯	beh6
+伸	cheong1
+佇	aa4	deo5	sah6
+位	ui5
+低	daa3
+住	cṳ5	do4
+佛	heoh6
+作	ceo4
+你	dṳ3
+佮	aa4	ceeng3	di5	gah6	sann1
+使	sai3	seo3	seo4
+來	lai2	li2
+俄	goo2
+保	boo3	gooh6
+信	seng4
+俱	gṳ5
+個	gaa2
+倍	boi5
+們	meong2
+倒	deo3
+倫	leong2
+偌	noo5
+做	ceo4	cooh4	gaau4	gah6	nang2	see3
+健	geeng5
+偶	gaau3
+傅	hu5
+備	bi5
+傲	goo5
+傳	deeng2	doinn2	see3
+債	cua4
+傷	sioong1
+像	chaaunn5
+僕	booh4
+儂	ceo4	dang2	e5	nang2
+允	i1
+兄	dai5	hiann1
+充	cheeng1
+先	seng1
+光	gng1
+免	meng3
+兜	naau2
+入	dih4	dṳ3
+內	le5
+全	ceeng2	ceenn2	nng5
+兩	bing2	nng5
+八	baa5	bah6	beh6
+公	gang1
+六	lah4	leeh4
+兮	e5
+共	goong1
+兵	bing1
+其	bṳ3	ceo4	deh6	deng3	do2	dṳ3	e5	gah6	gai4	geng2	i1	ka5
+再	cai4
+凡	hang2	nang2
+凶	heeng1
+出	cheoh6	choi5
+分	beong1	daauh4	heong1	heong5
+切	cheh6
+刑	hing2
+列	leh4
+初	chee1
+刣	cuh6	tai2
+判	puang4
+別	beh4	beh6	heong1
+利	li5
+刺	chi4
+前	ceeng2	ceng4	saann2	sann2
+創	choong4
+劍	giang4
+力	lih4
+功	gang1
+加	ga1
+助	cee5
+勒	leh6
+動	doinn3	doong5
+勘	kang4
+勞	loo2
+勢	li4	li5	ni4	saa4
+勤	gṳng2
+勸	koinn4	li4
+包	bau1
+十	seh4
+半	buann4
+南	nang2
+即	cuh6	daauh4	giu4	so1
+厝	cho4
+原	ngeeng2	ngoi2
+厭	iang4
+去	kṳ4
+及	gih4
+友	iu3
+取	chṳ3
+受	siu5
+古	go3	gu1
+句	gu4
+叫	gaau2	gaau4	mia2
+召	daau5
+可	daauh4	koo3
+各	gooh6
+合	hah4
+名	e5	mia2
+吐	to4
+向	haaunn4
+吩	heong1
+含	hang2
+吹	choi1
+吼	hau3
+告	goo4
+周	ciu1
+命	caa2	mia5	ming5
+和	gah6	hoo2
+咐	nu4
+咧	cṳ1	le5	leoh4
+咯	loo5
+哈	hah4
+哥	goo1
+唯	bi2
+啊	a1	a5
+善	seng5
+喇	lah4
+喊	hua5
+喏	cioo3	noo5
+喙	chui4
+喜	hi3
+喫	keh6
+單	duann1
+嚮	haaunn3
+嚴	ngiang2
+囉	leo5
+四	seo4	si4
+囝	gioonn3
+因	ing1
+國	gooh6
+圍	ui2
+園	hoinn2
+土	to2	to3
+在	cai5	deo2
+地	cheng2	daa5
+坦	dang4
+垃	la5	lah4
+埃	ai1
+城	siann2
+基	gi1	gi2	sioong5
+堆	dui1
+塍	cheng2
+塗	to2
+塞	gaau4	seh6
+墨	bah4
+墿	do5	doo5
+壞	huai5
+士	seo5
+壯	coong4
+壽	siu5
+夏	ha5
+外	gua5
+多	doo1
+夢	mang4
+大	dai5	dua5
+天	teng1	ting1
+夫	bo1	hu1	hu5
+央	ng1
+失	sih6
+奉	hoong5
+奧	oo4
+女	dṳ3
+奴	no2
+好	heo3	hoo3
+妒	do4
+妹	moi4
+姊	ci3
+始	si3
+姓	sann4
+姦	gang1
+威	ui1
+娃	hua1
+娘	naau2
+婦	hu5	mu5
+媚	bi5
+嬤	ma3
+嬭	laa3
+嬸	sing3
+子	ceo3	ci2	ci3
+存	ceong2
+孫	seong1
+學	eoh4
+孽	giah4
+守	ciu3	siu3
+安	ah6	ang1	ang4
+完	eeng2
+宗	coong1
+定	deng5	diann5
+客	nang2
+害	hai5
+家	ga1
+家己	ceeng2	gai4
+容	eeng2
+寄	gioo4
+實	sih4
+審	sing3
+寫	sia3
+寬	kuang1
+寶	beo3
+將	cioong1
+對	dui4
+導	doo5
+小	saau3
+就	ciu5	cuh6
+尺	chaaunn5
+尼	ni2
+居	gṳ1
+屍	si1
+層	ceng1
+屬	seeh4
+山	suann1
+崙	leong2
+工	gang1
+已	i3
+巴	ba1
+希	hi1
+帝	bih4	daa4	e5	i1	sah6	taah4
+師	sai1
+席	sih4
+帳	daaunn4
+帶	dua4
+常	sioong2
+幫	bang1
+平	bing2
+年	ning2
+幼	iu4
+幾	gui3
+底	daa3	deoh6	le5
+座	ceo5
+廝	seo1
+建	geeng4
+式	sih6
+弗	heoh4
+弟	di1	di5	hiann1
+強	gioong2
+彈	dang5	duann2
+待	dai5	kang4
+後	au5	haau5	hau5
+徒	do2	sing4
+得	caa2	deh6	dih4	dih6	ki3
+徛	kioo5
+從	ceeng2	leong5	nang2
+復	buh6	hooh6
+心	cing5	sing1	sing4
+必	bih6
+忌	gi5
+忍	neong3
+忠	cing5
+快	kaa4
+念	niang5
+怎	seh6
+思	seo1
+性	sing4
+怨	eeng4
+怪	guai4
+恥	laa3
+恨	hṳng5
+恩	ṳng1
+悔	hoi3
+悖	boi5
+悲	bi1
+惑	heh4
+惜	li3	saau5
+惠	haa5
+惡	ooh6
+想	sioong3
+意	i4
+愛	ai4
+感	gang3
+慈	ceo2
+慕	bo5
+慘	chang3
+慧	haa5
+慰	hui4
+慾	beoh6	eeh4	seo1
+憐	koo3	leng2
+憑	bing1	bing2
+應	ing4
+懸	gaann2
+成	siann2
+我	cing1	gua3	sih4
+戒	gai4
+或	heh4
+戰	ceng4
+戶	ho5
+房	bang2
+所	ceng2	dṳ3	see3
+手	chiu3
+才	cai2
+批	paa1
+把	boo3
+抱	peo5
+抴	chioo4
+拆	tia5
+拉	lah4
+拍	pa5
+拖	tua1
+拯	e5
+拾	kah6
+拿	na2
+挃	di2
+指	ci3
+挨	ai1
+挪	noo3
+捌	ia5
+捨	sia3
+捻	diang4
+排	baa2
+接	ci5	ciah6
+揀	gaann3
+搬	buann1
+摕	hooh6	taa4	taah4
+摩	moo2
+摸	mo1
+撒	sah6
+擔	dang1
+擲	diann5
+攎	lo2
+攏	loong2	loong3
+攔	lang5
+放	bang4
+故	go4
+救	cing3	giu2	giu4
+敗	bai5
+教	gau4
+敢	goonn3
+敬	beo2	ging4
+整	cing2
+敵	deh4
+數	siu5
+文	meong2
+斐	hi1
+斜	sia2
+斯	seo5
+新	sing1
+斷	deenn5
+方	hng4	hng5	hoong1
+施	si1
+既	gi4
+日	dih4	sioong5
+旦	nua4
+旨	ci3
+早	coo3
+旺	oong5
+明	ming2
+星	chann1
+是	deo1	gi1	si5
+時	lau2	si2
+智	di4
+暗	ang4
+暝	ma2
+暴	boo5
+曉	haau3
+更	gaann2	geng4
+書	cṳ1	cṳ3	leoh4
+替	taa4
+會	aa5	hoi5
+月	goih4
+有	beh6	beoh6	lah4	u5
+朋	beng2
+朔	sooh6
+望	moong5
+期	gi2
+木	booh4
+未	beng2	beo2	boi5
+末	buah4
+本	beong3
+杭	hang2
+東	dang1
+松	seeng2
+果	goih4	goo3
+柄	bann4
+柏	ba5
+核	heoh4
+根	gṳng1
+栽	cai1
+條	daau2
+棄	ki4
+榮	ṳng2
+標	baau5
+樣	aaunn5
+樵	choo2
+樹	chiu4
+權	geeng2
+欠	kiang4
+欲	beoh6
+歇	hee5
+歌	goo1
+歡	huann1
+止	ci3
+正	ciann1	ciann4
+此	cheo3
+歪	oi1
+歲	hoi4	soi4
+歷	leh4
+歸	gui1
+死	si3
+殷	ṳng1
+毀	hui3
+毋	ng5
+母	beo3	bo3
+每	boi3
+比	bi3	piann5
+毣	mah6
+氏	si5
+氣	ki4	ṳng3
+水	cui3
+永	ṳng3
+求	giu2
+汗	guann5
+汝	du3	dṳ1	dṳ2	dṳ3	e5	hang2	koinn4	lui5	nang2
+污	u4
+沙	sa1
+河	co2	eo2
+油	iu2
+治	di5
+泉	sioonn2
+法	hah6
+波	boo1
+洗	seng3
+活	dṳ3	nah4	uah4
+流	lau2	liu2
+浪	loong5
+浮	pu2
+海	hai3
+浸	cing4
+涂	do2
+消	saau1
+涵	hang2
+涼	naau2
+淫	ing2
+深	ching1
+淵	eeng1
+清	ching1	cing1
+滅	beh4
+滿	mua3
+漸	ciang5
+潔	gaa5	geh6
+潤	ceong5
+澤	ceh4
+濟	caa4
+瀆	dooh4
+灌	guang4
+火	hoi3
+災	cai1
+為	ui5
+烏	o1
+無	beo2	beo3	bu2	heng2
+焦	doo1
+然	ceng2
+煞	sua5
+照	caau4	chaaunn5
+燒	saau1
+燳	cioo3
+爬	ba5	boo2
+爭	cann1
+父	hu5
+爸	boo5
+物	beoh4	moi1	moih4
+牲	sann1
+特	deh4	deh6
+犯	hang5
+狂	goong2
+猶	iu2
+獃	gai2	gai4
+獨	beh6	dooh4
+獸	siu4	siu5
+獻	heeng4
+王	oong2
+珠	ciu1	co1
+現	heng5
+理	dṳ3	li3
+琴	ging2
+瑙	noo3
+瑪	ma3
+環	kuang2
+甚	seoh4
+生	na1	sann1	seng1
+產	sang3
+用	eeng5
+田	deng2
+由	iu2
+男	nang2
+界	gai4
+留	lau2
+畜	heeh6
+略	liooh4
+當	dih6	dng1	doo1	doong1
+發	huah6
+百	ba5	beh6
+的	dih6	e5
+皟	ta5
+皮	poi2
+盈	ing2
+益	ia5	ih6
+盡	cing5	dṳ3	si5
+目	mah4
+直	dih4
+相	e5	sioong5
+看	kang4	kuann4
+眏	ng4
+真	cing1	saau5
+眾	ceeng4
+着	beoh6	cuh6	daauh4	deo2	dṳ3	gṳ5
+睏	keong4
+督	daa4	dooh6
+瞀	bu5
+知	cai1	di1
+石	geeh4	saauh4
+破	pua4
+示	si5
+祈	gi2
+祖	co3
+祝	ceeh6
+神	sing2
+禁	ging4
+禍	hoo5
+福	hooh6	ki4
+禮	laa3
+禱	doo3
+禽	ging2
+私	e5	seo1
+秋	chiu1
+移	i2
+種	ceeng3	ceeng4	ceng3
+稱	ching1	i1	sioong5
+穌	so1
+穢	oi4
+穧	saa5
+空	koong1
+窒	teh6
+窗	teeng1
+立	lih4
+竣	ceong4
+童	doong2
+笑	chaau4
+第	daa5
+第一	dai4
+筆	bih6
+等	deng3	seoh4
+算	suann4
+管	guang2	guang3
+箬	naauh4
+節	caa5
+簫	saau1
+米	bi3
+籽	ci3
+粹	sui4
+糧	naau2
+紀	gi4
+約	iooh6
+紅	ang2
+納	dah4
+紙	cioo3
+索	seo3
+細	saa4
+結	geh6
+經	ging1
+綴	doi4
+緊	ging3
+緣	eeng2
+緻	li4
+縛	booh4
+縣	gaann5
+縫	pang4
+縱	ceeng2
+總	coong3
+繞	lau2
+罔	meo3
+罪	coi5
+罰	huah4
+罵	moo4
+羅	loo2
+羊	aaunn2
+羞	saau1
+義	gi5
+翻	huang1
+耀	aau5
+老	lau2	lau5	loo2	loo3
+者	cia3	cioo3
+耐	nai5
+耕	geng1
+耶	a2	aa1	aa2
+聖	keoh6	sing4
+聚	cṳ5
+聞	moi2
+聲	siann1
+職	cih6
+聽	tiann1
+肉	neeh4
+肋	hiah4
+肚	do3
+育	eeh4
+胎	tai1
+能	neng2
+脫	tuah6
+腓	hi1
+腔	kang1
+腹	bah6
+膠	au1
+膩	ci5
+臘	lah4
+臨	ling2
+自	ceo5
+至	ci4
+致	di4
+興	hing1
+舞	bu3
+船	gṳ5	seong2
+花	hua1
+若	noo5
+苦	ko3
+英	ing1
+草	chau3	choo3
+菜	chai4
+華	hua1
+萬	mang5
+落	daauh4	leo1	leoh4
+著	daauh4	deo2
+葩	poonn1
+蒙	moong2
+蓋	gua4
+蔬	see1
+蔸	dau1
+藏	coong2
+蘭	lang2
+虔	geng2	ging4
+處	chṳ4
+虛	hṳ1
+號	heo5
+虧	kui1
+蛇	sioo2
+蜀	dih4	seoh4	u5
+蟲	tang1	tang2
+蟻	hioo5
+血	haa5	heeh6
+行	eeh4	giann2	heng2
+衝	cheeng1
+衣	i1
+裔	aa4
+裙	geong2
+補	bo3
+裡	li3	li5
+裳	naau2
+複	buh6
+褻	seh6
+西	saa1
+見	geng4	ging4
+親	ching1
+覺	gah6
+解	aa5
+言	ngeeng2
+討	teo3
+訓	heong4
+記	gi4
+設	seh6
+許	hṳ3	seoh4
+詈	laa3
+話	ua5
+該	gai1
+誇	kua1
+認	ning5
+誘	iu3
+誠	sing2
+誡	gai4
+諂	tiang3
+請	chiann3	ching3
+論	beng5	leong5
+諾	dooh4
+謗	boong4
+講	goong3
+證	cing4
+識	sih6
+警	ging3
+譯	ih4
+護	ho5
+變	beng4	bing4
+貌	bau5
+財	cai2
+貪	tang1
+貫	guang4
+責	ceh6
+賜	seo4
+赤	chih6
+走	cau3
+起	a4	i3	ki3	lah4
+足	ceeh6
+跋	buah4
+路	lo5
+跳	taau4
+身	sing1	sing3
+躲	deo2
+輕	king1
+轉	doinn3
+辨	beng5
+辮	bing5
+辯	sing1
+近	gṳng5
+迦	ga1	gia1
+述	seoh4
+退	tee3	tee4
+送	sang4
+逆	gih4
+逐	deeh4
+這	a4	caa4	ci3
+通	tang1	toong1
+造	ceo4	choo4
+連	leng2
+遇	gṳ5	seoh4
+運	eong5
+過	geo4
+遐	hioo3
+道	aa2	beh6	doo5	e5	haau5	hang3	loo5
+達	dah4
+遘	gau4
+遜	seong4
+遠	eeng3
+選	toinn3
+避	pia5
+邊	bing1
+邪	sia2	sia3
+都	deo1	e5	lee2
+配	poi4
+酒	ciu3
+醫	i1
+重	dang5
+野	ia3
+金	ging1
+銅	dang2
+錢	cing2
+鐵	ti5
+鑔	chann5
+鑼	leo2
+長	dioong2	dioong3	dng2
+門	meong2	moi2	moinn2
+閃	siang3
+開	koi1	kui1
+間	gaann1	gang1
+闊	kua5
+關	goinn1
+闢	bih4
+阻	cee3
+阿	a5	oo1
+降	gang4
+除	dṳ2
+陸	leeh4
+隨	sui2
+隱	ṳng3
+雄	heeng2
+雅	nga3
+集	cih6
+雖	sui1
+離	li5
+雨	ho5
+雲	eong2
+零	leng2
+雺	bo2
+霧	bu5
+露	lo4
+青	chann1
+非	hi1
+面	ming4
+音	ing1	ing2
+頂	deng3
+順	seong5
+頌	seeng5
+預	ṳ5
+頭	beh6	hang3	i1	lau2	tau2
+願	ngoi5
+類	lui5
+顧	go4
+顯	heng3
+風	boinn1
+飄	paau1
+飛	boi1	boi3
+食	siah4
+香	haaunn1
+驕	gaau1
+驚	gainn1	giann1
+骨	geoh6
+骹	koo1
+體	laa3	taa3
+鬼	gui3
+魔	moo2
+魚	hṳ2
+鳥	caau3
+麥	beh4
+黃	hoong2
+黨	doong3
+鼻	pi4
+齊	boi3	caa2	caa4	haau5	i3
+𢶀	choi4
+𣍐	baa5	dng1
+𧸖	doonn5

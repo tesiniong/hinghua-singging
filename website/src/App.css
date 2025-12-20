@@ -1,14 +1,35 @@
 .app {
+  /* 確保整個應用程式至少有視窗那麼高，但可以更高 */
   min-height: 100vh;
+  /* 關鍵：不要設定 height: 100vh，這會限制最大高度 */
   display: flex;
   flex-direction: column;
-  padding-top: 80px; /* 為 fixed 導航欄預留空間 */
+  /* 這裡不要設定 overflow，讓視窗捲軸自然出現 */
+  padding-top: 80px;
+
+  /* 確保可以延伸超過視窗高度 */
+  height: auto;
 }
 
-/* 在較小螢幕上調整 */
+.app-main {
+  /* 關鍵：讓它能夠根據內容自動增長 */
+  flex: 1 0 auto; /* flex-grow: 1, flex-shrink: 0, flex-basis: auto */
+  width: 100%;
+
+  /* 確保這裡是 block 佈局，讓子元素自然堆疊 */
+  display: block;
+  position: relative;
+
+  /* 確保內容可以自由延伸，不被限制高度 */
+  overflow: visible;
+  /* 不設定任何高度限制 */
+  height: auto;
+  max-height: none;
+}
+
 @media (max-width: 768px) {
   .app {
-    padding-top: 120px; /* 手機版導航欄較高（兩行佈局） */
+    padding-top: 120px;
   }
 }
 
@@ -19,11 +40,17 @@
   text-align: center;
   color: var(--text-secondary);
   font-size: 0.9em;
-  margin-top: auto;
+
+  /* 確保 footer 永遠在最上層，不會被內容蓋住 */
+  position: relative;
+  z-index: 10;
+
+  /* 確保 footer 上方有足夠間距 */
+  margin-top: 2rem;
+
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 .app-footer p {
   margin: 0;
 }
-

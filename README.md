@@ -170,7 +170,7 @@ This is a non-commercial academic project aimed at preserving and promoting Hing
 ## 聯絡 Contact
 
 - **GitHub Issues**: [提問或建議 Questions or Suggestions](https://github.com/tesiniong/hinghua-singging/issues)
-- **維護者 Maintainers**: Tè Sîn-iông, 桃泽
+- **維護者 Maintainers**: Siniong, 桃泽
 
 ---
 

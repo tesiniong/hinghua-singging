@@ -113,7 +113,9 @@ body {
 }
 
 #root {
+  /* 允許延伸超過視窗高度 */
   min-height: 100vh;
+  height: auto;
 }
 
 /* Links */

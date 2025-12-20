@@ -1,0 +1,254 @@
+.homophone-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  padding-bottom: 3rem; /* 確保底部有足夠空間 */
+  width: 100%;
+
+  /* 最簡單的佈局，不強制任何屬性 */
+}
+
+.homophone-container h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.error {
+  color: #e74c3c;
+}
+
+/* 篩選區域 */
+.filter-section {
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 300ms ease, box-shadow 300ms ease;
+}
+
+[data-theme="dark"] .filter-section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.filter-header h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.action-btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.action-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--primary-color);
+}
+
+.action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.filter-btn {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 150ms ease;
+  min-width: unset;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.filter-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--text-secondary);
+}
+
+.filter-btn.selected {
+  color: white;
+  border-color: transparent;
+}
+
+.filter-btn.initial-selected {
+  background: #3498db;
+}
+
+.filter-btn.rhyme-selected {
+  background: #2ecc71;
+}
+
+.filter-btn.tone-selected {
+  background: #e67e22;
+}
+
+/* 結果區域 - 這是最關鍵的部分 */
+.results-section {
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 300ms ease, box-shadow 300ms ease;
+
+  /* 完全移除所有高度和 flex 相關設定 */
+  /* 只保留最基本的 block 佈局 */
+}
+
+[data-theme="dark"] .results-section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.results-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+/* 音節列表 - 重命名以避免與 SearchBox 的 .results-list 衝突 */
+.syllables-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  /* 不需要任何高度限制，讓內容自然延伸 */
+}
+
+.syllable-item {
+  padding-bottom: 0.8rem;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.syllable-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.syllable-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.syllable-display {
+  color: var(--text-primary);
+  font-family: 'DejaVu Sans', Arial, sans-serif;
+}
+
+.syllable-input-code {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: var(--text-secondary);
+  font-family: monospace;
+}
+
+.syllable-initial {
+  color: #3498db;
+}
+
+.syllable-rhyme {
+  color: #2ecc71;
+}
+
+.syllable-tone {
+  color: #e67e22;
+}
+
+/* 字列表 */
+.char-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  font-family: 'Noto Sans TC', 'Tauhu-oo', sans-serif;
+  line-height: 1.4;
+}
+
+.char-item {
+  padding: 0.1rem 0.4rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: default;
+  transition: all 150ms ease;
+}
+
+.char-item:hover {
+  background: var(--bg-hover);
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+.no-chars {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .homophone-container {
+    padding: 1rem 0.5rem;
+  }
+  
+  .char-list {
+    font-size: 1.25rem;
+  }
+}

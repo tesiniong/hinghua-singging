@@ -63,6 +63,12 @@ function Navbar() {
           >
             平話字介紹
           </Link>
+          <Link
+            to="/homophone-table"
+            className={`navbar-link ${location.pathname === '/homophone-table' ? 'active' : ''}`}
+          >
+            同音字表
+          </Link>
         </div>
 
         <div className="navbar-theme">

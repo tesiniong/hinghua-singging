@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AboutBible from './pages/AboutBible';
 import AboutLanguage from './pages/AboutLanguage';
+import HomophoneTable from './pages/HomophoneTable';
 
 function App() {
   const [stats, setStats] = useState(null);
@@ -25,6 +26,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about-bible" element={<AboutBible />} />
             <Route path="/about-language" element={<AboutLanguage />} />
+            <Route path="/homophone-table" element={<HomophoneTable />} />
           </Routes>
         </main>
         <footer className="app-footer">
