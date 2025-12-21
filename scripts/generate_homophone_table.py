@@ -77,7 +77,7 @@ def input_to_display(input_form):
     else:
         # 根據韻母查找調符位置
         tone_mark = TONE_MARKS[tone]
-        tone_mark = 7 if (tone == 4 and rhyme[-1] == 'h') else 4
+        tone = 7 if (tone == 4 and rhyme[-1] == 'h') else 4
         rhyme_with_tone = add_tone_mark(rhyme, rhyme_display, tone_mark)
         result = initial + rhyme_with_tone
 
@@ -138,22 +138,7 @@ def add_tone_mark(rhyme_input, rhyme_display, tone_mark):
     # 查找調符位置（基於輸入式）
     position = TONE_POSITIONS.get(rhyme_input, 1)
 
-    # 在顯示式中插入調符
-    # 注意：position 是在轉換前的位置，但我們需要在轉換後的字符串中插入
-    # 由於 aa→a̤ 等轉換，字符數可能變化，我們需要調整
-
-    # 重新計算在顯示式中的位置
-    # 簡化處理：找到第 position 個「基礎字母」（非組合字元）
-    base_char_count = 0
-    for i, char in enumerate(rhyme_display):
-        if unicodedata.category(char)[0] == 'L':  # Letter
-            base_char_count += 1
-            if base_char_count == position:
-                # 在此字母後插入調符
-                return rhyme_display[:i+1] + tone_mark + rhyme_display[i+1:]
-
-    # 如果沒找到，放在最後
-    return rhyme_display + tone_mark
+    return rhyme_display[:position] + tone_mark + rhyme_display[position+1:]
 
 
 def parse_lua_file(lua_path):
