@@ -3,7 +3,7 @@
     "ot": {
       "books": 2,
       "chapters": 10,
-      "verses": 205
+      "verses": 211
     },
     "nt": {
       "books": 6,
@@ -13,14 +13,14 @@
     "total": {
       "books": 8,
       "chapters": 29,
-      "verses": 718
+      "verses": 724
     }
   },
   "han": {
     "ot": {
       "books": 2,
       "chapters": 34,
-      "verses": 967
+      "verses": 969
     },
     "nt": {
       "books": 5,
@@ -30,7 +30,7 @@
     "total": {
       "books": 7,
       "chapters": 40,
-      "verses": 1043
+      "verses": 1045
     }
   },
   "totals": {

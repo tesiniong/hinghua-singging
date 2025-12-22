@@ -93,7 +93,7 @@ function AboutBible() {
               這不僅是一次掃描，更是一場「文字復活」的工程。
           </p>
           <p>
-            借助<a href="https://dl.lib.ntu.edu.tw/s/westrare/item/129333" target="_blank">臺灣大學圖書館數位典藏館</a>和 <a href="https://hdl.handle.net/2027/uc1.31822025315045" target="_blank">HathiTrust Digital Library</a> 所提供的資料，本站得以彙整這部珍貴的歷史影像。我們將原書掃描檔進行處理後以此為底本，致力於將羅馬字轉寫為數位文本，讓這份百年前的語言遺產在數位時代獲得新生。
+            借助<a href="https://dl.lib.ntu.edu.tw/s/westrare/item/129333" target="_blank">臺灣大學圖書館數位典藏館</a>和 <a href="https://books.google.ca/books?id=5jiwAAAAIAAJ&printsec=frontcover#v=onepage&q&f=false" target="_blank">Google 圖書</a> 所提供的資料，本站得以彙整這部珍貴的歷史影像。我們將原書掃描檔進行處理後以此為底本，致力於將羅馬字轉寫為數位文本，讓這份百年前的語言遺產在數位時代獲得新生。
           </p>
         </section>
 
