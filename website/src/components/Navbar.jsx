@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
 import './Navbar.css';
@@ -7,7 +7,10 @@ function Navbar() {
   const location = useLocation();
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
+  // 處理滾動事件
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -36,6 +39,40 @@ function Navbar() {
     };
   }, [lastScrollY]);
 
+  // 當導航欄隱藏時，自動關閉選單
+  useEffect(() => {
+    if (!isVisible && isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+  }, [isVisible, isMenuOpen]);
+
+  // 點擊外部關閉選單
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
+  // 切換選單開關
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  // 點擊連結後關閉選單
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className={`navbar ${isVisible ? 'navbar-visible' : 'navbar-hidden'}`}>
       <div className="navbar-container">
@@ -44,35 +81,53 @@ function Navbar() {
           <span className="navbar-brand-rom">Hing-hua̍ Báⁿ-uā Si̍ng-ging</span>
         </Link>
 
-        <div className="navbar-menu">
-          <Link
-            to="/"
-            className={`navbar-link ${location.pathname === '/' ? 'active' : ''}`}
-          >
-            首頁
-          </Link>
-          <Link
-            to="/about-bible"
-            className={`navbar-link ${location.pathname === '/about-bible' ? 'active' : ''}`}
-          >
-            聖經介紹
-          </Link>
-          <Link
-            to="/about-language"
-            className={`navbar-link ${location.pathname === '/about-language' ? 'active' : ''}`}
-          >
-            平話字介紹
-          </Link>
-          <Link
-            to="/homophone-table"
-            className={`navbar-link ${location.pathname === '/homophone-table' ? 'active' : ''}`}
-          >
-            同音字表
-          </Link>
-        </div>
+        <div className="navbar-right">
+          <div className="navbar-theme">
+            <ThemeToggle />
+          </div>
 
-        <div className="navbar-theme">
-          <ThemeToggle />
+          <div className="navbar-menu-container" ref={menuRef}>
+            <button
+              className="navbar-menu-button"
+              onClick={toggleMenu}
+              aria-label="選單"
+            >
+              ☰
+            </button>
+
+            {isMenuOpen && (
+              <div className="navbar-dropdown">
+                <Link
+                  to="/"
+                  className={`navbar-dropdown-link ${location.pathname === '/' ? 'active' : ''}`}
+                  onClick={handleLinkClick}
+                >
+                  首頁
+                </Link>
+                <Link
+                  to="/about-bible"
+                  className={`navbar-dropdown-link ${location.pathname === '/about-bible' ? 'active' : ''}`}
+                  onClick={handleLinkClick}
+                >
+                  聖經介紹
+                </Link>
+                <Link
+                  to="/about-language"
+                  className={`navbar-dropdown-link ${location.pathname === '/about-language' ? 'active' : ''}`}
+                  onClick={handleLinkClick}
+                >
+                  平話字介紹
+                </Link>
+                <Link
+                  to="/homophone-table"
+                  className={`navbar-dropdown-link ${location.pathname === '/homophone-table' ? 'active' : ''}`}
+                  onClick={handleLinkClick}
+                >
+                  同音字表
+                </Link>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </nav>

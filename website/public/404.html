@@ -31,21 +31,26 @@
     <meta name="googlebot" content="index, follow" />
     <link rel="canonical" href="https://github.io/hinghua-singging/" />
 
-    <!-- SPA GitHub Pages 路由修復：恢復從 404.html 儲存的路徑 -->
+    <!-- SPA GitHub Pages 路由修復：將路徑儲存並重新導向 -->
     <script>
       (function() {
-        var redirectPath = sessionStorage.getItem('spa-redirect-path');
-        sessionStorage.removeItem('spa-redirect-path');
-
-        if (redirectPath && redirectPath !== '/') {
-          // 使用 history.replaceState 恢復路由，不會觸發頁面重新載入
-          history.replaceState(null, null, '/hinghua-singging' + redirectPath);
+        var pathSegments = location.pathname.split('/').filter(Boolean);
+        // 移除 base path (hinghua-singging)
+        if (pathSegments[0] === 'hinghua-singging') {
+          pathSegments.shift();
         }
+        // 重組路徑
+        var redirectPath = '/' + pathSegments.join('/');
+
+        // 儲存完整路徑資訊（包含 query 和 hash）到 sessionStorage
+        sessionStorage.setItem('spa-redirect-path', redirectPath + location.search + location.hash);
+
+        // 重新導向到首頁
+        location.replace('/hinghua-singging/');
       })();
     </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- 這個頁面會立即重新導向，使用者不會看到內容 -->
   </body>
 </html>
