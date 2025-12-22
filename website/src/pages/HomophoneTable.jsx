@@ -64,17 +64,42 @@ export default function HomophoneTable() {
       });
   }, []);
 
-  // 從資料中提取所有韻母，並轉換顯示格式
+  // 從資料中提取所有韻母，並按類型分組
   const allRhymes = useMemo(() => {
-    if (!data) return [];
+    if (!data) return { open: [], nasal: [], ng: [], checked: [] };
+
     const rhymesSet = new Set();
     data.syllables.forEach(s => rhymesSet.add(s.r));
-    
-    // 排序並建立物件陣列 { value: 'aa', label: 'a̤' }
-    return Array.from(rhymesSet).sort().map(r => ({
-      value: r,
-      label: formatRhyme(r)
-    }));
+
+    // 將韻母分類
+    const open = [];    // 陰聲韻（不以 ⁿ, ng, h 結尾）
+    const nasal = [];   // 鼻化韻（以 ⁿ 結尾）
+    const ng = [];      // 鼻音韻（以 ng 結尾）
+    const checked = []; // 入聲韻（以 h 結尾）
+
+    Array.from(rhymesSet).forEach(r => {
+      const displayLabel = formatRhyme(r);
+      const obj = { value: r, label: displayLabel };
+
+      if (displayLabel.endsWith('ⁿ')) {
+        nasal.push(obj);
+      } else if (displayLabel.endsWith('ng')) {
+        ng.push(obj);
+      } else if (displayLabel.endsWith('h')) {
+        checked.push(obj);
+      } else {
+        open.push(obj);
+      }
+    });
+
+    // 每類內部按字母序排序
+    const sortFn = (a, b) => a.value.localeCompare(b.value);
+    open.sort(sortFn);
+    nasal.sort(sortFn);
+    ng.sort(sortFn);
+    checked.sort(sortFn);
+
+    return { open, nasal, ng, checked };
   }, [data]);
 
   // 過濾音節
@@ -125,7 +150,7 @@ export default function HomophoneTable() {
     <div className="homophone-container">
       <h1>同音字表</h1>
       <p className="disclaimer">
-        本字表由系統自動產生，可能因文本對齊失效、過度類推、類推失敗等原因產生錯誤，請謹慎判斷。
+        本字表由系統自動產生，可能因文本對齊失效、辨識錯誤、過度類推、類推失敗等原因產生錯誤，請謹慎判斷。<br/>本表暫時不區分甲乙類陽入音節。
       </p>
 
       {/* 聲母選擇 */}
@@ -160,27 +185,89 @@ export default function HomophoneTable() {
       <div className="filter-section">
         <div className="filter-header">
           <h2>韻母</h2>
-          <button 
-            onClick={() => setSelectedRhymes(new Set())} 
+          <button
+            onClick={() => setSelectedRhymes(new Set())}
             className="action-btn"
             disabled={selectedRhymes.size === 0}
           >
             清除
           </button>
         </div>
-        <div className="filter-buttons">
-          {allRhymes.map(rhymeObj => {
-            const isSelected = selectedRhymes.has(rhymeObj.value);
-            return (
-              <button
-                key={rhymeObj.value}
-                onClick={() => toggleSelection(selectedRhymes, rhymeObj.value, setSelectedRhymes)}
-                className={`filter-btn ${isSelected ? 'selected rhyme-selected' : ''}`}
-              >
-                {rhymeObj.label}
-              </button>
-            );
-          })}
+
+        {/* 陰聲韻 */}
+        <div className="rhyme-group">
+          <h3 className="rhyme-group-title">陰聲韻</h3>
+          <div className="filter-buttons">
+            {allRhymes.open.map(rhymeObj => {
+              const isSelected = selectedRhymes.has(rhymeObj.value);
+              return (
+                <button
+                  key={rhymeObj.value}
+                  onClick={() => toggleSelection(selectedRhymes, rhymeObj.value, setSelectedRhymes)}
+                  className={`filter-btn ${isSelected ? 'selected rhyme-selected' : ''}`}
+                >
+                  {rhymeObj.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* 鼻化韻 */}
+        <div className="rhyme-group">
+          <h3 className="rhyme-group-title">鼻化韻</h3>
+          <div className="filter-buttons">
+            {allRhymes.nasal.map(rhymeObj => {
+              const isSelected = selectedRhymes.has(rhymeObj.value);
+              return (
+                <button
+                  key={rhymeObj.value}
+                  onClick={() => toggleSelection(selectedRhymes, rhymeObj.value, setSelectedRhymes)}
+                  className={`filter-btn ${isSelected ? 'selected rhyme-selected' : ''}`}
+                >
+                  {rhymeObj.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* 鼻音韻 */}
+        <div className="rhyme-group">
+          <h3 className="rhyme-group-title">鼻音韻</h3>
+          <div className="filter-buttons">
+            {allRhymes.ng.map(rhymeObj => {
+              const isSelected = selectedRhymes.has(rhymeObj.value);
+              return (
+                <button
+                  key={rhymeObj.value}
+                  onClick={() => toggleSelection(selectedRhymes, rhymeObj.value, setSelectedRhymes)}
+                  className={`filter-btn ${isSelected ? 'selected rhyme-selected' : ''}`}
+                >
+                  {rhymeObj.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* 入聲韻 */}
+        <div className="rhyme-group">
+          <h3 className="rhyme-group-title">入聲韻</h3>
+          <div className="filter-buttons">
+            {allRhymes.checked.map(rhymeObj => {
+              const isSelected = selectedRhymes.has(rhymeObj.value);
+              return (
+                <button
+                  key={rhymeObj.value}
+                  onClick={() => toggleSelection(selectedRhymes, rhymeObj.value, setSelectedRhymes)}
+                  className={`filter-btn ${isSelected ? 'selected rhyme-selected' : ''}`}
+                >
+                  {rhymeObj.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 

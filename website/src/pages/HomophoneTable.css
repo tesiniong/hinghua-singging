@@ -90,6 +90,23 @@
   gap: 0.4rem;
 }
 
+/* 韻母分組 */
+.rhyme-group {
+  margin-bottom: 0.8rem;
+}
+
+.rhyme-group:last-child {
+  margin-bottom: 0;
+}
+
+.rhyme-group-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin: 0 0 0.5rem 0;
+  opacity: 0.8;
+}
+
 .filter-btn {
   padding: 0.3rem 0.6rem;
   font-size: 0.95rem;

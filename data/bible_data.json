@@ -25445,640 +25445,728 @@
             {
               "type": "verse",
               "verse": 6,
-              "rom": "",
+              "rom": "Geo̍ si̍-se̍h di̍h, Nô̤-a̍ kui sê̤ ceo̍ ē seóng-te̤ng:",
               "han": "過四十日，挪亞開所做其船窗，",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "過"
+                  "type": "word",
+                  "han": "過",
+                  "rom": "Geo̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "四"
+                  "type": "word",
+                  "han": "四十",
+                  "rom": "si̍-se̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "十"
-                },
-                {
-                  "type": "char",
-                  "text": "日"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "挪"
-                },
-                {
-                  "type": "char",
-                  "text": "亞"
-                },
-                {
-                  "type": "char",
-                  "text": "開"
-                },
-                {
-                  "type": "char",
-                  "text": "所"
-                },
-                {
-                  "type": "char",
-                  "text": "做"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "船"
-                },
-                {
-                  "type": "char",
-                  "text": "窗"
+                  "type": "word",
+                  "han": "日",
+                  "rom": "di̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "開",
+                  "rom": "kui",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "所",
+                  "rom": "sê̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "船窗",
+                  "rom": "seóng-te̤ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 7,
-              "rom": "",
+              "rom": "ba̍ng seo̍h táu o-a chōi, o-a boi lí, boi kṳ̍.",
               "han": "放蜀頭烏鴉出，烏鴉飛來飛去，直々等地咧其水焦去。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "放"
+                  "type": "word",
+                  "han": "放",
+                  "rom": "ba̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "蜀"
+                  "type": "word",
+                  "han": "蜀",
+                  "rom": "seo̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "頭"
+                  "type": "word",
+                  "han": "頭",
+                  "rom": "táu",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "烏"
+                  "type": "word",
+                  "han": "烏鴉",
+                  "rom": "o-a",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "鴉"
-                },
-                {
-                  "type": "char",
-                  "text": "出"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "烏"
-                },
-                {
-                  "type": "char",
-                  "text": "鴉"
-                },
-                {
-                  "type": "char",
-                  "text": "飛"
-                },
-                {
-                  "type": "char",
-                  "text": "來"
-                },
-                {
-                  "type": "char",
-                  "text": "飛"
-                },
-                {
-                  "type": "char",
-                  "text": "去"
+                  "type": "word",
+                  "han": "出",
+                  "rom": "chōi",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "直"
+                  "type": "word",
+                  "han": "烏鴉",
+                  "rom": "o-a",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "々"
+                  "type": "word",
+                  "han": "飛",
+                  "rom": "boi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "等"
+                  "type": "word",
+                  "han": "來",
+                  "rom": "lí",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "地"
+                  "type": "word",
+                  "han": "飛",
+                  "rom": "boi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "咧"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "水"
-                },
-                {
-                  "type": "char",
-                  "text": "焦"
-                },
-                {
-                  "type": "char",
-                  "text": "去"
+                  "type": "word",
+                  "han": "去",
+                  "rom": "kṳ̍",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 8,
-              "rom": "",
+              "rom": "Buh ba̍ng seo̍h táu ba̍h-gah chōi, a̍i-dí kua̍ⁿ dā̤-mi̍ng ē cûi te̤̍ é̤ng ā bōi;",
               "han": "複放蜀頭白鴿出，愛挃看地面其水退完啊未。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "複"
+                  "type": "word",
+                  "han": "複",
+                  "rom": "Buh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "放"
+                  "type": "word",
+                  "han": "放",
+                  "rom": "ba̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "蜀"
+                  "type": "word",
+                  "han": "蜀",
+                  "rom": "seo̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "頭"
+                  "type": "word",
+                  "han": "頭",
+                  "rom": "táu",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "白"
+                  "type": "word",
+                  "han": "白鴿",
+                  "rom": "ba̍h-gah",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "鴿"
-                },
-                {
-                  "type": "char",
-                  "text": "出"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "愛"
-                },
-                {
-                  "type": "char",
-                  "text": "挃"
-                },
-                {
-                  "type": "char",
-                  "text": "看"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "面"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "水"
-                },
-                {
-                  "type": "char",
-                  "text": "退"
-                },
-                {
-                  "type": "char",
-                  "text": "完"
-                },
-                {
-                  "type": "char",
-                  "text": "啊"
-                },
-                {
-                  "type": "char",
-                  "text": "未"
+                  "type": "word",
+                  "han": "出",
+                  "rom": "chōi",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "愛挃",
+                  "rom": "a̍i-dí",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "看",
+                  "rom": "kua̍ⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "地面",
+                  "rom": "dā̤-mi̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "水",
+                  "rom": "cûi",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "退",
+                  "rom": "te̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "完",
+                  "rom": "é̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "啊",
+                  "rom": "ā",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "未",
+                  "rom": "bōi",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 9,
-              "rom": "",
+              "rom": "dā̤-mi̍ng muâ-ciā ho̤h ū cûi, gah ko̤ beó de̤̍ suā, hói-táu lí seóng ciū Nô̤-a̍; Nô̤-a̍ cuh cheong chiû cī i di̍h seóng.",
               "han": "地面滿跡復有水，鴿骹無地煞，回頭來船就挪亞，挪亞即伸手接伊入船。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "地"
+                  "type": "word",
+                  "han": "地面",
+                  "rom": "dā̤-mi̍ng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "面"
+                  "type": "word",
+                  "han": "滿跡",
+                  "rom": "muâ-ciā",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "滿"
+                  "type": "word",
+                  "han": "復",
+                  "rom": "ho̤h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "跡"
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "復"
-                },
-                {
-                  "type": "char",
-                  "text": "有"
-                },
-                {
-                  "type": "char",
-                  "text": "水"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "鴿"
-                },
-                {
-                  "type": "char",
-                  "text": "骹"
-                },
-                {
-                  "type": "char",
-                  "text": "無"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "煞"
+                  "type": "word",
+                  "han": "水",
+                  "rom": "cûi",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "回"
+                  "type": "word",
+                  "han": "鴿",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "頭"
+                  "type": "word",
+                  "han": "骹",
+                  "rom": "ko̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "來"
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "船"
+                  "type": "word",
+                  "han": "地",
+                  "rom": "de̤̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "就"
-                },
-                {
-                  "type": "char",
-                  "text": "挪"
-                },
-                {
-                  "type": "char",
-                  "text": "亞"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "挪"
-                },
-                {
-                  "type": "char",
-                  "text": "亞"
-                },
-                {
-                  "type": "char",
-                  "text": "即"
-                },
-                {
-                  "type": "char",
-                  "text": "伸"
-                },
-                {
-                  "type": "char",
-                  "text": "手"
-                },
-                {
-                  "type": "char",
-                  "text": "接"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
-                },
-                {
-                  "type": "char",
-                  "text": "入"
-                },
-                {
-                  "type": "char",
-                  "text": "船"
+                  "type": "word",
+                  "han": "煞",
+                  "rom": "suā",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "回頭",
+                  "rom": "hói-táu",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "來",
+                  "rom": "lí",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "船",
+                  "rom": "seóng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "就",
+                  "rom": "ciū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伸",
+                  "rom": "cheong",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "手",
+                  "rom": "chiû",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "接",
+                  "rom": "cī",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "入",
+                  "rom": "di̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "船",
+                  "rom": "seóng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 10,
-              "rom": "",
+              "rom": "Buh dêng chih di̍h, ca̍i ba̍ng gah chōi;",
               "han": "複等七日再放鴿出，",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "複"
+                  "type": "word",
+                  "han": "複",
+                  "rom": "Buh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "等"
+                  "type": "word",
+                  "han": "等",
+                  "rom": "dêng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "七"
+                  "type": "word",
+                  "han": "七",
+                  "rom": "chih",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "日"
+                  "type": "word",
+                  "han": "日",
+                  "rom": "di̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "再"
+                  "type": "word",
+                  "han": "再",
+                  "rom": "ca̍i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "放"
+                  "type": "word",
+                  "han": "放",
+                  "rom": "ba̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "鴿"
+                  "type": "word",
+                  "han": "鴿",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "出"
+                  "type": "word",
+                  "han": "出",
+                  "rom": "chōi",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 11,
-              "rom": "",
+              "rom": "ga̍u bua̍ⁿ ō̤-da̍u, gah hói-táu; chu̍i gó̤ⁿ go̤ng-nô̤-chiu̍ sing ē na̤u̍h: ing-cheô Nô̤-a̍ cai dā̤ lē ē cûi î-ging te̤̍ kṳ̍.",
               "han": "遘半下晝，鴿回頭，喙銜橄欖樹新其箬，因此挪亞知地咧其水已經退去。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "遘"
+                  "type": "word",
+                  "han": "遘",
+                  "rom": "ga̍u",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "半"
+                  "type": "word",
+                  "han": "半",
+                  "rom": "bua̍ⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "下"
-                },
-                {
-                  "type": "char",
-                  "text": "晝"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "鴿"
-                },
-                {
-                  "type": "char",
-                  "text": "回"
-                },
-                {
-                  "type": "char",
-                  "text": "頭"
+                  "type": "word",
+                  "han": "下晝",
+                  "rom": "ō̤-da̍u",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "喙"
+                  "type": "word",
+                  "han": "鴿",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "銜"
-                },
-                {
-                  "type": "char",
-                  "text": "橄"
-                },
-                {
-                  "type": "char",
-                  "text": "欖"
-                },
-                {
-                  "type": "char",
-                  "text": "樹"
-                },
-                {
-                  "type": "char",
-                  "text": "新"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "箬"
+                  "type": "word",
+                  "han": "回頭",
+                  "rom": "hói-táu",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "因"
+                  "type": "word",
+                  "han": "喙",
+                  "rom": "chu̍i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "此"
+                  "type": "word",
+                  "han": "銜",
+                  "rom": "gó̤ⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "挪"
+                  "type": "word",
+                  "han": "橄欖樹",
+                  "rom": "go̤ng-nô̤-chiu̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "亞"
+                  "type": "word",
+                  "han": "新",
+                  "rom": "sing",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "知"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "咧"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "水"
-                },
-                {
-                  "type": "char",
-                  "text": "已"
-                },
-                {
-                  "type": "char",
-                  "text": "經"
-                },
-                {
-                  "type": "char",
-                  "text": "退"
-                },
-                {
-                  "type": "char",
-                  "text": "去"
+                  "type": "word",
+                  "han": "箬",
+                  "rom": "na̤u̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "因此",
+                  "rom": "ing-cheô",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "知",
+                  "rom": "cai",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "地",
+                  "rom": "dā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "水",
+                  "rom": "cûi",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "已經",
+                  "rom": "î-ging",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "退",
+                  "rom": "te̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "去",
+                  "rom": "kṳ̍",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 12,
-              "rom": "",
+              "rom": "Ca̍i dêng chih di̍h, ba̍ng gah cheoh seóng; beó ca̍i hói-táu.",
               "han": "再等七日，放鴿出船，無再回頭。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "再"
+                  "type": "word",
+                  "han": "再",
+                  "rom": "Ca̍i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "等"
+                  "type": "word",
+                  "han": "等",
+                  "rom": "dêng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "七"
+                  "type": "word",
+                  "han": "七",
+                  "rom": "chih",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "日"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "放"
-                },
-                {
-                  "type": "char",
-                  "text": "鴿"
-                },
-                {
-                  "type": "char",
-                  "text": "出"
-                },
-                {
-                  "type": "char",
-                  "text": "船"
+                  "type": "word",
+                  "han": "日",
+                  "rom": "di̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "無"
+                  "type": "word",
+                  "han": "放",
+                  "rom": "ba̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "再"
+                  "type": "word",
+                  "han": "鴿",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "回"
+                  "type": "word",
+                  "han": "出",
+                  "rom": "cheoh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "頭"
+                  "type": "word",
+                  "han": "船",
+                  "rom": "seóng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "再",
+                  "rom": "ca̍i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "回頭",
+                  "rom": "hói-táu",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
@@ -26437,920 +26525,965 @@
             {
               "type": "verse",
               "verse": 17,
-              "rom": "",
+              "rom": "Gah dṳ̂ ē seng-beo̍h, hi-nâ̤u, le̤̍h-he̤h, dôiⁿ-dāng leo̍h dā̤-sā̤uⁿ ē táng-hiō̤, deo dua̍ i cheoh; sâi i seng-e̤̍h ga-ting cīng sā̤ leo̍h dā̤ lē.",
               "han": "佮汝其生物、飛鳥、六畜、動彈落地上其蟲蟻，都帶伊出，使伊生育加添盡穧落地咧。”",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "佮"
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "Gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "汝"
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "生"
-                },
-                {
-                  "type": "char",
-                  "text": "物"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "飛"
-                },
-                {
-                  "type": "char",
-                  "text": "鳥"
+                  "type": "word",
+                  "han": "生物",
+                  "rom": "seng-beo̍h",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "、"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "六"
-                },
-                {
-                  "type": "char",
-                  "text": "畜"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "動"
-                },
-                {
-                  "type": "char",
-                  "text": "彈"
-                },
-                {
-                  "type": "char",
-                  "text": "落"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "上"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "蟲"
-                },
-                {
-                  "type": "char",
-                  "text": "蟻"
+                  "type": "word",
+                  "han": "飛鳥",
+                  "rom": "hi-nâ̤u",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "都"
-                },
-                {
-                  "type": "char",
-                  "text": "帶"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
-                },
-                {
-                  "type": "char",
-                  "text": "出"
+                  "type": "word",
+                  "han": "六畜",
+                  "rom": "le̤̍h-he̤h",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "使"
+                  "type": "word",
+                  "han": "動彈",
+                  "rom": "dôiⁿ-dāng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "伊"
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "生"
+                  "type": "word",
+                  "han": "地上",
+                  "rom": "dā̤-sā̤uⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "育"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "加"
-                },
-                {
-                  "type": "char",
-                  "text": "添"
-                },
-                {
-                  "type": "char",
-                  "text": "盡"
-                },
-                {
-                  "type": "char",
-                  "text": "穧"
-                },
-                {
-                  "type": "char",
-                  "text": "落"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "咧"
+                  "type": "word",
+                  "han": "蟲蟻",
+                  "rom": "táng-hiō̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "都",
+                  "rom": "deo",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "帶",
+                  "rom": "dua̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "出",
+                  "rom": "cheoh",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "”"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "使",
+                  "rom": "sâi",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "生育",
+                  "rom": "seng-e̤̍h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "加添",
+                  "rom": "ga-ting",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "盡",
+                  "rom": "cīng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "穧",
+                  "rom": "sā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "地",
+                  "rom": "dā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                },
+                {
+                  "type": "punct",
+                  "han": "”",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 18,
-              "rom": "",
+              "rom": "Nô̤-a̍ cuh gah bô, giô̤ⁿ, sing-mū deo chōi kṳ̍:",
               "han": "挪亞即佮伊母囝、新婦都出去；各種其野獸、蟲蟻、飛鳥、頭牲喏個動物，都憑伊其種類，亦都出大船。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "挪"
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "亞"
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "即"
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "佮"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "bô",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "伊"
+                  "type": "word",
+                  "han": "母",
+                  "rom": "giô̤ⁿ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "母"
+                  "type": "word",
+                  "han": "囝新",
+                  "rom": "sing-mū",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "囝"
+                  "type": "word",
+                  "han": "婦",
+                  "rom": "deo",
+                  "form": "single"
                 },
                 {
-                  "type": "punct",
-                  "text": "、"
+                  "type": "word",
+                  "han": "都",
+                  "rom": "chōi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "新"
+                  "type": "word",
+                  "han": "出",
+                  "rom": "kṳ̍",
+                  "form": "single"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "go̤h-cê̤ng ē iâ-siu̍, táng-hiō̤, hi-nâ̤u, dā̤-sā̤uⁿ ciô̤-gá̤ dō̤ng-beo̍h, deo bíng i ē cê̤ng-lūi, iā deo cheoh duā-seóng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "go̤h-cê̤ng"
                 },
                 {
-                  "type": "char",
-                  "text": "婦"
+                  "type": "word",
+                  "text": "ē"
                 },
                 {
-                  "type": "char",
-                  "text": "都"
+                  "type": "word",
+                  "text": "iâ-siu̍"
                 },
                 {
-                  "type": "char",
-                  "text": "出"
+                  "type": "word",
+                  "text": "táng-hiō̤"
                 },
                 {
-                  "type": "char",
-                  "text": "去"
+                  "type": "word",
+                  "text": "hi-nâ̤u"
                 },
                 {
-                  "type": "punct",
-                  "text": "；"
+                  "type": "word",
+                  "text": "dā̤-sā̤uⁿ"
                 },
                 {
-                  "type": "char",
-                  "text": "各"
+                  "type": "word",
+                  "text": "ciô̤-gá̤"
                 },
                 {
-                  "type": "char",
-                  "text": "種"
+                  "type": "word",
+                  "text": "dō̤ng-beo̍h"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "text": "deo"
                 },
                 {
-                  "type": "char",
-                  "text": "野"
+                  "type": "word",
+                  "text": "bíng"
                 },
                 {
-                  "type": "char",
-                  "text": "獸"
+                  "type": "word",
+                  "text": "i"
                 },
                 {
-                  "type": "punct",
-                  "text": "、"
+                  "type": "word",
+                  "text": "ē"
                 },
                 {
-                  "type": "char",
-                  "text": "蟲"
+                  "type": "word",
+                  "text": "cê̤ng-lūi"
                 },
                 {
-                  "type": "char",
-                  "text": "蟻"
+                  "type": "word",
+                  "text": "iā"
                 },
                 {
-                  "type": "punct",
-                  "text": "、"
+                  "type": "word",
+                  "text": "deo"
                 },
                 {
-                  "type": "char",
-                  "text": "飛"
+                  "type": "word",
+                  "text": "cheoh"
                 },
                 {
-                  "type": "char",
-                  "text": "鳥"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "頭"
-                },
-                {
-                  "type": "char",
-                  "text": "牲"
-                },
-                {
-                  "type": "char",
-                  "text": "喏"
-                },
-                {
-                  "type": "char",
-                  "text": "個"
-                },
-                {
-                  "type": "char",
-                  "text": "動"
-                },
-                {
-                  "type": "char",
-                  "text": "物"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "都"
-                },
-                {
-                  "type": "char",
-                  "text": "憑"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "種"
-                },
-                {
-                  "type": "char",
-                  "text": "類"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "亦"
-                },
-                {
-                  "type": "char",
-                  "text": "都"
-                },
-                {
-                  "type": "char",
-                  "text": "出"
-                },
-                {
-                  "type": "char",
-                  "text": "大"
-                },
-                {
-                  "type": "char",
-                  "text": "船"
-                },
-                {
-                  "type": "punct",
-                  "text": "。"
+                  "type": "word",
+                  "text": "duā-seóng"
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 20,
-              "rom": "",
+              "rom": "Nô̤-a̍ ing-ūi Cṳ̂ de̤h ca̤̍-dái; ta̤̍h go̤h-cê̤ng  tā-gā̤ ē táu-saⁿ, gah tā-gā̤ ē câ̤u, he̤̍ng leo̍h ca̤̍-dái lē, ceo̍ hôi-sa̤u-ca̤̍.",
               "han": "挪亞因為主築祭臺，摕各種皟潔其頭牲佮皟潔其鳥，獻落祭臺咧，做火燒祭。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "挪"
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "亞"
+                  "type": "word",
+                  "han": "因為",
+                  "rom": "ing-ūi",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "因"
+                  "type": "word",
+                  "han": "主",
+                  "rom": "Cṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "為"
+                  "type": "word",
+                  "han": "築",
+                  "rom": "de̤h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "主"
-                },
-                {
-                  "type": "char",
-                  "text": "築"
-                },
-                {
-                  "type": "char",
-                  "text": "祭"
-                },
-                {
-                  "type": "char",
-                  "text": "臺"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "摕"
-                },
-                {
-                  "type": "char",
-                  "text": "各"
-                },
-                {
-                  "type": "char",
-                  "text": "種"
-                },
-                {
-                  "type": "char",
-                  "text": "皟"
-                },
-                {
-                  "type": "char",
-                  "text": "潔"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "頭"
-                },
-                {
-                  "type": "char",
-                  "text": "牲"
-                },
-                {
-                  "type": "char",
-                  "text": "佮"
-                },
-                {
-                  "type": "char",
-                  "text": "皟"
-                },
-                {
-                  "type": "char",
-                  "text": "潔"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "鳥"
+                  "type": "word",
+                  "han": "祭臺",
+                  "rom": "ca̤̍-dái",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "獻"
+                  "type": "word",
+                  "han": "摕",
+                  "rom": "ta̤̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "落"
+                  "type": "word",
+                  "han": "各種",
+                  "rom": "go̤h-cê̤ng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "祭"
+                  "type": "word",
+                  "han": "皟潔",
+                  "rom": "tā-gā̤",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "臺"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "咧"
+                  "type": "word",
+                  "han": "頭牲",
+                  "rom": "táu-saⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "皟潔",
+                  "rom": "tā-gā̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "鳥",
+                  "rom": "câ̤u",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "做"
+                  "type": "word",
+                  "han": "獻",
+                  "rom": "he̤̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "火"
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "燒"
+                  "type": "word",
+                  "han": "祭臺",
+                  "rom": "ca̤̍-dái",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "祭"
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "火燒祭",
+                  "rom": "hôi-sa̤u-ca̤̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 21,
-              "rom": "",
+              "rom": "Cṳ̂ hiô̤ng ca̤̍ pang-bī, sing lē siô̤ng gô̤ng: Î-hā̤u Guâ dih-dih n̄g ing náng ē é̤ng-go̍, ga̍ng cai-hō̤ leo̍h dā̤, (Ngé̤ng-meóng ceo̍ mo̤̍ dā̤) ing náng ceo̍ sa̤̍ sí-cā̤, sing-guaⁿ ceóng o̤h-niāng; Guâ beó ca̍i be̍h ló̤ng-cô̤ng ua̍h ē mo̍ih-nō̤, chā̤uⁿ î-ce̍ng sê̤ ceo̍ ē seo̍h-ā̤uⁿ.",
               "han": "主享這芳味，心咧想講：“以後我得々毋因儂其緣故，降災禍落地，（原文作罵地）因儂做細時節，心肝存惡念，我無再滅攏總活其物乇，像以前所做其蜀樣。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "主"
+                  "type": "word",
+                  "han": "主",
+                  "rom": "Cṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "享"
+                  "type": "word",
+                  "han": "享",
+                  "rom": "hiô̤ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "這"
+                  "type": "word",
+                  "han": "這",
+                  "rom": "ca̤̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "芳"
-                },
-                {
-                  "type": "char",
-                  "text": "味"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "心"
-                },
-                {
-                  "type": "char",
-                  "text": "咧"
-                },
-                {
-                  "type": "char",
-                  "text": "想"
-                },
-                {
-                  "type": "char",
-                  "text": "講"
+                  "type": "word",
+                  "han": "芳味",
+                  "rom": "pang-bī",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "："
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "心",
+                  "rom": "sing",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "想",
+                  "rom": "siô̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "gô̤ng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "“"
-                },
-                {
-                  "type": "char",
-                  "text": "以"
-                },
-                {
-                  "type": "char",
-                  "text": "後"
-                },
-                {
-                  "type": "char",
-                  "text": "我"
-                },
-                {
-                  "type": "char",
-                  "text": "得"
-                },
-                {
-                  "type": "char",
-                  "text": "々"
-                },
-                {
-                  "type": "char",
-                  "text": "毋"
-                },
-                {
-                  "type": "char",
-                  "text": "因"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "緣"
-                },
-                {
-                  "type": "char",
-                  "text": "故"
+                  "han": "：",
+                  "rom": ""
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "“",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "降"
+                  "type": "word",
+                  "han": "以後",
+                  "rom": "Î-hā̤u",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "災"
+                  "type": "word",
+                  "han": "我",
+                  "rom": "Guâ",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "禍"
+                  "type": "word",
+                  "han": "得々",
+                  "rom": "dih-dih",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "落"
+                  "type": "word",
+                  "han": "毋",
+                  "rom": "n̄g",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "地"
+                  "type": "word",
+                  "han": "因",
+                  "rom": "ing",
+                  "form": "single"
                 },
                 {
-                  "type": "punct",
-                  "text": "，"
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
                 },
                 {
-                  "type": "punct",
-                  "text": "（"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "原"
-                },
-                {
-                  "type": "char",
-                  "text": "文"
-                },
-                {
-                  "type": "char",
-                  "text": "作"
-                },
-                {
-                  "type": "char",
-                  "text": "罵"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "punct",
-                  "text": "）"
-                },
-                {
-                  "type": "char",
-                  "text": "因"
-                },
-                {
-                  "type": "char",
-                  "text": "儂"
-                },
-                {
-                  "type": "char",
-                  "text": "做"
-                },
-                {
-                  "type": "char",
-                  "text": "細"
-                },
-                {
-                  "type": "char",
-                  "text": "時"
-                },
-                {
-                  "type": "char",
-                  "text": "節"
+                  "type": "word",
+                  "han": "緣故",
+                  "rom": "é̤ng-go̍",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "心"
+                  "type": "word",
+                  "han": "降",
+                  "rom": "ga̍ng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "肝"
+                  "type": "word",
+                  "han": "災禍",
+                  "rom": "cai-hō̤",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "存"
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "惡"
-                },
-                {
-                  "type": "char",
-                  "text": "念"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "我"
-                },
-                {
-                  "type": "char",
-                  "text": "無"
-                },
-                {
-                  "type": "char",
-                  "text": "再"
-                },
-                {
-                  "type": "char",
-                  "text": "滅"
-                },
-                {
-                  "type": "char",
-                  "text": "攏"
-                },
-                {
-                  "type": "char",
-                  "text": "總"
-                },
-                {
-                  "type": "char",
-                  "text": "活"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "物"
-                },
-                {
-                  "type": "char",
-                  "text": "乇"
+                  "type": "word",
+                  "han": "地",
+                  "rom": "dā̤",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "像"
-                },
-                {
-                  "type": "char",
-                  "text": "以"
-                },
-                {
-                  "type": "char",
-                  "text": "前"
-                },
-                {
-                  "type": "char",
-                  "text": "所"
-                },
-                {
-                  "type": "char",
-                  "text": "做"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "蜀"
-                },
-                {
-                  "type": "char",
-                  "text": "樣"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "（",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "原文",
+                  "rom": "Ngé̤ng-meóng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "作",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "罵",
+                  "rom": "mo̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "地",
+                  "rom": "dā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "）",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "因",
+                  "rom": "ing",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "細",
+                  "rom": "sa̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "時節",
+                  "rom": "sí-cā̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "心肝",
+                  "rom": "sing-guaⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "存",
+                  "rom": "ceóng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "惡念",
+                  "rom": "o̤h-niāng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "Guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "再",
+                  "rom": "ca̍i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "滅",
+                  "rom": "be̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "攏總",
+                  "rom": "ló̤ng-cô̤ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "活",
+                  "rom": "ua̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "物乇",
+                  "rom": "mo̍ih-nō̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "像",
+                  "rom": "chā̤uⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "以前",
+                  "rom": "î-ce̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "所",
+                  "rom": "sê̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "蜀樣",
+                  "rom": "seo̍h-ā̤uⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 22,
-              "rom": "",
+              "rom": "Dā̤ ho̤h diō̤ sí-cā̤, geng-ce̤̍ng, siu-síng, ce̍h, chi̍ng, dang, hā, di̍h, má, ṳ̂ng-ê̤ng beó déng-hē̤.",
               "han": "地復佇時節，耕種、收成、熱、凊、冬、夏、日，暝，永遠無停歇。”",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "地"
+                  "type": "word",
+                  "han": "地",
+                  "rom": "Dā̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "復"
+                  "type": "word",
+                  "han": "復",
+                  "rom": "ho̤h",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "佇"
+                  "type": "word",
+                  "han": "佇",
+                  "rom": "diō̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "時"
-                },
-                {
-                  "type": "char",
-                  "text": "節"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "耕"
-                },
-                {
-                  "type": "char",
-                  "text": "種"
+                  "type": "word",
+                  "han": "時節",
+                  "rom": "sí-cā̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "、"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "收"
-                },
-                {
-                  "type": "char",
-                  "text": "成"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "熱"
+                  "type": "word",
+                  "han": "耕種",
+                  "rom": "geng-ce̤̍ng",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "、"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "凊"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "冬"
+                  "type": "word",
+                  "han": "收成",
+                  "rom": "siu-síng",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "、"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "夏"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "日"
+                  "type": "word",
+                  "han": "熱",
+                  "rom": "ce̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "暝"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "永"
-                },
-                {
-                  "type": "char",
-                  "text": "遠"
-                },
-                {
-                  "type": "char",
-                  "text": "無"
-                },
-                {
-                  "type": "char",
-                  "text": "停"
-                },
-                {
-                  "type": "char",
-                  "text": "歇"
+                  "type": "word",
+                  "han": "凊",
+                  "rom": "chi̍ng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "、",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "冬",
+                  "rom": "dang",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "”"
+                  "han": "、",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "夏",
+                  "rom": "hā",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "、",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "日",
+                  "rom": "di̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "暝",
+                  "rom": "má",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "永遠",
+                  "rom": "ṳ̂ng-ê̤ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "停歇",
+                  "rom": "déng-hē̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                },
+                {
+                  "type": "punct",
+                  "han": "”",
+                  "rom": ""
                 }
               ]
             }
@@ -27376,508 +27509,579 @@
             {
               "type": "verse",
               "verse": 1,
-              "rom": "",
+              "rom": "Siō̤ng-Da̤̍ ce̤h-ho̤h Nô̤-a̍ léng i ē giô̤ⁿ, gô̤ng, Seng-e̤̍h cīng sā̤. muâ-muâ leo̍h dā̤-sā̤uⁿ,",
               "han": "上帝祝福挪亞連伊其囝，講：“生育盡穧，滿々落地上。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "上"
+                  "type": "word",
+                  "han": "上帝",
+                  "rom": "Siō̤ng-Da̤̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "帝"
+                  "type": "word",
+                  "han": "祝福",
+                  "rom": "ce̤h-ho̤h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "祝"
+                  "type": "word",
+                  "han": "挪亞",
+                  "rom": "Nô̤-a̍",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "福"
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "挪"
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "亞"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "連"
-                },
-                {
-                  "type": "char",
-                  "text": "伊"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "囝"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "講"
+                  "type": "word",
+                  "han": "囝",
+                  "rom": "giô̤ⁿ",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "："
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "gô̤ng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "“"
-                },
-                {
-                  "type": "char",
-                  "text": "生"
-                },
-                {
-                  "type": "char",
-                  "text": "育"
-                },
-                {
-                  "type": "char",
-                  "text": "盡"
-                },
-                {
-                  "type": "char",
-                  "text": "穧"
+                  "han": "：",
+                  "rom": ""
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "“",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "滿"
+                  "type": "word",
+                  "han": "生育",
+                  "rom": "Seng-e̤̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "々"
+                  "type": "word",
+                  "han": "盡",
+                  "rom": "cīng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "落"
-                },
-                {
-                  "type": "char",
-                  "text": "地"
-                },
-                {
-                  "type": "char",
-                  "text": "上"
+                  "type": "word",
+                  "han": "穧",
+                  "rom": "sā̤",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "滿々",
+                  "rom": "muâ-muâ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "地上",
+                  "rom": "dā̤-sā̤uⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 2,
-              "rom": "",
+              "rom": "Dā̤-sā̤uⁿ ē iâ-siu̍, ting lē ē câ̤u, dā̤-sā̤uⁿ go̤h-lūi dôiⁿ-dāng ē mo̍ih-nō̤, léng hâi lē ē hṳ́, deo dih-dih giaⁿ dṳ̂, deo gau leo̍h dṳ̂ ē chiû.",
               "han": "地上其野獸、天咧其鳥、地上各類動彈其物乇，連海咧其魚，都得々驚汝，都交落汝其手。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "地"
+                  "type": "word",
+                  "han": "地上",
+                  "rom": "Dā̤-sā̤uⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "上"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "野"
-                },
-                {
-                  "type": "char",
-                  "text": "獸"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "天"
-                },
-                {
-                  "type": "char",
-                  "text": "咧"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "鳥"
+                  "type": "word",
+                  "han": "野獸",
+                  "rom": "iâ-siu̍",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "、"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "地"
+                  "type": "word",
+                  "han": "天",
+                  "rom": "ting",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "上"
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "各"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "類"
-                },
-                {
-                  "type": "char",
-                  "text": "動"
-                },
-                {
-                  "type": "char",
-                  "text": "彈"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "物"
-                },
-                {
-                  "type": "char",
-                  "text": "乇"
+                  "type": "word",
+                  "han": "鳥",
+                  "rom": "câ̤u",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "連"
+                  "type": "word",
+                  "han": "地上",
+                  "rom": "dā̤-sā̤uⁿ",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "海"
+                  "type": "word",
+                  "han": "各類",
+                  "rom": "go̤h-lūi",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "咧"
+                  "type": "word",
+                  "han": "動彈",
+                  "rom": "dôiⁿ-dāng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "魚"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "都"
-                },
-                {
-                  "type": "char",
-                  "text": "得"
-                },
-                {
-                  "type": "char",
-                  "text": "々"
-                },
-                {
-                  "type": "char",
-                  "text": "驚"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
+                  "type": "word",
+                  "han": "物乇",
+                  "rom": "mo̍ih-nō̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "都"
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "交"
+                  "type": "word",
+                  "han": "海",
+                  "rom": "hâi",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "落"
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "汝"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "手"
+                  "type": "word",
+                  "han": "魚",
+                  "rom": "hṳ́",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "都",
+                  "rom": "deo",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "得々",
+                  "rom": "dih-dih",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "驚",
+                  "rom": "giaⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "都",
+                  "rom": "deo",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "交",
+                  "rom": "gau",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "手",
+                  "rom": "chiû",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 3,
-              "rom": "",
+              "rom": "Go̤h-cêng ū ua̍h-miā ā̤ dôiⁿ-dāng ē mo̍ih-nō̤, deo seo̍ keoh dṳ̂ sia̍h; Guâ cio̤ng lô̤ng-cô̤ng seo̍ dṳ̂, chā̤uⁿ seo̍ cha̍i-se̤ keoh dṳ̂ seo̍h-ā̤uⁿ.",
               "han": "各種有活命會動彈其物乇，都賜乞汝食，我將攏總賜汝，像賜菜蔬乞汝食蜀樣。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "各"
+                  "type": "word",
+                  "han": "各種",
+                  "rom": "Go̤h-cêng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "種"
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "有"
+                  "type": "word",
+                  "han": "活命",
+                  "rom": "ua̍h-miā",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "活"
+                  "type": "word",
+                  "han": "會",
+                  "rom": "ā̤",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "命"
+                  "type": "word",
+                  "han": "動彈",
+                  "rom": "dôiⁿ-dāng",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "會"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "動"
-                },
-                {
-                  "type": "char",
-                  "text": "彈"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "物"
-                },
-                {
-                  "type": "char",
-                  "text": "乇"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "都"
-                },
-                {
-                  "type": "char",
-                  "text": "賜"
-                },
-                {
-                  "type": "char",
-                  "text": "乞"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
-                },
-                {
-                  "type": "char",
-                  "text": "食"
+                  "type": "word",
+                  "han": "物乇",
+                  "rom": "mo̍ih-nō̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "，",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "我"
+                  "type": "word",
+                  "han": "都",
+                  "rom": "deo",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "將"
+                  "type": "word",
+                  "han": "賜",
+                  "rom": "seo̍",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "攏"
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "總"
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "賜"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
-                },
-                {
-                  "type": "punct",
-                  "text": "，"
-                },
-                {
-                  "type": "char",
-                  "text": "像"
-                },
-                {
-                  "type": "char",
-                  "text": "賜"
-                },
-                {
-                  "type": "char",
-                  "text": "菜"
-                },
-                {
-                  "type": "char",
-                  "text": "蔬"
-                },
-                {
-                  "type": "char",
-                  "text": "乞"
-                },
-                {
-                  "type": "char",
-                  "text": "汝"
-                },
-                {
-                  "type": "char",
-                  "text": "食"
-                },
-                {
-                  "type": "char",
-                  "text": "蜀"
-                },
-                {
-                  "type": "char",
-                  "text": "樣"
+                  "type": "word",
+                  "han": "食",
+                  "rom": "sia̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "Guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "將",
+                  "rom": "cio̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "攏總",
+                  "rom": "lô̤ng-cô̤ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "賜",
+                  "rom": "seo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "像",
+                  "rom": "chā̤uⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "賜",
+                  "rom": "seo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "菜蔬",
+                  "rom": "cha̍i-se̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "食蜀",
+                  "rom": "seo̍h-ā̤uⁿ",
+                  "form": "phrase"
                 }
               ]
             },
             {
               "type": "verse",
               "verse": 4,
-              "rom": "",
+              "rom": "Bí-do̤̍h ū ua̍h-miā ē ne̤̍h, cuh sī ū hā̤ ē ne̤̍h, n̄g-tang sia̍h.",
               "han": "唯獨有活命其肉、即是有血其肉，毋通食。",
               "tokens": [
                 {
-                  "type": "char",
-                  "text": "唯"
+                  "type": "word",
+                  "han": "唯獨",
+                  "rom": "Bí-do̤̍h",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "獨"
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "有"
+                  "type": "word",
+                  "han": "活命",
+                  "rom": "ua̍h-miā",
+                  "form": "phrase"
                 },
                 {
-                  "type": "char",
-                  "text": "活"
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "命"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "肉"
-                },
-                {
-                  "type": "punct",
-                  "text": "、"
-                },
-                {
-                  "type": "char",
-                  "text": "即"
-                },
-                {
-                  "type": "char",
-                  "text": "是"
-                },
-                {
-                  "type": "char",
-                  "text": "有"
-                },
-                {
-                  "type": "char",
-                  "text": "血"
-                },
-                {
-                  "type": "char",
-                  "text": "其"
-                },
-                {
-                  "type": "char",
-                  "text": "肉"
+                  "type": "word",
+                  "han": "肉",
+                  "rom": "ne̤̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "，"
+                  "han": "、",
+                  "rom": ""
                 },
                 {
-                  "type": "char",
-                  "text": "毋"
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "通"
+                  "type": "word",
+                  "han": "是",
+                  "rom": "sī",
+                  "form": "single"
                 },
                 {
-                  "type": "char",
-                  "text": "食"
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "血",
+                  "rom": "hā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "肉",
+                  "rom": "ne̤̍h",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
-                  "text": "。"
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "毋通",
+                  "rom": "n̄g-tang",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "食",
+                  "rom": "sia̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },

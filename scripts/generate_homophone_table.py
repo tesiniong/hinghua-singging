@@ -135,10 +135,10 @@ def add_tone_mark(rhyme_input, rhyme_display, tone_mark):
     Returns:
         添加調符後的韻母
     """
-    # 查找調符位置（基於輸入式）
+    # 查找調符位置（0-indexed，基於平話字顯示式）
     position = TONE_POSITIONS.get(rhyme_input, 1)
 
-    return rhyme_display[:position] + tone_mark + rhyme_display[position+1:]
+    return rhyme_display[:position] + tone_mark + rhyme_display[position:]
 
 
 def parse_lua_file(lua_path):
@@ -223,10 +223,9 @@ def display_to_input(display_form):
     base_str = base_str.replace('o̤', 'oo')
     base_str = base_str.replace('ṳ', 'y')
 
-    # 判斷入聲（4 vs 7）
+    # 判斷入聲（4、7 使用相同調號）
     if tone == '4' and base_str.endswith('h'):
-        # 入聲韻，保持 4（陰去/陽入無法區分，統一為 4）
-        pass
+        tone = '7'
 
     # 無聲調標記時為陰平 1 或陰入 6
     if tone == '1' and base_str.endswith('h'):
