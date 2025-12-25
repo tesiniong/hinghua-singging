@@ -172013,51 +172013,422 @@
             {
               "type": "verse",
               "verse": 12,
-              "rom": "",
+              "rom": "Si̍ng-síng cuh sâi I kṳ̍ ko̤̍ng-iâ.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Si̍ng-síng"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "kṳ̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ko̤̍ng-iâ"
+                }
+              ]
             },
             {
               "type": "verse",
               "verse": 13,
-              "rom": "",
+              "rom": "I deó ko̤̍ng-iâ si̍-se̍h-di̍h, siū sih-po̤̍ leo̍h Sah-dāng; gah iâ-siu̍ cá̤ do̍; teng-seo̍ lí ho̤̍h-seō I.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "deó"
+                },
+                {
+                  "type": "word",
+                  "text": "ko̤̍ng-iâ"
+                },
+                {
+                  "type": "word",
+                  "text": "si̍-se̍h-di̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "siū"
+                },
+                {
+                  "type": "word",
+                  "text": "sih-po̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Sah-dāng"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "iâ-siu̍"
+                },
+                {
+                  "type": "word",
+                  "text": "cá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "do̍"
+                },
+                {
+                  "type": "word",
+                  "text": "teng-seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "lí"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤̍h-seō"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                }
+              ]
             },
             {
               "type": "verse",
               "verse": 14,
-              "rom": "",
+              "rom": "Io̤h-hāng siū goiⁿ-gang āu, Á̤-So ga̍u Ga-lī-lī dóiⁿ Siō̤ng-Da̤̍ go̤h ē ho̤h-ing, gô̤ng,",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Io̤h-hāng"
+                },
+                {
+                  "type": "word",
+                  "text": "siū"
+                },
+                {
+                  "type": "word",
+                  "text": "goiⁿ-gang"
+                },
+                {
+                  "type": "word",
+                  "text": "āu"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "Ga-lī-lī"
+                },
+                {
+                  "type": "word",
+                  "text": "dóiⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h-ing"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                }
+              ]
             },
             {
               "type": "verse",
               "verse": 15,
-              "rom": "",
+              "rom": "Di̍h-gí î-ging muâ lâ̤u, Siō̤ng-Da̤̍-go̤h gṳ̄ng leō; dṳ̂ da̤u̍h hôi-gâi se̍ng ho̤h-ing.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Di̍h-gí"
+                },
+                {
+                  "type": "word",
+                  "text": "î-ging"
+                },
+                {
+                  "type": "word",
+                  "text": "muâ"
+                },
+                {
+                  "type": "word",
+                  "text": "lâ̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍-go̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ̄ng"
+                },
+                {
+                  "type": "word",
+                  "text": "leō"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "hôi-gâi"
+                },
+                {
+                  "type": "word",
+                  "text": "se̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h-ing"
+                }
+              ]
             },
             {
               "type": "verse",
               "verse": 16,
-              "rom": "",
+              "rom": "Á̤-So giáⁿ leo̍h Ga-lī-lī hâi-bing, kua̍ⁿ-gi̍ng Sa̤-meóng gah Sa̤-meóng ē ā-dī Ang-deh-le̍h, po̤ⁿ māng leo̍h hâi, ing i sī teô-hṳ́ ē náng.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "giáⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Ga-lī-lī"
+                },
+                {
+                  "type": "word",
+                  "text": "hâi-bing"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ-gi̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Sa̤-meóng"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "Sa̤-meóng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "ā-dī"
+                },
+                {
+                  "type": "word",
+                  "text": "Ang-deh-le̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "po̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "māng"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "hâi"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "teô-hṳ́"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                }
+              ]
             },
             {
               "type": "verse",
               "verse": 17,
-              "rom": "",
+              "rom": "Á̤-So gah i gô̤ng, Lí do̍i Guâ, Guâ beoh sâi dṳ̂ ceo̍ teô náng ē teô-hṳ́-náng.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Lí"
+                },
+                {
+                  "type": "word",
+                  "text": "do̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "beoh"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "teô"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "teô-hṳ́-náng"
+                }
+              ]
             },
             {
               "type": "verse",
               "verse": 18,
-              "rom": "",
+              "rom": "I cuh n̄g-dí māng, do̍i Á̤-So.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-dí"
+                },
+                {
+                  "type": "word",
+                  "text": "māng"
+                },
+                {
+                  "type": "word",
+                  "text": "do̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                }
+              ]
             },
             {
               "type": "verse",
@@ -177385,6 +177756,3112 @@
                   "text": "kṳ̍"
                 }
               ]
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "chapter_title_han": "第三章",
+          "chapter_title_rom": "Dā̤ 3 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Ū ā Hah-lī-se̤̍ náng, miá Ní-go̤-dâ̤-bâ̤u, sī Iú-ta̍i náng ē guaⁿ-hû seo̍h gá̤.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ū"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "Hah-lī-se̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "miá"
+                },
+                {
+                  "type": "word",
+                  "text": "Ní-go̤-dâ̤-bâ̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "Iú-ta̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "guaⁿ-hû"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "gá̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "chapter_title_han": "第四章",
+          "chapter_title_rom": "Dā̤ 4 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Cṳ̂ cai Hah-lī-se̤̍ náng tiaⁿ-mói beông-sing si-sâ̤-lâ̤, ca̤u náng ceo̍ meóng-seng ho̤h ā̤-sā̤ Io̤h-hāng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "Hah-lī-se̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "tiaⁿ-mói"
+                },
+                {
+                  "type": "word",
+                  "text": "beông-sing"
+                },
+                {
+                  "type": "word",
+                  "text": "si-sâ̤-lâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "meóng-seng"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤-sā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "Io̤h-hāng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 53,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 54,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "chapter_title_han": "第五章",
+          "chapter_title_rom": "Dā̤ 5 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Ca̤̍ seō î-hā̤u, Iú-ta̍i náng ū ā cā̤-gí; Á̤-So sā̤uⁿ Á̤-lō-sah-lêng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "î-hā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "Iú-ta̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "cā̤-gí"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤uⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-lō-sah-lêng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "Deó Á̤-lō-sah-lêng, gṳ̄ng á̤uⁿ-mói, ū seo̍h gá̤ dí, Hi-beh-lái ē uā ga̤̍u Bi̍h-tô-dāi; ca̤̍ dí ū ngō ceō pah-gu-déng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Deó"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-lō-sah-lêng"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ̄ng"
+                },
+                {
+                  "type": "word",
+                  "text": "á̤uⁿ-mói"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "gá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "dí"
+                },
+                {
+                  "type": "word",
+                  "text": "Hi-beh-lái"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "uā"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̤̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "Bi̍h-tô-dāi"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dí"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "ngō"
+                },
+                {
+                  "type": "word",
+                  "text": "ceō"
+                },
+                {
+                  "type": "word",
+                  "text": "pah-gu-déng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 53,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 54,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "chapter_title_han": "第六章",
+          "chapter_title_rom": "Dā̤ 6 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Ca̤̍ seō î-hā̤u, Á̤-So dō̤ geo̍ Ga-lī-lī hâi, cuh sī Dá̤-bi̍-lî-a̍ hâi.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "î-hā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "dō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "geo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "Ga-lī-lī"
+                },
+                {
+                  "type": "word",
+                  "text": "hâi"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "Dá̤-bi̍-lî-a̍"
+                },
+                {
+                  "type": "word",
+                  "text": "hâi"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "Ū cīng sā̤ náng kua̍ⁿ I ta̤̍ bāⁿ-náng sê̤ héng ē síng-cih, cuh do̍i I.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ū"
+                },
+                {
+                  "type": "word",
+                  "text": "cīng"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "bāⁿ-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "héng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "síng-cih"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "do̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 53,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 54,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 55,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 56,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 57,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 58,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 59,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 60,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 61,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 62,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 63,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 64,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 65,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 66,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 67,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 68,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 69,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 70,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 71,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "chapter_title_han": "第七章",
+          "chapter_title_rom": "Dā̤ 7 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Ca̤̍ seō î-hā̤u, Á̤-So giáⁿ Ga-lī-lī seo̍-chṳ̍; beó kṳ̍ Iú-ta̍i, ing Iú-ta̍i náng a̍i tái I.",
+              "han": "這事以後，耶穌行迦利利四處；無去猶太，因猶太儂愛刣伊。",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "這",
+                  "rom": "Ca̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "事",
+                  "rom": "seō",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "以後",
+                  "rom": "î-hā̤u",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "行",
+                  "rom": "giáⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "迦利利",
+                  "rom": "Ga-lī-lī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "四處",
+                  "rom": "seo̍-chṳ̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "；",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "無",
+                  "rom": "beó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "去",
+                  "rom": "kṳ̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "猶太",
+                  "rom": "Iú-ta̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "因",
+                  "rom": "ing",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "猶太",
+                  "rom": "Iú-ta̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "愛",
+                  "rom": "a̍i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "刣",
+                  "rom": "tái",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "I",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 53,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "chapter_title_han": "第十一章",
+          "chapter_title_rom": "Dā̤ 11 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "Dṳ̂ dái i leo̍h seo̍h-moi ūi-chṳ̍ lē? Ce̤̍ng-náng cuh gô̤ng, Cṳ̂, lí kua̍ⁿ.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "dái"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h-moi"
+                },
+                {
+                  "type": "word",
+                  "text": "ūi-chṳ̍"
+                },
+                {
+                  "type": "word",
+                  "text": "lē"
+                },
+                {
+                  "type": "word",
+                  "text": "Ce̤̍ng-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "lí"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "Á̤-so hâu.",
+              "han": "耶穌吼。",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-so",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "吼",
+                  "rom": "hâu",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "Iú-ta̍i náng cuh gô̤ng, Kua̍ⁿ ō̤, I da̍i sā̤u ca̤̍ náng ā!",
+              "han": "猶太儂即講，“看喔，伊第一惜這儂啊！”",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "猶太",
+                  "rom": "Iú-ta̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "gô̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "punct",
+                  "han": "“",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "看",
+                  "rom": "Kua̍ⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "喔",
+                  "rom": "ō̤",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "I",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "第一",
+                  "rom": "da̍i",
+                  "form": "compound_single"
+                },
+                {
+                  "type": "word",
+                  "han": "惜",
+                  "rom": "sā̤u",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "這",
+                  "rom": "ca̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "啊",
+                  "rom": "ā",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "！",
+                  "rom": ""
+                },
+                {
+                  "type": "punct",
+                  "han": "”",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 53,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 54,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 55,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 56,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 57,
+              "rom": "",
+              "han": "",
+              "tokens": []
             }
           ]
         }
