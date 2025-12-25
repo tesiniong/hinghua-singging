@@ -56,8 +56,8 @@ OLD_TESTAMENT_BOOKS = [
 
 # 新約27卷
 NEW_TESTAMENT_BOOKS = [
-    ("Mâ-ta̍i", "馬太", "Gospel of Matthew", 1153),
-    ("Mâ-kô̤", "馬可", "Gospel of Mark", 1193),
+    ("Mâ-ta̍i", "瑪太", "Gospel of Matthew", 1153),
+    ("Mâ-kô̤", "瑪可", "Gospel of Mark", 1193),
     ("Lō-ga", "路加", "Gospel of Luke", 1218),
     ("Io̤h-hāng", "約翰", "Gospel of John", 1261),
     ("Seo̍-dó Hēng-dē̤ng", "使徒行傳", "Acts of the Apostles", 1294),
@@ -73,7 +73,7 @@ NEW_TESTAMENT_BOOKS = [
     ("Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ", "保羅寄提摩太前書", "1 Timothy", 1415),
     ("Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Hā̤u-cṳ", "保羅寄提摩太後書", "2 Timothy", 1420),
     ("Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ", "保羅寄提多書", "Titus", 1424),
-    ("Bô̤-ló̤ Gio̤̍ Hi-lī-meóng Cṳ", "保羅寄腓利門書", "Philemon", 1427),
+    ("Bô̤-ló̤ Gio̤̍ Hi-lī-meóng Cṳ", "保羅寄腓利們書", "Philemon", 1427),
     ("Hi-beh-lái Náng Cṳ", "希伯來儂書", "Hebrews", 1428),
     ("Seo̍-dó Ngâ-go̤h Cṳ", "使徒雅各書", "James", 1442),
     ("Bî-deh Céng-cṳ", "彼得前書", "1 Peter", 1447),

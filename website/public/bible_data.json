@@ -77,7 +77,7 @@
               "type": "verse",
               "verse": 1,
               "rom": "Ca̤̍ seo̍h bôiⁿ Ló̤-má-cī ē Sing-Gū-io̤h Si̍ng-ging, n̄g-sī guâ-ga̍i beông-sing iú ngé̤ng-meóng huang-i̍h ē, iā n̄g-sī guâ-ga̍i beông-sing iú Ing-meóng huang-i̍h ē; chā̤uⁿ ca̤̍ ciô̤ duā ē go̤ng-díng, guâ beoh-cî beó-dang-dng ceo̍, iā si̍h-cāi kang-kang kṳ̍ ca̤̍ ló̤-kô. Ing Hing-hua̍ ē dā̤-ho̤ng, Si-bo̍-dō̤ cīng câ̤u, gang-hu cīng ô̤ng, beó-dang-dng ce̤ng-ce̤ng pa̍i gûi gá̤ náng ceo̍ to̤h-seō, súi-sí lā̤u-lî ca̤̍ seō, guâ ing-cheô nō̤ sâi-ē̤ng De̤ng-go̤h Ha̍ng-meóng Si̍ng-ging do̤-ng, da̍i heô léng da̍i sing, da̍i to̤ng-ē̤ng ē, cuh sī seo̍h ūi Bî-go̤h Ang-li̍h-gang-hōi ē Hōi-do̤h Si Io̤h-hāng sê̤ huang-i̍h ē. Bi̍-do̤̍h guâ beông-sing ū cio̤ng ca̤̍ huang-i̍h ē ceh-cīng, cé̤ⁿ-cé̤ⁿ gau keoh gûi gá̤ bôiⁿ-dā̤ ū ha̍h-meōng ē ta̍h-cṳ-náng. Ca̤̍ gûi gá̤ náng, deo ū cīng i ē li̍h-liō̤ng, ceo̍ ga̍u ching-chê̤, î-hā̤u guâ ta̤̍h seo̍h bôiⁿ da̍i sing da̍i heô ē Ing-meóng Si̍ng-ging, gah huang-i̍h ē seo-du̍i, seh-seô nō̤ n̄g-sī duā beoh-deh-î ē ūi-chṳ̍, guâ iā n̄g-gô̤ⁿ iō̤ⁿ ca̤̍ i̍-seo̍.",
-              "han": "這蜀本羅馬字其新舊約聖經，毋是我家己本身由原文翻譯其，也毋是我家己本身由英文翻譯其；像這喏大其工程，我不只無擔當做，亦實在空空去這勞苦。因興化其地方，施布道盡少，功夫真枉，無擔當專專派幾個儂做託事，隨時料理這事，我因此乇使用中國漢文聖經當央第一好，連第一新，第一通用其，即是蜀位美國安立甘會其會督施約翰所翻譯其。唯獨我本身有將這翻譯其責任全全交乞幾個本地有學問其讀書儂，這幾個儂，都有盡伊其力量，做遘清楚，以後我摕蜀本第一新第一好其英文聖經，佮翻譯其廝對，設使乇毋是大不得已其位處，我也毋敢換這意思。",
+              "han": "這蜀本羅馬字其新舊約聖經，毋是我家己本身由原文翻譯其，也毋是我家己本身由英文翻譯其；像這喏大其工程，我不只無擔當做，亦實在空空去這勞苦。因興化其地方，施布道盡少，功夫盡枉，無擔當專專派幾個儂做託事，隨時料理這事，我因此乇使用中國漢文聖經當央第一好，連第一新，第一通用其，即是蜀位美國安立甘會其會督施約翰所翻譯其。唯獨我本身有將這翻譯其責任全全交乞幾個本地有學問其讀書儂，這幾個儂，都有盡伊其力量，做遘清楚，以後我摕蜀本第一新第一好其英文聖經，佮翻譯其廝對，設使乇毋是大不得已其位處，我也毋敢換這意思。",
               "tokens": [
                 {
                   "type": "word",
@@ -397,7 +397,7 @@
                 },
                 {
                   "type": "word",
-                  "han": "真",
+                  "han": "盡",
                   "rom": "cīng",
                   "form": "single"
                 },
@@ -7604,7 +7604,7 @@
             {
               "type": "verse",
               "verse": 7,
-              "rom": "Á̤-Hó̤-Hua Siō̤ng-Da̤̍ ē̤ng tó ceo̍ náng, ta̤̍h seng ki̍ beóng di̍h i pi̍-kang, cuh siáⁿ ceo̍ ū seng-síng ē náng. ",
+              "rom": "Á̤-Hó̤-Hua Siō̤ng-Da̤̍ ē̤ng tó ceo̍ náng, ta̤̍h seng ki̍ beóng di̍h i pi̍-kang, cuh siáⁿ ceo̍ ū seng-síng ē náng.",
               "han": "耶和華上帝用塗做儂，摕生氣㖹入伊鼻腔，即成做有生神其儂。",
               "tokens": [
                 {
@@ -12634,7 +12634,7 @@
               "type": "verse",
               "verse": 14,
               "rom": "Á̤-Hó̤-Hua Siō̤ng-Da̤̍ cuh gah sió̤ gô̤ng, Dṳ̂ gi̍-céng ceo̍ ca̤̍ seō, bih-dēng piāⁿ hiô̤-sā̤ le̤̍h-he̤h, beh-siu̍, ge̍ng-ga siū mo̤̍; dṳ̂ da̤u̍h ē̤ng bah-dô giáⁿ-dō, seo̍h-sa̤̍ sia̍h tó.",
-              "han": "耶和華上帝即佮蛇講：\n“汝既然做這事，\n必定比遐穧六畜百獸更加受罵。\n汝着用腹肚行墿，\n蜀世食塗。",
+              "han": "耶和華上帝即佮蛇講：\n“汝既然做這事，\n必定並遐穧六畜百獸更加受罵。\n汝着用腹肚行墿，\n蜀世食塗。",
               "tokens": [
                 {
                   "type": "word",
@@ -12725,7 +12725,7 @@
                 },
                 {
                   "type": "word",
-                  "han": "比",
+                  "han": "並",
                   "rom": "piāⁿ",
                   "form": "single"
                 },
@@ -13589,7 +13589,7 @@
               "type": "verse",
               "verse": 19,
               "rom": "ih-dēng guāⁿ láu muâ-mi̍ng, cia̍ⁿ ā̤ deh dih sia̍h, di̍h-di̍h gui ga̍u dṳ̂ sê̤ cheoh ē tó lē; dṳ̂ beông-lái sī tó, dih-dih ca̍i gui tó lē dôiⁿ.",
-              "han": "一定汗流滿面，\n正會得的食。\n得々歸遘你所出其塗咧，\n汝本來是塗，\n得々再歸塗咧轉。”",
+              "han": "一定汗流滿面，\n正會得的食。\n日々歸遘你所出其塗咧，\n汝本來是塗，\n得々再歸塗咧轉。”",
               "tokens": [
                 {
                   "type": "word",
@@ -13657,7 +13657,7 @@
                 },
                 {
                   "type": "word",
-                  "han": "得々",
+                  "han": "日々",
                   "rom": "di̍h-di̍h",
                   "form": "phrase"
                 },
@@ -16511,7 +16511,7 @@
               "type": "verse",
               "verse": 15,
               "rom": "Cṳ̂ cuh gah Gai-ṳ̂ng gô̤ng, Háng tái Gai-ṳ̂ng ē náng dih-dih siū hua̍h chih bōi. Cṳ̂ cuh ta̤̍h gi̍-heō seo̍ keoh Gai-ṳ̂ng, mêng-dih náng seo̍h gṳ̄-da̤u̍h cuh tái i.",
-              "han": "主即佮該隱講：“凡刣該隱其儂得々受罰七倍。”主即摕記號賜乞該隱，免得儂遇着即刣伊。",
+              "han": "主即佮該隱講：“凡刣該隱其儂得々受罰七倍。”主即摕記號賜乞該隱，免得儂蜀遇着即刣伊。",
               "tokens": [
                 {
                   "type": "word",
@@ -16684,26 +16684,32 @@
                 },
                 {
                   "type": "word",
-                  "han": "遇",
+                  "han": "蜀",
                   "rom": "seo̍h",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "着即",
+                  "han": "遇着",
                   "rom": "gṳ̄-da̤u̍h",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "刣",
+                  "han": "即",
                   "rom": "cuh",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "伊",
+                  "han": "刣",
                   "rom": "tái",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
                   "form": "single"
                 },
                 {
@@ -17399,7 +17405,7 @@
             {
               "type": "verse",
               "verse": 22,
-              "rom": "Sêng-la̍h saⁿ Tô-bah-gai-ṳ̂ng: sī pā-dáng pā-tī sai-hū ē cô-co̤ng; Tô-bah-gai-ṳ̂ng ē i-mo̍i miá Ná-mâ. ",
+              "rom": "Sêng-la̍h saⁿ Tô-bah-gai-ṳ̂ng: sī pā-dáng pā-tī sai-hū ē cô-co̤ng; Tô-bah-gai-ṳ̂ng ē i-mo̍i miá Ná-mâ.",
               "han": "洗拉生土八該隱，是拍銅拍鐵師傅其祖宗，土八該隱其伊妹名拿瑪。",
               "tokens": [
                 {
@@ -23390,7 +23396,7 @@
             {
               "type": "verse",
               "verse": 16,
-              "rom": "Seóng-dêng ceo̍ ā te̤ng, gá̤ⁿ seo̍h chiû-daⁿ, seóng-bing ba̍ng ā mói, beong siō̤ng, dé̤ng, hā, so̤ⁿ ceng. ",
+              "rom": "Seóng-dêng ceo̍ ā te̤ng, gá̤ⁿ seo̍h chiû-daⁿ, seóng-bing ba̍ng ā mói, beong siō̤ng, dé̤ng, hā, so̤ⁿ ceng.",
               "han": "船頂做啊窗，懸蜀手䟓。船邊放啊門，分上中下三層。",
               "tokens": [
                 {
@@ -29211,7 +29217,7 @@
             {
               "type": "verse",
               "verse": 20,
-              "rom": "Nô̤-a̍ ing-ūi Cṳ̂ de̤h ca̤̍-dái; ta̤̍h go̤h-cê̤ng  tā-gā̤ ē táu-saⁿ, gah tā-gā̤ ē câ̤u, he̤̍ng leo̍h ca̤̍-dái lē, ceo̍ hôi-sa̤u-ca̤̍.",
+              "rom": "Nô̤-a̍ ing-ūi Cṳ̂ de̤h ca̤̍-dái; ta̤̍h go̤h-cê̤ng tā-gā̤ ē táu-saⁿ, gah tā-gā̤ ē câ̤u, he̤̍ng leo̍h ca̤̍-dái lē, ceo̍ hôi-sa̤u-ca̤̍.",
               "han": "挪亞因為主築祭臺，摕各種皟潔其頭牲佮皟潔其鳥，獻落祭臺咧，做火燒祭。",
               "tokens": [
                 {
@@ -135524,7 +135530,7 @@
               "type": "verse",
               "verse": 19,
               "rom": "",
-              "han": "著城頭前搭帳房，以後摕蜀百銀佮示劍其老爸，哈末其囝孫買蜀杮塍，即是搭帳房其位處。著遐築祭臺，稱伊其名叫以色列上帝其祭臺。",
+              "han": "著城頭前搭帳房，以後摕蜀百銀佮示劍其老爸，哈末其囝孫買蜀杮塍，即是搭帳房其位處。",
               "tokens": [
                 {
                   "type": "char",
@@ -135685,7 +135691,15 @@
                 {
                   "type": "punct",
                   "text": "。"
-                },
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "著遐築祭臺，稱伊其名叫以色列上帝其祭臺。",
+              "tokens": [
                 {
                   "type": "char",
                   "text": "著"
@@ -136865,7 +136879,7 @@
       ]
     },
     {
-      "name_han": "馬太",
+      "name_han": "瑪太",
       "name_rom": "Mâ-ta̍i",
       "name_eng": "Gospel of Matthew",
       "chapters": [
@@ -136878,12 +136892,18 @@
               "type": "verse",
               "verse": 1,
               "rom": "A̍-beh-la̍h-hâng hā̤u-a̤̍, Dāi-bi̍h hā̤u-a̤̍, Á̤-So Gi-Do̤h ē co̤̍h-pô.",
-              "han": "起頭有道，道佮上帝齊佇，道即是上帝。",
+              "han": "亞伯拉罕後裔，大闢後裔，耶穌基督其族譜。",
               "tokens": [
                 {
                   "type": "word",
-                  "han": "起頭有道",
+                  "han": "亞伯拉罕",
                   "rom": "A̍-beh-la̍h-hâng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "後裔",
+                  "rom": "hā̤u-a̤̍",
                   "form": "phrase"
                 },
                 {
@@ -136893,19 +136913,13 @@
                 },
                 {
                   "type": "word",
-                  "han": "道佮",
-                  "rom": "hā̤u-a̤̍",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "上帝",
+                  "han": "大闢",
                   "rom": "Dāi-bi̍h",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "齊佇",
+                  "han": "後裔",
                   "rom": "hā̤u-a̤̍",
                   "form": "phrase"
                 },
@@ -136916,21 +136930,27 @@
                 },
                 {
                   "type": "word",
-                  "han": "道即",
+                  "han": "耶穌",
                   "rom": "Á̤-So",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "是上",
+                  "han": "基督",
                   "rom": "Gi-Do̤h",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "帝",
+                  "han": "其",
                   "rom": "ē",
                   "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "族譜",
+                  "rom": "co̤̍h-pô",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
@@ -136943,30 +136963,93 @@
               "type": "verse",
               "verse": 2,
               "rom": "A̍-beh-la̍h-hâng saⁿ Î-sah, Î-sah saⁿ Ngâ-go̤h; Ngâ-go̤h saⁿ Iú-dāi, gah Iú-dāi hiaⁿ-dī.",
-              "han": "這道起頭佮上帝齊佇。",
+              "han": "亞伯拉罕生以撒，以撒生雅各；雅各生猶大，佮猶太兄弟。",
               "tokens": [
                 {
                   "type": "word",
-                  "han": "這道起頭",
+                  "han": "亞伯拉罕",
                   "rom": "A̍-beh-la̍h-hâng",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "佮",
+                  "han": "生",
                   "rom": "saⁿ",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "上帝",
+                  "han": "以撒",
+                  "rom": "Î-sah",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "以撒",
                   "rom": "Î-sah",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "齊佇",
-                  "rom": "Î-sah",
+                  "han": "生",
+                  "rom": "saⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "雅各",
+                  "rom": "Ngâ-go̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "；",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "雅各",
+                  "rom": "Ngâ-go̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "生",
+                  "rom": "saⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "猶大",
+                  "rom": "Iú-dāi",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "猶太",
+                  "rom": "Iú-dāi",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "兄弟",
+                  "rom": "hiaⁿ-dī",
                   "form": "phrase"
                 },
                 {
@@ -171077,6 +171160,1872 @@
       ]
     },
     {
+      "name_han": "瑪可",
+      "name_rom": "Mâ-kô̤",
+      "name_eng": "Gospel of Mark",
+      "chapters": [
+        {
+          "chapter": 1,
+          "chapter_title_han": "第一章",
+          "chapter_title_rom": "Dā̤ 1 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Siō̤ng-Da̤̍-Ceô, Á̤-So Gi-Do̤h ho̤h-ing ē kî-táu.",
+              "han": "上帝子，耶穌基督福音其起頭。",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "上帝子",
+                  "rom": "Siō̤ng-Da̤̍-Ceô",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "基督",
+                  "rom": "Gi-Do̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "福音",
+                  "rom": "ho̤h-ing",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "起頭",
+                  "rom": "kî-táu",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "Chā̤uⁿ gi̍-ca̍i leo̍h seng-di cṳ lē gô̤ng, Guâ cha̤-kêng Guâ seo̍-ciâ deó Dṳ̂ táu-sá̤ⁿ, ṳ̄-bī Dṳ̂ ē dō.",
+              "han": "像記載落先知書咧講，我差遣我使者著汝頭前，預備汝其道。",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "像",
+                  "rom": "Chā̤uⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "記載",
+                  "rom": "gi̍-ca̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "先知",
+                  "rom": "seng-di",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "書",
+                  "rom": "cṳ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "咧",
+                  "rom": "lē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "gô̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "Guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "差遣",
+                  "rom": "cha̤-kêng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "Guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "使者",
+                  "rom": "seo̍-ciâ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "著",
+                  "rom": "deó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "Dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "頭前",
+                  "rom": "táu-sá̤ⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "預備",
+                  "rom": "ṳ̄-bī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "Dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "道",
+                  "rom": "dō",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "Deó ko̤̍ng-iâ ū náng ē siaⁿ-ing huā gô̤ng, Ṳ̄-bī Cṳ̂ ē dō, siu-cîng Cṳ̂ ē dō-giô̤ⁿ báⁿ-di̍h.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Deó"
+                },
+                {
+                  "type": "word",
+                  "text": "ko̤̍ng-iâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "siaⁿ-ing"
+                },
+                {
+                  "type": "word",
+                  "text": "huā"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Ṳ̄-bī"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "dō"
+                },
+                {
+                  "type": "word",
+                  "text": "siu-cîng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "dō-giô̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "báⁿ-di̍h"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "Io̤h-hāng deó ko̤̍ng-iâ si-sâ̤-lâ̤, dé̤ng hôi cōi gâi-go̤̍ ē sâ̤-lâ̤, sâi cōi deh sia̍.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Io̤h-hāng"
+                },
+                {
+                  "type": "word",
+                  "text": "deó"
+                },
+                {
+                  "type": "word",
+                  "text": "ko̤̍ng-iâ"
+                },
+                {
+                  "type": "word",
+                  "text": "si-sâ̤-lâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "dé̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "hôi"
+                },
+                {
+                  "type": "word",
+                  "text": "cōi"
+                },
+                {
+                  "type": "word",
+                  "text": "gâi-go̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sâ̤-lâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "cōi"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "sia̍"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "To̤ng Iú-ta̍i dā̤-ho̤ng, léng Á̤-lō-sah-lêng ē náng; go̤h-náng nīng ga̍i-á̤ ē cōi, deó Io̤h-dāng eó siū i ē sâ̤-lâ̤.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "To̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Iú-ta̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "dā̤-ho̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "léng"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-lō-sah-lêng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "nīng"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍i-á̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "cōi"
+                },
+                {
+                  "type": "word",
+                  "text": "deó"
+                },
+                {
+                  "type": "word",
+                  "text": "Io̤h-dāng"
+                },
+                {
+                  "type": "word",
+                  "text": "eó"
+                },
+                {
+                  "type": "word",
+                  "text": "siū"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sâ̤-lâ̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "Io̤h-hāng sē̤ng lo̤̍h-dó̤ mńg, a̤u bo̤̍h pói-dua̍, sia̍h cuh sī hó̤ng-táng gah iâ-bi̍h.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Io̤h-hāng"
+                },
+                {
+                  "type": "word",
+                  "text": "sē̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "lo̤̍h-dó̤"
+                },
+                {
+                  "type": "word",
+                  "text": "mńg"
+                },
+                {
+                  "type": "word",
+                  "text": "a̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "bo̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "pói-dua̍"
+                },
+                {
+                  "type": "word",
+                  "text": "sia̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "hó̤ng-táng"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "iâ-bi̍h"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "I cuh dé̤ng-dō̤ gô̤ng, Ū ā̤ ió̤ⁿ guâ ē náng, deō-bôi guâ lí; guâ cuh pah seo̍h sing gâ̤ I ē á̤-dua̍, iā n̄g de̤̍ng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "dé̤ng-dō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Ū"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ió̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "deō-bôi"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "lí"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "pah"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                },
+                {
+                  "type": "word",
+                  "text": "gâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "á̤-dua̍"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g"
+                },
+                {
+                  "type": "word",
+                  "text": "de̤̍ng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "Guâ ē̤ng cûi si-sâ̤ leo̍h dṳ̂; I beoh ē̤ng Si̍ng-Síng si-sâ̤ leo̍h dṳ̂.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "cûi"
+                },
+                {
+                  "type": "word",
+                  "text": "si-sâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "beoh"
+                },
+                {
+                  "type": "word",
+                  "text": "ē̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Si̍ng-Síng"
+                },
+                {
+                  "type": "word",
+                  "text": "si-sâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "Hṳ̂ sí-cā̤, Á̤-So cé̤ng Ga-lī-lī ē Ná-sah-leh lí, leo̍h Io̤h-dāng-eó  siū sâ̤ leo̍h Io̤h-hāng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Hṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sí-cā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "cé̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Ga-lī-lī"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Ná-sah-leh"
+                },
+                {
+                  "type": "word",
+                  "text": "lí"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Io̤h-dāng-eó"
+                },
+                {
+                  "type": "word",
+                  "text": "siū"
+                },
+                {
+                  "type": "word",
+                  "text": "sâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Io̤h-hāng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "Iú cûi lē sā̤uⁿ, heo̍h-céng kua̍ⁿ-gi̍ng ting kui, Si̍ng-Síng chā̤uⁿ ba̍h-gah ga̍ng-líng leo̍h i I táu-ā-dêng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Iú"
+                },
+                {
+                  "type": "word",
+                  "text": "cûi"
+                },
+                {
+                  "type": "word",
+                  "text": "lē"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤uⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "heo̍h-céng"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ-gi̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ting"
+                },
+                {
+                  "type": "word",
+                  "text": "kui"
+                },
+                {
+                  "type": "word",
+                  "text": "Si̍ng-Síng"
+                },
+                {
+                  "type": "word",
+                  "text": "chā̤uⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "ba̍h-gah"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍ng-líng"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "táu-ā-dêng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "Cé̤ng ting lē ū siaⁿ-ing gô̤ng, Dṳ̂ sī Guâ ē A̍i-Ceô, Guâ sê̤ huaⁿ-hî ē.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Cé̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ting"
+                },
+                {
+                  "type": "word",
+                  "text": "lē"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "siaⁿ-ing"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "A̍i-Ceô"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "huaⁿ-hî"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name_han": "路加",
+      "name_rom": "Lō-ga",
+      "name_eng": "Gospel of Luke",
+      "chapters": [
+        {
+          "chapter": 1,
+          "chapter_title_han": "第一章",
+          "chapter_title_rom": "Dā̤ 1 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Dá̤-o̤-hi-ló̤ duā-náng ā, ing ū cīng sā̤ náng ceo̍ cṳ, gi̍-ca̍i guâ-go̤h-náng si̍h-gṳ̍ ē seō,",
+              "han": "提阿非羅大儂啊，因有盡穧儂做書，記載我各儂實據其事，",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "提阿非羅",
+                  "rom": "Dá̤-o̤-hi-ló̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "大儂",
+                  "rom": "duā-náng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "啊",
+                  "rom": "ā",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "因",
+                  "rom": "ing",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "盡",
+                  "rom": "cīng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "穧",
+                  "rom": "sā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "書",
+                  "rom": "cṳ",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "記載",
+                  "rom": "gi̍-ca̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "我各儂",
+                  "rom": "guâ-go̤h-náng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "實據",
+                  "rom": "si̍h-gṳ̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "事",
+                  "rom": "seō",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "",
+              "han": "約翰著曠野施洗禮，傳悔罪改過其洗禮，使罪得赦。",
+              "tokens": [
+                {
+                  "type": "char",
+                  "text": "約"
+                },
+                {
+                  "type": "char",
+                  "text": "翰"
+                },
+                {
+                  "type": "char",
+                  "text": "著"
+                },
+                {
+                  "type": "char",
+                  "text": "曠"
+                },
+                {
+                  "type": "char",
+                  "text": "野"
+                },
+                {
+                  "type": "char",
+                  "text": "施"
+                },
+                {
+                  "type": "char",
+                  "text": "洗"
+                },
+                {
+                  "type": "char",
+                  "text": "禮"
+                },
+                {
+                  "type": "punct",
+                  "text": "，"
+                },
+                {
+                  "type": "char",
+                  "text": "傳"
+                },
+                {
+                  "type": "char",
+                  "text": "悔"
+                },
+                {
+                  "type": "char",
+                  "text": "罪"
+                },
+                {
+                  "type": "char",
+                  "text": "改"
+                },
+                {
+                  "type": "char",
+                  "text": "過"
+                },
+                {
+                  "type": "char",
+                  "text": "其"
+                },
+                {
+                  "type": "char",
+                  "text": "洗"
+                },
+                {
+                  "type": "char",
+                  "text": "禮"
+                },
+                {
+                  "type": "punct",
+                  "text": "，"
+                },
+                {
+                  "type": "char",
+                  "text": "使"
+                },
+                {
+                  "type": "char",
+                  "text": "罪"
+                },
+                {
+                  "type": "char",
+                  "text": "得"
+                },
+                {
+                  "type": "char",
+                  "text": "赦"
+                },
+                {
+                  "type": "punct",
+                  "text": "。"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 26,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 28,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 29,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 30,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 34,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 36,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 39,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 40,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 41,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 42,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 45,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 53,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 54,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 55,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 56,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 57,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 58,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 59,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 60,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 61,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 62,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 63,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 64,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 65,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 66,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 67,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 68,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 69,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 70,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 71,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 72,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 73,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 74,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 75,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 76,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 77,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 78,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 79,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            },
+            {
+              "type": "verse",
+              "verse": 80,
+              "rom": "",
+              "han": "",
+              "tokens": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name_han": "約翰",
       "name_rom": "Io̤h-hāng",
       "name_eng": "Gospel of John",
@@ -171090,55 +173039,94 @@
               "type": "verse",
               "verse": 1,
               "rom": "Kî-táu ū Dō̤, Dō̤ gah Siō̤ng-Da̤̍ cá̤ diō̤, Dō̤ cuh sī Siō̤ng-Da̤̍.",
-              "han": "",
+              "han": "起頭有道，道佮上帝齊佇，道即是上帝。",
               "tokens": [
                 {
                   "type": "word",
-                  "text": "Kî-táu"
+                  "han": "起頭",
+                  "rom": "Kî-táu",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "text": "ū"
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "Dō̤"
+                  "han": "道",
+                  "rom": "Dō̤",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
                 },
                 {
                   "type": "word",
-                  "text": "Dō̤"
+                  "han": "道",
+                  "rom": "Dō̤",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "gah"
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "Siō̤ng-Da̤̍"
+                  "han": "上帝",
+                  "rom": "Siō̤ng-Da̤̍",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "text": "cá̤"
+                  "han": "齊",
+                  "rom": "cá̤",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "diō̤"
+                  "han": "佇",
+                  "rom": "diō̤",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
                 },
                 {
                   "type": "word",
-                  "text": "Dō̤"
+                  "han": "道",
+                  "rom": "Dō̤",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "cuh"
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "sī"
+                  "han": "是",
+                  "rom": "sī",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "Siō̤ng-Da̤̍"
+                  "han": "上帝",
+                  "rom": "Siō̤ng-Da̤̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
@@ -171146,35 +173134,54 @@
               "type": "verse",
               "verse": 2,
               "rom": "Ca̤̍ Dō̤ kî-táu gah Sio̤ng-Da̤̍ cá̤ diō̤.",
-              "han": "",
+              "han": "這道起頭佮上帝齊佇。",
               "tokens": [
                 {
                   "type": "word",
-                  "text": "Ca̤̍"
+                  "han": "這",
+                  "rom": "Ca̤̍",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "Dō̤"
+                  "han": "道",
+                  "rom": "Dō̤",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "kî-táu"
+                  "han": "起頭",
+                  "rom": "kî-táu",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "text": "gah"
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "Sio̤ng-Da̤̍"
+                  "han": "上帝",
+                  "rom": "Sio̤ng-Da̤̍",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "text": "cá̤"
+                  "han": "齊",
+                  "rom": "cá̤",
+                  "form": "single"
                 },
                 {
                   "type": "word",
-                  "text": "diō̤"
+                  "han": "佇",
+                  "rom": "diō̤",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
@@ -171509,7 +173516,7 @@
             {
               "type": "verse",
               "verse": 8,
-              "rom": "Io̤h-hāng n̄g-sī ca̤̍ gng; nō̤ i lí, sī ta̤̍ ca̤̍ gng ceo̍ ci̍ng-ge̍ng. ",
+              "rom": "Io̤h-hāng n̄g-sī ca̤̍ gng; nō̤ i lí, sī ta̤̍ ca̤̍ gng ceo̍ ci̍ng-ge̍ng.",
               "han": "",
               "tokens": [
                 {
@@ -174537,7 +176544,7 @@
             {
               "type": "verse",
               "verse": 45,
-              "rom": "Hi-li̍h gṳ̄-da̤u̍h Ná-dang-gia̍h, gah i gô̤ng, Mó̤-sa̤ leo̍h-hah gah cṳ-seng-di ē cṳ sê̤ gô̤ng ē náng, guâ ū gṳ̄-da̤u̍h lâ̤u, cuh sī Ná-sah-leh náng, Io̤h-seh ē giô̤ⁿ Á̤-So.",
+              "rom": "Hi-li̍h gṳ̄-da̤u̍h Ná-dāng-gia̍h, gah i gô̤ng, Mó̤-sa̤ leo̍h-hah gah cṳ-seng-di ē cṳ sê̤ gô̤ng ē náng, guâ ū gṳ̄-da̤u̍h lâ̤u, cuh sī Ná-sah-leh náng, Io̤h-seh ē giô̤ⁿ Á̤-So.",
               "han": "",
               "tokens": [
                 {
@@ -174550,7 +176557,7 @@
                 },
                 {
                   "type": "word",
-                  "text": "Ná-dang-gia̍h"
+                  "text": "Ná-dāng-gia̍h"
                 },
                 {
                   "type": "word",
@@ -174651,6 +176658,731 @@
                 {
                   "type": "word",
                   "text": "Á̤-So"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "Ná-dāng-gia̍h gô̤ng, Ná-sah-leh ā̤ cheoh heô-mo̍ih lō̤? Hi-li̍h i̍ng gô̤ng, Dṳ̂ lí kua̍ⁿ.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ná-dāng-gia̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Ná-sah-leh"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "cheoh"
+                },
+                {
+                  "type": "word",
+                  "text": "heô-mo̍ih"
+                },
+                {
+                  "type": "word",
+                  "text": "lō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "Hi-li̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "i̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "lí"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 47,
+              "rom": "Á̤-So kua̍ⁿ Ná-dāng-gia̍h giáⁿ beoh ga̍u, cuh gí i gô̤ng, Dṳ̂ kua̍ⁿ ca̤̍ náng, cing-cia̍ⁿ sī Î-seh-le̍h náng, sing-lî deo beó gang-ca̍.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "Ná-dāng-gia̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "giáⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "beoh"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "gí"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "cing-cia̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "Î-seh-le̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "sing-lî"
+                },
+                {
+                  "type": "word",
+                  "text": "deo"
+                },
+                {
+                  "type": "word",
+                  "text": "beó"
+                },
+                {
+                  "type": "word",
+                  "text": "gang-ca̍"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 48,
+              "rom": "Ná-dāng-gia̍h gah i gô̤ng, Dṳ̂ deoh-leo ā̤ cai guâ lē? Á̤-So i̍ng gô̤ng, Hi-li̍h ho̤h-bōi ga̤̍u dṳ̂, dṳ̂ deó bú-hua-gô̤ chiu̍-ō̤, Guâ î-ging kua̍ⁿ-gi̍ng dṳ̂ lâ̤u.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ná-dāng-gia̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "deoh-leo"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "lē"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "i̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Hi-li̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h-bōi"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̤̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "deó"
+                },
+                {
+                  "type": "word",
+                  "text": "bú-hua-gô̤"
+                },
+                {
+                  "type": "word",
+                  "text": "chiu̍-ō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "î-ging"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ-gi̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "lâ̤u"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 49,
+              "rom": "Ná-dāng-gia̍h i̍ng gô̤ng, Seng-saⁿ, Dṳ̂ sī Siō̤ng-da̤̍ ē Giô̤ⁿ; Dṳ̂ sī Î-seh-le̍h ē Ó̤ng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ná-dāng-gia̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "i̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Seng-saⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Giô̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "Î-seh-le̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Ó̤ng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 50,
+              "rom": "Á̤-So i̍ng i gô̤ng, Ing Guâ gô̤ng dṳ̂ deó Bú-hua-gô̤ chiu̍-ō̤, î-ging kua̍ⁿ-gi̍ng dṳ̂ lâ̤u, dṳ̂ cuh se̍ng lō̤? Dṳ̂ cio̤ng-lái ā̤ kua̍ⁿ-gi̍ng ho̤h ā̤-duā ah-na ē seō.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "i̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Ing"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "deó"
+                },
+                {
+                  "type": "word",
+                  "text": "Bú-hua-gô̤"
+                },
+                {
+                  "type": "word",
+                  "text": "chiu̍-ō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "î-ging"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ-gi̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "lâ̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "se̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "lō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "cio̤ng-lái"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ-gi̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤-duā"
+                },
+                {
+                  "type": "word",
+                  "text": "ah-na"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 51,
+              "rom": "Á̤-So buh gô̤ng, Guâ si̍h-cāi gah dṳ̂ gô̤ng, Hā̤u-lái dṳ̂ beoh kua̍ⁿ-gi̍ng ting kui, léng Siō̤ng-Da̤̍ ē teng-seo̍ sā̤uⁿ-leo̍h leo̍h Cíng-Ceô dêng-ni̍.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "buh"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "si̍h-cāi"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Hā̤u-lái"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "beoh"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ-gi̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ting"
+                },
+                {
+                  "type": "word",
+                  "text": "kui"
+                },
+                {
+                  "type": "word",
+                  "text": "léng"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "teng-seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤uⁿ-leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Cíng-Ceô"
+                },
+                {
+                  "type": "word",
+                  "text": "dêng-ni̍"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "chapter_title_han": "第二章",
+          "chapter_title_rom": "Dā̤ 2 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Dā̤-so̤ⁿ di̍h, leo̍h Ga-lī-lī Gia-ná dā̤-ho̤ng, ū ā siáⁿ-náng ē ciû-si̍h. Á̤-So ē ná̤u-lâ̤ iā deó hiô̤.",
+              "han": "越三日，落迦利利加拿地方，有啊成儂其酒席。耶穌其娘嬭亦著許。",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "越三",
+                  "rom": "Dā̤-so̤ⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "日",
+                  "rom": "di̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "落",
+                  "rom": "leo̍h",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "迦利利",
+                  "rom": "Ga-lī-lī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "加拿",
+                  "rom": "Gia-ná",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "地方",
+                  "rom": "dā̤-ho̤ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "啊",
+                  "rom": "ā",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "成儂",
+                  "rom": "siáⁿ-náng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "酒席",
+                  "rom": "ciû-si̍h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "娘嬭",
+                  "rom": "ná̤u-lâ̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "亦",
+                  "rom": "iā",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "著",
+                  "rom": "deó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "許",
+                  "rom": "hiô̤",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "Á̤-So gah meóng-seng iā keoh i chiâⁿ kṳ̍.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "meóng-seng"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "keoh"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "chiâⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "kṳ̍"
                 }
               ]
             }
@@ -176730,7 +179462,7 @@
             {
               "type": "verse",
               "verse": 2,
-              "rom": "Ing guâ ge̤h-i̍, leo̍h dṳ̂ do̤-ng  n̄g-cai beh mo̍ih, nō̤ ca̍i Á̤-So Gi-Do̤h, léng I de̍ng si̍h-cī-ga̍.",
+              "rom": "Ing guâ ge̤h-i̍, leo̍h dṳ̂ do̤-ng n̄g-cai beh mo̍ih, nō̤ ca̍i Á̤-So Gi-Do̤h, léng I de̍ng si̍h-cī-ga̍.",
               "han": "",
               "tokens": [
                 {
@@ -177476,6 +180208,1089 @@
                 {
                   "type": "word",
                   "text": "o̤̍-bā̤u"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "Náng ē si̍ng-cíng, dṳ́ gṳ leo̍h náng sing-lî ē síng î-gōi, hn̍g-náng ā̤ cai? Bíng ah-na, Siō̤ng-Da̤̍ ē si̍ng-cíng, dṳ́ Siō̤ng-Da̤̍ ē Síng î-gōi, iā beó náng ā̤ cai.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "si̍ng-cíng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ́"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "sing-lî"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "síng"
+                },
+                {
+                  "type": "word",
+                  "text": "î-gōi"
+                },
+                {
+                  "type": "word",
+                  "text": "hn̍g-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "Bíng"
+                },
+                {
+                  "type": "word",
+                  "text": "ah-na"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "si̍ng-cíng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ́"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Síng"
+                },
+                {
+                  "type": "word",
+                  "text": "î-gōi"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "beó"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "Guâ-go̤h-náng sê̤ siū ē, n̄g-sī ciâ sa̤̍-gang ē síng, sī iú Siō̤ng-Da̤̍ lí ē Síng, sâi guâ ā̤ cai Siō̤ng-Da̤̍ sê̤ seo̍ keoh guâ ē ṳng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "siū"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ciâ"
+                },
+                {
+                  "type": "word",
+                  "text": "sa̤̍-gang"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "síng"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "iú"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "lí"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Síng"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "keoh"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "Guâ-go̤h-náng gô̤ng-leōng ca̤̍ seō, n̄g-sī ē̤ng sa̤̍-gang náng di̍-hā̤ sê̤ go̤̍ ē uā; cuh sī ta̤̍h síng gâ̤-míng síng ē seō.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng-leōng"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ē̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "sa̤̍-gang"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "di̍-hā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "uā"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "síng"
+                },
+                {
+                  "type": "word",
+                  "text": "gâ̤-míng"
+                },
+                {
+                  "type": "word",
+                  "text": "síng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "Nō̤ bōi deh gâng-hua̍ ē náng, n̄g siū Siō̤ng-Da̤̍ Si̍ng-síng ē seō, huâng kua̍ⁿ ca̤̍ seō sī ngō̤ng, léng iā beó-dang-dng cai; ing ca̤̍ seō, náng da̤u̍h ē̤ng síng, cia̍ⁿ ā̤ chûi-do̤̍h.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "bōi"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "gâng-hua̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g"
+                },
+                {
+                  "type": "word",
+                  "text": "siū"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "Si̍ng-síng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "huâng"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ngō̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "léng"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "beó-dang-dng"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seō"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "síng"
+                },
+                {
+                  "type": "word",
+                  "text": "cia̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "chûi-do̤̍h"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "Bí-do̤̍h Si̍ng-síng gâng-hua̍ ē náng, ā̤ chûi-do̤̍h māng-seō; i ga̍i buh bā̤ keoh náng chûi-do̤̍h.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Bí-do̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Si̍ng-síng"
+                },
+                {
+                  "type": "word",
+                  "text": "gâng-hua̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "chûi-do̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "māng-seō"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "buh"
+                },
+                {
+                  "type": "word",
+                  "text": "bā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "keoh"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "chûi-do̤̍h"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "Hn̍g-náng cai Cṳ̂ ē sing, ā̤ go̤̍ I lē? Nō̤ guâ-go̤h-náng ū deh Gi-Do̤h ē sing.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Hn̍g-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "lē"
+                },
+                {
+                  "type": "word",
+                  "text": "Nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "chapter_title_han": "第三章",
+          "chapter_title_rom": "Dā̤ 3 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Hiaⁿ-dī ā! guâ î-ce̍ng go̤̍ dṳ̂; beó-dang-dng kua̍ⁿ dṳ̂ ceo̍ se̤̍h-léng ē náng, nō̤ kua̍ⁿ dṳ̂ ceo̍ se̤̍h-tâ̤ ē náng; leo̍h Gi-Do̤h ē dō̤-lî, ho̤h sī chā̤uⁿ da̍i-giô̤ⁿ.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Hiaⁿ-dī"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "î-ce̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "beó-dang-dng"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h-léng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "kua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h-tâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "dō̤-lî"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "chā̤uⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "da̍i-giô̤ⁿ"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "Guâ beh-céng ta̤̍h neng chi̍ dṳ̂, beó ta̤̍h ná̤u-châu, ing dṳ̂ bā̤ sia̍h; ga̍u da iā bā̤ sia̍h;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "beh-céng"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "neng"
+                },
+                {
+                  "type": "word",
+                  "text": "chi̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "beó"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ná̤u-châu"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "bā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sia̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "da"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "bā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sia̍h"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "ing dṳ̂-go̤h-náng ho̤h sī se̤̍h-tâ̤. Dṳ̂ do̤-ng ū do̍-gī, seo-caⁿ, kî-hṳ̍ng, ca̤̍ meh n̄g-sī se̤̍h-tâ̤, bíng náng ē i̍-seo̍ kṳ̍ ceo̍ lō̤?",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h-tâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "do̤-ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "do̍-gī"
+                },
+                {
+                  "type": "word",
+                  "text": "seo-caⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "kî-hṳ̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "meh"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h-tâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "bíng"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "i̍-seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "kṳ̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "lō̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "Ū náng gô̤ng, Guâ se̤̍h Bô̤-ló̤; iā ū náng gô̤ng, Guâ se̤̍h A̍-bo̤-ló̤; dṳ̂ meh n̄g-sī se̤̍h-tâ̤ lō̤?",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ū"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "Bô̤-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "A̍-bo̤-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "meh"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "se̤̍h-tâ̤"
+                },
+                {
+                  "type": "word",
+                  "text": "lō̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "Bô̤-ló̤ sī hn̍g-náng? A-bo̤-ló̤ sī hn̍g-náng? I meh n̄g-sī cih-seō, îng-dō̤ dṳ̂ se̍ng Cṳ̂, bíng Cṳ̂ sê̤ seo̍ go̤h-náng ē ṳng lō̤?",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Bô̤-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "hn̍g-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "A-bo̤-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "hn̍g-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "meh"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "cih-seō"
+                },
+                {
+                  "type": "word",
+                  "text": "îng-dō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "se̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "bíng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳng"
+                },
+                {
+                  "type": "word",
+                  "text": "lō̤"
                 }
               ]
             }
@@ -178958,6 +182773,2120 @@
                 {
                   "type": "word",
                   "text": "duā"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name_han": "保羅寄腓利們書",
+      "name_rom": "Bô̤-ló̤ Gio̤̍ Hi-lī-meóng Cṳ",
+      "name_eng": "Philemon",
+      "chapters": [
+        {
+          "chapter": 1,
+          "chapter_title_han": "第一章",
+          "chapter_title_rom": "Dā̤ 1 Ca̤uⁿ",
+          "sections": [
+            {
+              "type": "verse",
+              "verse": 1,
+              "rom": "Ing-ūi Gi-Do̤h Á̤-So cuh ceo̍ siú-hāng ē Bô̤-ló̤, gah ā-dī Dá̤-mó̤-ta̍i, gio̤̍ cṳ keoh guâ sê̤ ching-a̍i cá̤ gṳ́ng-ló̤ ē Hi-lī-meóng,",
+              "han": "因為基督耶穌即做囚犯其保羅，佮阿弟提摩太，寄書乞我所親愛齊勤勞其腓利們，",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "因為",
+                  "rom": "Ing-ūi",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "基督",
+                  "rom": "Gi-Do̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "耶穌",
+                  "rom": "Á̤-So",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "做",
+                  "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "囚犯",
+                  "rom": "siú-hāng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "保羅",
+                  "rom": "Bô̤-ló̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "阿弟",
+                  "rom": "ā-dī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "提摩太",
+                  "rom": "Dá̤-mó̤-ta̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "寄",
+                  "rom": "gio̤̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "書",
+                  "rom": "cṳ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "乞",
+                  "rom": "keoh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "所",
+                  "rom": "sê̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "親愛",
+                  "rom": "ching-a̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "齊",
+                  "rom": "cá̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "勤勞",
+                  "rom": "gṳ́ng-ló̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "腓利們",
+                  "rom": "Hi-lī-meóng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "léng ching-a̍i ē ā-mo̍i A̍-hi-a̍ sī, gah guâ cá̤ gau-ce̍ng ē A̍-gi-bo̍, léng deó dṳ̂ cho̍-lî ē ga̍u-hōi:",
+              "han": "連親愛其阿妹亞毘亞氏，佮我齊交戰其亞基布，連著汝厝裏其教會：",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "親愛",
+                  "rom": "ching-a̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "阿妹",
+                  "rom": "ā-mo̍i",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "亞毘亞",
+                  "rom": "A̍-hi-a̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "氏",
+                  "rom": "sī",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "齊",
+                  "rom": "cá̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "交戰",
+                  "rom": "gau-ce̍ng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "亞基布",
+                  "rom": "A̍-gi-bo̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "連",
+                  "rom": "léng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "著",
+                  "rom": "deó",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "厝裏",
+                  "rom": "cho̍-lî",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "教會",
+                  "rom": "ga̍u-hōi",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "：",
+                  "rom": ""
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "ngōi guâ Teng-Hū Siō̤ng-Da̤̍, léng Cṳ̂ Á̤-So Gi-Do̤h, seo̍ dṳ̂ ṳng-hā̤ bíng-ang.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "ngōi"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Teng-Hū"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "léng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳng-hā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "bíng-ang"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "Guâ sí-sió̤ng gâng-siā guâ ē Siō̤ng-Da̤̍, gí-dô̤ sí-cā̤, deo ū gi̍-niāng dṳ̂;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "sí-sió̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "gâng-siā"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Siō̤ng-Da̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "gí-dô̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sí-cā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "deo"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "gi̍-niāng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "ing tiaⁿ-mói dṳ̂ hio̤̍ng Cṳ̂ Á̤-So léng ce̤̍ng si̍ng-dó, ū cíng-a̍i gah se̍ng ē sing;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "tiaⁿ-mói"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "hio̤̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "léng"
+                },
+                {
+                  "type": "word",
+                  "text": "ce̤̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "si̍ng-dó"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "cíng-a̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "se̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "mō̤ng dṳ̂ gah ce̤̍ng-náng sê̤ cá̤ ū ē se̍ng ā̤ deh go̤ng-hāu, sâi náng cai dṳ̂ sê̤ héng siáⁿ-bā-hāng ē heô, sī ing-ūi Á̤-So Gi-Do̤h cia̍ⁿ kṳ̍ héng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "mō̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "ce̤̍ng-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "cá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "se̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "go̤ng-hāu"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "héng"
+                },
+                {
+                  "type": "word",
+                  "text": "siáⁿ-bā-hāng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "heô"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ing-ūi"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "cia̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "kṳ̍"
+                },
+                {
+                  "type": "word",
+                  "text": "héng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "Hiaⁿ-dī ā, guâ ing-ūi dṳ̂ ē sā̤u, duā ū hî-lo̤̍h ang-hu̍i, sī ing si̍ng-dó ē sing iú dṳ̂ cuh deh tio̤̍ng-lo̤̍h.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Hiaⁿ-dī"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ing-ūi"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "duā"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "hî-lo̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "ang-hu̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "si̍ng-dó"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                },
+                {
+                  "type": "word",
+                  "text": "iú"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "tio̤̍ng-lo̤̍h"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "Guâ hō̤ng Gi-Do̤h, sui-céng ā̤ ta̤̍h sê̤ gai-dng ē, duā-dô̤ⁿ mīng dṳ̂,",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "hō̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "sui-céng"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "gai-dng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "duā-dô̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "mīng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 9,
+              "rom": "nō̤ ing seo-sā̤u ē é̤ng-go̍, hó̤-beoh-cṳ́ giú dṳ̂; ing guâ Bô̤-ló̤ néng-gî lāu, hēng-ging iā ing Á̤-So Gi-Do̤h ceo̍ siú-hāng:",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "seo-sā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "é̤ng-go̍"
+                },
+                {
+                  "type": "word",
+                  "text": "hó̤-beoh-cṳ́"
+                },
+                {
+                  "type": "word",
+                  "text": "giú"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Bô̤-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "néng-gî"
+                },
+                {
+                  "type": "word",
+                  "text": "lāu"
+                },
+                {
+                  "type": "word",
+                  "text": "hēng-ging"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "siú-hāng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "guâ dua̍ tī-lē̤ng do̤-ng, deh seo̍h gá̤ dā̤-ceô O̤-ní-sa̤-bâ̤u, guâ ta̤̍ i giú dṳ̂:",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "dua̍"
+                },
+                {
+                  "type": "word",
+                  "text": "tī-lē̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "do̤-ng"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "gá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "dā̤-ceô"
+                },
+                {
+                  "type": "word",
+                  "text": "O̤-ní-sa̤-bâ̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "giú"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 11,
+              "rom": "i sá̤ⁿ-di̍h beó-iā dṳ̂, da dṳ̂ guâ cá̤ deh i ē iā:",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "sá̤ⁿ-di̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "beó-iā"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "da"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "cá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "i cuh sī ceo̍ guâ ē sing-guaⁿ, guâ da cha̤-sâi i po̤ⁿ-dôiⁿ kṳ̍ dṳ̂ hiô̤, ai-mō̤ng dṳ̂ siū-da̍h i.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing-guaⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "da"
+                },
+                {
+                  "type": "word",
+                  "text": "cha̤-sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "po̤ⁿ-dôiⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "kṳ̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "hiô̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ai-mō̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "siū-da̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 13,
+              "rom": "Guâ ing dóiⁿ ho̤h-ing, gṳ̄-da̤u̍h dua̍ seô, beông-lái a̍i-dí láu i ceo̍-seo̍h-dui gṳ-cṳ̄, ta̤̍ dṳ̂ ho̤̍h-seō guâ:",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "dóiⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤h-ing"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ̄-da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "dua̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seô"
+                },
+                {
+                  "type": "word",
+                  "text": "beông-lái"
+                },
+                {
+                  "type": "word",
+                  "text": "a̍i-dí"
+                },
+                {
+                  "type": "word",
+                  "text": "láu"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍-seo̍h-dui"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ-cṳ̄"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ho̤̍h-seō"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "nō̤ n̄g-cai dṳ̂ ē sing-i̍, guâ n̄g-kêng ah-na ceo̍; a̍i-dí dṳ̂ sê̤ ceo̍ ē heô-seō n̄g-sī iú mêng-giô̤ng, sī iú gang-ngōi ē sing.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-cai"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing-i̍"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-kêng"
+                },
+                {
+                  "type": "word",
+                  "text": "ah-na"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "a̍i-dí"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "heô-seō"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "iú"
+                },
+                {
+                  "type": "word",
+                  "text": "mêng-giô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "iú"
+                },
+                {
+                  "type": "word",
+                  "text": "gang-ngōi"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "I he̍h-chiâⁿ cāng-sí lī dṳ̂, î-di̍ dṳ̂ ā̤ ṳ̂ng-ê̤ng siū-da̍h i;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "I"
+                },
+                {
+                  "type": "word",
+                  "text": "he̍h-chiâⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "cāng-sí"
+                },
+                {
+                  "type": "word",
+                  "text": "lī"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "î-di̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳ̂ng-ê̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "siū-da̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "n̄g-sī cíng-céng chā̤uⁿ nó-cái, sī piāⁿ nó-cái ā̤-duā, ceo̍ seo̍h gá̤ kô-a̍i ē hiaⁿ-dī; guâ cīng sā̤u i, hó̤-ho̤̍ng i ceo̍ dṳ̂ ga-cíng, buh ceo̍ se̍ng Cṳ̂ ē náng, dṳ̂ meh n̄g ge̍ng-ge̍ng sā̤u i lō̤?",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "n̄g-sī"
+                },
+                {
+                  "type": "word",
+                  "text": "cíng-céng"
+                },
+                {
+                  "type": "word",
+                  "text": "chā̤uⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "nó-cái"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "piāⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "nó-cái"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤-duā"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "gá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "kô-a̍i"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "hiaⁿ-dī"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "cīng"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "hó̤-ho̤̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ga-cíng"
+                },
+                {
+                  "type": "word",
+                  "text": "buh"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "se̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "náng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "meh"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g"
+                },
+                {
+                  "type": "word",
+                  "text": "ge̍ng-ge̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "sā̤u"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "lō̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 17,
+              "rom": "Dṳ̂ nō̤ sua̍ⁿ guâ ceo̍ béng-iû, cuh da̤u̍h siū-da̍h i chā̤uⁿ siū-da̍h guâ.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "sua̍ⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "béng-iû"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "siū-da̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "chā̤uⁿ"
+                },
+                {
+                  "type": "word",
+                  "text": "siū-da̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "Cio̤̍h-seô i ū seo̍h-moi hāi dṳ̂, he̍h kia̍ng dṳ̂, cuh deo gui leo̍h guâ;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Cio̤̍h-seô"
+                },
+                {
+                  "type": "word",
+                  "text": "i"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "seo̍h-moi"
+                },
+                {
+                  "type": "word",
+                  "text": "hāi"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "he̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "kia̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "deo"
+                },
+                {
+                  "type": "word",
+                  "text": "gui"
+                },
+                {
+                  "type": "word",
+                  "text": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "guâ Bô̤-ló̤ ching-chiû siâ, guâ dih-dih bói dṳ̂; nō̤ guâ n̄g-sâi gah dṳ̂ gô̤ng, dṳ̂ iā ū kia̍ng guâ ē, cuh sī kia̍ng guâ ē sing-ga̍ ngṳ́ng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Bô̤-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ching-chiû"
+                },
+                {
+                  "type": "word",
+                  "text": "siâ"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "dih-dih"
+                },
+                {
+                  "type": "word",
+                  "text": "bói"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "nō̤"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "n̄g-sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "ū"
+                },
+                {
+                  "type": "word",
+                  "text": "kia̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "sī"
+                },
+                {
+                  "type": "word",
+                  "text": "kia̍ng"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing-ga̍"
+                },
+                {
+                  "type": "word",
+                  "text": "ngṳ́ng"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "Hiaⁿ-dī ā, giú dṳ̂ da̤u̍h sâi guâ ē sing ing Cṳ̂ deh hî-lo̤̍h; buh sâi guâ ē sing ing Cṳ̂ deh ang-hu̍i.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Hiaⁿ-dī"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "giú"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "da̤u̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "hî-lo̤̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "buh"
+                },
+                {
+                  "type": "word",
+                  "text": "sâi"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "sing"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "deh"
+                },
+                {
+                  "type": "word",
+                  "text": "ang-hu̍i"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "Guâ siâ ca̤̍ cṳ gio̤̍ keoh dṳ̂, ching-cai dṳ̂ ā̤ seōng-cé̤ng; iā cai dṳ̂ sê̤ héng ē dih-dih geo̍ kṳ̍ guâ sê̤ gô̤ng ē.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "siâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ca̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "cṳ"
+                },
+                {
+                  "type": "word",
+                  "text": "gio̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "keoh"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ching-cai"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "seōng-cé̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "cai"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "héng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "dih-dih"
+                },
+                {
+                  "type": "word",
+                  "text": "geo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "kṳ̍"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "gô̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 22,
+              "rom": "Guâ buh giú dṳ̂ ta̤̍ guâ ṳ̄-bī ā gṳ̄-sê̤; ing guâ ciā dṳ̂ gí-dô̤, ai-mō̤ng ā̤ ga̍u dṳ̂ hiô̤,",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "buh"
+                },
+                {
+                  "type": "word",
+                  "text": "giú"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳ̄-bī"
+                },
+                {
+                  "type": "word",
+                  "text": "ā"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ̄-sê̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ing"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "ciā"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "gí-dô̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ai-mō̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "ā̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ga̍u"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "hiô̤"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "Ing Gi-Do̤h Á̤-So cuh gah guâ cá̤ ceo̍ siú-hāng ē Î-ba-heo̍h chîng-ang dṳ̂;",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ing"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "cuh"
+                },
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "cá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "text": "siú-hāng"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Î-ba-heo̍h"
+                },
+                {
+                  "type": "word",
+                  "text": "chîng-ang"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 24,
+              "rom": "gah guâ cá̤ gṳ́ng-ló̤ ē Mâ-kô̤, A-lî-da̍h-gó, Dâ̤-mâ, Lō-ga, iā chîng-ang dṳ̂.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "gah"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "cá̤"
+                },
+                {
+                  "type": "word",
+                  "text": "gṳ́ng-ló̤"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "Mâ-kô̤"
+                },
+                {
+                  "type": "word",
+                  "text": "A-lî-da̍h-gó"
+                },
+                {
+                  "type": "word",
+                  "text": "Dâ̤-mâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Lō-ga"
+                },
+                {
+                  "type": "word",
+                  "text": "iā"
+                },
+                {
+                  "type": "word",
+                  "text": "chîng-ang"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂"
+                }
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 25,
+              "rom": "Ngōi guâ Cṳ̂ Á̤-So Gi-Do̤h ē ṳng, sí-sió̤ng deó dṳ̂-go̤h-náng sing-lî. Si̍h-sing sê̤-ngē̤ng.",
+              "han": "",
+              "tokens": [
+                {
+                  "type": "word",
+                  "text": "Ngōi"
+                },
+                {
+                  "type": "word",
+                  "text": "guâ"
+                },
+                {
+                  "type": "word",
+                  "text": "Cṳ̂"
+                },
+                {
+                  "type": "word",
+                  "text": "Á̤-So"
+                },
+                {
+                  "type": "word",
+                  "text": "Gi-Do̤h"
+                },
+                {
+                  "type": "word",
+                  "text": "ē"
+                },
+                {
+                  "type": "word",
+                  "text": "ṳng"
+                },
+                {
+                  "type": "word",
+                  "text": "sí-sió̤ng"
+                },
+                {
+                  "type": "word",
+                  "text": "deó"
+                },
+                {
+                  "type": "word",
+                  "text": "dṳ̂-go̤h-náng"
+                },
+                {
+                  "type": "word",
+                  "text": "sing-lî"
+                },
+                {
+                  "type": "word",
+                  "text": "Si̍h-sing"
+                },
+                {
+                  "type": "word",
+                  "text": "sê̤-ngē̤ng"
                 }
               ]
             }
@@ -181441,7 +187370,7 @@
               "type": "verse",
               "verse": 5,
               "rom": "Ching-a̍i ē hiaⁿ-dī a, dṳ̂ ka̍ng-dāi hiaⁿ-dī gah ceo̍ náng-kā ē náng, háng dṳ̂ sê̤ ceo̍ ē, deo sī cīng de̤ng-sing;",
-              "han": "親愛其兄弟啊，汝待兄弟佮做儂客其儂，凡汝所做其，都是盡忠心。",
+              "han": "親愛其兄弟啊，汝看待兄弟佮做儂客其儂，凡汝所做其，都是盡忠心。",
               "tokens": [
                 {
                   "type": "word",
@@ -181480,38 +187409,44 @@
                 },
                 {
                   "type": "word",
-                  "han": "待兄",
+                  "han": "看待",
                   "rom": "ka̍ng-dāi",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "弟佮",
+                  "han": "兄弟",
                   "rom": "hiaⁿ-dī",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "做",
+                  "han": "佮",
                   "rom": "gah",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "儂",
+                  "han": "做",
                   "rom": "ceo̍",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "客其",
+                  "han": "儂客",
                   "rom": "náng-kā",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "儂",
+                  "han": "其",
                   "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
                   "form": "single"
                 },
                 {
@@ -181522,31 +187457,31 @@
                 {
                   "type": "word",
                   "han": "凡",
-                  "rom": "náng",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "汝",
                   "rom": "háng",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "所",
+                  "han": "汝",
                   "rom": "dṳ̂",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "做",
+                  "han": "所",
                   "rom": "sê̤",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "其",
+                  "han": "做",
                   "rom": "ceo̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
                   "form": "single"
                 },
                 {
@@ -181557,32 +187492,31 @@
                 {
                   "type": "word",
                   "han": "都",
-                  "rom": "ē",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "是",
                   "rom": "deo",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "盡",
+                  "han": "是",
                   "rom": "sī",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "忠",
+                  "han": "盡",
                   "rom": "cīng",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "心",
+                  "han": "忠心",
                   "rom": "de̤ng-sing",
                   "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
@@ -181870,7 +187804,7 @@
               "type": "verse",
               "verse": 8,
               "rom": "Ah-na ē náng, guâ-go̤h-náng gai-dng ciah-dāi i, î-di̍ ā̤ gah i cá̤ seo bang-cē̤ dóiⁿ ca̤̍ cing-lî.",
-              "han": "安生其儂，我各儂該當接待伊，î-di̍解佮伊齊廝幫助傳這真理。",
+              "han": "安生其儂，我各儂該當接待伊，以致解佮伊齊廝幫助傳這真理。",
               "tokens": [
                 {
                   "type": "word",
@@ -181926,7 +187860,7 @@
                 },
                 {
                   "type": "word",
-                  "han": "î-di̍",
+                  "han": "以致",
                   "rom": "î-di̍",
                   "form": "phrase"
                 },
@@ -183361,7 +189295,7 @@
               "type": "verse",
               "verse": 3,
               "rom": "Ching-a̍i ē hiaⁿ-dī ā! guâ gi̍-céng ṳng-gṳ́ng siâ cṳ gio̤̍ keoh dṳ̂, gô̤ng-leōng guâ-go̤h-náng sê̤ cá̤ deh ē cîng-giu̍, cuh da̤u̍h leo̍h cṳ lē lī-li̍ ko̍iⁿ dṳ̂ cīng-sing bēng-leōng cé̤ng-céng sê̤ dóiⁿ keoh si̍ng-dó ē dō̤-lî.",
-              "han": "親愛其兄弟啊！我既然殷勤寫書寄乞汝，講論我各儂所得其拯救，即着落書咧內勢勸汝盡心辯論從前所傳乞聖徒其道理。",
+              "han": "親愛其兄弟啊！我既然殷勤寫書寄乞汝，講論我各儂所齊得其拯救，即着落書咧內勢勸汝盡心辯論從前所傳乞聖徒其道理。",
               "tokens": [
                 {
                   "type": "word",
@@ -183465,129 +189399,139 @@
                 },
                 {
                   "type": "word",
-                  "han": "得",
+                  "han": "齊",
                   "rom": "cá̤",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "其",
+                  "han": "得",
                   "rom": "deh",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "拯",
+                  "han": "其",
                   "rom": "ē",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "救即",
+                  "han": "拯救",
                   "rom": "cîng-giu̍",
                   "form": "phrase"
                 },
                 {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
                   "type": "word",
-                  "han": "着",
+                  "han": "即",
                   "rom": "cuh",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "落",
+                  "han": "着",
                   "rom": "da̤u̍h",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "書",
+                  "han": "落",
                   "rom": "leo̍h",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "咧",
+                  "han": "書",
                   "rom": "cṳ",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "內",
+                  "han": "咧",
                   "rom": "lē",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "勢勸",
+                  "han": "內勢",
                   "rom": "lī-li̍",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "汝",
+                  "han": "勸",
                   "rom": "ko̍iⁿ",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "盡",
+                  "han": "汝",
                   "rom": "dṳ̂",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "心辯",
+                  "han": "盡心",
                   "rom": "cīng-sing",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "論從",
+                  "han": "辯論",
                   "rom": "bēng-leōng",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "前所",
+                  "han": "從前",
                   "rom": "cé̤ng-céng",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "傳",
+                  "han": "所",
                   "rom": "sê̤",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "乞",
+                  "han": "傳",
                   "rom": "dóiⁿ",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "聖",
+                  "han": "乞",
                   "rom": "keoh",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "徒其",
+                  "han": "聖徒",
                   "rom": "si̍ng-dó",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "道",
+                  "han": "其",
                   "rom": "ē",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "理",
+                  "han": "道理",
                   "rom": "dō̤-lî",
                   "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },

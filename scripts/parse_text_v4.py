@@ -552,10 +552,24 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
-    website_output = Path('website/public/bible_data.json')
-    if website_output.parent.exists():
-        shutil.copy2(output_file, website_output)
-        print(f"\n  已複製至: {website_output}")
+    # 自動複製所有需要的 JSON 檔案到 website/public/
+    website_public_dir = Path('website/public')
+    if website_public_dir.exists():
+        # 要複製的檔案列表 (source_path, target_filename)
+        files_to_copy = [
+            (Path(output_file), 'bible_data.json'),
+            (Path('data/page-ocr-results.json'), 'page-ocr-results.json'),
+            (Path('data/chapter-page-mapping.json'), 'chapter-page-mapping.json'),
+        ]
+
+        print(f"\n複製 JSON 檔案到 website/public/:")
+        for source, target_name in files_to_copy:
+            target = website_public_dir / target_name
+            if source.exists():
+                shutil.copy2(source, target)
+                print(f"  [OK] {target_name}")
+            else:
+                print(f"  [SKIP] {target_name} (來源檔案不存在: {source})")
     else:
         print(f"\n  警告: website/public/ 目錄不存在，跳過複製")
 

@@ -6,31 +6,31 @@
       "verses": 211
     },
     "nt": {
-      "books": 6,
-      "chapters": 20,
-      "verses": 549
+      "books": 9,
+      "chapters": 25,
+      "verses": 605
     },
     "total": {
-      "books": 8,
-      "chapters": 30,
-      "verses": 760
+      "books": 11,
+      "chapters": 35,
+      "verses": 816
     }
   },
   "han": {
     "ot": {
       "books": 2,
       "chapters": 34,
-      "verses": 969
+      "verses": 970
     },
     "nt": {
-      "books": 5,
-      "chapters": 6,
-      "verses": 76
+      "books": 9,
+      "chapters": 11,
+      "verses": 85
     },
     "total": {
-      "books": 7,
-      "chapters": 40,
-      "verses": 1045
+      "books": 11,
+      "chapters": 45,
+      "verses": 1055
     }
   },
   "totals": {
