@@ -7,13 +7,13 @@
     },
     "nt": {
       "books": 9,
-      "chapters": 31,
-      "verses": 622
+      "chapters": 60,
+      "verses": 665
     },
     "total": {
       "books": 11,
-      "chapters": 41,
-      "verses": 833
+      "chapters": 70,
+      "verses": 876
     }
   },
   "han": {
@@ -24,13 +24,13 @@
     },
     "nt": {
       "books": 9,
-      "chapters": 13,
-      "verses": 88
+      "chapters": 15,
+      "verses": 91
     },
     "total": {
       "books": 11,
-      "chapters": 47,
-      "verses": 1058
+      "chapters": 49,
+      "verses": 1061
     }
   },
   "totals": {
