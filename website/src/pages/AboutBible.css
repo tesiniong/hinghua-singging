@@ -96,6 +96,56 @@
   font-weight: 500;
 }
 
+/* 漢字轉寫表格 */
+.hanzi-table-wrapper {
+  margin-top: 1.5em;
+  overflow-x: auto;
+}
+
+.hanzi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.hanzi-table th,
+.hanzi-table td {
+  border: 1px solid var(--border-color);
+  padding: 0.7em 1em;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.hanzi-table th {
+  background-color: var(--background-alt);
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hanzi-table tbody tr:hover {
+  background-color: var(--background-hover, rgba(0, 0, 0, 0.02));
+}
+
+/* 第一欄：平話字（使用 DejaVu Sans 字體） */
+.hanzi-table td:first-child {
+  font-family: var(--font-roman);
+  font-weight: 500;
+}
+
+/* 第二欄：漢字 */
+.hanzi-table td:nth-child(2) {
+  font-family: var(--font-han);
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+/* 第三欄：意思 */
+.hanzi-table td:nth-child(3) {
+  text-align: left;
+  color: var(--text-secondary);
+}
+
 .about-list {
   list-style: none;
   padding-left: 0;
@@ -171,6 +221,19 @@
   .contact-info {
     font-size: 1rem;
   }
+
+  .hanzi-table {
+    font-size: 0.9em;
+  }
+
+  .hanzi-table th,
+  .hanzi-table td {
+    padding: 0.6em 0.8em;
+  }
+
+  .hanzi-table td:nth-child(2) {
+    font-size: 1.02em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -202,5 +265,18 @@
 
   .contact-info {
     font-size: 0.95rem;
+  }
+
+  .hanzi-table {
+    font-size: 0.85em;
+  }
+
+  .hanzi-table th,
+  .hanzi-table td {
+    padding: 0.5em 0.6em;
+  }
+
+  .hanzi-table td:nth-child(2) {
+    font-size: 1em;
   }
 }

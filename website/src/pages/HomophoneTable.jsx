@@ -119,6 +119,11 @@ export default function HomophoneTable() {
     });
   }, [data, selectedInitials, selectedRhymes, selectedTones]);
 
+  // 計算總字數
+  const totalCharsCount = useMemo(() => {
+    return filteredSyllables.reduce((sum, syllable) => sum + syllable.chars.length, 0);
+  }, [filteredSyllables]);
+
   // 切換選擇工具函數
   const toggleSelection = (set, value, setFunction) => {
     const newSet = new Set(set);
@@ -302,7 +307,7 @@ export default function HomophoneTable() {
       {/* 結果顯示 */}
       <div className="results-section">
         <h2 className="results-title">
-          結果（共 {filteredSyllables.length} 個音節）
+          結果（共 {filteredSyllables.length} 個音節，{totalCharsCount} 個字）
         </h2>
 
         {filteredSyllables.length === 0 ? (
@@ -314,7 +319,7 @@ export default function HomophoneTable() {
                 <h3 className="syllable-title">
                   {/* 先顯示正式羅馬字 */}
                   <span className="syllable-display">{syllable.p_display}</span>
-                  
+
                   {/* 再顯示括號內的輸入碼 (彩色) */}
                   <span className="syllable-input-code">
                     (
@@ -322,6 +327,11 @@ export default function HomophoneTable() {
                     <span className="syllable-rhyme">{syllable.r}</span>
                     <span className="syllable-tone">{syllable.t}</span>
                     )
+                  </span>
+
+                  {/* 顯示字數 */}
+                  <span className="syllable-char-count">
+                    {syllable.chars.length} 個字
                   </span>
                 </h3>
 

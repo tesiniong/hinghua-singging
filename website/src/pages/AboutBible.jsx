@@ -116,6 +116,68 @@ function AboutBible() {
         </section>
 
         <section className="about-section">
+          <h2>漢字轉寫</h2>
+          <p>
+            1912年出版的《新舊約聖經》（以及1934年出版的《新約全書附詩篇》）皆不曾有漢字版。本站參考多種來源和閩東語、閩南語用字，以盡量避免多音字為原則，另外編纂了漢字版本。詳細的用字規則仍在制定中。常見的用字如下：
+          </p>
+
+          <div className="hanzi-table-wrapper">
+            <table className="hanzi-table">
+              <thead>
+                <tr>
+                  <th>平話字</th>
+                  <th>漢字</th>
+                  <th>意思</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>ā</td><td>啊</td><td>語助詞</td></tr>
+                <tr><td>ā̤</td><td>解</td><td>能、會</td></tr>
+                <tr><td>bā̤</td><td>𣍐</td><td>不能、不會</td></tr>
+                <tr><td>beoh</td><td>慾</td><td>要、想</td></tr>
+                <tr><td>buh</td><td>複</td><td>又</td></tr>
+                <tr><td>ca̤̍</td><td>這</td><td>這</td></tr>
+                <tr><td>chu̍i</td><td>喙</td><td>嘴</td></tr>
+                <tr><td>ciâ</td><td>者</td><td>這裡</td></tr>
+                <tr><td>ciô̤</td><td>燳</td><td>各個</td></tr>
+                <tr><td>cuh</td><td>即</td><td>就</td></tr>
+                <tr><td>da</td><td>仱</td><td>現在</td></tr>
+                <tr><td>da̍i</td><td>第一</td><td>最</td></tr>
+                <tr><td>da̤u̍h</td><td>着</td><td>得、要、必須</td></tr>
+                <tr><td>deo</td><td>都</td><td>都</td></tr>
+                <tr><td>deó</td><td>著</td><td>在</td></tr>
+                <tr><td>dó</td><td>涂</td><td>土</td></tr>
+                <tr><td>do̤-ng</td><td>當央</td><td>當中</td></tr>
+                <tr><td>ē</td><td>其</td><td>的</td></tr>
+                <tr><td>gah</td><td>佮</td><td>和、與</td></tr>
+                <tr><td>ga̍i</td><td>家己</td><td>自己</td></tr>
+                <tr><td>ga̍u</td><td>遘</td><td>到</td></tr>
+                <tr><td>hiô̤</td><td>遐</td><td>那裡</td></tr>
+                <tr><td>ho̤h</td><td>復</td><td>又、還</td></tr>
+                <tr><td>hn̍g-náng</td><td>方儂</td><td>誰</td></tr>
+                <tr><td>hṳ̂</td><td>許</td><td>那</td></tr>
+                <tr><td>iā</td><td>亦</td><td>也</td></tr>
+                <tr><td>lā-la̍h</td><td>垃垃</td><td>垃圾</td></tr>
+                <tr><td>lē</td><td>咧</td><td>語助詞</td></tr>
+                <tr><td>léng</td><td>連</td><td>和、跟</td></tr>
+                <tr><td>leo̍h</td><td>落</td><td>在</td></tr>
+                <tr><td>lō̤</td><td>咯</td><td>嗎</td></tr>
+                <tr><td>meh</td><td>乜</td><td>豈、難道</td></tr>
+                <tr><td>mo̍ih-nō̤</td><td>物乇</td><td>東西</td></tr>
+                <tr><td>ka̍ng</td><td>勘</td><td>問</td></tr>
+                <tr><td>náng</td><td>儂</td><td>人</td></tr>
+                <tr><td>nō̤</td><td>喏</td><td>僅僅、才</td></tr>
+                <tr><td>sā̤</td><td>穧</td><td>多</td></tr>
+                <tr><td>seo</td><td>廝</td><td>相</td></tr>
+                <tr><td>seo̍h</td><td>蜀</td><td>一</td></tr>
+                <tr><td>ta̤̍h</td><td>摕</td><td>拿</td></tr>
+                <tr><td>tó</td><td>塗</td><td>土</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="about-section">
           <h2>參與貢獻</h2>
           <p>
             這是一個開源專案，每一份力量都彌足珍貴。無論是協助錄入剩餘經卷、校對文本，或是提供語言學建議，我們都誠摯歡迎。若您對興化語感興趣，請<a href="https://github.com/tesiniong/hinghua-singging" target="_blank">加入我們</a>，一起守護這門日漸式微的美麗語言。

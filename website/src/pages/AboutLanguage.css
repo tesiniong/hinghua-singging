@@ -11,6 +11,15 @@
   transition: color 0.3s ease;
 }
 
+.about-section h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
 .nested-list {
   list-style: none;
   padding-left: 1.5rem;
@@ -185,6 +194,59 @@
   text-decoration: none;
 }
 
+/* 連續變調表樣式 */
+.tone-sandhi-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border: 2px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .tone-sandhi-table {
+  background-color: #2a2a2a;
+}
+
+.tone-sandhi-table thead th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .tone-sandhi-table thead th {
+  background-color: #333333;
+}
+
+.tone-sandhi-table tbody th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .tone-sandhi-table tbody th {
+  background-color: #333333;
+}
+
+.tone-sandhi-table tbody td {
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: border-color 0.3s ease, color 0.3s ease;
+  /* 所有欄位使用統一字體，不區分欄位 */
+  font-family: var(--font-roman);
+  font-size: 1rem;
+}
+
 /* 註腳樣式 */
 .footnotes {
   margin-top: 1.5rem;
@@ -210,6 +272,153 @@
 
 .han-text {
   font-family: var(--font-han);
+}
+
+/* 語言學表格包裝器樣式（用於變調表、類化表等） */
+.linguistic-table-wrapper {
+  overflow-x: auto;
+  overflow-y: visible;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.example-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+[data-theme="dark"] .example-table {
+  background-color: #1a1a1a;
+}
+
+/* 表頭樣式 */
+.example-table thead th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.6rem 0.4rem;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  white-space: nowrap;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .example-table thead th {
+  background-color: #333333;
+}
+
+/* 表格主體 */
+.example-table tbody th {
+  background-color: #e9ecef;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 0.4rem;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  white-space: nowrap;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+[data-theme="dark"] .example-table tbody th {
+  background-color: #333333;
+}
+
+.example-table tbody td {
+  padding: 0.5rem 0.4rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  white-space: nowrap;
+  transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+  vertical-align: middle;
+  min-width: 80px;
+}
+
+/* Sticky 表頭 */
+.example-table .sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+/* Sticky 第一列 (row headers) */
+.example-table .sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+[data-theme="dark"] .example-table .sticky-col {
+  background-color: #1a1a1a;
+}
+
+/* 表頭的 sticky 列需要更高的 z-index */
+.example-table .sticky-header.sticky-col {
+  z-index: 30;
+  background-color: #e9ecef;
+}
+
+[data-theme="dark"] .example-table .sticky-header.sticky-col {
+  background-color: #333333;
+}
+
+/* 懸停效果 */
+.example-table tbody tr:hover td {
+  background-color: var(--hover-bg);
+}
+
+/* 斜線儲存格樣式 - 從左上到右下 */
+.diagonal-header {
+  position: relative;
+  padding: 1.5rem 0.8rem !important;
+  overflow: hidden;
+}
+
+/* 使用 ::before 偽元素畫斜線 */
+.diagonal-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top right,  /* 漸變從左下到右上，線就會從左上到右下 */
+    transparent 49.5%,
+    var(--border-color) 49.5%,
+    var(--border-color) 50.5%,
+    transparent 50.5%
+  );
+}
+
+/* 右上角的文字 */
+.diagonal-header .top-right {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.85rem;
+  z-index: 1;  /* 確保文字在斜線上方 */
+}
+
+/* 左下角的文字 */
+.diagonal-header .bottom-left {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  font-size: 0.85rem;
+  z-index: 1;  /* 確保文字在斜線上方 */
+}
+
+/* 變調詞例表的斜線格需要更寬，避免文字重疊 */
+.diagonal-header-wide {
+  min-width: 70px;
 }
 
 /* 響應式設計 */

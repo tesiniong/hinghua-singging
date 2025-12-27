@@ -2,7 +2,7 @@
 # 格式：漢字<TAB>讀音1<TAB>讀音2<TAB>...
 # 可手動編輯修正
 
-々	ang4	baa5	bu5	ciang5	coo3	dih6	dih7	dng2	ging3	mang5
+々	ang4	baa5	bu5	ciang5	coo3	dih6	dih7	dng2	ging3	mang5	mua3
 㖹	beong2
 䋎	ting4
 䟓	dann1
@@ -10,20 +10,21 @@
 七	chih6
 丈	dah6
 三	soonn1
-上	daa4	dai5	dooh6	gah6	i3	lui5	saaunn5	sioong5
-下	goo5	ha5	oo5
+上	gah6	lui5	saaunn5	sioong1	sioong5
+下	cha5	goo5	ha5	oo5
 不	beoh6	boi5	hang2
 且	chiann3	cia3	ciann4
 世	saa4
 丟	diu1
-並	bing4
+並	bing4	piann5
 中	deeng1	deeng2	li3
 主	cṳ3
 乇	noo5
 乜	meh6
 九	gau3
-乞	doinn2	geh6	keoh6
+乞	geh6	keoh6
 乳	cṳ3
+亂	luang5
 了	laau3
 事	e5	seo5
 二	di1	di5
@@ -32,7 +33,8 @@
 亡	moong2
 交	gau1
 亦	ia5
-人	cing2
+享	hioong3
+人	cing2	e5
 仁	cing2
 仇	giu2	siu2
 今	ging1
@@ -42,19 +44,18 @@
 仱	da1
 份	heong5
 仿	hoong3
-伊	ceo4	ching1	i1	leng2	tai2	tau2
+伊	bo3	ching1	i1	leng2	tau2	u5
 伏	hooh7
 伓	ng5
 伯	beh6
 伸	cheong1
-佇	aa4	deo5	sah6
+佇	deo5	dioo5
 位	ui5
 低	daa3
 住	cṳ5	do4
 佛	heoh6
-作	ceo4
 你	dṳ3
-佮	aa4	ceeng3	di5	gah6	sann1
+佮	ceeng3	gah6
 使	sai3	seo3	seo4
 來	lai2	li2
 俄	goo2
@@ -67,27 +68,28 @@
 倒	deo3
 倫	leong2
 偌	noo5
-做	ceo4	cooh7	gaau4	gah6	nang2	see3
+做	ceo4	cooh7	gaau4
+停	deng2
 健	geeng5
 偶	gaau3
 傅	hu5
 備	bi5
 傲	goo5
-傳	deeng2	doinn2	see3
+傳	deeng2	doinn2	e5
 債	cua4
 傷	sioong1
 像	chaaunn5
 僕	booh7
-儂	ceo4	dang2	e5	nang2
-允	i1
-兄	dai5	hiann1
+儂	e5	nang2
+允	ṳng3
+兄	hiann1
 充	cheeng1
 先	seng1
 光	gng1
 免	meng3
 兜	naau2
 入	dih7	dṳ3
-內	le5
+內	li5
 全	ceeng2	ceenn2	nng5
 兩	bing2	nng5
 八	baa5	bah6	beh6
@@ -96,40 +98,42 @@
 兮	e5
 共	goong1
 兵	bing1
-其	bṳ3	ceo4	deh6	deng3	do2	dṳ3	e5	gah6	gai4	geng2	i1	ka5
+其	deng3	dṳ3	e5	gah6	gai4	geng2	i1
 再	cai4
+冬	dang1
+凊	ching4
 凡	hang2	nang2
 凶	heeng1
-出	cheoh6	choi5
+出	cheoh6	choi5	kṳ4
 分	beong1	daauh7	heong1	heong5
 切	cheh6
 刑	hing2
 列	leh7
 初	chee1
-刣	cuh6	tai2
+刣	tai2
 判	puang4
 別	beh6	beh7	heong1
 利	li5
 刺	chi4
-前	ceeng2	ceng4	saann2	sann2
+前	ceng2	saann2	sann2
 創	choong4
 劍	giang4
 力	lih7
 功	gang1
-加	ga1
+加	ga1	gia1
 助	cee5
 勒	leh6
 動	doinn3	doong5
 勘	kang4
 勞	loo2
-勢	li4	li5	ni4	saa4
+勢	li4	ni4	saa4
 勤	gṳng2
-勸	koinn4	li4
+勸	koinn4
 包	bau1
 十	seh7
 半	buann4
 南	nang2
-即	cuh6	daauh7	giu4	so1
+即	cuh6
 厝	cho4
 原	ngeeng2	ngoi2
 厭	iang4
@@ -141,10 +145,12 @@
 古	go3	gu1
 句	gu4
 叫	gaau2	gaau4	mia2
-召	daau5
+召	daau5	mia2
 可	daauh7	koo3
+司	si1
 各	gooh6
 合	hah7
+同	doong2
 名	e5	mia2
 吐	to4
 向	haaunn4
@@ -154,10 +160,11 @@
 吼	hau3
 告	goo4
 周	ciu1
-命	caa2	mia5	ming5
+味	bi5
+命	caa2	daau5	mia5	ming5
 和	gah6	hoo2
 咐	nu4
-咧	cṳ1	le5	leoh7
+咧	le5	leoh7
 咯	loo5
 哈	hah7
 哥	goo1
@@ -167,6 +174,7 @@
 喇	lah7
 喊	hua5
 喏	cioo3	noo5
+喔	oo5
 喙	chui4
 喜	hi3
 喫	keh6
@@ -174,15 +182,17 @@
 嚮	haaunn3
 嚴	ngiang2
 囉	leo5
+囚	siu2
 四	seo4	si4
-囝	gioonn3
+囝	gioonn3	sing1
+回	hoi2
 因	ing1
 國	gooh6
 圍	ui2
 園	hoinn2
 土	to2	to3
 在	cai5	deo2
-地	cheng2	daa5
+地	cheng2	daa5	dee4
 坦	dang4
 垃	la5	lah7
 埃	ai1
@@ -203,7 +213,8 @@
 多	doo1
 夢	mang4
 大	dai5	dua5
-天	teng1	ting1
+天	saaunn5	teng1	ting1
+太	dai5	tai4
 夫	bo1	hu1	hu5
 央	ng1
 失	sih6
@@ -221,7 +232,7 @@
 威	ui1
 娃	hua1
 娘	naau2
-婦	hu5	mu5
+婦	deo1	hu5	mu5
 媚	bi5
 嬤	ma3
 嬭	laa3
@@ -236,7 +247,7 @@
 完	eeng2
 宗	coong1
 定	deng5	diann5
-客	nang2
+客	ka5
 害	hai5
 家	ga1
 家己	ceeng2	gai4
@@ -261,10 +272,12 @@
 山	suann1
 崙	leong2
 工	gang1
+差	chaa1
 已	i3
 巴	ba1
+布	bo4
 希	hi1
-帝	bih7	daa4	e5	i1	sah6	taah7
+帝	daa4	i1
 師	sai1
 席	sih7
 帳	daaunn4
@@ -281,21 +294,21 @@
 建	geeng4
 式	sih6
 弗	heoh7
-弟	di1	di5	hiann1
+弟	di1	di5
 強	gioong2
 彈	dang5	duann2
-待	dai5	kang4
+待	dai5
 後	au5	haau5	hau5
-徒	do2	sing4
-得	caa2	deh6	dih6	dih7	ki3
+徒	do2
+得	deh6	dih6	ki3
 徛	kioo5
-從	ceeng2	leong5	nang2
-復	buh6	hooh6
-心	cing5	sing1	sing4
+從	ceeng2	nang2
+復	hooh6
+心	sing1	sing4
 必	bih6
 忌	gi5
 忍	neong3
-忠	cing5
+忠	deeng1
 快	kaa4
 念	niang5
 怎	seh6
@@ -306,7 +319,7 @@
 恥	laa3
 恨	hṳng5
 恩	ṳng1
-悔	hoi3
+悔	hoi3	sikah5
 悖	boi5
 悲	bi1
 惑	heh7
@@ -327,14 +340,14 @@
 憑	bing1	bing2
 應	ing4
 懸	gaann2
-成	siann2
+成	siann2	sing2
 我	cing1	gua3	sih7
 戒	gai4
-或	heh7
+或	e5	heh7
 戰	ceng4
 戶	ho5
 房	bang2
-所	ceng2	dṳ3	see3
+所	see3
 手	chiu3
 才	cai2
 批	paa1
@@ -345,7 +358,7 @@
 拉	lah7
 拍	pa5
 拖	tua1
-拯	e5
+拯	cing3
 拾	kah6
 拿	na2
 挃	di2
@@ -358,19 +371,23 @@
 排	baa2
 接	ci5	ciah6
 揀	gaann3
+提	daa2
 搬	buann1
-摕	hooh6	taa4	taah7
+摕	taa4	taah7
 摩	moo2
 摸	mo1
 撒	sah6
 擔	dang1
+據	gṳ4
 擲	diann5
+擾	caau3
 攎	lo2
 攏	loong2	loong3
 攔	lang5
+收	siu1
 放	bang4
 故	go4
-救	cing3	giu2	giu4
+救	giu2	giu4
 敗	bai5
 教	gau4
 敢	goonn3
@@ -382,31 +399,34 @@
 斐	hi1
 斜	sia2
 斯	seo5
-新	sing1
+新	mu5	sing1
 斷	deenn5
 方	hng4	hng5	hoong1
-施	si1
+施	si1	so4
+族	cooh7
 既	gi4
-日	dih7	sioong5
+日	dih7
 旦	nua4
 旨	ci3
 早	coo3
 旺	oong5
 明	ming2
 星	chann1
-是	deo1	gi1	si5
+是	si5
 時	lau2	si2
+晝	dau4
 智	di4
 暗	ang4
 暝	ma2
 暴	boo5
 曉	haau3
+曠	cai1
 更	gaann2	geng4
-書	cṳ1	cṳ3	leoh7
+書	cṳ1	cṳ3
 替	taa4
 會	aa5	hoi5
 月	goih7
-有	beh6	beoh6	lah7	u5
+有	beh6	beoh6	u5
 朋	beng2
 朔	sooh6
 望	moong5
@@ -431,7 +451,9 @@
 樣	aaunn5
 樵	choo2
 樹	chiu4
+橄	goong1
 權	geeng2
+欖	noo3
 欠	kiang4
 欲	beoh6
 歇	hee5
@@ -448,17 +470,18 @@
 殷	ṳng1
 毀	hui3
 毋	ng5
-母	beo3	bo3
+母	beo3	bo3	gioonn3
 每	boi3
-比	bi3	piann5
+比	bi3
+毘	hi1
 毣	mah6
 氏	si5
-氣	ki4	ṳng3
+氣	ki4
 水	cui3
 永	ṳng3
 求	giu2
 汗	guann5
-汝	du3	dṳ1	dṳ2	dṳ3	e5	hang2	koinn4	lui5	nang2
+汝	du3	dṳ1	dṳ2	dṳ3	e5	lui5	nang2
 污	u4
 沙	sa1
 河	co2	eo2
@@ -467,8 +490,8 @@
 泉	sioonn2
 法	hah6
 波	boo1
-洗	seng3
-活	dṳ3	nah7	uah7
+洗	see3	seng3
+活	dṳ3	nah7	uah6	uah7
 流	lau2	liu2
 浪	loong5
 浮	pu2
@@ -481,6 +504,7 @@
 淫	ing2
 深	ching1
 淵	eeng1
+添	ting1
 清	ching1	cing1
 滅	beh7
 滿	mua3
@@ -500,6 +524,7 @@
 然	ceng2
 煞	sua5
 照	caau4	chaaunn5
+熱	ceh7
 燒	saau1
 燳	cioo3
 爬	ba5	boo2
@@ -507,7 +532,7 @@
 父	hu5
 爸	boo5
 物	beoh7	moi1	moih7
-牲	sann1
+牲	saaunn5	sann1
 特	deh6	deh7
 犯	hang5
 狂	goong2
@@ -536,14 +561,16 @@
 畜	heeh6
 略	liooh7
 當	dih6	dng1	doo1	doong1
+登	nang2
 發	huah6
+白	bah7
 百	ba5	beh6
 的	dih6	e5
 皟	ta5
 皮	poi2
 盈	ing2
 益	ia5	ih6
-盡	cing5	dṳ3	si5
+盡	cing5
 目	mah7
 直	dih7
 相	e5	sioong5
@@ -551,7 +578,7 @@
 眏	ng4
 真	cing1	saau5
 眾	ceeng4
-着	beoh6	cuh6	daauh7	deo2	dṳ3	gṳ5
+着	daauh7	deo2	dṳ3
 睏	keong4
 督	daa4	dooh6
 瞀	bu5
@@ -563,17 +590,18 @@
 祖	co3
 祝	ceeh6
 神	sing2
+祭	caa4
 禁	ging4
 禍	hoo5
-福	hooh6	ki4
-禮	laa3
+福	hooh6
+禮	laa3	tah7
 禱	doo3
 禽	ging2
 私	e5	seo1
 秋	chiu1
 移	i2
 種	ceeng3	ceeng4	ceng3
-稱	ching1	i1	sioong5
+稱	ching1	sioong5
 穌	so1
 穢	oi4
 穧	saa5
@@ -591,14 +619,16 @@
 算	suann4
 管	guang2	guang3
 箬	naauh7
-節	caa5
+節	caa5	ceh6
+築	deeh6
 簫	saau1
+籍	beo4
 米	bi3
 籽	ci3
 粹	sui4
 糧	naau2
 紀	gi4
-約	iooh6
+約	iooh6	sai3
 紅	ang2
 納	dah7
 紙	cioo3
@@ -617,13 +647,15 @@
 總	coong3
 繞	lau2
 罔	meo3
-罪	coi5
+罕	hang3
+罪	coi5	sih7
 罰	huah7
 罵	moo4
 羅	loo2
 羊	aaunn2
 羞	saau1
 義	gi5
+翰	dṳ3
 翻	huang1
 耀	aau5
 老	lau2	lau5	loo2	loo3
@@ -631,7 +663,7 @@
 耐	nai5
 耕	geng1
 耶	a2	aa1	aa2
-聖	keoh6	sing4
+聖	sing4
 聚	cṳ5
 聞	moi2
 聲	siann1
@@ -640,6 +672,7 @@
 肉	neeh7
 肋	hiah7
 肚	do3
+肝	guann1
 育	eeh7
 胎	tai1
 能	neng2
@@ -654,10 +687,12 @@
 自	ceo5
 至	ci4
 致	di4
+臺	dai2
 興	hing1
 舞	bu3
 船	gṳ5	seong2
 花	hua1
+芳	pang1
 若	noo5
 苦	ko3
 英	ing1
@@ -665,8 +700,8 @@
 菜	chai4
 華	hua1
 萬	mang5
-落	daauh7	leo1	leoh7
-著	daauh7	deo2
+落	leo1	leoh7
+著	ching1	daauh7	deo2
 葩	poonn1
 蒙	moong2
 蓋	gua4
@@ -680,13 +715,14 @@
 號	heo5
 虧	kui1
 蛇	sioo2
-蜀	dih7	seoh7	u5
+蜀	aaunn5	seoh7	u5
 蟲	tang1	tang2
 蟻	hioo5
 血	haa5	heeh6
 行	eeh7	giann2	heng2
 衝	cheeng1
 衣	i1
+裏	li3
 裔	aa4
 裙	geong2
 補	bo3
@@ -700,12 +736,15 @@
 覺	gah6
 解	aa5
 言	ngeeng2
+計	gaa4
 討	teo3
 訓	heong4
 記	gi4
 設	seh6
-許	hṳ3	seoh7
+許	bṳ3	hṳ3
 詈	laa3
+詔	caau4
+詭	kui3
 話	ua5
 該	gai1
 誇	kua1
@@ -715,15 +754,18 @@
 誡	gai4
 諂	tiang3
 請	chiann3	ching3
-論	beng5	leong5
+論	leong5
 諾	dooh7
+謀	baau2
 謗	boong4
 講	goong3
 證	cing4
 識	sih6
+譜	po3
 警	ging3
 譯	ih7
 護	ho5
+讀	tah7
 變	beng4	bing4
 貌	bau5
 財	cai2
@@ -733,18 +775,21 @@
 賜	seo4
 赤	chih6
 走	cau3
-起	a4	i3	ki3	lah7
+起	i3	ki3
+越	daa5	eeh7
 足	ceeh6
 跋	buah7
+跡	cia5
 路	lo5
 跳	taau4
 身	sing1	sing3
 躲	deo2
+載	cai4
 輕	king1
 轉	doinn3
 辨	beng5
 辮	bing5
-辯	sing1
+辯	beng5
 近	gṳng5
 迦	ga1	gia1
 述	seoh7
@@ -752,36 +797,40 @@
 送	sang4
 逆	gih7
 逐	deeh7
-這	a4	caa4	ci3
+這	caa4	ci3
 通	tang1	toong1
 造	ceo4	choo4
 連	leng2
-遇	gṳ5	seoh7
+逾	cṳ2
+遇	gṳ5
 運	eong5
 過	geo4
 遐	hioo3
-道	aa2	beh6	doo5	e5	haau5	hang3	loo5
+道	do5	doo5	loo5
 達	dah7
 遘	gau4
 遜	seong4
 遠	eeng3
+遣	keng3
 選	toinn3
 避	pia5
 邊	bing1
 邪	sia2	sia3
-都	deo1	e5	lee2
+都	choi5	deo1	lee2
 配	poi4
 酒	ciu3
+酵	gau4
 醫	i1
 重	dang5
-野	ia3
+野	bing2	ia3
 金	ging1
 銅	dang2
+銜	goonn2
 錢	cing2
 鐵	ti5
 鑔	chann5
 鑼	leo2
-長	dioong2	dioong3	dng2
+長	dioong3	dng2
 門	meong2	moi2	moinn2
 閃	siang3
 開	koi1	kui1
@@ -815,15 +864,15 @@
 順	seong5
 頌	seeng5
 預	ṳ5
-頭	beh6	hang3	i1	lau2	tau2
+頭	daa5	i1	lau2	tau2
 願	ngoi5
 類	lui5
 顧	go4
 顯	heng3
 風	boinn1
 飄	paau1
-飛	boi1	boi3
-食	siah7
+飛	boi1	boi3	hi1
+食	seoh7	siah7
 香	haaunn1
 驕	gaau1
 驚	gainn1	giann1
@@ -833,12 +882,14 @@
 鬼	gui3
 魔	moo2
 魚	hṳ2
-鳥	caau3
+鳥	caau3	naau2	naau3
+鴉	a1
+鴿	gah6
 麥	beh7
 黃	hoong2
 黨	doong3
 鼻	pi4
-齊	boi3	caa2	caa4	haau5	i3
+齊	boi3	caa2	caa4
 𢶀	choi4
 𣍐	baa5	dng1
 𧸖	doonn5

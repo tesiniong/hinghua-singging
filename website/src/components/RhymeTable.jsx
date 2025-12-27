@@ -70,7 +70,7 @@ function RhymeTable() {
           <thead>
             {/* 第一行header */}
             <tr>
-              <th rowSpan={2} className="sticky-col sticky-header col-letter">韻母字</th>
+              <th rowSpan={2} className="sticky-col sticky-header col-letter">韻母</th>
               <th rowSpan={2} className="sticky-col sticky-header col-examples">例字</th>
               <th rowSpan={2} className="sticky-col sticky-header col-value">擬音</th>
               <th colSpan={selectedDialects.length} className="sticky-header">音值</th>

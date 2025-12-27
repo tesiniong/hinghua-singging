@@ -217,6 +217,13 @@
   font-family: monospace;
 }
 
+.syllable-char-count {
+  font-size: 0.85rem;
+  font-weight: normal;
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
 .syllable-initial {
   color: #3498db;
 }

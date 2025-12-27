@@ -4,7 +4,7 @@
 從 Excel 檔案解析韻母表並生成 JSON 資料
 支援：
 - 合併儲存格的正確處理
-- 部分底線格式的自動識別（Rich Text）
+- 底線標記 _xxx_ 轉換為 HTML <u> 標籤
 - 底部邊框的識別
 """
 
@@ -32,12 +32,6 @@ def get_merged_cell_value(ws, row, col):
         return ws.cell(min_row, min_col).value, (max_row - min_row + 1)
     return ws.cell(row, col).value, 1
 
-def has_underline(cell):
-    """檢查儲存格是否有底線格式"""
-    if cell.font and cell.font.underline:
-        return True
-    return False
-
 def has_bottom_border(cell):
     """檢查儲存格是否有底部粗框線"""
     if cell.border and cell.border.bottom:
@@ -47,54 +41,29 @@ def has_bottom_border(cell):
             return True
     return False
 
-def wrap_underline(text):
-    """將文本包裹在 <u> 標籤中"""
-    if text:
-        return f"<u>{text}</u>"
-    return text
-
-def extract_rich_text_with_underline(cell):
+def extract_text_with_underline_markers(cell):
     """
-    提取儲存格的 Rich Text，保留底線格式
-    支援部分文字有底線的情況
+    提取儲存格文字，並將底線標記 _ 轉換為 HTML <u> 標籤
+
+    標記方式：
+    - 單一底線字符：_百_ → <u>百</u>
+    - 連續底線字符：_百冊隔_ → <u>百冊隔</u>
+    - 可以有多組：加差_百冊_隔_碼_ → 加差<u>百冊</u>隔<u>碼</u>
     """
     value = cell.value
 
-    # 如果是純文字
-    if isinstance(value, str):
-        # 檢查整個儲存格是否有底線
-        if has_underline(cell):
-            return wrap_underline(value)
-        return value
+    # 轉換為字串
+    if value is None:
+        return ''
 
-    # 如果是 Rich Text（InlineFont 格式）
-    # openpyxl 3.x 版本中，Rich Text 儲存為 list 或特殊物件
-    if hasattr(value, '__iter__') and not isinstance(value, str):
-        result = []
-        for item in value:
-            # 檢查是否有 text 和 font 屬性
-            if hasattr(item, 'text'):
-                text = item.text
-                # 檢查是否有底線
-                has_u = False
-                if hasattr(item, 'font') and item.font:
-                    # 檢查多種底線屬性
-                    if hasattr(item.font, 'underline') and item.font.underline:
-                        has_u = True
-                    elif hasattr(item.font, 'u') and item.font.u:
-                        has_u = True
+    text = str(value)
 
-                if has_u:
-                    result.append(wrap_underline(text))
-                else:
-                    result.append(text)
-            elif isinstance(item, str):
-                result.append(item)
+    # 處理底線標記：_xxx_ → <u>xxx</u>
+    import re
+    # 匹配 _ 包圍的文字（非貪婪模式）
+    result = re.sub(r'_([^_]+)_', r'<u>\1</u>', text)
 
-        return ''.join(result) if result else str(value)
-
-    # 其他情況，直接返回字串
-    return str(value) if value else ''
+    return result
 
 def parse_excel_rhyme_table(file_path):
     """解析 Excel 韻母表"""
@@ -155,9 +124,9 @@ def parse_excel_rhyme_table(file_path):
             row_data['letter'] = str(letter_value) if letter_value else ''
             row_data['rowSpan'] = 1
 
-        # Column B: 例字（支援 Rich Text 底線）
+        # Column B: 例字（支援底線標記 _xxx_）
         examples_cell = ws.cell(row_idx, 2)
-        row_data['examples'] = extract_rich_text_with_underline(examples_cell)
+        row_data['examples'] = extract_text_with_underline_markers(examples_cell)
 
         # Column C: 擬音（支援合併儲存格）
         phonetic_cell = ws.cell(row_idx, 3)

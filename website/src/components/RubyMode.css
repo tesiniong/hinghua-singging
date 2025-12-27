@@ -49,8 +49,8 @@
   margin-right: 0.15em;  /* 增加字與字之間的間距，讓羅馬字音節有空間 */
 }
 
-.ruby-word rt {
-  font-size: 0.6em;
+.ruby-word rt { /* 桌面版羅馬字 */
+  font-size: 0.65em;
   color: #555555;
   font-family: var(--font-roman);
   line-height: 1;
@@ -80,8 +80,8 @@
     padding: var(--spacing-sm);
   }
 
-  .ruby-word rt {
-    font-size: 0.55em;
+  .ruby-word rt { /* 行動版羅馬字 */
+    font-size: 0.6em;
     /* letter-spacing: 0.05em; 再次移除此屬性 */
     padding: 0 0.1em;
   }

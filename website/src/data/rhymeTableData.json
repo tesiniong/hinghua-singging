@@ -53,7 +53,7 @@
   },
   {
     "letter": "a̤",
-    "examples": "閉低犁買麗籬地夾貼帖",
+    "examples": "閉低犁買麗籬地<u>夾貼帖</u>",
     "phonetic": "[*e]",
     "dialectValues": [
       "[e]",
@@ -105,7 +105,7 @@
   },
   {
     "letter": "e",
-    "examples": "<u>其</u>",
+    "examples": "<u>其咧</u>",
     "phonetic": "[*ɛ]",
     "dialectValues": [
       "[ɛ]",
@@ -131,7 +131,7 @@
   },
   {
     "letter": "e̤",
-    "examples": "所初助螺腡坐戴推改脆",
+    "examples": "所初助<u>螺腡坐戴推改脆</u>",
     "phonetic": "[*ø]",
     "dialectValues": [
       "[ø]",
@@ -183,7 +183,7 @@
   },
   {
     "letter": "o̤",
-    "examples": "多可高保馬茶下塔押插",
+    "examples": "多可高保<u>馬茶下塔押插</u>",
     "phonetic": "[*ɒ]",
     "dialectValues": [
       "[ɒ]",
@@ -235,7 +235,7 @@
   },
   {
     "letter": "eo",
-    "examples": "此死過貨保刀桌卓索郭",
+    "examples": "此死<u>過貨保刀桌卓索郭</u>",
     "phonetic": "[*o]",
     "dialectValues": [
       "[o]",
@@ -261,7 +261,7 @@
   },
   {
     "letter": "i",
-    "examples": "米剃來離字四鐵舌鱉折",
+    "examples": "米剃來離<u>字四鐵舌鱉折</u>",
     "phonetic": "[*i]",
     "dialectValues": [
       "[i]",
@@ -287,7 +287,7 @@
   },
   {
     "letter": "u",
-    "examples": "府務扶付無富牛久丘舊",
+    "examples": "府務扶付無富<u>牛久丘舊</u>",
     "phonetic": "[*u]",
     "dialectValues": [
       "[u]",
@@ -339,7 +339,7 @@
   },
   {
     "letter": "ia",
-    "examples": "且社者車借射益赤迹隻",
+    "examples": "且社者車借射<u>益赤迹隻</u>",
     "phonetic": "[*ia]",
     "dialectValues": [
       "[ia]",
@@ -417,7 +417,7 @@
   },
   {
     "letter": "a̤u",
-    "examples": "標表廟條構厚母惜尺螫",
+    "examples": "標表廟條構厚母<u>惜尺螫</u>",
     "phonetic": "[*eu]",
     "dialectValues": [
       "[ieu]",
@@ -469,7 +469,7 @@
   },
   {
     "letter": "iu",
-    "examples": "丟籌周守柳柱樹鬚珠",
+    "examples": "丟籌周守柳<u>柱樹鬚珠</u>",
     "phonetic": "[*iu]",
     "dialectValues": [
       "[iu]",
@@ -495,7 +495,7 @@
   },
   {
     "letter": "ai",
-    "examples": "擺台邁皆解眉師使利滓",
+    "examples": "擺台邁皆解<u>眉師使利滓</u>",
     "phonetic": "[*ai]",
     "dialectValues": [
       "[ai]",
@@ -521,7 +521,7 @@
   },
   {
     "letter": "au",
-    "examples": "包矛炮抄貌偷頭後走九",
+    "examples": "包矛炮抄貌<u>偷頭後走九</u>",
     "phonetic": "[*au]",
     "dialectValues": [
       "[au]",
@@ -573,7 +573,7 @@
   },
   {
     "letter": "o",
-    "examples": "布圖盧粗輸某畝母牡雺",
+    "examples": "布圖盧粗輸<u>某畝母牡雺</u>",
     "phonetic": "[*ou]",
     "dialectValues": [
       "[ou]",
@@ -599,7 +599,7 @@
   },
   {
     "letter": "ua",
-    "examples": "瓜花磨我帶蔡話喝割殺",
+    "examples": "瓜花<u>磨我帶蔡話喝割殺</u>",
     "phonetic": "[*ua]",
     "dialectValues": [
       "[ua]",
@@ -677,7 +677,7 @@
   },
   {
     "letter": "oi",
-    "examples": "梅罪吹衰火果過髮缺啜",
+    "examples": "梅罪吹衰<u>火果過髮缺啜</u>",
     "phonetic": "[*oi]",
     "dialectValues": [
       "[uei]",
@@ -755,7 +755,7 @@
   },
   {
     "letter": "io̤",
-    "examples": "靴鵝蛇瓦奇寄騎蟻紙",
+    "examples": "靴鵝蛇瓦<u>奇寄騎蟻紙</u>",
     "phonetic": "[*yɒ]",
     "dialectValues": [
       "[yɒ]",
@@ -859,7 +859,7 @@
   },
   {
     "letter": "ang",
-    "examples": "南淡辦漢簪飲放網動公",
+    "examples": "南淡辦漢簪<u>飲放網動公</u>",
     "phonetic": "[*aŋ]",
     "dialectValues": [
       "[aŋ]",
@@ -885,7 +885,7 @@
   },
   {
     "letter": "io̤ng",
-    "examples": "良將章糧場",
+    "examples": "良將章昌糧場獎揚讓長",
     "phonetic": "[*yɒŋ]",
     "dialectValues": [
       "[yɒŋ]",
@@ -937,7 +937,7 @@
   },
   {
     "letter": "uang",
-    "examples": "彎暖半算官",
+    "examples": "彎暖半算官端團館灌反",
     "phonetic": "[*uaŋ]",
     "dialectValues": [
       "[uaŋ]",
@@ -963,7 +963,7 @@
   },
   {
     "letter": "eong",
-    "examples": "分文吞孫君",
+    "examples": "分文吞孫君尊軍裙粉訓",
     "phonetic": "[*oŋ]",
     "dialectValues": [
       "[ɵŋ]",
@@ -1067,7 +1067,7 @@
   },
   {
     "letter": "ing",
-    "examples": "身民品冰升兵年錢染添",
+    "examples": "身民品冰升兵<u>年錢染添</u>",
     "phonetic": "[*iŋ]",
     "dialectValues": [
       "[iŋ]",
@@ -1119,7 +1119,7 @@
   },
   {
     "letter": "ah",
-    "examples": "答納八殺確覺目六讀逐",
+    "examples": "答納八殺確覺<u>目六讀逐</u>",
     "phonetic": "[*aʔ]",
     "dialectValues": [
       "[aʔ]",
@@ -1301,7 +1301,7 @@
   },
   {
     "letter": "io̤h",
-    "examples": "雀略躍約着弱",
+    "examples": "雀略躍約着弱虐芍藥腳",
     "phonetic": "[*yɒʔ]",
     "dialectValues": [
       "[yɒʔ]",
@@ -1379,7 +1379,7 @@
   },
   {
     "letter": "uah",
-    "examples": "辣活跋蚻捋",
+    "examples": "<u>辣活跋蚻捋</u>",
     "phonetic": "[*uaːʔ]",
     "dialectValues": [
       "[ua]",
@@ -1613,7 +1613,7 @@
   },
   {
     "letter": "oih",
-    "examples": "<u>襪月物</u>",
+    "examples": "<u>果襪月物</u>",
     "phonetic": "[*oiːʔ]",
     "dialectValues": [
       "[uei]",
@@ -1639,7 +1639,7 @@
   },
   {
     "letter": "uh",
-    "examples": "<u>就複</u>",
+    "examples": "<u>即複</u>",
     "phonetic": "[*uʔ]",
     "dialectValues": [
       "-",

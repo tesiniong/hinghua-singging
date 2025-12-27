@@ -3,7 +3,7 @@
   margin: 2rem 0;
 }
 
-/* 方言点选择器 */
+/* 方言點選擇器 */
 .dialect-selector {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
@@ -91,7 +91,7 @@
   background-color: #2a2a2a;
 }
 
-/* 韵母表格 */
+/* 韻母表格 */
 .rhyme-table {
   width: 100%;
   border-collapse: collapse;
@@ -104,7 +104,7 @@
   background-color: #1a1a1a;
 }
 
-/* 表头样式 */
+/* head樣式 */
 .rhyme-table thead th {
   background-color: #e9ecef;
   font-weight: 600;
@@ -121,14 +121,14 @@
   background-color: #333333;
 }
 
-/* Sticky 表头 */
+/* Sticky header */
 .sticky-header {
   position: sticky;
   top: 0;
   z-index: 20;
 }
 
-/* Sticky 第一列 */
+/* Sticky 第一欄 */
 .sticky-col {
   position: sticky;
   left: 0;
@@ -141,7 +141,7 @@
   background-color: #1a1a1a;
 }
 
-/* 表頭的sticky列需要更高的z-index */
+/* 表頭的sticky欄需要更高的z-index */
 .sticky-header.sticky-col {
   z-index: 30;
   background-color: #e9ecef;
@@ -151,28 +151,28 @@
   background-color: #333333;
 }
 
-/* 第一列 - 韻母字 */
+/* 第一欄 - 韻母 */
 .col-letter {
-  min-width: 80px;
-  max-width: 80px;
-  width: 80px;
+  min-width: 60px;
+  max-width: 60px;
+  width: 60px;
 }
 
-/* 第二列 - 例字 */
+/* 第二欄 - 例字 */
 .col-examples {
   min-width: 200px;
   max-width: 200px;
   width: 200px;
 }
 
-/* 第三列 - 音價 */
+/* 第三欄 - 古莆田話擬音 */
 .col-value {
-  min-width: 120px;
-  max-width: 120px;
-  width: 120px;
+  min-width: 80px;
+  max-width: 80px;
+  width: 80px;
 }
 
-/* 表格单元格 */
+/* 表格儲存格 */
 .rhyme-table tbody td {
   padding: 0.6rem 0.4rem;
   text-align: center;
@@ -182,14 +182,14 @@
   vertical-align: middle;
 }
 
-/* 韵母字列 */
+/* 韻母欄 */
 .rhyme-table tbody td.col-letter {
   font-family: var(--font-roman);
   font-size: 0.95rem;
   font-weight: 500;
 }
 
-/* 例字列 */
+/* 例字欄 */
 .rhyme-table tbody td.col-examples {
   font-family: var(--font-han);
   text-align: left;
@@ -197,20 +197,20 @@
   font-size: 0.85rem;
 }
 
-/* 音价列 */
+/* 古莆田話擬音欄 */
 .rhyme-table tbody td.col-value {
   font-family: var(--font-ipa);
   font-size: 0.85rem;
 }
 
-/* 方言点音值列 */
+/* 方言點音值欄 */
 .rhyme-table tbody td.dialect-value {
   font-family: var(--font-ipa);
   font-size: 0.85rem;
-  min-width: 80px;
+  min-width: 50px;
 }
 
-/* 有底線的列 */
+/* 有底線的欄 */
 .rhyme-table tbody tr.border-bottom td {
   border-bottom: 1px solid var(--border-color);
 }
@@ -285,7 +285,7 @@
   }
 
   .dialect-value {
-    min-width: 70px;
+    min-width: 50px;
   }
 }
 
@@ -345,6 +345,6 @@
   }
 
   .dialect-value {
-    min-width: 60px;
+    min-width: 50px;
   }
 }
