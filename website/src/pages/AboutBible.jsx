@@ -118,7 +118,7 @@ function AboutBible() {
         <section className="about-section">
           <h2>漢字轉寫</h2>
           <p>
-            1912年出版的《新舊約聖經》（以及1934年出版的《新約全書附詩篇》）皆不曾有漢字版。本站參考多種來源和閩東語、閩南語用字，以盡量避免多音字為原則，另外編纂了漢字版本。詳細的用字規則仍在制定中。常見的用字如下：
+            1912年出版的《新舊約聖經》（以及1934年出版的《新約全書附詩篇》）皆不曾有漢字版。本站參考多種莆仙語專著和鄰近漢語的用字，以盡量避免多音字為原則編纂了漢字版本。詳細的用字規則仍在制定中。常見的用字如下：
           </p>
 
           <div className="hanzi-table-wrapper">
@@ -133,6 +133,7 @@ function AboutBible() {
               <tbody>
                 <tr><td>ā</td><td>啊</td><td>語助詞</td></tr>
                 <tr><td>ā̤</td><td>解</td><td>能、會</td></tr>
+                <tr><td>ah-na</td><td>安生</td><td>這樣</td></tr>
                 <tr><td>bā̤</td><td>𣍐</td><td>不能、不會</td></tr>
                 <tr><td>beoh</td><td>慾</td><td>要、想</td></tr>
                 <tr><td>buh</td><td>複</td><td>又</td></tr>
@@ -168,6 +169,7 @@ function AboutBible() {
                 <tr><td>náng</td><td>儂</td><td>人</td></tr>
                 <tr><td>nō̤</td><td>喏</td><td>僅僅、才</td></tr>
                 <tr><td>sā̤</td><td>穧</td><td>多</td></tr>
+                <tr><td>seh-na</td><td>怎生</td><td>怎麼</td></tr>
                 <tr><td>seo</td><td>廝</td><td>相</td></tr>
                 <tr><td>seo̍h</td><td>蜀</td><td>一</td></tr>
                 <tr><td>ta̤̍h</td><td>摕</td><td>拿</td></tr>
