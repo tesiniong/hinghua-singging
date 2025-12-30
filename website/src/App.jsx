@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AboutBible from './pages/AboutBible';
 import AboutLanguage from './pages/AboutLanguage';
 import HomophoneTable from './pages/HomophoneTable';
+import RomToHanConverter from './pages/RomToHanConverter';
 
 function App() {
   const [stats, setStats] = useState(null);
@@ -27,6 +28,7 @@ function App() {
             <Route path="/about-bible" element={<AboutBible />} />
             <Route path="/about-language" element={<AboutLanguage />} />
             <Route path="/homophone-table" element={<HomophoneTable />} />
+            <Route path="/rom-to-han-converter" element={<RomToHanConverter />} />
           </Routes>
         </main>
         <footer className="app-footer">

@@ -1,0 +1,348 @@
+/* 羅馬字轉漢字工具樣式 */
+
+.rom-to-han-converter {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.converter-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.converter-header h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.converter-header .subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--text-secondary);
+  font-family: 'DejaVu Sans', Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.converter-header .description {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.converter-body {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* 輸入區 */
+.input-section {
+  margin-bottom: 2rem;
+}
+
+.input-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.rom-input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: 'DejaVu Sans', Arial, monospace;
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  resize: vertical;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.rom-input:focus {
+  outline: none;
+  border-color: var(--accent-color, #4a90e2);
+}
+
+.input-hint {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* 輸出區 */
+.output-section {
+  margin-top: 2rem;
+}
+
+.output-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.output-header label {
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.output-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-copy,
+.btn-clear {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-copy:hover:not(:disabled),
+.btn-clear:hover:not(:disabled) {
+  background: var(--accent-color, #4a90e2);
+  color: white;
+  border-color: var(--accent-color, #4a90e2);
+}
+
+.btn-copy:disabled,
+.btn-clear:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.han-output {
+  min-height: 150px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans TC', 'Tauhu-oo', sans-serif;
+  border: 2px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 2;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.output-placeholder {
+  color: var(--text-tertiary);
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Token 樣式 */
+.token {
+  display: inline;
+  padding: 0 2px;
+  transition: background-color 0.2s;
+}
+
+.token.clickable {
+  cursor: pointer;
+  border-bottom: 2px dotted var(--accent-color, #4a90e2);
+}
+
+.token.clickable:hover {
+  background-color: var(--hover-bg, rgba(74, 144, 226, 0.1));
+}
+
+/* 多字詞中的單個字 */
+.token.phrase .char.clickable {
+  cursor: pointer;
+  padding: 0 1px;
+  border-bottom: 1px dotted var(--accent-color, #4a90e2);
+  transition: all 0.2s;
+}
+
+.token.phrase .char.clickable:hover {
+  background-color: var(--hover-bg, rgba(74, 144, 226, 0.15));
+  border-bottom: 2px solid var(--accent-color, #4a90e2);
+}
+
+.token.unknown {
+  color: var(--error-color, #e74c3c);
+  font-weight: bold;
+}
+
+.token.punct {
+  padding: 0;
+}
+
+/* 候選字彈出選單 */
+.candidates-popup {
+  position: absolute;
+  z-index: 1000;
+  background: var(--bg-primary);
+  border: 2px solid var(--accent-color, #4a90e2);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 300px;
+  max-width: 500px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.candidates-header {
+  padding: 0.75rem 1rem;
+  background: var(--accent-color, #4a90e2);
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 6px 6px 0 0;
+}
+
+.candidates-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  padding: 0.75rem;
+}
+
+.candidate-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: var(--bg-secondary);
+}
+
+.candidate-item:hover {
+  background: var(--hover-bg, rgba(74, 144, 226, 0.1));
+  border-color: var(--accent-color, #4a90e2);
+  transform: translateY(-2px);
+}
+
+.candidate-item.selected {
+  background: var(--accent-color, #4a90e2);
+  color: white;
+  border-color: var(--accent-color, #4a90e2);
+}
+
+.candidate-han {
+  font-size: 1.5rem;
+  font-family: 'Noto Sans TC', 'Tauhu-oo', sans-serif;
+  margin-bottom: 0.25rem;
+}
+
+.candidate-freq {
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+}
+
+.candidate-item.selected .candidate-freq {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* 使用說明 */
+.converter-info {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.converter-info h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  font-size: 1.3rem;
+}
+
+.converter-info h3:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.converter-info ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.converter-info li {
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.converter-info code {
+  background: var(--bg-primary);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'DejaVu Sans', 'Courier New', monospace;
+  font-size: 0.9em;
+  border: 1px solid var(--border-color);
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .converter-body {
+    padding: 1rem;
+  }
+
+  .output-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .output-actions {
+    width: 100%;
+  }
+
+  .btn-copy,
+  .btn-clear {
+    flex: 1;
+  }
+
+  .han-output {
+    font-size: 1.3rem;
+  }
+
+  .candidates-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .candidates-popup {
+    left: 10px !important;
+    right: 10px;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .rom-to-han-converter {
+    padding: 1rem 0.5rem;
+  }
+
+  .candidates-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .han-output {
+    font-size: 1.2rem;
+  }
+
+  .converter-info {
+    padding: 1rem;
+  }
+}

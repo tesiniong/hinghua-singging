@@ -125,6 +125,13 @@ function Navbar() {
                 >
                   同音字表
                 </Link>
+                <Link
+                  to="/rom-to-han-converter"
+                  className={`navbar-dropdown-link ${location.pathname === '/rom-to-han-converter' ? 'active' : ''}`}
+                  onClick={handleLinkClick}
+                >
+                  羅馬字轉漢字
+                </Link>
               </div>
             )}
           </div>

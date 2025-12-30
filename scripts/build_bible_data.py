@@ -1,8 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-解析興化語聖經文本（第四版）
-支援新的格式化文本：每節一行，有標題和段落標題
+建構興化語聖經數據（Build Bible Data）
+
+功能：
+1. 解析 rom.txt 和 han.txt，生成 bible_data.json
+2. 生成統計資料 stats.json
+3. 自動複製所有必要的 JSON 檔案到 website/public/
+4. 自動重新生成羅馬字轉漢字字典 romToHanDict.json
+
+使用方法：
+    python scripts/build_bible_data.py [han_file] [rom_file] [output_file]
+
+注意：當聖經資料或詞典更新時，執行此腳本即可完成所有構建步驟！
 """
 
 import re
@@ -659,6 +669,17 @@ def main():
 
     print("合併並生成 JSON...")
     merge_and_generate_json(han_data, rom_data, output_file)
+
+    # 自動重新生成羅馬字轉漢字字典
+    print("\n" + "=" * 60)
+    print("自動更新羅馬字轉漢字字典...")
+    print("=" * 60)
+    try:
+        import generate_rom_to_han_dict
+        generate_rom_to_han_dict.main()
+    except Exception as e:
+        print(f"警告：字典生成失敗 - {e}")
+        print("請手動執行：python scripts/generate_rom_to_han_dict.py")
 
 
 if __name__ == '__main__':

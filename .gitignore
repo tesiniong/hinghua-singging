@@ -5,6 +5,7 @@ website/node_modules/
 # Build output
 dist/
 website/dist/
+scripts/__pycache__/
 
 # TIF images (too large, use WebP instead)
 pics/
