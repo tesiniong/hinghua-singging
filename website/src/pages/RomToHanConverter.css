@@ -140,7 +140,6 @@
 .output-placeholder {
   color: var(--text-tertiary);
   font-size: 1rem;
-  font-style: italic;
   text-align: center;
   padding: 2rem 0;
 }
