@@ -62,46 +62,61 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
 
     const hasLineBreaks = adjustedBreakPositions.length > 0;
 
+    // 檢查 token 是否為「只有羅馬字」
+    const isRomOnly = (token) => {
+      if (!token.rom) return false;
+      if (!token.han) return true; // 沒有漢字
+      // 漢字等同羅馬字（用於不確定漢字時）
+      return token.han.normalize('NFC') === token.rom.normalize('NFC');
+    };
+
     // 渲染基本邏輯
     const renderBasicTokens = () => {
-      return tokens.map((token, idx) => {
-        // 新增：處理只有 'text' 屬性的 token (來自 tokenize_han)
-        if (token.text && token.han === undefined) {
-          if (token.type === 'punct') {
-            return <span key={idx} className="ruby-punct">{token.text}</span>;
+      const result = [];
+
+      tokens.forEach((token, idx) => {
+        // 在非標點 token 前，檢查是否需要加空格
+        // 規則：連續兩個「只有羅馬字」的 token 之間加空格
+        if (token.type !== 'punct' && idx > 0) {
+          const prevToken = tokens[idx - 1];
+          if (isRomOnly(prevToken) && isRomOnly(token)) {
+            result.push(<span key={`space-${idx}`}> </span>);
           }
-          // 假定 'char', 'rom_in_han', 'compound' 類型都應顯示為純漢字
-          return <span key={idx} className="ruby-word-no-rom">{token.text}</span>;
         }
-        
+
         if (token.type === 'punct') {
-          return <span key={idx} className="ruby-punct">{token.han}</span>;
+          result.push(<span key={idx} className="ruby-punct">{token.han}</span>);
+          return;
         }
 
         // 修正：使用 NFC 正規化來比較字串
         if (token.han && token.rom && token.han.normalize('NFC') === token.rom.normalize('NFC')) {
-            return <span key={idx} className="ruby-identical">{token.han}</span>
+          result.push(<span key={idx} className="ruby-identical">{token.han}</span>);
+          return;
         }
 
-        if (token.type === 'word' && token.han && token.rom) {
-          return (
+        if (token.han && token.rom) {
+          result.push(
             <ruby key={idx} className="ruby-word">
               {token.han}
               <rt><span>{token.rom}</span></rt>
             </ruby>
           );
+          return;
         }
 
-        if (token.type === 'word' && token.han) {
-          return <span key={idx} className="ruby-word-no-rom">{token.han}</span>;
+        if (token.han && !token.rom) {
+          result.push(<span key={idx} className="ruby-word-no-rom">{token.han}</span>);
+          return;
         }
 
-        if (token.type === 'word' && token.rom) {
-          return <span key={idx} className="ruby-rom-only"><span>{token.rom}</span></span>;
+        if (token.rom && !token.han) {
+          result.push(<span key={idx} className="ruby-rom-only"><span>{token.rom}</span></span>);
+          return;
         }
-
-        return null;
       });
+
+      return result;
     };
 
     // 如果沒有換行符，直接渲染
@@ -122,25 +137,22 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
         nextBreakIndex++;
       }
 
+      // 在非標點 token 前，檢查是否需要加空格
+      if (token.type !== 'punct' && idx > 0) {
+        const prevToken = tokens[idx - 1];
+        if (isRomOnly(prevToken) && isRomOnly(token)) {
+          result.push(<span key={`space-${idx}`}> </span>);
+        }
+      }
+
       // 渲染當前 token
-      // 新增：處理只有 'text' 屬性的 token (來自 tokenize_han)
-      if (token.text && token.han === undefined) {
-        if (token.type === 'punct') {
-          result.push(<span key={idx} className="ruby-punct">{token.text}</span>);
-        } else {
-          result.push(<span key={idx} className="ruby-word-no-rom">{token.text}</span>);
-        }
-        // 這些 token 都是漢字或標點，所以要增加 charPosition
-        if (token.text) {
-          charPosition += token.text.length;
-        }
-      } else if (token.type === 'punct') {
+      if (token.type === 'punct') {
         result.push(<span key={idx} className="ruby-punct">{token.han}</span>);
         if (token.han) charPosition += token.han.length;
       } else if (token.han && token.rom && token.han.normalize('NFC') === token.rom.normalize('NFC')) {
         result.push(<span key={idx} className="ruby-identical">{token.han}</span>);
         charPosition += token.han.length;
-      } else if (token.type === 'word' && token.han && token.rom) {
+      } else if (token.han && token.rom) {
         result.push(
           <ruby key={idx} className="ruby-word">
             {token.han}
@@ -148,10 +160,10 @@ function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }
           </ruby>
         );
         charPosition += token.han.length;
-      } else if (token.type === 'word' && token.han) {
+      } else if (token.han && !token.rom) {
         result.push(<span key={idx} className="ruby-word-no-rom">{token.han}</span>);
         charPosition += token.han.length;
-      } else if (token.type === 'word' && token.rom) {
+      } else if (token.rom && !token.han) {
         result.push(<span key={idx} className="ruby-rom-only"><span>{token.rom}</span></span>);
         // 只有羅馬字沒有漢字，不增加 charPosition
       }

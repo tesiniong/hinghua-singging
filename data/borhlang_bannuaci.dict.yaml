@@ -381,7 +381,7 @@ cēng@ceng5@賤/漸/踐/贈|	ceng5	5000
 ceo@ceo1@資/姿/諮/兹/滋/孜/之/淄/芝/孳/仔/鶿|	ceo1	4500
 ceó@ceo2@慈/磁/瓷|	ceo2	500
 ceô@ceo3@子/棗/紫/梓/仔/嘬|	ceo3	5000
-ceo̍@ceo4@做/恣/造/憑|	ceo4	5000
+ceo̍@ceo4@做/恣/造/憑/以|	ceo4	5000
 ceō@ceo5@自/字/座/作|	ceo5	5000
 ceoh@ceoh6@卒|	ceoh6	1010
 ceo̍h@ceoh7@▣|	ceoh7	100
@@ -622,7 +622,7 @@ chṳ̍ng@chyng4@▣|	chyng4	130
 chṳ̄ng@chyng5@▣|	chyng5	120
 ci@ci1@吱/肢/脂/芝/膣/支/之/枝/梔/鯔|	ci1	500
 cí@ci2@而/躋/兒/跦/栭/洏/耏/胹/輀/鮞/鴯|	ci2	500
-cî@ci3@耳/籽/姊/子/止/只/咫/跖/爾/旨/址/紫/趾/你/铒/指/這/枳/洱/珥/祉/紙/芷/軹/邇/酯/鉺/餌/駬/黹|	ci3	5000
+cî@ci3@耳/籽/姊/子/止/只/咫/跖/爾/旨/址/紫/趾/你/铒/指/咡/這/枳/洱/珥/祉/紙/芷/軹/邇/酯/鉺/餌/駬/黹|	ci3	5000
 ci̍@ci4@至/誌/志/痣|	ci4	500
 cī@ci5@二/字/接/貳/2/佴/刵/咡/樲/膩|	ci5	5000
 cia@cia1@遮|	cia1	5000
@@ -762,7 +762,7 @@ da̤@daa1@低/爹|	daa1	5000
 dá̤@daa2@疊/題/提/堤/蹄/醍|	daa2	5000
 dâ̤@daa3@底/抵/砥/邸/柢/璽|	daa3	5000
 da̤̍@daa4@帝/滯|	daa4	500
-dā̤@daa5@第/地/帝/隸/埭/弟/遞/蒂/棣/百|	daa5	5000
+dā̤@daa5@第/地/帝/隸/埭/弟/遞/蒂/棣|	daa5	5000
 da̤h@daah6@▣|	daah6	110
 da̤̍h@daah7@疊|	daah7	1000
 da̤ⁿ@daann1@▣|	daann1	160
@@ -835,8 +835,8 @@ déng@deng2@纏/陳/停/霆/庭/田/婷/亭/廷/騰/滇/誊/佃/澄/甸/蜒/訂/
 dêng@deng3@等/頂/典/鼎/碘/戥/點|	deng3	5000
 de̍ng@deng4@釘/訂/叮/鄧/凳/磸/鐙/瞪/盯|	deng4	5000
 dēng@deng5@電/定/殿/奠/澱/鈿/腚/锭/錠/佃/甸/綻/靛/黵|	deng5	5200
-deo@deo1@刀/都/托/婦/其/哆|	deo1	5000
-deó@deo2@佇/躲/馱/著/着/在/逃|	deo2	5000
+deo@deo1@刀/都/托/婦/哆|	deo1	5000
+deó@deo2@佇/躲/馱/著/着/在/都/逃|	deo2	5000
 deô@deo3@倒|	deo3	5000
 deo̍@deo4@倒|	deo4	500
 deō@deo5@桌/卓/佇|	deo5	5000
@@ -906,7 +906,7 @@ dn̄g@dng5@丈/蕩|	dng5	5000
 do@do1@都|	do1	500
 dó@do2@圖/徒/途/塗/荼/屠/涂|	do2	5000
 dô@do3@肚/賭/睹/堵/桗|	do3	5000
-do̍@do4@註/[汝厝]/住/妒/蠹/姓/處|	do4	4900
+do̍@do4@註/[汝厝]/住/妒/蠹/處|	do4	4900
 dō@do5@墿/路/度/渡/鍍/踱/杜/怒/𨧀/道|	do5	5000
 dói@doi2@捼|	doi2	500
 do̍i@doi4@綴/對|	doi4	5000
@@ -971,7 +971,7 @@ du̍i@dui4@碓/對/兌/懟|	dui4	5000
 dūi@dui5@隊/埭/墜|	dui5	5000
 dṳ@dy1@豬/誅/汝|	dy1	4900
 dṳ́@dy2@除/躇/汝/茹|	dy2	500
-dṳ̂@dy3@汝/女/釹/入/你/活/翰/其/理/詝|	dy3	5000
+dṳ̂@dy3@汝/女/釹/入/你/活/其/理/詝|	dy3	5000
 dṳ̍@dy4@著|	dy4	500
 dṳ̄@dy5@箸/苧|	dy5	5000
 dṳ̂h@dyh3@汝|	dyh3	500
@@ -986,7 +986,7 @@ e@e1@▣|	e1	160
 é@e2@▣|	e2	150
 ê@e3@▣|	e3	140
 e̍@e4@▣|	e4	130
-ē@e5@其/相/名/或/約/地/都/傳/人/兮/汝|	e5	300
+ē@e5@其/相/名/或/約/奴/人/兮/汝|	e5	300
 e̤@ee1@▣|	ee1	160
 é̤@ee2@▣|	ee2	150
 ê̤@ee3@嘔|	ee3	500
@@ -1149,7 +1149,7 @@ gi̍ng@ging4@見/禁/勁/警/敬/竟/莖/痙/徑/鏡|	ging4	5000
 gīng@ging5@腱/妗/僅/競/瑾/覲/竟|	ging5	5000
 gio̤@gioo1@▣|	gioo1	160
 gió̤@gioo2@舉/攑/揭/鵝/蜈/屐/岐|	gioo2	5000
-giô̤@gioo3@母/住|	gioo3	50
+giô̤@gioo3@母|	gioo3	50
 gio̤̍@gioo4@寄|	gioo4	5000
 giō̤@gioo5@▣|	gioo5	120
 gio̤h@giooh6@矍/腳|	giooh6	500
@@ -1161,7 +1161,7 @@ gio̤̍ng@gioong4@▣|	gioong4	130
 giō̤ng@gioong5@▣|	gioong5	120
 gio̤ⁿ@gioonn1@▣|	gioonn1	160
 gió̤ⁿ@gioonn2@墘|	gioonn2	500
-giô̤ⁿ@gioonn3@囝/母/住|	gioonn3	5000
+giô̤ⁿ@gioonn3@囝/母|	gioonn3	5000
 gio̤̍ⁿ@gioonn4@▣|	gioonn4	130
 giō̤ⁿ@gioonn5@健/件|	gioonn5	4900
 giu@giu1@糾/勼/鳅/鳩/痀/鰍/龜|	giu1	5000
@@ -1426,7 +1426,7 @@ hó̤@hoo2@蝦/何/河/禾/和/龢/豪/毫/壕/濠/蠔/箬/荷/霞|	hoo2	5000
 hô̤@hoo3@火/伙/鈥/好/熇|	hoo3	500
 ho̤̍@hoo4@好/孝/耗/貨|	hoo4	5000
 hō̤@hoo5@荷/賀/禍/號/顥/浩/下/昊/灝/皓|	hoo5	5000
-ho̤h@hooh6@福/幅/覆/複/霍/復/腹/蝠|	hooh6	500
+ho̤h@hooh6@福/幅/覆/複/霍/復/在/腹/蝠|	hooh6	500
 ho̤̍h@hooh7@合/服/菔/鶴/伏/腹/復/茯/箬/匐/袱/馥|	hooh7	500
 ho̤ng@hoong1@風/方/豐/鋒/封/瘋/楓/蜂/峯/慌/荒/烘/坊/肪/鈁/胸/丰/塃/肓/芳/謊|	hoong1	5000
 hó̤ng@hoong2@黃/皇/防/凰/惶/雄/蝗/煌/洪/鴻/逢/縫/磺/簧/隍/喤/妨/宏/徨/湟/潢/瑝/璜/紅/翃/葒/蕻/虹/訌/遑/鍠/鐄/餭/馮/魟/鰉/黌|	hoong2	5000
@@ -1484,7 +1484,7 @@ hṳ́ng@hyng2@眩|	hyng2	5000
 hṳ̂ng@hyng3@狠|	hyng3	5000
 hṳ̍ng@hyng4@釁|	hyng4	500
 hṳ̄ng@hyng5@恨|	hyng5	500
-i@i1@伊/醫/衣/依/咿/銥/帝/其/頭/裔/漪|	i1	5000
+i@i1@伊/醫/衣/依/咿/銥/其/帝/頭/漪|	i1	5000
 í@i2@胰/移/夷/姨/怡/遺/彝/頤/飴/蛇/迤/E|	i2	5000
 î@i3@椅/以/倚/已/旖/起|	i3	5000
 i̍@i4@意/懿/臆/憶/鐿|	i4	500
@@ -1753,7 +1753,7 @@ kúi@kui2@▣|	kui2	150
 kûi@kui3@傀/詭|	kui3	500
 ku̍i@kui4@氣/愧/潰/季|	kui4	5000
 kūi@kui5@▣|	kui5	120
-kṳ@ky1@區/驅/拘/駒/軀/嶇/劬|	ky1	5000
+kṳ@ky1@區/驅/拘/駒/軀/嶇/去/劬|	ky1	5000
 kṳ́@ky2@▣|	ky2	150
 kṳ̂@ky3@▣|	ky3	140
 kṳ̍@ky4@去/出|	ky4	5000
@@ -2143,7 +2143,7 @@ mu̍@mu4@▣|	mu4	130
 mū@mu5@婦|	mu5	1020
 mua@mua1@▣|	mua1	160
 muá@mua2@鰻/麻/瞞/蔴|	mua2	4900
-muâ@mua3@滿/其|	mua3	5000
+muâ@mua3@滿|	mua3	5000
 mua̍@mua4@▣|	mua4	130
 muā@mua5@漫|	mua5	500
 muah@muah6@▣|	muah6	110
@@ -2839,7 +2839,7 @@ sah@sah6@剎/煞/卅/颯/霎/薩/摔/撒/殺/數/錫/㩋/摋/翣/脎/馺|	sah6	5
 sa̍h@sah7@唦|	sah7	40
 sai@sai1@師/獅/西/腮/篩|	sai1	5000
 sái@sai2@▣|	sai2	150
-sâi@sai3@使/駛/屎/約|	sai3	5000
+sâi@sai3@使/駛/屎|	sai3	5000
 sa̍i@sai4@曬/婿|	sai4	500
 sāi@sai5@士/仕/祀/侍|	sai5	5000
 saih@saih6@▣|	saih6	110
@@ -2866,7 +2866,7 @@ se̍@se4@▣|	se4	130
 sē@se5@似|	se5	500
 se̤@see1@梳/疏/蔬/酾/攄/釃|	see1	5000
 sé̤@see2@▣|	see2	150
-sê̤@see3@黍/所/諝/立/洗|	see3	5000
+sê̤@see3@黍/所/諝/立|	see3	5000
 se̤̍@see4@賽/絮|	see4	500
 sē̤@see5@坐/雪|	see5	5000
 se̤h@seeh6@叔/宿/說/肅/縮/淑/粟/夙/倏/戌/菽/蓿/雪/鱈|	seeh6	500
@@ -2904,7 +2904,7 @@ si@si1@詩/屍/施/撕/絲/司/私/尸/蓍|	si1	500
 sí@si2@時/舌/折/辭/莳/匙/蝕/餈/塒/蒔|	si2	5000
 sî@si3@死/始/矢/屎/豕/弛|	si3	5000
 si̍@si4@四/世/試/薛/勢/駟/〤/4/亖/卌/弒/肆|	si4	5000
-sī@si5@是/視/舐/寺/氏/嗜/巳/示/侍/蝕/摕/後/死/市/恃/薛/豉|	si5	6000
+sī@si5@是/視/舐/寺/氏/嗜/巳/示/侍/蝕/摕/死/市/恃/薛/豉|	si5	6000
 sia@sia1@賒/奢/些/畬/輋|	sia1	500
 siá@sia2@食/邪/斜/佘/畲|	sia2	5100
 siâ@sia3@寫/舍|	sia3	5000
@@ -3066,7 +3066,7 @@ tâ̤uⁿ@taaunn3@▣|	taaunn3	140
 ta̤̍uⁿ@taaunn4@▣|	taaunn4	130
 tā̤uⁿ@taaunn5@杖|	taaunn5	500
 tah@tah6@塔/塌/拓/搨/蹋/觸/獺/榻/搭/撻/靼/韃|	tah6	500
-ta̍h@tah7@讀/沓/禮/垞/宅/踏|	tah7	500
+ta̍h@tah7@讀/沓/垞/宅/踏|	tah7	500
 tai@tai1@胎/篩/𥭘/颱/台|	tai1	5000
 tái@tai2@治/刣/擡/抬|	tai2	5000
 tâi@tai3@㑀|	tai3	500
@@ -6322,7 +6322,7 @@ si̍-se̍h-la̍h@si4 seh7 lah7@四十六|	si4 seh7 lah7	500
 si̍-se̍h-chih@si4 seh7 chih6@四十七|	si4 seh7 chih6	500
 si̍-se̍h-bā̤@si4 seh7 baa5@四十八|	si4 seh7 baa5	500
 si̍-se̍h-gâu@si4 seh7 gau3@四十九|	si4 seh7 gau3	500
-ngō-se̍h@ngo5 seh7@五十|	ngo5 seh7	500
+ngō-se̍h@ngo5 seh7@五十/十年|	ngo5 seh7	500
 ngō-se̍h-ih@ngo5 seh7 ih6@五十一|	ngo5 seh7 ih6	500
 ngō-se̍h-dī@ngo5 seh7 di5@五十二|	ngo5 seh7 di5	500
 ngō-se̍h-so̤ⁿ@ngo5 seh7 soonn1@五十三|	ngo5 seh7 soonn1	500
@@ -6393,7 +6393,7 @@ nn̄g-bā-la̍h@nng5 ba5 lah7@兩百六|	nng5 ba5 lah7	500
 nn̄g-bā-chih@nng5 ba5 chih6@兩百七|	nng5 ba5 chih6	500
 nn̄g-bā-bā̤@nng5 ba5 baa5@兩百八|	nng5 ba5 baa5	500
 nn̄g-bā-gâu@nng5 ba5 gau3@兩百九|	nng5 ba5 gau3	500
-so̤ⁿ-bā@soonn1 ba5@三百|	soonn1 ba5	500
+so̤ⁿ-bā@soonn1 ba5@三百/百五|	soonn1 ba5	500
 si̍-bā@si4 ba5@四百|	si4 ba5	500
 ngō-bā@ngo5 ba5@五百|	ngo5 ba5	500
 la̍h-bā@lah7 ba5@六百|	lah7 ba5	500
@@ -7940,7 +7940,7 @@ ce̍h-ce̍h@ceh7 ceh7@熱熱|	ceh7 ceh7	500
 hāng-hāng@hang5 hang5@烘烘|	hang5 hang5	500
 sa̤u-sa̤u@saau1 saau1@燒燒|	saau1 saau1	500
 do̤-do̤@doo1 doo1@焦焦|	doo1 doo1	500
-sā̤-sā̤@saa5 saa5@穧穧|	saa5 saa5	500
+sā̤-sā̤@saa5 saa5@穧穧/穧々|	saa5 saa5	500
 câ̤u-câ̤u@caau3 caau3@少少|	caau3 caau3	500
 geông-geông@geong3 geong3@滾滾|	geong3 geong3	500
 teo̍h-teo̍h@teoh7 teoh7@燙燙|	teoh7 teoh7	500
@@ -9034,7 +9034,7 @@ la̍u-lôi@lau4 loi3@落[落尾]|	lau4 loi3	500
 dē̤-ko̤@dee5 koo1@頓骹|	dee5 koo1	500
 cho̤-bua̍h@choo1 buah7@操跋|	choo1 buah7	500
 báⁿ-châ̤@bann2 chaa3@平扯|	bann2 chaa3	500
-po̤-dôiⁿ@poo1 doinn3@拋轉|	poo1 doinn3	500
+po̤-dôiⁿ@poo1 doinn3@拋轉/翻轉|	poo1 doinn3	500
 po̤-hṳ@poo1 hy1@拋魚|	poo1 hy1	500
 ning-bâi@ning1 bai3@拈[爬起]|	ning1 bai3	500
 eh-cang-bâi@eh6 cang1 bai3@以攢[爬起]|	eh6 cang1 bai3	500
@@ -9146,7 +9146,7 @@ siá-chiáⁿ@sia2 chiann2@食成|	sia2 chiann2	500
 ceo̍-chiáⁿ@ceo4 chiann2@做成|	ceo4 chiann2	500
 lú-lôi@lu2 loi3@嚕[落尾]|	lu2 loi3	500
 do̤̍ⁿ-táu@doonn4 tau2@擔頭|	doonn4 tau2	500
-sā̤u-hō̤@saau5 hoo5@惜福|	saau5 hoo5	500
+sā̤u-hō̤@saau5 hoo5@惜福/賞賀|	saau5 hoo5	500
 sā̤u-miā@saau5 mia5@惜命|	saau5 mia5	500
 hi̍ng-ga̍u@hing4 gau4@興遘|	hing4 gau4	500
 gō̤-kî@goo5 ki3@咬齒|	goo5 ki3	500
@@ -11949,7 +11949,7 @@ sa-liu̍@sa1 liu4@星宿|	sa1 liu4	500
 siā-go̤ng@sia5 goong1@社公|	sia5 goong1	500
 ciá-ha̤uⁿ@cia2 haaunn1@請香|	cia2 haaunn1	500
 tó-sing@to2 sing1@塗身|	to2 sing1	500
-ging-sing@ging1 sing1@金身/Ging-sing|	ging1 sing1	500
+ging-sing@ging1 sing1@金身|	ging1 sing1	500
 ca̍u-go̤ng@cau4 goong1@竈公|	cau4 goong1	500
 ca̍u-go̤ng-mâ@cau4 goong1 ma3@竈公嬷|	cau4 goong1 ma3	500
 sing-da̤̍uⁿ-dêng@sing1 daaunn4 deng3@神帳頂|	sing1 daaunn4 deng3	500
@@ -16139,7 +16139,7 @@ che̤-ih-le̍h-ngō@chee1 ih6 leh7 ngo5@初一十五|	chee1 ih6 leh7 ngo5	500
 chih-chang-bā̤-sua̍ng@chih6 chang1 baa5 suang4@七蔥八蒜|	chih6 chang1 baa5 suang4	500
 î-ce̍ng@i3 ceng4@以前|	i3 ceng4	500
 î-sá̤ⁿ@i3 saann2@以前|	i3 saann2	500
-î-āu@i3 au5@以後|	i3 au5	500
+î-āu@i3 au5@以後/後挪|	i3 au5	500
 siá-bōiⁿ-sí@sia2 boinn5 si2@食飯時|	sia2 boinn5 si2	500
 ming-dá̤u-bôi@ming1 daau2 boi3@明朝尾|	ming1 daau2 boi3	500
 ching-dá̤u-bôi@ching1 daau2 boi3@清朝尾|	ching1 daau2 boi3	500
@@ -18792,7 +18792,7 @@ keo̍ng-náng@keong4 nang2@困難|	keong4 nang2	500
 taⁿ-sah@tann1 sah6@他殺|	tann1 sah6	500
 ca̤u-bá̤@caau1 baa2@招牌|	caau1 baa2	500
 beh-si̍ng@beh6 sing4@百姓|	beh6 sing4	500
-bā-sa̍ⁿ@ba5 sann4@百姓/是伊|	ba5 sann4	500
+bā-sa̍ⁿ@ba5 sann4@百姓|	ba5 sann4	500
 cih-gih@cih6 gih6@積極|	cih6 gih6	500
 ngiáng-kiu̍@ngiang2 kiu4@研究|	ngiang2 kiu4	500
 geng-sing@geng1 sing1@更新|	geng1 sing1	500
@@ -18887,7 +18887,7 @@ sa̤̍-gang@saa4 gang1@世間|	saa4 gang1	500
 bā̤u-i̍h@baau5 ih7@貿易|	baau5 ih7	500
 dāi-hā@dai5 ha5@大廈|	dai5 ha5	500
 síng-siō̤ng@sing2 sioong5@丞相|	sing2 sioong5	500
-nó-cái@no2 cai2@奴才|	no2 cai2	500
+nó-cái@no2 cai2@奴才/才|	no2 cai2	500
 ko̤ng-geong@koong1 geong1@空軍|	koong1 geong1	500
 hâi-geong@hai3 geong1@海軍|	hai3 geong1	500
 le̤̍h-geong@leeh7 geong1@陸軍|	leeh7 geong1	500
@@ -20529,10 +20529,10 @@ geh-gī-eh-lō̤-bō̤@geh6 gi5 eh6 loo5 boo5@結義的老爸|	geh6 gi5 eh6 loo5
 lāu-gú-sia̍h-iu̍-seông@lau5 gu2 siah7 iu4 seong3@老牛食幼筍|	lau5 gu2 siah7 iu4 seong3	400
 léng-ha̍h-go̤h-ang-cé̤ng-lî-seō-hōi@leng2 hah7 gooh6 ang1 ceeng2 li3 seo5 hoi5@聯合國安全理事會|	leng2 hah7 gooh6 ang1 ceeng2 li3 seo5 hoi5	400
 go̤-deo-túi-giô̤ⁿ-bo̍@goo1 deo1 tui2 gioonn3 bo4@鉸刀錘囝布|	goo1 deo1 tui2 gioonn3 bo4	400
-nô̤-a̍@noo3 a4@挪亞/囝滿|	noo3 a4	250
-mo̍ih-nō̤@moih7 noo5@物乇|	moih7 noo5	250
+nô̤-a̍@noo3 a4@挪亞/亞復|	noo3 a4	250
 á̤-hó̤-hua@aa2 hoo2 hua1@耶和華|	aa2 hoo2 hua1	250
 dih-dih@dih6 dih6@得々|	dih6 dih6	250
+mo̍ih-nō̤@moih7 noo5@物乇|	moih7 noo5	250
 ah-na@ah6 na1@安生|	ah6 na1	250
 gai-ṳ̂ng@gai1 yng3@該隱|	gai1 yng3	250
 go̍ih-cî@goih7 ci3@果子|	goih7 ci3	200
@@ -20541,25 +20541,29 @@ dā̤-sā̤uⁿ@daa5 saaunn5@地上/頭牲|	daa5 saaunn5	200
 cê̤ng-lūi@ceeng3 lui5@種類/佮汝|	ceeng3 lui5	200
 co̤̍h-dâ̤uⁿ@cooh7 daaunn3@族長|	cooh7 daaunn3	200
 sîng-ná̤u-náng@sing3 naau2 nang2@嬸娘儂|	sing3 naau2 nang2	200
-î-do̤̍h@i3 dooh7@以諾|	i3 dooh7	150
-cíng-a̍i@cing2 ai4@仁愛|	cing2 ai4	150
 î-hā̤u@i3 haau5@以後|	i3 haau5	150
-di̍h-dng@dih7 dng1@日當|	dih7 dng1	150
+î-do̤̍h@i3 dooh7@以諾|	i3 dooh7	150
 ho̍i-siū@hoi4 siu5@歲壽/歲數|	hoi4 siu5	150
-ching-a̍i@ching1 ai4@親愛|	ching1 ai4	150
+cíng-a̍i@cing2 ai4@仁愛|	cing2 ai4	150
 go̍-cheô@go4 cheo3@故此|	go4 cheo3	150
+di̍h-dng@dih7 dng1@日當|	dih7 dng1	150
+ngâ-heo̍h@nga3 heoh7@雅弗|	nga3 heoh7	150
+gia-náng@gia1 nang2@迦南|	gia1 nang2	150
+ching-a̍i@ching1 ai4@親愛|	ching1 ai4	150
 go̤h-cê̤ng@gooh6 ceeng3@各種|	gooh6 ceeng3	150
 hā̤-ki̍@haa5 ki4@血氣|	haa5 ki4	150
+n̄g-sī@ng5 si5@毋是|	ng5 si5	150
+gṳ̄-go̤h@gy5 gooh6@俱各/船保|	gy5 gooh6	150
+gô-si̍h@go3 sih7@古實|	go3 sih7	150
 ṳ̂ng-ê̤ng@yng3 eeng3@永遠|	yng3 eeng3	150
 ciah-ūi@ciah6 ui5@接位|	ciah6 ui5	150
-n̄g-sī@ng5 si5@毋是|	ng5 si5	150
 beông-sing@beong3 sing1@本身|	beong3 sing1	150
 ló̤-kô@loo2 ko3@勞苦|	loo2 ko3	150
-gṳ̄-go̤h@gy5 gooh6@俱各/船保|	gy5 gooh6	150
 ua̍h-miā@uah7 mia5@活命|	uah7 mia5	150
 seng-e̤̍h@seng1 eeh7@生育|	seng1 eeh7	150
 dôi-dāng@doi3 dang5@動彈|	doi3 dang5	150
 gi̍-céng@gi4 ceng2@既然|	gi4 ceng2	150
+ló̤-bō̤@loo2 boo5@老爸|	loo2 boo5	150
 î-nô̤-seō@i3 noo3 seo5@以挪士|	i3 noo3 seo5	150
 gai-náng@gai1 nang2@該南|	gai1 nang2	150
 mâ-tô-sah-la̍h@ma3 to3 sah6 lah7@瑪土撒拉|	ma3 to3 sah6 lah7	150
@@ -20571,20 +20575,22 @@ dēng-nô̤@deng5 noo3@電腦|	deng5 noo3	100
 î-ging@i3 ging1@已經|	i3 ging1	100
 le̤̍h-he̤h@leeh7 heeh6@六畜|	leeh7 heeh6	100
 i-dī@i1 di5@伊弟/醫治|	i1 di5	100
-ngâ-heo̍h@nga3 heoh7@雅弗|	nga3 heoh7	100
 chiû-daⁿ@chiu3 dann1@手䟓|	chiu3 dann1	100
 li̍h-io̤h@lih7 iooh6@立約|	lih7 iooh6	100
+iú-ta̍i@iu2 tai4@猶太|	iu2 tai4	100
 chîng-ang@ching3 ang1@請安|	ching3 ang1	100
 bi̍ng-chiâⁿ@bing4 chiann3@並且|	bing4 chiann3	100
 ting-ō̤@ting1 oo5@天下|	ting1 oo5	100
 geng-ce̤̍ng@geng1 ceeng4@耕種|	geng1 ceeng4	100
 dang-bing@dang1 bing1@東邊|	dang1 bing1	100
-gô-si̍h@go3 sih7@古實|	go3 sih7	100
+ha̍h-hi-la̍h@hah7 hi1 lah7@哈腓拉|	hah7 hi1 lah7	100
 hóiⁿ-lî@hoinn2 li3@園裡/園中|	hoinn2 li3	100
 gîng-ga̍i@ging3 gai4@警戒|	ging3 gai4	100
 hō̤ng-seō@hoong5 seo5@奉事|	hoong5 seo5	100
 sa̤̍-sā̤uⁿ@saa4 saaunn5@世上|	saa4 saaunn5	100
+sī-ba@si5 ba1@示巴|	si5 ba1	100
 a̍-láng@a4 lang2@亞蘭|	a4 lang2	100
+sī-la̍h@si5 lah7@示拉|	si5 lah7	100
 i-si̍h-mâ-lī@i1 sih7 ma3 li5@以實瑪利|	i1 sih7 ma3 li5	100
 si̍h-sing@sih7 sing1@實心|	sih7 sing1	100
 sui-céng@sui1 ceng2@雖然|	sui1 ceng2	100
@@ -20597,14 +20603,18 @@ ang-hē̤@ang1 hee5@安歇|	ang1 hee5	100
 ai-déng@ai1 deng2@埃田|	ai1 deng2	100
 go̤h-cêng@gooh6 ceng3@各種|	gooh6 ceng3	100
 sēng-o̤h@seng5 ooh6@善惡|	seng5 ooh6	100
-ha̍h-hi-la̍h@hah7 hi1 lah7@哈腓拉|	hah7 hi1 lah7	100
+a̍-seo̍h@a4 seoh7@亞述|	a4 seoh7	100
 ai-déng-hóiⁿ@ai1 deng2 hoinn2@埃田園|	ai1 deng2 hoinn2	100
+chih-sing@chih6 sing1@赤身|	chih6 sing1	100
 é̤ng-go̍@eeng2 go4@緣故|	eeng2 go4	100
 ló̤ng-cô̤ng@loong2 coong3@攏總|	loong2 coong3	100
+i-ná̤u@i1 naau2@衣裳|	i1 naau2	100
+ṳ̂ng-seng@yng3 seng1@永生|	yng3 seng1	100
 gṳ̄-da̤̍u@gy5 daau4@遇着|	gy5 daau4	100
 î-la̍h@i3 lah7@以拉|	i3 lah7	100
 a̍-dāi@a4 dai5@亞大|	a4 dai5	100
 sêng-la̍h@seng3 lah7@洗拉|	seng3 lah7	100
+da̤̍uⁿ-báng@daaunn4 bang2@帳房|	daaunn4 bang2	100
 cô-co̤ng@co3 coong1@祖宗|	co3 coong1	100
 kî-chiû@ki3 chiu3@起手|	ki3 chiu3	100
 u̍-o̍i@u4 oi4@污穢|	u4 oi4	100
@@ -20613,10 +20623,9 @@ dā̤-mi̍ng@daa5 ming4@地面|	daa5 ming4	100
 hói-táu@hoi2 tau2@回頭|	hoi2 tau2	100
 î-céng@i3 ceng2@以前|	i3 ceng2	100
 hn̄g-lî@hng5 li3@方勢/方裡|	hng5 li3	100
-gia-náng@gia1 nang2@迦南/挪亞|	gia1 nang2	100
-sī-ba@si5 ba1@示巴|	si5 ba1	100
+dâ̤-dāng@daa3 dang5@底但|	daa3 dang5	100
+néng-le̤̍h@neng2 leeh7@甯綠|	neng2 leeh7	100
 a̍-hah-sah@a4 hah6 sah6@亞法撒|	a4 hah6 sah6	100
-sī-la̍h@si5 lah7@示拉|	si5 lah7	100
 io̤h-dang@iooh6 dang1@約單|	iooh6 dang1	100
 io̤h-bah@iooh6 bah6@約八|	iooh6 bah6	100
 ha̍h-da̍h@hah7 dah7@哈達|	hah7 dah7	100
@@ -20629,7 +20638,9 @@ dâ̤-seōng@daa3 seong5@底順|	daa3 seong5	100
 ha̍h-tah@hah7 tah6@哈撻|	hah7 tah6	100
 gé̤ng-ba̍ⁿ@geeng2 bann4@權柄|	geeng2 bann4	100
 ṳ́ng-ā̤u@yng2 aau5@榮耀|	yng2 aau5	100
-iú-ta̍i@iu2 tai4@猶太|	iu2 tai4	100
+si-sâ̤-lâ̤@si1 saa3 laa3@施洗禮|	si1 saa3 laa3	100
+ga̍ng-sa̤̍@gang4 saa4@降世|	gang4 saa4	100
+î-di̍@i3 di4@以致|	i3 di4	100
 teng-seo̍@teng1 seo4@天使|	teng1 seo4	100
 ceó-bi@ceo2 bi1@慈悲|	ceo2 bi1	100
 ho̤h-ū@hooh6 u5@復有|	hooh6 u5	100
@@ -20657,26 +20668,21 @@ si̍-úi@si4 ui2@四圍|	si4 ui2	50
 bî-do̤-la̍h@bi3 doo1 lah7@比多拉|	bi3 doo1 lah7	50
 so̤h-háng@sooh6 hang2@朔杭|	sooh6 hang2	50
 beô-sa̤̍u@beo3 saau4@寶石|	beo3 saau4	50
-a̍-seo̍h@a4 seoh7@亞述|	a4 seoh7	50
 cai-ce̤̍ng@cai1 ceeng4@栽種|	cai1 ceeng4	50
 po̍i-gâ̤u@poi4 gaau3@配偶|	poi4 gaau3	50
 diāⁿ-da̤̍u@diann5 daau4@定着/定著|	diann5 daau4	50
 hia̍-geoh@hia4 geoh6@肋骨|	hia4 geoh6	50
-ló̤-bō̤@loo2 boo5@老爸|	loo2 boo5	50
 láu-mâ@lau2 ma3@老嬤|	lau2 ma3	50
-chih-sing@chih6 sing1@赤身|	chih6 sing1	50
 ciô̤-gá̤@cioo3 gaa2@燳個/喏個/者個|	cioo3 gaa2	50
 deoh-leo@deoh6 leo1@底落|	deoh6 leo1	50
 siô̤ng-bō@sioong3 bo5@想慕|	sioong3 bo5	50
 beông-lái@beong3 lai2@本來|	beong3 lai2	50
-i-ná̤u@i1 naau2@衣裳|	i1 naau2	50
 seng-mīng-chiu̍@seng1 ming5 chiu4@生命樹|	seng1 ming5 chiu4	50
-ṳ̂ng-seng@yng3 seng1@永生|	yng3 seng1	50
+héng-o̤h@heng2 ooh6@行惡|	heng2 ooh6	50
 dṳ̂-dī@dy3 di5@汝弟|	dy3 di5	50
 mêng-dih@meng3 dih6@免得|	meng3 dih6	50
 bî-hō-ngâ-lī@bi3 ho5 nga3 li5@米戶雅利|	bi3 ho5 nga3 li5	50
 mâ-tô-sah-lī@ma3 to3 sah6 li5@瑪土撒利|	ma3 to3 sah6 li5	50
-da̤̍uⁿ-báng@daaunn4 bang2@帳房|	daaunn4 bang2	50
 tô-bah-gai-ṳ̂ng@to3 bah6 gai1 yng3@土八該隱|	to3 bah6 gai1 yng3	50
 io̤h-lio̤̍h@iooh6 liooh7@約略|	iooh6 liooh7	50
 ne̤̍h-tâ̤@neeh7 taa3@肉體|	neeh7 taa3	50
@@ -20690,14 +20696,25 @@ ca̤̍-dái@caa4 dai2@祭臺|	caa4 dai2	50
 cai-hō̤@cai1 hoo5@災禍|	cai1 hoo5	50
 go̤h-lūi@gooh6 lui5@各類|	gooh6 lui5	50
 bíng-gṳ̍@bing2 gy4@憑據/據|	bing2 gy4	50
+mâ-go̤h@ma3 gooh6@馬各|	ma3 gooh6	50
+ngâ-é̤ng@nga3 eeng2@雅完|	nga3 eeng2	50
+tô-bah@to3 bah6@土八|	to3 bah6	50
+dá̤-la̍h@daa2 lah7@提臘|	daa2 lah7	50
+a̍-si̍h-gi-ná@a4 sih7 gi1 na2@亞實基拿|	a4 sih7 gi1 na2	50
+do̤-dang@doo1 dang1@多單|	doo1 dang1	50
+sa̤-ba@saa1 ba1@西巴|	saa1 ba1	50
+la̍h-mâ@lah7 ma3@拉瑪/喇馬|	lah7 ma3	50
+dō̤-lo̤̍h@doo5 looh7@打獵|	doo5 looh7	50
+sī-ná@si5 na2@示拿|	si5 na2	50
+gia-la̍h@gia1 lah7@迦拉|	gia1 lah7	50
+lī-ha̍h@li5 hah7@利哈|	li5 hah7	50
 ngâ-huang@nga3 huang1@雅番|	nga3 huang1	50
-la̍h-mâ@lah7 ma3@喇馬|	lah7 ma3	50
-dâ̤-dāng@daa3 dang5@底但|	daa3 dang5	50
 gah-lō@gah6 lo5@甲路|	gah6 lo5	50
 î-láng@i3 lang2@以蘭|	i3 lang2	50
 o-seō@o1 seo5@烏士|	o1 seo5	50
 i-bah@i1 bah6@以八|	i1 bah6	50
 io̤h-sang@iooh6 sang1@約山|	iooh6 sang1	50
+sṳ-a̍@sy1 a4@書亞|	sy1 a4	50
 î-sô̤@i3 soo3@以掃|	i3 soo3	50
 î-lī-ha̍h@i3 li5 hah7@以利法|	i3 li5 hah7	50
 liú-cî@liu2 ci3@流耳|	liu2 ci3	50
@@ -20732,9 +20749,10 @@ io̤h-sa̤-a̍@iooh6 saa1 a4@約西亞|	iooh6 saa1 a4	50
 á̤-go̤-ní-a̍@aa2 goo1 ni2 a4@耶哥尼亞|	aa2 goo1 ni2 a4	50
 gí-dô̤@gi2 doo3@祈禱|	gi2 doo3	50
 gi̍-ca̍i@gi4 cai4@記載|	gi4 cai4	50
+sâ̤-lâ̤@saa3 laa3@洗禮|	saa3 laa3	50
 ga-lī-lī@ga1 li5 li5@迦利利|	ga1 li5 li5	50
 ciû-si̍h@ciu3 sih7@酒席|	ciu3 sih7	50
-î-di̍@i3 di4@以致|	i3 di4	50
+hṳ̂-hiô̤@hy3 hioo3@許遐|	hy3 hioo3	50
 ceō-kua@ceo5 kua1@自誇|	ceo5 kua1	50
 ā-dī@a5 di5@阿弟|	a5 di5	50
 diô̤ng-lô̤@dioong3 loo3@長老|	dioong3 loo3	50
@@ -20763,7 +20781,12 @@ bi̍-do̤̍h@bi4 dooh7@唯獨|	bi4 dooh7	50
 i̍-seo̍@i4 seo4@意思|	i4 seo4	50
 beoh-do̤̍h@beoh6 dooh7@不獨|	beoh6 dooh7	50
 gi-do̤̍h-ga̍u@gi1 dooh7 gau4@基督教|	gi1 dooh7 gau4	50
+hó̤ng-māng@hoong2 mang5@鴻萬|	hoong2 mang5	50
+gîng-sing@ging3 sing1@景星|	ging3 sing1	50
+sā̤u-heong@saau5 heong1@紹勳|	saau5 heong1	50
+cô-i̍ng@co3 ing4@祖蔭|	co3 ing4	50
 ke̤h-diâng@keeh6 diang3@缺點|	keeh6 diang3	50
+ho̤h-ā̤@hooh6 aa5@復會|	hooh6 aa5	50
 ge̍ng-ge̍ng@geng4 geng4@更更|	geng4 geng4	50
 cṳ-ge̤̍h@cy1 geeh7@書局|	cy1 geeh7	50
 cô̤ng-bāng@coong3 bang5@總辦|	coong3 bang5	50
@@ -20838,7 +20861,6 @@ n̍g-á̤uⁿ@ng4 aaunn2@眏羊|	ng4 aaunn2	50
 tó-sâng@to2 sang3@土產|	to2 sang3	50
 héng-sēng@heng2 seng5@行善|	heng2 seng5	50
 siū-da̍h@siu5 dah7@受納|	siu5 dah7	50
-héng-o̤h@heng2 ooh6@行惡|	heng2 ooh6	50
 cōi-gia̍h@coi5 giah7@罪孽|	coi5 giah7	50
 mói-sá̤ⁿ@moi2 saann2@門前|	moi2 saann2	50
 bā-î@ba5 i3@爬起|	ba5 i3	50
@@ -20907,25 +20929,41 @@ déng-hē̤@deng2 hee5@停歇|	deng2 hee5	50
 muâ-muâ@mua3 mua3@滿々|	mua3 mua3	50
 seo̍h-ā̤u@seoh7 aau5@食蜀|	seoh7 aau5	50
 hi-ná̤u@hi1 naau2@飛鳥|	hi1 naau2	50
-bā-sa̍@ba5 sa4@是伊|	ba5 sa4	50
 bú-leó-hóiⁿ@bu2 leo2 hoinn2@葡萄園|	bu2 leo2 hoinn2	50
 bú-leó-ciû@bu2 leo2 ciu3@葡萄酒|	bu2 leo2 ciu3	50
+deo̍-te̤̍@deo4 tee4@倒退|	deo4 tee4	50
+ho̤̍h-seō@hooh7 seo5@服事|	hooh7 seo5	50
+dā̤-dá̤uⁿ@daa5 daaunn2@地場|	daa5 daaunn2	50
+kuā-kuā@kua5 kua5@闊々|	kua5 kua5	50
+cāi-sa̤̍@cai5 saa4@世三/在世|	cai5 saa4	50
+so̤-bā@soo1 ba5@百五|	soo1 ba5	50
+mâ-dāi@ma3 dai5@瑪代|	ma3 dai5	50
+lî-hah@li3 hah6@利法/哩法|	li3 hah6	50
+to̤-gia-mâ@too1 gia1 ma3@陀迦瑪|	too1 gia1 ma3	50
+î-lī-sa@i3 li5 sa1@以利沙|	i3 li5 sa1	50
+taⁿ-si@tann1 si1@他施|	tann1 si1	50
+gi-dá̤@gi1 daa2@基提|	gi1 daa2	50
+ciu-dô̤@ciu1 doo3@州島|	ciu1 doo3	50
+go̤h-náng@gooh6 nang2@各儂|	gooh6 nang2	50
+go̤h-go̤h@gooh6 gooh6@各々/各國|	gooh6 gooh6	50
+tô-ka̤uⁿ@to3 kaaunn1@土腔|	to3 kaaunn1	50
+ci-pa̍i@ci1 pai4@支派|	ci1 pai4	50
+co̤ng-co̤̍h@coong1 cooh7@宗族|	coong1 cooh7	50
+sah-heo̍h-taⁿ@sah6 heoh7 tann1@撒弗他|	sah6 heoh7 tann1	50
+sah-heo̍h-dá̤-gia@sah6 heoh7 daa2 gia1@撒弗提迦|	sah6 heoh7 daa2 gia1	50
+gô-sí@go3 si2@古時|	go3 si2	50
+se̤̍h-gṳ̂@seeh7 gy3@蜀句|	seeh7 gy3	50
+î-li̍h@i3 lih7@以力|	i3 lih7	50
+a̍-gah@a4 gah6@亞甲|	a4 gah6	50
+gah-ní@gah6 ni2@甲尼|	gah6 ni2	50
+lî-seng@li3 seng1@利鮮|	li3 seng1	50
 î-nâ-seō@i3 na3 seo5@以哪士|	i3 na3 seo5	50
-mâ-go̤h@ma3 gooh6@馬各|	ma3 gooh6	50
 mâ-ta̍i@ma3 tai4@瑪太|	ma3 tai4	50
-tô-bah@to3 bah6@土八|	to3 bah6	50
-dá̤-la̍h@daa2 lah7@提臘|	daa2 lah7	50
-a̍-si̍h-gi-ná@a4 sih7 gi1 na2@亞實基拿|	a4 sih7 gi1 na2	50
-lî-hah@li3 hah6@哩法|	li3 hah6	50
 do̤-gia-mâ@doo1 gia1 ma3@陀迦馬|	doo1 gia1 ma3	50
 i-lī-sa@i1 li5 sa1@以利沙|	i1 li5 sa1	50
 dāi-sih@dai5 sih6@大失|	dai5 sih6	50
 gi-dâ̤@gi1 daa3@基底|	gi1 daa3	50
-do̤-dang@doo1 dang1@多單|	doo1 dang1	50
-sa̤-ba@saa1 ba1@西巴|	saa1 ba1	50
-néng-le̤̍h@neng2 leeh7@甯綠|	neng2 leeh7	50
 ga̍i-sa̤̍@gai4 saa4@蓋世|	gai4 saa4	50
-lī-ha̍h@li5 hah7@利哈|	li5 hah7	50
 da̍h-tô@dah7 to3@納土|	dah7 to3	50
 bah-lô@bah6 lo3@八魯|	bah6 lo3	50
 gah-to̤h@gah6 tooh6@鴿托|	gah6 tooh6	50
@@ -20966,7 +21004,6 @@ gi-do̤-la̍h@gi1 doo1 lah7@基都喇|	gi1 doo1 lah7	50
 sing-láng@sing1 lang2@心蘭|	sing1 lang2	50
 bî-dāng@bi3 dang5@米但|	bi3 dang5	50
 ih-bah@ih6 bah6@益八|	ih6 bah6	50
-sṳ-a̍@sy1 a4@書亞|	sy1 a4	50
 î-huah@i3 huah6@以發|	i3 huah6	50
 i-heo̍h@i1 heoh7@以弗|	i1 heoh7	50
 ha̍h-do̤̍h@hah7 dooh7@哈諾|	hah7 dooh7	50
@@ -20988,7 +21025,7 @@ hó̤-lī@hoo2 li5@何利|	hoo2 li5	50
 hi-māng@hi1 mang5@希慢|	hi1 mang5	50
 mâ-ná-ha̍h@ma3 na2 hah7@馬拿轄|	ma3 na2 hah7	50
 sī-bo̤@si5 boo1@示波|	si5 boo1	50
-o̤-náng@oo1 nang2@阿南|	oo1 nang2	50
+o̤-náng@oo1 nang2@阿南/阿楠|	oo1 nang2	50
 a̍-ngâ@a4 nga3@亞雅|	a4 nga3	50
 ih-sī-bang@ih6 si5 bang1@一是班|	ih6 si5 bang1	50
 ih-láng@ih6 lang2@益蘭|	ih6 lang2	50
@@ -21014,6 +21051,8 @@ a̍-hó̤-lî-ba-mâ@a4 hoo2 li3 ba1 ma3@亞何利巴馬|	a4 hoo2 li3 ba1 ma3	50
 bî-neōng@bi3 neong5@比嫩|	bi3 neong5	50
 gí-da̍h@gi2 dah7@基納|	gi2 dah7	50
 bi̍h-sah@bih7 sah6@密薩|	bih7 sah6	50
+bēng-ngâ-mîng@beng5 nga3 ming3@便雅憫|	beng5 nga3 ming3	50
+da̍h-dāi-lī@dah7 dai5 li5@納大利|	dah7 dai5 li5	50
 bi-sio̤ng@bi1 sioong1@悲傷|	bi1 sioong1	50
 seo̍h-dui@seoh7 dui1@蜀堆|	seoh7 dui1	50
 hó̤-hô̤@hoo2 hoo3@和好|	hoo2 hoo3	50
@@ -21030,6 +21069,7 @@ māng-māng@mang5 mang5@萬萬|	mang5 mang5	50
 siō̤ng-da̤̍-ceô@sioong5 daa4 ceo3@上帝子|	sioong5 daa4 ceo3	50
 seo̍-ciâ@seo4 cia3@使者|	seo4 cia3	50
 ṳ̄-bī@y5 bi5@預備|	y5 bi5	50
+gâi-go̤̍@gai3 goo4@改過|	gai3 goo4	50
 ca̤̍-si-diô̤ng@caa4 si1 dioong3@祭司長|	caa4 si1 dioong3	50
 dó̤ng-bá̤u@doong2 baau2@同謀|	doong2 baau2	50
 kûi-ga̤̍@kui3 gaa4@詭計|	kui3 gaa4	50
@@ -21037,15 +21077,22 @@ cā̤-gí@caa5 gi2@節期|	caa5 gi2	50
 câ̤u-luāng@caau3 luang5@擾亂|	caau3 luang5	50
 dá̤-o̤-hi-ló̤@daa2 oo1 hi1 loo2@提阿非羅|	daa2 oo1 hi1 loo2	50
 si̍h-gṳ̍@sih7 gy4@實據|	sih7 gy4	50
-ching-cai@ching1 cai1@著曠|	ching1 cai1	50
-bíng-so̍@bing2 so4@野施|	bing2 so4	50
 gai-sah@gai1 sah6@該撒|	gai1 sah6	50
 a̍-gô-seō-do̤h@a4 go3 seo5 dooh6@亞古士督|	a4 go3 seo5 dooh6	50
 ga̍ng-ca̤̍u@gang4 caau4@降詔|	gang4 caau4	50
 sio̤ng-da̤̍@sioong1 daa4@上帝|	sioong1 daa4	50
 gia-ná@gia1 na2@加拿|	gia1 na2	50
+hah-lī-se̤̍@hah6 li5 see4@法利賽|	hah6 li5 see4	50
+ní-go̤-dâ̤-bâ̤u@ni2 goo1 daa3 baau3@尼哥底母|	ni2 goo1 daa3 baau3	50
+guaⁿ-hû@guann1 hu3@官府|	guann1 hu3	50
+do̤̍h-seng@dooh7 seng1@獨生|	dooh7 seng1	50
+díng-leóng@ding2 leong2@沉淪|	ding2 leong2	50
+meóng-seng@meong2 seng1@門生|	meong2 seng1	50
+sah-lêng@sah6 leng3@撒冷|	sah6 leng3	50
+ai-so̤h@ai1 sooh6@哀嫩|	ai1 sooh6	50
+seo̍h-sí@seoh7 si2@蜀時|	seoh7 si2	50
+ho̤h-bōi@hooh6 boi5@復未|	hooh6 boi5	50
 seo̍-chṳ̍@seo4 chy4@四處|	seo4 chy4	50
-go̤h-go̤h@gooh6 gooh6@各國|	gooh6 gooh6	50
 ching-chā@ching1 cha5@清鑔|	ching1 cha5	50
 ching-o̤̍@ching1 oo4@深奧|	ching1 oo4	50
 di-sih@di1 sih6@知識|	di1 sih6	50
@@ -21067,7 +21114,6 @@ a̤-so@aa1 so1@耶穌|	aa1 so1	50
 hū-cíng@hu5 cing2@夫人|	hu5 cing2	50
 seo-sā̤u@seo1 saau5@廝惜|	seo1 saau5	50
 ne̤̍h-sing@neeh7 sing1@肉身|	neeh7 sing1	50
-ga̍ng-sa̤̍@gang4 saa4@降世|	gang4 saa4	50
 pā-sih@pa5 sih6@拍失|	pa5 sih6	50
 muâ-sing@mua3 sing1@滿心|	mua3 sing1	50
 gia-iú@gia1 iu2@迦猶|	gia1 iu2	50
@@ -21152,10 +21198,13 @@ mâ-leh-le̍h@ma3 leh6 leh7@瑪勒列|	ma3 leh6 leh7	150
 ngâ-le̍h@nga3 leh7@雅列|	nga3 leh7	100
 heong-beh@heong1 beh6@分別|	heong1 beh6	100
 iû-he̍h@iu3 heh7@誘惑|	iu3 heh7	100
+be̍h-sa̤@beh7 saa1@麥西|	beh7 saa1	100
 geh-cî@geh6 ci3@結籽|	geh6 ci3	100
 lái-le̍h@lai2 leh7@來歷|	lai2 leh7	100
 gṳ̄-da̤u̍h@gy5 daauh7@遇着|	gy5 daauh7	100
 la̍h-se̍h-ngō@lah7 seh7 ngo5@六十五|	lah7 seh7 ngo5	100
+bî-seh@bi3 seh6@米設|	bi3 seh6	100
+lō-deh@lo5 deh6@路得|	lo5 deh6	100
 guâ-ga̍i@gua3 gai4@我家己|	gua3 gai4	50
 ha̍ⁿ-siā@hann4 sia5@響謝|	hann4 sia5	50
 beh-céng@beh6 ceng2@beh-céng|	beh6 ceng2	50
@@ -21169,9 +21218,6 @@ la̍h-se̍h-dī@lah7 seh7 di5@六十二|	lah7 seh7 di5	50
 beh-se̍h-dī@beh6 seh7 di5@八十二|	beh6 seh7 di5	50
 dṳ́-be̍h@dy2 beh7@除滅|	dy2 beh7	50
 ching-geh@ching1 geh6@清潔|	ching1 geh6	50
-bî-seh@bi3 seh6@米設|	bi3 seh6	50
-be̍h-sa̤@beh7 saa1@麥西|	beh7 saa1	50
-lō-deh@lo5 deh6@路得|	lo5 deh6	50
 hi-beh@hi1 beh6@希百/希伯|	hi1 beh6	50
 hah-leh@hah6 leh6@法勒|	hah6 leh6	50
 ba-leh-ha̍h-náng@ba1 leh6 hah7 nang2@巴勒哈南|	ba1 leh6 hah7 nang2	50
@@ -21180,10 +21226,6 @@ hah-leh-seō@hah6 leh6 seo5@法勒斯|	hah6 leh6 seo5	50
 o̤-beh@oo1 beh6@阿伯|	oo1 beh6	50
 ta̍i-go̤̍@tai4 goo4@ta̍i-go̤̍|	tai4 goo4	50
 beoh-deh-î@beoh6 deh6 i3@不得已|	beoh6 deh6 i3	50
-hó̤ng-māng@hoong2 mang5@Hó̤ng-māng|	hoong2 mang5	50
-sā̤u-heong@saau5 heong1@Sā̤u-heong|	saau5 heong1	50
-cô-i̍ng@co3 ing4@Cô-i̍ng|	co3 ing4	50
-ho̤h-ā̤@hooh6 aa5@ho̤h-ā̤|	hooh6 aa5	50
 līng-sīng@ling5 sing5@līng-sīng|	ling5 sing5	50
 cî-lî@ci3 li3@cî-lî|	ci3 li3	50
 be̍h-sī@beh7 si5@默示|	beh7 si5	50
@@ -21211,6 +21253,11 @@ bā-au@ba5 au1@柏膠|	ba5 au1	50
 chā̤uⁿ-bua̍ⁿ@chaaunn5 buann4@尺半|	chaaunn5 buann4	50
 beh-siū@beh6 siu5@百獸|	beh6 siu5	50
 se̍h-go̍ih@seh7 goih7@十月|	seh7 goih7	50
+po̤ⁿ-dôiⁿ@poonn1 doinn3@翻轉|	poonn1 doinn3	50
+sā̤uⁿ-ō̤@saaunn5 oo5@賞賀|	saaunn5 oo5	50
+go̤-be̍h@goo1 beh7@坷滅/歌蔑|	goo1 beh7	50
+ba-be̍h@ba1 beh7@巴別|	ba1 beh7	50
+lī-hó̤-beh-î-cî@li5 hoo2 beh6 i3 ci3@利何伯伊爾|	li5 hoo2 beh6 i3 ci3	50
 á̤-le̍h@aa2 leh7@耶列|	aa2 leh7	50
 î-lo̤̍h@i3 looh7@以諾|	i3 looh7	50
 ko̤-be̍h@koo1 beh7@坷滅/歌篾|	koo1 beh7	50
@@ -21231,10 +21278,12 @@ bî-hi-dāi-beh@bi3 hi1 dai5 beh6@米希大別|	bi3 hi1 dai5 beh6	50
 mâ-de̍h-le̍h@ma3 deh7 leh7@瑪特列|	ma3 deh7 leh7	50
 a-leh-uâ@a1 leh6 ua3@亞勒瓦|	a1 leh6 ua3	50
 be̍h-teh@beh7 teh6@麥鐵|	beh7 teh6	50
+gia-deh@gia1 deh6@伽得|	gia1 deh6	50
+a̍-seh@a4 seh6@亞設|	a4 seh6	50
 ging-nua̍@ging1 nua4@今旦|	ging1 nua4	50
 cṳ́-e̤̍h-ceh@cy2 eeh7 ceh6@逾越節|	cy2 eeh7 ceh6	50
 dṳ́-ga̍u-ceh@dy2 gau4 ceh6@除酵節|	dy2 gau4 ceh6	50
-sikah-si̍h@sikah6 sih7@悔罪|	sikah6 sih7	50
+deh-giu̍@deh6 giu4@得救|	deh6 giu4	50
 ching-chāⁿ@ching1 chann5@清鑔|	ching1 chann5	50
 he̍h-sī@heh7 si5@或是|	heh7 si5	50
 da̍i-giô̤ⁿ@dai4 gioonn3@第一囝|	dai4 gioonn3	50
@@ -21248,213 +21297,487 @@ ceh-bī@ceh6 bi5@責備|	ceh6 bi5	50
 bāi-huāi@bai5 huai5@敗壞|	bai5 huai5	50
 ceh-hua̍h@ceh6 huah7@責罰|	ceh6 huah7	50
 de̤̍ng-giô̤ⁿ@deeng4 gioonn3@de̤̍ng囝|	deeng4 gioonn3	50
-ng-seng@ng1 seng1@▣▣|	ng1 seng1	250
-go̍-che@go4 che1@▣▣|	go4 che1	250
-da̍i-gi@dai4 gi1@▣▣|	dai4 gi1	200
-hṳ̂-hi@hy3 hi1@▣▣|	hy3 hi1	200
 hi-leo̍h@hi1 leoh7@▣▣|	hi1 leoh7	200
-ng-ang@ng1 ang1@▣▣|	ng1 ang1	200
-seh-le̍h@seh6 leh7@▣▣|	seh6 leh7	150
+hêng-hēng@heng3 heng5@▣▣|	heng3 heng5	150
+io̤h-dāng@iooh6 dang5@▣▣|	iooh6 dang5	150
+cíng-ceô@cing2 ceo3@▣▣|	cing2 ceo3	150
 ang-sih-di̍h@ang1 sih6 dih7@▣▣▣|	ang1 sih6 dih7	150
-i̍ng-ngi@ing4 ngi1@▣▣|	ing4 ngi1	150
-bo̤h-se@booh6 se1@▣▣|	booh6 se1	150
-sa̤-me@saa1 me1@▣▣|	saa1 me1	150
-seh-se@seh6 se1@▣▣|	seh6 se1	150
-sah-leh@sah6 leh6@▣▣|	sah6 leh6	150
-ng-pua̍ng@ng1 puang4@▣▣|	ng1 puang4	150
-ciu̍-li@ciu4 li1@▣▣|	ciu4 li1	150
-ua̍h-mi@uah7 mi1@▣▣|	uah7 mi1	150
-ng-ce@ng1 ce1@▣▣|	ng1 ce1	150
+bo̤h-seō@booh6 seo5@▣▣|	booh6 seo5	150
+gá-lī-lī@ga2 li5 li5@▣▣▣|	ga2 li5 li5	150
 hi-li̍h@hi1 lih7@▣▣|	hi1 lih7	150
-ng-ni̍@ng1 ni4@▣▣|	ng1 ni4	150
+hâi-bing@hai3 bing1@▣▣|	hai3 bing1	150
 ang-deh-le̍h@ang1 deh6 leh7@▣▣▣|	ang1 deh6 leh7	150
-dang-dng@dang1 dng1@▣▣|	dang1 dng1	150
-ng-si@ng1 si1@▣▣|	ng1 si1	150
-ching-ch̄@ching1 ch6@▣▣|	ching1 ch6	150
+so̍i-lī@soi4 li5@▣▣|	soi4 li5	150
 gua̍-lṳ̄@gua4 ly5@▣▣|	gua4 ly5	150
-ng-sing@ng1 sing1@▣▣|	ng1 sing1	150
+gî-leōng@gi3 leong5@▣▣|	gi3 leong5	150
+huaⁿ-hí@huann1 hi2@▣▣|	huann1 hi2	100
+cî-diâng@ci3 diang3@▣▣|	ci3 diang3	100
+hôi-cōi@hoi3 coi5@▣▣|	hoi3 coi5	100
+deō-bôi@deo5 boi3@▣▣|	deo5 boi3	100
 sih-po̤̍@sih6 poo4@▣▣|	sih6 poo4	100
-cio̤̍h-se@ciooh7 se1@▣▣|	ciooh7 se1	100
-bi̍ng-chi@bing4 chi1@▣▣|	bing4 chi1	100
-ng-hua̍h@ng1 huah7@▣▣|	ng1 huah7	100
-ng-le@ng1 le1@▣▣|	ng1 le1	100
-pih-pi@pih6 pi1@▣▣|	pih6 pi1	100
-ng-gia̍h@ng1 giah7@▣▣|	ng1 giah7	100
+gia-beh-nó̤ng@gia1 beh6 noong2@▣▣▣|	gia1 beh6 noong2	100
+cio̤̍h-seô@ciooh7 seo3@▣▣|	ciooh7 seo3	100
+hn̍g-bá̤ⁿ@hng4 baann2@▣▣|	hng4 baann2	100
+hói-seng@hoi2 seng1@▣▣|	hoi2 seng1	100
+io̤h-ná@iooh6 na2@▣▣|	iooh6 na2	100
+ná-dāng-gia̍h@na2 dang5 giah7@▣▣▣|	na2 dang5 giah7	100
 ing-gai@ing1 gai1@▣▣|	ing1 gai1	100
+sah-dāng@sah6 dang5@▣▣|	sah6 dang5	100
+hōi-dn̍g@hoi5 dng4@▣▣|	hoi5 dng4	100
 peh-de̤̍h@peh6 deeh7@▣▣|	peh6 deeh7	100
+gái-o̤h@gai2 ooh6@▣▣|	gai2 ooh6	100
+hōi-dńg@hoi5 dng2@▣▣|	hoi5 dng2	100
 ca-chah@ca1 chah6@▣▣|	ca1 chah6	100
+cōi-go̤̍@coi5 goo4@▣▣|	coi5 goo4	100
+cî-ciâ@ci3 cia3@▣▣|	ci3 cia3	100
+iâ-guā@ia3 gua5@▣▣|	ia3 gua5	100
+ho̤h-nô̤@hooh6 noo3@▣▣|	hooh6 noo3	100
+hó̤-ho̤̍ng@hoo2 hoong4@▣▣|	hoo2 hoong4	100
 ca̤̍-si@caa4 si1@▣▣|	caa4 si1	100
-ho̤ng-ki@hoong1 ki1@▣▣|	hoong1 ki1	100
-ng-li̍h@ng1 lih7@▣▣|	ng1 lih7	100
-he̍h-chi@heh7 chi1@▣▣|	heh7 chi1	100
+ho̤ng-kiú@hoong1 kiu2@▣▣|	hoong1 kiu2	100
+siō̤ng-da̤̍-go̤h@sioong5 daa4 gooh6@▣▣▣|	sioong5 daa4 gooh6	100
+he̍h-chiâⁿ@heh7 chiann3@▣▣|	heh7 chiann3	100
 cṳ̄-ci̍h@cy5 cih7@▣▣|	cy5 cih7	100
-la̍h-do̤@lah7 doo1@▣▣|	lah7 doo1	100
-ng-a̍i@ng1 ai4@▣▣|	ng1 ai4	100
-ca̤̍-si-di@caa4 si1 di1@▣▣▣|	caa4 si1 di1	100
-ho̤̍h-se@hooh7 se1@▣▣|	hooh7 se1	100
+bî-la̍h-do̤@bi3 lah7 doo1@▣▣▣|	bi3 lah7 doo1	100
+se̤̍h-tâ̤@seeh7 taa3@▣▣|	seeh7 taa3	100
+cio̤ng-lái@cioong1 lai2@▣▣|	cioong1 lai2	100
+dō-ki̍@do5 ki4@▣▣|	do5 ki4	100
+bâ̤u-míng@baau3 ming2@▣▣|	baau3 ming2	100
+hó̤-bo̤̍h@hoo2 booh7@▣▣|	hoo2 booh7	100
+hā̤u-lái@haau5 lai2@▣▣|	haau5 lai2	100
+náng-sá̤ⁿ@nang2 saann2@▣▣|	nang2 saann2	100
 dua̍ng-dua̍ng@duang4 duang4@▣▣|	duang4 duang4	100
+gô-náng@go3 nang2@▣▣|	go3 nang2	100
+geo̍-bāng@geo4 bang5@▣▣|	geo4 bang5	100
 si-ca̤̍@si1 caa4@▣▣|	si1 caa4	100
+ga̤-dō@gaa1 do5@▣▣|	gaa1 do5	100
 ceong-gu̍i@ceong1 gui4@▣▣|	ceong1 gui4	100
-sa̤̍-ch̄@saa4 ch6@▣▣|	saa4 ch6	100
-chi̍-ch̄@chi4 ch6@▣▣|	chi4 ch6	100
+sa̤̍-châu@saa4 chau3@▣▣|	saa4 chau3	100
+duā-chó̤@dua5 choo2@▣▣|	dua5 choo2	100
+bō̤-bang@boo5 bang1@▣▣|	boo5 bang1	100
 cih-keh@cih6 keh6@▣▣|	cih6 keh6	100
-ng-se@ng1 se1@▣▣|	ng1 se1	100
+bā-cô̤ng@ba5 coong3@▣▣|	ba5 coong3	100
+siá-gûi@sia2 gui3@▣▣|	sia2 gui3	100
+cha̤-sâi@chaa1 sai3@▣▣|	chaa1 sai3	100
+cíng-céng@cing2 ceng2@▣▣|	cing2 ceng2	100
 beh-sa̤-bo̤h@beh6 saa1 booh6@▣▣▣|	beh6 saa1 booh6	100
-ko-chi@ko1 chi1@▣▣|	ko1 chi1	100
+siu-cîng@siu1 cing3@▣▣|	siu1 cing3	100
+ko-chiû@ko1 chiu3@▣▣|	ko1 chiu3	100
+buah-dāi-la̍h@buah6 dai5 lah7@▣▣▣|	buah6 dai5 lah7	100
+si-sâ̤@si1 saa3@▣▣|	si1 saa3	100
+ching-cai@ching1 cai1@▣▣|	ching1 cai1	100
+bíng-so̍@bing2 so4@▣▣|	bing2 so4	100
+hi-lī-ní@hi1 li5 ni2@▣▣▣|	hi1 li5 ni2	100
+chûi-do̤̍h@chui3 dooh7@▣▣|	chui3 dooh7	100
+dāi-giô̤ⁿ@dai5 gioonn3@▣▣|	dai5 gioonn3	100
+sîng-mū@sing3 mu5@▣▣|	sing3 mu5	50
+gē̤ng-cô̤ng@geeng5 coong3@▣▣|	geeng5 coong3	50
+hi-seō-leóng@hi1 seo5 leong2@▣▣▣|	hi1 seo5 leong2	50
 sah-la̍h-teh@sah6 lah7 teh6@▣▣▣|	sah6 lah7 teh6	50
+sê̤-ló̤-ba-beh@see3 loo2 ba1 beh6@▣▣▣▣|	see3 loo2 ba1 beh6	50
 sah-do̤̍h@sah6 dooh7@▣▣|	sah6 dooh7	50
+mâ-da̍ng@ma3 dang4@▣▣|	ma3 dang4	50
 kṳ̍-cho̍@ky4 cho4@▣▣|	ky4 cho4	50
-ng-ga̤ⁿ@ng1 gaann1@▣▣|	ng1 gaann1	50
-ng-gang@ng1 gang1@▣▣|	ng1 gang1	50
-do̤ng-si@doong1 si1@▣▣|	doong1 si1	50
-do̤̍h-si@dooh7 si1@▣▣|	dooh7 si1	50
-seo̍-ci@seo4 ci1@▣▣|	seo4 ci1	50
-ng-go̤h@ng1 gooh6@▣▣|	ng1 gooh6	50
-sa̤-bo̍-le@saa1 bo4 le1@▣▣▣|	saa1 bo4 le1	50
-seo-guaⁿ@seo1 guann1@▣▣|	seo1 guann1	50
+míng-gang@ming2 gang1@▣▣|	ming2 gang1	50
+do̤ng-sió̤ng@doong1 sioong2@▣▣|	doong1 sioong2	50
+hó̤ng-táng@hoong2 tang2@▣▣|	hoong2 tang2	50
+iâ-bi̍h@ia3 bih7@▣▣|	ia3 bih7	50
+sah-tô-gai@sah6 to3 gai1@▣▣▣|	sah6 to3 gai1	50
+do̤̍h-sió̤@dooh7 sioo2@▣▣|	dooh7 sioo2	50
+de̤̍ng-sâi@deeng4 sai3@▣▣|	deeng4 sai3	50
+ṳ̂ng-síng@yng3 sing2@▣▣|	yng3 sing2	50
+māng-go̤h@mang5 gooh6@▣▣|	mang5 gooh6	50
+sa̤-bo̍-leóng@saa1 bo4 leong2@▣▣▣|	saa1 bo4 leong2	50
+teô-hṳ́@teo3 hy2@▣▣|	teo3 hy2	50
+teô-hṳ́-náng@teo3 hy2 nang2@▣▣▣|	teo3 hy2 nang2	50
+lī-be̍h@li5 beh7@▣▣|	li5 beh7	50
+ci̍h-bīng@cih7 bing5@▣▣|	cih7 bing5	50
+ió̤ng-dé̤ng@ioong2 deeng2@▣▣|	ioong2 deeng2	50
+suaⁿ-sêng@suann1 seng3@▣▣|	suann1 seng3	50
+ai-kô@ai1 ko3@▣▣|	ai1 ko3	50
+do̍i-āu@doi4 au5@▣▣|	doi4 au5	50
+iû-seo-guaⁿ@iu3 seo1 guann1@▣▣▣|	iu3 seo1 guann1	50
+gang-lî@gang1 li3@▣▣|	gang1 li3	50
+néng-kô̤@neng2 koo3@▣▣|	neng2 koo3	50
+go̤ng-cé̤ⁿ-sing@goong1 ceenn2 sing1@▣▣▣|	goong1 ceenn2 sing1	50
+táu-hōi@tau2 hoi5@▣▣|	tau2 hoi5	50
 geh-e̤̍ng@geh6 eeng4@▣▣|	geh6 eeng4	50
+heô-náng@heo3 nang2@▣▣|	heo3 nang2	50
+seōng-cé̤ng@seong5 ceeng2@▣▣|	seong5 ceeng2	50
+gô̤-heô@goo3 heo3@▣▣|	goo3 heo3	50
 ching-ca̍ng@ching1 cang4@▣▣|	ching1 cang4	50
 do̍-hṳ́@do4 hy2@▣▣|	do4 hy2	50
-ng-cih@ng1 cih6@▣▣|	ng1 cih6	50
+dōi-sing@doi5 sing1@▣▣|	doi5 sing1	50
+diô̤ng-duā@dioong3 dua5@▣▣|	dioong3 dua5	50
+sâ̤u-se̍ng@saau3 seng4@▣▣|	saau3 seng4	50
 gang-nga̤̍@gang1 ngaa4@▣▣|	gang1 ngaa4	50
-dṳ-ge@dy1 ge1@▣▣|	dy1 ge1	50
-ca̤̍-se@caa4 se1@▣▣|	caa4 se1	50
+pā-mói@pa5 moi2@▣▣|	pa5 moi2	50
+hó̤ng-bī@hoong2 bi5@▣▣|	hoong2 bi5	50
+duā-sa̤u̍h@dua5 saauh7@▣▣|	dua5 saauh7	50
+eó-cûi@eo2 cui3@▣▣|	eo2 cui3	50
+bái-co̤̍ng@bai2 coong4@▣▣|	bai2 coong4	50
+dṳ-geóng@dy1 geong2@▣▣|	dy1 geong2	50
+gí-de̍h@gi2 deh7@▣▣|	gi2 deh7	50
+ca̤̍-seō@caa4 seo5@▣▣|	caa4 seo5	50
+hō̤-hî@hoo5 hi3@▣▣|	hoo5 hi3	50
 sing-bo̍@sing1 bo4@▣▣|	sing1 bo4	50
-ng-ngi@ng1 ngi1@▣▣|	ng1 ngi1	50
-ng-ga̍i@ng1 gai4@▣▣|	ng1 gai4	50
-deh-giu̍@deh6 giu4@▣▣|	deh6 giu4	50
-ng-he@ng1 he1@▣▣|	ng1 he1	50
-ng-beo̍h@ng1 beoh7@▣▣|	ng1 beoh7	50
+ngiáng-ngiáng@ngiang2 ngiang2@▣▣|	ngiang2 ngiang2	50
+gûi-ó̤ng@gui3 oong2@▣▣|	gui3 oong2	50
+léng-heóng@leng2 heong2@▣▣|	leng2 heong2	50
+mêng-li̍h@meng3 lih7@▣▣|	meng3 lih7	50
+iû-dō̤@iu3 doo5@▣▣|	iu3 doo5	50
+beh-se̤̍-dāi@beh6 see4 dai5@▣▣▣|	beh6 see4 dai5	50
+chui-ló̤@chui1 loo2@▣▣|	chui1 loo2	50
 chia-do̤ⁿ@chia1 doonn1@▣▣|	chia1 doonn1	50
-do̍i-gi@doi4 gi1@▣▣|	doi4 gi1	50
 cing-hah@cing1 hah6@▣▣|	cing1 hah6	50
+ê̤ng-seō@eeng3 seo5@▣▣|	eeng3 seo5	50
+gé̤ng-giu̍@geeng2 giu4@▣▣|	geeng2 giu4	50
+sa̤̍-dāi@saa4 dai5@▣▣|	saa4 dai5	50
+dṳ̂-ó̤ng@dy3 oong2@▣▣|	dy3 oong2	50
+hó̤-beoh-cṳ́@hoo2 beoh6 cy2@▣▣▣|	hoo2 beoh6 cy2	50
 beh-hah-gi@beh6 hah6 gi1@▣▣▣|	beh6 hah6 gi1	50
+gô̤ng-nô̤-suaⁿ@goong3 noo3 suann1@▣▣▣|	goong3 noo3 suann1	50
+gí-de̤ng@gi2 deeng1@▣▣|	gi2 deeng1	50
+io̤h-dāng-eó@iooh6 dang5 eo2@▣▣▣|	iooh6 dang5 eo2	50
+cô̤ng-do̤h@coong3 dooh6@▣▣|	coong3 dooh6	50
 cing-cia̍ⁿ@cing1 ciann4@▣▣|	cing1 ciann4	50
-do̤̍h-seng@dooh7 seng1@▣▣|	dooh7 seng1	50
-ng-so̍@ng1 so4@▣▣|	ng1 so4	50
+muâng-ce̤h@muang3 ceeh6@▣▣|	muang3 ceeh6	50
+ng-si@ng1 si1@▣▣|	ng1 si1	50
+go̤-á̤uⁿ@goo1 aaunn2@▣▣|	goo1 aaunn2	50
+la̍h-bî@lah7 bi3@▣▣|	lah7 bi3	50
 gi-hah@gi1 hah6@▣▣|	gi1 hah6	50
-ng-hua̍@ng1 hua4@▣▣|	ng1 hua4	50
-ng-ng@ng1 ng1@▣▣|	ng1 ng1	50
-gia-deh@gia1 deh6@▣▣|	gia1 deh6	50
+ke̤h-a̍h@keeh6 ah7@▣▣|	keeh6 ah7	50
+iō̤ⁿ-cíng@ioonn5 cing2@▣▣|	ioonn5 cing2	50
+ce̤̍h-tâ̤@ceeh7 taa3@▣▣|	ceeh7 taa3	50
+cāi-cô̤@cai5 coo3@▣▣|	cai5 coo3	50
+sió̤ng-sió̤ng@sioong2 sioong2@▣▣|	sioong2 sioong2	50
+la̍h-sah-lō@lah7 sah6 lo5@▣▣▣|	lah7 sah6 lo5	50
+cheoh-hēng@cheoh6 heng5@▣▣|	cheoh6 heng5	50
+cho̤-gé̤ng@choo1 geeng2@▣▣|	choo1 geeng2	50
+māng-seō@mang5 seo5@▣▣|	mang5 seo5	50
+si̍ng-cíng@sing4 cing2@▣▣|	sing4 cing2	50
+gâng-hua̍@gang3 hua4@▣▣|	gang3 hua4	50
+hî-lo̤̍h@hi3 looh7@▣▣|	hi3 looh7	50
+ha̍h-bâ̤u-leh@hah7 baau3 leh6@▣▣▣|	hah7 baau3 leh6	50
+gah-go̤h@gah6 gooh6@▣▣|	gah6 gooh6	50
+da̍h-dāi@dah7 dai5@▣▣|	dah7 dai5	50
+gia-bî@gia1 bi3@▣▣|	gia1 bi3	50
+tau-ta̤̍h@tau1 taah7@▣▣|	tau1 taah7	50
+gí-lō-ba̍i@gi2 lo5 bai4@▣▣▣|	gi2 lo5 bai4	50
 ga̍ng-seng@gang4 seng1@▣▣|	gang4 seng1	50
-sing-ng@sing1 ng1@▣▣|	sing1 ng1	50
-ng-ce̤̍h@ng1 ceeh7@▣▣|	ng1 ceeh7	50
+sāⁿeo-lâ̤@sanneo5 laa3@▣▣|	sanneo5 laa3	50
+sing-ngî@sing1 ngi3@▣▣|	sing1 ngi3	50
+do̤-gí@doo1 gi2@▣▣|	doo1 gi2	50
+geo̍-mói@geo4 moi2@▣▣|	geo4 moi2	50
+guā-giô̤ⁿ@gua5 gioonn3@▣▣|	gua5 gioonn3	50
 giaⁿ-peo̍h@giann1 peoh7@▣▣|	giann1 peoh7	50
 go̤h-geong@gooh6 geong1@▣▣|	gooh6 geong1	50
+bōi-āu@boi5 au5@▣▣|	boi5 au5	50
+sê̤-cāi@see3 cai5@▣▣|	see3 cai5	50
+beô-bo̍i@beo3 boi4@▣▣|	beo3 boi4	50
 beo̍h-io̤̍h@beoh7 iooh7@▣▣|	beoh7 iooh7	50
-dah-bo-gi@dah6 bo1 gi1@▣▣▣|	dah6 bo1 gi1	50
-cha̤-ch̄@chaa1 ch6@▣▣|	chaa1 ch6	50
+ôiⁿ-dā̤-ho̤ng@oinn3 daa5 hoong1@▣▣▣|	oinn3 daa5 hoong1	50
+léng-má@leng2 ma2@▣▣|	leng2 ma2	50
+si̍-gîng@si4 ging3@▣▣|	si4 ging3	50
+cha̤-châng@chaa1 chang3@▣▣|	chaa1 chang3	50
+la̍h-geh-sī@lah7 geh6 si5@▣▣▣|	lah7 geh6 si5	50
 n̄g-a̍i@ng5 ai4@▣▣|	ng5 ai4	50
-cho̤h-di@chooh6 di1@▣▣|	chooh6 di1	50
-si̍ng-si@sing4 si1@▣▣|	sing4 si1	50
+i̍ng-ngīangg@ing4 ngiangg5@▣▣|	ing4 ngiangg5	50
+gîng-lī@ging3 li5@▣▣|	ging3 li5	50
+muâ-ūi@mua3 ui5@▣▣|	mua3 ui5	50
+seo̍h-lūi@seoh7 lui5@▣▣|	seoh7 lui5	50
+gâ-go̤̍@ga3 goo4@▣▣|	ga3 goo4	50
+gâ-go̤@ga3 goo1@▣▣|	ga3 goo1	50
+si̍ng-siáⁿ@sing4 siann2@▣▣|	sing4 siann2	50
 ing-do̤ng@ing1 doong1@▣▣|	ing1 doong1	50
-sa̤-bb@saa1 bb1@▣▣|	saa1 bb1	50
-eng-ci@eng1 ci1@▣▣|	eng1 ci1	50
+gâ-go̤̍l@ga3 gool4@▣▣|	ga3 gool4	50
+po̤ⁿ-māng@poonn1 mang5@▣▣|	poonn1 mang5	50
+sa̤-bb̂i-ta̍i@saa1 bbi3 tai4@▣▣▣|	saa1 bbi3 tai4	50
+bô-māng@bo3 mang5@▣▣|	bo3 mang5	50
+deng-gó̤ng@deng1 goong2@▣▣|	deng1 goong2	50
+ho̤ng-bāⁿ@hoong1 bann5@▣▣|	hoong1 bann5	50
+dá̤-ga-bo̤-lī@daa2 ga1 boo1 li5@▣▣▣▣|	daa2 ga1 boo1 li5	50
+eng-ciú@eng1 ciu2@▣▣|	eng1 ciu2	50
+hī-lî@hi5 li3@▣▣|	hi5 li3	50
 co̤h-lo̤̍h@cooh6 looh7@▣▣|	cooh6 looh7	50
+siô̤ng-seo@sioong3 seo1@▣▣|	sioong3 seo1	50
+de̤̍ng-ē̤ng@deeng4 eeng5@▣▣|	deeng4 eeng5	50
+guā-lī@gua5 li5@▣▣|	gua5 li5	50
+diâng-seng@diang3 seng1@▣▣|	diang3 seng1	50
+deng-dái@deng1 dai2@▣▣|	deng1 dai2	50
+pîng-hēng@ping3 heng5@▣▣|	ping3 heng5	50
+pî-hu@pi3 hu1@▣▣|	pi3 hu1	50
+gṳ́-mō̤ng@gy2 moong5@▣▣|	gy2 moong5	50
+ai-dí@ai1 di2@▣▣|	ai1 di2	50
+deh-cōi@deh6 coi5@▣▣|	deh6 coi5	50
+sái-sá̤ⁿ@sai2 saann2@▣▣|	sai2 saann2	50
+guâⁿ-gîng@guann3 ging3@▣▣|	guann3 ging3	50
+gô̤ng-hó̤@goong3 hoo2@▣▣|	goong3 hoo2	50
 cha̤-gio̤̍h@chaa1 giooh7@▣▣|	chaa1 giooh7	50
-tang-ni@tang1 ni1@▣▣|	tang1 ni1	50
+tang-niāng@tang1 niang5@▣▣|	tang1 niang5	50
 pah-sih@pah6 sih6@▣▣|	pah6 sih6	50
+bah-tâ̤@bah6 taa3@▣▣|	bah6 taa3	50
+beh-tâ̤@beh6 taa3@▣▣|	beh6 taa3	50
 hiu-cṳ@hiu1 cy1@▣▣|	hiu1 cy1	50
+héng-íng@heng2 ing2@▣▣|	heng2 ing2	50
+gī-ciu̍-liō̤@gi5 ciu4 lioo5@▣▣▣|	gi5 ciu4 lioo5	50
 ih-ka̍i@ih6 kai4@▣▣|	ih6 kai4	50
-ging-si@ging1 si1@▣▣|	ging1 si1	50
+bô̤-cō̤@boo3 coo5@▣▣|	boo3 coo5	50
 gṳ̄-de̍h@gy5 deh7@▣▣|	gy5 deh7	50
 sing-mi̍ng@sing1 ming4@▣▣|	sing1 ming4	50
+te̤-sí@tee1 si2@▣▣|	tee1 si2	50
+gau-béng-iû@gau1 beng2 iu3@▣▣▣|	gau1 beng2 iu3	50
 cheoh-ce̤̍ng@cheoh6 ceeng4@▣▣|	cheoh6 ceeng4	50
+seóng-cé̤ng@seong2 ceeng2@▣▣|	seong2 ceeng2	50
 choi-gah@choi1 gah6@▣▣|	choi1 gah6	50
-ceo̍-ch̄@ceo4 ch6@▣▣|	ceo4 ch6	50
+cô̤-chiû@coo3 chiu3@▣▣|	coo3 chiu3	50
+iū-chiû@iu5 chiu3@▣▣|	iu5 chiu3	50
+gô̤-geô@goo3 geo3@▣▣|	goo3 geo3	50
+bâ̤ⁿ-lí@baann3 li2@▣▣|	baann3 li2	50
+ing-ē̤ng@ing1 eeng5@▣▣|	ing1 eeng5	50
+buā-táu@bua5 tau2@▣▣|	bua5 tau2	50
+lê̤-te̤̍ⁿ@lee3 teenn4@▣▣|	lee3 teenn4	50
+lê̤-te̤̍@lee3 tee4@▣▣|	lee3 tee4	50
+kua̍ⁿ-dāng@kuann4 dang5@▣▣|	kuann4 dang5	50
+ceóng-cih@ceong2 cih6@▣▣|	ceong2 cih6	50
 beh-ha̍h-hua@beh6 hah7 hua1@▣▣▣|	beh6 hah7 hua1	50
 co̤ng-so̤h@coong1 sooh6@▣▣|	coong1 sooh6	50
+hôi-ló@hoi3 lo2@▣▣|	hoi3 lo2	50
+chia-dôiⁿ-sing@chia1 doinn3 sing1@▣▣▣|	chia1 doinn3 sing1	50
+dāi-cî@dai5 ci3@▣▣|	dai5 ci3	50
+cā-mói@ca5 moi2@▣▣|	ca5 moi2	50
 ching-gṳ̄ng@ching1 gyng5@▣▣|	ching1 gyng5	50
-gṳ́-ng@gy2 ng1@▣▣|	gy2 ng1	50
+gōi-mi̍ng@goi5 ming4@▣▣|	goi5 ming4	50
+chái-ló̤ng@chai2 loong2@▣▣|	chai2 loong2	50
+ci̍h-lá̤@cih7 laa2@▣▣|	cih7 laa2	50
+dé̤ng-ga̍u@deeng2 gau4@▣▣|	deeng2 gau4	50
+gṳ́-ngō̤ng@gy2 ngoong5@▣▣|	gy2 ngoong5	50
+gô-lô̤@go3 loo3@▣▣|	go3 loo3	50
+gṳng-súi@gyng1 sui2@▣▣|	gyng1 sui2	50
 heh-a̍ng@heh6 ang4@▣▣|	heh6 ang4	50
+ce̍h-bāⁿ@ceh7 bann5@▣▣|	ceh7 bann5	50
+seō-hā̤u@seo5 haau5@▣▣|	seo5 haau5	50
+kua̍-táu@kua4 tau2@▣▣|	kua4 tau2	50
+gó̤ng-ho̤ng@goong2 hoong1@▣▣|	goong2 hoong1	50
+bíng-cīng@bing2 cing5@▣▣|	bing2 cing5	50
 geh-geh-sa@geh6 geh6 sa1@▣▣▣|	geh6 geh6 sa1	50
 gṳ̄-la̤u̍h@gy5 laauh7@▣▣|	gy5 laauh7	50
+o̤h-cíng@ooh6 cing2@▣▣|	ooh6 cing2	50
 gng-geo̍@gng1 geo4@▣▣|	gng1 geo4	50
 suaⁿ-bo@suann1 bo1@▣▣|	suann1 bo1	50
-to̤ng-si@toong1 si1@▣▣|	toong1 si1	50
-ng-ch̄@ng1 ch6@▣▣|	ng1 ch6	50
+hâi-lē@hai3 le5@▣▣|	hai3 le5	50
+cíng-iú@cing2 iu2@▣▣|	cing2 iu2	50
+to̤ng-siáⁿ@toong1 siann2@▣▣|	toong1 siann2	50
+sā̤uⁿ-seóng@saaunn5 seong2@▣▣|	saaunn5 seong2	50
+míng-chíng@ming2 ching2@▣▣|	ming2 ching2	50
 deoh-seo̍h@deoh6 seoh7@▣▣|	deoh6 seoh7	50
+cíng-seô@cing2 seo3@▣▣|	cing2 seo3	50
+sia̍-cōi@sia4 coi5@▣▣|	sia4 coi5	50
 po-ga̍i@po1 gai4@▣▣|	po1 gai4	50
 ching-cha̍ng@ching1 chang4@▣▣|	ching1 chang4	50
 so̍i-guang@soi4 guang1@▣▣|	soi4 guang1	50
+gió̤ng-co̤̍ng@gioong2 coong4@▣▣|	gioong2 coong4	50
+cōi-cíng@coi5 cing2@▣▣|	coi5 cing2	50
 se̤̍h-na@seeh7 na1@▣▣|	seeh7 na1	50
+gū-so̤ⁿ@gu5 soonn1@▣▣|	gu5 soonn1	50
+sio̤̍-sōi@sioo4 soi5@▣▣|	sioo4 soi5	50
+iú-ga@iu2 ga1@▣▣|	iu2 ga1	50
+pói-dē̤@poi2 dee5@▣▣|	poi2 dee5	50
+hā̤-lā̤u@haa5 laau5@▣▣|	haa5 laau5	50
+bo̍i-āu@boi4 au5@▣▣|	boi4 au5	50
+po̤ⁿ-dôiⁿ-táu@poonn1 doinn3 tau2@▣▣▣|	poonn1 doinn3 tau2	50
+gī-huā-huā@gi5 hua5 hua5@▣▣▣|	gi5 hua5 hua5	50
+ió̤ng-sé̤ng@ioong2 seeng2@▣▣|	ioong2 seeng2	50
 gng-eng@gng1 eng1@▣▣|	gng1 eng1	50
+lī-sa̍ng@li5 sang4@▣▣|	li5 sang4	50
+chéng-cô@cheng2 co3@▣▣|	cheng2 co3	50
 gi̍-leo̍h@gi4 leoh7@▣▣|	gi4 leoh7	50
+sa̤-bî-ta̍i@saa1 bi3 tai4@▣▣▣|	saa1 bi3 tai4	50
+ba-do̤-ló̤-mâi@ba1 doo1 loo2 mai3@▣▣▣▣|	ba1 doo1 loo2 mai3	50
 leh-ba̍i@leh6 bai4@▣▣|	leh6 bai4	50
 da̍h-ta̍i@dah7 tai4@▣▣|	dah7 tai4	50
 ga-lio̤̍h@ga1 liooh7@▣▣|	ga1 liooh7	50
+pā-beó@pa5 beo2@▣▣|	pa5 beo2	50
+cí-cā̤@ci2 caa5@▣▣|	ci2 caa5	50
+lé̤ng-dō̤@leeng2 doo5@▣▣|	leeng2 doo5	50
 so̍-u̍i@so4 ui4@▣▣|	so4 ui4	50
 a̤u-dua̍@aau1 dua4@▣▣|	aau1 dua4	50
-beoh-le@beoh6 le1@▣▣|	beoh6 le1	50
-ng-si̍h@ng1 sih7@▣▣|	ng1 sih7	50
+do̤h-léng@dooh6 leng2@▣▣|	dooh6 leng2	50
+ha̍h-gí@hah7 gi2@▣▣|	hah7 gi2	50
+ló̤ng-geóng@loong2 geong2@▣▣|	loong2 geong2	50
+seóng-si̍h@seong2 sih7@▣▣|	seong2 sih7	50
+go̤ng-há̤u@goong1 haau2@▣▣|	goong1 haau2	50
 sing-li@sing1 li1@▣▣|	sing1 li1	50
-ng-hṳ̄ng@ng1 hyng5@▣▣|	ng1 hyng5	50
-beh-si@beh6 si1@▣▣|	beh6 si1	50
-ga-di@ga1 di1@▣▣|	ga1 di1	50
-kang-dau@kang1 dau1@▣▣|	kang1 dau1	50
-cia̍ⁿ-gi@ciann4 gi1@▣▣|	ciann4 gi1	50
+hiáng-hṳ̄ng@hiang2 hyng5@▣▣|	hiang2 hyng5	50
+ta̤̍u-dâ̤@taau4 daa3@▣▣|	taau4 daa3	50
+neông-dāi@neong3 dai5@▣▣|	neong3 dai5	50
+beh-siáⁿ@beh6 siann2@▣▣|	beh6 siann2	50
+hī-kang-dau@hi5 kang1 dau1@▣▣▣|	hi5 kang1 dau1	50
+nn̄g-táu@nng5 tau2@▣▣|	nng5 tau2	50
+cia̍ⁿ-giô̤ⁿ@ciann4 gioonn3@▣▣|	ciann4 gioonn3	50
+cia̍-giô̤ⁿ@cia4 gioonn3@▣▣|	cia4 gioonn3	50
 deo-bing@deo1 bing1@▣▣|	deo1 bing1	50
 dah-go̤@dah6 goo1@▣▣|	dah6 goo1	50
 ga-se̤̍h@ga1 seeh7@▣▣|	ga1 seeh7	50
-ng-dṳ̂-gi@ng1 dy3 gi1@▣▣▣|	ng1 dy3 gi1	50
 ceong-ceong@ceong1 ceong1@▣▣|	ceong1 ceong1	50
+siô̤ng-seô@sioong3 seo3@▣▣|	sioong3 seo3	50
 ho̤h-da̤u̍h@hooh6 daauh7@▣▣|	hooh6 daauh7	50
 ko-ko̤@ko1 koo1@▣▣|	ko1 koo1	50
+hó̤ng-ge̤ng@hoong2 geeng1@▣▣|	hoong2 geeng1	50
 si̍h-lo̤̍h@sih7 looh7@▣▣|	sih7 looh7	50
 cio̤̍h-seo@ciooh7 seo1@▣▣|	ciooh7 seo1	50
+kô̤-bî@koo3 bi3@▣▣|	koo3 bi3	50
+dó̤ng-bang@doong2 bang1@▣▣|	doong2 bang1	50
+kô-cheh@ko3 cheh6@▣▣|	ko3 cheh6	50
+tí-ko̤h@ti2 kooh6@▣▣|	ti2 kooh6	50
+hôi-âi@hoi3 ai3@▣▣|	hoi3 ai3	50
 go̤-la̍h-si̍ng@goo1 lah7 sing4@▣▣▣|	goo1 lah7 sing4	50
+muá-so̤ⁿ@mua2 soonn1@▣▣|	mua2 soonn1	50
+hôi-hu@hoi3 hu1@▣▣|	hoi3 hu1	50
 cia-ba̤̍@cia1 baa4@▣▣|	cia1 baa4	50
-ba̍h-ch̄@bah7 ch6@▣▣|	bah7 ch6	50
+gô̤-céng@goo3 ceng2@▣▣|	goo3 ceng2	50
+eong-hó̤@eong1 hoo2@▣▣|	eong1 hoo2	50
+ciú-nôi@ciu2 noi3@▣▣|	ciu2 noi3	50
+heô-iāⁿ@heo3 iann5@▣▣|	heo3 iann5	50
+ba̍h-chéng@bah7 cheng2@▣▣|	bah7 cheng2	50
 ba̍h-su̍i@bah7 sui4@▣▣|	bah7 sui4	50
+bá̤-seh@baa2 seh6@▣▣|	baa2 seh6	50
+bá̤u-úi@baau2 ui2@▣▣|	baau2 ui2	50
+chau-nāu@chau1 nau5@▣▣|	chau1 nau5	50
+ûi-châu@ui3 chau3@▣▣|	ui3 chau3	50
+co̤h-hôi@cooh6 hoi3@▣▣|	cooh6 hoi3	50
 deh-si̍ng@deh6 sing4@▣▣|	deh6 sing4	50
+ngiô̤ng-mō̤ng@ngioong3 moong5@▣▣|	ngioong3 moong5	50
+hâi-léng@hai3 leng2@▣▣|	hai3 leng2	50
+beó-dang@beo2 dang1@▣▣|	beo2 dang1	50
+do̍-dâ̤@do4 daa3@▣▣|	do4 daa3	50
+ga-cái@ga1 cai2@▣▣|	ga1 cai2	50
 e̤ng-ga@eeng1 ga1@▣▣|	eeng1 ga1	50
 ging-sa̤̍@ging1 saa4@▣▣|	ging1 saa4	50
+lái-sa̤̍@lai2 saa4@▣▣|	lai2 saa4	50
+hṳ-uā@hy1 ua5@▣▣|	hy1 ua5	50
 gang-o̤g@gang1 oog1@▣▣|	gang1 oog1	50
-ng-ho̤ng@ng1 hoong1@▣▣|	ng1 hoong1	50
-ta̍i-ce@tai4 ce1@▣▣|	tai4 ce1	50
+dā̤-gi̍h@daa5 gih7@▣▣|	daa5 gih7	50
+tā-lá̤u@ta5 laau2@▣▣|	ta5 laau2	50
+gang-hāng@gang1 hang5@▣▣|	gang1 hang5	50
+ang-h1ng@ang1 h1ng1@▣▣|	ang1 h1ng1	50
+hā̤u-huāng@haau5 huang5@▣▣|	haau5 huang5	50
+ló̤ng-bōi@loong2 boi5@▣▣|	loong2 boi5	50
+dō-bing@do5 bing1@▣▣|	do5 bing1	50
+sa̤u̍h-dā̤@saauh7 daa5@▣▣|	saauh7 daa5	50
+huah-gó̤@huah6 goo2@▣▣|	huah6 goo2	50
+sī-sā̤-lâ̤@si5 saa5 laa3@▣▣▣|	si5 saa5 laa3	50
+lo̤h-hāng@looh6 hang5@▣▣|	looh6 hang5	50
+gá̤ⁿ-gá̤ⁿ@gaann2 gaann2@▣▣|	gaann2 gaann2	50
+cô̤-kî-táu@coo3 ki3 tau2@▣▣▣|	coo3 ki3 tau2	50
 chṳ̍-dṳ̂@chy4 dy3@▣▣|	chy4 dy3	50
-a̍i-ce@ai4 ce1@▣▣|	ai4 ce1	50
+seo-gî@seo1 gi3@▣▣|	seo1 gi3	50
+heo̍h-céng@heoh7 ceng2@▣▣|	heoh7 ceng2	50
+a̍i-ceô@ai4 ceo3@▣▣|	ai4 ceo3	50
 si̍-se̍h-di̍h@si4 seh7 dih7@▣▣▣|	si4 seh7 dih7	50
+gûi-di̍h@gui3 dih7@▣▣|	gui3 dih7	50
+ga-dāi-la̍h@ga1 dai5 lah7@▣▣▣|	ga1 dai5 lah7	50
 ki̍-sing@ki4 sing1@▣▣|	ki4 sing1	50
-cṳ́-si@cy2 si1@▣▣|	cy2 si1	50
-ching-ng@ching1 ng1@▣▣|	ching1 ng1	50
+cṳ́-sió̤ng@cy2 sioong2@▣▣|	cy2 sioong2	50
+lí-baⁿ@li2 bann1@▣▣|	li2 bann1	50
+ciû-ca̍@ciu3 ca4@▣▣|	ciu3 ca4	50
+cî-muâng@ci3 muang3@▣▣|	ci3 muang3	50
+sah-ló̤-bî@sah6 loo2 bi3@▣▣▣|	sah6 loo2 bi3	50
+ha̤uⁿ-lā̤u@haaunn1 laau5@▣▣|	haaunn1 laau5	50
+ching-ngâng@ching1 ngang3@▣▣|	ching1 ngang3	50
 cheo̍-sṳ̄@cheo4 sy5@▣▣|	cheo4 sy5	50
-se̍h-ng@seh7 ng1@▣▣|	seh7 ng1	50
-ng-diu@ng1 diu1@▣▣|	ng1 diu1	50
+sikah-si̍h@sikah6 sih7@▣▣|	sikah6 sih7	50
+gṳ-lî-diû@gy1 li3 diu3@▣▣▣|	gy1 li3 diu3	50
+dá̤-bi̍-liú@daa2 bi4 liu2@▣▣▣|	daa2 bi4 liu2	50
+sē̤-ūi@see5 ui5@▣▣|	see5 ui5	50
+beông-diu@beong3 diu1@▣▣|	beong3 diu1	50
+deh-la̍h-ko̤-ní@deh6 lah7 koo1 ni2@▣▣▣▣|	deh6 lah7 koo1 ni2	50
 lṳ̂-sah-niah@ly3 sah6 niah6@▣▣▣|	ly3 sah6 niah6	50
-ng-e̤̍h@ng1 eeh7@▣▣|	ng1 eeh7	50
-che̤ng-mu@cheeng1 mu1@▣▣|	cheeng1 mu1	50
-ng-ce̤h@ng1 ceeh6@▣▣|	ng1 ceeh6	50
-cia-mu@cia1 mu1@▣▣|	cia1 mu1	50
+geh-ní-sah-leh@geh6 ni2 sah6 leh6@▣▣▣▣|	geh6 ni2 sah6 leh6	50
+cíng-e̤̍h@cing2 eeh7@▣▣|	cing2 eeh7	50
+che̤ng-muâng@cheeng1 muang3@▣▣|	cheeng1 muang3	50
+cia-muá@cia1 mua2@▣▣|	cia1 mua2	50
+do̤̍-dâ̤@doo4 daa3@▣▣|	doo4 daa3	50
+beh-dāi-ba-la̍h@beh6 dai5 ba1 lah7@▣▣▣▣|	beh6 dai5 ba1 lah7	50
+sí-sa̤-lâ̤@si2 saa1 laa3@▣▣▣|	si2 saa1 laa3	50
+si-sa̤-lâ̤@si1 saa1 laa3@▣▣▣|	si1 saa1 laa3	50
 huang-i̍ng@huang1 ing4@▣▣|	huang1 ing4	50
 sing-cia̍ⁿ@sing1 ciann4@▣▣|	sing1 ciann4	50
 cṳ-seng-di@cy1 seng1 di1@▣▣▣|	cy1 seng1 di1	50
+heô-mo̍ih@heo3 moih7@▣▣|	heo3 moih7	50
 gang-ca̍@gang1 ca4@▣▣|	gang1 ca4	50
+sā̤uⁿ-leo̍h@saaunn5 leoh7@▣▣|	saaunn5 leoh7	50
+sa̤u̍h-a̍ng@saauh7 ang4@▣▣|	saauh7 ang4	50
+seo̍h-do̤̍ⁿ@seoh7 doonn4@▣▣|	seoh7 doonn4	50
+dīng-dīng@ding5 ding5@▣▣|	ding5 ding5	50
+bâ̤-bā̤@baa3 baa5@▣▣|	baa3 baa5	50
+chi̍-ia̍ⁿ@chi4 iann4@▣▣|	chi4 iann4	50
+so̤ⁿ-di̍h@soonn1 dih7@▣▣|	soonn1 dih7	50
+gi̍-dih@gi4 dih6@▣▣|	gi4 dih6	50
+niāng-táu@niang5 tau2@▣▣|	niang5 tau2	50
+ca̍i-saⁿ@cai4 sann1@▣▣|	cai4 sann1	50
+lāu-leō@lau5 leo5@▣▣|	lau5 leo5	50
+kio̤̍-kî@kioo4 ki3@▣▣|	kioo4 ki3	50
+ching-chā̤uⁿ-na@ching1 chaaunn5 na1@▣▣▣|	ching1 chaaunn5 na1	50
+soi-bí@soi1 bi2@▣▣|	soi1 bi2	50
+gé̤ng-cīng@geeng2 cing5@▣▣|	geeng2 cing5	50
+hu̍-to̤h@hu4 tooh6@▣▣|	hu4 tooh6	50
+sing-sā̤uⁿ@sing1 saaunn5@▣▣|	sing1 saaunn5	50
+sṳ̄-ga@sy5 ga1@▣▣|	sy5 ga1	50
+chiú-cûi@chiu2 cui3@▣▣|	chiu2 cui3	50
+á̤uⁿ-mói@aaunn2 moi2@▣▣|	aaunn2 moi2	50
+bi̍h-tô-dāi@bih7 to3 dai5@▣▣▣|	bih7 to3 dai5	50
+pah-gu-déng@pah6 gu1 deng2@▣▣▣|	pah6 gu1 deng2	50
+á̤uⁿ-nuá@aaunn2 nua2@▣▣|	aaunn2 nua2	50
 tau-keng@tau1 keng1@▣▣|	tau1 keng1	50
 ha̤uⁿ-che̤ng@haaunn1 cheeng1@▣▣|	haaunn1 cheeng1	50
-gih-le@gih6 le1@▣▣|	gih6 le1	50
-ing-che@ing1 che1@▣▣|	ing1 che1	50
-ng-do̤@ng1 doo1@▣▣|	ng1 doo1	50
+bú-leó-chiu̍@bu2 leo2 chiu4@▣▣▣|	bu2 leo2 chiu4	50
+gio̤̍h-kî@giooh7 ki3@▣▣|	giooh7 ki3	50
+gih-leóng@gih6 leong2@▣▣|	gih6 leong2	50
+mo̍-mói@mo4 moi2@▣▣|	mo4 moi2	50
+hō̤ng-dā̤u@hoong5 daau5@▣▣|	hoong5 daau5	50
+sê̤-dá̤-ní@see3 daa2 ni2@▣▣▣|	see3 daa2 ni2	50
+go̤-líng-do̤@goo1 ling2 doo1@▣▣▣|	goo1 ling2 doo1	50
+hā̤u-ṳng@haau5 yng1@▣▣|	haau5 yng1	50
 ṳng-seo̍@yng1 seo4@▣▣|	yng1 seo4	50
-ke̤h-a̍h@keeh6 ah7@▣▣|	keeh6 ah7	50
 geng-go̍@geng1 go4@▣▣|	geng1 go4	50
+ceh-síng@ceh6 sing2@▣▣|	ceh6 sing2	50
 sih-si̍ng@sih6 sing4@▣▣|	sih6 sing4	50
-gi-se@gi1 se1@▣▣|	gi1 se1	50
-ng-dih@ng1 dih6@▣▣|	ng1 dih6	50
+sio̤ng-dó̤ng@sioong1 doong2@▣▣|	sioong1 doong2	50
+geh-lái@geh6 lai2@▣▣|	geh6 lai2	50
+dáng-leōng@dang2 leong5@▣▣|	dang2 leong5	50
+gi-seō-bō@gi1 seo5 bo5@▣▣▣|	gi1 seo5 bo5	50
+gai-iú@gai1 iu2@▣▣|	gai1 iu2	50
+seō-dá̤-huâng@seo5 daa2 huang3@▣▣▣|	seo5 daa2 huang3	50
 beoh-gi̍-dih@beoh6 gi4 dih6@▣▣▣|	beoh6 gi4 dih6	50
-gua̍-ng@gua4 ng1@▣▣|	gua4 ng1	50
+siō̤ng-da̤̍cuh@sioong5 daacuh7@▣▣|	sioong5 daacuh7	50
+gua̍-ngāi@gua4 ngai5@▣▣|	gua4 ngai5	50
+siō̤ng-dêng@sioong5 deng3@▣▣|	sioong5 deng3	50
+nôi-cio̤̍h@noi3 ciooh7@▣▣|	noi3 ciooh7	50
+dā̤u-dā̤u-ce̍ng@daau5 daau5 ceng4@▣▣▣|	daau5 daau5 ceng4	50
+uâng-dê̤ng@uang3 deeng3@▣▣|	uang3 deeng3	50
 to̤̍ng-da̍h@toong4 dah7@▣▣|	toong4 dah7	50
-ng-sa̤̍@ng1 saa4@▣▣|	ng1 saa4	50
+di̍h-hā̤@dih7 haa5@▣▣|	dih7 haa5	50
 ṳ́ng-go̤ng@yng2 goong1@▣▣|	yng2 goong1	50
-seo-ni@seo1 ni1@▣▣|	seo1 ni1	50
-cih-se@cih6 se1@▣▣|	cih6 se1	50
+gâ̤-míng@gaa3 ming2@▣▣|	gaa3 ming2	50
+se̤̍h-léng@seeh7 leng2@▣▣|	seeh7 leng2	50
+kî-hṳ̍ng@ki3 hyng4@▣▣|	ki3 hyng4	50
+cih-seō@cih6 seo5@▣▣|	cih6 seo5	50
+îng-dō̤@ing3 doo5@▣▣|	ing3 doo5	50
 ge̍ng-sih@geng4 sih6@▣▣|	geng4 sih6	50
-gi̍-ni@gi4 ni1@▣▣|	gi4 ni1	50
+go̤ng-hāu@goong1 hau5@▣▣|	goong1 hau5	50
+siáⁿ-bā-hāng@siann2 ba5 hang5@▣▣▣|	siann2 ba5 hang5	50
 tio̤̍ng-lo̤̍h@tioong4 looh7@▣▣|	tioong4 looh7	50
-ng-ging@ng1 ging1@▣▣|	ng1 ging1	50
+duā-dô̤ⁿ@dua5 doonn3@▣▣|	dua5 doonn3	50
+beó-iā@beo2 ia5@▣▣|	beo2 ia5	50
 ceo̍-seo̍h-dui@ceo4 seoh7 dui1@▣▣▣|	ceo4 seoh7 dui1	50
-ng-gi@ng1 gi1@▣▣|	ng1 gi1	50
-gang-ng@gang1 ng1@▣▣|	gang1 ng1	50
-ching-chi@ching1 chi1@▣▣|	ching1 chi1	50
+mêng-giô̤ng@meng3 gioong3@▣▣|	meng3 gioong3	50
+kô-a̍i@ko3 ai4@▣▣|	ko3 ai4	50
+ga-cíng@ga1 cing2@▣▣|	ga1 cing2	50
+ching-chiû@ching1 chiu3@▣▣|	ching1 chiu3	50
 sing-ga̍@sing1 ga4@▣▣|	sing1 ga4	50
-ba-heo̍h@ba1 heoh7@▣▣|	ba1 heoh7	50
+gṳ̄-sê̤@gy5 see3@▣▣|	gy5 see3	50
+mâ-kô̤@ma3 koo3@▣▣|	ma3 koo3	50
+dâ̤-mâ@daa3 ma3@▣▣|	daa3 ma3	50
+lō-ga@lo5 ga1@▣▣|	lo5 ga1	50
+sê̤-ngē̤ng@see3 ngeeng5@▣▣|	see3 ngeeng5	50

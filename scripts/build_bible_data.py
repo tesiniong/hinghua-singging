@@ -543,9 +543,13 @@ def merge_and_generate_json(han_data, rom_data, output_file):
                 if rom_text and han_text:
                     tokens = align_tokens(han_text, rom_text)
                 elif rom_text:
-                    tokens = tokenize_rom(rom_text)
+                    # 純羅馬字：統一格式為 {'type': ..., 'han': '', 'rom': ...}
+                    tokens = [{'type': t['type'], 'han': '', 'rom': t['text']}
+                              for t in tokenize_rom(rom_text)]
                 elif han_text:
-                    tokens = tokenize_han(han_text)
+                    # 純漢字：統一格式為 {'type': ..., 'han': ..., 'rom': ''}
+                    tokens = [{'type': t['type'], 'han': t['text'], 'rom': ''}
+                              for t in tokenize_han(han_text)]
 
                 chapter['sections'].append({
                     "type": "verse", "verse": verse_num, "rom": rom_text, "han": han_clean,
