@@ -38,7 +38,7 @@ function App() {
                 羅馬字已錄入 {stats.rom.total.verses} 節 | 漢字已錄入 {stats.han.total.verses} 節
               </p>
             )}
-            <p>&copy; 2025 興化語聖經數位化專案</p>
+            <p>&copy; 2026 興化語聖經數位化專案</p>
             <p className="mt-1">Created by Siniong, 桃泽</p>
           </div>
         </footer>
