@@ -321,7 +321,7 @@ const RomToHanConverter = () => {
 
   // 複製到剪貼簿
   const copyToClipboard = () => {
-    const hanText = convertedTokens.map(t => t.han).join('');
+    const hanText = convertedTokens.map(t => t.han).join('').replace(/\s+/g, '');
 
     navigator.clipboard.writeText(hanText).then(() => {
       alert('已複製到剪貼簿！');
@@ -502,7 +502,7 @@ const RomToHanConverter = () => {
                   >
                     <span className="candidate-han">{candidate.han}</span>
                     <span className="candidate-freq">
-                      {candidate.label || Math.round(candidate.freq * 10) / 10}
+                      {Math.round(candidate.freq * 10) / 10}
                     </span>
                   </div>
                 );
