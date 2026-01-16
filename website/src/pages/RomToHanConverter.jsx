@@ -166,14 +166,14 @@ const RomToHanConverter = () => {
     // 正規化輸入
     const normalized = normalizeInput(romText);
 
-    // 分詞：按空格和標點符號分割
-    const segments = normalized.split(/([，。！？；：、\s]+)/);
+    // 分詞：按空格和標點符號分割（包含所有全形標點）
+    const segments = normalized.split(/([，。！？；：、（）「」『』《》''"\s]+)/);
 
     const result = [];
 
     for (const segment of segments) {
       // 保留標點和空格
-      if (/^[，。！？；：、\s]+$/.test(segment)) {
+      if (/^[，。！？；：、（）「」『』《》''"\s]+$/.test(segment)) {
         result.push({
           type: 'punct',
           rom: segment,

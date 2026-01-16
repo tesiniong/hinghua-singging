@@ -13,7 +13,7 @@ FOREWORD_BOOKS = [
 
 # 舊約39卷
 OLD_TESTAMENT_BOOKS = [
-    ("Cho̤̍ng-sa̤-gi̍", "創世記", "Genesis", 9),
+    ("Cho̤̍ng-sa̤̍-gi̍", "創世記", "Genesis", 9),
     ("Cheoh-Ai-gi̍h", "出伊及", "Exodus", 72),
     ("Lī-bī Gi̍", "利未記", "Leviticus", 124),
     ("Míng-so̍ Gi̍", "民數記", "Numbers", 161),
@@ -56,8 +56,8 @@ OLD_TESTAMENT_BOOKS = [
 
 # 新約27卷
 NEW_TESTAMENT_BOOKS = [
-    ("Mâ-ta̍i", "瑪太", "Gospel of Matthew", 1153),
-    ("Mâ-kô̤", "瑪可", "Gospel of Mark", 1193),
+    ("Mâ-ta̍i", "馬太", "Gospel of Matthew", 1153),
+    ("Mâ-kô̤", "馬可", "Gospel of Mark", 1193),
     ("Lō-ga", "路加", "Gospel of Luke", 1218),
     ("Io̤h-hāng", "約翰", "Gospel of John", 1261),
     ("Seo̍-dó Hēng-dē̤ng", "使徒行傳", "Acts of the Apostles", 1294),
