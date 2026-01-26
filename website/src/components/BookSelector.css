@@ -5,6 +5,7 @@
   margin: 0 auto var(--spacing-md) auto;
 }
 
+/* 觸發按鈕 */
 .book-selector-button {
   width: 100%;
   display: flex;
@@ -20,6 +21,14 @@
 
 .book-selector-button:hover {
   border-color: var(--accent-color);
+}
+
+[data-theme="dark"] .book-selector-button:hover {
+  background-color: var(--bg-tertiary);
+}
+
+[data-theme="light"] .book-selector-button:hover,
+:root:not([data-theme="dark"]) .book-selector-button:hover {
   background-color: #eeeeee;
 }
 
@@ -30,15 +39,15 @@
   font-size: 1.1em;
 }
 
-.book-name-rom {
-  font-family: var(--font-roman);
-  color: var(--text-primary);
-}
-
 .book-name-han {
   font-family: var(--font-chinese);
   color: var(--text-primary);
   font-weight: 500;
+}
+
+.book-name-rom {
+  font-family: var(--font-roman);
+  color: var(--text-primary);
 }
 
 .book-name-sep {
@@ -50,6 +59,7 @@
   font-size: 0.8em;
 }
 
+/* 下拉選單容器 */
 .book-selector-dropdown {
   position: absolute;
   top: 100%;
@@ -59,62 +69,214 @@
   background-color: var(--bg-primary);
   border: 2px solid var(--border-color);
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   z-index: 100;
-  max-height: 400px;
+  max-height: 70vh;
   overflow-y: auto;
+  padding: var(--spacing-md);
 }
 
-.book-list {
-  padding: var(--spacing-xs);
+[data-theme="dark"] .book-selector-dropdown {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
-.book-item {
-  width: 100%;
+/* 書卷區塊 */
+.book-section {
+  margin-bottom: var(--spacing-md);
+}
+
+.book-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.book-section-title {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin: 0 0 var(--spacing-sm) 0;
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* 書卷網格：每行 4 個，強制等寬 */
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+
+/* 書卷 Cell */
+.book-cell {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.5em;
-  padding: var(--spacing-sm) var(--spacing-md);
-  background-color: transparent;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s;
-  text-align: left;
-}
-
-.book-item:hover {
+  justify-content: center;
+  padding: 8px 4px;
   background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  min-height: 60px;
+  /* 強制等寬：防止內容撐開 cell */
+  min-width: 0;
+  overflow: hidden;
 }
 
-.book-item.active {
+.book-cell:hover:not(.disabled) {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color-light, rgba(139, 69, 19, 0.1));
+}
+
+[data-theme="dark"] .book-cell:hover:not(.disabled) {
+  background-color: rgba(205, 133, 63, 0.2);
+}
+
+.book-cell.current {
+  border-color: var(--accent-color);
   background-color: var(--accent-color);
   color: white;
 }
 
-.book-item.active .book-item-rom,
-.book-item.active .book-item-han,
-.book-item.active .book-item-sep {
+.book-cell.current .book-abbr,
+.book-cell.current .book-full-name {
   color: white;
 }
 
-.book-item-rom {
-  font-family: var(--font-roman);
-  color: var(--text-primary);
-  font-size: 0.95em;
+.book-cell.selected {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 2px var(--accent-color);
 }
 
-.book-item-han {
+/* 沒有內容的書卷：淺色顯示 */
+.book-cell.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+[data-theme="dark"] .book-cell.disabled {
+  opacity: 0.35;
+}
+
+.book-abbr {
+  font-size: 1.2em;
+  font-weight: 600;
   font-family: var(--font-chinese);
   color: var(--text-primary);
-  font-weight: 500;
+  line-height: 1.2;
 }
 
-.book-item-sep {
+.book-full-name {
+  font-size: 0.6em;
+  font-family: var(--font-roman);
   color: var(--text-secondary);
+  margin-top: 2px;
+  text-align: center;
+  line-height: 1.2;
+  /* 過長的書名截斷 */
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
 
-/* Responsive */
+/* 章節選擇器彈出層 */
+.chapter-popup {
+  position: absolute;
+  /* 水平居中 */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--bg-primary);
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  z-index: 300;
+  padding: var(--spacing-sm);
+  width: calc(100% - 2 * var(--spacing-md));
+  max-width: 420px;
+}
+
+[data-theme="dark"] .chapter-popup {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}
+
+.chapter-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  font-family: var(--font-chinese);
+  color: var(--text-primary);
+}
+
+.chapter-popup-close {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.chapter-popup-close:hover {
+  color: var(--text-primary);
+}
+
+/* 章節網格：每行 10 個 */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+}
+
+.chapter-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 2px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: all 0.15s;
+  min-width: 28px;
+}
+
+.chapter-cell:hover:not(.disabled) {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color-light, rgba(139, 69, 19, 0.1));
+}
+
+[data-theme="dark"] .chapter-cell:hover:not(.disabled) {
+  background-color: rgba(205, 133, 63, 0.2);
+}
+
+.chapter-cell.current {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+/* 沒有內容的章節：淺色顯示 */
+.chapter-cell.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+[data-theme="dark"] .chapter-cell.disabled {
+  opacity: 0.35;
+}
+
+/* 響應式設計 */
 @media (max-width: 768px) {
   .book-selector-button {
     padding: var(--spacing-sm) var(--spacing-md);
@@ -124,7 +286,78 @@
     font-size: 1em;
   }
 
-  .book-item {
-    padding: var(--spacing-xs) var(--spacing-sm);
+  .book-selector-dropdown {
+    max-height: 60vh;
+    padding: var(--spacing-sm);
+  }
+
+  .book-grid {
+    gap: 4px;
+  }
+
+  .book-cell {
+    padding: 6px 2px;
+    min-height: 50px;
+  }
+
+  .book-abbr {
+    font-size: 1.1em;
+  }
+
+  .book-full-name {
+    font-size: 0.6em;
+  }
+
+  .chapter-popup {
+    max-width: 360px;
+  }
+
+  .chapter-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .chapter-cell {
+    padding: 6px 2px;
+    min-width: 28px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-selector {
+    max-width: 100%;
+  }
+
+  .book-name-rom {
+    display: none;
+  }
+
+  .book-name-sep {
+    display: none;
+  }
+
+  .book-cell {
+    min-height: 45px;
+  }
+
+  .book-abbr {
+    font-size: 1em;
+  }
+
+  .book-full-name {
+    font-size: 0.55em;
+  }
+
+  .chapter-popup {
+    max-width: 300px;
+  }
+
+  .chapter-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .chapter-cell {
+    min-width: 32px;
+    font-size: 0.8em;
   }
 }

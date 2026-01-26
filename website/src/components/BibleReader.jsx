@@ -142,7 +142,9 @@ function BibleReader({ bibleData }) {
         <BookSelector
           bibleData={bibleData}
           currentBookIndex={currentBookIndex}
+          currentChapter={currentChapter + 1}  // 傳遞 1-based 章節號
           onBookSelect={handleBookSelect}
+          onChapterSelect={(ch) => setCurrentChapter(ch - 1)}  // 轉換為 0-based 索引
         />
 
         <SearchBox bibleData={bibleData} onResultClick={handleSearchResultClick} />

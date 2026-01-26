@@ -434,12 +434,35 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     """
     books = []
     
-    for rom_name_orig, han_name_orig, eng_name, page in ALL_BOOKS:
-        rom_name = unicodedata.normalize('NFC', rom_name_orig)
-        han_name = unicodedata.normalize('NFC', han_name_orig)
+    # 計算 testament 分界索引
+    foreword_count = len([b for b in ALL_BOOKS if b["eng"] in ("Foreword", "Preface")])
+    ot_count = 39  # 舊約 39 卷
+
+    for idx, book_info in enumerate(ALL_BOOKS):
+        rom_name = unicodedata.normalize('NFC', book_info["rom"])
+        han_name = unicodedata.normalize('NFC', book_info["han"])
+        eng_name = book_info["eng"]
+        abbr = book_info["abbr"]
+        total_chapters = book_info["chapters"]
+
+        # 判斷所屬部分
+        if idx < foreword_count:
+            testament = "foreword"
+        elif idx < foreword_count + ot_count:
+            testament = "ot"
+        else:
+            testament = "nt"
 
         print(f"處理中: {eng_name}")
-        book = { "name_han": han_name, "name_rom": rom_name, "name_eng": eng_name, "chapters": [] }
+        book = {
+            "name_han": han_name,
+            "name_rom": rom_name,
+            "name_eng": eng_name,
+            "abbr": abbr,
+            "total_chapters": total_chapters,
+            "testament": testament,
+            "chapters": []
+        }
 
         # Case 1: 英文序
         if eng_name == 'Foreword':
@@ -566,6 +589,35 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    # 生成 bookList.json（包含所有 68 本書的基本資訊，供前端選單使用）
+    from book_info import FOREWORD_BOOKS, OLD_TESTAMENT_BOOKS, NEW_TESTAMENT_BOOKS
+
+    # 建立已有內容的書卷集合（使用英文名稱比對）
+    books_with_content = {book['name_eng'] for book in books}
+
+    book_list = []
+    for testament_name, testament_books in [
+        ("foreword", FOREWORD_BOOKS),
+        ("ot", OLD_TESTAMENT_BOOKS),
+        ("nt", NEW_TESTAMENT_BOOKS)
+    ]:
+        for book_info in testament_books:
+            eng_name = book_info["eng"]
+            book_list.append({
+                "rom": book_info["rom"],
+                "han": book_info["han"],
+                "eng": eng_name,
+                "abbr": book_info["abbr"],
+                "chapters": book_info["chapters"],
+                "testament": testament_name,
+                "hasContent": eng_name in books_with_content
+            })
+
+    book_list_file = Path('data/bookList.json')
+    with open(book_list_file, 'w', encoding='utf-8') as f:
+        json.dump(book_list, f, ensure_ascii=False, indent=2)
+    print(f"已生成書目清單: {book_list_file}")
+
     # 自動複製所有需要的 JSON 檔案到 website/public/
     website_public_dir = Path('website/public')
     if website_public_dir.exists():
@@ -574,6 +626,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
             (Path(output_file), 'bible_data.json'),
             (Path('data/page-ocr-results.json'), 'page-ocr-results.json'),
             (Path('data/chapter-page-mapping.json'), 'chapter-page-mapping.json'),
+            (book_list_file, 'bookList.json'),
         ]
 
         print(f"\n複製 JSON 檔案到 website/public/:")
@@ -590,8 +643,8 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     # --- 開始產生統計資料 ---
     from book_info import TOTALS, OLD_TESTAMENT_BOOKS, NEW_TESTAMENT_BOOKS
     
-    ot_books_rom_names = {unicodedata.normalize('NFC', b[0]) for b in OLD_TESTAMENT_BOOKS}
-    nt_books_rom_names = {unicodedata.normalize('NFC', b[0]) for b in NEW_TESTAMENT_BOOKS}
+    ot_books_rom_names = {unicodedata.normalize('NFC', b["rom"]) for b in OLD_TESTAMENT_BOOKS}
+    nt_books_rom_names = {unicodedata.normalize('NFC', b["rom"]) for b in NEW_TESTAMENT_BOOKS}
 
     stats = {
         "rom": {"ot": {"books": 0, "chapters": 0, "verses": 0}, "nt": {"books": 0, "chapters": 0, "verses": 0}},

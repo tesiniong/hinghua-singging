@@ -120,19 +120,19 @@ def scan_all_images(image_dir: str, renamed: bool = False) -> dict:
         chapter, verse = extract_chapter_verse_from_image(str(img_file), page_num)
 
         # 獲取書卷資訊
-        book_info = get_book_by_page(page_num)
+        book = get_book_by_page(page_num)
 
-        if chapter and verse and book_info:
+        if chapter and verse and book:
             page_mapping[f"{page_num:04d}"] = {
                 'chapter': chapter,
                 'verse': verse,
-                'book_rom': book_info[0],
-                'book_han': book_info[1],
-                'book_english': book_info[2]
+                'book_rom': book["rom"],
+                'book_han': book["han"],
+                'book_english': book["eng"]
             }
 
             if i % 1 == 0:
-                print(f"  進度: {i}/{len(image_files)} - {book_info[1]} {chapter}:{verse}")
+                print(f"  進度: {i}/{len(image_files)} - {book['han']} {chapter}:{verse}")
         else:
             # 識別失敗，使用前一頁的資訊推測
             if page_mapping:

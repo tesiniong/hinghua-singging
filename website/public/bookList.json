@@ -1,0 +1,614 @@
+[
+  {
+    "rom": "Foreword",
+    "han": "Foreword",
+    "eng": "Foreword",
+    "abbr": "",
+    "chapters": 1,
+    "testament": "foreword",
+    "hasContent": true
+  },
+  {
+    "rom": "Sṳ̄.",
+    "han": "序",
+    "eng": "Preface",
+    "abbr": "序",
+    "chapters": 1,
+    "testament": "foreword",
+    "hasContent": true
+  },
+  {
+    "rom": "Cho̤̍ng-sa̤̍ Gi̍",
+    "han": "創世記",
+    "eng": "Genesis",
+    "abbr": "創",
+    "chapters": 50,
+    "testament": "ot",
+    "hasContent": true
+  },
+  {
+    "rom": "Cheoh-Ai-gi̍h",
+    "han": "出伊及",
+    "eng": "Exodus",
+    "abbr": "出",
+    "chapters": 40,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Lī-bī Gi̍",
+    "han": "利未記",
+    "eng": "Leviticus",
+    "abbr": "利",
+    "chapters": 27,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Míng-so̍ Gi̍",
+    "han": "民數記",
+    "eng": "Numbers",
+    "abbr": "民",
+    "chapters": 36,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Sing-mīng Gi̍",
+    "han": "申命記",
+    "eng": "Deuteronomy",
+    "abbr": "申",
+    "chapters": 34,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Io̤h-sṳ-a̍ Cṳ",
+    "han": "約書亞書",
+    "eng": "Joshua",
+    "abbr": "書",
+    "chapters": 24,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Seō-seo Gi̍",
+    "han": "士師記",
+    "eng": "Judges",
+    "abbr": "士",
+    "chapters": 21,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Lō-deh Gi̍",
+    "han": "路得記",
+    "eng": "Ruth",
+    "abbr": "得",
+    "chapters": 4,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Sah-bâ̤u-cî Céng-cṳ",
+    "han": "撒母耳前書",
+    "eng": "1 Samuel",
+    "abbr": "撒上",
+    "chapters": 31,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Sah-bâ̤u-cî Hā̤u-cṳ",
+    "han": "撒母耳後書",
+    "eng": "2 Samuel",
+    "abbr": "撒下",
+    "chapters": 24,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng",
+    "han": "列王上卷",
+    "eng": "1 Kings",
+    "abbr": "王上",
+    "chapters": 22,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Le̍h-ó̤ng Hā-ge̤̍ng",
+    "han": "列王下卷",
+    "eng": "2 Kings",
+    "abbr": "王下",
+    "chapters": 25,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Le̍h-dāi Siō̤ng-ge̤̍ng",
+    "han": "歷代上卷",
+    "eng": "1 Chronicles",
+    "abbr": "代上",
+    "chapters": 29,
+    "testament": "ot",
+    "hasContent": true
+  },
+  {
+    "rom": "Le̍h-dāi Hā-ge̤̍ng",
+    "han": "歷代下卷",
+    "eng": "2 Chronicles",
+    "abbr": "代下",
+    "chapters": 36,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Î-seō-la̍h Cṳ",
+    "han": "以斯拉書",
+    "eng": "Ezra",
+    "abbr": "拉",
+    "chapters": 10,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Ní-hi-bî Gi̍",
+    "han": "尼希米記",
+    "eng": "Nehemiah",
+    "abbr": "尼",
+    "chapters": 13,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Î-seō-tiah Cṳ",
+    "han": "以斯帖書",
+    "eng": "Esther",
+    "abbr": "斯",
+    "chapters": 10,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Io̤h-beh Gi̍",
+    "han": "約伯記",
+    "eng": "Job",
+    "abbr": "伯",
+    "chapters": 42,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Si-peng",
+    "han": "詩篇",
+    "eng": "Psalms",
+    "abbr": "詩",
+    "chapters": 150,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Cing-ngé̤ng",
+    "han": "箴言",
+    "eng": "Proverbs",
+    "abbr": "箴",
+    "chapters": 31,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Dé̤ng-dō̤ Cṳ",
+    "han": "傳道書",
+    "eng": "Ecclesiastes",
+    "abbr": "傳",
+    "chapters": 12,
+    "testament": "ot",
+    "hasContent": true
+  },
+  {
+    "rom": "Sê̤-ló̤-meóng Ē Ngâ-go̤",
+    "han": "所羅門兮雅歌",
+    "eng": "Song of Solomon",
+    "abbr": "歌",
+    "chapters": 8,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Î-se̤̍-a̍ Cṳ",
+    "han": "以賽亞書",
+    "eng": "Isaiah",
+    "abbr": "賽",
+    "chapters": 66,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Á̤-lī-bî Cṳ",
+    "han": "耶利米書",
+    "eng": "Jeremiah",
+    "abbr": "耶",
+    "chapters": 52,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Á̤-lī-bî Ai-go̤ Cṳ",
+    "han": "耶利米哀歌書",
+    "eng": "Lamentations",
+    "abbr": "哀",
+    "chapters": 5,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Î-sa̤-geh Cṳ",
+    "han": "以西結書",
+    "eng": "Ezekiel",
+    "abbr": "結",
+    "chapters": 48,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Dāng-î-lî Cṳ",
+    "han": "但以理書",
+    "eng": "Daniel",
+    "abbr": "但",
+    "chapters": 12,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Hó̤-sa̤ Cṳ",
+    "han": "何西書",
+    "eng": "Hosea",
+    "abbr": "何",
+    "chapters": 14,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Io̤h-cî Cṳ",
+    "han": "約珥書",
+    "eng": "Joel",
+    "abbr": "珥",
+    "chapters": 3,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "A̍-mó̤-seo Cṳ",
+    "han": "亞摩斯書",
+    "eng": "Amos",
+    "abbr": "摩",
+    "chapters": 9,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "O̤-ba-dâ̤ Cṳ",
+    "han": "阿巴底書",
+    "eng": "Obadiah",
+    "abbr": "阿",
+    "chapters": 1,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Io̤h-ná Cṳ",
+    "han": "約拿書",
+    "eng": "Jonah",
+    "abbr": "拿",
+    "chapters": 4,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Bî-gia Cṳ",
+    "han": "彌迦書",
+    "eng": "Micah",
+    "abbr": "彌",
+    "chapters": 7,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Ná-o̤ng Cṳ",
+    "han": "那翁書",
+    "eng": "Nahum",
+    "abbr": "翁",
+    "chapters": 3,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Ha̍h-ba-go̤h Cṳ",
+    "han": "哈巴谷書",
+    "eng": "Habakkuk",
+    "abbr": "哈",
+    "chapters": 3,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Sa̤-huang-ngâ Cṳ",
+    "han": "西番雅書",
+    "eng": "Zephaniah",
+    "abbr": "番",
+    "chapters": 3,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Ha̍h-gi Cṳ",
+    "han": "哈基書",
+    "eng": "Haggai",
+    "abbr": "基",
+    "chapters": 2,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Sah-ga-lī-a̍ Cṳ",
+    "han": "撒迦利亞書",
+    "eng": "Zechariah",
+    "abbr": "亞",
+    "chapters": 14,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Mâ-la̍h-gi Cṳ",
+    "han": "瑪拉基書",
+    "eng": "Malachi",
+    "abbr": "瑪",
+    "chapters": 4,
+    "testament": "ot",
+    "hasContent": false
+  },
+  {
+    "rom": "Mâ-ta̍i",
+    "han": "馬太",
+    "eng": "Gospel of Matthew",
+    "abbr": "太",
+    "chapters": 28,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Mâ-kô̤",
+    "han": "馬可",
+    "eng": "Gospel of Mark",
+    "abbr": "可",
+    "chapters": 16,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Lō-ga",
+    "han": "路加",
+    "eng": "Gospel of Luke",
+    "abbr": "路",
+    "chapters": 24,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Io̤h-hāng",
+    "han": "約翰",
+    "eng": "Gospel of John",
+    "abbr": "約",
+    "chapters": 21,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Seo̍-dó Hēng-dē̤ng",
+    "han": "使徒行傳",
+    "eng": "Acts of the Apostles",
+    "abbr": "徒",
+    "chapters": 28,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Ló̤-mâ Náng Cṳ",
+    "han": "保羅寄羅馬儂書",
+    "eng": "Romans",
+    "abbr": "羅",
+    "chapters": 16,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Céng-cṳ",
+    "han": "保羅寄哥林多前書",
+    "eng": "1 Corinthians",
+    "abbr": "林前",
+    "chapters": 16,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Go̤-líng-do̤ Hā̤u-cṳ",
+    "han": "保羅寄哥林多後書",
+    "eng": "2 Corinthians",
+    "abbr": "林後",
+    "chapters": 13,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Ga-la̍h-ta̍i Cṳ",
+    "han": "保羅寄加拉太書",
+    "eng": "Galatians",
+    "abbr": "加",
+    "chapters": 6,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Î-heo̍h-sê̤ Cṳ",
+    "han": "保羅寄以弗所書",
+    "eng": "Ephesians",
+    "abbr": "弗",
+    "chapters": 6,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ",
+    "han": "保羅寄腓立比儂書",
+    "eng": "Philippians",
+    "abbr": "腓",
+    "chapters": 4,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Go̤-ló̤-sa̤ Náng Cṳ",
+    "han": "保羅寄歌羅西儂書",
+    "eng": "Colossians",
+    "abbr": "西",
+    "chapters": 4,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Céng-cṳ",
+    "han": "保羅寄帖撒羅尼迦儂前書",
+    "eng": "1 Thessalonians",
+    "abbr": "帖前",
+    "chapters": 5,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Tiah-sah-ló̤-ní-gia Náng Hā̤u-cṳ",
+    "han": "保羅寄帖撒羅尼迦儂後書",
+    "eng": "2 Thessalonians",
+    "abbr": "帖後",
+    "chapters": 3,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Céng-cṳ",
+    "han": "保羅寄提摩太前書",
+    "eng": "1 Timothy",
+    "abbr": "提前",
+    "chapters": 6,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Dá̤-mó̤-ta̍i Hā̤u-cṳ",
+    "han": "保羅寄提摩太後書",
+    "eng": "2 Timothy",
+    "abbr": "提後",
+    "chapters": 4,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Dá̤-do̤ Cṳ",
+    "han": "保羅寄提多書",
+    "eng": "Titus",
+    "abbr": "多",
+    "chapters": 3,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Bô̤-ló̤ Gio̤̍ Hi-lī-meóng Cṳ",
+    "han": "保羅寄腓利們書",
+    "eng": "Philemon",
+    "abbr": "們",
+    "chapters": 1,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Hi-beh-lái Náng Cṳ",
+    "han": "希伯來儂書",
+    "eng": "Hebrews",
+    "abbr": "來",
+    "chapters": 13,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Seo̍-dó Ngâ-go̤h Cṳ",
+    "han": "使徒雅各書",
+    "eng": "James",
+    "abbr": "雅",
+    "chapters": 5,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bî-deh Céng-cṳ",
+    "han": "彼得前書",
+    "eng": "1 Peter",
+    "abbr": "彼前",
+    "chapters": 5,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Bî-deh Hā̤u-cṳ",
+    "han": "彼得後書",
+    "eng": "2 Peter",
+    "abbr": "彼後",
+    "chapters": 3,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Io̤h-hāng Ih Cṳ",
+    "han": "約翰一書",
+    "eng": "1 John",
+    "abbr": "約一",
+    "chapters": 5,
+    "testament": "nt",
+    "hasContent": false
+  },
+  {
+    "rom": "Io̤h-hāng Cī Cṳ",
+    "han": "約翰二書",
+    "eng": "2 John",
+    "abbr": "約二",
+    "chapters": 1,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Io̤h-hāng So̤ⁿ Cṳ",
+    "han": "約翰三書",
+    "eng": "3 John",
+    "abbr": "約三",
+    "chapters": 1,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Seo̍-dó Iú-dāi Cṳ",
+    "han": "使徒猶大書",
+    "eng": "Jude",
+    "abbr": "猶",
+    "chapters": 1,
+    "testament": "nt",
+    "hasContent": true
+  },
+  {
+    "rom": "Seo̍-dó Io̤h-hāng Be̍h-sī-le̤̍h",
+    "han": "使徒約翰默示錄",
+    "eng": "Revelation",
+    "abbr": "默",
+    "chapters": 22,
+    "testament": "nt",
+    "hasContent": false
+  }
+]
