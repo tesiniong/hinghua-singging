@@ -2,18 +2,18 @@
   "rom": {
     "ot": {
       "books": 3,
-      "chapters": 24,
-      "verses": 576
+      "chapters": 25,
+      "verses": 608
     },
     "nt": {
       "books": 12,
       "chapters": 87,
-      "verses": 889
+      "verses": 904
     },
     "total": {
       "books": 15,
-      "chapters": 111,
-      "verses": 1465
+      "chapters": 112,
+      "verses": 1512
     }
   },
   "han": {
