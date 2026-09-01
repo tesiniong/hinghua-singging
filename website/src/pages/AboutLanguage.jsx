@@ -420,7 +420,7 @@ function AboutLanguage() {
                   <th className="sticky-col">5</th>
                   <td><span className="han-text">伓通</span><br/><span className="rom-text"><b>n̄</b>g-tang</span><br/><span className="rom-text"><b>n̄</b>g-nang</span></td>
                   <td><span className="han-text">舊年</span><br/><span className="rom-text">g<b>ū</b>-níng</span><br/><span className="rom-text">g<b>ū</b>-níng</span></td>
-                  <td><span className="han-text">啞口</span><br/><span className="rom-text"><b>ō̤</b>-kâu</span><br/><span className="rom-text"><b>ō̤</b>-kâu</span></td>
+                  <td><span className="han-text">啞口</span><br/><span className="rom-text"><b>ō̤</b>-kâu</span><br/><span className="rom-text"><b>ō̤</b>-âu</span></td>
                   <td><span className="han-text">代誌</span><br/><span className="rom-text">d<b>ā</b>i-ci̍</span><br/><span className="rom-text">d<b>a</b>i-li̍</span></td>
                   <td><span className="han-text">利便</span><br/><span className="rom-text">l<b>ī</b>-bēng</span><br/><span className="rom-text">l<b>i̍</b>-wēng</span></td>
                   <td><span className="han-text">後角</span><br/><span className="rom-text"><b>ā</b>u-gah</span><br/><span className="rom-text"><b>a̍</b>u-gah</span></td>

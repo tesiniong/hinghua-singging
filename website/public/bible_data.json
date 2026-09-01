@@ -38968,7 +38968,7 @@
             {
               "type": "verse",
               "verse": 17,
-              "rom": "Hi-beh saⁿ Hah-leh āu. cāi sa̤̍ si̍-bā so̤ⁿ -se̍h níng, ho̤h saⁿ náng-dṳ̂-giô̤ⁿ.",
+              "rom": "Hi-beh saⁿ Hah-leh āu, cāi sa̤̍ si̍-bā so̤ⁿ-se̍h níng, ho̤h saⁿ náng-dṳ̂-giô̤ⁿ.",
               "han": "希伯生法勒後，在世四百三十年，復生男女囝。",
               "tokens": [
                 {
@@ -39020,15 +39020,15 @@
                 },
                 {
                   "type": "word",
-                  "han": "三",
-                  "rom": "so̤ⁿ",
-                  "form": "single"
+                  "han": "三十",
+                  "rom": "so̤ⁿ-se̍h",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "十年",
-                  "rom": "-se̍h",
-                  "form": "phrase"
+                  "han": "年",
+                  "rom": "níng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
@@ -39038,26 +39038,25 @@
                 {
                   "type": "word",
                   "han": "復",
-                  "rom": "níng",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "生",
                   "rom": "ho̤h",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "男",
+                  "han": "生",
                   "rom": "saⁿ",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "女囝",
+                  "han": "男女囝",
                   "rom": "náng-dṳ̂-giô̤ⁿ",
                   "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
                 }
               ]
             },
@@ -39352,7 +39351,7 @@
             {
               "type": "verse",
               "verse": 22,
-              "rom": "Sa̤-lo̤̍h so̤ⁿ-se̍h ho̍i saⁿ Ná-ho̤̍h.:",
+              "rom": "Sa̤-lo̤̍h so̤ⁿ-se̍h ho̍i saⁿ Ná-ho̤̍h:",
               "han": "西鹿三十歲生拿鶴。",
               "tokens": [
                 {
@@ -44525,7 +44524,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "Sê̤ ū ē dā̤, deo deó dṳ̂ mi̍ng-sá̤ⁿ, chiâⁿ dṳ̂ gah guâ beong-kui, dṳ̂ iū-bá̤ⁿ, guâ cuh kṳ̍ cô̤-bá̤ⁿ.",
+              "rom": "Sê̤ ū ē dā̤, deo deó dṳ̂ mi̍ng-sá̤ⁿ, chiâⁿ dṳ̂ gah guâ beong-kui, dṳ̂ cô̤-bá̤ⁿ, guâ cuh kṳ̍ iū-bá̤ⁿ, dṳ̂ iū-bá̤ⁿ, guâ cuh kṳ̍ cô̤-bá̤ⁿ.",
               "han": "所有其地，都著汝面前，請你佮我分開。汝左𤖭，我即去右𤖭；汝右𤖭，我即去左𤖭。”",
               "tokens": [
                 {
@@ -44630,7 +44629,7 @@
                 {
                   "type": "word",
                   "han": "左𤖭",
-                  "rom": "iū-bá̤ⁿ",
+                  "rom": "cô̤-bá̤ⁿ",
                   "form": "phrase"
                 },
                 {
@@ -44659,12 +44658,63 @@
                 {
                   "type": "word",
                   "han": "右𤖭",
-                  "rom": "cô̤-bá̤ⁿ",
+                  "rom": "iū-bá̤ⁿ",
                   "form": "phrase"
                 },
                 {
                   "type": "punct",
                   "han": "；",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "汝",
+                  "rom": "dṳ̂",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "右𤖭",
+                  "rom": "iū-bá̤ⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "我",
+                  "rom": "guâ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "去",
+                  "rom": "kṳ̍",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "左𤖭",
+                  "rom": "cô̤-bá̤ⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                },
+                {
+                  "type": "punct",
+                  "han": "”",
                   "rom": ""
                 }
               ]
@@ -47098,7 +47148,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "pā Î-láng-ó̤ng Gi-dāi-lô̤-mâ, le̍h-co̤̍h ó̤ng Dá̤-da̍h, Sī-ná ó̤ng A̍ng-la̍h-bi, Î-la̍h-sah ó̤ng A̍-lio̤̍h; cí si̍ gá̤ ó̤ng gah hṳ̂ ngō gá̤ ó̤ng gau-ce̍ng.",
+              "rom": "pā Î-láng ó̤ng Gi-dāi-lô̤-mâ, le̍h-co̤̍h ó̤ng Dá̤-da̍h, Sī-ná ó̤ng A̍ng-la̍h-bi, Î-la̍h-sah ó̤ng A̍-lio̤̍h; cí si̍ gá̤ ó̤ng gah hṳ̂ ngō gá̤ ó̤ng gau-ce̍ng.",
               "han": "拍以攔王基大老瑪、列族王提達、示拿王暗拉非、以拉薩王亞略，只四個王佮許五個王交戰。",
               "tokens": [
                 {
@@ -47109,9 +47159,15 @@
                 },
                 {
                   "type": "word",
-                  "han": "以攔王",
-                  "rom": "Î-láng-ó̤ng",
+                  "han": "以攔",
+                  "rom": "Î-láng",
                   "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "王",
+                  "rom": "ó̤ng",
+                  "form": "single"
                 },
                 {
                   "type": "word",
