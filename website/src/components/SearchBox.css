@@ -128,12 +128,57 @@ mark {
   color: var(--text-secondary);
 }
 
+.search-options {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.search-mode {
+  display: inline-flex;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.search-mode-button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 0.8em;
+  color: var(--text-secondary);
+  padding: var(--spacing-xs) var(--spacing-md);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.search-mode-button:hover {
+  background-color: var(--hover-bg);
+}
+
+.search-mode-button.active {
+  background-color: var(--active-bg);
+  color: #ffffff;
+}
+
+.search-hint {
+  font-size: 0.78em;
+  color: var(--text-secondary);
+  font-family: var(--font-roman);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .search-input {
     font-size: 0.9em;
     padding: var(--spacing-sm);
     padding-right: 36px;
+  }
+
+  .search-hint {
+    font-size: 0.72em;
   }
 
   .results-list {
