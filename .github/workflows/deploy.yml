@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]  # 當推送到 main 分支時觸發
+  pull_request:         # PR 也跑檢查，但不部署
   workflow_dispatch:    # 允許手動觸發
 
 permissions:
@@ -28,20 +29,44 @@ jobs:
           cache: 'npm'
           cache-dependency-path: website/package-lock.json
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Install dependencies
         run: npm ci
         working-directory: ./website  # 重要：指定在 website 資料夾執行
+
+      - name: Lint
+        run: npm run lint
+        working-directory: ./website
+
+      # 擋掉「改了 data/*.txt 卻忘了重新建置」——網站會靜靜地讀到舊資料。
+      # 這三個步驟只用 Python 標準函式庫，不必安裝任何套件；
+      # rhyme_table 與 site_icons 需要 openpyxl / Pillow，且來源極少變動，故不在此檢查。
+      - name: Check generated data is in sync with source text
+        run: |
+          python scripts/build_all.py --only bible_data rom_to_han_dict homophone_table
+          if ! git diff --quiet -- data/ website/public/; then
+            echo "::error::生成的資料與 data/ 的來源文本不同步"
+            echo "請在本機執行 python scripts/build_all.py 並提交產生的變更："
+            git diff --stat -- data/ website/public/
+            exit 1
+          fi
 
       - name: Build
         run: npm run build
         working-directory: ./website  # 重要：指定在 website 資料夾執行
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./website/dist  # 指定編譯後的檔案位置
 
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
