@@ -56,6 +56,12 @@ python scripts/build_all.py --skip site_icons
 提供 `HAN_TO_ROM`、`ROM_TO_HAN`、`HAN_TO_ENG` 對照表與 `get_book_by_page()`、
 `get_book_index()`。**新增書卷前，書名必須先出現在這裡。**
 
+### `scripts/romanization_converter.py` — 平話字轉換（共用）
+
+平話字 ↔ 輸入式的後端轉換邏輯，由 `rom_to_han_dict.py` 使用。
+前端的對應實作在 `website/src/utils/romanization.js`——**兩邊都改到時要保持一致**。
+對照規則見 [romanization.md](romanization.md)。
+
 ### `scripts/build/rom_to_han_dict.py`
 
 **輸入**：`data/borhlang_bannuaci.dict.yaml`（輸入法詞典）、`data/bible_data.json`（詞頻）
