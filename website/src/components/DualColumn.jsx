@@ -1,6 +1,6 @@
 import './DualColumn.css';
 
-function DualColumn({ chapter, pageMapping, pageOcrResults, bookName, isForeword }) {
+function DualColumn({ chapter, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }

@@ -30,17 +30,6 @@ function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelec
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  if (!bibleData || !bibleData.books || bibleData.books.length === 0) {
-    return null;
-  }
-
-  const currentBook = bibleData.books[currentBookIndex];
-
-  // 根據英文名稱找到書卷在 bibleData 中的索引
-  const findBookIndex = (engName) => {
-    return bibleData.books.findIndex(b => b.name_eng === engName);
-  };
-
   // 計算章節選擇器位置（相對於 dropdown）
   const updateChapterPopupPosition = useCallback((book) => {
     const cellElement = bookCellRefs.current[book.eng];
@@ -68,8 +57,20 @@ function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelec
     return () => dropdownElement.removeEventListener('scroll', handleScroll);
   }, [selectedBook, updateChapterPopupPosition]);
 
+  // 以下需要 bibleData；所有 Hook 都必須在這個提前 return 之前呼叫
+  if (!bibleData || !bibleData.books || bibleData.books.length === 0) {
+    return null;
+  }
+
+  const currentBook = bibleData.books[currentBookIndex];
+
+  // 根據英文名稱找到書卷在 bibleData 中的索引
+  const findBookIndex = (engName) => {
+    return bibleData.books.findIndex(b => b.name_eng === engName);
+  };
+
   // 處理書卷點擊
-  const handleBookClick = (book, e) => {
+  const handleBookClick = (book) => {
     if (!book.hasContent) return;
 
     // 如果點擊已選中的書卷，關閉章節選擇器
@@ -126,7 +127,7 @@ function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelec
             className={`book-cell ${!book.hasContent ? 'disabled' : ''} ${
               currentBook?.name_eng === book.eng ? 'current' : ''
             } ${selectedBook?.eng === book.eng ? 'selected' : ''}`}
-            onClick={(e) => handleBookClick(book, e)}
+            onClick={() => handleBookClick(book)}
           >
             <span className="book-abbr">{book.abbr || book.han.slice(0, 2)}</span>
             <span className="book-full-name">{book.rom}</span>

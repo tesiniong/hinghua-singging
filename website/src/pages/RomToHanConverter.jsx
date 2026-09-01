@@ -81,7 +81,7 @@ function normalizeInput(text) {
   };
 
   // 分割：保留空格、連字號、中英文標點符號
-  const tokens = text.split(/(\s+|-+|[，。！？；：、（）「」『』《》,.\!?;:\(\)\[\]\{\}"'<>])/);
+  const tokens = text.split(/(\s+|-+|[，。！？；：、（）「」『』《》,.!?;:()[\]{}"'<>])/);
 
   return tokens.map(token => {
     // 空字符串，跳過
@@ -109,7 +109,7 @@ function normalizeInput(text) {
     const tokenNFD = token.normalize('NFD');
 
     // 只要包含字母，就嘗試轉換（即使有數字，因為可能是輸入式如 gaa1）
-    if (/[a-z̤̄̆̂̃̍ⁿṳ]/i.test(tokenNFD)) {
+    if (/[a-z\u0324\u0304\u0306\u0302\u0303\u030D\u207F\u1E73]/i.test(tokenNFD)) {
       try {
         // 如果已經是輸入式（末尾有數字 1-7），直接返回
         if (/^[a-z]+[1-7]$/i.test(token)) {
@@ -283,8 +283,6 @@ const RomToHanConverter = () => {
 
   // 顯示候選字選單
   const showCandidates = (index, charIndex, e) => {
-    const token = convertedTokens[index];
-
     // 計算位置
     const rect = e.target.getBoundingClientRect();
     setCandidatePos({

@@ -26,6 +26,8 @@ function Navbar() {
       // 向下滾動，隱藏導航欄
       else if (currentScrollY > lastScrollY && currentScrollY > 100) {
         setIsVisible(false);
+        // 導航欄隱藏時一併收起選單（原本靠額外的 effect 同步 state）
+        setIsMenuOpen(false);
       }
 
       setLastScrollY(currentScrollY);
@@ -38,13 +40,6 @@ function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [lastScrollY]);
-
-  // 當導航欄隱藏時，自動關閉選單
-  useEffect(() => {
-    if (!isVisible && isMenuOpen) {
-      setIsMenuOpen(false);
-    }
-  }, [isVisible, isMenuOpen]);
 
   // 點擊外部關閉選單
   useEffect(() => {

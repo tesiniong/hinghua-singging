@@ -24,6 +24,10 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      // 標題中的 U+3000 表意空格是刻意的排版，對應原書
+      'no-irregular-whitespace': ['error', { skipJSXText: true }],
+      // 平話字的組合變音符號以 \uXXXX 明確轉義，屬刻意寫法
+      'no-misleading-character-class': ['error', { allowEscape: true }],
     },
   },
 ])

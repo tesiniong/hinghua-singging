@@ -1,6 +1,6 @@
 import './SingleLanguage.css';
 
-function SingleLanguage({ chapter, language, pageMapping, pageOcrResults, bookName, isForeword }) {
+function SingleLanguage({ chapter, language, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }

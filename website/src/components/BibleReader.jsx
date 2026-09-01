@@ -34,17 +34,17 @@ function BibleReader({ bibleData }) {
   const isForeword = book.name_eng === 'Foreword' || book.name_eng === 'Preface';
   const isEnglishForeword = book.name_eng === 'Foreword';
 
-  useEffect(() => {
-    // 如果是英文序，強制切換到 rom-only 模式
-    if (isEnglishForeword && mode !== 'rom-only') {
-      setMode('rom-only');
-    }
-  }, [currentBookIndex, isEnglishForeword]);
+  // 英文序只有羅馬字、沒有漢字版本，固定以 rom-only 呈現。
+  // ModeSelector 在此情況下已停用其他模式按鈕；離開序言後會回到使用者原本選的模式。
+  const effectiveMode = isEnglishForeword ? 'rom-only' : mode;
 
   // Effect to scroll to controls after search result click
   useEffect(() => {
     if (shouldScrollToControls && controlsRef.current) {
       controlsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // 一次性旗標，捲動後清除。改用 ref 會讓「搜尋結果落在當前章節」時
+      // 因為相依項沒變而不觸發捲動，因此這裡保留 state。
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShouldScrollToControls(false);
     }
   }, [shouldScrollToControls, currentBookIndex, currentChapter]);
@@ -71,7 +71,7 @@ function BibleReader({ bibleData }) {
       if (!pageMapping || !pageMapping[book.name_han]) return null;
       try {
         return pageMapping[book.name_han]["1"].page_start;
-      } catch (e) {
+      } catch {
         return null;
       }
     }
@@ -151,7 +151,7 @@ function BibleReader({ bibleData }) {
 
         <div className="bible-controls" ref={controlsRef}>
           <ModeSelector
-            currentMode={mode}
+            currentMode={effectiveMode}
             onModeChange={handleModeChange}
             isEnglishForeword={isEnglishForeword}
           />
@@ -193,39 +193,35 @@ function BibleReader({ bibleData }) {
         </div>
 
         <div className="bible-content">
-          {mode === 'dual' && (
+          {effectiveMode === 'dual' && (
             <DualColumn
               chapter={chapter}
-              pageMapping={pageMapping}
               pageOcrResults={pageOcrResults}
               bookName={book.name_han}
               isForeword={isForeword}
             />
           )}
-          {mode === 'ruby' && (
+          {effectiveMode === 'ruby' && (
             <RubyMode
               chapter={chapter}
-              pageMapping={pageMapping}
               pageOcrResults={pageOcrResults}
               bookName={book.name_han}
               isForeword={isForeword}
             />
           )}
-          {mode === 'han-only' && (
+          {effectiveMode === 'han-only' && (
             <SingleLanguage
               chapter={chapter}
               language="han"
-              pageMapping={pageMapping}
               pageOcrResults={pageOcrResults}
               bookName={book.name_han}
               isForeword={isForeword}
             />
           )}
-          {mode === 'rom-only' && (
+          {effectiveMode === 'rom-only' && (
             <SingleLanguage
               chapter={chapter}
               language="rom"
-              pageMapping={pageMapping}
               pageOcrResults={pageOcrResults}
               bookName={book.name_han}
               isForeword={isForeword}

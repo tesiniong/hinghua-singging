@@ -1,9 +1,20 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './ImageViewer.css';
 
+function pageFromUrl() {
+  return new URLSearchParams(window.location.search).get('page');
+}
+
 function ImageViewer() {
-  const [currentPage, setCurrentPage] = useState(null);
-  const [imagePath, setImagePath] = useState('');
+  // 直接從網址參數初始化，首次繪製就是正確內容（原本要等 mount 後的 effect 才設定）
+  const [currentPage, setCurrentPage] = useState(() => {
+    const page = pageFromUrl();
+    return page ? parseInt(page, 10) : null;
+  });
+  const [imagePath, setImagePath] = useState(() => {
+    const page = pageFromUrl();
+    return page ? `${import.meta.env.BASE_URL}images/${page}.webp` : '';
+  });
   const [scale, setScale] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
@@ -11,17 +22,6 @@ function ImageViewer() {
 
   const MIN_PAGE = 1;
   const MAX_PAGE = 1485;
-
-  useEffect(() => {
-    // 從 URL 參數獲取圖片路徑
-    const params = new URLSearchParams(window.location.search);
-    const page = params.get('page');
-    if (page) {
-      const pageNum = parseInt(page, 10);
-      setCurrentPage(pageNum);
-      setImagePath(`${import.meta.env.BASE_URL}images/${page}.webp`);
-    }
-  }, []);
 
   const handleZoomIn = () => {
     setScale(prev => Math.min(prev + 0.2, 3));

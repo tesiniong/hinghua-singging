@@ -1,6 +1,6 @@
 import './RubyMode.css';
 
-function RubyMode({ chapter, pageMapping, pageOcrResults, bookName, isForeword }) {
+function RubyMode({ chapter, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
     return <div>沒有經文資料</div>;
   }
