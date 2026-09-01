@@ -22,8 +22,8 @@
     <meta property="og:site_name" content="興化語聖經數位化專案" />
     <meta property="og:locale" content="zh_TW" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:url" content="https://tesiniong.github.io/hinghua-singging/" />
-    <meta property="og:image" content="https://tesiniong.github.io/hinghua-singging/og-image.png" />
+    <meta property="og:url" content="%VITE_SITE_URL%" />
+    <meta property="og:image" content="%VITE_SITE_URL%og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="舊新約全書　興化平話 — THE HOLY BIBLE in the HINGHWA DIALECT, ROMANIZED, anno domini 1912" />
@@ -32,22 +32,25 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="興化平話聖經 - 1912年興化語聖經數位化" />
     <meta name="twitter:description" content="1912年出版的興化語（莆仙話）聖經數位化，提供興化平話字（羅馬字）與漢字轉寫對照。" />
-    <meta name="twitter:image" content="https://tesiniong.github.io/hinghua-singging/og-image.png" />
+    <meta name="twitter:image" content="%VITE_SITE_URL%og-image.png" />
 
     <!-- Additional SEO -->
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
-    <link rel="canonical" href="https://tesiniong.github.io/hinghua-singging/" />
+    <link rel="canonical" href="%VITE_SITE_URL%" />
 
-    <!-- SPA GitHub Pages 路由修復：恢復從 404.html 儲存的路徑 -->
+    <!-- SPA 路由修復：恢復從 404.html 儲存的路徑。
+         站台網址與 base 由 Vite 在建置時代入（見 vite.config.js 與 .env）。 -->
     <script>
       (function() {
         var redirectPath = sessionStorage.getItem('spa-redirect-path');
         sessionStorage.removeItem('spa-redirect-path');
 
         if (redirectPath && redirectPath !== '/') {
+          // base 形如 /hinghua-singging/ 或 /，去掉尾斜線再接上路徑
+          var base = '%BASE_URL%'.replace(/\/$/, '');
           // 使用 history.replaceState 恢復路由，不會觸發頁面重新載入
-          history.replaceState(null, null, '/hinghua-singging' + redirectPath);
+          history.replaceState(null, null, base + redirectPath);
         }
       })();
     </script>

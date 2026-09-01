@@ -5,6 +5,7 @@ website/node_modules/
 # Build output
 dist/
 website/dist/
+website/dist-mirror/
 __pycache__/
 *.pyc
 

@@ -1,9 +1,12 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
+# 一個 workflow 部署兩個站：
+#   GitHub Pages（主站，base /hinghua-singging/）
+#   Cloudflare Pages（鏡像，base /，供中國大陸讀者；設定見 docs/deployment.md）
 on:
   push:
     branches: ["main"]  # 當推送到 main 分支時觸發
-  pull_request:         # PR 也跑檢查，但不部署
+  pull_request:         # PR 也跑檢查，但不部署主站；鏡像會部署預覽版
   workflow_dispatch:    # 允許手動觸發
 
 permissions:
@@ -55,15 +58,43 @@ jobs:
             exit 1
           fi
 
-      - name: Build
+      - name: Build (GitHub Pages)
         run: npm run build
         working-directory: ./website  # 重要：指定在 website 資料夾執行
+
+      # 鏡像站以根路徑部署。站台網址優先取 repository variable MIRROR_SITE_URL
+      # （自訂網域），沒有就退回 <專案>.pages.dev。變數都沒設時仍會建置，
+      # 讓 PR 也能確認鏡像設定建得起來。
+      - name: Build (mirror)
+        run: npm run build -- --outDir dist-mirror
+        working-directory: ./website
+        env:
+          VITE_BASE: /
+          VITE_SITE_URL: ${{ vars.MIRROR_SITE_URL || (vars.CF_PAGES_PROJECT && format('https://{0}.pages.dev/', vars.CF_PAGES_PROJECT)) || 'https://mirror.invalid/' }}
 
       - name: Upload artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./website/dist  # 指定編譯後的檔案位置
+
+      # 鏡像站：push 到 main 部署正式版；同一倉庫的 PR 或手動觸發其他分支則部署預覽版
+      # （網址 <分支>.<專案>.pages.dev）。未設定 CF_PAGES_PROJECT 時整步略過，
+      # 所以在 Cloudflare 那邊設定完成之前，這個 workflow 的行為與以前完全相同。
+      - name: Deploy mirror to Cloudflare Pages
+        if: >-
+          vars.CF_PAGES_PROJECT != '' &&
+          (github.event_name != 'pull_request' ||
+           github.event.pull_request.head.repo.full_name == github.repository)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: >-
+            pages deploy website/dist-mirror
+            --project-name=${{ vars.CF_PAGES_PROJECT }}
+            --branch=${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+            --commit-dirty=true
 
   deploy:
     if: github.event_name != 'pull_request'

@@ -53,3 +53,24 @@ Append-only。新的紀錄加在最上面，**不要修改或刪除既有條目*
 
 未做、留待日後：把 Gentium Plus 下載至本機以擺脫 CDN 依賴
 （中國大陸使用者可能取不到）、字型子集化。
+
+---
+
+## 2026-09-02 鏡像站（Cloudflare Pages）與字型本機化
+
+主要受眾在莆田、仙遊，而 github.io 在中國大陸時常連不上；決定另建鏡像。
+方案比較後排除境內託管（需 ICP 備案，且發布經文內容受《互聯網宗教信息服務管理辦法》
+限制，個人無法取得許可），也不選阿里雲香港 OSS（不想在該處留金融資訊），
+採 Cloudflare Pages 免費方案配 eu.org 免費網域。
+
+- **base 參數化**：`vite.config.js` 的 base 與 `index.html`、`404.html` 內的絕對網址
+  改由 `website/.env` 的 `VITE_BASE`、`VITE_SITE_URL` 提供，CI 以環境變數覆寫。
+  `404.html` 從 `public/` 移到 `website/` 並列為 Vite 入口，圖示路徑不再手寫前綴。
+- **字型**：Gentium Plus 改為本機 woff2（SIL 6.200 原版，Regular／Bold），移除 Google Fonts
+  的 `@import`。這也修掉主站在大陸首次繪製會卡到 CDN 連線逾時的問題。
+- **CI**：同一個 workflow 多建一次鏡像版並以 wrangler 部署；未設定 `CF_PAGES_PROJECT`
+  時略過，行為與先前相同。同倉庫的 PR 會部署鏡像預覽版。
+- **決定**：鏡像的 canonical 指向自己而非主站，否則百度會把讀者導回打不開的 github.io。
+
+未做：eu.org 網域申請與 Cloudflare、GitHub secrets 設定待專案擁有者完成
+（步驟見 deployment.md）；網域核准前鏡像的 canonical 暫指 `<專案>.pages.dev`。

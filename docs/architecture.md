@@ -41,8 +41,9 @@ src/
 `public/404.html` 把路徑存入 `sessionStorage` 並導回首頁，`index.html` 讀回後用
 `history.replaceState()` 還原路由。
 
-**注意**：`public/` 的檔案不經 Vite 處理，`404.html` 內的資源路徑必須自己帶
-`/hinghua-singging/` 前綴。
+`404.html` 放在 `website/` 根目錄並列為 Vite 的 HTML 入口，與 `index.html` 一樣會套上 base、
+替換 `%BASE_URL%` 與 `%VITE_SITE_URL%`。`public/` 底下的檔案不經 Vite 處理，不要放 HTML。
+base 與站台網址由 `website/.env` 提供，鏡像站在 CI 覆寫，見 [deployment.md](deployment.md)。
 
 ---
 
@@ -121,10 +122,10 @@ TauhuOo 缺 U+0324（下圓點）與 U+1E72（Ṳ），單獨使用會出現豆�
 
 基礎字級桌面 20px、行動 18px，行高 1.8；Ruby 羅馬字 0.6em / 0.55em。
 
-漢字與羅馬字的字型檔都在倉庫內（`website/src/assets/fonts/`），只有國際音標用的
-**Gentium Plus 是從 Google Fonts CDN 載入**（`src/index.css` 的 `@import`）——
-這是全站唯一的外部資源依賴，在中國大陸可能取不到，屆時會退回 DejaVu Sans。
-若要完全離線，需把 Gentium Plus 下載進 `assets/fonts/` 並改用 `@font-face`。
+所有字型檔都在倉庫內（`website/src/assets/fonts/`），全站沒有外部資源依賴，
+這是鏡像站在中國大陸能正常顯示的前提。Gentium Plus 用 SIL 6.200 釋出的原版 woff2
+（Regular 與 Bold），刻意不做子集化：OFL 的保留字型名稱條款不允許修改過的字型
+繼續叫 Gentium。瀏覽器只在頁面真的排到音標時才會下載它。
 
 ---
 

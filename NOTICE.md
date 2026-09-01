@@ -59,10 +59,12 @@ license text internally, in its name table (nameID 13).
 |---|---|---|
 | Noto Sans TC | © 2014–2021 Adobe, with Reserved Font Name 'Source' | [SIL OFL 1.1](https://scripts.sil.org/OFL) |
 | TauhuOo (寶島宋體) | © 2014–2020 Adobe / TSNG, with Reserved Font Name 'Source' | [SIL OFL 1.1](https://scripts.sil.org/OFL) |
+| Gentium Plus | © 2003–2023 SIL International, with Reserved Font Names 'Gentium' and 'SIL' | [SIL OFL 1.1](https://scripts.sil.org/OFL) |
 | DejaVu Sans | © 2003 Bitstream, Inc.; © 2006 Tavmjong Bah；DejaVu 的修改部分為公有領域 | [Bitstream Vera / DejaVu License](https://dejavu-fonts.github.io/License.html) |
 
 OFL 字型不得單獨販售，且衍生字型必須沿用 OFL 授權。將字型與本專案（MIT）一同散布是
-OFL 明文允許的。
+OFL 明文允許的。Gentium Plus 隨附的是 SIL 釋出的原版檔案，未經子集化或其他修改，
+因此沿用其保留字型名稱。
 
 OFL fonts may not be sold on their own, and derivative fonts must stay under OFL. Bundling
 them alongside MIT-licensed software is explicitly permitted by the OFL.

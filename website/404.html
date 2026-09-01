@@ -2,9 +2,9 @@
 <html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/hinghua-singging/favicon-32.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/hinghua-singging/favicon-192.png" />
-    <link rel="apple-touch-icon" href="/hinghua-singging/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="Sy-8gI59JlfOrq_zzP2f46bJA8RQAmBIONYqD0gpZs4" />
     <title>興化平話聖經 Hing-hua̍ Báⁿ-uā Si̍ng-ging</title>
@@ -22,8 +22,8 @@
     <meta property="og:site_name" content="興化語聖經數位化專案" />
     <meta property="og:locale" content="zh_TW" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:url" content="https://tesiniong.github.io/hinghua-singging/" />
-    <meta property="og:image" content="https://tesiniong.github.io/hinghua-singging/og-image.png" />
+    <meta property="og:url" content="%VITE_SITE_URL%" />
+    <meta property="og:image" content="%VITE_SITE_URL%og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="舊新約全書　興化平話 — THE HOLY BIBLE in the HINGHWA DIALECT, ROMANIZED, anno domini 1912" />
@@ -32,29 +32,32 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="興化平話聖經 - 1912年興化語聖經數位化" />
     <meta name="twitter:description" content="1912年出版的興化語（莆仙話）聖經數位化，提供興化平話字（羅馬字）與漢字轉寫對照。" />
-    <meta name="twitter:image" content="https://tesiniong.github.io/hinghua-singging/og-image.png" />
+    <meta name="twitter:image" content="%VITE_SITE_URL%og-image.png" />
 
     <!-- Additional SEO -->
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
-    <link rel="canonical" href="https://tesiniong.github.io/hinghua-singging/" />
+    <link rel="canonical" href="%VITE_SITE_URL%" />
 
-    <!-- SPA GitHub Pages 路由修復：將路徑儲存並重新導向 -->
+    <!-- SPA 路由修復：將路徑儲存並重新導向到首頁，由 index.html 還原。
+         這個檔案是 Vite 的 HTML 入口（見 vite.config.js），站台網址與 base
+         在建置時代入，圖示路徑也會自動套上 base。 -->
     <script>
       (function() {
-        var pathSegments = location.pathname.split('/').filter(Boolean);
-        // 移除 base path (hinghua-singging)
-        if (pathSegments[0] === 'hinghua-singging') {
-          pathSegments.shift();
+        // base 形如 /hinghua-singging/ 或 /
+        var base = '%BASE_URL%';
+        var path = location.pathname;
+        if (path.indexOf(base) === 0) {
+          path = path.slice(base.length);
         }
-        // 重組路徑
-        var redirectPath = '/' + pathSegments.join('/');
+        // 重組路徑，順便去掉多餘的斜線
+        var redirectPath = '/' + path.split('/').filter(Boolean).join('/');
 
         // 儲存完整路徑資訊（包含 query 和 hash）到 sessionStorage
         sessionStorage.setItem('spa-redirect-path', redirectPath + location.search + location.hash);
 
         // 重新導向到首頁
-        location.replace('/hinghua-singging/');
+        location.replace(base);
       })();
     </script>
   </head>

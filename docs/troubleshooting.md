@@ -51,12 +51,17 @@ JSX 把 `\n` 當成一般空白。三種模式各有對應的換行處理函式�
 ## 部署
 
 **直接開子頁面出現 404**
-GitHub Pages 對 SPA 的限制。確認 `website/public/404.html` 存在，
+靜態主機對 SPA 的限制。確認建置產物根目錄有 `404.html`（來源是 `website/404.html`），
 且 `index.html` 內的 `sessionStorage` 還原腳本正常。
 
 **`public/` 裡的資源在線上 404**
-`public/` 的檔案不經 Vite 處理，不會自動加上 base path。
-這些檔案內的絕對路徑必須自己寫成 `/hinghua-singging/…`。
+`public/` 的檔案不經 Vite 處理，不會自動加上 base path。從 JS 引用它們要用
+`import.meta.env.BASE_URL` 組路徑；HTML 不要放進 `public/`，放 `website/` 並加進
+`vite.config.js` 的 `input`（`404.html` 就是這樣處理）。
+
+**鏡像站沒更新或打不開**
+見 [deployment.md](deployment.md) 的「常見失敗」。最常見的是 repository variable
+`CF_PAGES_PROJECT` 沒設，此時 CI 會直接略過鏡像部署。
 
 **PDF 打不開，只有一百多 bytes**
 那是 Git LFS 指標檔，內容沒下載。裝好 `git-lfs` 後執行 `git lfs install && git lfs pull`。
@@ -72,4 +77,5 @@ GitHub Pages 對 SPA 的限制。確認 `website/public/404.html` 存在，
    否則該章節沒有 📖 圖示。
 3. **Token 對齊的前提**：假設 1 漢字 ↔ 1 羅馬字音節，合音字要靠 `「」` 特別標記。
 4. **圖片體積**：WebP 共約 270 MB 且納入版控，倉庫 `.git` 已接近 300 MB。
-   GitHub Pages 站台上限 1 GB、每月流量 100 GB，目前尚可，但重新處理圖片會讓倉庫快速膨脹。
+   GitHub Pages 站台上限 1 GB、每月流量 100 GB；Cloudflare Pages 每站 20,000 檔、單檔 25 MiB。
+   目前尚可，但重新處理圖片會讓倉庫與兩個站台一起膨脹。
