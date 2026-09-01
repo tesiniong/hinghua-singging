@@ -105,7 +105,7 @@ We welcome all forms of contributions!
 
 ### 如何貢獻 How to Contribute
 
-1. **文本錄入 Text Input**: 協助錄入剩餘 61 本書的經文 (Help transcribe the remaining 61 books)
+1. **文本錄入 Text Input**: 協助錄入尚未完成的經文 (Help transcribe the remaining books)
 2. **校對修正 Proofreading**: 校對已錄入的文本，修正錯誤 (Proofread existing texts and fix errors)
 3. **功能開發 Feature Development**: 改進網站功能和使用者體驗 (Improve website features and UX)
 4. **語言學資料 Linguistic Data**: 提供興化語相關研究資料 (Provide Hinghua language research materials)
@@ -135,35 +135,37 @@ Or **open an Issue** to discuss your ideas!
 
 ## 技術架構 Tech Stack
 
-- **前端框架 Frontend**: React 18 + Vite
-- **路由 Routing**: React Router v6
-- **字體 Fonts**: Noto Sans TC, DejaVu Sans
+- **前端框架 Frontend**: React 19 + Vite 7
+- **路由 Routing**: React Router 7
+- **字體 Fonts**: Noto Sans TC, DejaVu Sans, Gentium Plus
 - **圖片格式 Images**: WebP (~270MB)
-- **部署 Deployment**: GitHub Pages
+- **部署 Deployment**: GitHub Pages (GitHub Actions)
+
+開發文件見 [`docs/`](docs/)，從 [`CLAUDE.md`](CLAUDE.md) 進入。
+Development docs live in [`docs/`](docs/); start from [`CLAUDE.md`](CLAUDE.md).
 
 ---
 
 ## 專案狀態 Project Status
 
-### 已完成 Completed
-- 全部掃描圖片處理 (All scan pages processed)
-- 5 本書文本數位化 (5 books digitized):
-  - 創世記 Genesis
-  - 馬太福音 Matthew
-  - 約翰二書 2 John
-  - 約翰三書 3 John
-  - 使徒猶大書 Jude
-- 網站核心功能實現 (Core website features implemented)
+1485 張掃描頁面已全部處理，網站功能齊備，文本錄入持續進行中。
+最新的錄入進度（書卷／章／節，舊約與新約分列）由網站自動計算，
+請見[聖經介紹頁](https://tesiniong.github.io/hinghua-singging/about-bible)。
 
-### 進行中 In Progress
-- 剩餘 61 本書的文本錄入 (Text transcription for remaining 61 books)
+All 1485 scanned pages are processed and the site is feature-complete;
+transcription is ongoing. Live progress is computed by the site itself --
+see the [About page](https://tesiniong.github.io/hinghua-singging/about-bible).
 
 ---
 
 ## 授權 License
 
-本專案為非商業性學術研究專案，以保存和推廣興化語文化遺產為目標。
-This is a non-commercial academic project aimed at preserving and promoting Hinghua cultural heritage.
+程式碼採 [MIT](LICENSE) 授權；經文轉寫與衍生資料採 CC BY 4.0；
+掃描影像與內建字型各有其條款，詳見 [NOTICE.md](NOTICE.md)。
+
+The source code is [MIT](LICENSE) licensed; the transcribed text and derived
+data are CC BY 4.0. Scans and bundled fonts have their own terms -- see
+[NOTICE.md](NOTICE.md).
 
 ---
 
@@ -180,7 +182,3 @@ This is a non-commercial academic project aimed at preserving and promoting Hing
 - [HathiTrust Digital Library](https://hdl.handle.net/2027/uc1.31822025315045)
 - [維基百科 - 莆仙語](https://zh.wikipedia.org/wiki/%E8%8E%86%E4%BB%99%E8%AF%9D) [Wikipedia - Puxian Min](https://zh.wikipedia.org/wiki/%E8%8E%86%E4%BB%99%E8%AF%9D)
 - [維基詞典 - 莆仙語](https://zh.wiktionary.org/wiki/Wiktionary:%E6%BC%A2%E8%AA%9E%E8%A9%9E%E6%A2%9D%E7%B7%A8%E5%AF%AB%E8%A6%8F%E7%AF%84/%E8%8E%86%E4%BB%99%E8%AA%9E) [Wiktionary - Puxian Min](https://en.wiktionary.org/wiki/Wiktionary:Chinese_entry_guidelines/Puxian_Min)
-
----
-
-**最後更新 Last Updated**: 2025-12-16
