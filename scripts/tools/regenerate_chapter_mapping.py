@@ -6,10 +6,16 @@
 """
 
 import json
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import DATA
 
-def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'data/chapter-page-mapping.json'):
+
+def generate_chapter_page_mapping(page_mapping: dict, output_file=None):
+    if output_file is None:
+        output_file = DATA / 'chapter-page-mapping.json'
     """
     生成章節-頁碼對應表
 
@@ -102,14 +108,14 @@ if __name__ == '__main__':
     print("=" * 60)
 
     # 檢查 page-ocr-results.json 是否存在
-    if not Path('data/page-ocr-results.json').exists():
+    if not (DATA / 'page-ocr-results.json').exists():
         print("[ERROR] data/page-ocr-results.json not found")
         print("  Please run ocr_page_numbers.py first, or create the file manually")
         exit(1)
 
     # 讀取 OCR 結果
     print("\n[1] Loading data/page-ocr-results.json...")
-    with open('data/page-ocr-results.json', 'r', encoding='utf-8') as f:
+    with open(DATA / 'page-ocr-results.json', 'r', encoding='utf-8') as f:
         page_mapping = json.load(f)
 
     print(f"[OK] Loaded {len(page_mapping)} pages")

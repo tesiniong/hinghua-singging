@@ -8,9 +8,13 @@ OCR 識別圖片上的章節號
 
 import re
 import json
+import sys
 from pathlib import Path
 from PIL import Image
 import pytesseract
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import DATA, PICS
 from book_info import get_book_by_page, ALL_BOOKS
 
 # 如果 Windows 系統，需要指定 tesseract 路徑
@@ -154,7 +158,9 @@ def scan_all_images(image_dir: str, renamed: bool = False) -> dict:
     return page_mapping
 
 
-def generate_chapter_page_mapping(page_mapping: dict, output_file: str = 'data/chapter-page-mapping.json'):
+def generate_chapter_page_mapping(page_mapping: dict, output_file=None):
+    if output_file is None:
+        output_file = DATA / 'chapter-page-mapping.json'
     """
     生成章節-頁碼對應表
 
@@ -274,7 +280,7 @@ if __name__ == '__main__':
     page_mapping = scan_all_images(image_dir, renamed=renamed)
 
     # 保存原始 OCR 結果
-    with open('data/page-ocr-results.json', 'w', encoding='utf-8') as f:
+    with open(DATA / 'page-ocr-results.json', 'w', encoding='utf-8') as f:
         json.dump(page_mapping, f, ensure_ascii=False, indent=2)
     print(f"\n[OK] 已保存 OCR 原始結果：data/page-ocr-results.json")
 

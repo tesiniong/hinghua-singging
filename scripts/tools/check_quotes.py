@@ -4,8 +4,13 @@
 Check if Unicode quotes are correctly identified as punctuation
 """
 import json
+import sys
+from pathlib import Path
 
-with open('bible_data.json', encoding='utf-8') as f:
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import DATA
+
+with open(DATA / 'bible_data.json', encoding='utf-8') as f:
     data = json.load(f)
 
 quote_chars = '\u201C\u201D\u2018\u2019'

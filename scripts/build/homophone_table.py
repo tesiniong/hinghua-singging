@@ -7,10 +7,14 @@
 
 import json
 import re
+import sys
 import unicodedata
 import argparse
 from pathlib import Path
 from collections import defaultdict
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import ROOT
 
 # 調符位置表
 TONE_POSITIONS = {
@@ -453,7 +457,7 @@ def main():
     args = parser.parse_args()
 
     # 檔案路徑
-    project_root = Path(__file__).parent.parent
+    project_root = ROOT
     lua_path = project_root / 'data' / 'cpx-pron-data.lua'
     bible_json_path = project_root / 'data' / 'bible_data.json'
     bible_yaml_path = project_root / 'data' / 'bible-han-rom-pairs.yaml'

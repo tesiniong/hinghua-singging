@@ -10,7 +10,9 @@
 4. 自動重新生成羅馬字轉漢字字典 romToHanDict.json
 
 使用方法：
-    python scripts/build_bible_data.py [han_file] [rom_file] [output_file]
+    python scripts/build/bible_data.py [han_file] [rom_file] [output_file]
+
+整條建置流程請用 scripts/build_all.py，它會連同字典與同音字表一起更新。
 
 注意：當聖經資料或詞典更新時，執行此腳本即可完成所有構建步驟！
 """
@@ -21,6 +23,9 @@ import sys
 import shutil
 from pathlib import Path
 import unicodedata
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import DATA, PUBLIC
 from book_info import ALL_BOOKS, HAN_TO_ROM, ROM_TO_HAN, HAN_TO_ENG
 
 def number_to_chinese(n):
@@ -467,7 +472,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
         # Case 1: 英文序
         if eng_name == 'Foreword':
             try:
-                with open('data/foreword-en.txt', 'r', encoding='utf-8') as f:
+                with open(DATA / 'foreword-en.txt', 'r', encoding='utf-8') as f:
                     content = f.read()
                 paragraphs = [p.strip() for p in content.splitlines() if p.strip()]
                 sections = []
@@ -482,7 +487,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
         # Case 2: 興化語序
         if eng_name == 'Preface':
             try:
-                with open('data/foreword-cpx.txt', 'r', encoding='utf-8') as f:
+                with open(DATA / 'foreword-cpx.txt', 'r', encoding='utf-8') as f:
                     content = f.read()
 
                 rom_part, han_part = "", ""
@@ -613,19 +618,19 @@ def merge_and_generate_json(han_data, rom_data, output_file):
                 "hasContent": eng_name in books_with_content
             })
 
-    book_list_file = Path('data/bookList.json')
+    book_list_file = DATA / 'bookList.json'
     with open(book_list_file, 'w', encoding='utf-8') as f:
         json.dump(book_list, f, ensure_ascii=False, indent=2)
     print(f"已生成書目清單: {book_list_file}")
 
     # 自動複製所有需要的 JSON 檔案到 website/public/
-    website_public_dir = Path('website/public')
+    website_public_dir = PUBLIC
     if website_public_dir.exists():
         # 要複製的檔案列表 (source_path, target_filename)
         files_to_copy = [
             (Path(output_file), 'bible_data.json'),
-            (Path('data/page-ocr-results.json'), 'page-ocr-results.json'),
-            (Path('data/chapter-page-mapping.json'), 'chapter-page-mapping.json'),
+            (DATA / 'page-ocr-results.json', 'page-ocr-results.json'),
+            (DATA / 'chapter-page-mapping.json', 'chapter-page-mapping.json'),
             (book_list_file, 'bookList.json'),
         ]
 
@@ -694,7 +699,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     stats["totals"] = TOTALS
 
     # 寫入 stats.json
-    stats_output_path = Path('website/public/stats.json')
+    stats_output_path = PUBLIC / 'stats.json'
     with open(stats_output_path, 'w', encoding='utf-8') as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
     print(f"  已產生統計資料: {stats_output_path}")
@@ -707,9 +712,9 @@ def merge_and_generate_json(han_data, rom_data, output_file):
 
 
 def main():
-    han_file = 'data/han.txt'
-    rom_file = 'data/rom.txt'
-    output_file = 'data/bible_data.json'
+    han_file = DATA / 'han.txt'
+    rom_file = DATA / 'rom.txt'
+    output_file = DATA / 'bible_data.json'
 
     if len(sys.argv) > 1:
         han_file = sys.argv[1]
@@ -726,17 +731,6 @@ def main():
 
     print("合併並生成 JSON...")
     merge_and_generate_json(han_data, rom_data, output_file)
-
-    # 自動重新生成羅馬字轉漢字字典
-    print("\n" + "=" * 60)
-    print("自動更新羅馬字轉漢字字典...")
-    print("=" * 60)
-    try:
-        import generate_rom_to_han_dict
-        generate_rom_to_han_dict.main()
-    except Exception as e:
-        print(f"警告：字典生成失敗 - {e}")
-        print("請手動執行：python scripts/generate_rom_to_han_dict.py")
 
 
 if __name__ == '__main__':

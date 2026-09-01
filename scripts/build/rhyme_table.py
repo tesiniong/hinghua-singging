@@ -13,6 +13,10 @@ from openpyxl.styles import Border
 import json
 import os
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import DATA, WEBSITE_DATA
 
 def is_cell_merged(ws, row, col):
     """檢查儲存格是否為合併儲存格的一部分"""
@@ -213,8 +217,8 @@ def parse_excel_rhyme_table(file_path):
 
 def main():
     # 更新檔案路徑為 data 目錄
-    excel_file = 'data/hinghua_rhymes.xlsx'
-    output_file = 'website/src/data/rhymeTableData.json'
+    excel_file = str(DATA / 'hinghua_rhymes.xlsx')
+    output_file = str(WEBSITE_DATA / 'rhymeTableData.json')
 
     if not os.path.exists(excel_file):
         # 如果 data/ 中沒有，嘗試根目錄
@@ -230,7 +234,7 @@ def main():
     print(f"提取了 {len(data)} 列資料")
 
     # 建立輸出目錄
-    os.makedirs('website/src/data', exist_ok=True)
+    os.makedirs(WEBSITE_DATA, exist_ok=True)
 
     # 儲存為 JSON
     with open(output_file, 'w', encoding='utf-8') as f:

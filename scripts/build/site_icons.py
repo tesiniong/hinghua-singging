@@ -8,16 +8,16 @@
 字型取自 website/src/assets/fonts/，與網站本身使用的字型一致；
 平話字的組合變音符號由 Pillow 的 Raqm 排版引擎處理。
 
-用法：python scripts/generate_site_icons.py
+用法：python scripts/build/site_icons.py
 """
 
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path(__file__).resolve().parents[1]
-FONTS = ROOT / "website" / "src" / "assets" / "fonts"
-OUT = ROOT / "website" / "public"
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import ROOT, FONTS, PUBLIC as OUT
 
 # 與 website/src/index.css 的 CSS 變數一致
 TEXT_PRIMARY = "#333333"

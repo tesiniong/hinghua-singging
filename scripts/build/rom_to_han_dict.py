@@ -20,7 +20,8 @@ from collections import defaultdict
 from typing import Dict, List, Tuple
 
 # 添加 scripts 目錄到路徑以便導入 romanization_converter
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from _paths import ROOT
 from romanization_converter import RomanizationConverter
 
 
@@ -275,7 +276,8 @@ def merge_data(
 
     # 處理詞組
     all_phrase_keys = set(yaml_phrases.keys()) | set(bible_phrase_freq.keys())
-    for key in all_phrase_keys:
+    # 排序後再走訪：直接迭代 set 會讓每次執行的鍵順序不同，輸出無法重現
+    for key in sorted(all_phrase_keys):
         candidates = {}
 
         # 優先使用聖經詞頻
@@ -299,7 +301,8 @@ def merge_data(
 
     # 處理單音節
     all_syllable_keys = set(yaml_syllables.keys()) | set(bible_syllable_freq.keys())
-    for key in all_syllable_keys:
+    # 排序後再走訪：直接迭代 set 會讓每次執行的鍵順序不同，輸出無法重現
+    for key in sorted(all_syllable_keys):
         candidates = {}
 
         # 優先使用聖經詞頻
@@ -329,7 +332,7 @@ def merge_data(
 
 def main():
     # 檔案路徑
-    project_root = Path(__file__).parent.parent
+    project_root = ROOT
     yaml_path = project_root / 'data' / 'borhlang_bannuaci.dict.yaml'
     bible_json_path = project_root / 'data' / 'bible_data.json'
     output_path = project_root / 'website' / 'public' / 'romToHanDict.json'

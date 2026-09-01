@@ -7,7 +7,10 @@
 
 import re
 import sys
-from parse_text_v4 import parse_structured_text
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'build'))
+from bible_data import parse_structured_text
 
 def normalize_text(text):
     """
@@ -180,8 +183,9 @@ def generate_report(comparison, output_file='changes_report.txt'):
 
 def main():
     if len(sys.argv) < 3:
-        print("用法: python incremental_update.py <舊版本.txt> <新版本.txt> [報告檔案.txt]")
-        print("範例: python incremental_update.py data/han_old.txt data/han.txt changes_report.txt")
+        print("用法: python scripts/tools/incremental_update.py <舊版本.txt> <新版本.txt> [報告檔案.txt]")
+        print("範例: git show HEAD~1:data/han.txt > /tmp/han_prev.txt")
+        print("      python scripts/tools/incremental_update.py /tmp/han_prev.txt data/han.txt changes_report.txt")
         sys.exit(1)
 
     old_file = sys.argv[1]
