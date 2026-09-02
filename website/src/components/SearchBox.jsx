@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import './SearchBox.css';
 import { foldRomanized, findRomanizedMatch } from '../utils/romanization';
+import DraftMark from './DraftMark';
 
 // 結果過多時只渲染前面這些筆，其餘只報總數，避免一次插入上千個節點
 const MAX_RESULTS = 200;
@@ -28,6 +29,7 @@ function SearchBox({ bibleData, onResultClick }) {
             chapterIdx,
             verseNum: section.verse,
             rom,
+            romDraft: section.rom_draft, // OCR 草稿的校對旗標；非草稿為 undefined
             han: section.han || '',
             folded: foldRomanized(rom),
           });
@@ -145,7 +147,10 @@ function SearchBox({ bibleData, onResultClick }) {
                     <div className="result-han">{highlight(result.han, result.hanHit)}</div>
                   )}
                   {result.rom && (
-                    <div className="result-rom">{highlight(result.rom, result.romHit)}</div>
+                    <div className="result-rom">
+                      <DraftMark flags={result.romDraft} />
+                      {highlight(result.rom, result.romHit)}
+                    </div>
                   )}
                 </div>
               </div>

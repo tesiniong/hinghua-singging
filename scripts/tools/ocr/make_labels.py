@@ -114,12 +114,14 @@ def make_page_crops(targets, pm, pages, filled, from_recognized=False):
         boxes, rx = page_lines(p, im)
         im = erase_rule(im, rx)
         d = WORK / "pagecrops" / p
+        if d.exists():
+            for old in d.glob("*.png"):
+                old.unlink()  # 行框的編號會隨 page_lines 的改動位移，一律重裁，不能沿用舊圖
         d.mkdir(parents=True, exist_ok=True)
         paths = []
         for k, b in enumerate(boxes):
             out = d / f"{p}_{k:03d}.png"
-            if not out.exists():
-                tight_crop(im, b["x0"], b["y0"] - 8, b["x1"], b["y1"] + 8).save(out)
+            tight_crop(im, b["x0"], b["y0"] - 8, b["x1"], b["y1"] + 8).save(out)
             paths.append(str(out))
             if len(b["idx"]) == 1 and (p, b["idx"][0]) in manual:
                 manual_pages.append({"img": str(out), "page": p, "text": manual[(p, b["idx"][0])]})
@@ -131,10 +133,16 @@ def make_page_crops(targets, pm, pages, filled, from_recognized=False):
         ocr = {}
         for p, _, _ in targets:
             f = WORK / "recognized" / f"{p}.json"
-            if f.exists():
-                lines = json.load(open(f, encoding="utf-8"))["lines"]
-                for path, ln in zip(by_page[p], lines):
-                    ocr[path] = ln["text"]
+            if not f.exists():
+                print(f"  {p}: 沒有辨識結果，略過（請先 recognize.py --pages {p}）")
+                continue
+            lines = json.load(open(f, encoding="utf-8"))["lines"]
+            if len(lines) != len(by_page[p]):
+                # 行框由 page_lines 決定；辨識結果若是舊版裁法產生的，行數對不上就不能逐行對應
+                print(f"  {p}: 辨識結果 {len(lines)} 行、目前裁法 {len(by_page[p])} 行，不一致，略過")
+                continue
+            for path, ln in zip(by_page[p], lines):
+                ocr[path] = ln["text"]
         out_name = "auto_labels_pages_recognized.json"
     else:
         ocr = dict(zip(all_imgs, ocr_lines(all_imgs)))
@@ -150,7 +158,7 @@ def make_page_crops(targets, pm, pages, filled, from_recognized=False):
 def main():
     import sys as _sys
     pm, pages = load_page_map()
-    filled = load_rom_verses()
+    filled = load_rom_verses()  # 不含 OCR 草稿：草稿頁的標籤會是模型自己的輸出
     targets = []
     for p in pages:
         eng, vs, text = page_text_for(pm, pages, p, filled)

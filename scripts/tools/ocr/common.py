@@ -29,6 +29,7 @@ WORK = Path(os.environ.get("HINGHUA_OCR_WORK", "/home/siniong/projects/hinghua-o
 BOOKS = {b["eng"]: b for b in B.OLD_TESTAMENT_BOOKS + B.NEW_TESTAMENT_BOOKS}
 ROM_TO_ENG = {unicodedata.normalize("NFC", b["rom"]): b["eng"] for b in BOOKS.values()}
 GAP = "§"  # 頁面文字中「此處經文尚未錄入」的哨兵
+DRAFT_FILE = DATA / "ocr-draft.json"  # OCR 填入、尚未校對的節（見 docs/ocr.md「辨識草稿」）
 
 
 # ---------- 文字 ----------
@@ -148,8 +149,37 @@ def load_page_map():
     return pm, sorted(pm)
 
 
-def load_rom_verses(path=None):
-    """rom.txt → {英文書名: {(章, 節): 經文}}，只收有內容的節。"""
+def load_draft():
+    """ocr-draft.json → {英文書名: {(章, 節): [校對旗標, …]}}。檔案不存在時回傳空字典。"""
+    if not DRAFT_FILE.exists():
+        return {}
+    raw = json.load(open(DRAFT_FILE, encoding="utf-8"))
+    return {eng: {tuple(int(x) for x in k.split(":")): flags for k, flags in verses.items()}
+            for eng, verses in raw.items()}
+
+
+def save_draft(draft):
+    """寫回 ocr-draft.json：書卷依聖經順序、節依章節排序、一節一行，輸出才可重現且 diff 好讀。"""
+    order = {e: i for i, e in enumerate(BOOKS)}
+    out = ["{"]
+    books = [e for e in sorted(draft, key=lambda e: order.get(e, 10**6)) if draft[e]]
+    for bi, eng in enumerate(books):
+        out.append(f" {json.dumps(eng)}: {{")
+        keys = sorted(draft[eng])
+        for ki, (c, v) in enumerate(keys):
+            flags = json.dumps(list(draft[eng][(c, v)]), ensure_ascii=False)
+            out.append(f'  "{c}:{v}": {flags}' + ("," if ki < len(keys) - 1 else ""))
+        out.append(" }" + ("," if bi < len(books) - 1 else ""))
+    out.append("}")
+    DRAFT_FILE.write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
+def load_rom_verses(path=None, exclude_draft=True):
+    """rom.txt → {英文書名: {(章, 節): 經文}}，只收有內容的節。
+
+    預設不含 OCR 草稿的節（ocr-draft.json）：草稿是模型自己的輸出，
+    當訓練標籤或音節詞表會把辨識錯誤學回去。要連草稿一起讀時傳 exclude_draft=False。
+    """
     filled = {}
     book = ch = None
     key = None
@@ -172,6 +202,10 @@ def load_rom_verses(path=None):
                     key = None
             elif key and book:  # 詩歌體的續行
                 filled[book][key] += " " + line.strip()
+    if exclude_draft:
+        for eng, verses in load_draft().items():
+            for key in verses:
+                filled.get(eng, {}).pop(key, None)
     return filled
 
 
@@ -291,13 +325,88 @@ def tight_crop(im, x0, y0, x1, y1, margin=12, min_ink=3):
     return im.crop((left, y0, right, y1))
 
 
+def fill_line_gaps(boxes, im, med_h, gap_ratio=1.7, min_ink_ratio=0.004):
+    """前次切割偶爾漏掉整行（少數頁一連漏十幾行，整節經文就不見了）。
+
+    每欄相鄰兩行的距離若超過行距的 gap_ratio 倍，就在缺口裡對該欄做墨跡的水平投影，
+    有墨的連續列段當成一行補回去（synth=True）。缺口裡沒有墨（章與章之間的空白）就不補。
+    """
+    arr = np.asarray(im.convert("L")) < 128
+    out = list(boxes)
+    for col in (0, 1):
+        rows = sorted((b for b in boxes if b["col"] == col and not b["dropcap"]), key=lambda b: b["y"])
+        if len(rows) < 5:
+            continue
+        gaps_all = sorted(rows[i + 1]["y"] - rows[i]["y"] for i in range(len(rows) - 1))
+        pitch = gaps_all[len(gaps_all) // 2]
+        x0 = int(min(b["x0"] for b in rows))
+        x1 = int(max(b["x1"] for b in rows))
+        # 用同欄既有的行估計：基線到墨跡底部的距離（下伸部）、一行墨跡的高度
+        thresh = max(5, min_ink_ratio * (x1 - x0))
+        descs, ink_hs = [], []
+        for b in rows:
+            seg = arr[int(max(0, b["y0"])):int(b["y1"]), x0:x1]
+            ink = np.where(seg.sum(axis=1) >= thresh)[0]
+            if len(ink):
+                descs.append(int(max(0, b["y0"])) + int(ink[-1]) - b["y"])
+                ink_hs.append(int(ink[-1] - ink[0]))
+        desc = sorted(descs)[len(descs) // 2] if descs else 0.25 * med_h
+        ink_h = sorted(ink_hs)[len(ink_hs) // 2] if ink_hs else 0.7 * pitch
+        for i in range(len(rows) - 1):
+            ya, yb = rows[i]["y"], rows[i + 1]["y"]
+            if yb - ya <= gap_ratio * pitch:
+                continue
+            # 缺口範圍：避開上下兩行自己的墨跡
+            top, bottom = int(ya + 0.45 * pitch), int(yb - 0.75 * pitch)
+            if bottom - top < 0.4 * pitch:
+                continue
+            counts = arr[top:bottom, x0:x1].sum(axis=1)
+            prof = counts >= thresh
+            runs, start, blank = [], None, 0
+            for k, on in enumerate(prof):
+                if on:
+                    if start is None:
+                        start = k
+                    blank = 0
+                elif start is not None:
+                    blank += 1
+                    if blank > 8:  # 字母與上方符號之間的小空隙不算斷行
+                        runs.append((start, k - blank))
+                        start, blank = None, 0
+            if start is not None:
+                runs.append((start, len(prof) - 1))
+            # 相鄰行之間常有下伸部與上方符號相接，投影不會斷：太高的段落依行距在墨量最少處切開
+            split = []
+            for r0, r1 in runs:
+                n = max(1, round((r1 - r0) / pitch))
+                if n == 1 or r1 - r0 < 1.4 * ink_h:
+                    split.append((r0, r1))
+                    continue
+                cuts = [r0]
+                for k in range(1, n):
+                    want = r0 + k * (r1 - r0) / n
+                    lo, hi = int(max(r0 + 1, want - 0.25 * pitch)), int(min(r1 - 1, want + 0.25 * pitch))
+                    cuts.append(lo + int(np.argmin(counts[lo:hi + 1])) if hi > lo else int(want))
+                cuts.append(r1)
+                split.extend((cuts[k], cuts[k + 1]) for k in range(n))
+            for r0, r1 in split:
+                if r1 - r0 < 0.3 * med_h:
+                    continue  # 雜點、殘留的欄線碎片
+                y_base = top + r1 - desc
+                out.append({"idx": [], "col": col, "x0": x0, "x1": x1, "y0": top + r0 - 4, "y1": top + r1 + 4,
+                            "y": y_base, "dropcap": False, "synth": True})
+    out.sort(key=lambda b: (b["col"], b["y"], b["x0"]))
+    return out
+
+
 def page_lines(page, im=None):
     """讀切割 JSON，把被欄線切碎的行框合併回整行。
 
     前次切割先以亮度切欄再各自切行，欄線附近的最後一個詞常被切成獨立碎片，
     也常出現只含欄線的垃圾框。這裡把框限制在欄線的同一側、丟掉太窄的框，
     再把同欄同基線的框取聯集。回傳 (依欄與 y 排序的框列表, 欄線 x)。
-    每個框：idx（原始行索引列表）、col、x0、x1、y0、y1、y（基線）、dropcap、header、footer。
+    每個框：idx（原始行索引列表）、col、x0、x1、y0、y1、y（基線）、dropcap、header、footer、
+    synth（前次切割漏掉、由 fill_line_gaps 用墨跡投影補回的行）。
     """
     seg = json.load(open(SEG_JSON / f"{page}.json", encoding="utf-8"))["lines"]
     im = im or Image.open(PUBLIC / "images" / f"{page}.webp")
@@ -331,6 +440,7 @@ def page_lines(page, im=None):
     boxes = kept
     # 切割多邊形的高度有時只涵蓋半行：以基線為準，把每個框至少撐到本頁典型的行高
     normal = [b for b in boxes if not b["dropcap"]]
+    above = below = 0
     if len(normal) >= 5:
         above = sorted(b["y"] - b["y0"] for b in normal)[len(normal) // 2]
         below = sorted(b["y1"] - b["y"] for b in normal)[len(normal) // 2]
@@ -359,6 +469,7 @@ def page_lines(page, im=None):
             m["idx"] += b["idx"]
         else:
             merged.append(dict(b))
+    merged = fill_line_gaps(merged, im, med_h)
     # 頁眉與頁碼：每欄最上／最下一行若與相鄰行的距離明顯大於行距，就是頁眉／頁碼
     for col in (0, 1):
         rows = [b for b in merged if b["col"] == col and not b["dropcap"]]
@@ -373,4 +484,8 @@ def page_lines(page, im=None):
     for b in merged:
         b.setdefault("header", False)
         b.setdefault("footer", False)
+        b.setdefault("synth", False)
+        if b["synth"] and len(normal) >= 5:
+            b["y0"] = min(b["y0"], b["y"] - above)
+            b["y1"] = max(b["y1"], b["y"] + below)
     return merged, rx

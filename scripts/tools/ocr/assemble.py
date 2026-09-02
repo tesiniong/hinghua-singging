@@ -4,7 +4,10 @@
 
   assemble.py --book Genesis --chapters 21-37            # 只寫候選 JSON 與報告
   assemble.py --book Genesis --chapters 21-37 --write    # 同時填入 data/rom.txt（只填空節）
+  assemble.py --book Genesis --chapters 21-37 --write --overwrite-draft   # 連尚未校對的草稿節也換成這次的結果
 
+--write 填入的節同時記進 data/ocr-draft.json（連同校對旗標），網站會標成「OCR 辨識草稿，未經校對」，
+字典與同音字表建置也會略過它們；校對完用 draft.py 把節從草稿清單移除。
 前置：recognize.py 已產生相關頁面的 WORK/recognized/<page>.json。
 """
 
@@ -16,8 +19,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import (BOOKS, DATA, WORK, base, clusters, load_page_map, load_rom_verses, nfc,  # noqa: E402
-                    prev_verse, verses_on_page)
+from common import (BOOKS, DATA, DRAFT_FILE, WORK, base, clusters, load_draft, load_page_map,  # noqa: E402
+                    load_rom_verses, nfc, prev_verse, save_draft, verses_on_page)
 
 NOISE_RE = re.compile(r"^[\d\s:.;,'\"()\-]*$")  # 只有數字與標點：頁眉章節號、頁碼
 # 章標題「Dā̤ 11 Ca̤uⁿ.」的去符號形式；粗體數字常被漏讀，所以數字可缺，但沒數字時要有句點
@@ -206,7 +209,7 @@ def align_markers(expected, observed, seg_len, want_len, window=5):
 class Assembler:
     def __init__(self, eng, han_len=None):
         self.eng = eng
-        self.han_len = han_len or {}  # (章, 節) → 漢字版音節數，切節時當長度線索
+        self.han_len = han_len or {}  # (章, 節) → 預期音節數（漢字版字數或正本音節數），切節時當長度線索
         self.pieces = collections.defaultdict(list)
         self.confs = collections.defaultdict(list)
         self.flags = collections.defaultdict(set)
@@ -286,7 +289,7 @@ class Assembler:
 
     def place_texts(self, keys, texts, is_first):
         """把一段文字分給 keys 這幾節。多於一節時表示中間的節號沒讀出來：
-        有漢字版字數就照字數切開，否則全部併入第一節。"""
+        有長度線索（漢字版字數或正本音節數）就照它切開，否則全部併入第一節。"""
         if len(keys) > 1:
             counts = [self.han_len.get(k) for k in keys[:-1]]
             if all(c is not None for c in counts) and not is_first:
@@ -300,10 +303,10 @@ class Assembler:
                     self.add_text(keys[ki], o["value"], o["glue"] and acc > 0, o["conf"], o.get("line"))
                     acc += len(syllables(o["value"]))
                 for kk in keys[1:]:
-                    self.flags[kk].add("節號未辨識出，依漢字版字數切分，請核對切節位置")
+                    self.flags[kk].add("節號未辨識出，依長度線索切分，請核對切節位置")
                     pk = prev_verse(self.eng, *kk)
                     if pk:
-                        self.flags[pk].add("下一節節號未辨識出，依漢字版字數切分")
+                        self.flags[pk].add("下一節節號未辨識出，依長度線索切分")
                 return
             for kk in keys[1:]:
                 self.flags[kk].add("節號未辨識出，經文可能併入前一節")
@@ -369,8 +372,11 @@ def pages_for(pm, pages, eng, chapters):
     return out
 
 
-def fill_rom(eng, cands, path=DATA / "rom.txt"):
-    """把候選經文填進 rom.txt 的空節號行；缺少的章節區塊會補上骨架。回傳填入數。"""
+def fill_rom(eng, cands, path=DATA / "rom.txt", overwrite=frozenset()):
+    """把候選經文填進 rom.txt 的空節號行；缺少的章節區塊會補上骨架。回傳填入的 (章, 節) 集合。
+
+    overwrite 裡的節（尚未校對的 OCR 草稿）即使已有內容也換成候選文字。
+    """
     rom_name = nfc(BOOKS[eng]["rom"])
     lines = open(path, encoding="utf-8").read().split("\n")
     # 找書卷範圍
@@ -390,19 +396,23 @@ def fill_rom(eng, cands, path=DATA / "rom.txt"):
                 break
         lines[insert_at:insert_at] = block
         b1 += len(block)
-    n = 0
+    done = set()
     ch = None
     for i in range(b0, b1):
         ln = lines[i]
         if ln.startswith("## "):
             ch = int(ln[3:])
             continue
-        m = re.match(r"^(\d+)\s*$", ln)
-        if m and ch is not None and (ch, int(m.group(1))) in cands and cands[(ch, int(m.group(1)))]:
-            lines[i] = f"{m.group(1)} {cands[(ch, int(m.group(1)))]}"
-            n += 1
+        m = re.match(r"^(\d+)(\s.*)?$", ln)
+        if not m or ch is None:
+            continue
+        key = (ch, int(m.group(1)))
+        empty = not (m.group(2) or "").strip()
+        if cands.get(key) and (empty or key in overwrite):
+            lines[i] = f"{m.group(1)} {cands[key]}"
+            done.add(key)
     open(path, "w", encoding="utf-8").write("\n".join(lines))
-    return n
+    return done
 
 
 def main():
@@ -411,15 +421,22 @@ def main():
     ap.add_argument("--chapters", required=True, help="如 21-37 或 5")
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--evaluate", action="store_true", help="與 rom.txt 已有的經文比對，輸出逐節 CER")
+    ap.add_argument("--overwrite-draft", action="store_true",
+                    help="與 --write 併用：ocr-draft.json 列出的草稿節也重新填入（換模型或解碼器重跑時用）")
     args = ap.parse_args()
     eng = args.book
     chapters = parse_chapters(args.chapters)
     pm, pages = load_page_map()
-    filled = load_rom_verses()
+    filled = load_rom_verses()  # 人工正本（不含 OCR 草稿）：音節詞表與 --evaluate 的依據
+    existing_all = load_rom_verses(exclude_draft=False).get(eng, {})  # 含草稿：這些節已有內容，不再填
+    draft_keys = set(load_draft().get(eng, {}))
     lexicon = {s.lower() for verses in filled.values() for t in verses.values() for s in syllables(t)}
     plist = pages_for(pm, pages, eng, chapters)
     han = load_han_verses(eng)
-    asm = Assembler(eng, {k: han_syllables(v) for k, v in han.items()})
+    # 切節的長度線索：漢字版字數；已有人工正本的節直接用正本的音節數（更準，沒有漢字版的書卷也有）
+    want = {k: han_syllables(v) for k, v in han.items()}
+    want.update({k: len(syllables(v)) for k, v in filled.get(eng, {}).items()})
+    asm = Assembler(eng, want)
     for p in plist:
         f = WORK / "recognized" / f"{p}.json"
         if not f.exists():
@@ -434,9 +451,9 @@ def main():
     cands, report = {}, []
     for key in targets:
         text = asm.verse_text(key)
-        existing = filled.get(eng, {}).get(key)
+        existing = existing_all.get(key)
         oov = [s for s in syllables(text) if s.lower() not in lexicon]
-        if key in han and text:
+        if key in han and text and key not in filled.get(eng, {}):
             d = len(syllables(text)) - han_syllables(han[key])
             if abs(d) > 2:
                 asm.flags[key].add(f"音節數與漢字版差 {d:+d}")
@@ -448,8 +465,8 @@ def main():
             flags.add("含詞表外音節：" + " ".join(oov))
         if conf and conf < 0.6:
             flags.add(f"低信心 {conf:.2f}")
-        if existing:
-            flags.add("rom.txt 已有內容，不覆寫")
+        if existing and not (args.overwrite_draft and key in draft_keys):
+            flags.add("rom.txt 已有 OCR 草稿，不覆寫" if key in draft_keys else "rom.txt 已有內容，不覆寫")
         else:
             cands[key] = text
         report.append({"chapter": key[0], "verse": key[1], "text": text, "conf_min": round(conf, 3),
@@ -457,7 +474,7 @@ def main():
     outdir = WORK / "recognized"
     stem = f"{eng.replace(' ', '_')}_{chapters[0]}-{chapters[-1]}"
     json.dump(report, open(outdir / f"{stem}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    flagged = [r for r in report if r["flags"] and r["flags"] != ["rom.txt 已有內容，不覆寫"]]
+    flagged = [r for r in report if any(not f.startswith("rom.txt 已有") for f in r["flags"])]
     md = [f"# {eng} {chapters[0]}–{chapters[-1]} 校對報告", "",
           f"頁面：{plist[0]}–{plist[-1]}；經節 {len(targets)}，候選 {len(cands)}，需注意 {len(flagged)}", "",
           "| 章:節 | 信心 | 注意事項 | 經文 |", "|---|---|---|---|"]
@@ -468,19 +485,25 @@ def main():
     print(f"report: {outdir / (stem + '_report.md')}")
     if args.evaluate:
         from common import cer, lev, nfd
-        pairs = [(r["text"], r["existing"]) for r in report if r["existing"]]
+        pairs = [(r["text"], r["existing"]) for r in report if r["existing"] and (r["chapter"], r["verse"]) not in draft_keys]
         full, b = cer(pairs)
         exact = sum(nfd(p).strip() == nfd(g).strip() for p, g in pairs)
         near = sum(lev(nfd(p), nfd(g)) <= 2 for p, g in pairs)
         print(f"evaluate: verses with ground truth={len(pairs)} CER_full={full:.4f} CER_base={b:.4f} "
               f"exact={exact} ({exact / len(pairs):.2f}) within_2_edits={near} ({near / len(pairs):.2f})")
         worst = sorted(((lev(nfd(p), nfd(g)) / max(1, len(nfd(g))), r) for r, (p, g) in
-                        zip([r for r in report if r["existing"]], pairs)), key=lambda x: -x[0])[:8]
+                        zip([r for r in report if r["existing"] and (r["chapter"], r["verse"]) not in draft_keys], pairs)),
+                       key=lambda x: -x[0])[:8]
         for d, r in worst:
             print(f"  {r['chapter']}:{r['verse']} ned={d:.2f} | OCR: {r['text'][:70]} | GT: {r['existing'][:70]}")
     if args.write:
-        n = fill_rom(eng, cands)
-        print(f"filled {n} verses into {DATA / 'rom.txt'}")
+        done = fill_rom(eng, cands, overwrite=draft_keys if args.overwrite_draft else frozenset())
+        # 填入的節記進草稿清單，連同校對旗標（有旗標的節網站上會另外標示）
+        draft = load_draft()
+        by_key = {(r["chapter"], r["verse"]): r for r in report}
+        draft.setdefault(eng, {}).update({k: by_key[k]["flags"] for k in done})
+        save_draft(draft)
+        print(f"filled {len(done)} verses into {DATA / 'rom.txt'}; marked as draft in {DRAFT_FILE}")
 
 
 if __name__ == "__main__":

@@ -4,6 +4,9 @@
 
 測試集固定用人工標註過的 0017–0022 頁，訓練／驗證集不含這些頁面。
 另外產生 train_digits.txt（含數字的行重複三次），供第二階段微調節號辨識。
+  --page-crops                    整頁裁切版（labels/auto_labels_pages.json → dataset/pages_*，
+                                  另出 pages_test_auto.txt 與 pages_test_auto_labels.json：測試頁上抄自 rom.txt 的標籤）
+  --page-crops --from-recognized  同上，但標籤取自 labels/auto_labels_pages_recognized.json
 """
 
 import json
@@ -37,12 +40,20 @@ def write_split(name, items):
 
 def main():
     import sys
-    if "--page-crops" in sys.argv:  # 整頁裁切版：資料集另放 dataset_pages/
-        auto = json.load(open(WORK / "labels" / "auto_labels_pages.json", encoding="utf-8"))
+    if "--page-crops" in sys.argv:  # 整頁裁切版：資料集另放 pages_*/
+        # --from-recognized：用自家模型辨識結果對齊出的標籤（make_labels.py --page-crops --from-recognized）
+        name = "auto_labels_pages_recognized.json" if "--from-recognized" in sys.argv else "auto_labels_pages.json"
+        auto = json.load(open(WORK / "labels" / name, encoding="utf-8"))
         manual = json.load(open(WORK / "labels" / "manual_pages.json", encoding="utf-8"))
         prefix = "pages_"
         train = [a for a in auto if a["page"] not in TEST_PAGES]
         test = [m for m in manual if m["page"] in TEST_PAGES]
+        # 同幾頁、標籤抄自 rom.txt 的測試組：人工標註與整頁裁切的行框有少數對不上，比較模型時用這組
+        test_auto = [a for a in auto if a["page"] in TEST_PAGES]
+        (WORK / "dataset" / "pages_test_auto.txt").write_text("\n".join(a["img"] for a in test_auto) + "\n", encoding="utf-8")
+        json.dump({a["img"]: a["text"] for a in test_auto}, open(WORK / "dataset" / "pages_test_auto_labels.json", "w", encoding="utf-8"),
+                  ensure_ascii=False, indent=0)
+        print("test_auto", len(test_auto))
     else:
         auto = json.load(open(WORK / "labels" / "auto_labels.json", encoding="utf-8"))
         manual = json.load(open(WORK / "labels" / "manual_clean.json", encoding="utf-8"))

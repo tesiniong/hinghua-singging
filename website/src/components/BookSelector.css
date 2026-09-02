@@ -260,10 +260,36 @@
   background-color: rgba(205, 133, 63, 0.2);
 }
 
+/* OCR 辨識草稿的章節：虛線框、淡底色（見 DraftMark.css） */
+.chapter-cell.draft {
+  border-style: dashed;
+  border-color: var(--draft-border);
+  background-color: var(--draft-bg);
+  color: var(--draft-color);
+}
+
 .chapter-cell.current {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   color: white;
+}
+
+.chapter-popup-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: var(--spacing-sm);
+  padding-top: var(--spacing-xs);
+  border-top: 1px solid var(--border-color);
+  font-size: 0.8em;
+  color: var(--text-secondary);
+  font-family: var(--font-chinese);
+}
+
+.chapter-popup-legend .legend-swatch {
+  padding: 2px 6px;
+  min-width: 0;
+  cursor: default;
 }
 
 /* 沒有內容的章節：淺色顯示 */

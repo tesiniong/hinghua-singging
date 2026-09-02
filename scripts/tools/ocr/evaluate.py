@@ -3,6 +3,7 @@
 """比對 recognize.py --manifest 的輸出與 .gt.txt，計算 CER 並列出最常見的混淆。
 
   evaluate.py recognized/test.json
+  evaluate.py recognized/testauto.json --labels dataset/pages_test_auto_labels.json   # 標籤另存 JSON（圖檔 → 文字）
 """
 
 import collections
@@ -16,11 +17,22 @@ from common import cer, clusters, nfd  # noqa: E402
 
 
 def main():
-    res = json.load(open(sys.argv[1], encoding="utf-8"))
+    args = sys.argv[1:]
+    labels = None
+    if "--labels" in args:
+        i = args.index("--labels")
+        labels = json.load(open(args[i + 1], encoding="utf-8"))
+        del args[i:i + 2]
+    res = json.load(open(args[0], encoding="utf-8"))
     pairs = []
     conf = collections.Counter()
     for r in res:
-        gt = Path(r["img"]).with_suffix(".gt.txt").read_text(encoding="utf-8").strip()
+        if labels is not None:
+            if r["img"] not in labels:
+                continue
+            gt = labels[r["img"]].strip()
+        else:
+            gt = Path(r["img"]).with_suffix(".gt.txt").read_text(encoding="utf-8").strip()
         pairs.append((r["text"], gt))
         a, _ = clusters(r["text"])
         b, _ = clusters(gt)

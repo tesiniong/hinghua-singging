@@ -3,17 +3,20 @@
     "ot": {
       "books": 3,
       "chapters": 38,
-      "verses": 1073
+      "verses": 1073,
+      "draft_verses": 465
     },
     "nt": {
       "books": 12,
-      "chapters": 87,
-      "verses": 904
+      "chapters": 106,
+      "verses": 3846,
+      "draft_verses": 2942
     },
     "total": {
       "books": 15,
-      "chapters": 125,
-      "verses": 1977
+      "chapters": 144,
+      "verses": 4919,
+      "draft_verses": 3407
     }
   },
   "han": {

@@ -6,6 +6,7 @@ import DualColumn from './DualColumn';
 import RubyMode from './RubyMode';
 import SingleLanguage from './SingleLanguage';
 import SearchBox from './SearchBox';
+import { DRAFT_LABEL } from './DraftMark';
 
 function BibleReader({ bibleData }) {
   const [mode, setMode] = useState('dual'); // 'dual', 'ruby', 'han-only', 'rom-only'
@@ -193,6 +194,14 @@ function BibleReader({ bibleData }) {
         </div>
 
         <div className="bible-content">
+          {effectiveMode !== 'han-only' && chapter.draft_verses > 0 && (
+            <div className="draft-banner" role="note">
+              <strong>{DRAFT_LABEL}</strong>：本章 {chapter.draft_verses} 節羅馬字經文由掃描頁自動辨識填入，
+              尚未經人工校對
+              {chapter.draft_flagged > 0 && `；其中 ${chapter.draft_flagged} 節辨識時有疑點（標 ⚠，滑鼠移到標記上可看內容）`}
+              。閱讀時請對照 📖 原書掃描頁。
+            </div>
+          )}
           {effectiveMode === 'dual' && (
             <DualColumn
               chapter={chapter}

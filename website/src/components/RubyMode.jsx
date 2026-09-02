@@ -1,4 +1,5 @@
 import './RubyMode.css';
+import DraftMark from './DraftMark';
 
 function RubyMode({ chapter, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
@@ -200,9 +201,12 @@ function RubyMode({ chapter, pageOcrResults, bookName, isForeword }) {
                 📖
               </a>
             )}
+            <DraftMark flags={verse.rom_draft} compact />
           </sup>
         )}
-        {renderRubyTokens(verse.tokens, verse.han)}
+        {verse.rom_draft
+          ? <span className="rom-draft">{renderRubyTokens(verse.tokens, verse.han)}</span>
+          : renderRubyTokens(verse.tokens, verse.han)}
       </>
     );
   }

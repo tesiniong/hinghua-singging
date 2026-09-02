@@ -21,11 +21,25 @@ src/
 │   ├── RubyMode.jsx           Ruby 模式
 │   ├── SingleLanguage.jsx     單語言模式
 │   ├── SearchBox.jsx          搜尋
+│   ├── DraftMark.jsx          「OCR 辨識草稿，未經校對」標記（三種模式、搜尋結果共用）
 │   ├── ImageViewer.jsx        掃描圖檢視器（獨立入口 viewer.html）
 │   └── RhymeTable.jsx         韻母表
 └── utils/
     └── romanization.js        平話字 ↔ 輸入式轉換、搜尋折疊（共用）
 ```
+
+## OCR 草稿標記
+
+`bible_data.json` 中帶 `rom_draft` 的節是掃描頁 OCR 自動填入、尚未校對的羅馬字
+（來源與流程見 [ocr.md](ocr.md)）。前端一律用 `DraftMark` 顯示，統一說法是
+「OCR 辨識草稿，未經校對」（`DRAFT_LABEL`），不要寫成「AI 生成」：
+
+- 三種閱讀模式在節號旁放標記，草稿經文加 `.rom-draft` 淡底色；`rom_draft` 非空（辨識時有疑點）的節多一個 ⚠，滑鼠移上可看旗標。
+- `BibleReader` 在含草稿的章開頭放一段說明（`chapter.draft_verses`、`draft_flagged`）；純漢字模式不顯示。
+- `BookSelector` 的章節格對草稿章用虛線框，並在下方加圖例。
+- 搜尋結果的羅馬字前也放標記。
+
+顏色用 `index.css` 的 `--draft-color`、`--draft-bg`、`--draft-border`，深色模式另有一組。
 
 ## 路由
 

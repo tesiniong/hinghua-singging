@@ -31,7 +31,8 @@ python scripts/build_all.py --skip site_icons
 
 ### `scripts/build/bible_data.py` — 主建置腳本
 
-**輸入**：`data/rom.txt`、`data/han.txt`、`data/foreword-en.txt`、`data/foreword-cpx.txt`
+**輸入**：`data/rom.txt`、`data/han.txt`、`data/foreword-en.txt`、`data/foreword-cpx.txt`、
+`data/ocr-draft.json`（OCR 草稿節的清單）
 **輸出**：`data/bible_data.json`、`data/bookList.json`、`website/public/stats.json`，
 並把相關 JSON 複製到 `website/public/`。
 
@@ -42,7 +43,8 @@ python scripts/build_all.py --skip site_icons
 3. Token 層級對齊（1 漢字 ↔ 1 羅馬字音節）
 4. 處理合音字（`「」`）與專名（`{}`）
 5. 生成章節標題（中文數字 + 羅馬字）
-6. 生成舊約／新約進度統計
+6. 把 `ocr-draft.json` 列出的節標成 `rom_draft`（草稿標記指到 `rom.txt` 沒內容的節會印警告）
+7. 生成舊約／新約進度統計（含草稿節數）
 
 核心函數：
 
@@ -69,6 +71,7 @@ python scripts/build_all.py --skip site_icons
 
 詞頻策略：優先採用聖經統計的真實詞頻；詞典有而聖經沒有的詞設為 1；
 多音節詞的漢字詞頻按比例分配（2 字詞各 +0.5，3 字詞各 +0.333…）。
+標為 `rom_draft` 的節（OCR 草稿）不計入，同音字表亦同，以免辨識錯誤進到字典。
 
 合音字（`dai4`→「第一」、`gai4`→「家己」、`dau4`→「豆腐」、`noong2`→「那當」）
 先檢查漢字部分，有匹配才消耗多個漢字。

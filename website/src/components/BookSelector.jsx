@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import './BookSelector.css';
+import { DRAFT_LABEL } from './DraftMark';
 
 function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelect, onChapterSelect }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -94,6 +95,14 @@ function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelec
     return bookData.chapters.some(ch => ch.chapter === chapter);
   };
 
+  // 該章有幾節是 OCR 辨識草稿（0 表示沒有）
+  const chapterDraftCount = (bookEngName, chapter) => {
+    const bookIndex = findBookIndex(bookEngName);
+    if (bookIndex === -1) return 0;
+    const ch = bibleData.books[bookIndex].chapters.find(c => c.chapter === chapter);
+    return ch?.draft_verses || 0;
+  };
+
   // 處理章節點擊
   const handleChapterClick = (book, chapter) => {
     // 檢查章節是否有內容
@@ -142,6 +151,7 @@ function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelec
     if (!selectedBook) return null;
 
     const chapters = Array.from({ length: selectedBook.chapters }, (_, i) => i + 1);
+    const anyDraft = chapters.some(ch => chapterDraftCount(selectedBook.eng, ch) > 0);
 
     return (
       <div
@@ -156,18 +166,26 @@ function BookSelector({ bibleData, currentBookIndex, currentChapter, onBookSelec
           {chapters.map(ch => {
             const hasContent = chapterHasContent(selectedBook.eng, ch);
             const isCurrent = currentBook?.name_eng === selectedBook.eng && currentChapter === ch;
+            const draftCount = chapterDraftCount(selectedBook.eng, ch);
             return (
               <button
                 key={ch}
-                className={`chapter-cell ${isCurrent ? 'current' : ''} ${!hasContent ? 'disabled' : ''}`}
+                className={`chapter-cell ${isCurrent ? 'current' : ''} ${!hasContent ? 'disabled' : ''} ${draftCount ? 'draft' : ''}`}
                 onClick={() => handleChapterClick(selectedBook, ch)}
                 disabled={!hasContent}
+                title={draftCount ? `${DRAFT_LABEL}（${draftCount} 節）` : undefined}
               >
                 {ch}
               </button>
             );
           })}
         </div>
+        {anyDraft && (
+          <div className="chapter-popup-legend">
+            <span className="chapter-cell draft legend-swatch" aria-hidden="true">1</span>
+            {DRAFT_LABEL}
+          </div>
+        )}
       </div>
     );
   };

@@ -78,10 +78,33 @@
 | `verse.tokens` | Token 陣列，**僅** Ruby 模式使用 |
 | `token.form` | `single`、`phrase`、`compound_single` |
 | `token.proper_name` | 是否為專名 |
+| `verse.rom_draft` | 只在羅馬字是 OCR 草稿的節出現：校對旗標陣列（可為空陣列），來自 `ocr-draft.json` |
+| `chapter.draft_verses` / `chapter.draft_flagged` | 只在本章含草稿時出現：草稿節數、其中有旗標的節數 |
 
 所有 token 都有 `han` 與 `rom` 欄位（其中一個可能是空字串），前端統一用這兩個欄位處理。
 
 單一章節可能只有羅馬字或只有漢字——多數章節目前如此。前端須容忍任一邊為空。
+
+---
+
+## `ocr-draft.json`
+
+由掃描頁 OCR 填入 `rom.txt`、**尚未人工校對**的節（見 [ocr.md](ocr.md)「辨識草稿」）。
+鍵是英文書名與「章:節」，值是 `assemble.py` 給的校對旗標；沒有旗標的節是空陣列。
+
+```json
+{
+ "Genesis": {
+  "21:1": ["首節（首字放大）"],
+  "21:2": []
+ }
+}
+```
+
+`assemble.py --write` 填入經文時自動加入，校對完用 `scripts/tools/ocr/draft.py --clear` 移除。
+`bible_data.py` 據此在 `bible_data.json` 標 `rom_draft`，網站顯示「OCR 辨識草稿，未經校對」；
+`rom_to_han_dict.py`、`homophone_table.py` 與 OCR 訓練標籤都不採用草稿節。
+`stats.json` 的 `rom.*.draft_verses` 是各約羅馬字節數中屬於草稿的數量。
 
 ---
 

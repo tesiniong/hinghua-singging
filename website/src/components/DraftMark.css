@@ -1,0 +1,61 @@
+/* OCR 辨識草稿標記：經文旁的小標籤，以及草稿經文本身的底色 */
+.draft-mark {
+  display: inline-block;
+  font-family: var(--font-chinese);
+  font-size: 0.6em;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0 0.35em;
+  margin: 0 0.35em 0 0.1em;
+  border: 1px solid var(--draft-border);
+  border-radius: 4px;
+  color: var(--draft-color);
+  background-color: var(--draft-bg);
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: help;
+  user-select: none;
+}
+
+.draft-mark.flagged {
+  border-style: dashed;
+}
+
+.draft-mark-warn {
+  margin-left: 0.15em;
+}
+
+/* 放在上標節號裡：節號已經縮小並上標，標記跟著它走 */
+.draft-mark.compact {
+  font-size: 1em;
+  line-height: 1.2;
+  vertical-align: baseline;
+  margin-left: 0.25em;
+}
+
+/* 草稿經文本身：淡底色，讓讀者一眼看出哪些是尚未校對的 */
+.rom-draft {
+  background-color: var(--draft-bg);
+  border-radius: 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* 章首說明 */
+.draft-banner {
+  margin: 0 auto var(--spacing-md);
+  max-width: 900px;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--draft-border);
+  border-left-width: 4px;
+  border-radius: 6px;
+  background-color: var(--draft-bg);
+  color: var(--text-primary);
+  font-family: var(--font-chinese);
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.draft-banner strong {
+  color: var(--draft-color);
+}

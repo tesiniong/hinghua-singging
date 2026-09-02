@@ -61,6 +61,10 @@
   --active-bg: #4a90e2;
   --active-border: #4a90e2;
   --focus-color: #4a90e2;
+  /* OCR 辨識草稿（未經校對）的標記 */
+  --draft-color: #8a5a00;
+  --draft-bg: rgba(214, 158, 46, 0.14);
+  --draft-border: rgba(214, 158, 46, 0.7);
 
   /* Spacing */
   --spacing-xs: 0.25rem;
@@ -90,6 +94,9 @@
   --active-bg: #1976d2;
   --active-border: #1976d2;
   --focus-color: #64b5f6;
+  --draft-color: #e6b450;
+  --draft-bg: rgba(230, 180, 80, 0.14);
+  --draft-border: rgba(230, 180, 80, 0.6);
 }
 
 * {

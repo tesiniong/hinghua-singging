@@ -3,6 +3,7 @@
 """
 同音字表資料生成腳本
 用途：從 cpx-pron-data.lua 和 bible_data.json 生成同音字表資料
+（bible_data.json 中標為 OCR 草稿的節不納入，避免辨識錯誤進表）
 """
 
 import json
@@ -257,8 +258,8 @@ def extract_bible_pairs(bible_json_path):
 
         for chapter in book.get('chapters', []):
             for section in chapter.get('sections', []):
-                if section.get('type') != 'verse':
-                    continue
+                if section.get('type') != 'verse' or 'rom_draft' in section:
+                    continue  # OCR 草稿未經校對，不納入
 
                 tokens = section.get('tokens', [])
                 for token in tokens:

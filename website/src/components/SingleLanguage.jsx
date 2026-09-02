@@ -1,4 +1,5 @@
 import './SingleLanguage.css';
+import DraftMark from './DraftMark';
 
 function SingleLanguage({ chapter, language, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
@@ -68,6 +69,7 @@ function SingleLanguage({ chapter, language, pageOcrResults, bookName, isForewor
   const renderVerse = (verse, index) => {
     const verseText = verse[language];
     const hasLineBreaks = verseText && verseText.includes('\n');
+    const draftFlags = isRoman ? verse.rom_draft : undefined; // 只有羅馬字會是 OCR 草稿
 
     // 對於羅馬字模式，如果經文末尾沒有空格或標點，加上空格
     // 但如果有節內換行，就不加空格（因為已經有 <br>）
@@ -90,9 +92,10 @@ function SingleLanguage({ chapter, language, pageOcrResults, bookName, isForewor
                 📖
               </a>
             )}
+            <DraftMark flags={draftFlags} compact />
           </span>
         )}
-        <span className="verse-text">
+        <span className={`verse-text${draftFlags ? ' rom-draft' : ''}`}>
           {renderTextWithLineBreaks(verseText, hasLineBreaks)}
           {!isForeword && needsSpace ? ' ' : ''}
         </span>

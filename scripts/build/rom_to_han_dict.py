@@ -6,7 +6,7 @@ Generate dictionary for Romanization to Han character conversion
 
 資料來源：
 1. data/borhlang_bannuaci.dict.yaml - 莆仙語輸入法詞典（主要詞彙來源）
-2. data/bible_data.json - 聖經數據（詞頻統計來源）
+2. data/bible_data.json - 聖經數據（詞頻統計來源；標為 OCR 草稿的節不計，避免辨識錯誤進字典）
 
 輸出：
 website/public/romToHanDict.json - 羅馬字轉漢字字典
@@ -142,8 +142,8 @@ def extract_bible_frequency(bible_json_path: Path) -> Tuple[Dict, Dict]:
 
         for chapter in book.get('chapters', []):
             for section in chapter.get('sections', []):
-                if section.get('type') != 'verse':
-                    continue
+                if section.get('type') != 'verse' or 'rom_draft' in section:
+                    continue  # OCR 草稿未經校對，不納入詞頻
 
                 tokens = section.get('tokens', [])
                 for token in tokens:

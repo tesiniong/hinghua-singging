@@ -5,6 +5,7 @@
 
 功能：
 1. 解析 rom.txt 和 han.txt，生成 bible_data.json
+   （data/ocr-draft.json 列出的節標成 OCR 草稿：verse.rom_draft、chapter.draft_verses）
 2. 生成統計資料 stats.json
 3. 自動複製所有必要的 JSON 檔案到 website/public/
 4. 自動重新生成羅馬字轉漢字字典 romToHanDict.json
@@ -27,6 +28,22 @@ import unicodedata
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from _paths import DATA, PUBLIC
 from book_info import ALL_BOOKS, HAN_TO_ROM, ROM_TO_HAN, HAN_TO_ENG
+
+DRAFT_FILE = DATA / 'ocr-draft.json'
+
+
+def load_draft():
+    """data/ocr-draft.json → {英文書名: {(章, 節): [校對旗標, …]}}。
+
+    OCR 填入、尚未校對的羅馬字經文（scripts/tools/ocr/assemble.py --write 維護）。
+    """
+    if not DRAFT_FILE.exists():
+        return {}
+    with open(DRAFT_FILE, 'r', encoding='utf-8') as f:
+        raw = json.load(f)
+    return {eng: {tuple(int(x) for x in key.split(':')): flags for key, flags in verses.items()}
+            for eng, verses in raw.items()}
+
 
 def number_to_chinese(n):
     """阿拉伯數字轉漢字"""
@@ -438,6 +455,8 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     按照聖經書目順序（從 book_info.py 的 ALL_BOOKS）輸出
     """
     books = []
+    draft = load_draft()
+    draft_seen = set()  # 已對上經文的草稿標記；剩下的就是過時的
     
     # 計算 testament 分界索引
     foreword_count = len([b for b in ALL_BOOKS if b["eng"] in ("Foreword", "Preface")])
@@ -520,6 +539,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
         # Case 3: 一般聖經書卷
         han_book_data = han_data.get(han_name)
         rom_book_data = rom_data.get(rom_name)
+        book_draft = draft.get(eng_name, {})
 
         if not han_book_data and not rom_book_data:
             print(f"  警告: {eng_name} 在 han.txt 和 rom.txt 中均未找到，已跳過")
@@ -579,16 +599,30 @@ def merge_and_generate_json(han_data, rom_data, output_file):
                     tokens = [{'type': t['type'], 'han': t['text'], 'rom': ''}
                               for t in tokenize_han(han_text)]
 
-                chapter['sections'].append({
+                section = {
                     "type": "verse", "verse": verse_num, "rom": rom_text, "han": han_clean,
                     "tokens": tokens
-                })
+                }
+                if rom_text and (chapter_num, verse_num) in book_draft:
+                    # OCR 草稿：前端據此顯示「OCR 辨識草稿，未經校對」，字典與同音字表建置略過
+                    section["rom_draft"] = list(book_draft[(chapter_num, verse_num)])
+                    draft_seen.add((eng_name, chapter_num, verse_num))
+                chapter['sections'].append(section)
+
+            n_draft = sum(1 for s in chapter['sections'] if 'rom_draft' in s)
+            if n_draft:
+                chapter['draft_verses'] = n_draft
+                chapter['draft_flagged'] = sum(1 for s in chapter['sections'] if s.get('rom_draft'))
             
             if chapter['sections']:
                 book['chapters'].append(chapter)
         
         if book['chapters']:
             books.append(book)
+
+    stale = [(eng, c, v) for eng, verses in draft.items() for (c, v) in verses if (eng, c, v) not in draft_seen]
+    for eng, c, v in stale:
+        print(f"  警告: ocr-draft.json 的 {eng} {c}:{v} 在 rom.txt 沒有內容，標記已過時（用 scripts/tools/ocr/draft.py --check）")
 
     result = {"books": books}
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -651,8 +685,10 @@ def merge_and_generate_json(han_data, rom_data, output_file):
     ot_books_rom_names = {unicodedata.normalize('NFC', b["rom"]) for b in OLD_TESTAMENT_BOOKS}
     nt_books_rom_names = {unicodedata.normalize('NFC', b["rom"]) for b in NEW_TESTAMENT_BOOKS}
 
+    # rom 的 draft_verses 是 verses 之中尚未校對的 OCR 草稿節數
     stats = {
-        "rom": {"ot": {"books": 0, "chapters": 0, "verses": 0}, "nt": {"books": 0, "chapters": 0, "verses": 0}},
+        "rom": {"ot": {"books": 0, "chapters": 0, "verses": 0, "draft_verses": 0},
+                "nt": {"books": 0, "chapters": 0, "verses": 0, "draft_verses": 0}},
         "han": {"ot": {"books": 0, "chapters": 0, "verses": 0}, "nt": {"books": 0, "chapters": 0, "verses": 0}},
     }
 
@@ -686,6 +722,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
                     stats["han"][testament]["chapters"] += 1
                 
                 stats["rom"][testament]["verses"] += sum(1 for s in chapter['sections'] if s.get('type') == 'verse' and s.get('rom'))
+                stats["rom"][testament]["draft_verses"] += chapter.get('draft_verses', 0)
                 stats["han"][testament]["verses"] += sum(1 for s in chapter['sections'] if s.get('type') == 'verse' and s.get('han'))
 
     # 計算總計
@@ -695,6 +732,7 @@ def merge_and_generate_json(han_data, rom_data, output_file):
             "chapters": stats[lang]["ot"]["chapters"] + stats[lang]["nt"]["chapters"],
             "verses": stats[lang]["ot"]["verses"] + stats[lang]["nt"]["verses"],
         }
+    stats["rom"]["total"]["draft_verses"] = stats["rom"]["ot"]["draft_verses"] + stats["rom"]["nt"]["draft_verses"]
     
     stats["totals"] = TOTALS
 
@@ -706,7 +744,8 @@ def merge_and_generate_json(han_data, rom_data, output_file):
 
     print(f"\n解析完成")
     print(f"  總書卷數: {len(books)}")
-    print(f"  羅馬字: {stats['rom']['total']['verses']} 節 / {stats['rom']['total']['chapters']} 章 / {stats['rom']['total']['books']} 本")
+    print(f"  羅馬字: {stats['rom']['total']['verses']} 節 / {stats['rom']['total']['chapters']} 章 / {stats['rom']['total']['books']} 本"
+          f"（含 OCR 草稿 {stats['rom']['total']['draft_verses']} 節）")
     print(f"  漢字: {stats['han']['total']['verses']} 節 / {stats['han']['total']['chapters']} 章 / {stats['han']['total']['books']} 本")
     print(f"  輸出檔案: {output_file}, {stats_output_path.name}")
 

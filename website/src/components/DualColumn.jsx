@@ -1,4 +1,5 @@
 import './DualColumn.css';
+import DraftMark from './DraftMark';
 
 function DualColumn({ chapter, pageOcrResults, bookName, isForeword }) {
   if (!chapter || !chapter.sections) {
@@ -77,7 +78,10 @@ function DualColumn({ chapter, pageOcrResults, bookName, isForeword }) {
             </div>
           )}
           <div className="verse-content">
-            <div className="verse-rom">{renderTextWithLineBreaks(verse.rom)}</div>
+            <div className={`verse-rom${verse.rom_draft ? ' rom-draft' : ''}`}>
+              <DraftMark flags={verse.rom_draft} />
+              {renderTextWithLineBreaks(verse.rom)}
+            </div>
             <div className="verse-han">{renderTextWithLineBreaks(verse.han)}</div>
           </div>
         </div>
