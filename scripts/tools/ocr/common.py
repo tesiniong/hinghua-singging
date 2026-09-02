@@ -315,29 +315,80 @@ def line_order(page):
 RULE_MARGIN = 2  # 行框與欄線保持的距離（像素）；文字可能貼著欄線，欄線本身另外塗白
 
 
-def column_rule(im, min_run=60):
+def long_vertical_ink(arr, x0, x1, bridge=8, dilate=2, min_run=150):
+    """各直欄裡屬於「長垂直黑段」的黑點數：先水平膨脹 dilate px、垂直補起 ≤ bridge 列的小縫，
+    再只計長度 ≥ min_run 的黑段。欄線再斜、再斷續都會變成長段；文字筆畫最長不過一百多列。"""
+    sub = arr[:, x0:x1]
+    d = sub.copy()
+    for k in range(1, dilate + 1):
+        d[:, k:] |= sub[:, :-k]
+        d[:, :-k] |= sub[:, k:]
+    run = np.zeros(d.shape[1], dtype=np.int32)
+    gap = np.zeros(d.shape[1], dtype=np.int32)
+    out = np.zeros(d.shape[1], dtype=np.int32)
+    for row in d:
+        gap = np.where(row, 0, gap + 1)
+        run = np.where(row, run + 1, np.where(gap <= bridge, run, 0))
+        out += (run >= min_run) & row
+    return out
+
+
+def column_rule(im, text_run=25, max_rule=20):
     """找出雙欄之間欄線的 x。
 
-    先對頁面中段各直欄的黑點數做移動平均，最小值是欄溝；再在欄溝 ±120 px 內找「長直線墨量」
-    （屬於 ≥ min_run px 連續黑段的像素數）最大的直欄。文字邊緣再黑也只有字高的短段，欄線才有長段；
-    不能只看墨量：齊行排版讓左欄文字的右緣也是一條很黑的直欄。沒有明顯欄線的頁面就回傳欄溝中心。
+    先用二維特徵：頁面中段各直欄的「長垂直黑段」墨量（long_vertical_ink），實線欄線再斜、再斷續
+    都是整頁最長的垂直結構，取最大值附近直欄的中心。只有淡虛線欄線的頁面沒有長段，退回一維輪廓：
+    1. 對各直欄的黑點數做移動平均（41 px），最小值是欄溝中心。
+    2. 用 15 px 平滑的輪廓找兩側的「密集文字塊」（連續 text_run 直欄以上都達文字水準一半），
+       取其內緣 e0、e1。
+    3. 欄線通常是 e0–e1 之間墨最多的直欄；欄線若緊貼文字塊（中間只有幾像素白隙），會被算進文字塊，
+       所以再看文字塊起頭 24 px 內有沒有「寬 ≤ max_rule、之後接白隙」的深色段，有就以它為準。
+    不能只看整頁墨量：齊行排版的文字邊緣很黑。都找不到就回傳欄溝中心。
     """
     arr = np.asarray(im.convert("L")) < 128
     h, w = arr.shape
-    ink = arr[int(h * 0.1):int(h * 0.9)].sum(axis=0).astype(np.float64)
     lo, hi = int(w * 0.3), int(w * 0.7)
-    k = 41
-    smooth = np.convolve(ink, np.ones(k) / k, mode="same")
-    gutter = lo + int(np.argmin(smooth[lo:hi]))
-    a, b = max(0, gutter - 120), min(w, gutter + 121)
-    sub = arr[:, a:b]
-    run = np.zeros(sub.shape[1], dtype=np.int32)
-    long_ink = np.zeros(sub.shape[1], dtype=np.int32)
-    for row in sub:
-        run = np.where(row, run + 1, 0)
-        long_ink += run >= min_run
-    x = a + int(np.argmax(long_ink))
-    return x if long_ink.max() >= 30 else gutter
+    lv = long_vertical_ink(arr, lo, hi)
+    if lv.max() >= 300:
+        x = int(np.argmax(lv))
+        near = np.arange(max(0, x - 12), min(len(lv), x + 13))
+        near = near[lv[near] >= 0.3 * lv[x]]
+        return lo + int(round(near.mean()))
+    ink = arr[int(h * 0.1):int(h * 0.9)].sum(axis=0).astype(np.float64)
+    s41 = np.convolve(ink, np.ones(41) / 41, mode="same")
+    gutter = lo + int(np.argmin(s41[lo:hi]))
+    level = np.percentile(ink[lo:hi], 70)
+    dense = np.convolve(ink, np.ones(15) / 15, mode="same") > 0.5 * level
+
+    def block_edge(step):
+        """從欄溝中心往 step 方向走，回傳第一個密集文字塊靠欄溝那一側的邊緣（含）。"""
+        x, run = gutter, 0
+        while 0 <= x < w:
+            run = run + 1 if dense[x] else 0
+            if run >= text_run:
+                return x - step * (text_run - 1)
+            x += step
+        return gutter - step * 200
+    e0, e1 = block_edge(-1), block_edge(1)
+    cands = []
+    if e1 - e0 > 8:
+        x = e0 + 4 + int(np.argmax(ink[e0 + 4:e1 - 3]))
+        cands.append((ink[x], x))
+    # 緊貼文字塊的欄線：文字塊起頭的窄深色段，後面（往文字方向）接著白隙
+    for edge, step in ((e1, 1), (e0, -1)):
+        x = edge
+        while 0 <= x < w and ink[x] < 0.3 * level and abs(x - edge) < 6:
+            x += step  # 跳過邊緣的淡欄
+        a = x
+        while 0 <= x < w and ink[x] >= 0.3 * level and abs(x - a) <= max_rule:
+            x += step
+        b = x - step
+        if 0 < abs(b - a) + 1 <= max_rule and 0 <= x + step < w and ink[x] < 0.1 * level and ink[x + step] < 0.1 * level:
+            seg = ink[min(a, b):max(a, b) + 1]
+            cands.append((seg.sum() / len(seg), (a + b) // 2))
+    if not cands:
+        return gutter
+    return max(cands)[1]
 
 
 def text_bound(im, x_from, direction, med_h, max_extend):
@@ -364,9 +415,17 @@ def erase_rule(im, rx, band=150, tilt=12):
     for y0 in range(0, h, band):
         seg = arr[y0:y0 + band, lo:hi] < 128
         ink = seg.sum(axis=0)
-        dark = np.where(ink > 0.3 * seg.shape[0])[0]
-        if len(dark):
-            arr[y0:y0 + band, max(0, lo + int(dark[0]) - 3):lo + int(dark[-1]) + 4] = 255
+        thresh = 0.3 * seg.shape[0]
+        peak = int(np.argmax(ink))
+        if ink[peak] <= thresh:
+            continue
+        # 只塗與峰值相連的深色直欄：齊頭排版讓每行首字母的筆畫也落在同一直欄，但它與欄線之間有白隙
+        a, b = peak, peak
+        while a > 0 and ink[a - 1] > thresh:
+            a -= 1
+        while b < len(ink) - 1 and ink[b + 1] > thresh:
+            b += 1
+        arr[y0:y0 + band, max(0, lo + a - 3):lo + b + 4] = 255
     return Image.fromarray(arr)
 
 
