@@ -43,7 +43,13 @@ class BeamRecognizer:
         self.np = np
 
     def __call__(self, im, name="line"):
-        t = self.ts(im.convert("L") if im.mode != "L" else im)
+        if im.width < 4 or im.height < 4:
+            return "", 0.0, 0.0  # 空框（rpred 也是直接回空字串）
+        try:
+            t = self.ts(im.convert("L") if im.mode != "L" else im)
+        except Exception as e:  # 極端長寬比的碎片會讓 kraken 的縮放失敗
+            print(f"  {name}: 行圖轉換失敗（{e}），略過", file=sys.stderr)
+            return "", 0.0, 0.0
         if t.max() == t.min():
             return "", 0.0, 0.0
         o, _ = self.net.forward(t.unsqueeze(0))
