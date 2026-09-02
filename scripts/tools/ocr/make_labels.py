@@ -19,8 +19,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import (GAP, LINE_IMAGES, WORK, base, clusters, lev, load_page_map,  # noqa: E402
-                    load_rom_verses, nfc, page_text_for, semi_global, snap)
+from common import (GAP, LINE_IMAGES, WORK, as_printed, base, clusters, lev, load_errata,  # noqa: E402
+                    load_page_map, load_rom_verses, nfc, page_text_for, semi_global, snap)
 
 MANUAL = Path("/home/siniong/projects/buc_ocr/data/manual_labels.json")
 MAX_NED = 0.3
@@ -159,6 +159,10 @@ def main():
     import sys as _sys
     pm, pages = load_page_map()
     filled = load_rom_verses()  # 不含 OCR 草稿：草稿頁的標籤會是模型自己的輸出
+    errata = load_errata()  # 標籤要照原書印法，正本改成規範寫法的地方換回去，模型才不會學到「補調符」
+    for eng, verses in filled.items():
+        for key in verses:
+            verses[key] = as_printed(eng, key, verses[key], errata)
     targets = []
     for p in pages:
         eng, vs, text = page_text_for(pm, pages, p, filled)

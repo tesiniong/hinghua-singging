@@ -7876,7 +7876,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "Á̤-Hó̤-Hua Siō̤ng-Da̤̍ sâi dā̤ saⁿ go̤h-cêng ē chiu̍, ā̤ kua̍ⁿ lē, ā̤ sia̍h lē; dng hóiⁿ lē do̤-ng ū seng-mīng ē chiu̍, iā ū heong-beh sēng-o̤h ē chiu̍.",
+              "rom": "Á̤-Hó̤-Hua Siō̤ng-Da̤̍ sâi dā̤ saⁿ go̤h-cê̤ng ē chiu̍, ā̤ kua̍ⁿ lē, ā̤ sia̍h lē; dng hóiⁿ lē do̤-ng ū seng-mīng ē chiu̍, iā ū heong-beh sēng-o̤h ē chiu̍.",
               "han": "耶和華上帝使地生各種其樹，會看咧，會食咧，當園咧當央有生命其樹，亦有分別善惡其樹。",
               "tokens": [
                 {
@@ -7912,7 +7912,7 @@
                 {
                   "type": "word",
                   "han": "各種",
-                  "rom": "go̤h-cêng",
+                  "rom": "go̤h-cê̤ng",
                   "form": "phrase"
                 },
                 {
@@ -8699,7 +8699,7 @@
             {
               "type": "verse",
               "verse": 14,
-              "rom": "Dā̤-so̤ⁿ dá̤u có miá Hi-dâ̤-geh, láu leo̍h A̍-seo̍h dang-bing. Dā̤-si̍ dá̤u cuh sī Beh-la̍h eó.",
+              "rom": "Dā̤-so̤ⁿ dá̤u eó miá Hi-dâ̤-geh, láu leo̍h A̍-seo̍h dang-bing. Dā̤-si̍ dá̤u cuh sī Beh-la̍h eó.",
               "han": "第三條河名希底結，流落亞述東邊。第四條即是伯拉河。",
               "tokens": [
                 {
@@ -8717,7 +8717,7 @@
                 {
                   "type": "word",
                   "han": "河",
-                  "rom": "có",
+                  "rom": "eó",
                   "form": "single"
                 },
                 {
@@ -9943,7 +9943,7 @@
             {
               "type": "verse",
               "verse": 23,
-              "rom": "A̍-do̤ng gô̤ng, Ca̤̍ sī guâ geoh do̤-ng ē geoh, ne̤̍h do̤-ng ē ne̤̍h; ing i sī iú dah-bo-náng sing lē chṳ̂ chōi, da̤u̍h ching i ga̤̍u sîng-ná̤u. (Bing Hi-beh-lái ngói-meóng, dah-bo ga̤̍u I-si, sîng-ná̤u gá̤u I-sa, ca̤̍ nn̄g gu̍ uā, ing ū seo-gṳ̄ng, hêng-míng sîng-ná̤u sī iú dah-bo hiô̤ heō miá ē i̍-gī.)",
+              "rom": "A̍-do̤ng gô̤ng, Ca̤̍ sī guâ geoh do̤-ng ē geoh, ne̤̍h do̤-ng ē ne̤̍h; ing i sī iú dah-bo-náng sing lē chṳ̂ chōi, da̤u̍h ching i ga̤̍u sîng-ná̤u. (Bing Hi-beh-lái ngói-meóng, dah-bo ga̤̍u I-si, sîng-ná̤u ga̤̍u I-sa, ca̤̍ nn̄g gu̍ uā, ing ū seo-gṳ̄ng, hêng-míng sîng-ná̤u sī iú dah-bo hiô̤ heō miá ē i̍-gī.)",
               "han": "亞當講：\n“這是我骨當央其骨，\n肉當央其肉。\n因伊是由丈夫儂身咧取出，\n着稱伊叫嬸娘。”（憑希伯來原文，丈夫叫“伊施”，嬸娘叫“伊沙”，這兩句話，音有廝近，顯明嬸娘是由丈夫遐號名其意義。） ",
               "tokens": [
                 {
@@ -10213,7 +10213,7 @@
                 {
                   "type": "word",
                   "han": "叫",
-                  "rom": "gá̤u",
+                  "rom": "ga̤̍u",
                   "form": "single"
                 },
                 {
@@ -13803,7 +13803,7 @@
             {
               "type": "verse",
               "verse": 20,
-              "rom": "A̍-do̤ng miá i ē láu-mâ ga̤̍u Hā-hua; (Hā-hua huang-i̍h cuh sī saⁿ ē i̍-gī) ing i sī ló̤ng-cô̤ng bā-sa̍ⁿ ē ná̤u-lâ̤.",
+              "rom": "A̍-do̤ng miá i ē lāu-mâ ga̤̍u Hā-hua; (Hā-hua huang-i̍h cuh sī saⁿ ē i̍-gī) ing i sī ló̤ng-cô̤ng bā-sa̍ⁿ ē ná̤u-lâ̤.",
               "han": "亞當名伊其老嬤叫夏娃，（“夏娃”翻譯即是“生”其意義）因伊是攏總百姓其娘嬭。",
               "tokens": [
                 {
@@ -13833,7 +13833,7 @@
                 {
                   "type": "word",
                   "han": "老嬤",
-                  "rom": "láu-mâ",
+                  "rom": "lāu-mâ",
                   "form": "phrase"
                 },
                 {
@@ -14367,13 +14367,13 @@
             {
               "type": "verse",
               "verse": 24,
-              "rom": "cuh de̤̍h ca̤̍ náng cheoh kṳ̍; leo̍h Ai-déng-hóiⁿ dang-bing seh Gi-lō-bing, gah ā̤ ga̍i-bû ē lī-gia̍ng, ta̤̍h bô̤-siû seng-mīng-chiu̍ ē dō.",
+              "rom": "Cuh de̤̍h ca̤̍ náng cheoh kṳ̍; leo̍h Ai-déng-hóiⁿ dang-bing seh Gi-lō-bing, gah ā̤ ga̍i-bû ē lī-gia̍ng, ta̤̍h bô̤-siû seng-mīng-chiu̍ ē dō.",
               "han": "即逐這儂出去，落埃田園東邊設基路兵，佮會家己舞其利劍，摕把守生命樹其墿。",
               "tokens": [
                 {
                   "type": "word",
                   "han": "即",
-                  "rom": "cuh",
+                  "rom": "Cuh",
                   "form": "single"
                 },
                 {
@@ -15290,7 +15290,7 @@
             {
               "type": "verse",
               "verse": 7,
-              "rom": "Seh-seô dṳ̂ héng-sēng, meh bā̤ gi̍ng siū-da̍h lō̤? Dû nō̤ héng-o̤h, cōi-gia̍h cuh ho̤̍h leo̍h móiⁿ-sá̤ⁿ; i iā dih-dih siô̤ng-bō dṳ̂, dṳ̂ ho̤h beoh guâng i.",
+              "rom": "Seh-seô dṳ̂ héng-sēng, meh bā̤ gi̍ng siū-da̍h lō̤? Dṳ̂ nō̤ héng-o̤h, cōi-gia̍h cuh ho̤̍h leo̍h mói-sá̤ⁿ; i iā dih-dih siô̤ng-bō dṳ̂, dṳ̂ ho̤h beoh guâng i.",
               "han": "設使汝行善，乜𣍐見受納咯？汝若行惡，罪孽即伏落門前，伊亦得々想慕汝，汝復慾管伊。”",
               "tokens": [
                 {
@@ -15354,7 +15354,7 @@
                 {
                   "type": "word",
                   "han": "汝",
-                  "rom": "Dû",
+                  "rom": "Dṳ̂",
                   "form": "single"
                 },
                 {
@@ -15401,7 +15401,7 @@
                 {
                   "type": "word",
                   "han": "門前",
-                  "rom": "móiⁿ-sá̤ⁿ",
+                  "rom": "mói-sá̤ⁿ",
                   "form": "phrase"
                 },
                 {
@@ -15649,7 +15649,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "Cṳ̂ ka̍ng Gai-ṳ̂ng gô̤ng, Dṳ̂-di A̍-beh deó deoh-leo? Gai-ṳ̂ng i̍ng gô̤ng, N̄g-cai: guâ meh sī ka̍ng-guâng guâ-dī ē náng lō̤?",
+              "rom": "Cṳ̂ ka̍ng Gai-ṳ̂ng gô̤ng, Dṳ̂-dī A̍-beh deó deoh-leo? Gai-ṳ̂ng i̍ng gô̤ng, N̄g-cai: guâ meh sī ka̍ng-guâng guâ-dī ē náng lō̤?",
               "han": "主勘該隱講：“汝弟亞伯著底落？”該隱應講：“毋知。我乜是看管我弟其儂咯？”",
               "tokens": [
                 {
@@ -15689,7 +15689,7 @@
                 {
                   "type": "word",
                   "han": "汝弟",
-                  "rom": "Dṳ̂-di",
+                  "rom": "Dṳ̂-dī",
                   "form": "phrase"
                 },
                 {
@@ -25351,7 +25351,7 @@
             {
               "type": "verse",
               "verse": 8,
-              "rom": "Ching-geh ē táu-saⁿ gah beó ching-geh ē táu-saⁿ, bôi ē câ̤u, gah dôiⁿ-dāng dā̤-lō̤ go̤h-cê̤ng ē tang-hiō̤,",
+              "rom": "Ching-geh ē táu-saⁿ, gah beó ching-geh ē táu-saⁿ, boi ē câ̤u, gah dôiⁿ-dāng dā̤-lō̤ go̤h-cê̤ng ē táng-hiō̤,",
               "han": "清潔其頭牲佮無清潔其頭牲，飛其鳥佮動彈地道各種其蟲蟻，",
               "tokens": [
                 {
@@ -25410,7 +25410,7 @@
                 {
                   "type": "word",
                   "han": "飛",
-                  "rom": "bôi",
+                  "rom": "boi",
                   "form": "single"
                 },
                 {
@@ -25458,7 +25458,7 @@
                 {
                   "type": "word",
                   "han": "蟲蟻",
-                  "rom": "tang-hiō̤",
+                  "rom": "táng-hiō̤",
                   "form": "phrase"
                 },
                 {
@@ -27505,7 +27505,7 @@
             {
               "type": "verse",
               "verse": 1,
-              "rom": "Cṳ̂ ka̍ng-go̍ gi̍-niāng Nô̤-a̍, léng gah i ca̤̍ deó seóng lē beh-siu̍, le̤̍h-he̤h: Siō̤ng-Da̤̍ cuh sâi boiⁿ choi ca̤̍ dā̤, cûi-sa̤̍ ciāng-ciāng te̤̍-kṳ̍;",
+              "rom": "Cṳ̂ ka̍ng-go̍ gi̍-niāng Nô̤-a̍, léng gah i cá̤ deó seóng lē beh-siu̍, le̤̍h-he̤h: Siō̤ng-Da̤̍ cuh sâi boiⁿ choi ca̤̍ dā̤, cûi-sa̤̍ ciāng-ciāng te̤̍-kṳ̍;",
               "han": "主看顧紀念挪亞連佮伊齊著船咧百獸、六畜。上帝即使風吹這地，水勢漸々退去，",
               "tokens": [
                 {
@@ -27553,7 +27553,7 @@
                 {
                   "type": "word",
                   "han": "齊",
-                  "rom": "ca̤̍",
+                  "rom": "cá̤",
                   "form": "single"
                 },
                 {
@@ -153908,7 +153908,7 @@
             {
               "type": "verse",
               "verse": 28,
-              "rom": "A̍-beh-la̍h-hâng ē giô̤ⁿ: sī Î-sah gah I-si̍h-mâ-lī.",
+              "rom": "A̍-beh-la̍h-hâng ē giô̤ⁿ: sī Î-sah gah Î-si̍h-mâ-lī.",
               "han": "亞伯拉罕其囝：是以撒佮以實瑪利。",
               "tokens": [
                 {
@@ -153955,7 +153955,7 @@
                 {
                   "type": "word",
                   "han": "以實瑪利",
-                  "rom": "I-si̍h-mâ-lī",
+                  "rom": "Î-si̍h-mâ-lī",
                   "form": "phrase"
                 },
                 {
@@ -153968,13 +153968,13 @@
             {
               "type": "verse",
               "verse": 29,
-              "rom": "Î-sah gah I-si̍h-mâ-lī ē hā̤u-a̤̍ gi̍ leo̍h ō̤-dâ̤: I-si̍h-mâ-lī ē diô̤ng-ceô sī Ní-bái-io̤h; buh saⁿ Gi-da̍h, Ah-be̍h, Bi̍h-sang,",
+              "rom": "I-sah gah I-si̍h-mâ-lī ē hā̤u-a̤̍ gi̍ leo̍h ō̤-dâ̤: Î-si̍h-mâ-lī ē diô̤ng-ceô sī Ní-bái-io̤h; buh saⁿ Gi-da̍h, Ah-be̍h, Bi̍h-sang,",
               "han": "以撒佮以實瑪利其後裔記落下底：以實瑪利其長子是尼排約；複生基達、押別、密衫、",
               "tokens": [
                 {
                   "type": "word",
                   "han": "以撒",
-                  "rom": "Î-sah",
+                  "rom": "I-sah",
                   "form": "phrase"
                 },
                 {
@@ -154027,7 +154027,7 @@
                 {
                   "type": "word",
                   "han": "以實瑪利",
-                  "rom": "I-si̍h-mâ-lī",
+                  "rom": "Î-si̍h-mâ-lī",
                   "form": "phrase"
                 },
                 {
@@ -154172,7 +154172,7 @@
             {
               "type": "verse",
               "verse": 31,
-              "rom": "Ih-do̤h, Ná-hi-si̍h, Gí-dâ̤-mâ. Ca̤̍ deo sī I-si̍h-mâ-lī ē giô̤ⁿ.",
+              "rom": "Ih-do̤h, Ná-hi-si̍h, Gí-dâ̤-mâ. Ca̤̍ deo sī Î-si̍h-mâ-lī ē giô̤ⁿ.",
               "han": "益督、拿非實、其底馬。這都是以實瑪利其囝、",
               "tokens": [
                 {
@@ -154229,7 +154229,7 @@
                 {
                   "type": "word",
                   "han": "以實瑪利",
-                  "rom": "I-si̍h-mâ-lī",
+                  "rom": "Î-si̍h-mâ-lī",
                   "form": "phrase"
                 },
                 {
@@ -154646,7 +154646,7 @@
             {
               "type": "verse",
               "verse": 35,
-              "rom": "Î-sô̤ ē giô̤ⁿ sī Î-lī-ha̍h, Liú-cî, Á̤-sī, Ngâ-láng, Kô̤-la̍h.",
+              "rom": "Î-sô̤ ē giô̤ⁿ sī Î-lī-hah, Liú-cî, Á̤-sī, Ngâ-láng, Kô̤-la̍h.",
               "han": "以掃其囝是以利法、流耳、耶是、雅蘭、可喇、",
               "tokens": [
                 {
@@ -154676,7 +154676,7 @@
                 {
                   "type": "word",
                   "han": "以利法",
-                  "rom": "Î-lī-ha̍h",
+                  "rom": "Î-lī-hah",
                   "form": "phrase"
                 },
                 {
@@ -154733,13 +154733,13 @@
             {
               "type": "verse",
               "verse": 36,
-              "rom": "Î-lī-ha̍h ē giô̤ⁿ sī Dá̤-māng, O̤-buah, Sa̤-bo̤, Gia-dāng, Gi-da̍h, Déng-da̍h, A̍-mâ-li̍h.",
+              "rom": "Î-lī-hah ē giô̤ⁿ sī Dá̤-māng, O̤-buah, Sa̤-bo̤, Gia-dāng, Gi-da̍h, Déng-da̍h, A̍-mâ-li̍h.",
               "han": "以利法其囝是提慢、阿抹、西波、迦坦、基納、亭納、亞馬力、",
               "tokens": [
                 {
                   "type": "word",
                   "han": "以利法",
-                  "rom": "Î-lī-ha̍h",
+                  "rom": "Î-lī-hah",
                   "form": "phrase"
                 },
                 {
@@ -155812,7 +155812,7 @@
             {
               "type": "verse",
               "verse": 46,
-              "rom": "Hō-sang sī āu, Bi̍-tah ē giô̤ⁿ Ha̍h-tah ciah-ūi, Ha̍h-tah beh-céng leo̍h Mó̤-ah ē báⁿ-á̤uⁿ pā Bî-déng náng; i ging-siáⁿ miá A̍-bī-deh.",
+              "rom": "Hō-sang sî āu, Bi̍-tah ē giô̤ⁿ Ha̍h-tah ciah-ūi, Ha̍h-tah beh-céng leo̍h Mó̤-ah ē báⁿ-á̤uⁿ pā Bî-déng náng; i ging-siáⁿ miá A̍-bī-deh.",
               "han": "戶山死後，庇撻其囝哈撻接位，哈撻捌曾落摩押其平洋拍米田儂；伊京城名亞味得。",
               "tokens": [
                 {
@@ -155824,7 +155824,7 @@
                 {
                   "type": "word",
                   "han": "死",
-                  "rom": "sī",
+                  "rom": "sî",
                   "form": "single"
                 },
                 {
@@ -158065,7 +158065,7 @@
             {
               "type": "verse",
               "verse": 17,
-              "rom": "A̍-bi̍-gai saⁿ A̍-mâ-seh; A̍-mâ-seh ē ló̤-bō̤ sī I-si̍h-mâ-lī náng Ih-tiah.",
+              "rom": "A̍-bi̍-gai saⁿ A̍-mâ-seh; A̍-mâ-seh ē ló̤-bō̤ sī Î-si̍h-mâ-lī náng Ih-tiah.",
               "han": "亞庇該生亞馬撒；亞馬撒其老爸是以實馬利儂益帖。",
               "tokens": [
                 {
@@ -158118,7 +158118,7 @@
                 {
                   "type": "word",
                   "han": "以實馬利",
-                  "rom": "I-si̍h-mâ-lī",
+                  "rom": "Î-si̍h-mâ-lī",
                   "form": "phrase"
                 },
                 {
@@ -160404,13 +160404,13 @@
             {
               "type": "verse",
               "verse": 41,
-              "rom": "Sa̤-léng saⁿ Á̤-ga-bî, Á̤-ga-bî saⁿ Î-lī-sa-mâ.",
+              "rom": "Sa-lé̤ng saⁿ Á̤-ga-bî, Á̤-ga-bî saⁿ Î-lī-sa-mâ.",
               "han": "沙龍生耶加米，耶加米生以利沙馬。",
               "tokens": [
                 {
                   "type": "word",
                   "han": "沙龍",
-                  "rom": "Sa̤-léng",
+                  "rom": "Sa-lé̤ng",
                   "form": "phrase"
                 },
                 {
@@ -163070,7 +163070,7 @@
             {
               "type": "verse",
               "verse": 10,
-              "rom": "Deoh-seo̍h ā̤uⁿ ē seō, náng ū-dang-dng cî, gô̤ng, Ca̤̍ sī sing ē seō le? i ho̤h n̄g-cai ca̤̍ seō diō̤ guâ-go̤h-náng î-céng ē sa̤̍-dāi cuh ū lâ̤u.",
+              "rom": "Deoh-seo̍h ā̤uⁿ ē seō, náng ū-dang-dng cî, gô̤ng, Ca̤̍ sī sing ē seō lē? i ho̤h n̄g-cai ca̤̍ seō diō̤ guâ-go̤h-náng î-céng ē sa̤̍-dāi cuh ū lâ̤u.",
               "han": "",
               "tokens": [
                 {
@@ -163141,7 +163141,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "le"
+                  "rom": "lē"
                 },
                 {
                   "type": "word",
@@ -164888,7 +164888,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "Bíng ah-na, guâ duā hing-ō̤ng, dah hāng deo ga-ting, bî guâ î-céng diō̤ Á̤-lō-sah-lêng ē náng ga-ting ho̤h-ā sā̤: nō̤ guâ ē di̍-hā̤ cíng-céng ho̤h-diō̤.",
+              "rom": "Bíng ah-na, guâ duā hing-ō̤ng, dah hāng deo ga-ting, bî guâ î-céng diō̤ Á̤-lō-sah-lêng ē náng ga-ting ho̤h-ā̤ sā̤: nō̤ guâ ē di̍-hā̤ cíng-céng ho̤h-diō̤.",
               "han": "",
               "tokens": [
                 {
@@ -164979,7 +164979,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "ho̤h-ā"
+                  "rom": "ho̤h-ā̤"
                 },
                 {
                   "type": "word",
@@ -167822,7 +167822,7 @@
             {
               "type": "verse",
               "verse": 5,
-              "rom": "diāⁿ sa̤̍uh-táu ū sí-cā̤, kah sa̤̍uh-táu seo̍h-dui iā ū sí-cā̤; peō ū sí-cā̤, n̄g peō iā ū sí-cā̤;",
+              "rom": "diāⁿ sa̤u̍h-táu ū sí-cā̤, kah sa̤u̍h-táu seo̍h-dui iā ū sí-cā̤; peō ū sí-cā̤, n̄g peō iā ū sí-cā̤;",
               "han": "擲石頭有時節，拾石頭蜀堆亦有時節；抱有時節，毋抱亦有時節；",
               "tokens": [
                 {
@@ -167834,7 +167834,7 @@
                 {
                   "type": "word",
                   "han": "石頭",
-                  "rom": "sa̤̍uh-táu",
+                  "rom": "sa̤u̍h-táu",
                   "form": "phrase"
                 },
                 {
@@ -167863,7 +167863,7 @@
                 {
                   "type": "word",
                   "han": "石頭",
-                  "rom": "sa̤̍uh-táu",
+                  "rom": "sa̤u̍h-táu",
                   "form": "phrase"
                 },
                 {
@@ -168432,7 +168432,7 @@
             {
               "type": "verse",
               "verse": 10,
-              "rom": "Guâ ū kua̍ⁿ-gi̍ng sa̤̍-gang náng ging-le̍h ló̤-le̤̍h, ā̤ cāi sī Siō̤ng-Da̤̍ sê̤ diāⁿ ē.",
+              "rom": "Guâ ū kua̍ⁿ-gi̍ng sa̤̍-gang náng ging-le̍h ló̤-le̤̍h, ā̤ cai sī Siō̤ng-Da̤̍ sê̤ diāⁿ ē.",
               "han": "",
               "tokens": [
                 {
@@ -168478,7 +168478,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "cāi"
+                  "rom": "cai"
                 },
                 {
                   "type": "word",
@@ -168510,7 +168510,7 @@
             {
               "type": "verse",
               "verse": 11,
-              "rom": "Siō̤ng-Da̤̍ cho̤̍ng-cho̤̍ māng-beo̍h, deo ū ha̍h sí-cā̤, beó ā n̄g-sī bā̤u-li̍ heô, buh sâi náng ē sing ā̤ chu̍i-do̤̍h sa̤̍-seō; nō̤ náng beó-dang-dng ching cai Siō̤ng-Da̤̍ iú táu ga̍u bôi ē sê̤ ceo̍ ē seō.",
+              "rom": "Siō̤ng-Da̤̍ cho̤̍ng-cho̤̍ māng-beo̍h, deo ū ha̍h sí-cā̤, beó ā n̄g-sī bā̤u-li̍ heô, buh sâi náng ē sing ā̤ chui-do̤̍h sa̤̍-seō; nō̤ náng beó-dang-dng ching cai Siō̤ng-Da̤̍ iú táu ga̍u bôi sê̤ ceo̍ ē seō.",
               "han": "",
               "tokens": [
                 {
@@ -168606,7 +168606,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "chu̍i-do̤̍h"
+                  "rom": "chui-do̤̍h"
                 },
                 {
                   "type": "word",
@@ -168662,11 +168662,6 @@
                   "type": "word",
                   "han": "",
                   "rom": "bôi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
                 },
                 {
                   "type": "word",
@@ -168761,7 +168756,7 @@
             {
               "type": "verse",
               "verse": 13,
-              "rom": "Go̤h-náng ā̤ sia̍h ā̤ chōi, ā̤ hiô̤ng ló̤-kô̤ sê̤ deh ē, ca̤̍ iā sī Siō̤ng-Da̤̍ sê̤ seo̍ ē.",
+              "rom": "Go̤h-náng ā̤ sia̍h ā̤ chōi, ā̤ hiô̤ng ló̤-kô sê̤ deh ē, ca̤̍ iā sī Siō̤ng-Da̤̍ sê̤ seo̍ ē.",
               "han": "",
               "tokens": [
                 {
@@ -168802,7 +168797,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "ló̤-kô̤"
+                  "rom": "ló̤-kô"
                 },
                 {
                   "type": "word",
@@ -557011,7 +557006,7 @@
             {
               "type": "verse",
               "verse": 17,
-              "rom": "Ing Gi-Do̤h cha̤-sâi guâ, n̄g-sī si sâ̤-lâ̤, si dóiⁿ ho̤h-ing; guâ iā n̄g ē̤ng di̍-hā̤ ē uā, giaⁿ Gi-Do̤h ē si̍h-cī-ga̍ be̍ng kang kṳ̍.",
+              "rom": "Ing Gi-Do̤h cha̤-sâi guâ, n̄g-sī si sâ̤-lâ̤, sī dóiⁿ ho̤h-ing; guâ iā n̄g ē̤ng di̍-hā̤ ē uā, giaⁿ Gi-Do̤h ē si̍h-cī-ga̍ be̍ng kang kṳ̍.",
               "han": "",
               "tokens": [
                 {
@@ -557052,7 +557047,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "si"
+                  "rom": "sī"
                 },
                 {
                   "type": "word",
@@ -558015,7 +558010,7 @@
             {
               "type": "verse",
               "verse": 2,
-              "rom": "Ing guâ ge̤h-i̍, leo̍h dṳ̂ do̤-ng n̄g-cai beh mo̍ih, nō̤ ca̍i Á̤-So Gi-Do̤h, léng I de̍ng si̍h-cī-ga̍.",
+              "rom": "Ing guâ ge̤h-i̍, leo̍h dṳ̂ do̤-ng n̄g-cai beh mo̍ih, nō̤ cai Á̤-So Gi-Do̤h, léng I de̍ng si̍h-cī-ga̍.",
               "han": "",
               "tokens": [
                 {
@@ -558071,7 +558066,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "ca̍i"
+                  "rom": "cai"
                 },
                 {
                   "type": "word",
@@ -558603,7 +558598,7 @@
             {
               "type": "verse",
               "verse": 8,
-              "rom": "ca̤̍ di̍-hā̤, sa̤̍-gang cho̤-gé̤ng ē náng deo n̄g-cai; nō̤ ā̤ ca̍i, cuh bā̤ de̍ng ṳ́ng-go̤ng ē Cṳ̂ leo̍h si̍h-cī-ga̍:",
+              "rom": "ca̤̍ di̍-hā̤, sa̤̍-gang cho̤-gé̤ng ē náng deo n̄g-cai; nō̤ ā̤ cai, cuh bā̤ de̍ng ṳ́ng-go̤ng ē Cṳ̂ leo̍h si̍h-cī-ga̍:",
               "han": "",
               "tokens": [
                 {
@@ -558659,7 +558654,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "ca̍i"
+                  "rom": "cai"
                 },
                 {
                   "type": "word",
@@ -558844,7 +558839,7 @@
             {
               "type": "verse",
               "verse": 10,
-              "rom": "Nō̤ Siō̤ng-Da̤̍ sâi Si̍ng-síng ta̤̍h ca̤̍ seō cî-diâng guâ-go̤h-náng, ing Si̍ng-síng gé̤ng-giu̍ māng-seō, léng Siō̤ng-Da̤̍ ē o̤̍-bā̤u.",
+              "rom": "Nō̤ Siō̤ng-Da̤̍ sâi Si̍ng-síng ta̤̍h ca̤̍ seō cî-diâng guâ-go̤h-náng, ing Si̍ng-Síng gé̤ng-giu̍ māng-seō, léng Siō̤ng-Da̤̍ ē o̤̍-bā̤u.",
               "han": "",
               "tokens": [
                 {
@@ -558900,7 +558895,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "Si̍ng-síng"
+                  "rom": "Si̍ng-Síng"
                 },
                 {
                   "type": "word",
@@ -559341,7 +559336,7 @@
             {
               "type": "verse",
               "verse": 14,
-              "rom": "Nō̤ bōi deh gâng-hua̍ ē náng, n̄g siū Siō̤ng-Da̤̍ Si̍ng-síng ē seō, huâng kua̍ⁿ ca̤̍ seō sī ngō̤ng, léng iā beó-dang-dng cai; ing ca̤̍ seō, náng da̤u̍h ē̤ng síng, cia̍ⁿ ā̤ chûi-do̤̍h.",
+              "rom": "Nō̤ bōi deh gâng-hua̍ ē náng, n̄g siū Siō̤ng-Da̤̍ Si̍ng-Síng ē seō, huâng kua̍ⁿ ca̤̍ seō sī ngō̤ng, léng iā beó-dang-dng cai; ing ca̤̍ seō, náng da̤u̍h ē̤ng síng, cia̍ⁿ ā̤ chûi-do̤̍h.",
               "han": "",
               "tokens": [
                 {
@@ -559392,7 +559387,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "Si̍ng-síng"
+                  "rom": "Si̍ng-Síng"
                 },
                 {
                   "type": "word",
@@ -561920,7 +561915,7 @@
             {
               "type": "verse",
               "verse": 10,
-              "rom": "Dêng ga̍u cé̤ⁿ ē deh da̤u̍h, bōi cé̤ⁿ ē dih-dih hā̤ kṳ̍.",
+              "rom": "Dêng ga̍u cé̤ⁿ ē deh da̤u̍h, bōi cé̤ⁿ ē dih-dih ha̤̍ kṳ̍.",
               "han": "",
               "tokens": [
                 {
@@ -561976,7 +561971,7 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "hā̤"
+                  "rom": "ha̤̍"
                 },
                 {
                   "type": "word",
@@ -568158,7 +568153,7 @@
             {
               "type": "verse",
               "verse": 1,
-              "rom": "Ceo̍ Á̤-So Gi-do̤h ē nó-bo̤̍h, léng ceo̍ I ē seo̍-dó, Sa̤-meóng Bî-deh, gio̤̍ cṳ keoh háng ciā guâ Siō̤ng-Da̤̍, léng guâ Giu̍-Cṳ̂ Á̤-So Gi-Do̤h ē gī-lî, gah guâ-go̤h-náng cá̤ deh ca̤̍ beô-bo̍i se̍ng ē náng:",
+              "rom": "Ceo̍ Á̤-So Gi-Do̤h ē nó-bo̤̍h, léng ceo̍ I ē seo̍-dó, Sa̤-meóng Bî-deh, gio̤̍ cṳ keoh háng ciā guâ Siō̤ng-Da̤̍, léng guâ Giu̍-Cṳ̂ Á̤-So Gi-Do̤h ē gī-lî, gah guâ-go̤h-náng cá̤ deh ca̤̍ beô-bo̍i se̍ng ē náng:",
               "han": "做耶穌基督其奴僕，連做伊其使徒，西門彼得，寄書乞凡借我上帝，連我救主耶穌基督其義理，佮我各儂齊得這寶貝信其儂：",
               "tokens": [
                 {
@@ -568176,7 +568171,7 @@
                 {
                   "type": "word",
                   "han": "基督",
-                  "rom": "Gi-do̤h",
+                  "rom": "Gi-Do̤h",
                   "form": "phrase"
                 },
                 {
@@ -572042,7 +572037,7 @@
             {
               "type": "verse",
               "verse": 5,
-              "rom": "Ching-a̍i ē hiaⁿ-dī a, dṳ̂ ka̍ng-dāi hiaⁿ-dī gah ceo̍ náng-kā ē náng, háng dṳ̂ sê̤ ceo̍ ē, deo sī cīng de̤ng-sing;",
+              "rom": "Ching-a̍i ē hiaⁿ-dī ā, dṳ̂ ka̍ng-dāi hiaⁿ-dī gah ceo̍ náng-kā ē náng, háng dṳ̂ sê̤ ceo̍ ē, deo sī cīng de̤ng-sing;",
               "han": "親愛其兄弟啊，汝看待兄弟佮做儂客其儂，凡汝所做其，都是盡忠心。",
               "tokens": [
                 {
@@ -572066,7 +572061,7 @@
                 {
                   "type": "word",
                   "han": "啊",
-                  "rom": "a",
+                  "rom": "ā",
                   "form": "single"
                 },
                 {
@@ -572601,7 +572596,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "Guâ sá̤ⁿ-di̍h siâ cṳ̂ gio̤̍ keoh ga̍u-hōi: nō̤ Diu-deh-hi a̍i-dí ceo̍ ga̍u-hōi ē táu-náng, i n̄g ciah-dāi guâ-go̤h-náng.",
+              "rom": "Guâ sá̤ⁿ-di̍h siâ cṳ gio̤̍ keoh ga̍u-hōi: nō̤ Diu-deh-hi a̍i-dí ceo̍ ga̍u-hōi ē táu-náng, i n̄g ciah-dāi guâ-go̤h-náng.",
               "han": "我前日寫書寄乞教會，喏丟特腓愛挃做教會其頭儂，伊毋接待我各儂。",
               "tokens": [
                 {
@@ -572625,7 +572620,7 @@
                 {
                   "type": "word",
                   "han": "書",
-                  "rom": "cṳ̂",
+                  "rom": "cṳ",
                   "form": "single"
                 },
                 {

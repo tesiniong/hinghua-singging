@@ -5,7 +5,8 @@
 kraken 預設是逐格取最大機率的貪婪解碼，會吐出「da̤̍u̍h」這種兩個調符的音節。
 這裡改成 prefix beam search，每條路徑記住「目前這個音節到哪一個字首樹節點」：
 離開字首樹（不可能成為合法音節）扣 oov_penalty，音節收尾時不是完整音節扣 incomplete_penalty，
-完整音節加上 lm_weight × log P(音節 | 前一音節)。大小寫不管；數字、標點、空格、連字號是音節邊界。
+完整音節加上 lm_weight × log P(音節 | 前一音節)。大小寫不管；數字、標點、空格、連字號是音節邊界；
+連字號前後不能有空格。
 
   decode.py -m models/x.mlmodel --manifest dataset/pages_test_auto.txt --labels dataset/pages_test_auto_labels.json
       → 比較貪婪與 beam 解碼的 CER（可用 --lm-weight、--beam、--oov-penalty 掃參數）
@@ -204,10 +205,14 @@ class Decoder:
                 # blank
                 add(prefix, total + col[0], NEG, state, emits)
                 last = prefix[-1] if prefix else None
+                last_ch = self.l2c.get(last) if last is not None else None
                 for c in cands:
                     c = int(c)
                     if c == 0:
                         continue
+                    ch = self.l2c[c]
+                    if (ch == " " and last_ch == "-") or (ch == "-" and last_ch == " "):
+                        continue  # 連字號前後不會有空格
                     lp = col[c]
                     if c == last:
                         add(prefix, NEG, pnb + lp, state, emits)  # 重複：合併

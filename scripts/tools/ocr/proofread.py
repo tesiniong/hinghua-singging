@@ -26,7 +26,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from _paths import PUBLIC  # noqa: E402
 from assemble import Assembler, han_syllables, load_han_verses, pages_for, syllables  # noqa: E402
-from common import BOOKS, WORK, clusters, load_page_map, load_rom_verses, nfc, nfd, page_lines  # noqa: E402
+from common import (BOOKS, WORK, as_printed, clusters, load_errata, load_page_map, load_rom_verses,  # noqa: E402
+                    nfc, nfd, page_lines)
 
 MARKS = {"̤": "下加兩點", "̍": "上直線", "̄": "長音符", "̂": "揚抑符", "́": "尖音符", "ⁿ": "鼻化"}
 
@@ -146,6 +147,7 @@ def main():
         tmp.write(txt)
         tmp.close()
         filled = load_rom_verses(tmp.name)
+    errata = load_errata()
     freq = collections.Counter(s.lower() for verses in filled.values() for t in verses.values() for s in syllables(t))
     rows, skipped, missing_pages = [], [], []
     stats = collections.Counter()
@@ -167,7 +169,7 @@ def main():
             next_start = (nxt["chapter"], nxt["verse"]) if nxt and nxt["book_english"] == eng else (10**6, 1)
             asm.feed_page(p, rec, (pm[p]["chapter"], pm[p]["verse"]), next_start)
         for key in sorted(verses):
-            gt = verses[key]
+            gt = as_printed(eng, key, verses[key], errata)  # 勘誤表列出的地方比對原書印法
             ocr = asm.verse_text(key)
             stats["verses"] += 1
             if not ocr or abs(len(nfd(ocr)) - len(nfd(gt))) > max(6, 0.25 * len(nfd(gt))):

@@ -19,8 +19,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import (BOOKS, DATA, DRAFT_FILE, WORK, base, clusters, load_draft, load_page_map,  # noqa: E402
-                    load_rom_verses, nfc, prev_verse, save_draft, verses_on_page)
+from common import (BOOKS, DATA, DRAFT_FILE, WORK, base, clusters, load_draft, load_errata, load_page_map,  # noqa: E402
+                    load_rom_verses, nfc, nfd, prev_verse, save_draft, verses_on_page)
 
 NOISE_RE = re.compile(r"^[\d\s:.;,'\"()\-]*$")  # 只有數字與標點：頁眉章節號、頁碼
 # 章標題「Dā̤ 11 Ca̤uⁿ.」的去符號形式；粗體數字常被漏讀，所以數字可缺，但沒數字時要有句點
@@ -328,6 +328,70 @@ class Assembler:
         return nfc(re.sub(r"\s+", " ", s)).strip()
 
 
+TONE_MARKS = "\u0301\u0302\u030d\u0304"
+
+
+def strip_tones(s):
+    return nfc("".join(ch for ch in nfd(s) if ch not in TONE_MARKS))
+
+
+def capital_lexicon(filled):
+    """正本裡含大寫字母的詞（連字號連起來的整個詞）：去調符的形式 → Counter(實際寫法)。
+
+    原書大寫字母上的調符常漏印（I-seh-le̍h、A-láng），OCR 照印刷讀出來是對的，
+    但正本要規範寫法；靠這個詞表判斷哪些詞該補調符。以整個詞為單位，因為單一音節常兩可
+    （I 是代名詞，Î-seh-le̍h 才是以色列）。
+    """
+    lex = collections.defaultdict(collections.Counter)
+    for verses in filled.values():
+        for t in verses.values():
+            for tok in t.split():
+                tok = re.sub(r"^[^\w]+|[^\w\u0300-\u036f]+$", "", tok)
+                if tok and any(ch.isupper() for ch in tok):
+                    lex[strip_tones(tok)][nfc(tok)] += 1
+    return lex
+
+
+def _only_adds_capital_tones(word, cand):
+    """cand 是否只是在 word 的大寫音節上補了調符（其餘音節完全相同）。"""
+    ws, cs = word.split("-"), cand.split("-")
+    if len(ws) != len(cs):
+        return False
+    for w, c in zip(ws, cs):
+        if w == c:
+            continue
+        if not (w and w[0].isupper() and strip_tones(w) == strip_tones(c) and not any(ch in TONE_MARKS for ch in nfd(w))):
+            return False
+    return True
+
+
+def normalize_capitals(text, lex, errata=()):
+    """把 OCR 讀到的印刷寫法改成規範寫法，回傳 (文字, [改動說明])。
+
+    1. 勘誤表裡 `*` 的條目：原書印法 → 規範寫法。
+    2. 含大寫字母的詞：正本從未這樣寫、且正本裡剛好有一種寫法只差在大寫音節多了調符時，換成那個寫法。
+    """
+    changes = []
+    for eng, key, printed, normal in errata:
+        if eng == "*" and key is None and printed in text:
+            text = text.replace(printed, normal)
+            changes.append(f"{printed}→{normal}")
+    out = []
+    for tok in text.split(" "):
+        m = re.match(r"^([^\w]*)(.*?)([^\w\u0300-\u036f]*)$", tok)
+        head, core, tail = m.groups()
+        core = nfc(core)
+        if core and any(ch.isupper() for ch in core):
+            forms = lex.get(strip_tones(core))
+            if forms and core not in forms:
+                cands = [f for f in forms if _only_adds_capital_tones(core, f)]
+                if len(cands) == 1:
+                    changes.append(f"{core}→{cands[0]}")
+                    core = cands[0]
+        out.append(head + core + tail)
+    return " ".join(out), changes
+
+
 def load_han_verses(eng):
     """han.txt 中該書卷的經文，{(章, 節): 漢字}，用來交叉檢查音節數。"""
     han_name = BOOKS[eng]["han"]
@@ -431,6 +495,8 @@ def main():
     existing_all = load_rom_verses(exclude_draft=False).get(eng, {})  # 含草稿：這些節已有內容，不再填
     draft_keys = set(load_draft().get(eng, {}))
     lexicon = {s.lower() for verses in filled.values() for t in verses.values() for s in syllables(t)}
+    cap_lex = capital_lexicon(filled)
+    errata = load_errata()
     plist = pages_for(pm, pages, eng, chapters)
     han = load_han_verses(eng)
     # 切節的長度線索：漢字版字數；已有人工正本的節直接用正本的音節數（更準，沒有漢字版的書卷也有）
@@ -451,6 +517,9 @@ def main():
     cands, report = {}, []
     for key in targets:
         text = asm.verse_text(key)
+        text, normalized = normalize_capitals(text, cap_lex, errata)
+        if normalized:
+            asm.flags[key].add("依正本詞表改成規範寫法：" + "、".join(normalized))
         existing = existing_all.get(key)
         oov = [s for s in syllables(text) if s.lower() not in lexicon]
         if key in han and text and key not in filled.get(eng, {}):

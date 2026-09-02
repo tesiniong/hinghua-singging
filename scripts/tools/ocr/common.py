@@ -30,6 +30,7 @@ BOOKS = {b["eng"]: b for b in B.OLD_TESTAMENT_BOOKS + B.NEW_TESTAMENT_BOOKS}
 ROM_TO_ENG = {unicodedata.normalize("NFC", b["rom"]): b["eng"] for b in BOOKS.values()}
 GAP = "§"  # 頁面文字中「此處經文尚未錄入」的哨兵
 DRAFT_FILE = DATA / "ocr-draft.json"  # OCR 填入、尚未校對的節（見 docs/ocr.md「辨識草稿」）
+ERRATA_FILE = DATA / "print-errata.tsv"  # 原書印錯、正本照規範寫的地方（見 docs/ocr.md「印刷勘誤」）
 
 
 # ---------- 文字 ----------
@@ -172,6 +173,31 @@ def save_draft(draft):
         out.append(" }" + ("," if bi < len(books) - 1 else ""))
     out.append("}")
     DRAFT_FILE.write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
+def load_errata():
+    """print-errata.tsv → [(英文書名或 "*", (章, 節) 或 None, 印刷寫法, 規範寫法)]。"""
+    if not ERRATA_FILE.exists():
+        return []
+    out = []
+    for line in open(ERRATA_FILE, encoding="utf-8"):
+        if not line.strip() or line.startswith("#"):
+            continue
+        cols = line.rstrip("\n").split("\t")
+        if len(cols) < 4:
+            continue
+        eng, ref, printed, normal = cols[:4]
+        key = None if ref.strip() == "*" else tuple(int(x) for x in ref.split(":"))
+        out.append((eng.strip(), key, nfc(printed.strip()), nfc(normal.strip())))
+    return out
+
+
+def as_printed(eng, key, text, errata):
+    """把規範寫法換回原書的印法（做訓練標籤與校對比對時，要跟圖上印的一致）。"""
+    for e, k, printed, normal in errata:
+        if (e == "*" or e == eng) and (k is None or k == key) and normal in nfc(text):
+            text = nfc(text).replace(normal, printed)
+    return text
 
 
 def load_rom_verses(path=None, exclude_draft=True):

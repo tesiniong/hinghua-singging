@@ -1,0 +1,8 @@
+# 原書印錯、正本照規範寫的地方。欄位：英文書名（* 表示全部）	章:節（* 表示全部）	原書印法	規範寫法	說明
+# 用途：訓練標籤與校對比對照原書印法（模型不必學會「補調符」）；正本維持規範寫法。
+# 大寫字母上的調符原書常漏印，這類不必逐條列，assemble.py 會依正本詞表補回並加旗標。
+Genesis	6:21	ló̤ng-cô̤ng	lô̤ng-cô̤ng	原書印 ló̤ng
+1 Corinthians	13:2	ló̤ng-cô̤ng	lô̤ng-cô̤ng	原書印 ló̤ng（兩處）
+1 Chronicles	2:7	I-seh-le̍h	Î-seh-le̍h	大寫字母漏印調符
+1 Chronicles	2:23	A-láng	A̍-láng	大寫字母漏印調符
+Genesis	10:23	A-láng	A̍-láng	大寫字母漏印調符（10:22 有印）

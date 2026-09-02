@@ -4,6 +4,7 @@
 
   python scripts/tools/check_rom_syllables.py            # 人工正本（不含 OCR 草稿）
   python scripts/tools/check_rom_syllables.py --draft    # 只看 OCR 草稿
+  python scripts/tools/check_rom_syllables.py --html out.html   # 附 OCR 讀法與掃描裁圖的校對頁（需已跑過 recognize.py）
 
 合法音節 = data/hinghua-finals.txt 的「韻母＋聲調」× 聲母。正本裡的異常多半是打字錯誤，
 但少數可能是原書就印錯，請對照掃描頁。
@@ -53,6 +54,47 @@ def why(s, valid):
     return "韻母不存在或漏連字號"
 
 
+def html_report(found, verses, out_path):
+    """每個可疑音節一列：正本（標出音節）、OCR 對同一節的讀法、掃描裁圖。"""
+    import html as H
+    import json
+    from assemble import Assembler, han_syllables, load_han_verses, pages_for
+    from common import WORK, load_page_map
+    from proofread import crop_lines
+    pm, pages = load_page_map()
+    asms, cache = {}, {}
+    rows = []
+    for s, refs in found.items():
+        for eng, key in refs:
+            if eng not in asms:
+                han = load_han_verses(eng)
+                asm = Assembler(eng, {k: han_syllables(v) for k, v in han.items()})
+                for p in pages_for(pm, pages, eng, sorted({c for c, _ in verses[eng]})):
+                    f = WORK / "recognized" / f"{p}.json"
+                    if not f.exists():
+                        continue
+                    i = pages.index(p)
+                    nxt = pm[pages[i + 1]] if i + 1 < len(pages) else None
+                    ns = (nxt["chapter"], nxt["verse"]) if nxt and nxt["book_english"] == eng else (10**6, 1)
+                    asm.feed_page(p, json.load(open(f, encoding="utf-8")), (pm[p]["chapter"], pm[p]["verse"]), ns)
+                asms[eng] = asm
+            asm = asms[eng]
+            gt = verses[eng][key]
+            marked = H.escape(gt).replace(H.escape(s), f"<mark>{H.escape(s)}</mark>")
+            img = crop_lines(cache, asm.lines.get(key, []))
+            rows.append(f"<tr><td>{BOOKS[eng]['han']}<br>{key[0]}:{key[1]}</td><td><b>{H.escape(s)}</b><br>{why(s, valid_syllables())}</td>"
+                        f"<td>{marked}<br><span style='color:#555'>{H.escape(asm.verse_text(key))}</span></td>"
+                        f"<td>{'<img src=' + chr(39) + 'data:image/png;base64,' + img + chr(39) + '>' if img else ''}</td></tr>")
+    doc = ["<!doctype html><meta charset='utf-8'><title>可疑音節</title>",
+           "<style>body{font-family:'DejaVu Sans',sans-serif;max-width:1100px;margin:auto;padding:1em}"
+           "table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:6px;vertical-align:top}"
+           "mark{background:#ffd54f}img{max-width:100%;border:1px solid #999}</style>",
+           f"<h1>rom.txt 可疑音節（{len(rows)} 處）</h1><p>上為正本（標出音節），下為 OCR 對同一節的讀法；圖是該節用到的掃描行。</p>",
+           "<table><tr><th>章節</th><th>音節</th><th>正本 ／ OCR</th><th>掃描</th></tr>", *rows, "</table>"]
+    Path(out_path).write_text("\n".join(doc), encoding="utf-8")
+    print(f"→ {out_path}")
+
+
 def main():
     valid = valid_syllables()
     if "--draft" in sys.argv:
@@ -68,12 +110,16 @@ def main():
             for s in syllables(text):
                 total += 1
                 if norm(s) not in valid:
-                    found[s].append(f"{BOOKS[eng]['han']} {c}:{v}")
+                    found[s].append((eng, (c, v)))
     n = sum(len(r) for r in found.values())
     print(f"音節 {total}，不合法 {n}（{n / max(total, 1):.2%}）\n")
     print("| 音節 | 判斷 | 次數 | 位置 |\n|---|---|---|---|")
     for s, refs in sorted(found.items(), key=lambda x: (-len(x[1]), x[0])):
-        print(f"| {s} | {why(s, valid)} | {len(refs)} | {'、'.join(refs[:6])}{'…' if len(refs) > 6 else ''} |")
+        where = [f"{BOOKS[e]['han']} {c}:{v}" for e, (c, v) in refs]
+        print(f"| {s} | {why(s, valid)} | {len(refs)} | {'、'.join(where[:6])}{'…' if len(refs) > 6 else ''} |")
+    if "--html" in sys.argv:
+        sys.path.insert(0, str(Path(__file__).resolve().parent / "ocr"))
+        html_report(found, verses, sys.argv[sys.argv.index("--html") + 1])
 
 
 if __name__ == "__main__":
