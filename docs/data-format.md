@@ -140,6 +140,13 @@
 
 ---
 
+## `hinghua-finals.txt`
+
+興化平話字所有合法的「韻母＋聲調」組合（230 個，NFC，一行一個），由使用者的生成器
+`~/projects/wiktionary-scripts/python-scripts/hinghwa2.py` 產生；調符位置的規則都在裡面
+（例如 a̤uh 的調符標在 u 上、-h 韻尾不配尖音符）。乘上 15 個聲母得到 3,420 個合法音節，
+供 `scripts/tools/check_rom_syllables.py` 檢查正本，也供 OCR 解碼限制輸出。
+
 ## 未納入建置流程的參考檔
 
 `data/` 底下有兩個檔案目前沒有被任何腳本或前端讀取，保留作參考：

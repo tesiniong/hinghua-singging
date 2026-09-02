@@ -105,6 +105,7 @@ Excel 中以 `_xxx_` 標記底線，會轉成 HTML `<u>`。
 | `convert_images.py` / `rename_images.py` | TIF → WebP、批次重新命名 |
 | `add_bookmarks.py` | 為 PDF 加書籤 |
 | `check_quotes.py` | 檢查 Unicode 引號是否被正確判為標點 |
+| `check_rom_syllables.py` | 列出 `rom.txt` 裡不合法的音節（多個調符、調符位置、漏連字號…）；合法音節來自 `data/hinghua-finals.txt` × 聲母；`--draft` 只看 OCR 草稿 |
 | `ocr/` | 掃描頁羅馬字 OCR：訓練資料產生、辨識、切節、填入 `rom.txt`，見 [ocr.md](ocr.md) |
 
 ---
