@@ -38,10 +38,18 @@ def ocr_lines(paths):
     return out
 
 
-def align_page(page, eng, text, imgs, ocr):
+MAX_TAIL = 4  # 行尾補回的短詞最多幾個去符號字元（" ē"、" Î-"）
+
+
+def align_page(page, eng, text, imgs, ocr, cols=None):
+    """把每行的 OCR 輸出對齊到整頁文字，切出標籤。
+
+    cols 給每行所在的欄時，同欄相鄰兩行的標籤之間若只漏了一個短詞（OCR 常漏讀行尾的 ē、Î-），
+    把它補回前一行的行尾；否則標籤會跟著 OCR 一起漏，模型就學會「行尾的短詞不存在」。
+    """
     cl, pb = clusters(text)
-    labels = []
-    for img, pr in zip(imgs, ocr):
+    spans = []  # (img, s, t, lb, col)
+    for k, (img, pr) in enumerate(zip(imgs, ocr)):
         _, lb = clusters(pr)
         if len(lb) < MIN_LEN:
             continue
@@ -49,6 +57,16 @@ def align_page(page, eng, text, imgs, ocr):
         if d / len(lb) > MAX_NED:
             continue
         s, t = snap(pb, s, t, lb)
+        spans.append([img, s, t, lb, cols[k] if cols else 0])
+    fixed = 0
+    for i in range(len(spans) - 1):
+        a, b = spans[i], spans[i + 1]
+        gap = pb[a[2]:b[1]]
+        if a[4] == b[4] and 0 < len(gap.strip()) <= MAX_TAIL and GAP not in gap and b[1] > a[2]:
+            a[2] = b[1]  # 中間漏掉的短詞歸前一行行尾
+            fixed += 1
+    labels = []
+    for img, s, t, lb, _ in spans:
         span = pb[s:t]
         if GAP in span or (s > 0 and pb[s - 1] == GAP) or (t < len(pb) and pb[t] == GAP):
             continue  # 貼著缺文邊界的行，標籤可能不完整
@@ -58,6 +76,8 @@ def align_page(page, eng, text, imgs, ocr):
             continue  # 長度差太多：行圖含有標籤外的文字，或切割有誤
         labels.append({"img": str(img), "page": page, "book": eng, "text": label,
                        "ocr": pr, "ned": round(lev(lbase, lb) / len(lb), 3)})
+    if fixed:
+        print(f"  {page}: 補回 {fixed} 個行尾短詞")
     return labels
 
 
@@ -108,10 +128,11 @@ def make_page_crops(targets, pm, pages, filled, from_recognized=False):
         for m in json.load(open(MANUAL, encoding="utf-8")):
             page, idx = re.match(r"(\d+)/\d+_line_(\d+)\.png", m["filename"]).groups()
             manual[(page, int(idx))] = nfc(m["ground_truth"]).strip()
-    all_imgs, by_page, manual_pages = [], {}, []
+    all_imgs, by_page, by_page_cols, manual_pages = [], {}, {}, []
     for p, eng, text in targets:
         im = Image.open(PUBLIC / "images" / f"{p}.webp").convert("L")
         boxes, rx = page_lines(p, im)
+        by_page_cols[p] = [b["col"] for b in boxes]
         im = erase_rule(im, rx)
         d = WORK / "pagecrops" / p
         if d.exists():
@@ -149,7 +170,7 @@ def make_page_crops(targets, pm, pages, filled, from_recognized=False):
         out_name = "auto_labels_pages.json"
     auto = []
     for p, eng, text in targets:
-        auto.extend(align_page(p, eng, text, by_page[p], [ocr.get(i, "") for i in by_page[p]]))
+        auto.extend(align_page(p, eng, text, by_page[p], [ocr.get(i, "") for i in by_page[p]], by_page_cols[p]))
     json.dump(auto, open(WORK / "labels" / out_name, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     json.dump(manual_pages, open(WORK / "labels" / "manual_pages.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     print(f"auto labels (page crops): {len(auto)}")

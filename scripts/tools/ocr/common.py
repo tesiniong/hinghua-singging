@@ -312,30 +312,61 @@ def line_order(page):
 
 # ---------- 整頁的行框 ----------
 
-RULE_MARGIN = 2  # 行框與欄溝中心保持的距離（像素）
+RULE_MARGIN = 2  # 行框與欄線保持的距離（像素）；文字可能貼著欄線，欄線本身另外塗白
 
 
-def column_rule(im):
-    """找出雙欄之間的欄溝中心 x：對頁面中段各直欄的黑點數做移動平均後取最小值。"""
-    ink = (np.asarray(im.convert("L")) < 128).sum(axis=0).astype(np.float64)
-    w = len(ink)
-    lo, hi = int(w * 0.35), int(w * 0.65)
+def column_rule(im, min_run=60):
+    """找出雙欄之間欄線的 x。
+
+    先對頁面中段各直欄的黑點數做移動平均，最小值是欄溝；再在欄溝 ±120 px 內找「長直線墨量」
+    （屬於 ≥ min_run px 連續黑段的像素數）最大的直欄。文字邊緣再黑也只有字高的短段，欄線才有長段；
+    不能只看墨量：齊行排版讓左欄文字的右緣也是一條很黑的直欄。沒有明顯欄線的頁面就回傳欄溝中心。
+    """
+    arr = np.asarray(im.convert("L")) < 128
+    h, w = arr.shape
+    ink = arr[int(h * 0.1):int(h * 0.9)].sum(axis=0).astype(np.float64)
+    lo, hi = int(w * 0.3), int(w * 0.7)
     k = 41
-    smooth = np.convolve(ink[lo - k:hi + k], np.ones(k) / k, mode="same")[k:-k]
-    return lo + int(np.argmin(smooth))
+    smooth = np.convolve(ink, np.ones(k) / k, mode="same")
+    gutter = lo + int(np.argmin(smooth[lo:hi]))
+    a, b = max(0, gutter - 120), min(w, gutter + 121)
+    sub = arr[:, a:b]
+    run = np.zeros(sub.shape[1], dtype=np.int32)
+    long_ink = np.zeros(sub.shape[1], dtype=np.int32)
+    for row in sub:
+        run = np.where(row, run + 1, 0)
+        long_ink += run >= min_run
+    x = a + int(np.argmax(long_ink))
+    return x if long_ink.max() >= 30 else gutter
 
 
-def erase_rule(im, rx, band=150, halfwidth=10):
-    """把欄線塗白。欄線可能略斜或斷續，故分段偵測：每段在欄溝附近找墨量超過段高三成的直欄。"""
+def text_bound(im, x_from, direction, med_h, max_extend):
+    """從 x_from 往 direction（+1 右／-1 左）找欄的外緣：最多外放 max_extend，碰到頁緣或裝訂陰影（整欄墨量很大）就停。"""
+    arr = np.asarray(im.convert("L")) < 128
+    h = arr.shape[0]
+    band = arr[int(h * 0.1):int(h * 0.9)]
+    x = int(x_from)
+    for _ in range(int(max_extend)):
+        nx = x + direction
+        if nx < 0 or nx >= arr.shape[1] or band[:, nx].sum() > 0.3 * band.shape[0]:
+            break
+        x = nx
+    return x
+
+
+def erase_rule(im, rx, band=150, tilt=12):
+    """把欄線塗白。欄線可能略斜、粗細不一或斷續，故分段偵測：每段在欄線 x ±tilt 內找墨量超過
+    段高三成的直欄，把這些直欄連同左右各 3 px 塗白。搜尋範圍要小：貼著欄線的行尾短詞比欄線還黑，
+    範圍一大就會被當成欄線塗掉。"""
     arr = np.array(im.convert("L"))
     h, w = arr.shape
-    lo, hi = max(0, rx - 40), min(w, rx + 41)
+    lo, hi = max(0, rx - tilt), min(w, rx + tilt + 1)
     for y0 in range(0, h, band):
         seg = arr[y0:y0 + band, lo:hi] < 128
         ink = seg.sum(axis=0)
-        if ink.max() > 0.3 * seg.shape[0]:
-            x = lo + int(np.argmax(ink))
-            arr[y0:y0 + band, max(0, x - halfwidth):x + halfwidth + 1] = 255
+        dark = np.where(ink > 0.3 * seg.shape[0])[0]
+        if len(dark):
+            arr[y0:y0 + band, max(0, lo + int(dark[0]) - 3):lo + int(dark[-1]) + 4] = 255
     return Image.fromarray(arr)
 
 
@@ -446,7 +477,7 @@ def page_lines(page, im=None):
         col = 0 if (x0 + x1) / 2 < rx else 1
         if x1 - x0 < 50:
             continue
-        # 前次切欄的位置不一定貼著欄線，行框一律拉到欄溝中心，讓裁切涵蓋整行（欄線另外塗白）
+        # 前次切欄的位置不一定貼著欄線，行框一律拉到欄線兩側，讓裁切涵蓋整行（欄線另外塗白）
         if col == 0:
             x1 = rx - RULE_MARGIN
         else:
@@ -473,14 +504,19 @@ def page_lines(page, im=None):
         for b in normal:
             b["y0"] = min(b["y0"], b["y"] - above)
             b["y1"] = max(b["y1"], b["y"] + below)
-    # 切割多邊形常漏掉行首的上標節號與行尾的短詞：每欄的行框一律拉到該欄的左右邊界
+    # 切割多邊形常漏掉行首的上標節號與行尾的短詞：每欄的行框一律拉到該欄的左右邊界。
+    # 靠欄線的一側以欄線為界；外側取整欄最寬的行再往外放一個音節寬（多邊形不一定包到行尾孤立的短詞），
+    # 碰到頁緣或裝訂陰影就停；多出來的空白 tight_crop 會裁掉。
     for col in (0, 1):
         wide = [b for b in boxes if b["col"] == col and not b["dropcap"] and b["x1"] - b["x0"] > 8 * med_h]
         if len(wide) < 3:
             continue
-        # 外緣取整欄最寬的行再加一點餘裕；用百分位數會把最長幾行的行尾字元切掉
-        left = min(b["x0"] for b in wide) - 6
-        right = max(b["x1"] for b in wide) + 6
+        if col == 0:
+            left = text_bound(im, min(b["x0"] for b in wide), -1, med_h, 1.2 * med_h)
+            right = rx - RULE_MARGIN
+        else:
+            left = rx + RULE_MARGIN
+            right = text_bound(im, max(b["x1"] for b in wide), 1, med_h, 1.2 * med_h)
         for b in boxes:
             if b["col"] == col and not b["dropcap"]:
                 b["x0"], b["x1"] = max(0, min(b["x0"], left)), max(b["x1"], right)

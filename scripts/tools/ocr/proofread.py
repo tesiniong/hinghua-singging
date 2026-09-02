@@ -169,8 +169,11 @@ def main():
             next_start = (nxt["chapter"], nxt["verse"]) if nxt and nxt["book_english"] == eng else (10**6, 1)
             asm.feed_page(p, rec, (pm[p]["chapter"], pm[p]["verse"]), next_start)
         for key in sorted(verses):
-            gt = as_printed(eng, key, verses[key], errata)  # 勘誤表列出的地方比對原書印法
             ocr = asm.verse_text(key)
+            gt = verses[key]
+            printed = as_printed(eng, key, gt, errata)  # 勘誤表列出的地方：OCR 讀成印法或規範寫法都算對
+            if printed != gt and ocr and len(diff_verse(ocr, printed)) < len(diff_verse(ocr, gt)):
+                gt = printed
             stats["verses"] += 1
             if not ocr or abs(len(nfd(ocr)) - len(nfd(gt))) > max(6, 0.25 * len(nfd(gt))):
                 skipped.append((eng, key, len(nfd(ocr)), len(nfd(gt))))

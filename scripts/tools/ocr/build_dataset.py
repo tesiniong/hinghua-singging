@@ -3,7 +3,8 @@
 """把標籤整理成 kraken `-f path` 格式的資料集（圖檔 symlink + .gt.txt），並寫出清單檔。
 
 測試集固定用人工標註過的 0017–0022 頁，訓練／驗證集不含這些頁面。
-另外產生 train_digits.txt（含數字的行重複三次），供第二階段微調節號辨識。
+另外產生 train_digits.txt（含數字的行重複三次）供第二階段微調節號辨識，
+以及 train_boost.txt（含數字、含大寫加調符的行各重複三次）供之後的續訓。
   --page-crops                    整頁裁切版（labels/auto_labels_pages.json → dataset/pages_*，
                                   另出 pages_test_auto.txt 與 pages_test_auto_labels.json：測試頁上抄自 rom.txt 的標籤）
   --page-crops --from-recognized  同上，但標籤取自 labels/auto_labels_pages_recognized.json
@@ -67,11 +68,18 @@ def main():
     val, train = train[:n_val], train[n_val:]
     print("train", write_split(prefix + "train", train), "val", write_split(prefix + "val", val),
           "test", write_split(prefix + "test", test))
-    # 上標節號的數字樣本少，另出一份把含數字的行重複三次的清單，供第二階段微調
+    # 上標節號的數字樣本少，另出一份把含數字的行重複三次的清單，供第二階段微調；
+    # 大寫字母加調符（Î、A̍）的樣本也少，模型常整個漏掉，再出一份數字與大寫加調符都重複三次的清單
+    import re
     lines = [ln.strip() for ln in open(WORK / "dataset" / f"{prefix}train.txt", encoding="utf-8") if ln.strip()]
-    digits = [ln for ln in lines if any(ch.isdigit() for ch in Path(ln).with_suffix(".gt.txt").read_text(encoding="utf-8"))]
+    gts = {ln: Path(ln).with_suffix(".gt.txt").read_text(encoding="utf-8") for ln in lines}
+    digits = [ln for ln in lines if any(ch.isdigit() for ch in gts[ln])]
+    caps = [ln for ln in lines if re.search(r"[A-Z][\u0300-\u036f]", gts[ln])]
     (WORK / "dataset" / f"{prefix}train_digits.txt").write_text("\n".join(lines + digits + digits) + "\n", encoding="utf-8")
     print("train_digits", len(lines) + 2 * len(digits), f"({len(digits)} lines with digits, x3)")
+    boost = lines + digits + digits + caps + caps
+    (WORK / "dataset" / f"{prefix}train_boost.txt").write_text("\n".join(boost) + "\n", encoding="utf-8")
+    print("train_boost", len(boost), f"({len(digits)} with digits x3, {len(caps)} with capital+tone mark x3)")
 
 
 if __name__ == "__main__":
