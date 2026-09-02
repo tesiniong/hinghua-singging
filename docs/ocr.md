@@ -144,6 +144,7 @@ CER 10%、整節正確 52%、兩字元內 78%，才是沒有任何長度線索�
 | `evaluate.py` | 含符號／去符號 CER、整行正確率、最常見混淆 |
 | `assemble.py` | 丟掉頁眉頁碼、接回行尾連字號、依內文節號切節（用頁面對應表的起始節號校正、容忍上標數字誤讀）、章標題轉 `## N`，填入既有的空節號行並記進 `ocr-draft.json`；`--evaluate` 與已錄入的人工正本比對 |
 | `draft.py` | 管理 `ocr-draft.json`：列出、校對完清除、找過時標記 |
+| `apply_proofread.py` | 把校對者對 `proofread.html` 的決定（哪些節照 OCR 改、只改第幾項）套用到 `rom.txt` |
 | `../check_rom_syllables.py` | 正本裡不合法的音節；`--html` 附 OCR 讀法與掃描裁圖 |
 | `proofread.py` | 反過來用模型校對人工正本：逐節比對 git 已提交的 `rom.txt`，差異分 A（疑似正本打錯）、B（需看圖判斷）、C（多半 OCR 錯）、D（標點空格），輸出附掃描裁圖的 HTML |
 
@@ -231,6 +232,20 @@ OCR 填入的經文可以先上線，但要讓讀者看得出來它還沒校對�
 | rom.txt 已有內容／已有 OCR 草稿，不覆寫 | 該節已填過，本次不動；後者表示現有內容是之前的草稿 |
 
 沒有旗標的節仍可能有錯，只是機率低；建議校對時對照 📖 圖示開啟的掃描頁。
+
+## 校對正本（反向校對）
+
+`proofread.py` 拿 OCR 結果逐節比對人工正本，差異分 A（疑似正本打錯）、B（需看圖）、C（多半 OCR 錯）、
+D（標點空格），輸出附掃描裁圖的 `recognized/proofread.html`。校對流程：
+
+1. 校對者看報告，寫一個決定檔：一行一節，`創世記 3:3` 表示該節「差異」欄每一項都照 OCR 改，
+   `創世記 4:23<TAB>3` 表示只套用第 3 項（依差異欄順序），沒列的節不動。
+2. `python scripts/tools/ocr/apply_proofread.py decisions.txt` 乾跑看會改什麼，確認後加 `--write`。
+3. `python scripts/build_all.py`，rom.txt 與生成檔一起 commit。
+4. 原書本身印錯、正本要保留規範寫法的，寫進 `data/print-errata.tsv`（見「印刷勘誤」）。
+
+`scripts/tools/check_rom_syllables.py --html recognized/syllable_check.html` 另列出正本裡不合法的音節
+（多個調符、調符位置、漏連字號），附 OCR 讀法與裁圖，用同樣方式校對後直接改 rom.txt。
 
 ## 已知限制
 
