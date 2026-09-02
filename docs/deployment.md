@@ -68,19 +68,47 @@ Cloudflare Pages 免費方案不需要信用卡。整個流程唯一會卡住的
 
 | 選項 | 費用 | 取得時間 | 風險 |
 |------|------|----------|------|
-| 自購（建議） | 約 USD 10/年，Cloudflare Registrar 按成本價、續約不加價 | 幾分鐘 | 要在註冊商留付款資訊 |
+| DigitalPlat FreeDomain（免費首選） | 免費 | 線上審核，通常很快 | 每年要手動續期；營運方規模小，服務存續無保證 |
+| 自購 | 約 USD 10/年，Cloudflare Registrar 按成本價、續約不加價 | 幾分鐘 | 要在註冊商留付款資訊 |
 | eu.org | 免費 | 人工審核，數週到數月，也可能一直不過 | 有省級封鎖的回報（河北曾整片擋 eu.org 並顯示詐騙警告） |
-| is-a.dev / js.org | 免費 | GitHub PR，通常一兩天 | 由志工審核，用途未必被接受；大陸可達性無實測資料 |
 
 **不要用 `.cn` 結尾**，那會回到需要 ICP 備案的世界。`.org`、`.com`、`.net` 都可以。
 
-網域自購的另一個好處是可攜：日後若 Cloudflare Pages 在莆田不夠快，換一家主機只要改
-DNS，讀者的網址不變。
+自購的好處是可攜與穩定：日後若 Cloudflare Pages 在莆田不夠快，換一家主機只要改 DNS，
+讀者的網址不變；也不會因為某個免費服務收攤而失去網址。這是唯一沒有存續風險的選項。
 
-若走 eu.org：**不能用 Gmail 信箱**。nic.eu.org 自己在註冊頁警告 Gmail 會把它的驗證信
-當垃圾郵件退掉，且「there is nothing we can do about this」——是收不到，不是進垃圾桶
-資料夾，翻找也沒有用。改用 Outlook、Proton Mail、Fastmail、iCloud 或機構信箱，
-且這個位址日後是網域的聯絡人身分，找回權限都靠它，要選長期用得到的。
+**不適用的兩個服務**，不必浪費時間去申請：
+
+- **js.org** 只收與 JavaScript 社群有直接關聯的專案（套件、函式庫、工具），
+  明文排除個人網站與一般網站。本專案是用 React 寫的沒錯，但主題是經文，會被拒。
+- **is-a.dev** 的服務條款第 3 條限定「與軟體開發相關」的個人或非商業專案，
+  第 2 條並明確授權審核者拒絕非開發性質的網站。本專案同樣對不上。
+  另外該服務條款第 6 條與 README 都明文反對用 AI 產生 pull request（點名 Claude Code），
+  違反可能連帶封鎖作者的 GitHub 帳號，所以這個 PR 只能由人自己手寫。
+
+### 1a. DigitalPlat FreeDomain
+
+非營利的免費網域服務，提供 `.dpdns.org`、`.qzz.io`、`.us.kg`、`.xx.kg` 四種後綴，
+給的是真正的 NS 委派，可以直接交給 Cloudflare 管理。沒有「必須是開發專案」的限制。
+
+1. 到 https://dash.domain.digitalplat.org/ 註冊並登入。
+2. 搜尋想要的名稱，**建議選 `.dpdns.org`**：它掛在正規的 `.org` 底下，
+   比 `.us.kg`、`.xx.kg` 這類被大量濫用的後綴更不容易被瀏覽器或牆內判為可疑。
+3. 送出後等審核通過，再照下一步把 NS 指到 Cloudflare。
+4. **有效期一年，到期前 180 天內要手動續期**（免費但必須自己動手）。
+   建議在行事曆上設提醒，忘了續期網址就沒了。
+
+專案倉庫：https://github.com/DigitalPlatDev/FreeDomain
+
+### 1b. eu.org（備案，可平行送件）
+
+免費且不會過期，送出後放著等就好，通過了就是多一個選擇。但審核是人工的，
+社群回報從數週到數月都有，也可能一直沒下文，所以不要把進度押在它身上。
+
+**不能用 Gmail 信箱**。nic.eu.org 自己在註冊頁警告 Gmail 會把它的驗證信當垃圾郵件退掉，
+且「there is nothing we can do about this」——是收不到，不是進垃圾桶資料夾，翻找也沒有用。
+改用 Outlook、Proton Mail、Fastmail、iCloud 或機構信箱，且這個位址日後是網域的聯絡人身分，
+找回權限都靠它，要選長期用得到的。
 
 ### 2. Cloudflare 帳號與 zone
 
@@ -88,22 +116,21 @@ DNS，讀者的網址不變。
 2. 首頁 → **Add a domain** → 輸入預定的網域。
    若出現「This domain is already registered. If you own it, you can connect it to
    Cloudflare.」，**這不是錯誤**，按 **Connect** 即可：Cloudflare 的註冊商只賣得了真正的
-   頂級網域，任何 `xxx.eu.org` 一律走「連接既有網域」這條路，正是我們要的。
+   頂級網域，免費服務給的網域一律走「連接既有網域」這條路，正是我們要的。
 3. 選 **Free** 方案。
 4. Cloudflare 會給兩個 name server，形如 `xxx.ns.cloudflare.com`，記下來。
-   自購網域改好 NS 後很快會 Active；eu.org 則會停在「Pending Nameserver Update」，
-   直到下一步的網域核准。
 
-Cloudflare 會刪掉停在 Pending 超過約四週的 zone。若發生，重新 Add a domain；
-若新配到的 NS 與當初填給 eu.org 的不同，到 nic.eu.org 該網域頁面把 NS 改成新的。
+### 3. 把網域的 NS 指到 Cloudflare
 
-### 3. 申請 eu.org（若走這條）
+- **DigitalPlat**：在 dash.domain.digitalplat.org 該網域的管理頁填入上一步的兩個 NS。
+- **eu.org**：登入 nic.eu.org → **Domains → New domain**，Domain name 填預定網域，
+  Name servers 填那兩個 Cloudflare NS，其餘留空，送出後等審核信。
+- **自購**：在註冊商的網域設定改 NS；若用 Cloudflare Registrar 買則已經是了。
 
-1. 到 https://nic.eu.org/ → **Register** 建立帳號（contact handle），信箱不可用 Gmail。
-2. 登入後 **Domains → New domain**：Domain name 填預定網域，
-   Name servers 填上一步的兩個 Cloudflare NS，其餘留空，送出。
-3. 等審核 email，期間先做後面幾步。核准後回 Cloudflare 的 zone 頁按
-   **Check nameservers**，狀態變 Active 即可。
+改好後回 Cloudflare 的 zone 頁按 **Check nameservers**，狀態變 Active 即可，通常幾分鐘到幾小時。
+
+Cloudflare 會刪掉停在「Pending Nameserver Update」超過約四週的 zone。若發生，
+重新 Add a domain；若新配到的 NS 與當初填的不同，回網域那邊把 NS 改成新的。
 
 ### 4. Cloudflare Pages 專案與 API token
 
@@ -127,15 +154,15 @@ Repository → Settings → Secrets and variables → Actions：
 | Secret | `CLOUDFLARE_API_TOKEN` | 上一步的 token |
 | Secret | `CLOUDFLARE_ACCOUNT_ID` | Account ID |
 | Variable | `CF_PAGES_PROJECT` | 專案名稱，例如 `hinghua-singging` |
-| Variable | `MIRROR_SITE_URL` | 網域核准後才設，例如 `https://hinghua.eu.org/`，結尾要有斜線 |
+| Variable | `MIRROR_SITE_URL` | 網域下來後才設，例如 `https://hinghua.dpdns.org/`，結尾要有斜線 |
 
 設好 `CF_PAGES_PROJECT` 後，下一次推 `main`，或在 Actions 頁對 main 按 **Run workflow**，
 就會部署鏡像。`MIRROR_SITE_URL` 設定之前，鏡像的 canonical 暫時指向 `<專案>.pages.dev`。
 
 ### 6. 綁自訂網域
 
-網域核准、zone 變 Active 之後：Workers & Pages → 該專案 → **Custom domains** →
-Set up a custom domain → 填 `hinghua.eu.org`。Cloudflare 會自動加 CNAME 並簽憑證，幾分鐘生效。
+zone 變 Active 之後：Workers & Pages → 該專案 → **Custom domains** →
+Set up a custom domain → 填你的網域。Cloudflare 會自動加 CNAME 並簽憑證，幾分鐘生效。
 然後設定 `MIRROR_SITE_URL`，重跑一次 workflow 讓 canonical 與 og:url 換成正式網址。
 
 ### 7. 從大陸驗證

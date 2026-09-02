@@ -72,5 +72,16 @@ Append-only。新的紀錄加在最上面，**不要修改或刪除既有條目*
   時略過，行為與先前相同。同倉庫的 PR 會部署鏡像預覽版。
 - **決定**：鏡像的 canonical 指向自己而非主站，否則百度會把讀者導回打不開的 github.io。
 
-未做：eu.org 網域申請與 Cloudflare、GitHub secrets 設定待專案擁有者完成
-（步驟見 deployment.md）；網域核准前鏡像的 canonical 暫指 `<專案>.pages.dev`。
+未做：網域與 Cloudflare、GitHub secrets 設定待專案擁有者完成（步驟見 deployment.md）；
+網域下來前鏡像的 canonical 暫指 `<專案>.pages.dev`。
+
+網域選項後來重查了一輪，結論與最初的假設不同：
+
+- **js.org 與 is-a.dev 都不適用**。兩者都限定與軟體開發／JavaScript 社群直接相關的專案，
+  本專案是經文數位化，只是恰好用 React 寫，會被審核拒絕。is-a.dev 的服務條款另外明文
+  反對用 AI 產生 pull request 並點名 Claude Code，違反可能封鎖作者帳號。
+- **eu.org 降為備案**。無官方停止公告，但社群回報審核要數週到數月甚至無下文；
+  且有省級封鎖的回報（河北整片擋 eu.org 並顯示詐騙警告），與「大陸能開」的目的相衝。
+  另外 nic.eu.org 明言 Gmail 會退掉它的驗證信，註冊信箱不能用 Gmail。
+- **改以 DigitalPlat FreeDomain 的 `.dpdns.org` 為免費首選**，它給真正的 NS 委派、
+  沒有專案性質限制，代價是每年要手動續期。自購網域仍是唯一沒有存續風險的選項。
