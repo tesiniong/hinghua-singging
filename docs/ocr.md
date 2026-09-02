@@ -19,15 +19,17 @@
 訓練資料不必人工標註：把 PaddleOCR 的輸出對齊到 `rom.txt` 已錄入的經文，
 還原出帶符號的行標籤，與人工標註比對有八成整行一致、CER 4%。
 
-目前的模型 `hinghua_pages2_best.mlmodel`（三階段訓練加一次重新對齊續訓，見下）在保留的測試頁
-（0017–0022，標籤抄自 rom.txt 的 515 行）行級 CER 1.3%、整行全對 74%；
+目前的模型 `hinghua_pages3_best.mlmodel`（三階段訓練、兩次續訓，見下）配合受限 beam 解碼，
+在保留的測試頁（0017–0022，標籤抄自 rom.txt 的 516 行）行級 CER 0.83%、整行全對 82%（貪婪解碼 1.05%／77%）；
 拿已錄入的創世記 1–20 章做端到端評估（辨識＋切節，440 節；四福音書的數字見「切節」）：
 
-| 指標 | 貪婪解碼 | 受限 beam 解碼（現行） |
+| 指標 | 最初（貪婪解碼） | 現行（`hinghua_pages3_best` + 受限 beam 解碼 + 修正裁圖） |
 |---|---|---|
-| 逐節 CER（含切節錯誤） | 3.5% | 2.0% |
-| 整節完全正確 | 59% | 65% |
-| 兩個字元以內可修好 | 82% | 86% |
+| 逐節 CER（含切節錯誤） | 3.5% | 1.1% |
+| 整節完全正確 | 59% | 74% |
+| 兩個字元以內可修好 | 82% | 92% |
+
+四福音書對既有正本：馬太 517 節 CER 1.8%／整節 65%／兩字元內 91%，馬可 1.3%／76%，約翰 1.1%／72%／95%。
 
 印刷清晰的章節逐節 CER 在 1% 上下，磨損頁（創世記 6–10、18）明顯較差。
 
@@ -65,11 +67,11 @@ python $R/build_dataset.py --page-crops --from-recognized
 $K/ketos -d cuda:0 --workers 4 train -i models/hinghua_ft_best.mlmodel -f path \
     -t dataset/pages_train_digits.txt -e dataset/pages_val.txt -u NFD -B 16 -r 0.0003 --augment \
     --lag 5 --min-epochs 4 -o models/hinghua_pages                                  # 第三階段：適應整頁裁切
-$K/python $R/recognize.py -m models/hinghua_pages2_best.mlmodel --manifest dataset/pages_test_auto.txt -o recognized/testauto.json
-python $R/evaluate.py recognized/testauto.json --labels dataset/pages_test_auto_labels.json   # 標籤抄自 rom.txt 的 505 行，比較模型用這組
-$K/python $R/recognize.py -m models/hinghua_pages2_best.mlmodel --manifest dataset/pages_test.txt -o recognized/test.json
+$K/python $R/decode.py -m models/hinghua_pages3_best.mlmodel --manifest dataset/pages_test_auto.txt \
+    --labels dataset/pages_test_auto_labels.json --lm-weight 0.7 --oov-penalty 6   # 貪婪與 beam 的 CER，比較模型用這組（標籤抄自 rom.txt）
+$K/python $R/recognize.py -m models/hinghua_pages3_best.mlmodel --manifest dataset/pages_test.txt -o recognized/test.json
 python $R/evaluate.py recognized/test.json               # 前次人工標註的 454 行；少數行框與標註對不上，CER 偏高，只看整行全對
-$K/python $R/recognize.py -m models/hinghua_pages2_best.mlmodel --pages 0028-0048
+$K/python $R/recognize.py -m models/hinghua_pages3_best.mlmodel --pages 0028-0048
 python $R/assemble.py --book Genesis --chapters 21-33            # 只寫報告
 python $R/assemble.py --book Genesis --chapters 1-20 --evaluate  # 拿已錄入的章節做端到端評估
 python $R/assemble.py --book Genesis --chapters 21-33 --write    # 填入 rom.txt 的空節，並記進 data/ocr-draft.json
@@ -82,10 +84,12 @@ python scripts/build_all.py
 三個訓練階段各解決一件事：第一階段學字母與符號；第二階段把含數字的行重複三次，
 因為上標節號是小字，只認得 89% 的節號，微調後到 99%；第三階段換成與辨識時完全相同的
 整頁裁切行圖，因為前次切割的行圖與整頁裁切的分布不同，同一個模型在後者上的錯誤率高四倍。
-`recognize.py` 也不再用舊行圖，而是從整頁圖裁切：找欄線（欄溝 ±120 px 內「長直線墨量」最大的直欄——
-不能只看墨量，齊行排版讓左欄文字的右緣也很黑）、依實際粗細塗掉欄線（只在欄線 ±12 px 內找，貼著欄線的
-行尾短詞比欄線還黑，範圍一大會被塗掉）、把被切碎的行框合併、靠欄線一側以欄線為界、外側往外放一個音節寬
-（切割多邊形不一定包到行尾孤立的短詞）、以基線撐到標準行高，再貼著墨跡裁切。前次切割偶爾整行漏掉（四福音書 141 頁裡有 13 頁，
+`recognize.py` 也不再用舊行圖，而是從整頁圖裁切：找欄線（先看二維的「長垂直黑段」，實線欄線再斜再斷續
+都是整頁最長的垂直結構；只有淡虛線的頁面退回一維輪廓，在兩欄文字塊內緣之間找孤立的尖峰——不能只看
+墨量，齊行排版的文字邊緣很黑，文字裡也偶有比欄線更長的直筆畫）、塗掉欄線（只塗與欄線峰值相連的深色直欄：
+每行首字母的筆畫也在同一直欄，但與欄線之間有白隙）、把被切碎的行框合併、靠欄線一側以欄線為界、外側往外
+放一個音節寬（切割多邊形不一定包到行尾孤立的短詞）、以基線撐到標準行高，再貼著墨跡裁切。
+這幾步做錯的後果都是「行尾或行首少一個短詞」，而且會經由自動標籤傳給模型，所以改動後要重跑辨識與標籤。前次切割偶爾整行漏掉（四福音書 141 頁裡有 13 頁，
 最嚴重的一頁漏了 16 行，整章開頭就不見），所以 `page_lines` 最後有一步 `fill_line_gaps`：
 同欄相鄰兩行的距離超過行距 1.7 倍時，在缺口裡對該欄做墨跡的水平投影，把有墨的段落補成行
 （太高的段落依行距在墨量最少處切開）；缺口裡沒有墨（書卷結尾的空白）就不補。
@@ -101,16 +105,18 @@ kraken 預設逐格取最大機率（貪婪解碼），會吐出 `da̤̍u̍h`（
 
 在 515 行測試集上（bigram 排除測試頁的經節）：
 
-| 解碼 | CER | 整行全對 |
+| 解碼（`hinghua_pages2_best`，當時的測試集） | CER | 整行全對 |
 |---|---|---|
 | 貪婪 | 1.26% | 73.8% |
 | 只限制合法音節（lm_weight 0） | 1.20% | 74.6% |
 | 限制＋bigram，lm_weight 0.7 | 1.03% | 78.3% |
 
+（現行 `hinghua_pages3_best` 在修正後的測試集：貪婪 1.05%／76.7%，beam 0.83%／82.0%。）
+
 修掉的多是調符與行尾少一個字母；剩下的錯多在數字（不受限制）、人名、l／i 這類 LM 幫不上的地方。
 `recognize.py` 預設用它（`--decoder greedy` 可切回），一行約 10 ms；建 bigram 時排除目標頁上已錄入的
-經節，評估才不會看過答案。端到端（辨識＋切節）在馬太福音 517 節正本上：逐節 CER 2.5% → 2.3%、
-整節正確 54% → 61%、兩字元內可修好 82% → 85%。
+經節，評估才不會看過答案。端到端（辨識＋切節）在馬太福音 517 節正本上，換解碼那一步：逐節 CER
+2.5% → 2.3%、整節正確 54% → 61%、兩字元內可修好 82% → 85%。
 
 ## 切節
 
@@ -156,9 +162,10 @@ CER 10%、整節正確 52%、兩字元內 78%，才是沒有任何長度線索�
 只多 2%——瓶頸是已錄入的頁數，不是對齊。OCR 草稿的頁不算在內（見上）。
 要再增加資料有三條路，由易到難：
 
-1. **重新對齊**：如上，一個指令，再跑第三階段訓練即可。做過一次（4,792 行、從 `hinghua_pages_best` 續訓，
-   最佳在第 1 輪）：測試 515 行 CER 1.35% → 1.26%、整行全對 73.6% → 74.0%，只是小幅改善，
-   產物是 `models/hinghua_pages2_best.mlmodel`。
+1. **重新對齊**：如上，一個指令，再跑第三階段訓練即可。做過兩次：`hinghua_pages2_best`（4,792 行、從
+   `hinghua_pages_best` 續訓）只小幅改善；`hinghua_pages3_best` 則是在修好裁圖幾何、標籤補回行尾短詞、
+   大寫加調符的行加重三倍（`pages_train_boost.txt`）之後從 `pages2_best` 續訓，測試 516 行貪婪 CER
+   1.26% → 1.05%、beam 1.04% → 0.83%，而且行尾的 ē、Î- 終於讀得出來。
 2. **校對過的 OCR 章節變成新正本**：每校完一章（`draft.py --clear`），它所在的頁就能產生新標籤；同時 `assemble.py` 的長度線索也需要該章的漢字版。
 3. **未錄入頁面的自我訓練**：用模型的高信心輸出當假標籤。還沒做，風險是把模型的錯誤學進去，要用音節表過濾。
 
@@ -170,7 +177,7 @@ CER 10%、整節正確 52%、兩字元內 78%，才是沒有任何長度線索�
 cd ~/projects/hinghua-ocr-work
 K=~/miniconda3/envs/hinghua-ocr/bin; R=<repo>/scripts/tools/ocr
 python -c "..."                                  # 用 assemble.pages_for 查該章節所在頁碼，或直接看 page-ocr-results.json
-$K/python $R/recognize.py -m models/hinghua_pages2_best.mlmodel --pages 0049-0071
+$K/python $R/recognize.py -m models/hinghua_pages3_best.mlmodel --pages 0049-0071
 # 頁數多時分批並行（例如每 12 頁一個程序），一頁約 10 秒
 python $R/assemble.py --book Genesis --chapters 34-50            # 先只看報告
 python $R/assemble.py --book Genesis --chapters 34-50 --write    # 確認後填入空節
