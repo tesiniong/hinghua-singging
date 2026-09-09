@@ -254,6 +254,31 @@ def verses_on_page(pm, pages, p):
     return e, out
 
 
+def page_numbers(pm, pages, p, margin=3):
+    """該頁上可能印出的數字：頁面範圍內的節號（前後各放寬 margin 節，頁面對應表偶有誤差）與章號。
+    解碼時用來把上標數字往這些值偏（見 decode.rescore_numbers）；頁眉頁碼不在內。"""
+    eng, vs = verses_on_page(pm, pages, p)
+    if not vs:
+        return set()
+    vpc = BOOKS[eng]["verses_per_chapter"]
+    ext = list(vs)
+    k = prev_verse(eng, *vs[0])
+    for _ in range(margin):
+        if not k:
+            break
+        ext.append(k)
+        k = prev_verse(eng, *k)
+    c, v = vs[-1]
+    for _ in range(margin):
+        v += 1
+        if v > vpc[c - 1]:
+            c, v = c + 1, 1
+            if c > len(vpc):
+                break
+        ext.append((c, v))
+    return {v for _, v in ext} | {c for c, _ in ext}
+
+
 def prev_verse(eng, c, v):
     """(章, 節) 的前一節；第一章第一節回傳 None。"""
     if v > 1:

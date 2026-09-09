@@ -217,9 +217,9 @@ class Decoder:
                     if c == last:
                         add(prefix, NEG, pnb + lp, state, emits)  # 重複：合併
                         if pb > NEG:
-                            add(prefix + (c,), NEG, pb + lp, self._extend(state, self.l2c[c]), emits + (math.exp(lp),))
+                            add(prefix + (c,), NEG, pb + lp, self._extend(state, self.l2c[c]), emits + ((math.exp(lp), t),))
                     else:
-                        add(prefix + (c,), NEG, total + lp, self._extend(state, self.l2c[c]), emits + (math.exp(lp),))
+                        add(prefix + (c,), NEG, total + lp, self._extend(state, self.l2c[c]), emits + ((math.exp(lp), t),))
             ranked = sorted(nxt.items(), key=lambda kv: -(np.logaddexp(kv[1][0], kv[1][1]) + kv[1][2][3]))
             beam = dict(ranked[:self.beam])
         best, best_score = None, NEG
@@ -228,20 +228,100 @@ class Decoder:
             s = np.logaddexp(pb, pnb) + st[3]
             if s > best_score:
                 best, best_score = (prefix, emits), s
-        return list(best[0]), list(best[1])
+        return list(best[0]), [p for p, _ in best[1]], [t for _, t in best[1]]
+
+
+def ctc_logp(logp, labels, t0, t1, blank=0):
+    """CTC 前向演算法：第 t0..t1-1 格產生 labels 的 log 機率（含空白與重複的所有路徑）。"""
+    if t1 - t0 < len(labels) or not labels:
+        return -1e9
+    ext = [blank]
+    for lab in labels:
+        ext += [lab, blank]
+    ext = np.array(ext)
+    S = len(ext)
+    NEG = -1e30
+    skip = np.zeros(S, bool)  # 可以跳過中間空白直接接到 s-2：ext[s] 不是空白且與 ext[s-2] 不同
+    skip[2:] = (ext[2:] != blank) & (ext[2:] != ext[:-2])
+    alpha = np.full(S, NEG)
+    alpha[0] = logp[blank, t0]
+    alpha[1] = logp[ext[1], t0]
+    for t in range(t0 + 1, t1):
+        a1 = np.concatenate(([NEG], alpha[:-1]))
+        a2 = np.concatenate(([NEG, NEG], alpha[:-2]))
+        new = np.logaddexp(alpha, a1)
+        new = np.where(skip, np.logaddexp(new, a2), new)
+        alpha = new + logp[ext, t]
+    return float(np.logaddexp(alpha[-1], alpha[-2]))
+
+
+DIGIT_PRIOR_OUT = -3.0  # 不在該頁預期集合裡的數字：先驗扣 3 nats（要有明顯的影像證據才保留）
+SEQ_BONUS, SEQ_AHEAD = 4.0, 3  # 頁內依閱讀順序解碼：接在上一個節號後面 1..SEQ_AHEAD 的數字加分
+# SEQ_BONUS 在測試集上 1.5→89.9%、4→92.3%、6→92.9% 的節號正確率；取 4 是因為再大只換到 0.6 個百分點，
+# 而偏置越強、原書真的跳號（節號漏印、經文併節）時越可能被硬掰成連號
+
+
+def rescore_numbers(logp, chars, expected, c2l, prior_out=DIGIT_PRIOR_OUT, pad=6, context=None):
+    """把一行裡每段數字換成該頁預期節號中最可能的：在數字所占的時段（前後鄰字的發射格之間）
+    對每個候選算 CTC 機率，加上先驗。回傳 (新字元序列, [每段的 {raw, best, alts, conf}])。
+    chars：[(字元, 機率, 發射格), …]。expected：該頁預期的整數集合；空集合則不動。
+    context：同一頁逐行共用的 {"last": 上一個節號}，有給就對接續的節號加 SEQ_BONUS。"""
+    if not expected:
+        return chars, []
+    W = logp.shape[1]
+    cands = sorted({str(n) for n in expected if 0 < n < 1000 and all(d in c2l for d in str(n))})
+    out, nums, i = [], [], 0
+    bound_col = logp.max(axis=0)  # 每格最大值：任何序列機率的上界，用來估絕對信心
+    while i < len(chars):
+        if not chars[i][0].isdigit():
+            out.append(chars[i])
+            i += 1
+            continue
+        j = i
+        while j + 1 < len(chars) and chars[j + 1][0].isdigit():
+            j += 1
+        raw = "".join(ch for ch, _, _ in chars[i:j + 1])
+        t0 = chars[i - 1][2] + 1 if i > 0 else max(0, chars[i][2] - pad)
+        t1 = chars[j + 1][2] if j + 1 < len(chars) else min(W, chars[j][2] + pad + 1)
+        if t1 <= t0:
+            t0, t1 = max(0, chars[i][2] - 1), min(W, chars[j][2] + 2)
+        scores = {}
+        last = context.get("last") if context else None
+        for cand in ([raw] if raw not in cands else []) + cands:
+            lp = ctc_logp(logp, [c2l[d] for d in cand], t0, t1)
+            bonus = SEQ_BONUS if last is not None and last < int(cand) <= last + SEQ_AHEAD else 0.0
+            scores[cand] = lp + (bonus if cand in cands else prior_out)
+        best = max(scores, key=scores.get)
+        if context is not None and best in cands:
+            context["last"] = int(best)
+        z = np.logaddexp.reduce(list(scores.values()))
+        alts = {c: round(float(v - z), 2) for c, v in scores.items() if v - z > -8.0}
+        conf = round(float(scores[best] - (0.0 if best in cands else prior_out) - bound_col[t0:t1].sum()), 2)
+        nums.append({"raw": raw, "best": best, "alts": dict(sorted(alts.items(), key=lambda kv: -kv[1])), "conf": conf})
+        mean_p = sum(p for _, p, _ in chars[i:j + 1]) / (j - i + 1)
+        out.extend((d, mean_p, chars[i][2]) for d in best)
+        i = j + 1
+    return out, nums
 
 
 def line_decoder(net, exclude=None, **kw):
-    """回傳 decode(probs) → (文字, 平均信心, 最低信心) 的函式，供 recognize.py 使用。"""
+    """回傳 decode(probs, expected=None) → (文字, 平均信心, 最低信心, 數字候選) 的函式，供 recognize.py 使用。
+    expected 是該頁預期的節號集合（common.page_numbers）；給了就把數字往這些值重評分。"""
     vocab = valid_syllables()
     lm = build_lm(vocab, exclude=exclude)
     l2c = {lab[0]: ch for lab, ch in net.codec.l2c.items()}
+    c2l = {ch: lab for lab, ch in l2c.items()}
     dec = Decoder(l2c, Trie.build(vocab), lm, **kw)
 
-    def run(probs):
-        labels, confs = dec.decode(probs)
-        text = nfc("".join(l2c[x] for x in labels))
-        return text, (round(sum(confs) / len(confs), 4) if confs else 0.0), (round(min(confs), 4) if confs else 0.0)
+    def run(probs, expected=None, context=None):
+        labels, confs, frames = dec.decode(probs)
+        chars = [(l2c[x], p, t) for x, p, t in zip(labels, confs, frames)]
+        nums = []
+        if expected:
+            chars, nums = rescore_numbers(np.log(np.maximum(probs, 1e-12)), chars, expected, c2l, context=context)
+        confs = [p for _, p, _ in chars]
+        text = nfc("".join(ch for ch, _, _ in chars))
+        return text, (round(sum(confs) / len(confs), 4) if confs else 0.0), (round(min(confs), 4) if confs else 0.0), nums
     return run
 
 
@@ -260,7 +340,13 @@ def main():
     ap.add_argument("--lm-all", action="store_true", help="bigram 連測試頁的經文一起估（預設排除，以免看過答案）")
     ap.add_argument("--show-diffs", type=int, default=0, help="列出前 N 行 beam 與貪婪解碼不同的例子")
     ap.add_argument("--bonus-scale", type=float, nargs="*", default=[1.0], help="插入獎勵 = scale × lm_weight × 平均音節成本")
+    ap.add_argument("--digits", action="store_true", help="另算數字（節號）序列的正確率：貪婪／beam／beam＋頁面節號重評分")
+    ap.add_argument("--digit-prior", type=float, default=DIGIT_PRIOR_OUT, help="重評分時集合外數字的先驗（log）")
+    ap.add_argument("--seq-bonus", type=float, help="頁內接續節號的加分（預設 SEQ_BONUS）")
     args = ap.parse_args()
+    if args.seq_bonus is not None:
+        global SEQ_BONUS
+        SEQ_BONUS = args.seq_bonus
     from PIL import Image
     from kraken.lib import models
     from kraken.lib.ctc_decoder import greedy_decoder
@@ -295,12 +381,44 @@ def main():
                 dec = Decoder(l2c, trie, lm, beam=args.beam, topk=args.topk, lm_weight=w, oov_penalty=oov,
                               incomplete_penalty=args.incomplete_penalty, syllable_bonus=bs * w * lm.mean_cost)
                 t0 = time.time()
-                preds = [nfc("".join(l2c[x] for x in dec.decode(m)[0])) for m in mats]
+                decoded = [dec.decode(m) for m in mats]
+                preds = [nfc("".join(l2c[x] for x in d[0])) for d in decoded]
                 dt = (time.time() - t0) / len(mats)
                 full, b = cer(list(zip(preds, gts)))
                 ex = sum(nfd(p) == nfd(g) for p, g in zip(preds, gts)) / len(gts)
                 print(f"beam={args.beam} disc={disc} oov={oov} inc={args.incomplete_penalty} bonus×{bs} lm={w:<4} "
                       f"CER_full={full:.4f} CER_base={b:.4f} exact={ex:.3f}  ({dt * 1000:.0f} ms/line)")
+                if args.digits:
+                    from common import load_page_map, page_numbers
+                    pm, pages = load_page_map()
+                    c2l = {ch: lab for lab, ch in l2c.items()}
+                    digs = lambda s: re.findall(r"\d+", s)  # noqa: E731
+                    n = ok_g = ok_b = ok_r = ok_s = 0
+                    resc, seq = [], []
+                    ctx, cur_page = None, None
+                    for path, m, d in zip(paths, mats, decoded):
+                        page = Path(path).parent.name
+                        if page != cur_page:
+                            cur_page, ctx = page, {}
+                        chars = [(l2c[x], p, t) for x, p, t in zip(*d)]
+                        exp = page_numbers(pm, pages, page)
+                        lp_ = np.log(np.maximum(m, 1e-12))
+                        c1, _ = rescore_numbers(lp_, list(chars), exp, c2l, prior_out=args.digit_prior)
+                        c2, _ = rescore_numbers(lp_, list(chars), exp, c2l, prior_out=args.digit_prior, context=ctx)
+                        resc.append(nfc("".join(ch for ch, _, _ in c1)))
+                        seq.append(nfc("".join(ch for ch, _, _ in c2)))
+                    for g_, gr, p_, r_, s_ in zip(gts, greedy, preds, resc, seq):
+                        if not digs(g_):
+                            continue
+                        n += 1
+                        ok_g += digs(gr) == digs(g_)
+                        ok_b += digs(p_) == digs(g_)
+                        ok_r += digs(r_) == digs(g_)
+                        ok_s += digs(s_) == digs(g_)
+                    fullr, br = cer(list(zip(resc, gts)))
+                    fulls, _ = cer(list(zip(seq, gts)))
+                    print(f"   digits: lines with numbers={n} exact greedy={ok_g / n:.3f} beam={ok_b / n:.3f} "
+                          f"beam+rescore={ok_r / n:.3f} (CER {fullr:.4f}) +sequence={ok_s / n:.3f} (CER {fulls:.4f})")
                 shown = 0
                 for p_, g_, gr in zip(preds, gts, greedy):
                     if shown >= args.show_diffs:

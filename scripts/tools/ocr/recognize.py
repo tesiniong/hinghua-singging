@@ -42,9 +42,9 @@ class BeamRecognizer:
         self.decode = line_decoder(net, exclude=verses_on_pages(pages), **kw)
         self.np = np
 
-    def __call__(self, im, name="line"):
+    def __call__(self, im, name="line", expected=None, context=None):
         if im.width < 4 or im.height < 4:
-            return "", 0.0, 0.0  # 空框（rpred 也是直接回空字串）
+            return "", 0.0, 0.0, []  # 空框（rpred 也是直接回空字串）
         im = im.convert("L") if im.mode != "L" else im
         t = None
         for pad in (0, 2, 4, 8):  # kraken 的去彎曲偶爾在特定尺寸失敗，補幾個像素白邊再試
@@ -55,11 +55,11 @@ class BeamRecognizer:
                 err = e
         if t is None:
             print(f"  {name}: 行圖轉換失敗（{err}），略過", file=sys.stderr)
-            return "", 0.0, 0.0
+            return "", 0.0, 0.0, []
         if t.max() == t.min():
-            return "", 0.0, 0.0
+            return "", 0.0, 0.0, []
         o, _ = self.net.forward(t.unsqueeze(0))
-        return self.decode(self.np.asarray(o)[0])
+        return self.decode(self.np.asarray(o)[0], expected, context)
 
 
 def recognize_line(net, im, name="line"):
@@ -80,24 +80,30 @@ def recognize_images(net, paths, rec=None):
     rec = rec or (lambda im, name: recognize_line(net, im, name))
     out = []
     for p in paths:
-        text, conf, conf_min = rec(Image.open(p), str(p))
+        text, conf, conf_min = rec(Image.open(p), str(p))[:3]
         out.append({"img": str(p), "text": text, "conf": conf, "conf_min": conf_min})
     return out
 
 
-def recognize_page(net, page, pad=8, rec=None):
-    """依合併後的行框從整頁圖裁切並辨識，回傳依閱讀順序排好的行。"""
-    rec = rec or (lambda im, name: recognize_line(net, im, name))
+def recognize_page(net, page, pad=8, rec=None, expected=None):
+    """依合併後的行框從整頁圖裁切並辨識，回傳依閱讀順序排好的行。
+    expected：該頁預期的節號集合（受限解碼會把上標數字往這些值重評分；頁眉頁碼行不做）。"""
+    rec = rec or (lambda im, name, expected=None, context=None: recognize_line(net, im, name))
     im = Image.open(PUBLIC / "images" / f"{page}.webp").convert("L")
     boxes, rx = page_lines(page, im)
     im = erase_rule(im, rx)
     out = []
+    context = {}  # 同一頁逐行共用：上一個節號，讓接續的節號加分（行框已依閱讀順序排好）
     for b in boxes:
         crop = tight_crop(im, b["x0"], b["y0"] - pad, b["x1"], b["y1"] + pad)
-        text, conf, conf_min = rec(crop, f"{page}:{b['idx']}")
-        out.append({"idx": b["idx"], "col": b["col"], "y": round(b["y"]), "x0": b["x0"], "x1": b["x1"],
-                    "dropcap": b["dropcap"], "header": b["header"], "footer": b["footer"],
-                    "text": text, "conf": conf, "conf_min": conf_min})
+        res = rec(crop, f"{page}:{b['idx']}", expected=None if b["header"] or b["footer"] else expected, context=context)
+        text, conf, conf_min = res[:3]
+        entry = {"idx": b["idx"], "col": b["col"], "y": round(b["y"]), "x0": b["x0"], "x1": b["x1"],
+                 "dropcap": b["dropcap"], "header": b["header"], "footer": b["footer"],
+                 "text": text, "conf": conf, "conf_min": conf_min}
+        if len(res) > 3 and res[3]:
+            entry["nums"] = res[3]
+        out.append(entry)
     return out, rx
 
 
@@ -122,7 +128,11 @@ def main():
     ap.add_argument("--decoder", choices=["beam", "greedy"], default="beam")
     ap.add_argument("--lm-weight", type=float, default=0.7)
     ap.add_argument("--beam", type=int, default=8)
+    ap.add_argument("--seq-bonus", type=float, help="頁內接續節號的加分（預設 decode.SEQ_BONUS）")
     args = ap.parse_args()
+    if args.seq_bonus is not None:
+        import decode
+        decode.SEQ_BONUS = args.seq_bonus
     net = load_model(args.model, args.device)
     target_pages = set(expand_pages(args.pages))
     if args.manifest:
@@ -138,8 +148,10 @@ def main():
         print(f"{len(res)} lines → {out}")
     outdir = WORK / "recognized"
     outdir.mkdir(parents=True, exist_ok=True)
+    from common import load_page_map, page_numbers
+    pm, pages = load_page_map()
     for page in expand_pages(args.pages):
-        res, rx = recognize_page(net, page, rec=rec)
+        res, rx = recognize_page(net, page, rec=rec, expected=page_numbers(pm, pages, page) if page in pm else None)
         json.dump({"page": page, "model": str(args.model), "decoder": decoder_tag, "rule_x": rx, "lines": res},
                   open(outdir / f"{page}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
         print(f"{page}: {len(res)} lines")

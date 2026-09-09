@@ -14,6 +14,7 @@
 import argparse
 import collections
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -164,6 +165,9 @@ def align_markers(expected, observed, seg_len, want_len, window=5):
         if e[0] == "head" and o["kind"] == "head":
             return 0.0 if o["value"] in (None, e[1]) else 0.3
         if e[0] == "num" and o["kind"] == "num":
+            # 註：解碼器對該頁預期節號算的後驗（recognized/<page>.json 的 nums）試過拿來取代這裡的編輯距離、
+            # 或與之混合，六卷評估都沒有比較好——模型對 3／8、0／9 這類磨損的上標數字常自信地讀錯，
+            # 後驗把正確的節號判成不可能，反而多出雜訊數字與漏節。重評分留在解碼那一層就好。
             if o["value"] == e[2]:
                 return 0.0 if o.get("cap") else 0.3
             d = digit_lev(str(o["value"]), str(e[2]))
