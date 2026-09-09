@@ -135,6 +135,24 @@ def observe_page(rec):
     return obs
 
 
+SOFT_WEIGHT, SOFT_TOL, SOFT_TOL_REL, SOFT_CAP = 2.0, 4, 0.2, 1.0  # 和合本推估長度的權重、容差（絕對音節數、相對比例）、單節上限
+PRIOR_MIN = 4  # 和合本字數少於這個的節（古卷缺的節只剩括號說明）不當線索
+PRIOR_FILE = DATA / "cuv-verse-lengths.json"  # scripts/tools/ocr/cuv_lengths.py 產生
+PRIOR_A, PRIOR_B = 0.849, 1.72  # 羅馬字音節數 ≈ A × 和合本字數 + B（正本擬合）
+END_PUNCT = ".!?;:"
+
+
+def prior_lengths(eng):
+    """沒有漢字版時的軟性長度線索：和合本每節字數換算成音節數，{(章, 節): 音節數}。
+    節數與本書不同的章不用（節的劃分可能不一樣）。"""
+    if not PRIOR_FILE.exists():
+        return {}
+    raw = json.load(open(PRIOR_FILE, encoding="utf-8")).get(eng, {})
+    vpc = BOOKS[eng]["verses_per_chapter"]
+    return {(int(c), v + 1): round(PRIOR_A * n + PRIOR_B) for c, ns in raw.items()
+            if int(c) <= len(vpc) and len(ns) == vpc[int(c) - 1] for v, n in enumerate(ns) if n >= PRIOR_MIN}
+
+
 def align_markers(expected, observed, seg_len, want_len, window=5):
     """預期標記與觀察到的標記做序列對齊，同時要求切出來的每節長度符合預期音節數。
 
@@ -160,12 +178,17 @@ def align_markers(expected, observed, seg_len, want_len, window=5):
         return 1.0 if o.get("cap") else 0.4
 
     def length_cost(i0, i1, j0, j1):
-        """預期第 i0..i1-1 節合併起來，對應觀察標記 j0..j1-1 之間的文字。"""
+        """預期第 i0..i1-1 節合併起來，對應觀察標記 j0..j1-1 之間的文字。
+        want_len 回傳 (音節數, 是否軟性)：漢字版字數或正本音節數幾乎精確，容差小；
+        和合本推估的（見 prior_lengths）平均差 4 個音節，容差放寬、權重也較低。"""
         got = sum(seg_len[j0:j1])
         want = [want_len(i) for i in range(i0, i1)]
         if any(w is None for w in want):
             return 1.0 if got < 3 else 0.0
-        w = sum(want)
+        w = sum(x for x, _ in want)
+        if any(soft for _, soft in want):
+            # 上限：和合本與本書偶有節的劃分不同（如約翰 5:3–4），推估離譜時不能壓過節號本身的證據
+            return min(SOFT_CAP, SOFT_WEIGHT * max(0, abs(got - w) - SOFT_TOL - SOFT_TOL_REL * w) / max(w, 8))
         return 3.0 * max(0, abs(got - w) - 2 - 0.1 * w) / max(w, 8)
 
     DEL = 1.2  # 預期的節號沒被讀出
@@ -207,9 +230,10 @@ def align_markers(expected, observed, seg_len, want_len, window=5):
 
 
 class Assembler:
-    def __init__(self, eng, han_len=None):
+    def __init__(self, eng, han_len=None, prior_len=None):
         self.eng = eng
         self.han_len = han_len or {}  # (章, 節) → 預期音節數（漢字版字數或正本音節數），切節時當長度線索
+        self.prior_len = prior_len or {}  # (章, 節) → 和合本推估的音節數，只在沒有上面那個時用（軟性）
         self.pieces = collections.defaultdict(list)
         self.confs = collections.defaultdict(list)
         self.flags = collections.defaultdict(set)
@@ -245,8 +269,12 @@ class Assembler:
                 k += 1
 
         def want_len(i):
-            e = expected[i]
-            return self.han_len.get((e[1], e[2])) if self.han_len else None
+            k = (expected[i][1], expected[i][2])
+            if k in self.han_len:
+                return self.han_len[k], False
+            if k in self.prior_len:
+                return self.prior_len[k], True
+            return None
         match = align_markers(expected, markers, seg_len[1:], want_len)
         by_marker = {id(o): match[k] for k, o in enumerate(markers)}
         # 切成段：每個標記帶著它後面的文字；對不上預期的標記是雜訊，文字併回前一段
@@ -308,6 +336,9 @@ class Assembler:
                     if pk:
                         self.flags[pk].add("下一節節號未辨識出，依長度線索切分")
                 return
+            priors = [self.prior_len.get(k) for k in keys]
+            if all(c is not None for c in priors[:-1]) and not is_first and self.soft_split(keys, texts, priors):
+                return
             for kk in keys[1:]:
                 self.flags[kk].add("節號未辨識出，經文可能併入前一節")
                 pk = prev_verse(self.eng, *kk)
@@ -315,6 +346,49 @@ class Assembler:
                     self.flags[pk].add("下一節節號未辨識出，可能含下一節經文")
         for o in texts:
             self.add_text(keys[0], o["value"], o["glue"], o["conf"], o.get("line"))
+
+    def soft_split(self, keys, texts, priors):
+        """沒有精確長度線索時照和合本推估切開併在一起的幾節：切點取推估位置附近、以句末標點結尾的詞界。
+        推估值依這段實際的音節總數等比縮放（最後一節的推估未知時不縮放）。回傳是否切成功。"""
+        cum = []
+        acc = 0
+        for o in texts:
+            acc += len(syllables(o["value"]))
+            cum.append(acc)
+        if not cum or cum[-1] < 4 * (len(keys) - 1):
+            return False
+        scale = cum[-1] / sum(priors) if priors[-1] else 1.0
+        cuts, lo = [], 0
+        target = 0
+        for k, pr in enumerate(priors[:-1]):
+            target += pr * scale
+            window = max(4, 0.25 * pr * scale)
+            best = None
+            for t in range(lo, len(texts) - 1):
+                d = abs(cum[t] - target)
+                if d > window:
+                    continue
+                tok = texts[t]["value"].rstrip(")」』")
+                rank = 0 if tok[-1:] in END_PUNCT else (1 if tok.endswith(",") else 2)
+                key = (rank, d)
+                if best is None or key < best[0]:
+                    best = (key, t)
+            if best is None:
+                return False
+            cuts.append(best[1] + 1)
+            lo = best[1] + 1
+        ki, start = 0, 0
+        for t, o in enumerate(texts):
+            if ki < len(cuts) and t == cuts[ki]:
+                ki += 1
+                start = t
+            self.add_text(keys[ki], o["value"], o["glue"] and t > start, o["conf"], o.get("line"))
+        for kk in keys[1:]:
+            self.flags[kk].add("節號未辨識出，依和合本字數推估切分，請核對切節位置")
+            pk = prev_verse(self.eng, *kk)
+            if pk:
+                self.flags[pk].add("下一節節號未辨識出，依和合本字數推估切分")
+        return True
 
     def verse_text(self, key):
         parts = list(self.pieces.get(key, []))
@@ -503,6 +577,7 @@ def main():
     ap.add_argument("--evaluate", action="store_true", help="與 rom.txt 已有的經文比對，輸出逐節 CER")
     ap.add_argument("--overwrite-draft", action="store_true",
                     help="與 --write 併用：ocr-draft.json 列出的草稿節也重新填入（換模型或解碼器重跑時用）")
+    ap.add_argument("--no-prior", action="store_true", help="不用和合本字數當軟性長度線索（比較用）")
     args = ap.parse_args()
     eng = args.book
     chapters = parse_chapters(args.chapters)
@@ -518,7 +593,8 @@ def main():
     # 切節的長度線索：漢字版字數；已有人工正本的節直接用正本的音節數（更準，沒有漢字版的書卷也有）
     want = {k: han_syllables(v) for k, v in han.items()}
     want.update({k: len(syllables(v)) for k, v in filled.get(eng, {}).items()})
-    asm = Assembler(eng, want)
+    prior = {} if args.no_prior else prior_lengths(eng)
+    asm = Assembler(eng, want, prior)
     for p in plist:
         f = WORK / "recognized" / f"{p}.json"
         if not f.exists():
@@ -542,6 +618,10 @@ def main():
             d = len(syllables(text)) - han_syllables(han[key])
             if abs(d) > 2:
                 asm.flags[key].add(f"音節數與漢字版差 {d:+d}")
+        elif key in prior and text and key not in filled.get(eng, {}):
+            d = len(syllables(text)) - prior[key]
+            if abs(d) > max(12, 0.5 * prior[key]):  # 推估本身平均差 4 音節，只標明顯離譜的
+                asm.flags[key].add(f"音節數與和合本推估差 {d:+d}")
         conf = min(asm.confs[key]) if asm.confs[key] else 0.0
         flags = set(asm.flags.get(key, ()))
         if not text:

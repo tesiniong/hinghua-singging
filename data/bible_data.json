@@ -81829,7 +81829,7 @@
             {
               "type": "verse",
               "verse": 22,
-              "rom": "Gi-seh, Ha̍h-sô̤, Bih-da̍h, Î-la̍h, Bî-tô-lī.",
+              "rom": "Gi-seh, Ha̍h-sô̤, Bih-da̍h, Î-la̍h, Bî-tô-lī. Cî bā̤ gá̤ náng deo sī Bi̍h-gia iú A̍-beh-la̍h-hâng ā-dī Ná-ho̤̍h hiô̤ sê̤ saⁿ ē; Bî-tó-lī saⁿ ā sîng-ná̤u-giô̤ⁿ Lī-beh-ga.",
               "han": "基薛、哈瑣、必達、益拉、彼土利。”只八個儂都是密迦由亞伯拉罕阿弟拿鶴遐所生其。彼土列生嬸娘囝利百加。",
               "tokens": [
                 {
@@ -81891,11 +81891,137 @@
                   "type": "punct",
                   "han": "”",
                   "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "只",
+                  "rom": "Cî",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "八",
+                  "rom": "bā̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "個",
+                  "rom": "gá̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "儂",
+                  "rom": "náng",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "都",
+                  "rom": "deo",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "是",
+                  "rom": "sī",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "密迦",
+                  "rom": "Bi̍h-gia",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "由",
+                  "rom": "iú",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "亞伯拉罕",
+                  "rom": "A̍-beh-la̍h-hâng",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "阿弟",
+                  "rom": "ā-dī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "拿鶴",
+                  "rom": "Ná-ho̤̍h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "遐",
+                  "rom": "hiô̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "所",
+                  "rom": "sê̤",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "生",
+                  "rom": "saⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "其",
+                  "rom": "ē",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "彼土列",
+                  "rom": "Bî-tó-lī",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "生",
+                  "rom": "saⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "嬸",
+                  "rom": "ā",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "娘囝利",
+                  "rom": "sîng-ná̤u-giô̤ⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "百加",
+                  "rom": "Lī-beh-ga",
+                  "form": "phrase"
                 }
               ],
               "rom_draft": [
+                "下一節節號未辨識出，依長度線索切分",
                 "依正本詞表改成規範寫法：I-la̍h→Î-la̍h",
-                "音節數與漢字版差 -31"
+                "文中出現非預期數字 23"
               ]
             },
             {
@@ -106236,7 +106362,7 @@
             {
               "type": "verse",
               "verse": 3,
-              "rom": "Dṳ̂ tang gio̤̍h go̤-li, ge̤ng gah ci̍ng, kṳ̍ ko̤̍ng-iâ, ta̤̍ guâ dô̤-lo̤̍h; deh iâ-siu̍ ceo̍ ā ga-háu, ha̍h guâ sê̤ ho̤̍ ē, páng lí keoh guâ sia̍h; te̍ng guâ ho̤h bōi sî, ta̤̍ dṳ̂ ce̤h-ho̤h.",
+              "rom": "Dṳ̂ tang gio̤̍h go̤-li, ge̤ng gah ci̍ng, kṳ̍ ko̤̍ng-iâ, ta̤̍ guâ dô̤-lo̤̍h;",
               "han": "汝通揭傢私、弓佮箭，去曠野替我打獵，得野獸做啊佳餚，合我所好其，捀來乞我食。趁我復未死，替汝祝福。”",
               "tokens": [
                 {
@@ -106325,216 +106451,22 @@
                   "type": "punct",
                   "han": "，",
                   "rom": ""
-                },
-                {
-                  "type": "word",
-                  "han": "得",
-                  "rom": "deh",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "野獸",
-                  "rom": "iâ-siu̍",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "做",
-                  "rom": "ceo̍",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "啊",
-                  "rom": "ā",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "佳餚",
-                  "rom": "ga-háu",
-                  "form": "phrase"
-                },
-                {
-                  "type": "punct",
-                  "han": "，",
-                  "rom": ""
-                },
-                {
-                  "type": "word",
-                  "han": "合",
-                  "rom": "ha̍h",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "我",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "所",
-                  "rom": "sê̤",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "好",
-                  "rom": "ho̤̍",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "其",
-                  "rom": "ē",
-                  "form": "single"
-                },
-                {
-                  "type": "punct",
-                  "han": "，",
-                  "rom": ""
-                },
-                {
-                  "type": "word",
-                  "han": "捀",
-                  "rom": "páng",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "來",
-                  "rom": "lí",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "乞",
-                  "rom": "keoh",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "我",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "食",
-                  "rom": "sia̍h",
-                  "form": "single"
-                },
-                {
-                  "type": "punct",
-                  "han": "。",
-                  "rom": ""
-                },
-                {
-                  "type": "word",
-                  "han": "趁",
-                  "rom": "te̍ng",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "我",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "復",
-                  "rom": "ho̤h",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "未",
-                  "rom": "bōi",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "死",
-                  "rom": "sî",
-                  "form": "single"
-                },
-                {
-                  "type": "punct",
-                  "han": "，",
-                  "rom": ""
-                },
-                {
-                  "type": "word",
-                  "han": "替",
-                  "rom": "ta̤̍",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "汝",
-                  "rom": "dṳ̂",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "祝福",
-                  "rom": "ce̤h-ho̤h",
-                  "form": "phrase"
-                },
-                {
-                  "type": "punct",
-                  "han": "。",
-                  "rom": ""
-                },
-                {
-                  "type": "punct",
-                  "han": "”",
-                  "rom": ""
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：háu",
-                "文中出現非預期數字 4"
+                "音節數與漢字版差 -26"
               ]
             },
             {
               "type": "verse",
               "verse": 4,
-              "rom": "Î-hā̤u Î-sô̤ kṳ̍ ko̤̍ng-iâ, a̍i-dí dô̤-lo̤̍h iâ-siu̍ ga̍u cho̍. Î-sah heong-nu̍ giô̤ⁿ Î-sô̤ sí-cā̤, Lī-beh-ga ū tiaⁿ-mói.",
+              "rom": "deh iâ-siu̍ ceo̍ ā ga-háu, ha̍h guâ sê̤ ho̤̍ ē, páng lí keoh guâ sia̍h; te̍ng guâ ho̤h bōi sî, ta̤̍ dṳ̂ ce̤h-ho̤h.",
               "han": "",
               "tokens": [
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "Î-hā̤u"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Î-sô̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "kṳ̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ko̤̍ng-iâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "a̍i-dí"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dô̤-lo̤̍h"
+                  "rom": "deh"
                 },
                 {
                   "type": "word",
@@ -106544,93 +106476,142 @@
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "ga̍u"
+                  "rom": "ceo̍"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "cho̍"
+                  "rom": "ā"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "Î-sah"
+                  "rom": "ga-háu"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "heong-nu̍"
+                  "rom": "ha̍h"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "giô̤ⁿ"
+                  "rom": "guâ"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "Î-sô̤"
+                  "rom": "sê̤"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "sí-cā̤"
+                  "rom": "ho̤̍"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "Lī-beh-ga"
+                  "rom": "ē"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "ū"
+                  "rom": "páng"
                 },
                 {
                   "type": "word",
                   "han": "",
-                  "rom": "tiaⁿ-mói"
+                  "rom": "lí"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "keoh"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "guâ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "sia̍h"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "te̍ng"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "guâ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ho̤h"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "bōi"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "sî"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ce̤h-ho̤h"
                 }
               ],
               "rom_draft": [
-                "節號讀作 3，依序推定為 4"
+                "含詞表外音節：háu"
               ]
             },
             {
               "type": "verse",
               "verse": 5,
-              "rom": "Lī-beh-ga cuh gah i giô̤ⁿ Ngâ-go̤h gô̤ng, Guâ tiaⁿ-mói dṳ̂ ló̤-bō̤ heong-nu̍ dṳ̂-hiaⁿ Î-sê̤ gô̤ng,",
+              "rom": "Î-hā̤u Î-sô̤ kṳ̍ ko̤̍ng-iâ, a̍i-dí dô̤-lo̤̍h iâ-siu̍ ga̍u cho̍. Î-sah heong-nu̍ giô̤ⁿ Î-sô̤ sí-cā̤, Lī-beh-ga ū tiaⁿ-mói.",
               "han": "以後以掃去曠野，愛挃打獵野獸遘厝，以撒吩咐囝以掃時節，利百加有聽聞。",
               "tokens": [
                 {
                   "type": "word",
-                  "han": "以後以",
-                  "rom": "Lī-beh-ga",
+                  "han": "以後",
+                  "rom": "Î-hā̤u",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "掃",
-                  "rom": "cuh",
-                  "form": "single"
+                  "han": "以掃",
+                  "rom": "Î-sô̤",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
                   "han": "去",
-                  "rom": "gah",
+                  "rom": "kṳ̍",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "曠",
-                  "rom": "i",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "野",
-                  "rom": "giô̤ⁿ",
-                  "form": "single"
+                  "han": "曠野",
+                  "rom": "ko̤̍ng-iâ",
+                  "form": "phrase"
                 },
                 {
                   "type": "punct",
@@ -106640,116 +106621,148 @@
                 {
                   "type": "word",
                   "han": "愛挃",
-                  "rom": "Ngâ-go̤h",
+                  "rom": "a̍i-dí",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "打",
-                  "rom": "gô̤ng",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "獵",
-                  "rom": "Guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "野獸",
-                  "rom": "tiaⁿ-mói",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "遘",
-                  "rom": "dṳ̂",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "厝以",
-                  "rom": "ló̤-bō̤",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "撒吩",
-                  "rom": "heong-nu̍",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "咐囝",
-                  "rom": "dṳ̂-hiaⁿ",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "以掃",
-                  "rom": "Î-sê̤",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "時",
-                  "rom": "gô̤ng",
-                  "form": "single"
-                }
-              ],
-              "rom_draft": [
-                "節號讀作 6，依序推定為 5",
-                "音節數與漢字版差 -7"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 6,
-              "rom": "Ta̤̍ guâ dô̤-lo̤̍h iâ-siu̍ ceo̍ ā ga-háu keoh guâ sia̍h, te̍ng guâ bōi sî sí-cā̤, guâ leo̍h Á̤-Hó̤-Hua mi̍ng-sá̤ⁿ ta̤̍ dṳ̂ ce̤h-ho̤h.",
-              "han": "利百加即佮伊囝雅各講：“我聽聞汝老爸吩咐汝兄以掃講：7‘替我打獵野獸做啊佳餚乞我食，趁我未死時節，我落耶和華面前替汝祝福。’",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "利",
-                  "rom": "Ta̤̍",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "百",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "加即",
+                  "han": "打獵",
                   "rom": "dô̤-lo̤̍h",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "佮伊",
+                  "han": "野獸",
                   "rom": "iâ-siu̍",
                   "form": "phrase"
                 },
                 {
                   "type": "word",
-                  "han": "囝",
-                  "rom": "ceo̍",
+                  "han": "遘",
+                  "rom": "ga̍u",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "雅",
-                  "rom": "ā",
+                  "han": "厝",
+                  "rom": "cho̍",
                   "form": "single"
                 },
                 {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
                   "type": "word",
-                  "han": "各講",
-                  "rom": "ga-háu",
+                  "han": "以撒",
+                  "rom": "Î-sah",
                   "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "吩咐",
+                  "rom": "heong-nu̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "囝",
+                  "rom": "giô̤ⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "以掃",
+                  "rom": "Î-sô̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "時節",
+                  "rom": "sí-cā̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "，",
+                  "rom": ""
+                },
+                {
+                  "type": "word",
+                  "han": "利百加",
+                  "rom": "Lī-beh-ga",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "有",
+                  "rom": "ū",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "聽聞",
+                  "rom": "tiaⁿ-mói",
+                  "form": "phrase"
+                },
+                {
+                  "type": "punct",
+                  "han": "。",
+                  "rom": ""
+                }
+              ],
+              "rom_draft": [
+                "節號讀作 3，依序推定為 5"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "Lī-beh-ga cuh gah i giô̤ⁿ Ngâ-go̤h gô̤ng, Guâ tiaⁿ-mói dṳ̂ ló̤-bō̤ heong-nu̍ dṳ̂-hiaⁿ Î-sê̤ gô̤ng,",
+              "han": "利百加即佮伊囝雅各講：“我聽聞汝老爸吩咐汝兄以掃講：7‘替我打獵野獸做啊佳餚乞我食，趁我未死時節，我落耶和華面前替汝祝福。’",
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "利百加",
+                  "rom": "Lī-beh-ga",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "即",
+                  "rom": "cuh",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "佮",
+                  "rom": "gah",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "伊",
+                  "rom": "i",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "囝",
+                  "rom": "giô̤ⁿ",
+                  "form": "single"
+                },
+                {
+                  "type": "word",
+                  "han": "雅各",
+                  "rom": "Ngâ-go̤h",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "gô̤ng",
+                  "form": "single"
                 },
                 {
                   "type": "punct",
@@ -106764,112 +106777,181 @@
                 {
                   "type": "word",
                   "han": "我",
-                  "rom": "keoh",
+                  "rom": "Guâ",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "聽",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "聞",
-                  "rom": "sia̍h",
-                  "form": "single"
+                  "han": "聽聞",
+                  "rom": "tiaⁿ-mói",
+                  "form": "phrase"
                 },
                 {
                   "type": "word",
                   "han": "汝",
-                  "rom": "te̍ng",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "老",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "爸",
-                  "rom": "bōi",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "吩",
-                  "rom": "sî",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "咐汝",
-                  "rom": "sí-cā̤",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "兄",
-                  "rom": "guâ",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "以",
-                  "rom": "leo̍h",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "掃講7",
-                  "rom": "Á̤-Hó̤-Hua",
-                  "form": "phrase"
-                },
-                {
-                  "type": "punct",
-                  "han": "‘",
-                  "rom": ""
-                },
-                {
-                  "type": "word",
-                  "han": "替我",
-                  "rom": "mi̍ng-sá̤ⁿ",
-                  "form": "phrase"
-                },
-                {
-                  "type": "word",
-                  "han": "打",
-                  "rom": "ta̤̍",
-                  "form": "single"
-                },
-                {
-                  "type": "word",
-                  "han": "獵",
                   "rom": "dṳ̂",
                   "form": "single"
                 },
                 {
                   "type": "word",
-                  "han": "野獸",
-                  "rom": "ce̤h-ho̤h",
+                  "han": "老爸",
+                  "rom": "ló̤-bō̤",
                   "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "吩咐",
+                  "rom": "heong-nu̍",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "汝兄",
+                  "rom": "dṳ̂-hiaⁿ",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "以掃",
+                  "rom": "Î-sê̤",
+                  "form": "phrase"
+                },
+                {
+                  "type": "word",
+                  "han": "講",
+                  "rom": "gô̤ng",
+                  "form": "single"
+                },
+                {
+                  "type": "punct",
+                  "han": "：",
+                  "rom": ""
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，依長度線索切分",
-                "含詞表外音節：háu",
-                "節號讀作 7，依序推定為 6",
-                "音節數與漢字版差 -23"
+                "音節數與漢字版差 -30"
               ]
             },
             {
               "type": "verse",
               "verse": 7,
-              "rom": "",
+              "rom": "Ta̤̍ guâ dô̤-lo̤̍h iâ-siu̍ ceo̍ ā ga-háu keoh guâ sia̍h, te̍ng guâ bōi sî sí-cā̤, guâ leo̍h Á̤-Hó̤-Hua mi̍ng-sá̤ⁿ ta̤̍ dṳ̂ ce̤h-ho̤h.",
               "han": "",
-              "tokens": []
+              "tokens": [
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "Ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "guâ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "dô̤-lo̤̍h"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "iâ-siu̍"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ceo̍"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ā"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ga-háu"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "keoh"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "guâ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "sia̍h"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "te̍ng"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "guâ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "bōi"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "sî"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "sí-cā̤"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "guâ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "leo̍h"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "Á̤-Hó̤-Hua"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "mi̍ng-sá̤ⁿ"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ta̤̍"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "dṳ̂"
+                },
+                {
+                  "type": "word",
+                  "han": "",
+                  "rom": "ce̤h-ho̤h"
+                }
+              ],
+              "rom_draft": [
+                "含詞表外音節：háu"
+              ]
             },
             {
               "type": "verse",
@@ -113281,8 +113363,8 @@
               ]
             }
           ],
-          "draft_verses": 45,
-          "draft_flagged": 26
+          "draft_verses": 46,
+          "draft_flagged": 27
         },
         {
           "chapter": 28,
@@ -151504,7 +151586,8 @@
                 }
               ],
               "rom_draft": [
-                "節號讀作 3，依序推定為 8"
+                "節號讀作 3，依序推定為 8",
+                "音節數與和合本推估差 +19"
               ]
             },
             {
@@ -152594,7 +152677,9 @@
                   "rom": "i̍-gī"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +24"
+              ]
             },
             {
               "type": "verse",
@@ -153516,7 +153601,7 @@
             }
           ],
           "draft_verses": 29,
-          "draft_flagged": 7
+          "draft_flagged": 8
         },
         {
           "chapter": 36,
@@ -153987,7 +154072,9 @@
                   "rom": "dī-hing"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -23"
+              ]
             },
             {
               "type": "verse",
@@ -157411,7 +157498,7 @@
             }
           ],
           "draft_verses": 43,
-          "draft_flagged": 17
+          "draft_flagged": 18
         },
         {
           "chapter": 37,
@@ -169463,7 +169550,7 @@
             {
               "type": "verse",
               "verse": 18,
-              "rom": "Io̤h-seh i̍ng gô̤ng, Ca̤̍ ma̍ng-dā̤u sī ah-na; so̤ⁿ so-so so-saⁿ gah? ē-go̤ dih lī, Hah-lē beoh kio̤̍ dâ̤ ē táu, lī dṳ̂ ē sing, cio̤ng dṳ̂ gua̍ leo̍h chó̤ lē; câ̤u beoh lí dē̤ dṳ̂ ē ne̤̍h.",
+              "rom": "Io̤h-seh i̍ng gô̤ng, Ca̤̍ ma̍ng-dā̤u sī ah-na; so̤ⁿ so-so so-saⁿ gah?",
               "han": "",
               "tokens": [
                 {
@@ -169520,7 +169607,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "gah"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "ē-go̤ dih lī, Hah-lē beoh kio̤̍ dâ̤ ē táu, lī dṳ̂ ē sing, cio̤ng dṳ̂ gua̍ leo̍h chó̤ lē; câ̤u beoh lí dē̤ dṳ̂ ē ne̤̍h.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -169653,15 +169751,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 19,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -170022,8 +170113,8 @@
               ]
             }
           ],
-          "draft_verses": 22,
-          "draft_flagged": 11
+          "draft_verses": 23,
+          "draft_flagged": 12
         },
         {
           "chapter": 41,
@@ -174185,21 +174276,12 @@
                   "rom": "cé̤ng-go̤h"
                 }
               ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
+              "rom_draft": []
             },
             {
               "type": "verse",
               "verse": 42,
-              "rom": "",
-              "han": "",
-              "tokens": []
-            },
-            {
-              "type": "verse",
-              "verse": 43,
-              "rom": "Hah-lô̤ cuh te̤̍ⁿ ga̍i ē chiû-câi, dua̍ Io̤h-seh chiû lē; ta̤̍h iu̍-bo̍ ē i-ná̤u, sē̤ng i sing lē, buh ta̤̍h ging-guāⁿ gua̍ i dāu-lṳ lē; sâi i sē̤ dā̤-dī chia; náng deó i táu-sá̤ⁿ huā gô̤ng, Gūi ō̤: ah-na li̍h i tô̤ng-guâng Ai-gi̍h cé̤ng-go̤h.",
+              "rom": "Hah-lô̤ cuh te̤̍ⁿ ga̍i ē chiû-câi, dua̍ Io̤h-seh chiû lē; ta̤̍h iu̍-bo̍ ē i-ná̤u, sē̤ng i sing lē, buh ta̤̍h ging-guāⁿ gua̍ i dāu-lṳ lē;",
               "han": "",
               "tokens": [
                 {
@@ -174326,7 +174408,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "lē"
-                },
+                }
+              ],
+              "rom_draft": [
+                "含詞表外音節：câi dāu lṳ",
+                "節號讀作 23，依序推定為 42"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "sâi i sē̤ dā̤-dī chia; náng deó i táu-sá̤ⁿ huā gô̤ng, Gūi ō̤: ah-na li̍h i tô̤ng-guâng Ai-gi̍h cé̤ng-go̤h.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -174424,9 +174518,7 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：câi dāu lṳ tô̤ng",
-                "文中出現非預期數字 43",
-                "節號讀作 23，依序推定為 43"
+                "含詞表外音節：tô̤ng"
               ]
             },
             {
@@ -175355,7 +175447,9 @@
                   "rom": "cé̤ng-ga"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +18"
+              ]
             },
             {
               "type": "verse",
@@ -175499,7 +175593,9 @@
                   "rom": "chio̤ng-sīng"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +14"
+              ]
             },
             {
               "type": "verse",
@@ -176045,8 +176141,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 56,
-          "draft_flagged": 28
+          "draft_verses": 57,
+          "draft_flagged": 30
         },
         {
           "chapter": 42,
@@ -176884,7 +176980,9 @@
                   "rom": "i"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +14"
+              ]
             },
             {
               "type": "verse",
@@ -180799,7 +180897,7 @@
             }
           ],
           "draft_verses": 38,
-          "draft_flagged": 16
+          "draft_flagged": 17
         },
         {
           "chapter": 43,
@@ -184490,7 +184588,7 @@
             {
               "type": "verse",
               "verse": 32,
-              "rom": "I cuh bá̤ ciû-si̍h: ta̤̍ Io̤h-seh bá̤ seo̍h deō, ta̤̍ se̍h-ih náng bá̤ seo̍h deō, ta̤̍ deó Io̤h-seh hn̄g-lî sia̍h ē Ai-gi̍h náng bá̤ seo̍h deō; ing Ai-gi̍h náng beó gah Hi-beh-lái náng seo̍h deō cá̤ sia̍h; ceo̍-seo̍h-deō sī Ai-gi̍h náng sua̍ⁿ ceo̍ da̍i kô̤-o̍ ē seō.33 Io̤h-seh sâi hiaⁿ-dī deó táu-sá̤ⁿ-deō sē̤, diô̤ng-iu̍ deo bíng i ē cheo̍-sṳ̄: go̤h-náng cuh seo kua̍ⁿ, duā hâi-léng.",
+              "rom": "I cuh bá̤ ciû-si̍h: ta̤̍ Io̤h-seh bá̤ seo̍h deō, ta̤̍ se̍h-ih náng bá̤ seo̍h deō, ta̤̍ deó Io̤h-seh hn̄g-lî sia̍h ē Ai-gi̍h náng bá̤ seo̍h deō; ing Ai-gi̍h náng beó gah Hi-beh-lái náng seo̍h deō cá̤ sia̍h;",
               "han": "",
               "tokens": [
                 {
@@ -184677,7 +184775,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "sia̍h"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "ceo̍-seo̍h-deō sī Ai-gi̍h náng sua̍ⁿ ceo̍ da̍i kô̤-o̍ ē seō.33 Io̤h-seh sâi hiaⁿ-dī deó táu-sá̤ⁿ-deō sē̤, diô̤ng-iu̍ deo bíng i ē cheo̍-sṳ̄: go̤h-náng cuh seo kua̍ⁿ, duā hâi-léng.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -184825,15 +184934,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 33,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -184982,8 +185084,8 @@
               ]
             }
           ],
-          "draft_verses": 33,
-          "draft_flagged": 16
+          "draft_verses": 34,
+          "draft_flagged": 17
         },
         {
           "chapter": 44,
@@ -187321,7 +187423,7 @@
             {
               "type": "verse",
               "verse": 20,
-              "rom": "Nó-cái i̍ng cṳ̂ gô̤ng, Ū ló̤-bō̤, i néng lô̤ sí-cā̤ saⁿ seo̍h gá̤ hôi-giô̤ⁿ; i dó̤ng-bâ̤u-hiaⁿ î-ging sî kṳ̍, nō̤ sīng i seo̍h gá̤; ló̤-bō̤ da̍i sā̤u i. Cṳ̂ heong-nu̍ nó-cái gô̤ng, Dṳ̂ da̤u̍h dua̍ i lí, keoh guâ ching-ngâng kua̍ⁿ-gi̍ng.",
+              "rom": "Nó-cái i̍ng cṳ̂ gô̤ng, Ū ló̤-bō̤, i néng lô̤ sí-cā̤ saⁿ seo̍h gá̤ hôi-giô̤ⁿ; i dó̤ng-bâ̤u-hiaⁿ î-ging sî kṳ̍, nō̤ sīng i seo̍h gá̤; ló̤-bō̤ da̍i sā̤u i.",
               "han": "",
               "tokens": [
                 {
@@ -187463,7 +187565,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "i"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 21,
+              "rom": "Cṳ̂ heong-nu̍ nó-cái gô̤ng, Dṳ̂ da̤u̍h dua̍ i lí, keoh guâ ching-ngâng kua̍ⁿ-gi̍ng.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -187531,15 +187644,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 21,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -189201,8 +189307,8 @@
               ]
             }
           ],
-          "draft_verses": 33,
-          "draft_flagged": 15
+          "draft_verses": 34,
+          "draft_flagged": 16
         },
         {
           "chapter": 45,
@@ -197027,7 +197133,7 @@
             {
               "type": "verse",
               "verse": 15,
-              "rom": "Ai-gi̍h gah Gia-náng dā̤ ē ngṳ́ng sâi lâ̤u, Ai-gi̍h náng deo kṳ̍ gi̍ng Io̤h-seh, gô̤ng, Guâ ē",
+              "rom": "Ai-gi̍h gah Gia-náng dā̤ ē ngṳ́ng sâi lâ̤u,",
               "han": "",
               "tokens": [
                 {
@@ -197069,7 +197175,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "lâ̤u"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "音節數與和合本推估差 -35"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 16,
+              "rom": "Ai-gi̍h náng deo kṳ̍ gi̍ng Io̤h-seh, gô̤ng, Guâ ē I:Io̤ng guâ ing-ūi dṳ̂ táu-saⁿ cuh ta̤̍h ná̤u-châu keoh dṳ̂.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -197114,18 +197232,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "ē"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 16,
-              "rom": "I:Io̤ng guâ ing-ūi dṳ̂ táu-saⁿ cuh ta̤̍h ná̤u-châu keoh dṳ̂.",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -197184,7 +197291,7 @@
               ],
               "rom_draft": [
                 "含詞表外音節：Io̤ng",
-                "節號未辨識出，經文可能併入前一節"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -282009,7 +282116,9 @@
                   "rom": "ga̍u-hōi"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +23"
+              ]
             },
             {
               "type": "verse",
@@ -283234,7 +283343,7 @@
             }
           ],
           "draft_verses": 27,
-          "draft_flagged": 6
+          "draft_flagged": 7
         },
         {
           "chapter": 17,
@@ -284037,7 +284146,7 @@
             {
               "type": "verse",
               "verse": 9,
-              "rom": "Leo̍h suaⁿ sí-cā̤, Á̤-So heong-nu̍ i gô̤ng, Cíng-Ceô ho̤h-bōi iú sî hói-seng, n̄g-tang cio̤ng ca̤̍ sê̤ kua̍ⁿ-gi̍ng ē seō gah náng gô̤ng. meóng-seng a̍ a̍ng Á̤-So gô̤ng, Ta̍h-cṳ-náng seh-na gô̤ng, Î-lī-a̍ ing-do̤ng ceo̍-sa̤ⁿ lí lē?",
+              "rom": "Leo̍h suaⁿ sí-cā̤, Á̤-So heong-nu̍ i gô̤ng, Cíng-Ceô ho̤h-bōi iú sî hói-seng, n̄g-tang cio̤ng ca̤̍ sê̤ kua̍ⁿ-gi̍ng ē seō gah náng gô̤ng.",
               "han": "",
               "tokens": [
                 {
@@ -284149,7 +284258,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "gô̤ng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 10,
+              "rom": "meóng-seng a̍ a̍ng Á̤-So gô̤ng, Ta̍h-cṳ-náng seh-na gô̤ng, Î-lī-a̍ ing-do̤ng ceo̍-sa̤ⁿ lí lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -284217,73 +284337,9 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "依正本詞表改成規範寫法：I-lī-a̍→Î-lī-a̍"
+                "依正本詞表改成規範寫法：I-lī-a̍→Î-lī-a̍",
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 10,
-              "rom": "Meóng-seng ka̍ng Á̤-So gô̤ng, Ta̍h-cṳ-náng seh-na gô̤ng, Î-lī--ing-do̤ng ceo̍-sa̤ⁿ lí lē?",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Meóng-seng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ka̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Ta̍h-cṳ-náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seh-na"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Î-lī--ing-do̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceo̍-sa̤ⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lí"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lē"
-                }
-              ],
-              "rom_draft": []
             },
             {
               "type": "verse",
@@ -285042,7 +285098,7 @@
             {
               "type": "verse",
               "verse": 19,
-              "rom": "Á̤-So duaⁿ-gá̤ deó hiô̤, meóng-seng lí ka̍ng I, gô̤ng, Guâ-go̤h-náng seh-na beó-dang-dng de̤̍h ca̤̍ gûi lē? o Á̤-So i̍ng i gô̤ng, Ing dṳ̂ beó se̍ng. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ nō̤ ū se̍ng, chā̤uⁿ seo̍h heo̍h ga̤̍-nó̤ cha̍i-cî, cuh mīng ca̤̍ suaⁿ i kṳ̍ hṳ̂-hiô̤; iā dih-dih i kṳ̍; bi̍ng-chiâⁿ beó seo̍h hāng seō dṳ̂ bā̤ ceo̍.",
+              "rom": "Á̤-So duaⁿ-gá̤ deó hiô̤, meóng-seng lí ka̍ng I, gô̤ng, Guâ-go̤h-náng seh-na beó-dang-dng de̤̍h ca̤̍ gûi lē?",
               "han": "",
               "tokens": [
                 {
@@ -285124,7 +285180,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "lē"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 20,
+              "rom": "o Á̤-So i̍ng i gô̤ng, Ing dṳ̂ beó se̍ng. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ nō̤ ū se̍ng, chā̤uⁿ seo̍h heo̍h ga̤̍-nó̤ cha̍i-cî, cuh mīng ca̤̍ suaⁿ i kṳ̍ hṳ̂-hiô̤; iā dih-dih i kṳ̍; bi̍ng-chiâⁿ beó seo̍h hāng seō dṳ̂ bā̤ ceo̍.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -285337,223 +285404,7 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 20,
-              "rom": "Î Á̤-So i̍ng i gô̤ng, Ing dṳ̂ beó se̍ng. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ nō̤ se̍ng, chā̤uⁿ seo̍h heo̍h ga̤̍-nó̤ ha̍i-cî, cuh mīng ca̤̍ suaⁿ i kṳ̍ -hiô̤; iā dih-dih i kṳ̍; bi̍ng-chiâⁿ eó seo̍h hāng seō dṳ̂ bā̤ ceo̍.",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Î"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Ing"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "beó"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "se̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Guâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "si̍h-cāi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gah"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "nō̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "se̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "chā̤uⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seo̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "heo̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ga̤̍-nó̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ha̍i-cî"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cuh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "mīng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ca̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "suaⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "kṳ̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "-hiô̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "iā"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dih-dih"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "kṳ̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "bi̍ng-chiâⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "eó"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seo̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "hāng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seō"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "bā̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceo̍"
-                }
-              ],
-              "rom_draft": [
-                "含詞表外音節：ha̍i"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -286468,7 +286319,7 @@
             }
           ],
           "draft_verses": 26,
-          "draft_flagged": 8
+          "draft_flagged": 9
         },
         {
           "chapter": 18,
@@ -286566,7 +286417,7 @@
             {
               "type": "verse",
               "verse": 2,
-              "rom": "Á̤-So ga̤̍u seo̍h gá̤ da̍i-giô̤ⁿ, kiō̤ deó do̤-ng, cuh gô̤ng, Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ cio̤̍h-seô beó gê̤-bi̍ng, beó siáⁿ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ, cuh beó-dang-dng di̍h kṳ̍ teng-go̤h.",
+              "rom": "Á̤-So ga̤̍u seo̍h gá̤ da̍i-giô̤ⁿ, kiō̤ deó do̤-ng,",
               "han": "",
               "tokens": [
                 {
@@ -286608,7 +286459,16 @@
                   "type": "word",
                   "han": "",
                   "rom": "do̤-ng"
-                },
+                }
+              ],
+              "rom_draft": []
+            },
+            {
+              "type": "verse",
+              "verse": 3,
+              "rom": "cuh gô̤ng, Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ cio̤̍h-seô beó gê̤-bi̍ng, beó siáⁿ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ, cuh beó-dang-dng di̍h kṳ̍ teng-go̤h. Go̍-cheô háng ga̍i kiang- hṳ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ ē náng, i deó teng-go̤h cuh sī dā̤ ih duā.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -286713,18 +286573,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "teng-go̤h"
-                }
-              ],
-              "rom_draft": [
-                "文中出現非預期數字 3"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 3,
-              "rom": "Go̍-cheô háng ga̍i kiang- hṳ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ ē náng, i deó teng-go̤h cuh sī dā̤ ih duā.",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -286817,7 +286666,8 @@
                 }
               ],
               "rom_draft": [
-                "節號讀作 4，依序推定為 3"
+                "文中出現非預期數字 4",
+                "音節數與和合本推估差 +24"
               ]
             },
             {
@@ -290505,7 +290355,7 @@
             }
           ],
           "draft_verses": 34,
-          "draft_flagged": 11
+          "draft_flagged": 10
         },
         {
           "chapter": 19,
@@ -304613,7 +304463,7 @@
             {
               "type": "verse",
               "verse": 22,
-              "rom": "Ce̤̍ng-náng tiaⁿ-mói ca̤̍ uā. cīng gí-ī, cuh lī Á̤-So giáⁿ kṳ̍, Sah-tô-gai náng so̍-sió̤ng gô̤ng ca̤̍ beó hói-seng ē lî: dng hṳ̂ seo̍h di̍h do̤-ng, ū gûi gá̤ náng gi̍ng Á̤-So, ka̍ng I gô̤ng,",
+              "rom": "Ce̤̍ng-náng tiaⁿ-mói ca̤̍ uā. cīng gí-ī, cuh lī Á̤-So giáⁿ kṳ̍, Sah-tô-gai náng so̍-sió̤ng",
               "han": "",
               "tokens": [
                 {
@@ -304685,7 +304535,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "so̍-sió̤ng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 23,
+              "rom": "gô̤ng ca̤̍ beó hói-seng ē lî: dng hṳ̂ seo̍h di̍h do̤-ng, ū gûi gá̤ náng gi̍ng Á̤-So, ka̍ng I gô̤ng,",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -304788,15 +304649,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 23,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -306605,8 +306459,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 42,
-          "draft_flagged": 12
+          "draft_verses": 43,
+          "draft_flagged": 13
         },
         {
           "chapter": 23,
@@ -321935,7 +321789,9 @@
                   "rom": "Á̤-So"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -13"
+              ]
             },
             {
               "type": "verse",
@@ -326576,7 +326432,8 @@
                 }
               ],
               "rom_draft": [
-                "節號讀作 50，依序推定為 60"
+                "節號讀作 50，依序推定為 60",
+                "音節數與和合本推估差 +14"
               ]
             },
             {
@@ -326890,7 +326747,7 @@
             {
               "type": "verse",
               "verse": 64,
-              "rom": "Á̤-So i̍ng i gô̤ng, Dṳ̂ gô̤ng lâ̤u cuh sī; nō̤ Guâ buh gah dṳ̂ gô̤ng, Hā̤u-lái dṳ̂ beoh kua̍ⁿ-gi̍ng Cíng-Ceô sē̤ deó cé̤ng-néng Siō̤ng-Da̤̍ iū-bá̤ⁿ, kió̤ ting-dêng céng ga̍ng-líng leo̍h lí. Duā-ca̤̍-sī cuh tiā pua̍ ga̍i ē i-ná̤u, gô̤ng, Ca̤̍ náng ū seh-do̤̍h; deoh-mâi sâi beh-mo̍ih ci̍ng-ge̍ng? Da dṳ̂ î-ging tiaⁿ-mói I ū seh-do̤̍h lâ̤u.",
+              "rom": "Á̤-So i̍ng i gô̤ng, Dṳ̂ gô̤ng lâ̤u cuh sī; nō̤ Guâ buh gah dṳ̂ gô̤ng, Hā̤u-lái dṳ̂ beoh kua̍ⁿ-gi̍ng Cíng-Ceô sē̤ deó cé̤ng-néng Siō̤ng-Da̤̍ iū-bá̤ⁿ, kió̤ ting-dêng céng ga̍ng-líng leo̍h lí.",
               "han": "",
               "tokens": [
                 {
@@ -327047,7 +326904,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "lí"
-                },
+                }
+              ],
+              "rom_draft": [
+                "含詞表外音節：kió̤"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 65,
+              "rom": "Duā-ca̤̍-sī cuh tiā pua̍ ga̍i ē i-ná̤u, gô̤ng, Ca̤̍ náng ū seh-do̤̍h; deoh-mâi sâi beh-mo̍ih ci̍ng-ge̍ng? Da dṳ̂ î-ging tiaⁿ-mói I ū seh-do̤̍h lâ̤u.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -327170,75 +327038,7 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：kió̤",
-                "文中出現非預期數字 38"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 65,
-              "rom": "Dṳ̂ i̍-seo̍ deoh seh-na? Go̤h-náng i̍ng gô̤ng, Gai-dng diāⁿ i sî-cōi.",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i̍-seo̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "deoh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seh-na"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Go̤h-náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Gai-dng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "diāⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sî-cōi"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "節號讀作 55，依序推定為 65"
+                "節號讀作 38，依序推定為 65"
               ]
             },
             {
@@ -327304,7 +327104,7 @@
                 }
               ],
               "rom_draft": [
-                "節號讀作 35，依序推定為 66"
+                "節號讀作 55，依序推定為 66"
               ]
             },
             {
@@ -328265,7 +328065,7 @@
             }
           ],
           "draft_verses": 74,
-          "draft_flagged": 29
+          "draft_flagged": 30
         },
         {
           "chapter": 27,
@@ -331601,7 +331401,8 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：ning ning"
+                "含詞表外音節：ning ning",
+                "音節數與和合本推估差 +23"
               ]
             },
             {
@@ -335018,7 +334819,7 @@
             {
               "type": "verse",
               "verse": 6,
-              "rom": "I beó deó cî-ciâ; î-ging hói-seng lâ̤u, cuh sī bíng I sê̤ gô̤ng ē uā. Dṳ̂ lí kua̍ⁿ Cṳ̂ bái-co̤̍ng ē ūi-chṳ̍.7 Da̤u̍h guâⁿ-gîng kṳ̍, gah I meóng-",
+              "rom": "I beó deó cî-ciâ; î-ging hói-seng lâ̤u,",
               "han": "",
               "tokens": [
                 {
@@ -335055,7 +334856,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "lâ̤u"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "音節數與和合本推估差 -13"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "cuh sī bíng I sê̤ gô̤ng ē uā. Dṳ̂ lí kua̍ⁿ Cṳ̂ bái-co̤̍ng ē ūi-chṳ̍.7 Da̤u̍h guâⁿ-gîng kṳ̍, gah I meóng- seng gô̤ng, I î-ging iú sî hói-seng; ho̤h ceo̍-sa̤ⁿ dṳ̂-go̤h-náng kṳ̍ Ga-lī-lī; deó hṳ̂-hiô̤ dih-dih ā̤ gi̍ng da̤u̍h I; guâ da gah dṳ̂ gô̤ng lâ̤u.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -335165,18 +334978,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "meóng-"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 7,
-              "rom": "seng gô̤ng, I î-ging iú sî hói-seng; ho̤h ceo̍-sa̤ⁿ dṳ̂-go̤h-náng kṳ̍ Ga-lī-lī; deó hṳ̂-hiô̤ dih-dih ā̤ gi̍ng da̤u̍h I; guâ da gah dṳ̂ gô̤ng lâ̤u.",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -335304,7 +335106,7 @@
                 }
               ],
               "rom_draft": [
-                "節號未辨識出，經文可能併入前一節"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -340039,7 +339841,7 @@
             {
               "type": "verse",
               "verse": 43,
-              "rom": "Á̤-So cuh sâi i kṳ̍, peh-cheh gîng-ga̍i i, gô̤ng, Da̤u̍h sa̤̍-cī, n̄g-tang gah náng gô̤ng; nō̤ kṳ̍ gi̍ng ca̤̍-si, sâi i ngiāng dṳ̂ ē sing-tâ̤; ho̤̍h da̤u̍h ing dṳ̂ deh ching-geh, he̤̍ng Mó̤-sa̤ sê̤ mīng ē lâ̤-beo̍h, ceo̍ bíng-gṳ̍ leo̍h ce̤̍ng-náng hiô̤.",
+              "rom": "Á̤-So cuh sâi i kṳ̍, peh-cheh gîng-ga̍i i, gô̤ng,",
               "han": "",
               "tokens": [
                 {
@@ -340086,7 +339888,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "gô̤ng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 15"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "Da̤u̍h sa̤̍-cī, n̄g-tang gah náng gô̤ng; nō̤ kṳ̍ gi̍ng ca̤̍-si, sâi i ngiāng dṳ̂ ē sing-tâ̤; ho̤̍h da̤u̍h ing dṳ̂ deh ching-geh, he̤̍ng Mó̤-sa̤ sê̤ mīng ē lâ̤-beo̍h, ceo̍ bíng-gṳ̍ leo̍h ce̤̍ng-náng hiô̤.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -340254,16 +340068,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "文中出現非預期數字 15"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 44,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -340425,8 +340231,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 16,
-          "draft_flagged": 5
+          "draft_verses": 17,
+          "draft_flagged": 6
         },
         {
           "chapter": 2,
@@ -344963,7 +344769,7 @@
             {
               "type": "verse",
               "verse": 17,
-              "rom": "Sa̤-bî-ta̍i ē giô̤ⁿ Ngâ-go̤h, gah Ngâ-go̤h ē nâi-dā̤ Io̤h-hāng; cî nn̄g gá̤ náng, buh ching i miá ga̤̍u Bua̍ng-ní-gi, huang-i̍h cuh sī lúi-go̤ng ē giô̤ⁿ; buh ū Ang-deh-le̍h, Hi-li̍h, Ba-do̤-ló̤-mâi, Mâ-ta̍i, Do̤-mâ, A̍-leh-hi ē giô̤ⁿ Ngâ-go̤h, gah Da̍h-ta̍i, ching Gōi ē Sa̤-meóng,",
+              "rom": "Sa̤-bî-ta̍i ē giô̤ⁿ Ngâ-go̤h, gah Ngâ-go̤h ē nâi-dā̤ Io̤h-hāng; cî nn̄g gá̤ náng, buh ching i miá ga̤̍u Bua̍ng-ní-gi, huang-i̍h cuh sī lúi-go̤ng ē giô̤ⁿ;",
               "han": "",
               "tokens": [
                 {
@@ -345090,7 +344896,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "giô̤ⁿ"
-                },
+                }
+              ],
+              "rom_draft": [
+                "含詞表外音節：Bua̍ng lúi"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 18,
+              "rom": "buh ū Ang-deh-le̍h, Hi-li̍h, Ba-do̤-ló̤-mâi, Mâ-ta̍i, Do̤-mâ, A̍-leh-hi ē giô̤ⁿ Ngâ-go̤h, gah Da̍h-ta̍i, ching Gōi ē Sa̤-meóng,",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -345178,64 +344995,7 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：Bua̍ng lúi",
-                "文中出現非預期數字 13"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 18,
-              "rom": "gah Ga-lio̤̍h náng Iú-dāi, cuh sī bā̤ Á̤-So ē.",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gah"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Ga-lio̤̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Iú-dāi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cuh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "bā̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號讀作 13，依序推定為 18"
               ]
             },
             {
@@ -355927,7 +355687,9 @@
                   "rom": "siū"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +28"
+              ]
             },
             {
               "type": "verse",
@@ -359900,7 +359662,9 @@
                   "rom": "seō"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -14"
+              ]
             },
             {
               "type": "verse",
@@ -360281,7 +360045,7 @@
             }
           ],
           "draft_verses": 55,
-          "draft_flagged": 16
+          "draft_flagged": 18
         },
         {
           "chapter": 7,
@@ -360566,7 +360330,7 @@
             {
               "type": "verse",
               "verse": 4,
-              "rom": "Cé̤ng ga̤-dō hói-táu, nō̤ bōi sâ̤ iā n̄g sia̍h; ho̤h ū cīng-sā̤ dá̤u se̤̍h-lā̤, go̤h-náng síng-siū ceong-siû, cuh sī boi, cio̤h, dáng-ki̍ léng míng-chńg deo da̤u̍h sâ̤ ē Hah-lī-se̤̍ náng gah ta̍h-cṳ-náng ka̍ng Á̤-So gô̤ng, Seh-na Dṳ̂ meóng-seng n̄g bíng gô-cô̤ náng í-dé̤ng ē se̤̍h-lā̤, chiû bōi ching-geh meô kṳ̍ sia̍h lē?",
+              "rom": "Cé̤ng ga̤-dō hói-táu, nō̤ bōi sâ̤ iā n̄g sia̍h; ho̤h ū cīng-sā̤ dá̤u se̤̍h-lā̤, go̤h-náng síng-siū ceong-siû, cuh sī boi, cio̤h, dáng-ki̍ léng míng-chńg deo da̤u̍h sâ̤ ē",
               "han": "",
               "tokens": [
                 {
@@ -360708,7 +360472,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "ē"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "含詞表外音節：cio̤h"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "Hah-lī-se̤̍ náng gah ta̍h-cṳ-náng ka̍ng Á̤-So gô̤ng, Seh-na Dṳ̂ meóng-seng n̄g bíng gô-cô̤ náng í-dé̤ng ē se̤̍h-lā̤, chiû bōi ching-geh meô kṳ̍ sia̍h lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -360831,16 +360607,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "含詞表外音節：cio̤h"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 5,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -361188,7 +360956,8 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：cio̤h"
+                "含詞表外音節：cio̤h",
+                "音節數與和合本推估差 +13"
               ]
             },
             {
@@ -363820,8 +363589,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 34,
-          "draft_flagged": 8
+          "draft_verses": 35,
+          "draft_flagged": 9
         },
         {
           "chapter": 8,
@@ -364956,7 +364725,9 @@
                   "rom": "ngiō̤"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -14"
+              ]
             },
             {
               "type": "verse",
@@ -365637,7 +365408,7 @@
             {
               "type": "verse",
               "verse": 21,
-              "rom": "Á̤-So cuh gah i gô̤ng, Dṳ̂ ho̤h bā̤ hōi-gō lō̤? Á̤-So ga meóng-seng ga̍u Beh-se̤̍-dāi, ū náng chio̤̍ seo̍h gá̤ chaⁿ-má ē náng lí, giú Á̤-So mo i.",
+              "rom": "Á̤-So cuh gah i gô̤ng, Dṳ̂ ho̤h bā̤ hōi-gō lō̤? Á̤-So ga meóng-seng ga̍u Beh-se̤̍-dāi,",
               "han": "",
               "tokens": [
                 {
@@ -365714,108 +365485,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "Beh-se̤̍-dāi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ū"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "chio̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seo̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gá̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "chaⁿ-má"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lí"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "giú"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "mo"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i"
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "下一節節號未辨識出，依和合本字數推估切分"
               ]
             },
             {
               "type": "verse",
               "verse": 22,
-              "rom": "Á̤-So gah meóng-seng ga̍u Beh-se̤̍-dāi, ū náng chio̤̍ seo̍h gá̤ chaⁿ-má ē náng lí, giú Á̤-So mo i.",
+              "rom": "ū náng chio̤̍ seo̍h gá̤ chaⁿ-má ē náng lí, giú Á̤-So mo i.",
               "han": "",
               "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gah"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "meóng-seng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ga̍u"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Beh-se̤̍-dāi"
-                },
                 {
                   "type": "word",
                   "han": "",
@@ -365883,7 +365564,7 @@
                 }
               ],
               "rom_draft": [
-                "節號讀作 3，依序推定為 22"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -366223,7 +365904,7 @@
             {
               "type": "verse",
               "verse": 26,
-              "rom": "Á̤-So sâi i kṳ̍ cho̍, gô̤ng, N̄g-tang di̍h ha̤uⁿ, iā n̄g-tang gah ha̤uⁿ-lî náng gô̤ng. Á̤-So ga̍u meóng-seng Gai-sah-lī-a̍ Hi-li̍h-bî ē ha̤uⁿ-che̤ng, dō-táu ka̍ng meóng-seng gô̤ng, Náng gô̤ng Guâ sī seo̍h-moi náng lē?",
+              "rom": "Á̤-So sâi i kṳ̍ cho̍, gô̤ng, N̄g-tang di̍h ha̤uⁿ, iā n̄g-tang gah ha̤uⁿ-lî náng gô̤ng.",
               "han": "",
               "tokens": [
                 {
@@ -366300,7 +365981,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "gô̤ng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 27,
+              "rom": "Á̤-So ga̍u meóng-seng Gai-sah-lī-a̍ Hi-li̍h-bî ē ha̤uⁿ-che̤ng, dō-táu ka̍ng meóng-seng gô̤ng, Náng gô̤ng Guâ sī seo̍h-moi náng lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -366393,108 +366085,7 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 27,
-              "rom": "Á̤-So gah meóng-seng Gai-sah-lī-a̍ Hi-li̍h-bî ē ha̤uⁿ-che̤ng, dō-táu ka̍ng meóng-seng gô̤ng, Náng gô̤ng Guâ sī seo̍h-moi náng lē?",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gah"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "meóng-seng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Gai-sah-lī-a̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Hi-li̍h-bî"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ha̤uⁿ-che̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dō-táu"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ka̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "meóng-seng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Guâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seo̍h-moi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lē"
-                }
-              ],
-              "rom_draft": [
-                "節號讀作 1，依序推定為 27"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -367659,7 +367250,7 @@
             }
           ],
           "draft_verses": 37,
-          "draft_flagged": 11
+          "draft_flagged": 12
         },
         {
           "chapter": 9,
@@ -372237,7 +371828,8 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：cáng"
+                "含詞表外音節：cáng",
+                "音節數與和合本推估差 +20"
               ]
             },
             {
@@ -372287,7 +371879,9 @@
                   "rom": "ma̍ih"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -16"
+              ]
             },
             {
               "type": "verse",
@@ -372422,7 +372016,8 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：cáng"
+                "含詞表外音節：cáng",
+                "音節數與和合本推估差 +16"
               ]
             },
             {
@@ -372879,7 +372474,7 @@
             }
           ],
           "draft_verses": 49,
-          "draft_flagged": 15
+          "draft_flagged": 16
         },
         {
           "chapter": 10,
@@ -374171,7 +373766,9 @@
                   "rom": "i"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -16"
+              ]
             },
             {
               "type": "verse",
@@ -377102,7 +376699,7 @@
             {
               "type": "verse",
               "verse": 43,
-              "rom": "Nō̤ dṳ̂-go̤h-náng n̄g-tang bíng ca̤̍ ā̤uⁿ; dṳ̂ de̤ng-gang hn̍g-náng a̍i ceo̍ duā, da̤u̍h seo̍-dṳ̂ ē-chng-sâi; hn̍g-náng a̍i ceo̍ táu, da̤u̍h ceo̍ ce̤̍ng-náng ē nó-cái.",
+              "rom": "Nō̤ dṳ̂-go̤h-náng n̄g-tang bíng ca̤̍ ā̤uⁿ; dṳ̂ de̤ng-gang hn̍g-náng a̍i ceo̍ duā, da̤u̍h seo̍-dṳ̂ ē-chng-sâi;",
               "han": "",
               "tokens": [
                 {
@@ -377179,7 +376776,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "ē-chng-sâi"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 21",
+                "節號讀作 9，依序推定為 43"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "hn̍g-náng a̍i ceo̍ táu, da̤u̍h ceo̍ ce̤̍ng-náng ē nó-cái.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -377227,65 +376837,7 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "文中出現非預期數字 21",
-                "節號讀作 9，依序推定為 43"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 44,
-              "rom": "n̍g-náng a̍i ceo̍ táu, da̤u̍h ceo̍ e̤̍ng-náng ē nó-cái.",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "n̍g-náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "a̍i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceo̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "táu"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "da̤u̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceo̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "e̤̍ng-náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "nó-cái"
-                }
-              ],
-              "rom_draft": [
-                "節號讀作 24，依序推定為 44"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -378176,7 +377728,7 @@
             }
           ],
           "draft_verses": 51,
-          "draft_flagged": 12
+          "draft_flagged": 13
         },
         {
           "chapter": 11,
@@ -378435,7 +377987,7 @@
             {
               "type": "verse",
               "verse": 3,
-              "rom": "Cio̤̍h-seô ū náng ka̍ng dṳ̂ gô̤ng, Seh-na gâ̤ lṳ́? dṳ̂ cuh da̤u̍h gô̤ng, Cṳ̂ beoh ē̤ng i; cuh kêng keoh dṳ̂ keng lí cî-ciâ. Meóng-seng cuh kṳ̍, gô̤-céng gṳ̄-da̤u̍h lṳ́-giô̤ⁿ ga̤ deó mói-guā ga̤-dō lē; cuh gâ̤ kî.",
+              "rom": "Cio̤̍h-seô ū náng ka̍ng dṳ̂ gô̤ng, Seh-na gâ̤ lṳ́? dṳ̂ cuh da̤u̍h gô̤ng, Cṳ̂ beoh ē̤ng i; cuh kêng keoh dṳ̂ keng lí cî-ciâ.",
               "han": "",
               "tokens": [
                 {
@@ -378557,7 +378109,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "cî-ciâ"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "Meóng-seng cuh kṳ̍, gô̤-céng gṳ̄-da̤u̍h lṳ́-giô̤ⁿ ga̤ deó mói-guā ga̤-dō lē; cuh gâ̤ kî.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -378630,15 +378193,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 4,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -381679,8 +381235,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 31,
-          "draft_flagged": 10
+          "draft_verses": 32,
+          "draft_flagged": 11
         },
         {
           "chapter": 12,
@@ -396702,7 +396258,7 @@
             {
               "type": "verse",
               "verse": 66,
-              "rom": "Bî-deh deó guā-li̍ īng lē, ū seo̍h gá̤ duā-ca̤̍-sī ē a-táu lī; kua̍ⁿ-gi̍ng Bî-deh hang hôi, cuh a̤̍ i, gô̤ng, Dṳ̂ iā sī gah Ná-sah-leh náng Á̤-So ceo̍ seo̍h-bang.",
+              "rom": "Bî-deh deó guā-li̍ īng lē, ū seo̍h gá̤ duā-ca̤̍-sī ē a-táu lī;",
               "han": "",
               "tokens": [
                 {
@@ -396764,7 +396320,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "lī"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 35",
+                "節號讀作 36，依序推定為 66"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 67,
+              "rom": "kua̍ⁿ-gi̍ng Bî-deh hang hôi, cuh a̤̍ i, gô̤ng, Dṳ̂ iā sī gah Ná-sah-leh náng Á̤-So ceo̍ seo̍h-bang.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -396852,18 +396421,9 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
                 "含詞表外音節：hang",
-                "文中出現非預期數字 35",
-                "節號讀作 36，依序推定為 66"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 67,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -397452,8 +397012,8 @@
               ]
             }
           ],
-          "draft_verses": 69,
-          "draft_flagged": 27
+          "draft_verses": 70,
+          "draft_flagged": 28
         },
         {
           "chapter": 15,
@@ -406447,7 +406007,9 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：chiáⁿ chiáⁿ"
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "含詞表外音節：chiáⁿ chiáⁿ",
+                "文中出現非預期數字 10"
               ]
             },
             {
@@ -406578,7 +406140,8 @@
                 }
               ],
               "rom_draft": [
-                "節號讀作 10，依序推定為 28"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置",
+                "音節數與和合本推估差 +13"
               ]
             },
             {
@@ -414358,7 +413921,7 @@
             {
               "type": "verse",
               "verse": 37,
-              "rom": "I cî seo̍h sí hio̤̍ng-cé̤ng ā-ā̤uⁿ Siō̤ng-Da̤̍, buh gah Á̤-lō-sah-lêng sê̤ ū n̍g se̤̍h-cōi ē náng dáng-leōng",
+              "rom": "I cî seo̍h sí hio̤̍ng-cé̤ng ā-ā̤uⁿ Siō̤ng-Da̤̍,",
               "han": "",
               "tokens": [
                 {
@@ -414395,7 +413958,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "Siō̤ng-Da̤̍"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "節號讀作 23，依序推定為 37"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 38,
+              "rom": "buh gah Á̤-lō-sah-lêng sê̤ ū n̍g se̤̍h-cōi ē náng dáng-leōng ca̤̍ da̍i-giô̤ⁿ ē seō.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -414445,19 +414020,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "dáng-leōng"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "節號讀作 23，依序推定為 37"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 38,
-              "rom": "ca̤̍ da̍i-giô̤ⁿ ē seō.",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -414480,7 +414043,7 @@
                 }
               ],
               "rom_draft": [
-                "節號未辨識出，經文可能併入前一節"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -416320,7 +415883,7 @@
             {
               "type": "verse",
               "verse": 6,
-              "rom": "Háng ū he̤h ki̍ ē náng deo ā̤ kua̍ⁿ-gi̍ng Siō̤ng-Da̤̍ ē cîng-giu̍. Ce̤̍ng-náng lí siū sâ̤-lâ̤, Io̤h-hāng gah i gô̤ng, Do̤̍h-sió̤ seo̍h-lūi ā, hn̍g-náng cî-diâng dṳ̂ piā hā̤u-lái ē dō-ki̍ lē?",
+              "rom": "Háng ū he̤h ki̍ ē náng deo ā̤ kua̍ⁿ-gi̍ng Siō̤ng-Da̤̍ ē cîng-giu̍.",
               "han": "",
               "tokens": [
                 {
@@ -416382,7 +415945,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "cîng-giu̍"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "Ce̤̍ng-náng lí siū sâ̤-lâ̤, Io̤h-hāng gah i gô̤ng, Do̤̍h-sió̤ seo̍h-lūi ā, hn̍g-náng cî-diâng dṳ̂ piā hā̤u-lái ē dō-ki̍ lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -416480,15 +416054,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 7,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -417242,7 +416809,9 @@
                   "rom": "di-ce̤h"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 +37"
+              ]
             },
             {
               "type": "verse",
@@ -419901,8 +419470,8 @@
               ]
             }
           ],
-          "draft_verses": 35,
-          "draft_flagged": 11
+          "draft_verses": 36,
+          "draft_flagged": 13
         },
         {
           "chapter": 4,
@@ -445165,7 +444734,7 @@
             {
               "type": "verse",
               "verse": 43,
-              "rom": "ā̤ sîng-ná̤u-náng deh hā̤-suaⁿ-bang ē bāⁿ se̍h-dī níng, ing chiâⁿ i-seng, ga-gia̍h deo pua̍ lâ̤u kṳ̍, buh beó seo̍h gá̤ ā̤ do̤h-lia̍h i, cuh ga̍u Á̤-So bōi āu, mo I i-ná̤u-gṳ, hā̤-suaⁿ-bang cih-keh cuh cî kṳ̍.",
+              "rom": "ā̤ sîng-ná̤u-náng deh hā̤-suaⁿ-bang ē bāⁿ se̍h-dī níng, ing chiâⁿ i-seng, ga-gia̍h deo pua̍ lâ̤u kṳ̍, buh beó seo̍h gá̤ ā̤ do̤h-lia̍h i,",
               "han": "",
               "tokens": [
                 {
@@ -445282,7 +444851,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "i"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 21",
+                "節號讀作 3，依序推定為 43"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "cuh ga̍u Á̤-So bōi āu, mo I i-ná̤u-gṳ, hā̤-suaⁿ-bang cih-keh cuh cî kṳ̍.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -445350,13 +444932,12 @@
                 }
               ],
               "rom_draft": [
-                "文中出現非預期數字 21",
-                "節號讀作 3，依序推定為 43"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
               "type": "verse",
-              "verse": 44,
+              "verse": 45,
               "rom": "Á̤-So gô̤ng, Hn̍g-náng mo Guâ? Ce̤̍ng-náng n̄g nīng. Bî-deh léng ceo̍ seo̍h bang ē náng gô̤ng, Seng-saⁿ, ce̤̍ng-náng kā̤ ciô̤ gṳ̄ng, Dṳ̂ ka̍ng hn̍g-náng mo Guâ lō̤?",
               "han": "",
               "tokens": [
@@ -445496,13 +445077,11 @@
                   "rom": "lō̤"
                 }
               ],
-              "rom_draft": [
-                "節號讀作 45，依序推定為 44"
-              ]
+              "rom_draft": []
             },
             {
               "type": "verse",
-              "verse": 45,
+              "verse": 46,
               "rom": "Á̤-So gô̤ng, Ū náng mo Guâ, ing Guâ gi̍ng-gah ū cái-néng iú Guâ ciâ chōi.",
               "han": "",
               "tokens": [
@@ -445583,15 +445162,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號讀作 45，依序推定為 46"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 46,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -446568,7 +446140,7 @@
               ]
             }
           ],
-          "draft_verses": 55,
+          "draft_verses": 56,
           "draft_flagged": 23
         },
         {
@@ -446579,7 +446151,7 @@
             {
               "type": "verse",
               "verse": 1,
-              "rom": "Á̤-So ga̤̍u se̍h-dī meóng-seng lí, Á̤-o̤nguⁿ-ta̍sēⁿ-sêng",
+              "rom": "Á̤-So ga̤̍u se̍h-dī meóng-seng lí, Á̤-o̤nguⁿ-ta̍sēⁿ-sêng A̍-seo̍ i gé̤ng-ba̍ⁿ cái-néng, ā̤ ah-ca̤̍ ló̤ng-cô̤ng ē gûi, léng do̤h-lia̍h bāⁿ.",
               "han": "",
               "tokens": [
                 {
@@ -446611,19 +446183,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "Á̤-o̤nguⁿ-ta̍sēⁿ-sêng"
-                }
-              ],
-              "rom_draft": [
-                "含詞表外音節：o̤nguⁿ ta̍sēⁿ",
-                "首節（首字放大）"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 2,
-              "rom": "A̍-seo̍ i gé̤ng-ba̍ⁿ cái-néng, ā̤ ah-ca̤̍ ló̤ng-cô̤ng ē gûi, léng do̤h-lia̍h bāⁿ. Sâi i kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî do̤h-la̍h bī náng.",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -446683,7 +446243,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "bāⁿ"
-                },
+                }
+              ],
+              "rom_draft": [
+                "含詞表外音節：o̤nguⁿ ta̍sēⁿ",
+                "文中出現非預期數字 4",
+                "首節（首字放大）"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 2,
+              "rom": "Sâi i kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî do̤h-la̍h bī náng.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -446741,8 +446314,7 @@
                 }
               ],
               "rom_draft": [
-                "文中出現非預期數字 7",
-                "節號讀作 4，依序推定為 2"
+                "節號讀作 7，依序推定為 2"
               ]
             },
             {
@@ -448419,7 +447991,9 @@
                   "rom": "luá"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -18"
+              ]
             },
             {
               "type": "verse",
@@ -452845,7 +452419,7 @@
             {
               "type": "verse",
               "verse": 60,
-              "rom": "A̍-So gah i gô̤ng, Cāi i sî-náng kṳ̍ dái ca̤̍ sî-náng; nō̤ dṳ̂ da̤u̍h kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî. i Buh ū seo̍h gá̤ náng gô̤ng, Cṳ̂ ā, guâ a̍i-dí do̍i Dṳ̂; nō̤ é̤ng guâ sa̤ⁿ kṳ̍ cho̍ gah cho̍-lî náng sí-be̍h.",
+              "rom": "A̍-So gah i gô̤ng, Cāi i sî-náng kṳ̍ dái ca̤̍ sî-náng; nō̤ dṳ̂ da̤u̍h kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî.",
               "han": "",
               "tokens": [
                 {
@@ -452947,7 +452521,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "dō̤-lî"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 3",
+                "節號讀作 30，依序推定為 60"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 61,
+              "rom": "i Buh ū seo̍h gá̤ náng gô̤ng, Cṳ̂ ā, guâ a̍i-dí do̍i Dṳ̂; nō̤ é̤ng guâ sa̤ⁿ kṳ̍ cho̍ gah cho̍-lî náng sí-be̍h.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -453065,17 +452652,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "文中出現非預期數字 3",
-                "節號讀作 30，依序推定為 60"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 61,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -453177,8 +452755,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 61,
-          "draft_flagged": 20
+          "draft_verses": 62,
+          "draft_flagged": 22
         },
         {
           "chapter": 10,
@@ -457000,7 +456578,7 @@
             {
               "type": "verse",
               "verse": 34,
-              "rom": "giáⁿ sá̤ⁿ ta̤̍h iú gah ciû, deo̍ i siū-sio̤ng ē ūi-chṳ̍; bau hah-lo̤̍h lâ̤u, cuh cio̤ng ga̍i ē táu-saⁿ keoh i kió̤, chio̤̍ ga̍u kā-da̤̍ⁿ ca̤̍u-go̍ i. lē Dā̤-dī di̍h cuh ta̤̍h nn̄g cíng ngṳ́ng, gau keoh da̤̍ⁿ-cô, gô̤ng, Ca̤̍u-go̍ ca̤̍ náng; dṳ̂ nō̤ ū sâi ga, guâ hói-táu dih-dih dá̤ⁿ dṳ̂.",
+              "rom": "giáⁿ sá̤ⁿ ta̤̍h iú gah ciû, deo̍ i siū-sio̤ng ē ūi-chṳ̍; bau hah-lo̤̍h lâ̤u, cuh cio̤ng ga̍i ē táu-saⁿ keoh i kió̤, chio̤̍ ga̍u kā-da̤̍ⁿ ca̤̍u-go̍ i.",
               "han": "",
               "tokens": [
                 {
@@ -457137,7 +456715,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "i"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "含詞表外音節：kió̤ da̤̍ⁿ",
+                "節號讀作 31，依序推定為 34"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 35,
+              "rom": "lē Dā̤-dī di̍h cuh ta̤̍h nn̄g cíng ngṳ́ng, gau keoh da̤̍ⁿ-cô, gô̤ng, Ca̤̍u-go̍ ca̤̍ náng; dṳ̂ nō̤ ū sâi ga, guâ hói-táu dih-dih dá̤ⁿ dṳ̂.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -457265,95 +456856,8 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：kió̤ da̤̍ⁿ da̤̍ⁿ",
-                "節號讀作 31，依序推定為 34"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 35,
-              "rom": "Dṳ̂ siô̤ng kua̍ⁿ, cî so̤ⁿ gá̤ de̤ng-gang, deoh-seo̍h gá̤ sī gṳ̄-da̤u̍h che̍h ē gā-biā-cho̍ lē?",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "siô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "kua̍ⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cî"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "so̤ⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gá̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "de̤ng-gang"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "deoh-seo̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gá̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gṳ̄-da̤u̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "che̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gā-biā-cho̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lē"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "含詞表外音節：gā biā"
+                "含詞表外音節：da̤̍ⁿ",
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -457440,7 +456944,7 @@
               ],
               "rom_draft": [
                 "含詞表外音節：gā biā",
-                "節號讀作 30，依序推定為 36"
+                "節號讀作 35，依序推定為 36"
               ]
             },
             {
@@ -470472,7 +469976,7 @@
             {
               "type": "verse",
               "verse": 55,
-              "rom": "Dṳ̂ kua̍ⁿ-gi̍ng náng-boiⁿ choi lí, dṳ̂ cuh gô̤ng, Beoh duā ce̍h leō; iā cuh ū. ū-ah heô ē náng ā! dṳ̂ cai bēng-be̍h ting-dā̤ ē ki̍-seh; seh-na n̄g-cai bēng-be̍h ca̤̍ sí-cā̤ lē?",
+              "rom": "Dṳ̂ kua̍ⁿ-gi̍ng náng-boiⁿ choi lí, dṳ̂ cuh gô̤ng, Beoh duā ce̍h leō;",
               "han": "",
               "tokens": [
                 {
@@ -470534,7 +470038,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "leō"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 30"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 56,
+              "rom": "iā cuh ū. ū-ah heô ē náng ā! dṳ̂ cai bēng-be̍h ting-dā̤ ē ki̍-seh; seh-na n̄g-cai bēng-be̍h ca̤̍ sí-cā̤ lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -470637,104 +470153,7 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "文中出現非預期數字 30"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 56,
-              "rom": "ū-ah heô ē náng ā! dṳ̂ cai bēng-be̍h ting-dā̤ ē ki̍-seh; seh-na n̄g-cai bēng-be̍h ca̤̍ sí-cā̤ lē?",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ū-ah"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "heô"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ā"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cai"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "bēng-be̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ting-dā̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ki̍-seh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seh-na"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "n̄g-cai"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "bēng-be̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ca̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sí-cā̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lē"
-                }
-              ],
-              "rom_draft": [
-                "節號讀作 36，依序推定為 56"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -478865,7 +478284,7 @@
             {
               "type": "verse",
               "verse": 4,
-              "rom": "Dṳ̂ do̤-ng hn̍g-náng ū seo̍h-bā táu á̤uⁿ, pā-hi̍ng kṳ̍ seo̍h táu, n̄g-sī cāng-sí láu ca̤̍ gâu-se̍h-gâu táu ē á̤uⁿ leo̍h iâ-guā, kṳ̍ cho̍i ca̤̍ pā-hi̍ng ē, ga̍u cho̍i da̤u̍h lō̤? ē Cho̍i da̤u̍h cuh huaⁿ-hî, iāⁿ ga̤ⁿ-táu lē?",
+              "rom": "Dṳ̂ do̤-ng hn̍g-náng ū seo̍h-bā táu á̤uⁿ, pā-hi̍ng kṳ̍ seo̍h táu, n̄g-sī cāng-sí láu ca̤̍ gâu-se̍h-gâu táu ē á̤uⁿ leo̍h iâ-guā, kṳ̍ cho̍i ca̤̍ pā-hi̍ng ē, ga̍u cho̍i da̤u̍h lō̤?",
               "han": "",
               "tokens": [
                 {
@@ -479017,7 +478436,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "lō̤"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "ē Cho̍i da̤u̍h cuh huaⁿ-hî, iāⁿ ga̤ⁿ-táu lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -479060,15 +478490,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 5,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -481934,8 +481357,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 31,
-          "draft_flagged": 9
+          "draft_verses": 32,
+          "draft_flagged": 10
         },
         {
           "chapter": 16,
@@ -484301,7 +483724,8 @@
                 }
               ],
               "rom_draft": [
-                "含詞表外音節：sáng sāng h"
+                "含詞表外音節：sáng sāng h",
+                "音節數與和合本推估差 +13"
               ]
             },
             {
@@ -497672,7 +497096,7 @@
             {
               "type": "verse",
               "verse": 45,
-              "rom": "Á̤-So di̍h si̍ng-dēng, de̤̍h cheoh diō̤ dēng do̤-ng ceo̍ seng-lî ē náng, gah i gô̤ng, Si̍ng-ging ū gô̤ng, Guâ ē cho̍ sī gí-dô̤ ē cho̍; nō̤ dṳ̂-go̤h-náng ta̤̍h lí ceo̍ che̍h-cáu lō̤?",
+              "rom": "Á̤-So di̍h si̍ng-dēng, de̤̍h cheoh diō̤ dēng do̤-ng ceo̍ seng-lî ē náng,",
               "han": "",
               "tokens": [
                 {
@@ -497734,7 +497158,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "náng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 10"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 46,
+              "rom": "gah i gô̤ng, Si̍ng-ging ū gô̤ng, Guâ ē cho̍ sī gí-dô̤ ē cho̍; nō̤ dṳ̂-go̤h-náng ta̤̍h lí ceo̍ che̍h-cáu lō̤?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -497837,17 +497273,9 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
                 "含詞表外音節：cáu",
-                "文中出現非預期數字 10"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 46,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -498008,8 +497436,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 47,
-          "draft_flagged": 13
+          "draft_verses": 48,
+          "draft_flagged": 14
         },
         {
           "chapter": 20,
@@ -502229,7 +501657,7 @@
             {
               "type": "verse",
               "verse": 43,
-              "rom": "dêng Guâ cio̤ng Dṳ̂ siú-de̍h ceo̍ Dṳ̂ ko̤-do̤̍h. Dāi-bi̍h gi̍-céng ching Gi-Do̤h ceo̍ Cṳ̂, Gi-Do̤h deoh-leo sī Dāi-bi̍h ē giô̤ⁿ-seong lē?",
+              "rom": "dêng Guâ cio̤ng Dṳ̂ siú-de̍h ceo̍ Dṳ̂ ko̤-do̤̍h.",
               "han": "",
               "tokens": [
                 {
@@ -502271,7 +501699,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "ko̤-do̤̍h"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 44,
+              "rom": "Dāi-bi̍h gi̍-céng ching Gi-Do̤h ceo̍ Cṳ̂, Gi-Do̤h deoh-leo sī Dāi-bi̍h ē giô̤ⁿ-seong lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -502338,11 +501777,13 @@
                   "rom": "lē"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
+              ]
             },
             {
               "type": "verse",
-              "verse": 44,
+              "verse": 45,
               "rom": "Ce̤̍ng bā-sa̍ⁿ hiô̤ tiaⁿ sí-cā̤, Á̤-So gah meóng-seng gô̤ng,",
               "han": "",
               "tokens": [
@@ -502392,11 +501833,13 @@
                   "rom": "gô̤ng"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "節號讀作 44，依序推定為 45"
+              ]
             },
             {
               "type": "verse",
-              "verse": 45,
+              "verse": 46,
               "rom": "Sa̤̍-cī hó̤ng-bī ca̤̍ ta̍h-cṳ-náng; i a̍i-dí sē̤ng dng-bó̤ tā-lá̤u, huaⁿ-hî deó ga̤-dō keoh náng chîng-ang, sē̤ hōi-dn̍g gá̤ⁿ ē ūi, sē̤ ciû-si̍h duā-ūi;",
               "han": "",
               "tokens": [
@@ -502516,11 +501959,13 @@
                   "rom": "duā-ūi"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "節號讀作 45，依序推定為 46"
+              ]
             },
             {
               "type": "verse",
-              "verse": 46,
+              "verse": 47,
               "rom": "buh teong guâ-hū ē ga-gia̍h, nô̤-i dńg-dńg gí-dô̤; i siū híng-hua̍h dih-dih ho̤h ā̤ dāng.",
               "han": "",
               "tokens": [
@@ -502601,20 +502046,13 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "含詞表外音節：teong"
+                "含詞表外音節：teong",
+                "節號讀作 46，依序推定為 47"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 47,
-              "rom": "",
-              "han": "",
-              "tokens": []
             }
           ],
-          "draft_verses": 46,
-          "draft_flagged": 9
+          "draft_verses": 47,
+          "draft_flagged": 13
         },
         {
           "chapter": 21,
@@ -517454,7 +516892,7 @@
             {
               "type": "verse",
               "verse": 51,
-              "rom": "(I n̄g gah seh-ga̤̍ ē náng seo̍h-bang cá̤ pā-sua̍ⁿ.) sī Iú-ta̍i ē A̍-lī-mâ-ta̍i siáⁿ náng, bíng-so̍ ngiô̤ng-mō̤ng Siō̤ng-Da̤̍-go̤h ē náng. I kṳ̍ gi̍ng Bî-la̍h-do̤, giú Á̤-So ē sing-si.",
+              "rom": "(I n̄g gah seh-ga̤̍ ē náng seo̍h-bang cá̤ pā-sua̍ⁿ.) sī Iú-ta̍i ē A̍-lī-mâ-ta̍i siáⁿ náng, bíng-so̍ ngiô̤ng-mō̤ng Siō̤ng-Da̤̍-go̤h ē náng.",
               "han": "",
               "tokens": [
                 {
@@ -517556,7 +516994,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "náng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 52,
+              "rom": "I kṳ̍ gi̍ng Bî-la̍h-do̤, giú Á̤-So ē sing-si.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -517599,15 +517048,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 52,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -517948,8 +517390,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 54,
-          "draft_flagged": 15
+          "draft_verses": 55,
+          "draft_flagged": 16
         },
         {
           "chapter": 24,
@@ -518813,7 +518255,7 @@
             {
               "type": "verse",
               "verse": 11,
-              "rom": "Seo̍-dó siô̤ng ca̤̍ sîng-ná̤u ē uā sī hṳ ē, n̄g se̍ng i.2 Nō̤ Bî-deh bā-kî, guâⁿ kṳ̍ mo̍ lē, táu pah lôi kua̍ⁿ lī-li̍, nō̤ kua̍ⁿ-gi̍ng",
+              "rom": "Seo̍-dó siô̤ng ca̤̍ sîng-ná̤u ē uā sī hṳ ē,",
               "han": "",
               "tokens": [
                 {
@@ -518860,7 +518302,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "ē"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 12,
+              "rom": "n̄g se̍ng i.2 Nō̤ Bî-deh bā-kî, guâⁿ kṳ̍ mo̍ lē, táu pah lôi kua̍ⁿ lī-li̍, nō̤ kua̍ⁿ-gi̍ng dio̤̍h-bo̍ deó hiô̤, siô̤ng ca̤̍ seō cīng geo̍-ā̤uⁿ, cuh hói-táu kṳ̍-cho̍.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -518950,18 +518403,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "kua̍ⁿ-gi̍ng"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 12,
-              "rom": "dio̤̍h-bo̍ deó hiô̤, siô̤ng ca̤̍ seō cīng geo̍-ā̤uⁿ, cuh hói-táu kṳ̍-cho̍.",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -519021,7 +518463,7 @@
               "rom_draft": [
                 "含詞表外音節：dio̤̍h",
                 "文中出現非預期數字 9",
-                "節號未辨識出，經文可能併入前一節"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -535777,7 +535219,7 @@
             {
               "type": "verse",
               "verse": 18,
-              "rom": "ing dṳ̂ beh-céng ū ngō gá̤ dah-bo; da sê̤ ū ē, n̄g-sī dṳ̂ dah-bo; dṳ̂ ca̤̍ ṳ̂11 Sîng-ná̤u-náng gô̤ng, Seng-saⁿ, guâ kua̍ⁿ Dṳ̂ sī seng-di.",
+              "rom": "ing dṳ̂ beh-céng ū ngō gá̤ dah-bo; da sê̤ ū ē, n̄g-sī dṳ̂ dah-bo;",
               "han": "",
               "tokens": [
                 {
@@ -535849,7 +535291,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "dah-bo"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 19,
+              "rom": "dṳ̂ ca̤̍ ṳ̂11 Sîng-ná̤u-náng gô̤ng, Seng-saⁿ, guâ kua̍ⁿ Dṳ̂ sī seng-di.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -535907,59 +535360,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "含詞表外音節：ṳ̂11"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 19,
-              "rom": "Sîng-ná̤u-náng gô̤ng, Seng-saⁿ, guâ kua̍ⁿ Dṳ̂ sī seng-di.",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Sîng-ná̤u-náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Seng-saⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "guâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "kua̍ⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seng-di"
-                }
-              ],
-              "rom_draft": [
-                "節號讀作 11，依序推定為 19"
+                "含詞表外音節：ṳ̂11",
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -538040,7 +537442,7 @@
             {
               "type": "verse",
               "verse": 42,
-              "rom": "cuh gah ca̤̍ sîng-ná̤u-náng gô̤ng, Da guâ-go̤h-náng se̍ng, n̄g-sī ing dṳ̂ ē uā; sī guâ-go̤h-náng ching-hī tiaⁿ-mói, cai ca̤̍ náng si̍h-lo̤̍h sī i-go̤̍ saⁿ di̍h, Á̤-so lī hî-hî u̍ Ga-lī-lī.",
+              "rom": "cuh gah ca̤̍ sîng-ná̤u-náng gô̤ng, Da guâ-go̤h-náng se̍ng, n̄g-sī ing dṳ̂ ē uā; sī guâ-go̤h-náng ching-hī tiaⁿ-mói, cai ca̤̍ náng si̍h-lo̤̍h sī i-go̤̍ saⁿ di̍h,",
               "han": "",
               "tokens": [
                 {
@@ -538167,7 +537569,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "di̍h"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 43,
+              "rom": "Á̤-so lī hî-hî u̍ Ga-lī-lī.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -538195,15 +537608,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 43,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -539246,8 +538652,8 @@
               ]
             }
           ],
-          "draft_verses": 42,
-          "draft_flagged": 15
+          "draft_verses": 43,
+          "draft_flagged": 16
         },
         {
           "chapter": 5,
@@ -556029,7 +555435,7 @@
             {
               "type": "verse",
               "verse": 3,
-              "rom": "Ū ā sîng-ná̤u-náng héng gang-íng, keoh náng dia̍h da̤u̍h, ta̍h-cṳ-náng gah Hah-lī-se̤̍ eh gah Á̤-o gi̍ng Seng? ca̤̍ sîng-ná̤u-náng héng gang-íng sí-cā̤, keoh náng dia̍h da̤u̍h. Bíng Mó̤ sa̤ leo̍h-hah, mīng guâ",
+              "rom": "Ū ā sîng-ná̤u-náng héng gang-íng, keoh náng dia̍h da̤u̍h,",
               "han": "",
               "tokens": [
                 {
@@ -556076,7 +555482,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "da̤u̍h"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 4,
+              "rom": "ta̍h-cṳ-náng gah Hah-lī-se̤̍ eh gah Á̤-o gi̍ng Seng?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -556116,7 +555533,20 @@
                   "type": "word",
                   "han": "",
                   "rom": "Seng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "低信心 0.60",
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 5,
+              "rom": "ca̤̍ sîng-ná̤u-náng héng gang-íng sí-cā̤, keoh náng dia̍h da̤u̍h. Bíng Mó̤ sa̤ leo̍h-hah, mīng guâ go̤h-náng ē̤ng sa̤u̍h diāⁿ si ca̤̍ seo̍h-ā̤uⁿ ē náng; nō̤ Dṳ̂ i̍-ge̍ng seh-na gô̤ng lē?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -556191,26 +555621,7 @@
                   "type": "word",
                   "han": "",
                   "rom": "guâ"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "低信心 0.60"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 4,
-              "rom": "",
-              "han": "",
-              "tokens": []
-            },
-            {
-              "type": "verse",
-              "verse": 5,
-              "rom": "go̤h-náng ē̤ng sa̤u̍h diāⁿ si ca̤̍ seo̍h-ā̤uⁿ ē náng; nō̤ Dṳ̂ i̍-ge̍ng seh-na gô̤ng lē?",
-              "han": "",
-              "tokens": [
+                },
                 {
                   "type": "word",
                   "han": "",
@@ -556288,7 +555699,7 @@
                 }
               ],
               "rom_draft": [
-                "節號未辨識出，經文可能併入前一節"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -562567,8 +561978,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 56,
-          "draft_flagged": 11
+          "draft_verses": 57,
+          "draft_flagged": 12
         },
         {
           "chapter": 9,
@@ -585020,7 +584431,7 @@
             {
               "type": "verse",
               "verse": 30,
-              "rom": "Iú-dāi gi̍-céng siū ca̤̍ eo̍ng ē mo̍ih-nō̤ lâ̤u, cih-keh chōi kṳ̍; ca̤̍ sí-cā̤ î-ging a̍ng lâ̤u. I gi̍-céng chōi kṳ̍. Á̤-So cuh gô̤ng, Da Cíng Ceô deh ṳ́ng-ā̤u, Siō̤ng-Da̤̍ ing-ūi I iā deh ṳ́ng-ā̤u.",
+              "rom": "Iú-dāi gi̍-céng siū ca̤̍ eo̍ng ē mo̍ih-nō̤ lâ̤u, cih-keh chōi kṳ̍; ca̤̍ sí-cā̤ î-ging a̍ng lâ̤u.",
               "han": "",
               "tokens": [
                 {
@@ -585102,7 +584513,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "lâ̤u"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "含詞表外音節：eo̍ng"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 31,
+              "rom": "I gi̍-céng chōi kṳ̍. Á̤-So cuh gô̤ng, Da Cíng Ceô deh ṳ́ng-ā̤u, Siō̤ng-Da̤̍ ing-ūi I iā deh ṳ́ng-ā̤u.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -585195,16 +584618,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "含詞表外音節：eo̍ng"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 31,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -586104,8 +585519,8 @@
               ]
             }
           ],
-          "draft_verses": 36,
-          "draft_flagged": 17
+          "draft_verses": 37,
+          "draft_flagged": 18
         },
         {
           "chapter": 14,
@@ -593225,7 +592640,7 @@
             {
               "type": "verse",
               "verse": 6,
-              "rom": "Ing Guâ nō̤ gah dṳ̂ gô̤ng ca̤̍ uā, dṳ̂ muâ-sing ū kô. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Guâ kṳ̍ sī iā leo̍h dṳ̂; Guâ nō̤ beó kṳ̍, Bô̤-hā̤-seo cuh beó lí; Guâ nō̤ kṳ̍, cuh cha̤-kêng I lí dṳ̂ ciâ.",
+              "rom": "Ing Guâ nō̤ gah dṳ̂ gô̤ng ca̤̍ uā, dṳ̂ muâ-sing ū kô.",
               "han": "",
               "tokens": [
                 {
@@ -593287,7 +592702,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "kô"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 7,
+              "rom": "Guâ si̍h-cāi gah dṳ̂ gô̤ng, Guâ kṳ̍ sī iā leo̍h dṳ̂; Guâ nō̤ beó kṳ̍, Bô̤-hā̤-seo cuh beó lí; Guâ nō̤ kṳ̍, cuh cha̤-kêng I lí dṳ̂ ciâ.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -593430,94 +592856,7 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 7,
-              "rom": "I î-céng lí, cuh beoh ē̤ng cōi, ē̤ng o̤ng-gī, ē̤ng sîng-pua̍ng, sâi sa̤̍-ang ga̍i ceh-bī;",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "I"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "î-céng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lí"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cuh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "beoh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cōi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "o̤ng-gī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sîng-pua̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sâi"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sa̤̍-ang"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ga̍i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceh-bī"
-                }
-              ],
-              "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "節號讀作 3，依序推定為 7"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -602900,7 +602239,9 @@
                   "rom": "tí"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -15"
+              ]
             },
             {
               "type": "verse",
@@ -603338,7 +602679,7 @@
             {
               "type": "verse",
               "verse": 32,
-              "rom": "Ah-na sī i̍ng-ngiāng Á̤-So bíng-so̍ gô̤ng, I ga̍i beoh seh-na siū sî. Bî-la̍h-do̤ buh di̍h go̤ng-tiaⁿ, dā̤u Á̤-So, ka̍ng I, gô̤ng, Dṳ̂ sī Iú-ta̍i náng ē go̤h-ó̤ng lō̤?",
+              "rom": "Ah-na sī i̍ng-ngiāng Á̤-So bíng-so̍ gô̤ng, I ga̍i beoh seh-na siū sî.",
               "han": "",
               "tokens": [
                 {
@@ -603400,7 +602741,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "sî"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "節號讀作 21，依序推定為 32"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 33,
+              "rom": "Bî-la̍h-do̤ buh di̍h go̤ng-tiaⁿ, dā̤u Á̤-So, ka̍ng I, gô̤ng, Dṳ̂ sī Iú-ta̍i náng ē go̤h-ó̤ng lō̤?",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -603483,16 +602836,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "節號讀作 21，依序推定為 32"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 33,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -603760,7 +603105,7 @@
             {
               "type": "verse",
               "verse": 36,
-              "rom": "Á̤-So i̍ng gô̤ng, Guâ ē go̤h n̄g sī se̤̍h ciâ sa̤̍-gang. Guâ ē go̤h nō̤ sī se̤̍h ciâ sa̤̍-gang, Guâ ē síng-ceô cuh ih-dēng ceng-da̤̍u, mêng-dih Guâ keoh náng ga̤̍ leo̍h Iú-ta̍i náng hiô̤; nō̤ Guâ ē go̤h n̄g-sī se̤̍h leo̍h ciâ sa̤̍-gang.37 Bî-la̍h-do̤ cuh gô̤ng, Ah-na Dṳ̂ sī ceo̍ go̤h-ó̤ng lō̤? Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng Guâ sī go̤h-ó̤ng. Guâ sī ing ca̤̍ seō cia̍ⁿ saⁿ cheoh-si̍, buh sī ing ca̤̍ seō cia̍ⁿ ga̍ng-líng sa̤̍-gang, a̍i ta̤̍ cing-lî ceo̍ ci̍ng-ge̍ng. Háng se̤̍h cing-lî ē náng, cuh tiaⁿ Guâ ē uā.",
+              "rom": "Á̤-So i̍ng gô̤ng, Guâ ē go̤h n̄g sī se̤̍h ciâ sa̤̍-gang. Guâ ē go̤h nō̤ sī se̤̍h ciâ sa̤̍-gang, Guâ ē síng-ceô cuh ih-dēng ceng-da̤̍u, mêng-dih Guâ keoh náng ga̤̍ leo̍h Iú-ta̍i náng hiô̤; nō̤ Guâ ē go̤h n̄g-sī se̤̍h leo̍h ciâ sa̤̍-gang.37 Bî-la̍h-do̤ cuh gô̤ng, Ah-na Dṳ̂ sī ceo̍ go̤h-ó̤ng lō̤?",
               "han": "",
               "tokens": [
                 {
@@ -604027,7 +603372,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "lō̤"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "含詞表外音節：ceng da̤̍u"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 37,
+              "rom": "Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng Guâ sī go̤h-ó̤ng. Guâ sī ing ca̤̍ seō cia̍ⁿ saⁿ cheoh-si̍, buh sī ing ca̤̍ seō cia̍ⁿ ga̍ng-líng sa̤̍-gang, a̍i ta̤̍ cing-lî ceo̍ ci̍ng-ge̍ng. Háng se̤̍h cing-lî ē náng, cuh tiaⁿ Guâ ē uā.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -604225,258 +603582,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "含詞表外音節：ceng da̤̍u"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 37,
-              "rom": "Bî-la̍h-do̤ cuh gô̤ng, Ah-na Dṳ̂ sī ceo̍ go̤h-ó̤ng lō̤? Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng Guâ sī go̤h-ó̤ng. Guâ sī ing ca̤̍ seō cia̍ⁿ saⁿ cheoh-si̍, buh sī ing ca̤̍ seō cia̍ⁿ ga̍ng-líng sa̤̍-gang, a̍i ta̤̍ cing-lî ceo̍ ci̍ng-ge̍ng. Háng se̤̍h cing-lî ē náng, cuh tiaⁿ Guâ ē uā.",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Bî-la̍h-do̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cuh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Ah-na"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceo̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "go̤h-ó̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lō̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "i̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Dṳ̂"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gô̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Guâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "go̤h-ó̤ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Guâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ing"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ca̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seō"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cia̍ⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "saⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cheoh-si̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "buh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sī"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ing"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ca̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "seō"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cia̍ⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ga̍ng-líng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "sa̤̍-gang"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "a̍i"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ta̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cing-lî"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ceo̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ci̍ng-ge̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Háng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "se̤̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cing-lî"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cuh"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "tiaⁿ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Guâ"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "uā"
-                }
-              ],
-              "rom_draft": []
             },
             {
               "type": "verse",
@@ -604806,8 +603913,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 38,
-          "draft_flagged": 10
+          "draft_verses": 39,
+          "draft_flagged": 13
         },
         {
           "chapter": 19,
@@ -608491,7 +607598,7 @@
             {
               "type": "verse",
               "verse": 31,
-              "rom": "Ca̤̍ seo̍h di̍h sī bī-ceh di̍h, buh ing ca̤̍ Ang-sih-di̍h sī duā di̍h-cî, Iú-ta̍i náng n̄g a̍i leo̍h Ang-sih-di̍h sing-si gua̍ leo̍h si̍h-cī-ga̍ lē; go̍-cheô giú Bî-la̍h-do̤ sâi náng ko̤-geoh, ta̤̍h i sing-si ko̤ Ing-cheô bing-seng lí, ô̤ si̍h gah Á̤-So cá̤ de̍ng ca̤̍ nn̄g gá̤ náng ē ko̤-geoh;",
+              "rom": "Ca̤̍ seo̍h di̍h sī bī-ceh di̍h, buh ing ca̤̍ Ang-sih-di̍h sī duā di̍h-cî, Iú-ta̍i náng n̄g a̍i leo̍h Ang-sih-di̍h sing-si gua̍ leo̍h si̍h-cī-ga̍ lē;",
               "han": "",
               "tokens": [
                 {
@@ -608613,7 +607720,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "lē"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 5"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 32,
+              "rom": "go̍-cheô giú Bî-la̍h-do̤ sâi náng ko̤-geoh, ta̤̍h i sing-si ko̤ Ing-cheô bing-seng lí, ô̤ si̍h gah Á̤-So cá̤ de̍ng ca̤̍ nn̄g gá̤ náng ē ko̤-geoh;",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -608741,94 +607860,7 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
-                "文中出現非預期數字 5"
-              ]
-            },
-            {
-              "type": "verse",
-              "verse": 32,
-              "rom": "Ing-cheô bing-seng lí, ô̤ si̍h gah Á̤-So cá̤ de̍ng ca̤̍ nn̄g gá̤ náng ē ko̤-geoh;",
-              "han": "",
-              "tokens": [
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Ing-cheô"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "bing-seng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "lí"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ô̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "si̍h"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gah"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "Á̤-So"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "cá̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "de̍ng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ca̤̍"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "nn̄g"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "gá̤"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "náng"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ē"
-                },
-                {
-                  "type": "word",
-                  "han": "",
-                  "rom": "ko̤-geoh"
-                }
-              ],
-              "rom_draft": [
-                "節號讀作 2，依序推定為 32"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
             },
             {
@@ -626316,14 +625348,7 @@
             {
               "type": "verse",
               "verse": 5,
-              "rom": "",
-              "han": "",
-              "tokens": []
-            },
-            {
-              "type": "verse",
-              "verse": 6,
-              "rom": "ca̤̍ ā̤ hêng-míng Siō̤ng-Da̤̍ sîng-pua̍ng náng sī go̤ng-gī; dṳ̂ gi̍-céng ing Siō̤ng-Da̤̍-go̤h siū hāi, hā̤u-lái cuh ā̤ de̤̍ng-dih di̍h ca̤̍ go̤h: ing Siō̤ng-Da̤̍ sī go̤ng-gī, dih-dih cio̤ng huāng-nāng bo̤̍-i̍ng ca̤̍ hāi dṳ̂ siū-kô ē náng;",
+              "rom": "ca̤̍ ā̤ hêng-míng Siō̤ng-Da̤̍ sîng-pua̍ng náng sī go̤ng-gī; dṳ̂ gi̍-céng ing Siō̤ng-Da̤̍-go̤h siū hāi, hā̤u-lái cuh ā̤ de̤̍ng-dih di̍h ca̤̍ go̤h:",
               "han": "",
               "tokens": [
                 {
@@ -626430,7 +625455,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "go̤h"
-                },
+                }
+              ],
+              "rom_draft": [
+                "節號讀作 6，依序推定為 5"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 6,
+              "rom": "ing Siō̤ng-Da̤̍ sī go̤ng-gī, dih-dih cio̤ng huāng-nāng bo̤̍-i̍ng ca̤̍ hāi dṳ̂ siū-kô ē náng;",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -626503,7 +625539,7 @@
                 }
               ],
               "rom_draft": [
-                "文中出現非預期數字 9"
+                "節號讀作 9，依序推定為 6"
               ]
             },
             {
@@ -627351,8 +626387,8 @@
               "rom_draft": []
             }
           ],
-          "draft_verses": 7,
-          "draft_flagged": 1
+          "draft_verses": 8,
+          "draft_flagged": 2
         },
         {
           "chapter": 2,
@@ -642794,7 +641830,7 @@
             {
               "type": "verse",
               "verse": 14,
-              "rom": "i kua̍ⁿ gang-íng da̍i sā̤uⁿ-ngâng, hāng-cōi beó hē̤; buh iû-he̍h sing-lî bōi geng-go̍ ē náng; i iā cīng gua̍ng-se̤̍h tang-sing, sī siū mo̤̍ ē náng: i lī cia̍ⁿ-dō̤, giáⁿ heong-bá̤ ē dō, do̍i To̤̍-so̤h giô̤ⁿ Ba-láng ē dō; cāi-cô̤ Ba-láng tang beoh-gī ē cíng-cái;",
+              "rom": "i kua̍ⁿ gang-íng da̍i sā̤uⁿ-ngâng, hāng-cōi beó hē̤; buh iû-he̍h sing-lî bōi geng-go̍ ē náng; i iā cīng gua̍ng-se̤̍h tang-sing, sī siū mo̤̍ ē náng:",
               "han": "",
               "tokens": [
                 {
@@ -642921,7 +641957,19 @@
                   "type": "word",
                   "han": "",
                   "rom": "náng"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分",
+                "文中出現非預期數字 3"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 15,
+              "rom": "i lī cia̍ⁿ-dō̤, giáⁿ heong-bá̤ ē dō, do̍i To̤̍-so̤h giô̤ⁿ Ba-láng ē dō; cāi-cô̤ Ba-láng tang beoh-gī ē cíng-cái;",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -643019,17 +642067,9 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文",
                 "含詞表外音節：To̤̍",
-                "文中出現非預期數字 3"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 15,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -643846,8 +642886,8 @@
               ]
             }
           ],
-          "draft_verses": 20,
-          "draft_flagged": 12
+          "draft_verses": 21,
+          "draft_flagged": 13
         },
         {
           "chapter": 3,
@@ -644546,7 +643586,7 @@
             {
               "type": "verse",
               "verse": 7,
-              "rom": "nō̤ da ē ting-dā̤, iā sī ciā Siō̤ng-Da̤̍ ē mīng-līng, ceóng ga̍u sîng-pua̍ng gái náng, hua̍h i díng-leóng ē di̍h-cî, cuh ē̤ng hôi sa̤u kṳ̍. Ching-a̍i ē hiaⁿ-dī, dṳ̂ n̄g tang beoh-gi̍-lē cî seo̍h hāng, Cṳ̂ kua̍ⁿ seo̍h di̍h chā̤uⁿ seo̍h-cha̤ⁿ níng, seo̍h-cha̤ⁿ níng chā̤uⁿ seo̍h di̍h.",
+              "rom": "nō̤ da ē ting-dā̤, iā sī ciā Siō̤ng-Da̤̍ ē mīng-līng, ceóng ga̍u sîng-pua̍ng gái náng, hua̍h i díng-leóng ē di̍h-cî, cuh ē̤ng hôi sa̤u kṳ̍.",
               "han": "",
               "tokens": [
                 {
@@ -644673,7 +643713,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "kṳ̍"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 8,
+              "rom": "Ching-a̍i ē hiaⁿ-dī, dṳ̂ n̄g tang beoh-gi̍-lē cî seo̍h hāng, Cṳ̂ kua̍ⁿ seo̍h di̍h chā̤uⁿ seo̍h-cha̤ⁿ níng, seo̍h-cha̤ⁿ níng chā̤uⁿ seo̍h di̍h.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -644786,15 +643837,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 8,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -645380,7 +644424,7 @@
             {
               "type": "verse",
               "verse": 13,
-              "rom": "Nō̤ guâ-go̤h-náng bíng Siō̤ng-Da̤̍ sê̤ ṳ̂ng-hṳ̂ ē, n̍g ca̤̍ sing ē ting, sing ē dā̤, ū gī-lî gṳ-cṳ̄ leo̍h hn̄g-lî. Ching-a̍i ē hiaⁿ-dī ā, céng n̍g ca̤̍ seō, cuh da̤u̍h gṳ́ng-gîng, sâi dṳ̂ beó u̍-o̍i, beó mo̍ih ceh-bī, ang-sing gi̍ng Cṳ̂.",
+              "rom": "Nō̤ guâ-go̤h-náng bíng Siō̤ng-Da̤̍ sê̤ ṳ̂ng-hṳ̂ ē, n̍g ca̤̍ sing ē ting, sing ē dā̤,",
               "han": "",
               "tokens": [
                 {
@@ -645457,7 +644501,18 @@
                   "type": "word",
                   "han": "",
                   "rom": "dā̤"
-                },
+                }
+              ],
+              "rom_draft": [
+                "下一節節號未辨識出，依和合本字數推估切分"
+              ]
+            },
+            {
+              "type": "verse",
+              "verse": 14,
+              "rom": "ū gī-lî gṳ-cṳ̄ leo̍h hn̄g-lî. Ching-a̍i ē hiaⁿ-dī ā, céng n̍g ca̤̍ seō, cuh da̤u̍h gṳ́ng-gîng, sâi dṳ̂ beó u̍-o̍i, beó mo̍ih ceh-bī, ang-sing gi̍ng Cṳ̂.",
+              "han": "",
+              "tokens": [
                 {
                   "type": "word",
                   "han": "",
@@ -645590,15 +644645,8 @@
                 }
               ],
               "rom_draft": [
-                "下一節節號未辨識出，可能含下一節經文"
+                "節號未辨識出，依和合本字數推估切分，請核對切節位置"
               ]
-            },
-            {
-              "type": "verse",
-              "verse": 14,
-              "rom": "",
-              "han": "",
-              "tokens": []
             },
             {
               "type": "verse",
@@ -646171,11 +645219,13 @@
                   "rom": "ē"
                 }
               ],
-              "rom_draft": []
+              "rom_draft": [
+                "音節數與和合本推估差 -26"
+              ]
             }
           ],
-          "draft_verses": 15,
-          "draft_flagged": 8
+          "draft_verses": 17,
+          "draft_flagged": 11
         }
       ]
     },

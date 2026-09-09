@@ -619,7 +619,7 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 19 A̍-beh-la̍h-hâng hói-táu, ga̍u i nó-cái ē ūi-chṳ̍, gah i cá̤ kî-sing ga̍u Be̍h-sī-ba. A̍-beh-la̍h-hâng cuh do̍ Be̍h-sī-ba.
 20 Ca̤̍ seō Î-hā̤u. ū náng gah A̍-beh-la̍h-hâng gô̤ng, Bi̍h-gia iú dṳ̂-dī Ná-ho̤̍h hiô̤ saⁿ giô̤ⁿ:
 21 duā-giô̤ⁿ O-seo, i-dī Bo̍-seo, gah A̍-láng ē ló̤-bō̤ Gi-bâ̤u-lī.
-22 Gi-seh, Ha̍h-sô̤, Bih-da̍h, Î-la̍h, Bî-tô-lī.
+22 Gi-seh, Ha̍h-sô̤, Bih-da̍h, Î-la̍h, Bî-tô-lī. Cî bā̤ gá̤ náng deo sī Bi̍h-gia iú A̍-beh-la̍h-hâng ā-dī Ná-ho̤̍h hiô̤ sê̤ saⁿ ē; Bî-tó-lī saⁿ ā sîng-ná̤u-giô̤ⁿ Lī-beh-ga.
 23 Cî bā̤ gá̤ náng deo sī Bi̍h-gia iú A̍-beh-la̍h-hâng ā-dī Ná-ho̤̍h hiô̤ sê̤ saⁿ ē; Bî-tó-lī saⁿ ā sîng-ná̤u-giô̤ⁿ Lī-beh-ga.
 24 Ná-ho̤̍h ē ā-lî miá Liú-mâ, saⁿ Dá̤-hah, Gia-háng, Taⁿ-la̍h Mâ-gia.
 ## 23
@@ -785,11 +785,11 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 ## 27
 1 I-sah néng lô̤, ma̍h-ciu bū, bā̤ kua̍ⁿ-gi̍ng, cuh ga̤̍u duā-giô̤ⁿ Î-sô̤, gô̤ng, Guâ giô̤ⁿ ā: i i̍ng gô̤ng, Guâ deó cî-ciâ.
 2 I-sah gô̤ng, Guâ lāu leō, n̄g-cai sî leo̍h deoh-seo̍h di̍h.
-3 Dṳ̂ tang gio̤̍h go̤-li, ge̤ng gah ci̍ng, kṳ̍ ko̤̍ng-iâ, ta̤̍ guâ dô̤-lo̤̍h; deh iâ-siu̍ ceo̍ ā ga-háu, ha̍h guâ sê̤ ho̤̍ ē, páng lí keoh guâ sia̍h; te̍ng guâ ho̤h bōi sî, ta̤̍ dṳ̂ ce̤h-ho̤h.
-4 Î-hā̤u Î-sô̤ kṳ̍ ko̤̍ng-iâ, a̍i-dí dô̤-lo̤̍h iâ-siu̍ ga̍u cho̍. Î-sah heong-nu̍ giô̤ⁿ Î-sô̤ sí-cā̤, Lī-beh-ga ū tiaⁿ-mói.
-5 Lī-beh-ga cuh gah i giô̤ⁿ Ngâ-go̤h gô̤ng, Guâ tiaⁿ-mói dṳ̂ ló̤-bō̤ heong-nu̍ dṳ̂-hiaⁿ Î-sê̤ gô̤ng,
-6 Ta̤̍ guâ dô̤-lo̤̍h iâ-siu̍ ceo̍ ā ga-háu keoh guâ sia̍h, te̍ng guâ bōi sî sí-cā̤, guâ leo̍h Á̤-Hó̤-Hua mi̍ng-sá̤ⁿ ta̤̍ dṳ̂ ce̤h-ho̤h.
-7 
+3 Dṳ̂ tang gio̤̍h go̤-li, ge̤ng gah ci̍ng, kṳ̍ ko̤̍ng-iâ, ta̤̍ guâ dô̤-lo̤̍h;
+4 deh iâ-siu̍ ceo̍ ā ga-háu, ha̍h guâ sê̤ ho̤̍ ē, páng lí keoh guâ sia̍h; te̍ng guâ ho̤h bōi sî, ta̤̍ dṳ̂ ce̤h-ho̤h.
+5 Î-hā̤u Î-sô̤ kṳ̍ ko̤̍ng-iâ, a̍i-dí dô̤-lo̤̍h iâ-siu̍ ga̍u cho̍. Î-sah heong-nu̍ giô̤ⁿ Î-sô̤ sí-cā̤, Lī-beh-ga ū tiaⁿ-mói.
+6 Lī-beh-ga cuh gah i giô̤ⁿ Ngâ-go̤h gô̤ng, Guâ tiaⁿ-mói dṳ̂ ló̤-bō̤ heong-nu̍ dṳ̂-hiaⁿ Î-sê̤ gô̤ng,
+7 Ta̤̍ guâ dô̤-lo̤̍h iâ-siu̍ ceo̍ ā ga-háu keoh guâ sia̍h, te̍ng guâ bōi sî sí-cā̤, guâ leo̍h Á̤-Hó̤-Hua mi̍ng-sá̤ⁿ ta̤̍ dṳ̂ ce̤h-ho̤h.
 8 Da guâ giô̤ⁿ da̤u̍h tiaⁿ guâ ē uā, bíng guâ sê̤ mīng-līng ē.
 9 Dṳ̂ kṳ̍ á̤uⁿ-geóng lē, keng búi ē suaⁿ-á̤uⁿ-giô̤ⁿ nn̄g táu lí; guâ ta̤̍ dṳ̂ ló̤-bō̤ ceo̍ ā ga-háu, ha̍h i sê̤ ho̤̍ ē:
 10 dṳ̂ cuh páng keoh dṳ̂ ló̤-bō̤ sia̍h, te̍ng i bōi sî. ta̤̍ dṳ̂ ce̤h-ho̤h.
@@ -1258,8 +1258,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 15 Guâ sá̤ⁿ-di̍h keoh náng tau-chio̤̍ cheoh Hi-beh-lái dā̤; deó cî-ciâ guâ iā bōi hāng seo̍h-moi cōi, keoh náng goiⁿ guâ leo̍h gang-lî.
 16 Chṳ́-guaⁿ gi̍ng i sá̤uⁿ heô, cuh gah Io̤h-seh gô̤ng, Guâ iā ceo̍ ā ma̍ng; gi̍ng ū so̤ⁿ gá̤ ba̍h-nó̤ di̍ guâ táu lē;
 17 dêng-ni̍ ē nó̤ ū chṳ́-guaⁿ sê̤ ceo̍ ge̤ng-gih Hah-lô̤ sia̍h ē mo̍ih-nō̤, ū câ̤u deó guâ táu-ā-dêng ē nó̤ lē dē̤.
-18 Io̤h-seh i̍ng gô̤ng, Ca̤̍ ma̍ng-dā̤u sī ah-na; so̤ⁿ so-so so-saⁿ gah? ē-go̤ dih lī, Hah-lē beoh kio̤̍ dâ̤ ē táu, lī dṳ̂ ē sing, cio̤ng dṳ̂ gua̍ leo̍h chó̤ lē; câ̤u beoh lí dē̤ dṳ̂ ē ne̤̍h.
-19 
+18 Io̤h-seh i̍ng gô̤ng, Ca̤̍ ma̍ng-dā̤u sī ah-na; so̤ⁿ so-so so-saⁿ gah?
+19 ē-go̤ dih lī, Hah-lē beoh kio̤̍ dâ̤ ē táu, lī dṳ̂ ē sing, cio̤ng dṳ̂ gua̍ leo̍h chó̤ lē; câ̤u beoh lí dē̤ dṳ̂ ē ne̤̍h.
 20 Ga̍u dā̤ so̤ⁿ di̍h, dû-dû Hah-lô̤ ceo̍ saⁿ-di̍h, bāng e̍ng chiâⁿ hiô̤-sā̤ ē guaⁿ; cuh diō̤ hiô̤-sā̤ guaⁿ do̤-ng dā̤u ciû-lī gah chṳ́-guaⁿ, sâi i cheoh gang;
 21 ho̤̍h ciû-lī ngói-cih; sâi i náng ciû-boi ba̍ng Hah-lô̤ ē chiû.
 22 Bí-do̤̍h cio̤ng chṳ́-guaⁿ gua̍ leo̍h chó̤: si̍h-si̍h chā̤uⁿ Io̤h-seh ta̤̍ nn̄g gá̤ náng sê̤ sá̤uⁿ ē seo̍h-ā̤uⁿ.
@@ -1306,8 +1306,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 39 Hah-lô̤ gah Io̤h-seh gô̤ng, Siō̤ng-Da̤̍ gi̍-céng ta̤̍h ciô̤-sā̤ seō cî-sī dṳ̂, go̍-cheô dṳ̂ ē di̍-hā̤ beó náng ā̤ gah dṳ̂ bî-piāⁿ:
 40 dṳ̂ ā̤ guâng-dī guâ go̤h-ga, bā-sa̍ⁿ dih-dih deo bíng dṳ̂ ē mīng-līng: bí-do̤̍h ca̤̍ go̤h-geong ē ūi, guâ ho̤h ā̤ ceong-gu̍i dṳ̂.
 41 Hah-lô̤ buh gah Io̤h-seh gô̤ng, Guâ li̍h dṳ̂ Gô̤ng-lî A̍i-gi̍h cé̤ng-go̤h.
-42 
-43 Hah-lô̤ cuh te̤̍ⁿ ga̍i ē chiû-câi, dua̍ Io̤h-seh chiû lē; ta̤̍h iu̍-bo̍ ē i-ná̤u, sē̤ng i sing lē, buh ta̤̍h ging-guāⁿ gua̍ i dāu-lṳ lē; sâi i sē̤ dā̤-dī chia; náng deó i táu-sá̤ⁿ huā gô̤ng, Gūi ō̤: ah-na li̍h i tô̤ng-guâng Ai-gi̍h cé̤ng-go̤h.
+42 Hah-lô̤ cuh te̤̍ⁿ ga̍i ē chiû-câi, dua̍ Io̤h-seh chiû lē; ta̤̍h iu̍-bo̍ ē i-ná̤u, sē̤ng i sing lē, buh ta̤̍h ging-guāⁿ gua̍ i dāu-lṳ lē;
+43 sâi i sē̤ dā̤-dī chia; náng deó i táu-sá̤ⁿ huā gô̤ng, Gūi ō̤: ah-na li̍h i tô̤ng-guâng Ai-gi̍h cé̤ng-go̤h.
 44 Hah-lô̤ gah Io̤h-seh gô̤ng, Guâ sī Hah-lô̤; nō̤ a̤̍-Gi̍.: eō. n̄g-sī dṳ̂ huah-līng, to̤ng Ai-gi̍h dā̤ beó náng gô̤ⁿ dāng-ko̤ dāng-chiû.
 45 Hah-lô̤ ta̤̍h ā miá seo̍ Io̤h-seh, ga̤̍u leō Sah-da̍h-ba-ní; buh cio̤ng Ang ē ca̤̍-si Bo̤-dá̤-hi-la̍h ē sîng-ná̤u-giô̤ⁿ A̍-sa̤-da̍h po̍i keoh i. Io̤h-seh seóng-héng Ai-gi̍h muâ dā̤.
 46 Dng Io̤h-seh dá̤u-ge̍ng Ai-gi̍h ó̤ng Hah-lô̤ sí-cā̤, î-ging so̤ⁿ-se̍h ho̍i; cuh lī Hah-lô̤ mi̍ng-sá̤ⁿ, giáⁿ Ai-gi̍h muâ dā̤.
@@ -1393,8 +1393,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 29 Io̤h-seh gio̤̍h-kî ma̍h-ciu, kua̍ⁿ-gi̍ng i dó̤ng-bâ̤u-dā̤ Bēng-ngâ-mîng, cuh ka̍ng gô̤ng, Dṳ̂-go̤h-náng sá̤ⁿ-di̍h sê̤ gô̤ng bôi ē nâi-dā̤, cuh sī cî seo̍h gá̤ lō̤? Buh gô̤ng, Guâ giô̤ⁿ ā, ngōi Siō̤ng-Da̤̍ sī-ṳng keoh dṳ̂.
 30 Io̤h-seh seo-bō nâi-dā̤, sing-lî chā̤uⁿ hôi sa̤u, beoh-gah lē a̍i hâu; cuh di̍h ga̍i báng-lî hâu.
 31 Î-hā̤u sâ̤-mi̍ng lō̤ buh chōi; ngā̤ ah-ca̤̍ ga̍i ē si̍ng-cíng, ga̤̍u náng bá̤ ciû-si̍h.
-32 I cuh bá̤ ciû-si̍h: ta̤̍ Io̤h-seh bá̤ seo̍h deō, ta̤̍ se̍h-ih náng bá̤ seo̍h deō, ta̤̍ deó Io̤h-seh hn̄g-lî sia̍h ē Ai-gi̍h náng bá̤ seo̍h deō; ing Ai-gi̍h náng beó gah Hi-beh-lái náng seo̍h deō cá̤ sia̍h; ceo̍-seo̍h-deō sī Ai-gi̍h náng sua̍ⁿ ceo̍ da̍i kô̤-o̍ ē seō.33 Io̤h-seh sâi hiaⁿ-dī deó táu-sá̤ⁿ-deō sē̤, diô̤ng-iu̍ deo bíng i ē cheo̍-sṳ̄: go̤h-náng cuh seo kua̍ⁿ, duā hâi-léng.
-33 
+32 I cuh bá̤ ciû-si̍h: ta̤̍ Io̤h-seh bá̤ seo̍h deō, ta̤̍ se̍h-ih náng bá̤ seo̍h deō, ta̤̍ deó Io̤h-seh hn̄g-lî sia̍h ē Ai-gi̍h náng bá̤ seo̍h deō; ing Ai-gi̍h náng beó gah Hi-beh-lái náng seo̍h deō cá̤ sia̍h;
+33 ceo̍-seo̍h-deō sī Ai-gi̍h náng sua̍ⁿ ceo̍ da̍i kô̤-o̍ ē seō.33 Io̤h-seh sâi hiaⁿ-dī deó táu-sá̤ⁿ-deō sē̤, diô̤ng-iu̍ deo bíng i ē cheo̍-sṳ̄: go̤h-náng cuh seo kua̍ⁿ, duā hâi-léng.
 34 Io̤h-seh cio̤ng ga̍i beông-sing mi̍ng-sá̤ⁿ ē háu-bōiⁿ beong keoh ce̤̍ng hiaⁿ-dī; nō̤ Bēng-ngâ-mîng ē háu-bōiⁿ, piāⁿ go̤h-náng sā̤ ngō-bōi. Go̤h-náng cuh gah Io̤h-seh cá̤ chōi sia̍h e̍ng-lo̤̍h.
 ## 44
 1 Ho̤h-seh heong-nu̍ i guâng-ga gô̤ng, Ta̤̍h ca̤̍ gô-go̤h dâ̤u go̤h-náng ē po̍-dē̤, bíng cāi i ā̤ guāⁿ dā̤u-ā sā̤, iā ta̤̍h go̤h-náng ē ngṳ́ng, ba̍ng leo̍h go̤h-náng po̍-dē̤-lî.
@@ -1416,8 +1416,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 17 Io̤h-seh gô̤ng, Guâ dua̍ng-dua̍ng n̄g ceo̍ ca̤̍ seō: nō̤ ca̤̍ boi deh leo̍h hn̍g-náng chiû lē, i ca̤̍ náng ceo̍ guâ ē nó-cái; nō̤ dṳ̂-go̤h-gáng ang-sing dôiⁿ kṳ̍ gi̍ng dṳ̂ ló̤-bō̤.
 18 Iú-dāi cuh giáⁿ gṳ̄ng Io̤h-seh táu-sáⁿ, gah Io̤h-seh gô̤ng, Guâ cṳ̂, dṳ̂ sī gah Hah-lô̤ seo̍h-ā̤uⁿ; giú guâ cṳ̂ é̤ng nó-cái gô̤ng seo̍h gu̍ uā keoh dṳ̂ tiaⁿ, chiâⁿ n̄g-tang siū-ki̍.
 19 Sá̤ⁿ-di̍h guâ cṳ̂ ka̍ng nó-cái gô̤ng, Dṳ̂ ū ló̤-bō̤ gah hiaⁿ-dī lō?
-20 Nó-cái i̍ng cṳ̂ gô̤ng, Ū ló̤-bō̤, i néng lô̤ sí-cā̤ saⁿ seo̍h gá̤ hôi-giô̤ⁿ; i dó̤ng-bâ̤u-hiaⁿ î-ging sî kṳ̍, nō̤ sīng i seo̍h gá̤; ló̤-bō̤ da̍i sā̤u i. Cṳ̂ heong-nu̍ nó-cái gô̤ng, Dṳ̂ da̤u̍h dua̍ i lí, keoh guâ ching-ngâng kua̍ⁿ-gi̍ng.
-21 
+20 Nó-cái i̍ng cṳ̂ gô̤ng, Ū ló̤-bō̤, i néng lô̤ sí-cā̤ saⁿ seo̍h gá̤ hôi-giô̤ⁿ; i dó̤ng-bâ̤u-hiaⁿ î-ging sî kṳ̍, nō̤ sīng i seo̍h gá̤; ló̤-bō̤ da̍i sā̤u i.
+21 Cṳ̂ heong-nu̍ nó-cái gô̤ng, Dṳ̂ da̤u̍h dua̍ i lí, keoh guâ ching-ngâng kua̍ⁿ-gi̍ng.
 22 Nó-cái gah cṳ̂ gô̤ng, Ca̤̍ da̍i-giô̤ⁿ beó-dang-dng i ló̤-bō̤ i nō̤ i ló̤-bō̤, ló̤-bō̤ cuh ē sî,
 23 Cṳ̂ gah nó-cái gô̤ng, Seh-seô beó dua̍ dṳ̂ boi ē nâi-dā̤ cá̤ lí, dṳ̂-go̤h-náng bā̤ ca̍i ging guâ ē mi̍ng.
 24 Nó-cái seo̍h dôiⁿ kṳ̍, gi̍ng guâ cṳ̂ ē nó-cái, cuh sī guâ ē ló̤-bī guâ-cuh ta̤̍h cṳ̂-sê̤ gô̤ng ē uā, seo̍h gah i gô̤ng.
@@ -1510,8 +1510,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 12 Io̤h-seh chi̍ ló̤-bō̤ gah hiaⁿ-dī, léng ló̤-bō̤ ē ge̤̍ng-se̤̍h, bíng i go̤h-gá̤ sê̤ ē̤ng ge̤ng-gih ná̤u-châu.
 13 Gi-hng cīng lī-hāi, seo̍-ho̤ng deo beó ná̤u-châu; Ai-gi̍h gah Gia-náng dā̤-ho̤ng, ing gi-hng cīng keh-kui.
 14 Ai-gi̍h náng gah Gia-náng náng ē̤ng ngṳ́ng lí dia̍h cho̤h: Io̤h-seh siu Ai-gi̍h gah Gia-náng dā̤ hiô̤-sā̤ ngṳ́ng, kn̍g Hah-lô̤ ko̍ lē.
-15 Ai-gi̍h gah Gia-náng dā̤ ē ngṳ́ng sâi lâ̤u, Ai-gi̍h náng deo kṳ̍ gi̍ng Io̤h-seh, gô̤ng, Guâ ē
-16 I:Io̤ng guâ ing-ūi dṳ̂ táu-saⁿ cuh ta̤̍h ná̤u-châu keoh dṳ̂.
+15 Ai-gi̍h gah Gia-náng dā̤ ē ngṳ́ng sâi lâ̤u,
+16 Ai-gi̍h náng deo kṳ̍ gi̍ng Io̤h-seh, gô̤ng, Guâ ē I:Io̤ng guâ ing-ūi dṳ̂ táu-saⁿ cuh ta̤̍h ná̤u-châu keoh dṳ̂.
 17 Bā-sa̍ⁿ cuh keng táu-saⁿ ga̍u Io̤h-seh hiô̤; Io̤h-seh cuh ta̤̍h ná̤u-châu gah i iō̤ⁿ bô̤, gú, á̤uⁿ, lṳ́: cî seo̍h níng ing-ūi i ló̤ng-cô̤ng ē táu-saⁿ, cuh ta̤̍h ná̤u-châu chi̍ i.
 18 Cî seo̍h níng geo̍ lâ̤u, má-níng ce̤̍ng-náng buh lí, gi̍ng Io̤h-seh gô̤ng, Guâ-go̤h-náng leo̍h dṳ̂ mi̍ng-sá̤ⁿ n̄g-gô̤ⁿ cia-muá, guâ ē ngṳ́ng deo sâi lâ̤u; hiô̤ sā̤ ē táu-saⁿ iā gui keoh guâ cṳ̂; da sê̤ sīng leo̍h guâ cṳ̂ mi̍ng-sá̤ⁿ ē, nō̤ go̤h-náng ē beông-sing gah chéng cuh sī.
 19 Guâ cṳ̂ deoh-leo ā̤-siâ-dih kua̍ⁿ guâ-go̤h-náng sî, chéng ho̤ng-ha̤̍ kṳ̍ lē? Giú dṳ̂ ta̤̍h ná̤u-châu iō̤ⁿ go̤h-náng beông-sing, léng guâ chéng-dā̤; guâ-go̤h-náng ngōi ceo̍ Hah-lô̤ ē nó-cái, iā ngōi guâ ē chéng-dā̤ gui keoh Hah-lô̤: nō̤ giú dṳ̂ ta̤̍h cho̤h-cê̤ng keoh guâ, sâi guâ deh ua̍h, bā̤ ga̍u sî-mó̤ng, chéng iā bā̤ ga̍u ho̤ng-ha̤̍ kṳ̍.
@@ -2461,8 +2461,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 6 Meóng-seng tiaⁿ-mói ca̤̍ uā, mi̍ng cuh pah leo̍h dā̤-lō̤, cīng giaⁿ.
 7 Á̤-So giáⁿ sá̤ⁿ mo i, gô̤ng, Bā-kî, n̄g-sâi giaⁿ.
 8 Meóng-seng gio̤̍h-kî-táu kua̍ⁿ, beó kua̍ⁿ-gi̍ng seo̍h gá̤ náng, nō̤ Á̤-So deó hiô̤.
-9 Leo̍h suaⁿ sí-cā̤, Á̤-So heong-nu̍ i gô̤ng, Cíng-Ceô ho̤h-bōi iú sî hói-seng, n̄g-tang cio̤ng ca̤̍ sê̤ kua̍ⁿ-gi̍ng ē seō gah náng gô̤ng. meóng-seng a̍ a̍ng Á̤-So gô̤ng, Ta̍h-cṳ-náng seh-na gô̤ng, Î-lī-a̍ ing-do̤ng ceo̍-sa̤ⁿ lí lē?
-10 Meóng-seng ka̍ng Á̤-So gô̤ng, Ta̍h-cṳ-náng seh-na gô̤ng, Î-lī--ing-do̤ng ceo̍-sa̤ⁿ lí lē?
+9 Leo̍h suaⁿ sí-cā̤, Á̤-So heong-nu̍ i gô̤ng, Cíng-Ceô ho̤h-bōi iú sî hói-seng, n̄g-tang cio̤ng ca̤̍ sê̤ kua̍ⁿ-gi̍ng ē seō gah náng gô̤ng.
+10 meóng-seng a̍ a̍ng Á̤-So gô̤ng, Ta̍h-cṳ-náng seh-na gô̤ng, Î-lī-a̍ ing-do̤ng ceo̍-sa̤ⁿ lí lē?
 11 Á̤-So i̍ng gô̤ng, Î-lī-a̍ ih-dēng ceo̍-sa̤ⁿ lí, cing-deo̍ng ló̤ng-cô̤ng ē seō.
 12 Nō̤ Guâ gah dṳ̂ gô̤ng, Î-lī-a̍ î-ging ga̍u lâ̤u, nō̤ náng n̄g-beh, buh súi-i̍ ka̍ng-dāi i. Cíng-Ceô iā beoh ah-na siū i cáng-hāi.
 13 Meóng-seng cia̍ⁿ hōi-i̍ Á̤-So sê̤ gô̤ng ē, sī cî Si-sâ̤-lâ̤ Io̤h-hāng.
@@ -2471,8 +2471,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 16 Guâ chio̤̍ i ga̍u Dṳ̂ meóng-seng hiô̤, i beó-dang-dng do̤h-lia̍h i heô.
 17 Á̤-So i̍ng gô̤ng, Hāi N̄g se̍ng bōi-gi̍h ē sa̤̍-dāi, Guâ da̤u̍h gah dṳ̂ seo̍h-dui dā̤u-ā gû lē? Guâ da̤u̍h neông-nāi dṳ̂ ga̍u dā̤u-ā sí lē? Kṳ̍ chio̤̍ dṳ̂ giô̤ⁿ ga̍u Guâ cî-ciâ.
 18 Á̤-So ceh-bī ca̤̍ gûi, gûi cuh chōi kṳ̍; cé̤ng ciâ sí-cā̤, ca̤̍ da̍i-giô̤ⁿ cuh heô.
-19 Á̤-So duaⁿ-gá̤ deó hiô̤, meóng-seng lí ka̍ng I, gô̤ng, Guâ-go̤h-náng seh-na beó-dang-dng de̤̍h ca̤̍ gûi lē? o Á̤-So i̍ng i gô̤ng, Ing dṳ̂ beó se̍ng. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ nō̤ ū se̍ng, chā̤uⁿ seo̍h heo̍h ga̤̍-nó̤ cha̍i-cî, cuh mīng ca̤̍ suaⁿ i kṳ̍ hṳ̂-hiô̤; iā dih-dih i kṳ̍; bi̍ng-chiâⁿ beó seo̍h hāng seō dṳ̂ bā̤ ceo̍.
-20 Î Á̤-So i̍ng i gô̤ng, Ing dṳ̂ beó se̍ng. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ nō̤ se̍ng, chā̤uⁿ seo̍h heo̍h ga̤̍-nó̤ ha̍i-cî, cuh mīng ca̤̍ suaⁿ i kṳ̍ -hiô̤; iā dih-dih i kṳ̍; bi̍ng-chiâⁿ eó seo̍h hāng seō dṳ̂ bā̤ ceo̍.
+19 Á̤-So duaⁿ-gá̤ deó hiô̤, meóng-seng lí ka̍ng I, gô̤ng, Guâ-go̤h-náng seh-na beó-dang-dng de̤̍h ca̤̍ gûi lē?
+20 o Á̤-So i̍ng i gô̤ng, Ing dṳ̂ beó se̍ng. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ nō̤ ū se̍ng, chā̤uⁿ seo̍h heo̍h ga̤̍-nó̤ cha̍i-cî, cuh mīng ca̤̍ suaⁿ i kṳ̍ hṳ̂-hiô̤; iā dih-dih i kṳ̍; bi̍ng-chiâⁿ beó seo̍h hāng seō dṳ̂ bā̤ ceo̍.
 21 Nō̤ ga̍u ca̤̍ seo̍h lūi, n̄g-sī ciā gí-dô̤ gi̍ng-sia̍h, cuh bā̤ de̤̍h dih kṳ̍,
 22 Á̤-So gah meóng-seng gṳ-cṳ̄ Gá-lī-lī sí-cā̤, Á̤-So gah meóng-seng gô̤ng, Cíng-Ceô beoh siū gá̤ leo̍h náng ē chiû lē;
 23 keoh i tái sî, dā̤ so̤ⁿ di̍h buh hói-seng bā-kî. Meóng-seng cuh duā kô.
@@ -2482,8 +2482,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 27 Nō̤ giaⁿ sâi i n̄g huaⁿ-hî guâ-go̤h-náng,-dṳ̂ da̤u̍h kṳ̍ hâi-bing, ba̍ng da̤̍u-gau, ta̤̍h ca̤̍ sa̤ⁿ da̤̍u sā̤uⁿ ē hṳ́; kui i chu̍i, cuh deh seo̍h seo-ta-dâ̤-cî, io̤h-lio̤̍h ha̍h Iú-ta̍i ngṳ́ng si ci̍ng ta̤̍h lí da̍h keoh i, ceo̍ Guâ gah dṳ̂ ē so̍i-ngṳ́ng.
 ## 18
 1 Dng hṳ̂ seo̍h sí, meóng-seng lí ka̍ng Á̤-So gô̤ng, Deó teng-go̤h, hn̍g-náng sī dā̤ ih duā?
-2 Á̤-So ga̤̍u seo̍h gá̤ da̍i-giô̤ⁿ, kiō̤ deó do̤-ng, cuh gô̤ng, Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ cio̤̍h-seô beó gê̤-bi̍ng, beó siáⁿ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ, cuh beó-dang-dng di̍h kṳ̍ teng-go̤h.
-3 Go̍-cheô háng ga̍i kiang- hṳ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ ē náng, i deó teng-go̤h cuh sī dā̤ ih duā.
+2 Á̤-So ga̤̍u seo̍h gá̤ da̍i-giô̤ⁿ, kiō̤ deó do̤-ng,
+3 cuh gô̤ng, Guâ si̍h-cāi gah dṳ̂ gô̤ng, Dṳ̂ cio̤̍h-seô beó gê̤-bi̍ng, beó siáⁿ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ, cuh beó-dang-dng di̍h kṳ̍ teng-go̤h. Go̍-cheô háng ga̍i kiang- hṳ chā̤uⁿ ca̤̍ da̍i-giô̤ⁿ ē náng, i deó teng-go̤h cuh sī dā̤ ih duā.
 4 ciah-dāi Guâ.
 5 Háng náng ing Guâ miá-cī, ciah-dāi ca̤̍ da̍i-giô̤ⁿ seo̍h gá̤, cuh sī ciah-dāi Guâ.
 6 Háng hāi ca̤̍ se̍ng Guâ ē da̍i-giô̤ⁿ seo̍h gá̤ la̍u leo̍h cōi, néng-kô̤ ta̤̍h duā beō-deông gua̍ ca̤̍ náng dāu-lṳ, tia̍ng leo̍h ching-hâi lē.
@@ -2651,8 +2651,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 19 Ta̤̍h sê̤ da̍h ē so̍i-cíng keoh Guâ kua̍ⁿ. I cuh ta̤̍h seo̍h gô̤ ngṳ́ng-cíng keoh I kua̍ⁿ.
 20 Á̤-So gah gô̤ng. Ca̤̍ ā̤uⁿ gah heō sī hn̍g-náng ē lē?
 21 I i̍ng gô̤ng, Sī Gai-sah ē. Á̤-So gô̤ng, Ah-na, se̤̍h Gai-sah ē, gai-dng gui keoh Gai-sah; se̤̍h Siō̤ng-Da̤̍ ē, gai-dng gui keoh Siō̤ng-Da̤̍.
-22 Ce̤̍ng-náng tiaⁿ-mói ca̤̍ uā. cīng gí-ī, cuh lī Á̤-So giáⁿ kṳ̍, Sah-tô-gai náng so̍-sió̤ng gô̤ng ca̤̍ beó hói-seng ē lî: dng hṳ̂ seo̍h di̍h do̤-ng, ū gûi gá̤ náng gi̍ng Á̤-So, ka̍ng I gô̤ng,
-23 
+22 Ce̤̍ng-náng tiaⁿ-mói ca̤̍ uā. cīng gí-ī, cuh lī Á̤-So giáⁿ kṳ̍, Sah-tô-gai náng so̍-sió̤ng
+23 gô̤ng ca̤̍ beó hói-seng ē lî: dng hṳ̂ seo̍h di̍h do̤-ng, ū gûi gá̤ náng gi̍ng Á̤-So, ka̍ng I gô̤ng,
 24 Seng-saⁿ. Mó̤-sa̤ gô̤ng, Náng sî kṳ̍ beó giô̤ⁿ, i ē nâi-dā̤ da̤u̍h teô ca̤̍ sîng-ná̤u, dóiⁿ hā̤u-seō sio̤̍ i-hiaⁿ.
 25 Guâ-go̤h-náng do̤-ng ū hiaⁿ-dī chih gá̤; duā ē teô bô, beó giô̤ⁿ, cuh sî kṳ̍, láu sîng-ná̤u keoh nâi-dā̤.
 26 Dā̤-dī, dā̤-so̤ⁿ, ga̍u dā̤-chih deo sī ah-na.
@@ -2879,8 +2879,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 61 Ca̤̍ náng ū gô̤ng, Guâ ā̤ hûi Siō̤ng-Da̤̍ ē dēng, so̤ⁿ-di̍h buh kî dôiⁿ.
 62 Duā-ca̤̍-si kiō̤ kî, ka̍ng Á̤-So gô̤ng, Ca̤̍ náng geo̍ Dṳ̂, Dṳ̂ deo beó mo̍ih i̍ng lō̤?
 63 Á̤-So deo beó ceo̍-siaⁿ. Duā-ca̤̍-si buh gah I gô̤ng, Guâ sâi Dṳ̂ gî ṳ̂ng-seng Siō̤ng-Da̤̍ ciu̍-liō̤ gah guâ gô̤ng, Dṳ̂ gô̤-céng sī Siō̤ng-Da̤̍-Ceô Gi-Do̤h n̄g-sī.
-64 Á̤-So i̍ng i gô̤ng, Dṳ̂ gô̤ng lâ̤u cuh sī; nō̤ Guâ buh gah dṳ̂ gô̤ng, Hā̤u-lái dṳ̂ beoh kua̍ⁿ-gi̍ng Cíng-Ceô sē̤ deó cé̤ng-néng Siō̤ng-Da̤̍ iū-bá̤ⁿ, kió̤ ting-dêng céng ga̍ng-líng leo̍h lí. Duā-ca̤̍-sī cuh tiā pua̍ ga̍i ē i-ná̤u, gô̤ng, Ca̤̍ náng ū seh-do̤̍h; deoh-mâi sâi beh-mo̍ih ci̍ng-ge̍ng? Da dṳ̂ î-ging tiaⁿ-mói I ū seh-do̤̍h lâ̤u.
-65 Dṳ̂ i̍-seo̍ deoh seh-na? Go̤h-náng i̍ng gô̤ng, Gai-dng diāⁿ i sî-cōi.
+64 Á̤-So i̍ng i gô̤ng, Dṳ̂ gô̤ng lâ̤u cuh sī; nō̤ Guâ buh gah dṳ̂ gô̤ng, Hā̤u-lái dṳ̂ beoh kua̍ⁿ-gi̍ng Cíng-Ceô sē̤ deó cé̤ng-néng Siō̤ng-Da̤̍ iū-bá̤ⁿ, kió̤ ting-dêng céng ga̍ng-líng leo̍h lí.
+65 Duā-ca̤̍-sī cuh tiā pua̍ ga̍i ē i-ná̤u, gô̤ng, Ca̤̍ náng ū seh-do̤̍h; deoh-mâi sâi beh-mo̍ih ci̍ng-ge̍ng? Da dṳ̂ î-ging tiaⁿ-mói I ū seh-do̤̍h lâ̤u.
 66 Dṳ̂ i̍-seo̍ deoh seh-na? Go̤h-náng i̍ng gô̤ng, Gai-dng diāⁿ i sî-cōi.
 67 Ce̤̍ng-náng buh cu̍i muâ I mi̍ng lē, buh ē̤ng geóng-táu pā I: iā ū náng ē̤ng chiû-ō̤-dâ̤ guah I ē chu̍i-pâ̤,
 68 gô̤ng, Gi-Do̤h ā, Dṳ̂ gi̍-céng sī seng-di, chi̍ gô̤ng pā Dṳ̂ ē sī hn̍g-náng lē?
@@ -2964,8 +2964,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 3 I é̤ng-bāu chā̤uⁿ lō̤-liā-sī; i-ná̤u ba̍h gah sē̤ seo̍h ā̤uⁿ.
 4 Bô̤-siû ē bing ing ah-na giaⁿ dā̤u-dā̤u-ce̍ng, be̍ng chā̤uⁿ sî-náng seo̍h-ā̤uⁿ.
 5 Teng-seo̍ gah sîng-ná̤u-náng gô̤ng, Dṳ̂ n̄g-sâi giaⁿ; guâ cai dṳ̂ lí cho̍i de̍ng si̍h-cī-ga̍ ē Á̤-So:
-6 I beó deó cî-ciâ; î-ging hói-seng lâ̤u, cuh sī bíng I sê̤ gô̤ng ē uā. Dṳ̂ lí kua̍ⁿ Cṳ̂ bái-co̤̍ng ē ūi-chṳ̍.7 Da̤u̍h guâⁿ-gîng kṳ̍, gah I meóng-
-7 seng gô̤ng, I î-ging iú sî hói-seng; ho̤h ceo̍-sa̤ⁿ dṳ̂-go̤h-náng kṳ̍ Ga-lī-lī; deó hṳ̂-hiô̤ dih-dih ā̤ gi̍ng da̤u̍h I; guâ da gah dṳ̂ gô̤ng lâ̤u.
+6 I beó deó cî-ciâ; î-ging hói-seng lâ̤u,
+7 cuh sī bíng I sê̤ gô̤ng ē uā. Dṳ̂ lí kua̍ⁿ Cṳ̂ bái-co̤̍ng ē ūi-chṳ̍.7 Da̤u̍h guâⁿ-gîng kṳ̍, gah I meóng- seng gô̤ng, I î-ging iú sî hói-seng; ho̤h ceo̍-sa̤ⁿ dṳ̂-go̤h-náng kṳ̍ Ga-lī-lī; deó hṳ̂-hiô̤ dih-dih ā̤ gi̍ng da̤u̍h I; guâ da gah dṳ̂ gô̤ng lâ̤u.
 8 Ca̤̍ sîng-ná̤u-náng guâⁿ-gîng lī mo̍, buh giaⁿ buh duā huaⁿ-hî, câu kṳ̍ gah meóng-seng gô̤ng.
 9 kṳ̍ gô̤ng sí-cā̤, Á̤-So gṳ̄-da̤u̍h i, cuh gô̤ng, Ngōi dṳ̂ bíng-ang. Sîng-ná̤u-náng hio̤̍ng-céng peō I ē ko̤, ba̍i I.
 10 Á̤-So cuh gô̤ng, N̄g-sâi giaⁿ; kṳ̍ gah Guâ hiaⁿ-dī gô̤ng, Tang kṳ̍ Gá-lī-lī, deó hṳ̂-hiô̤ dih-dih ā̤ kua̍ⁿ-gi̍ng Guâ.
@@ -3024,8 +3024,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 40 Ū ā bō̤-bang ē náng ciū I, gūi giú gô̤ng, Dṳ̂ nō̤ kêng, cuh ā̤ sâi guâ ching geh.
 41 Á̤-So kô̤-léng i, cheong-chiû mo i, gô̤ng, Guâ kêng; dṳ̂ ā̤ ching-geh.
 42 Gô̤ng lâ̤u: ca̤̍ bō̤-bang cuh dṳ́ kṳ̍, ca̤̍ náng cuh ching-geh.
-43 Á̤-So cuh sâi i kṳ̍, peh-cheh gîng-ga̍i i, gô̤ng, Da̤u̍h sa̤̍-cī, n̄g-tang gah náng gô̤ng; nō̤ kṳ̍ gi̍ng ca̤̍-si, sâi i ngiāng dṳ̂ ē sing-tâ̤; ho̤̍h da̤u̍h ing dṳ̂ deh ching-geh, he̤̍ng Mó̤-sa̤ sê̤ mīng ē lâ̤-beo̍h, ceo̍ bíng-gṳ̍ leo̍h ce̤̍ng-náng hiô̤.
-44 
+43 Á̤-So cuh sâi i kṳ̍, peh-cheh gîng-ga̍i i, gô̤ng,
+44 Da̤u̍h sa̤̍-cī, n̄g-tang gah náng gô̤ng; nō̤ kṳ̍ gi̍ng ca̤̍-si, sâi i ngiāng dṳ̂ ē sing-tâ̤; ho̤̍h da̤u̍h ing dṳ̂ deh ching-geh, he̤̍ng Mó̤-sa̤ sê̤ mīng ē lâ̤-beo̍h, ceo̍ bíng-gṳ̍ leo̍h ce̤̍ng-náng hiô̤.
 45 Nō̤ ca̤̍ náng cheoh kṳ̍, ē̤ng cīng sā̤ uā ió̤ng-dé̤ng ca̤̍ seō; go̍-cheô Á̤-So beó dang-dng hêng-hēng di̍h siáⁿ, nō̤ do̍ ko̤̍ng-iâ guā-li̍; seo̍-chṳ̍ ē náng deo ga̍u I hiô̤.
 ## 2
 1 Geo̍ gûi-di̍h, Á̤-So buh di̍h Gia-beh-nó̤ng, náng náng tiaⁿ-mói I deó cho̍-lî.
@@ -3073,8 +3073,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 14 Cuh li̍h se̍h-dī náng, sâi i gah beông-sing seo̍h-dui, buh ā̤ pa̍i i kṳ̍ dé̤ng-dō̤;
 15 iā seo̍ i do̤h-lia̍h bāⁿ de̤̍h gûi ē gé̤ng-ba̍ⁿ.
 16 Ca̤̍ se̍h-dī náng: cuh sī Sa̤-meóng, Á̤-So buh ching i ga̤̍u Bî-deh;
-17 Sa̤-bî-ta̍i ē giô̤ⁿ Ngâ-go̤h, gah Ngâ-go̤h ē nâi-dā̤ Io̤h-hāng; cî nn̄g gá̤ náng, buh ching i miá ga̤̍u Bua̍ng-ní-gi, huang-i̍h cuh sī lúi-go̤ng ē giô̤ⁿ; buh ū Ang-deh-le̍h, Hi-li̍h, Ba-do̤-ló̤-mâi, Mâ-ta̍i, Do̤-mâ, A̍-leh-hi ē giô̤ⁿ Ngâ-go̤h, gah Da̍h-ta̍i, ching Gōi ē Sa̤-meóng,
-18 gah Ga-lio̤̍h náng Iú-dāi, cuh sī bā̤ Á̤-So ē.
+17 Sa̤-bî-ta̍i ē giô̤ⁿ Ngâ-go̤h, gah Ngâ-go̤h ē nâi-dā̤ Io̤h-hāng; cî nn̄g gá̤ náng, buh ching i miá ga̤̍u Bua̍ng-ní-gi, huang-i̍h cuh sī lúi-go̤ng ē giô̤ⁿ;
+18 buh ū Ang-deh-le̍h, Hi-li̍h, Ba-do̤-ló̤-mâi, Mâ-ta̍i, Do̤-mâ, A̍-leh-hi ē giô̤ⁿ Ngâ-go̤h, gah Da̍h-ta̍i, ching Gōi ē Sa̤-meóng,
 19 gah Ga-lio̤̍h náng Iú-dāi, cuh sī bā̤ Á̤-So ē.
 20 Á̤-So gah meóng-seng di̍h cho̍; ū cīng sā̤ náng buh cṳ̄-ci̍h, î-di̍ beó-dang-dng kṳ̍ sia̍h.
 21 Á̤-So ē ching-iû tiaⁿ-mói, cuh chōi, a̍i-dí keng cê̤-cî I, gô̤ng, I sing luāng kṳ̍.
@@ -3239,8 +3239,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 1 Ū ā Hah-lī-se̤̍ náng gah gûi gá̤ ta̍h-cṳ-náng, cé̤ng Á̤-lō-sah-lêng lí, cṳ̄-ci̍h Á̤-So hiô̤.
 2 Kua̍ⁿ-gi̍ng I meóng-seng gûi gá̤, chiû bōi ching-geh, cuh sī bōi sâ̤-chiû meô kṳ̍ sia̍h; go̍-cheô ceh-bī i.
 3 Hah-lī-se̤̍ náng léng Iú-ta̍i ce̤̍ng-náng, bíng gô-cô̤ náng í-dé̤ng ē se̤̍h-lā̤, nō̤ bōi sa̤̍-cī sâ̤-chiû cuh n̄g sia̍h.
-4 Cé̤ng ga̤-dō hói-táu, nō̤ bōi sâ̤ iā n̄g sia̍h; ho̤h ū cīng-sā̤ dá̤u se̤̍h-lā̤, go̤h-náng síng-siū ceong-siû, cuh sī boi, cio̤h, dáng-ki̍ léng míng-chńg deo da̤u̍h sâ̤ ē Hah-lī-se̤̍ náng gah ta̍h-cṳ-náng ka̍ng Á̤-So gô̤ng, Seh-na Dṳ̂ meóng-seng n̄g bíng gô-cô̤ náng í-dé̤ng ē se̤̍h-lā̤, chiû bōi ching-geh meô kṳ̍ sia̍h lē?
-5 
+4 Cé̤ng ga̤-dō hói-táu, nō̤ bōi sâ̤ iā n̄g sia̍h; ho̤h ū cīng-sā̤ dá̤u se̤̍h-lā̤, go̤h-náng síng-siū ceong-siû, cuh sī boi, cio̤h, dáng-ki̍ léng míng-chńg deo da̤u̍h sâ̤ ē
+5 Hah-lī-se̤̍ náng gah ta̍h-cṳ-náng ka̍ng Á̤-So gô̤ng, Seh-na Dṳ̂ meóng-seng n̄g bíng gô-cô̤ náng í-dé̤ng ē se̤̍h-lā̤, chiû bōi ching-geh meô kṳ̍ sia̍h lē?
 6 Á̤-So i̍ng gô̤ng, Î-se̤̍-a̍ ceo̍-sa̤ⁿ cî-sī dṳ̂ gô̤-heô ē náng, sê̤ gô̤ng ē cīng si̍h; I gô̤ng, Ca̤̍ bā-sa̍ⁿ chu̍i ceong-gi̍ng Guâ, nō̤ i sing ê̤ng-lī Guâ.
 7 I sê̤ go̤̍ ē, nō̤ sī náng sê̤ mīng ē seō, go̍-cheô i kang-kang ba̍i Guâ.
 8 Dṳ̂-go̤h-náng n̄g dí Siō̤ng-Da̤̍ ē ga̍i, siû náng í-dé̤ng ē se̤̍h-lā̤, sâ̤ ca̤̍ boi cio̤h; dṳ̂ sê̤ ceo̍ ē do̤-do̤ ah-na.
@@ -3294,13 +3294,13 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 18 Dṳ̂ ū ma̍h-ciu beó kua̍ⁿ-gi̍ng? ū hī-kang beó tiaⁿ-mói sing lē iā beoh-gi̍ lē lō̤?
 19 Guâ bā ngō gá̤ biâⁿ beong ngō cha̤ⁿ náng, dṳ̂ kah biâⁿ-chu̍i dâ̤u gûi luá lē? meóng-seng i̍ng gô̤ng, Se̍h-dī luá.
 20 Buh chih gá̤ biâⁿ beong si̍ cha̤ⁿ náng, dṳ̂ kah biâⁿ-chu̍i dâ̤u gûi nó̤ lē? Meóng-seng i̍ng gô̤ng, Chih nó̤.
-21 Á̤-So cuh gah i gô̤ng, Dṳ̂ ho̤h bā̤ hōi-gō lō̤? Á̤-So ga meóng-seng ga̍u Beh-se̤̍-dāi, ū náng chio̤̍ seo̍h gá̤ chaⁿ-má ē náng lí, giú Á̤-So mo i.
-22 Á̤-So gah meóng-seng ga̍u Beh-se̤̍-dāi, ū náng chio̤̍ seo̍h gá̤ chaⁿ-má ē náng lí, giú Á̤-So mo i.
+21 Á̤-So cuh gah i gô̤ng, Dṳ̂ ho̤h bā̤ hōi-gō lō̤? Á̤-So ga meóng-seng ga̍u Beh-se̤̍-dāi,
+22 ū náng chio̤̍ seo̍h gá̤ chaⁿ-má ē náng lí, giú Á̤-So mo i.
 23 Á̤-So keng chaⁿ-má náng ē chiû, chio̤̍ i cheoh ha̤uⁿ; nuâ tu̍i i ma̍h-ciu lē, chiû eh hiô̤, cuh ka̍ng i ū kua̍ⁿ-gi̍ng seo̍h-moi.
 24 Chaⁿ-má ē náng cuh gio̤̍h-kî-táu gô̤ng, Guâ kua̍ⁿ-gi̍ng náng; ing guâ kua̍ⁿ i hiô̤ giáⁿ chā̤uⁿ chiu̍ seo̍h-ā̤uⁿ.
 25 Á̤-So buh chiû eh i ma̍h-ciu, sâi i ca̍i gio̤̍h-gá̤ⁿ kua̍ⁿ, cuh heô kṳ̍, ā̤ kua̍ⁿ-gi̍ng ló̤ng-cô̤ng ē mo̍ih-nō̤.
-26 Á̤-So sâi i kṳ̍ cho̍, gô̤ng, N̄g-tang di̍h ha̤uⁿ, iā n̄g-tang gah ha̤uⁿ-lî náng gô̤ng. Á̤-So ga̍u meóng-seng Gai-sah-lī-a̍ Hi-li̍h-bî ē ha̤uⁿ-che̤ng, dō-táu ka̍ng meóng-seng gô̤ng, Náng gô̤ng Guâ sī seo̍h-moi náng lē?
-27 Á̤-So gah meóng-seng Gai-sah-lī-a̍ Hi-li̍h-bî ē ha̤uⁿ-che̤ng, dō-táu ka̍ng meóng-seng gô̤ng, Náng gô̤ng Guâ sī seo̍h-moi náng lē?
+26 Á̤-So sâi i kṳ̍ cho̍, gô̤ng, N̄g-tang di̍h ha̤uⁿ, iā n̄g-tang gah ha̤uⁿ-lî náng gô̤ng.
+27 Á̤-So ga̍u meóng-seng Gai-sah-lī-a̍ Hi-li̍h-bî ē ha̤uⁿ-che̤ng, dō-táu ka̍ng meóng-seng gô̤ng, Náng gô̤ng Guâ sī seo̍h-moi náng lē?
 28 Meóng-seng i̍ng gô̤ng, Si-sâ̤ lâ̤ Io̤h-hāng; iā ū gô̤ng, Î-lī-a̍; iā ū gô̤ng, Sī seo̍h gá̤ seng-di.
 29 Á̤-So cuh ka̍ng gô̤ng, Nō̤ dṳ̂ gô̤ng Guâ sī hn̍g-náng lē? Bî-deh i̍ng gô̤ng, Dṳ̂ sī Gi-Do̤h.
 30 Á̤-So cuh gîng-ga̍i meóng-seng, n̄g-tang gah náng gô̤ng.
@@ -3406,8 +3406,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 40 nō̤ sē̤ Guâ cô̤-iū-bá̤ⁿ, n̄g-sī Guâ ū-dang-dng seo̍ keoh i; nō̤ sī ta̤̍ hn̍g-náng ṳ̄-bī ca̤̍ ūi-chṳ̍, cuh seo̍ keoh i,
 41 Se̍h gá̤ meóng-seng tiaⁿ-mói, cuh n̄g huaⁿ-hî Ngâ-go̤h, Io̤h-hāng.
 42 Á̤-So ga̤̍u i lí, gah i gô̤ng, Dṳ̂ deo cai lâ̤u, ī-bang náng ū hó̤ng-da̤̍ guâng-dī i; ū duā guaⁿ-hû cho̤-gé̤ng guâng-lî i.
-43 Nō̤ dṳ̂-go̤h-náng n̄g-tang bíng ca̤̍ ā̤uⁿ; dṳ̂ de̤ng-gang hn̍g-náng a̍i ceo̍ duā, da̤u̍h seo̍-dṳ̂ ē-chng-sâi; hn̍g-náng a̍i ceo̍ táu, da̤u̍h ceo̍ ce̤̍ng-náng ē nó-cái.
-44 n̍g-náng a̍i ceo̍ táu, da̤u̍h ceo̍ e̤̍ng-náng ē nó-cái.
+43 Nō̤ dṳ̂-go̤h-náng n̄g-tang bíng ca̤̍ ā̤uⁿ; dṳ̂ de̤ng-gang hn̍g-náng a̍i ceo̍ duā, da̤u̍h seo̍-dṳ̂ ē-chng-sâi;
+44 hn̍g-náng a̍i ceo̍ táu, da̤u̍h ceo̍ ce̤̍ng-náng ē nó-cái.
 45 Ing Cíng-Ceô lí, n̄g-sī siū beh-náng hō̤ng-seō, sī hō̤ng-seō beh-náng, iā siâ kṳ̍ ga̍i-á̤ ē ua̍h-miā ta̤̍ ce̤̍ng-náng se̤̍h-cōi.
 46 Î-hā̤u go̤h-náng ga̍u Á̤-lī-go̤ siáⁿ; Á̤-So gah meóng-seng léng cīng sā̤ náng cheoh siáⁿ sí-cā̤, ū ā chaⁿ-má ē keoh-sia̍h, Dâ̤-mâi ē giô̤ⁿ, miá Ba-dâ̤-mâi sē̤ deó dō-bing.
 47 Tiaⁿ-mói sī Ná-sah-leh náng Á̤-So lí, cuh duā-siaⁿ huā gô̤ng, Dāi-bi̍h ē hā̤u-a̤̍ Á̤-So, kô̤-léng guâ ā!
@@ -3419,8 +3419,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 ## 11
 1 Á̤-So gah meóng-seng beoh gṳ̄ng Á̤-lō-sah-lêng, ga̍u hū-gṳ̄ng Gô̤ng-nô̤ suaⁿ ē Beh-hah-gi, Beh-dāi-ní; Á̤-so cha̤-kêng nn̄g gá̤ meóng-seng,
 2 gah i gô̤ng, Dṳ̂ kṳ̍ du̍i-mi̍ng ha̤uⁿ; seo̍h di̍h ca̤̍ ha̤uⁿ, ā̤ gṳ̄-da̤u̍h seo̍h táu lṳ́-giô̤ⁿ ga̤ hiô̤, cé̤ng-lái bōi ū náng kió̤ ē; dṳ̂ gâ̤ keng lí,
-3 Cio̤̍h-seô ū náng ka̍ng dṳ̂ gô̤ng, Seh-na gâ̤ lṳ́? dṳ̂ cuh da̤u̍h gô̤ng, Cṳ̂ beoh ē̤ng i; cuh kêng keoh dṳ̂ keng lí cî-ciâ. Meóng-seng cuh kṳ̍, gô̤-céng gṳ̄-da̤u̍h lṳ́-giô̤ⁿ ga̤ deó mói-guā ga̤-dō lē; cuh gâ̤ kî.
-4 
+3 Cio̤̍h-seô ū náng ka̍ng dṳ̂ gô̤ng, Seh-na gâ̤ lṳ́? dṳ̂ cuh da̤u̍h gô̤ng, Cṳ̂ beoh ē̤ng i; cuh kêng keoh dṳ̂ keng lí cî-ciâ.
+4 Meóng-seng cuh kṳ̍, gô̤-céng gṳ̄-da̤u̍h lṳ́-giô̤ⁿ ga̤ deó mói-guā ga̤-dō lē; cuh gâ̤ kî.
 5 Kiō̤ hṳ̂-hiô̤ ū gûi gá̤ náng gô̤ng, Dṳ̂ gâ̤ lṳ́ ceo̍ seo̍h-moi?
 6 Meóng-seng bíng Á̤-So heong-nu̍ ē uā i̍ng i; i cuh ṳ̂ng-síng.
 7 Meóng-seng cuh keng lṳ́-giô̤ⁿ ga̍u Á̤-So hiô̤, cio̤ng ga̍i ē i-ná̤u ba̍ng lṳ́ go̤-liā lē; Á̤-So cuh kió̤ kṳ̍.
@@ -3599,8 +3599,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 63 Duā-ca̤̍-si cuh tiā pua̍ ga̍i-á̤ i-ná̤u, gô̤ng, Deoh-nâi eng beh-náng ci̍ng-ge̍ng ē?
 64 Dṳ̂-go̤h-náng tiaⁿ-mói I seh-do̤̍h ē uā lâ̤u; dṳ̂ ū seo̍h-moi i̍-ge̍ng lē? Ce̤̍ng-náng deo gô̤ng, Da̤u̍h diāⁿ I sî-cōi.
 65 Ū seo̍h gá̤ náng tu̍i-muâ I, ing I ē mi̍ng, ē̤ng geóng-táu pā I, gô̤ng, Dṳ̂ ā̤ cai sī hn̍g-náng pā Dṳ̂? Ce̤̍ng cha̤-gio̤̍h iā ē̤ng chiû-ō̤-dâ̤ guah I.
-66 Bî-deh deó guā-li̍ īng lē, ū seo̍h gá̤ duā-ca̤̍-sī ē a-táu lī; kua̍ⁿ-gi̍ng Bî-deh hang hôi, cuh a̤̍ i, gô̤ng, Dṳ̂ iā sī gah Ná-sah-leh náng Á̤-So ceo̍ seo̍h-bang.
-67 
+66 Bî-deh deó guā-li̍ īng lē, ū seo̍h gá̤ duā-ca̤̍-sī ē a-táu lī;
+67 kua̍ⁿ-gi̍ng Bî-deh hang hôi, cuh a̤̍ i, gô̤ng, Dṳ̂ iā sī gah Ná-sah-leh náng Á̤-So ceo̍ seo̍h-bang.
 68 Bî-deh n̄g nīng, gô̤ng, Guâ n̄g-cai, iā n̄g-beh dṳ̂ gô̤ng seo̍h-moi. Cuh chōi kṳ̍; ga̍u īng mói-sá̤ⁿ, gá̤ cuh tí.
 69 A̍-táu buh kua̍ⁿ-gi̍ng Bî-deh, cuh gah kiō̤ bó̤ng-bing ē náng gô̤ng, I iā sī hṳ̂ seo̍h-bang ē náng,
 70 Bî-deh buh n̄g nīng. Geo̍ seo̍h keh gû, kiō̤ bó̤ng-bing ē náng buh gah Bî-deh gô̤ng, Dṳ̂ si̍h-lo̤̍h sī i seo̍h-bang, ing dṳ̂ sī Ga-lī-lī náng.
@@ -3795,8 +3795,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 34 Sa̤-me̍ng cuh ce̤h-ho̤h I ē ló̤-bō̤ ná̤u-lâ̤, gah I ná̤u-lâ̤ Mâ-lī-a̍ gô̤ng, Ca̤̍ da̍i-giô̤ⁿ beoh síng-li̍h, sâi Î-seh-le̍h de̤ng-gang ū cīng sā̤ náng hing-bāi; iā ceo̍ ī-cih, siū náng hûi-bo̤̍ng,
 35 sâi cīng sā̤ náng ē niāng-táu deo lo̍ chōi; dṳ̂ ē sing iā beoh keoh deo-gia̍ng ua geo̍.
 36 Buh ū A̍-seh ci-pa̍i, Hah-dōi-li̍h ē sîng-ná̤u-giô̤ⁿ A̍-ná; ca̤̍ náng sī dṳ̂ seng-di, i néng-gî cīng lāu, cé̤ng cheoh-ga̍ sí-cā̤, gah dah-bo ceo̍ dui chih síng da-bo̍i Seng Cî: tang gi̍ng-sia̍h gí-dô̤, di̍h-má hō̤ng-seō.
-37 I cî seo̍h sí hio̤̍ng-cé̤ng ā-ā̤uⁿ Siō̤ng-Da̤̍, buh gah Á̤-lō-sah-lêng sê̤ ū n̍g se̤̍h-cōi ē náng dáng-leōng
-38 ca̤̍ da̍i-giô̤ⁿ ē seō.
+37 I cî seo̍h sí hio̤̍ng-cé̤ng ā-ā̤uⁿ Siō̤ng-Da̤̍,
+38 buh gah Á̤-lō-sah-lêng sê̤ ū n̍g se̤̍h-cōi ē náng dáng-leōng ca̤̍ da̍i-giô̤ⁿ ē seō.
 39 Á̤-So ē ló̤-bō̤ ná̤u-lâ̤ bíng Cṳ̂ leo̍h-lā̤-deo ceo̍ lâ̤u, cuh hói-táu Ga-lī-lī, ga̍u I bôiⁿ-gā̤ⁿ Ná-sah-leh.
 40 Ca̤̍ da̍i-giô̤ⁿ ciāng-ciāng diô̤ng-duā, cing-li̍h gió̤ng-co̤̍ng, muâ-sing di̍-hā̤, Siō̤ng-Da̤̍ ē ṳng-hā̤ sí-sió̤ng si keoh I.
 41 I ló̤-bō̤ ná̤u-lâ̤ níng-níng kṳ̍ Á̤-lō-sah-lêng siû cṳ́-o̤̍h-ceh.
@@ -3817,8 +3817,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 3 cuh lí Io̤h-dāng eó seo̍-chṳ̍ dā̤-ho̤ng, dóiⁿ hôi-cōi gâi-go̤̍ ē sâ̤-lâ̤, sâi náng ē cōi ā̤ sia̍ kṳ̍;
 4 bēng-ngēng seng-di Î-se̤̍-a̍ cṳ lē sê̤ gi̍ ē uā, gô̤ng, Deó iâ-guā ū náng ē siaⁿ-ing ga̤̍u gô̤ng, Ṳ̄-bī Cṳ̂ ē dō, siu-cîng I ē dō-lāng báⁿ-di̍h.
 5 Go̤h suaⁿ-eo̍ deo teo̍ng dīng kṳ̍, dāi sâ̤u ē suaⁿ deo kui báⁿ; uang-ke̤h ē siu-cîng keoh di̍h, gúi-hiâng ē siu-cîng keoh báⁿ.
-6 Háng ū he̤h ki̍ ē náng deo ā̤ kua̍ⁿ-gi̍ng Siō̤ng-Da̤̍ ē cîng-giu̍. Ce̤̍ng-náng lí siū sâ̤-lâ̤, Io̤h-hāng gah i gô̤ng, Do̤̍h-sió̤ seo̍h-lūi ā, hn̍g-náng cî-diâng dṳ̂ piā hā̤u-lái ē dō-ki̍ lē?
-7 
+6 Háng ū he̤h ki̍ ē náng deo ā̤ kua̍ⁿ-gi̍ng Siō̤ng-Da̤̍ ē cîng-giu̍.
+7 Ce̤̍ng-náng lí siū sâ̤-lâ̤, Io̤h-hāng gah i gô̤ng, Do̤̍h-sió̤ seo̍h-lūi ā, hn̍g-náng cî-diâng dṳ̂ piā hā̤u-lái ē dō-ki̍ lē?
 8 Go̍-cheô dṳ̂ da̤u̍h geh heô ē go̍ih cî, bâ̤u-míng dṳ̂ ū hôi-cōi gâi-go̤̍; n̄g-tang ga̍i siô̤ng, gô̤ng, A̍-beh-la̍h-hâng sī guâ cô-co̤ng; ing guâ gah dṳ̂ gô̤ng, Siō̤ng-Da̤̍ ū-dang-dng sâi ca̤̍ sa̤u̍h be̍ng ceo̍ A̍-beh-la̍h-hâng ē giô̤ⁿ-seong.
 9 Da bô-táu ba̍ng deó chiu̍-gṳng lē; háng chiu̍ n̄g geh heô ē go̍ih-cî, cuh dâ̤ⁿ kṳ̍ hi̍ng hôi lē.
 10 Ce̤̍ng-náng ka̍ng i gô̤ng, Guâ da̤u̍h seh-na ceo̍?
@@ -4079,10 +4079,10 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 40 Á̤-So hói-táu ga̍u cho̍, ce̤̍ng-náng ngíng-cī I; ing deo sī kiō̤ hiô̤ dêng I.
 41 Ū seo̍h gá̤ guâng hōi-dńg ē náng, miá ga̤̍u Gá-lô̤ lí pah Á̤-So ko̤-bing, giú I kṳ̍ i cho̍-lī.
 42 Ing i nō̤ saⁿ seo̍h gá̤ sîng-ná̤u-giô̤ⁿ, io̤h-lio̤̍h se̍h-dī ho̍i, beoh sî kṳ̍. Á̤-So kṳ̍ sí-cā̤, ce̤̍ng-náng do̍i hiô̤ kā̤ I.
-43 ā̤ sîng-ná̤u-náng deh hā̤-suaⁿ-bang ē bāⁿ se̍h-dī níng, ing chiâⁿ i-seng, ga-gia̍h deo pua̍ lâ̤u kṳ̍, buh beó seo̍h gá̤ ā̤ do̤h-lia̍h i, cuh ga̍u Á̤-So bōi āu, mo I i-ná̤u-gṳ, hā̤-suaⁿ-bang cih-keh cuh cî kṳ̍.
-44 Á̤-So gô̤ng, Hn̍g-náng mo Guâ? Ce̤̍ng-náng n̄g nīng. Bî-deh léng ceo̍ seo̍h bang ē náng gô̤ng, Seng-saⁿ, ce̤̍ng-náng kā̤ ciô̤ gṳ̄ng, Dṳ̂ ka̍ng hn̍g-náng mo Guâ lō̤?
-45 Á̤-So gô̤ng, Ū náng mo Guâ, ing Guâ gi̍ng-gah ū cái-néng iú Guâ ciâ chōi.
-46 
+43 ā̤ sîng-ná̤u-náng deh hā̤-suaⁿ-bang ē bāⁿ se̍h-dī níng, ing chiâⁿ i-seng, ga-gia̍h deo pua̍ lâ̤u kṳ̍, buh beó seo̍h gá̤ ā̤ do̤h-lia̍h i,
+44 cuh ga̍u Á̤-So bōi āu, mo I i-ná̤u-gṳ, hā̤-suaⁿ-bang cih-keh cuh cî kṳ̍.
+45 Á̤-So gô̤ng, Hn̍g-náng mo Guâ? Ce̤̍ng-náng n̄g nīng. Bî-deh léng ceo̍ seo̍h bang ē náng gô̤ng, Seng-saⁿ, ce̤̍ng-náng kā̤ ciô̤ gṳ̄ng, Dṳ̂ ka̍ng hn̍g-náng mo Guâ lō̤?
+46 Á̤-So gô̤ng, Ū náng mo Guâ, ing Guâ gi̍ng-gah ū cái-néng iú Guâ ciâ chōi.
 47 Ca̤̍ sîng-ná̤u-náng cai beó-dang-dng cia-muá, giaⁿ dā̤u-dā̤u-ce̍ng, gūi Á̤-So ko̤-bing, dng ce̤̍ng-náng mi̍ng-sá̤ⁿ, cio̤ng ca̤̍ mo Á̤-So ē é̤ng-go̍, léng ca̤̍ bāⁿ seh-na cih-keh ā̤ heô, deo gô̤ng-míng.
 48 Á̤-So gah i gô̤ng, Sîng-ná̤u-giô̤ⁿ ā, ang-sing, dṳ̂ ē se̍ng ū do̤h-lia̍h dṳ̂ heô lâ̤u; dṳ̂ bíng-ang kṳ̍ cho̍.
 49 Á̤-So hiô̤ gô̤ng sí-cā̤, ū ā náng cé̤ng guâng hōi-dńg cho̍-lî lí gô̤ng, Dṳ̂ sîng-ná̤u-giô̤ⁿ sî kṳ̍ lâ̤u; n̄g-sâi ló̤-huáng Seng-saⁿ,
@@ -4094,8 +4094,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 55 I ē seng-síng cuh hói-táu, cih-keh bā-kî; Á̤-So ga̤̍u ta̤̍h mo̍ih-nō̤ keoh i sia̍h
 56 I ló̤-bō̤ ná-lâ̤ deo hâi-léng lî-lí; Á̤-So gîng-ga̍i i n̄g-tang ta̤̍h ca̤̍ seō gah náng gô̤ng.
 ## 9
-1 Á̤-So ga̤̍u se̍h-dī meóng-seng lí, Á̤-o̤nguⁿ-ta̍sēⁿ-sêng
-2 A̍-seo̍ i gé̤ng-ba̍ⁿ cái-néng, ā̤ ah-ca̤̍ ló̤ng-cô̤ng ē gûi, léng do̤h-lia̍h bāⁿ. Sâi i kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî do̤h-la̍h bī náng.
+1 Á̤-So ga̤̍u se̍h-dī meóng-seng lí, Á̤-o̤nguⁿ-ta̍sēⁿ-sêng A̍-seo̍ i gé̤ng-ba̍ⁿ cái-néng, ā̤ ah-ca̤̍ ló̤ng-cô̤ng ē gûi, léng do̤h-lia̍h bāⁿ.
+2 Sâi i kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî do̤h-la̍h bī náng.
 3 Cuh gah i gô̤ng, Giáⁿ-dō sí-cā̤, n̄g-tang dua̍ seo̍h-moi kṳ̍, cuh sī tā̤uⁿ, do̤h-léng, ná̤u-châu, ngṳ́ng-cíng; iā n̄g-tang dua̍ nn̄g teo̍ i-ná̤u.
 4 Dṳ̂ di̍h hn̍g-náng ē cho̍, cuh leo̍h hṳ̂-hiô̤ gṳ-cṳ̄; iā da̤u̍h iú hṳ̂-hiô̤ kî-sing kṳ̍.
 5 Ū náng n̄g cī dṳ̂, dṳ̂ cheoh ca̤̍ siáⁿ sí-cā̤, cuh da̤u̍h heoh kṳ̍ dṳ̂ ko̤ lē ē o̤ng-nó̤ng, keoh ce̤̍ng-náng ceo̍ ci̍ng-ge̍ng.
@@ -4153,8 +4153,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 57 Giáⁿ dō sí-cā̤, ū náng gah Á̤-So gô̤ng, Cṳ̂ ā, Dṳ̂ beó leōng kṳ̍ deoh-leo, guâ dih-dih do̍i Dṳ̂.
 58 Á̤-So gah i gô̤ng, Hó-lí ū o̤̍ng, bua̍ⁿ-ting ē câ̤u ū siu̍; nō̤ Cíng-Ceô beó kua̍-táu ē ūi-chṳ̍.
 59 Buh gah seo̍h gá̤ náng gô̤ng, Dṳ̂ lí do̍i Guâ. Ca̤̍ náng cuh gô̤ng. Cṳ̂, é̤ng guâ saⁿ ku̍ dái guâ ló̤-bō̤.
-60 A̍-So gah i gô̤ng, Cāi i sî-náng kṳ̍ dái ca̤̍ sî-náng; nō̤ dṳ̂ da̤u̍h kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî. i Buh ū seo̍h gá̤ náng gô̤ng, Cṳ̂ ā, guâ a̍i-dí do̍i Dṳ̂; nō̤ é̤ng guâ sa̤ⁿ kṳ̍ cho̍ gah cho̍-lî náng sí-be̍h.
-61 
+60 A̍-So gah i gô̤ng, Cāi i sî-náng kṳ̍ dái ca̤̍ sî-náng; nō̤ dṳ̂ da̤u̍h kṳ̍ dóiⁿ Siō̤ng-Da̤̍ go̤h ē dō̤-lî.
+61 i Buh ū seo̍h gá̤ náng gô̤ng, Cṳ̂ ā, guâ a̍i-dí do̍i Dṳ̂; nō̤ é̤ng guâ sa̤ⁿ kṳ̍ cho̍ gah cho̍-lî náng sí-be̍h.
 62 Á̤-So gah i gô̤ng, Chiû ta̤̍h lá̤-bō̤, cuh hói-táu kua̍ⁿ bo̍i-āu ē náng, n̄g de̤̍ng di̍h Siō̤ng-Da̤̍ go̤h.
 ## 10
 1 Ca̤̍ seō î-hā̤u, Cṳ̂ buh li̍h chih-se̍h náng, sâi i nn̄g gá̤ nn̄g gá̤ sa̤ⁿ kṳ̍ i ga̍i sê̤ beoh kṳ̍ ē go̤h gā̤ⁿ-siáⁿ, go̤h dā̤-ho̤ng.
@@ -4190,8 +4190,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 31 Dû-dû ū ā ca̤̍-si, te̍ng ca̤̍ dō lē lí kua̍ⁿ-gi̍ng da̤u̍h, meô giáⁿ ciâ geo̍.
 32 Buh ū ā Lī-bī náng, giáⁿ ga̍u ciâ dā̤-ho̤ng, a̤̍ seo̍h-gō̤, iā ah-na meô giáⁿ ciâ geo̍.
 33 Bí-do̤̍h ū ā Sah-mâ-lī-a̍ náng, giáⁿ ga̍u hṳ̂-hiô̤; seo̍h kua̍ⁿ-gi̍ng cuh kô̤-léng i,
-34 giáⁿ sá̤ⁿ ta̤̍h iú gah ciû, deo̍ i siū-sio̤ng ē ūi-chṳ̍; bau hah-lo̤̍h lâ̤u, cuh cio̤ng ga̍i ē táu-saⁿ keoh i kió̤, chio̤̍ ga̍u kā-da̤̍ⁿ ca̤̍u-go̍ i. lē Dā̤-dī di̍h cuh ta̤̍h nn̄g cíng ngṳ́ng, gau keoh da̤̍ⁿ-cô, gô̤ng, Ca̤̍u-go̍ ca̤̍ náng; dṳ̂ nō̤ ū sâi ga, guâ hói-táu dih-dih dá̤ⁿ dṳ̂.
-35 Dṳ̂ siô̤ng kua̍ⁿ, cî so̤ⁿ gá̤ de̤ng-gang, deoh-seo̍h gá̤ sī gṳ̄-da̤u̍h che̍h ē gā-biā-cho̍ lē?
+34 giáⁿ sá̤ⁿ ta̤̍h iú gah ciû, deo̍ i siū-sio̤ng ē ūi-chṳ̍; bau hah-lo̤̍h lâ̤u, cuh cio̤ng ga̍i ē táu-saⁿ keoh i kió̤, chio̤̍ ga̍u kā-da̤̍ⁿ ca̤̍u-go̍ i.
+35 lē Dā̤-dī di̍h cuh ta̤̍h nn̄g cíng ngṳ́ng, gau keoh da̤̍ⁿ-cô, gô̤ng, Ca̤̍u-go̍ ca̤̍ náng; dṳ̂ nō̤ ū sâi ga, guâ hói-táu dih-dih dá̤ⁿ dṳ̂.
 36 Dṳ̂ siô̤ng kua̍ⁿ, cî so̤ⁿ gá̤ de̤ng-gang, deoh-seo̍h gá̤ sī gṳ̄-da̤u̍h che̍h ē gā-biā-cho̍ lē?
 37 I i̍ng gô̤ng, Kô̤-léng i ē cuh sī. Á̤-So cuh gô̤ng, Dṳ̂ da̤u̍h kṳ̍ bíng ca̤̍ ā̤uⁿ ceo̍.
 38 Go̤h náng giáⁿ dō sí-cā̤, Á̤-So di̍h seo̍h ha̤uⁿ-che̤ng; ū sîng-ná̤u-náng miá Mâ-dāi, cī I di̍h cho̍-lî.
@@ -4309,8 +4309,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 52 Ing cé̤ng ging î-hā̤u, seo̍h cho̍ ngō gá̤ náng beoh beong kui seo-caⁿ, so̤ⁿ gá̤ gah nn̄g gá̤ caⁿ, nn̄g gá̤ gah so̤ⁿ gá̤ caⁿ;
 53 ló̤-bō̤ gah giô̤ⁿ saⁿ, giô̤ⁿ gah ló̤-bō̤ caⁿ; ná̤u-lâ̤ gah sîng-ná̤u-giô̤ⁿ caⁿ, sîng-ná̤u-giô̤ⁿ gah ná̤u-lâ̤ caⁿ; dah-go̤ gah sîng-mū caⁿ, sîng-mū gah dah-go̤ caⁿ.
 54 pah gah ce̤̍ng-náng gô̤ng, Dṳ̂ kua̍ⁿ-gi̍ng eóng cé̤ng sai-si̍ kî, dṳ̂ cuh gô̤ng, Beoh leo̍h-hō leō; gô̤-céng cuh ū.
-55 Dṳ̂ kua̍ⁿ-gi̍ng náng-boiⁿ choi lí, dṳ̂ cuh gô̤ng, Beoh duā ce̍h leō; iā cuh ū. ū-ah heô ē náng ā! dṳ̂ cai bēng-be̍h ting-dā̤ ē ki̍-seh; seh-na n̄g-cai bēng-be̍h ca̤̍ sí-cā̤ lē?
-56 ū-ah heô ē náng ā! dṳ̂ cai bēng-be̍h ting-dā̤ ē ki̍-seh; seh-na n̄g-cai bēng-be̍h ca̤̍ sí-cā̤ lē?
+55 Dṳ̂ kua̍ⁿ-gi̍ng náng-boiⁿ choi lí, dṳ̂ cuh gô̤ng, Beoh duā ce̍h leō;
+56 iā cuh ū. ū-ah heô ē náng ā! dṳ̂ cai bēng-be̍h ting-dā̤ ē ki̍-seh; seh-na n̄g-cai bēng-be̍h ca̤̍ sí-cā̤ lē?
 57 Dṳ̂ seh-na n̄g-céng ga̍i chi-chah sê̤ gai-dng ē seō lē?
 58 Dṳ̂ gah geo̍ dṳ̂ ē náng cá̤ kṳ̍ gi̍ng-guaⁿ, ho̤h sī leo̍h dō-táu, da̤u̍h cīng li̍h giú i ba̍ng dṳ̂; giaⁿ i tua dṳ̂ ga̍u guaⁿ lē, guaⁿ cuh ta̤̍h dṳ̂ huah keoh cha̤-gio̤̍h; cha̤-gio̤̍h cuh cio̤ng dṳ̂ goiⁿ gang lē.
 59 Guâ gah dṳ̂ gô̤ng, Seo̍h si seo̍h hó̤ nō̤ bōi dá̤ⁿ, dṳ̂ dua̍ng-dua̍ng bā̤ lē chōi ā.
@@ -4389,8 +4389,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 1 Do̤ng-sí ló̤ng-cô̤ng tiu-so̍i ē náng gah cōi-náng ciū Á̤-So, a̍i-dí tiaⁿ I ē go̤̍-ceo̍.
 2 Hah-lī-se̤̍ náng, gah ta̍h-cṳ-náng, n̄g huaⁿ-hî, gô̤ng, I cī cōi-náng, gah i cá̤ sia̍h.
 3 Á̤-So cuh seh pih-piāⁿ gah i gô̤ng,
-4 Dṳ̂ do̤-ng hn̍g-náng ū seo̍h-bā táu á̤uⁿ, pā-hi̍ng kṳ̍ seo̍h táu, n̄g-sī cāng-sí láu ca̤̍ gâu-se̍h-gâu táu ē á̤uⁿ leo̍h iâ-guā, kṳ̍ cho̍i ca̤̍ pā-hi̍ng ē, ga̍u cho̍i da̤u̍h lō̤? ē Cho̍i da̤u̍h cuh huaⁿ-hî, iāⁿ ga̤ⁿ-táu lē?
-5 
+4 Dṳ̂ do̤-ng hn̍g-náng ū seo̍h-bā táu á̤uⁿ, pā-hi̍ng kṳ̍ seo̍h táu, n̄g-sī cāng-sí láu ca̤̍ gâu-se̍h-gâu táu ē á̤uⁿ leo̍h iâ-guā, kṳ̍ cho̍i ca̤̍ pā-hi̍ng ē, ga̍u cho̍i da̤u̍h lō̤?
+5 ē Cho̍i da̤u̍h cuh huaⁿ-hî, iāⁿ ga̤ⁿ-táu lē?
 6 Ga̍u kṳ̍-cho̍, cuh hōi-ci̍h i ē béng-iû ha̤uⁿ-lî, gah i gô̤ng, Guâ pā-hi̍ng ē á̤uⁿ cho̍i da̤u̍h lâ̤u, dṳ̂ da̤u̍h gah guâ cá̤ huaⁿ-hî.
 7 Guâ gah dṳ̂ gô̤ng, Ū seo̍h gá̤ cōi-náng hôi-cōi gâi-go̤̍, deó ting lē iā ah-na ta̤̍ i huaⁿ-hî, ho̤h ā̤ ió̤ⁿ gâu-se̍h-gâu gá̤ n̄g-sâi hôi-cōi gâi-go̤̍ ē gī-cíng.
 8 He̍h sī sîng-ná̤u-náng ū se̍h gô̤ ngṳ́ng-cíng, pā-hi̍ng kṳ̍ seo̍h gô̤, meh n̄g diâng-seng, sa̍u cho̍, gṳ́ng-gîng kṳ̍ cho̍i, ga̍u cho̍i da̤u̍h lō̤?
@@ -4577,8 +4577,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 42 gô̤ng, Siáⁿ ā, da ho̤h sī dṳ̂ ē di̍h-cî; seh-seô dṳ̂ leo̍h cî seo̍h di̍h dṳ̂ nō̤ ā̤ cai guang-hā̤ dṳ̂ bíng-ang ē seō, cuh heô; nō̤ ca̤̍ seō da có̤ng-kn̍g kṳ̍, dṳ̂ ma̍h ciu kua̍ⁿ bā̤ cheoh.
 43 Di̍h-cî beoh ga̍u, dṳ̂ ē siú-de̍h dih dih de̤h tó-siáⁿ pā dṳ̂, seo̍-úi keo̍ng-kô dṳ̂;
 44 hûi dṳ̂ ceo̍ báⁿ-dā̤ kṳ̍, léng be̍h dṳ̂ ē giô̤ⁿ, sîng-ná̤u-giô̤ⁿ; iā n̄g láu seo̍h po̍i sa̤u̍h dé̤ng to̤̍h leo̍h sa̤u̍h dêng-ni̍; ing dṳ̂ n̄g-cai ca̤̍u-go̍ dṳ̂ ē di̍h-cî.
-45 Á̤-So di̍h si̍ng-dēng, de̤̍h cheoh diō̤ dēng do̤-ng ceo̍ seng-lî ē náng, gah i gô̤ng, Si̍ng-ging ū gô̤ng, Guâ ē cho̍ sī gí-dô̤ ē cho̍; nō̤ dṳ̂-go̤h-náng ta̤̍h lí ceo̍ che̍h-cáu lō̤?
-46 
+45 Á̤-So di̍h si̍ng-dēng, de̤̍h cheoh diō̤ dēng do̤-ng ceo̍ seng-lî ē náng,
+46 gah i gô̤ng, Si̍ng-ging ū gô̤ng, Guâ ē cho̍ sī gí-dô̤ ē cho̍; nō̤ dṳ̂-go̤h-náng ta̤̍h lí ceo̍ che̍h-cáu lō̤?
 47 Á̤-So di̍h-di̍h deó si̍ng-dēng ga̍u-heo̍ng, ló̤ng cô̤ng ca̤̍-si-diô̤ng, ta̍h-cṳ-náng, gah bā-sa̍ⁿ ē táu-ga̤, a̍i-dí tái I.
 48 Nō̤ beó ga̤̍ tang si; ing ló̤ng-cô̤ng bā-sa̍ⁿ deo da̍ng-cing tiaⁿ I.
 ## 20
@@ -4624,11 +4624,11 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 40 Î-hā̤u deo beó náng gô̤ⁿ ca̍i ka̍ng I.
 41 Á̤-So gah ce̤̍ng-náng gô̤ng, Náng seh-na gô̤ng, Gi-Do̤h sī Dāi- bi̍h ē giô̤ⁿ-seong lē?
 42 ing Si-peng hn̄g-lî, Dāi-bi̍h ga̍i ū gô̤ng, Cṳ̂ gah guâ Cṳ̂ gô̤ng, Dṳ̂ sē̤ Guâ iū-bá̤ⁿ,
-43 dêng Guâ cio̤ng Dṳ̂ siú-de̍h ceo̍ Dṳ̂ ko̤-do̤̍h. Dāi-bi̍h gi̍-céng ching Gi-Do̤h ceo̍ Cṳ̂, Gi-Do̤h deoh-leo sī Dāi-bi̍h ē giô̤ⁿ-seong lē?
-44 Ce̤̍ng bā-sa̍ⁿ hiô̤ tiaⁿ sí-cā̤, Á̤-So gah meóng-seng gô̤ng,
-45 Sa̤̍-cī hó̤ng-bī ca̤̍ ta̍h-cṳ-náng; i a̍i-dí sē̤ng dng-bó̤ tā-lá̤u, huaⁿ-hî deó ga̤-dō keoh náng chîng-ang, sē̤ hōi-dn̍g gá̤ⁿ ē ūi, sē̤ ciû-si̍h duā-ūi;
-46 buh teong guâ-hū ē ga-gia̍h, nô̤-i dńg-dńg gí-dô̤; i siū híng-hua̍h dih-dih ho̤h ā̤ dāng.
-47 
+43 dêng Guâ cio̤ng Dṳ̂ siú-de̍h ceo̍ Dṳ̂ ko̤-do̤̍h.
+44 Dāi-bi̍h gi̍-céng ching Gi-Do̤h ceo̍ Cṳ̂, Gi-Do̤h deoh-leo sī Dāi-bi̍h ē giô̤ⁿ-seong lē?
+45 Ce̤̍ng bā-sa̍ⁿ hiô̤ tiaⁿ sí-cā̤, Á̤-So gah meóng-seng gô̤ng,
+46 Sa̤̍-cī hó̤ng-bī ca̤̍ ta̍h-cṳ-náng; i a̍i-dí sē̤ng dng-bó̤ tā-lá̤u, huaⁿ-hî deó ga̤-dō keoh náng chîng-ang, sē̤ hōi-dn̍g gá̤ⁿ ē ūi, sē̤ ciû-si̍h duā-ūi;
+47 buh teong guâ-hū ē ga-gia̍h, nô̤-i dńg-dńg gí-dô̤; i siū híng-hua̍h dih-dih ho̤h ā̤ dāng.
 ## 21
 1 Á̤-So ma̍h-ciu gio̤̍h gá̤ⁿ; kua̍ⁿ-gi̍ng cái-cô náng ta̤̍h ngṳ́ng dá̤ ko̍ lē.
 2 Buh kua̍ⁿ-gi̍ng seo̍h gá̤ châng ē guâ-hū, dá̤ dáng-cíng nn̄g gô̤.
@@ -4790,8 +4790,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 48 Ce̤̍ng-náng cṳ̄-ci̍h hiô̤ kua̍ⁿ, gi̍-céng gi̍ng geo̍ ciô̤-sā̤ ē seō, cuh dúi ga̍i ho̤ng-ngâng hói-táu.
 49 Bíng-so̍ gah Á̤-So seo-beh ē náng, léng cé̤ng Ga-lī-lī cá̤ do̍i lí ē sîng-ná̤u-náng, hōiⁿ-hōiⁿ kiō̤ hiô̤, deo kua̍ⁿ-gi̍ng ca̤̍ seō.
 50 Ū seo̍h gá̤ náng, miá Io̤h-seh, sī gī-seō, buh sī cíng-gī ē náng,
-51 (I n̄g gah seh-ga̤̍ ē náng seo̍h-bang cá̤ pā-sua̍ⁿ.) sī Iú-ta̍i ē A̍-lī-mâ-ta̍i siáⁿ náng, bíng-so̍ ngiô̤ng-mō̤ng Siō̤ng-Da̤̍-go̤h ē náng. I kṳ̍ gi̍ng Bî-la̍h-do̤, giú Á̤-So ē sing-si.
-52 
+51 (I n̄g gah seh-ga̤̍ ē náng seo̍h-bang cá̤ pā-sua̍ⁿ.) sī Iú-ta̍i ē A̍-lī-mâ-ta̍i siáⁿ náng, bíng-so̍ ngiô̤ng-mō̤ng Siō̤ng-Da̤̍-go̤h ē náng.
+52 I kṳ̍ gi̍ng Bî-la̍h-do̤, giú Á̤-So ē sing-si.
 53 Cuh ta̤̍h leo̍h lí, ē̤ng io̤̍h-bo̍ bau, ba̍ng leo̍h sa̤u̍h cha̍h o̤̍n̄gliṳ̂ no̤̍ lē ē síng sâi ē.
 54 Hṳ̂ seo̍h di̍h, cuh sī ṳ̄-bī cā̤ ē di̍h-cî, gṳ̄ng Ang-sih-di̍h.
 55 Cé̤ng Ga-lī-lī gah Á̤-So cá̤ lí ē sîng-ná̤u-náng, do̍i āu-li̍ kua̍ⁿ ca̤̍ mo̍, léng ah seh-na co̤̍ng ca̤̍ sing-si.
@@ -4807,8 +4807,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 8 Sîng-ná̤u-náng cuh gi̍ Á̤-So ē uā,
 9 iú mo̍ lē dôiⁿ kṳ̍, cio̤ng ca̤̍ seō beo̍ gah se̍h-ih gá̤ seo̍-dó, léng gí-ṳ́ ē meóng-seng gô̤ng.
 10 Gah seo̍-dó gô̤ng ē náng, cuh sī Buah-dāi-la̍h ē Mâ-lī-a̍, Io̤h-a̍-ná, Ngâ-go̤h ē ná̤u-lâ̤ Mâ-lī-a̍, léng gah i cá̤ ē sîng ná̤u-náng.
-11 Seo̍-dó siô̤ng ca̤̍ sîng-ná̤u ē uā sī hṳ ē, n̄g se̍ng i.2 Nō̤ Bî-deh bā-kî, guâⁿ kṳ̍ mo̍ lē, táu pah lôi kua̍ⁿ lī-li̍, nō̤ kua̍ⁿ-gi̍ng
-12 dio̤̍h-bo̍ deó hiô̤, siô̤ng ca̤̍ seō cīng geo̍-ā̤uⁿ, cuh hói-táu kṳ̍-cho̍.
+11 Seo̍-dó siô̤ng ca̤̍ sîng-ná̤u ē uā sī hṳ ē,
+12 n̄g se̍ng i.2 Nō̤ Bî-deh bā-kî, guâⁿ kṳ̍ mo̍ lē, táu pah lôi kua̍ⁿ lī-li̍, nō̤ kua̍ⁿ-gi̍ng dio̤̍h-bo̍ deó hiô̤, siô̤ng ca̤̍ seō cīng geo̍-ā̤uⁿ, cuh hói-táu kṳ̍-cho̍.
 13 Hṳ̂ seo̍h di̍h ū nn̄g gá̤ meóng-seng kṳ̍ seo̍h ha̤uⁿ-che̤ng, miá I-mâ-gô, lī Á̤-lō-sah-lêng io̤h-lio̤̍h dī-se̍h-ngō lî.
 14 Nn̄g gá̤ náng cá̤ leōng gṳ̄ng-lái sê̤ gṳ̄-da̤u̍h ē seō.
 15 No̤̍ hiô̤ ba̍ng-gô̤ng gî-leōng sí-cā̤, Á̤-So gṳ̄ng-céng gah i cá̤ giáⁿ.
@@ -4985,8 +4985,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 15 Sîng-ná̤u-náng gô̤ng, Cṳ̂, chiâⁿ ca̤̍ cûi seo̍ keoh guâ, sâi guâ bā̤ do̤, iā n̄g-sâi lí ciâ chiú.
 16 Á̤-So gah i gô̤ng, Dṳ̂ kṳ̍ ga̤̍u dṳ̂ dah-bo cá̤ lí cî-ciâ.
 17 Sîng-ná̤u-náng i̍ng I gô̤ng, Guâ beó dah-bo. Á̤-So gô̤ng, Dṳ̂ gô̤ng beó dah-bo, beó dō̤ⁿ;
-18 ing dṳ̂ beh-céng ū ngō gá̤ dah-bo; da sê̤ ū ē, n̄g-sī dṳ̂ dah-bo; dṳ̂ ca̤̍ ṳ̂11 Sîng-ná̤u-náng gô̤ng, Seng-saⁿ, guâ kua̍ⁿ Dṳ̂ sī seng-di.
-19 Sîng-ná̤u-náng gô̤ng, Seng-saⁿ, guâ kua̍ⁿ Dṳ̂ sī seng-di.
+18 ing dṳ̂ beh-céng ū ngō gá̤ dah-bo; da sê̤ ū ē, n̄g-sī dṳ̂ dah-bo;
+19 dṳ̂ ca̤̍ ṳ̂11 Sîng-ná̤u-náng gô̤ng, Seng-saⁿ, guâ kua̍ⁿ Dṳ̂ sī seng-di.
 20 Guâ cô-co̤ng leo̍h ciâ suaⁿ lē lâ̤-ba̍i; bí-do̤̍h dṳ̂-go̤h-náng gô̤ng, Gai-dng lâ̤-ba̍i ē ūi-chṳ̍, sī diō̤ Á̤-lō-sah-lêng.
 21 Á̤-So gah i gô̤ng, Sîng-ná̤u-náng, dṳ̂ da̤u̍h se̍ng Guâ; sí-cā̤ beoh ga̍u, dṳ̂-go̤h-náng ba̍i Teng-Hū, iā beó leo̍h ca̤̍. suaⁿ, iā beó leo̍h Á̤-lō-sah-lêng.
 22 Dṳ̂-go̤h-náng n̄g-cai sê̤ ba̍i ē; guâ-go̤h-náng cuh cai sê̤ ba̍i ē, ing giu̍-sa̤̍ ē dō-lî sī iú Iú-ta̍i náng lē lí.
@@ -5009,8 +5009,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 39 Deó Sū-ga ē Sah-mâ-lī-a̍ náng ū cīng sā̤ se̍ng Á̤-So, ing sîng-ná̤u-náng ci̍ng-ge̍ng gô̤ng, I cio̤ng guâ bíng-so̍ sê̤ ceo̍ ih-cheh ē seō, deo gah guâ gô̤ng.
 40 Ing-cheô Sah-mâ-lī-a̍ náng lí chiâⁿ Á̤-So hē̤ hṳ̂-hiô̤; I cuh hē̤ hṳ̂-hiô̤ nn̄g di̍h.
 41 Ing tiaⁿ Á̤-So beông-sing ē uā, ge̍ng sā̤ náng se̍ng I;
-42 cuh gah ca̤̍ sîng-ná̤u-náng gô̤ng, Da guâ-go̤h-náng se̍ng, n̄g-sī ing dṳ̂ ē uā; sī guâ-go̤h-náng ching-hī tiaⁿ-mói, cai ca̤̍ náng si̍h-lo̤̍h sī i-go̤̍ saⁿ di̍h, Á̤-so lī hî-hî u̍ Ga-lī-lī.
-43 
+42 cuh gah ca̤̍ sîng-ná̤u-náng gô̤ng, Da guâ-go̤h-náng se̍ng, n̄g-sī ing dṳ̂ ē uā; sī guâ-go̤h-náng ching-hī tiaⁿ-mói, cai ca̤̍ náng si̍h-lo̤̍h sī i-go̤̍ saⁿ di̍h,
+43 Á̤-so lī hî-hî u̍ Ga-lī-lī.
 44 Ing Á̤-So ga̍i ū gô̤ng, Seng-di deó bôiⁿ-dā̤-ho̤ng bā̤ gi̍ng ceong-gi̍ng.
 45 Á̤-So ga̍u Ga-lī-lī, Ga-lī-lī náng cuh cī I; ing ce̤̍ng-náng iā sā̤uⁿ kṳ̍ siû cā̤-léng dang ē A-ṳng A̍--
 46 Á̤-So buh ga̍u Ga-lī-lī ē Gia-ná, cuh sī î-céng sâi cûi be̍ng ceo̍ ciû ē ūi-chṳ̍. Ū ā ó̤ng sing-bing ē guaⁿ-hû, i giô̤ⁿ pua̍-bāⁿ deó Gia-beh-nó̤ng.
@@ -5199,9 +5199,9 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 ## 8
 1 Á̤-So kṳ̍ Gô̤ng-nô̤-suaⁿ.
 2 Ting gng, buh ga̍u dēng lē, bā-sa̍ⁿ deo lí I hiô̤; Á̤-So cuh sē̤ hiô̤, go̤̍ i-go̤h-náng.
-3 Ū ā sîng-ná̤u-náng héng gang-íng, keoh náng dia̍h da̤u̍h, ta̍h-cṳ-náng gah Hah-lī-se̤̍ eh gah Á̤-o gi̍ng Seng? ca̤̍ sîng-ná̤u-náng héng gang-íng sí-cā̤, keoh náng dia̍h da̤u̍h. Bíng Mó̤ sa̤ leo̍h-hah, mīng guâ
-4 
-5 go̤h-náng ē̤ng sa̤u̍h diāⁿ si ca̤̍ seo̍h-ā̤uⁿ ē náng; nō̤ Dṳ̂ i̍-ge̍ng seh-na gô̤ng lē?
+3 Ū ā sîng-ná̤u-náng héng gang-íng, keoh náng dia̍h da̤u̍h,
+4 ta̍h-cṳ-náng gah Hah-lī-se̤̍ eh gah Á̤-o gi̍ng Seng?
+5 ca̤̍ sîng-ná̤u-náng héng gang-íng sí-cā̤, keoh náng dia̍h da̤u̍h. Bíng Mó̤ sa̤ leo̍h-hah, mīng guâ go̤h-náng ē̤ng sa̤u̍h diāⁿ si ca̤̍ seo̍h-ā̤uⁿ ē náng; nō̤ Dṳ̂ i̍-ge̍ng seh-na gô̤ng lē?
 6 Ce̤̍ng-náng gô̤ng ca̤̍ uā sī chi̍ Á̤-So, a̍i-dí beoh cho̍i ā seō geo̍ I. Bí-do̤̍h Á̤-So pah lôi, ē̤ng chiû-câi ua̍h dō̤-lō̤.
 7 Ce̤̍ng-náng ho̤h hiô̤ ka̍ng; Á̤-So cuh kiō̤ kî gah i gô̤ng, Dṳ̂ do̤-ng hn̍g-náng beó cōi, cuh sa̤ⁿ ta̤̍h sa̤u̍h diāⁿ i.
 8 Buh pah hiô̤, ē̤ng chiû-câi ua̍h dā̤-lō̤.
@@ -5480,8 +5480,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 27 Iú-dāi siū ca̤̍ eo̍ng ē mo̍ih-nō̤ î-hā̤u, Sah-dāng cuh di̍h i sing-lî. Á̤-So gah i gô̤ng, Dṳ̂ sê̤ ceo̍ ē seō, guâⁿ-gîng ku̍ ceo̍.
 28 Déng-deō ē náng deo n̄g-cai Á̤-So gah i gô̤ng ca̤̍ uā sī seo̍h-moi I seo̍.
 29 Ing Iú-dāi guâng do̤h-léng, go̍-cheô ū náng siô̤ng Á̤-So mīng i kṳ̍ bâ̤ cā̤-gí sê̤ ē̤ng ē mo̍ih-nō̤; he̍h sī ta̤̍h mo̍ih-nō̤ ciu-ca̤̍ bíng-gé̤ng ē náng.
-30 Iú-dāi gi̍-céng siū ca̤̍ eo̍ng ē mo̍ih-nō̤ lâ̤u, cih-keh chōi kṳ̍; ca̤̍ sí-cā̤ î-ging a̍ng lâ̤u. I gi̍-céng chōi kṳ̍. Á̤-So cuh gô̤ng, Da Cíng Ceô deh ṳ́ng-ā̤u, Siō̤ng-Da̤̍ ing-ūi I iā deh ṳ́ng-ā̤u.
-31 
+30 Iú-dāi gi̍-céng siū ca̤̍ eo̍ng ē mo̍ih-nō̤ lâ̤u, cih-keh chōi kṳ̍; ca̤̍ sí-cā̤ î-ging a̍ng lâ̤u.
+31 I gi̍-céng chōi kṳ̍. Á̤-So cuh gô̤ng, Da Cíng Ceô deh ṳ́ng-ā̤u, Siō̤ng-Da̤̍ ing-ūi I iā deh ṳ́ng-ā̤u.
 32 Siō̤ng-Da̤̍ gi̍-céng ing Cíng-Ceô deh ṳ́ng-ā̤u Siō̤ng Da̤̍ iā beoh ing- ūi ga̍i ṳ́ng-ā̤u Cíng-Ceô, buh dih-dih cih-keh ṳ́ng-ā̤u I.
 33 Sâ̤u-ceô ā, Guâ ho̤h ū cāng-sí gah dṳ̂ seo̍h-dui. Dṳ̂ beoh cho̍i Guâ, Guâ kṳ̍ ē ūi-chṳ̍, dṳ̂ beó-dang-dng ga̍u; Guâ sá̤ⁿ-di̍h gah Iú-ta̍i náng gô̤ng ca̤̍ uā, da iā gah dṳ̂ ah na gô̤ng.
 34 Guâ cio̤ng sing ē ga̍i mīng dṳ̂, cuh sī dṳ̂-go̤h-náng da̤u̍h cá̤ seo sā̤u; dṳ̂-go̤h-náng gai-dng cá̤ seo sā̤u, chā̤uⁿ Guâ sā̤u dṳ̂ seo̍h-ā̤uⁿ.
@@ -5552,8 +5552,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 3 Lah-na dāi dṳ̂, sī ing n̄g-beh Teng-Hū, iā n̄g-beh Guâ.
 4 Nō̤ Guâ gah dṳ̂ gô̤ng ca̤̍ uā, ga̍u na ē sí-cā̤, dṳ̂ ā̤-gi̍-dih Guâ ū gah dṳ̂ gô̤ng lâ̤u. Guâ sá̤ⁿ-di̍h béng gah dṳ̂ gô̤ng ca̤̍ uā, sī ing Guâ ho̤h gah dṳ̂ seo̍h-dui.
 5 Da Guâ beoh hói-táu kṳ̍ cha̤-kêng Guâ lí ē Teng-Hū hiô̤; dṳ̂ de̤ng-gang beó náng ka̍ng Guâ kṳ̍ deoh-leo.
-6 Ing Guâ nō̤ gah dṳ̂ gô̤ng ca̤̍ uā, dṳ̂ muâ-sing ū kô. Guâ si̍h-cāi gah dṳ̂ gô̤ng, Guâ kṳ̍ sī iā leo̍h dṳ̂; Guâ nō̤ beó kṳ̍, Bô̤-hā̤-seo cuh beó lí; Guâ nō̤ kṳ̍, cuh cha̤-kêng I lí dṳ̂ ciâ.
-7 I î-céng lí, cuh beoh ē̤ng cōi, ē̤ng o̤ng-gī, ē̤ng sîng-pua̍ng, sâi sa̤̍-ang ga̍i ceh-bī;
+6 Ing Guâ nō̤ gah dṳ̂ gô̤ng ca̤̍ uā, dṳ̂ muâ-sing ū kô.
+7 Guâ si̍h-cāi gah dṳ̂ gô̤ng, Guâ kṳ̍ sī iā leo̍h dṳ̂; Guâ nō̤ beó kṳ̍, Bô̤-hā̤-seo cuh beó lí; Guâ nō̤ kṳ̍, cuh cha̤-kêng I lí dṳ̂ ciâ.
 8 I gi̍-céng lí, cuh beoh ē̤ng cōi, ē̤ng go̤ng-gī, ē̤ng sîng-pua̍ng, sâi sa̤̍-gang ga̍i ceh-bī;
 9 ē̤ng cōi, sī ing sa̤̍-gang náng n̄g-se̍ng Guâ;
 10 ē̤ng go̤ng-gī, sī ing Guâ hói-táu kṳ̍ Guâ Ló̤-Bō̤ hiô̤, dṳ̂-go̤h-náng bā̤ ca̍i kua̍ⁿ-gi̍ng Guâ;
@@ -5638,12 +5638,12 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 29 Bî-la̍h-do̤ cuh chōi, ka̍ng ce̤̍ng-náng, gô̤ng, Dṳ̂ geo̍ ca̤̍ náng ū seo̍h-moi cōi lē?
 30 Cîng-náng Ing gô̤ng I nō̤ beó hāng-cōi, guâ cuh n̄g ga̤̍ I ga̍u dṳ̂ ciâ.
 31 Bî-la̍h-do̤ gah ce̤̍ng-náng gô̤ng, Dṳ̂ du̍a I kṳ̍; bíng dṳ̂ ē leo̍h-hah sîng I. Iú-ta̍i náng i̍ng gô̤ng, Guâ beó tái náng ē gé̤ng-ba̍ⁿ.
-32 Ah-na sī i̍ng-ngiāng Á̤-So bíng-so̍ gô̤ng, I ga̍i beoh seh-na siū sî. Bî-la̍h-do̤ buh di̍h go̤ng-tiaⁿ, dā̤u Á̤-So, ka̍ng I, gô̤ng, Dṳ̂ sī Iú-ta̍i náng ē go̤h-ó̤ng lō̤?
-33 
+32 Ah-na sī i̍ng-ngiāng Á̤-So bíng-so̍ gô̤ng, I ga̍i beoh seh-na siū sî.
+33 Bî-la̍h-do̤ buh di̍h go̤ng-tiaⁿ, dā̤u Á̤-So, ka̍ng I, gô̤ng, Dṳ̂ sī Iú-ta̍i náng ē go̤h-ó̤ng lō̤?
 34 Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng ca̤̍ uā, sī iú dṳ̂ ga̍i ā? he̍h sī be̍h-náng cio̤ng Guâ ē seō gah dṳ̂ gô̤ng lē?
 35 Bî-la̍h-do̤ gô̤ng, Guâ meh sī Iú-ta̍i náng lō̤? Dṳ̂ bôiⁿ-dā̤ ē bā-sa̍ⁿ, gah ce̤̍ng ca̤̍-si-diô̤ng, ga̤̍ Dṳ̂ ga̍u guâ ciâ; Dṳ̂ gô̤-céng ceo̍ seo̍h-moi seō lē?
-36 Á̤-So i̍ng gô̤ng, Guâ ē go̤h n̄g sī se̤̍h ciâ sa̤̍-gang. Guâ ē go̤h nō̤ sī se̤̍h ciâ sa̤̍-gang, Guâ ē síng-ceô cuh ih-dēng ceng-da̤̍u, mêng-dih Guâ keoh náng ga̤̍ leo̍h Iú-ta̍i náng hiô̤; nō̤ Guâ ē go̤h n̄g-sī se̤̍h leo̍h ciâ sa̤̍-gang.37 Bî-la̍h-do̤ cuh gô̤ng, Ah-na Dṳ̂ sī ceo̍ go̤h-ó̤ng lō̤? Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng Guâ sī go̤h-ó̤ng. Guâ sī ing ca̤̍ seō cia̍ⁿ saⁿ cheoh-si̍, buh sī ing ca̤̍ seō cia̍ⁿ ga̍ng-líng sa̤̍-gang, a̍i ta̤̍ cing-lî ceo̍ ci̍ng-ge̍ng. Háng se̤̍h cing-lî ē náng, cuh tiaⁿ Guâ ē uā.
-37 Bî-la̍h-do̤ cuh gô̤ng, Ah-na Dṳ̂ sī ceo̍ go̤h-ó̤ng lō̤? Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng Guâ sī go̤h-ó̤ng. Guâ sī ing ca̤̍ seō cia̍ⁿ saⁿ cheoh-si̍, buh sī ing ca̤̍ seō cia̍ⁿ ga̍ng-líng sa̤̍-gang, a̍i ta̤̍ cing-lî ceo̍ ci̍ng-ge̍ng. Háng se̤̍h cing-lî ē náng, cuh tiaⁿ Guâ ē uā.
+36 Á̤-So i̍ng gô̤ng, Guâ ē go̤h n̄g sī se̤̍h ciâ sa̤̍-gang. Guâ ē go̤h nō̤ sī se̤̍h ciâ sa̤̍-gang, Guâ ē síng-ceô cuh ih-dēng ceng-da̤̍u, mêng-dih Guâ keoh náng ga̤̍ leo̍h Iú-ta̍i náng hiô̤; nō̤ Guâ ē go̤h n̄g-sī se̤̍h leo̍h ciâ sa̤̍-gang.37 Bî-la̍h-do̤ cuh gô̤ng, Ah-na Dṳ̂ sī ceo̍ go̤h-ó̤ng lō̤?
+37 Á̤-So i̍ng gô̤ng, Dṳ̂ gô̤ng Guâ sī go̤h-ó̤ng. Guâ sī ing ca̤̍ seō cia̍ⁿ saⁿ cheoh-si̍, buh sī ing ca̤̍ seō cia̍ⁿ ga̍ng-líng sa̤̍-gang, a̍i ta̤̍ cing-lî ceo̍ ci̍ng-ge̍ng. Háng se̤̍h cing-lî ē náng, cuh tiaⁿ Guâ ē uā.
 38 Bî-la̍h-do̤ cuh gô̤ng, Cing-lî sī seo̍h-moi lē? Uā gô̤ng lâ̤u, buh chōi gah Iú-ta̍i náng gô̤ng, Guâ kua̍ⁿ ca̤̍ náng deo beó cōi.
 39 Nō̤ dṳ̂-go̤h-náng ū ā lā̤, ga̍u cṳ́-e̤̍h-ceh ing-gai ba̍ng seo̍h gá̤ siú-hāng. Da dṳ̂ a̍i-dí guâ ba̍ng Iú-ta̍i náng ē go̤h-ó̤ng lō̤?
 40 Ce̤̍ng-náng duā-siaⁿ huā gô̤ng, N̄g-tang ba̍ng ca̤̍ náng; nō̤ ba̍ng Ba-la̍h-ba. Ca̤̍ Ba-la̍h-ba sī duā-che̍h.
@@ -5678,8 +5678,8 @@ Nō̤ tái La̍h-be̍h, dih-dih siū hua̍h chih-se̍h-chih bōi.
 28 Ca̤̍ seō î-hā̤u, Á̤-So cai ló̤ng-cô̤ng ē seō deo siáⁿ lâ̤u, cuh gô̤ng, Guâ chu̍i do̤. Ca̤̍ iā sī i̍ng-ngiāng Si̍ng-ging.
 29 Deó hṳ̂-hiô̤ ū seo̍h gá̤ dâ̤u cho̍ ē a̍ng; ū náng cio̤ng hâi-cé̤ng ci̍ng cho̍, bo̤̍h leo̍h giú-chih-châu dêng-ni̍, dōiⁿ ga̍u I chu̍i lē.
 30 Á̤-So gi̍-céng siū cho̍, cuh gô̤ng, Guâ ē seō hah-lo̤̍h leō. Táu há̤ⁿ lôi, I ē léng-heóng cuh kṳ̍-cho̍.
-31 Ca̤̍ seo̍h di̍h sī bī-ceh di̍h, buh ing ca̤̍ Ang-sih-di̍h sī duā di̍h-cî, Iú-ta̍i náng n̄g a̍i leo̍h Ang-sih-di̍h sing-si gua̍ leo̍h si̍h-cī-ga̍ lē; go̍-cheô giú Bî-la̍h-do̤ sâi náng ko̤-geoh, ta̤̍h i sing-si ko̤ Ing-cheô bing-seng lí, ô̤ si̍h gah Á̤-So cá̤ de̍ng ca̤̍ nn̄g gá̤ náng ē ko̤-geoh;
-32 Ing-cheô bing-seng lí, ô̤ si̍h gah Á̤-So cá̤ de̍ng ca̤̍ nn̄g gá̤ náng ē ko̤-geoh;
+31 Ca̤̍ seo̍h di̍h sī bī-ceh di̍h, buh ing ca̤̍ Ang-sih-di̍h sī duā di̍h-cî, Iú-ta̍i náng n̄g a̍i leo̍h Ang-sih-di̍h sing-si gua̍ leo̍h si̍h-cī-ga̍ lē;
+32 go̍-cheô giú Bî-la̍h-do̤ sâi náng ko̤-geoh, ta̤̍h i sing-si ko̤ Ing-cheô bing-seng lí, ô̤ si̍h gah Á̤-So cá̤ de̍ng ca̤̍ nn̄g gá̤ náng ē ko̤-geoh;
 33 ga̍u Á̤-So hiô̤, kua̍ⁿ-gi̍ng I sî kṳ̍, cuh beó ô̤ I ko̤-geoh.
 34 Ū seo̍h gá̤ bing-deng ta̤̍h cha̤uⁿ chiā I ē ga̤ⁿ-sá̤ⁿ-ō̤; hā̤ gah cûi cá̤ láu chōi.
 35 Ū seo̍h gá̤ náng kua̍ⁿ-gi̍ng cuh ceo̍ ci̍ng-ge̍ng, i ē ci̍ng-ge̍ng sī si̍h; i ga̍i cai sê̤ gô̤ng ē uā sī si̍h, sâi dṳ̂-go̤h-náng ā̤ se̍ng.
@@ -5866,8 +5866,8 @@ Sing-guaⁿ iā bōi seo-niāng.
 2 Ngōi Teng-Hū Siō̤ng-Da̤̍, léng Cṳ̂ Á̤-So Gi-Do̤h seo̍ dṳ̂-go̤h-náng ṳng-hā̤ bíng-ang.
 3 Hiaⁿ-dī ā, guâ-go̤h-náng da̤u̍h sí-sió̤ng ta̤̍ dṳ̂ gâng-siā Siō̤ng-Da̤̍; ca̤̍ sī sê̤ gai-dng ē, ing dṳ̂ ē se̍ng ga-bōi geng-go̍, go̤h-náng cá̤ seo sā̤u ge̍ng-ga ching-ce̍h;
 4 bíng ah-na, guâ-go̤h-náng ing-ūi dṳ̂ cuh leo̍h Siō̤ng-Da̤̍ ciô̤-gá̤ ga̍u-hōi do̤-ng kua-kâ̤u, ing dṳ̂ siū geo̍ ciô̤-sā̤ peh-de̤̍h huāng-nāng, ū duā neông-nāi se̍ng Cṳ̂;
-5 
-6 ca̤̍ ā̤ hêng-míng Siō̤ng-Da̤̍ sîng-pua̍ng náng sī go̤ng-gī; dṳ̂ gi̍-céng ing Siō̤ng-Da̤̍-go̤h siū hāi, hā̤u-lái cuh ā̤ de̤̍ng-dih di̍h ca̤̍ go̤h: ing Siō̤ng-Da̤̍ sī go̤ng-gī, dih-dih cio̤ng huāng-nāng bo̤̍-i̍ng ca̤̍ hāi dṳ̂ siū-kô ē náng;
+5 ca̤̍ ā̤ hêng-míng Siō̤ng-Da̤̍ sîng-pua̍ng náng sī go̤ng-gī; dṳ̂ gi̍-céng ing Siō̤ng-Da̤̍-go̤h siū hāi, hā̤u-lái cuh ā̤ de̤̍ng-dih di̍h ca̤̍ go̤h:
+6 ing Siō̤ng-Da̤̍ sī go̤ng-gī, dih-dih cio̤ng huāng-nāng bo̤̍-i̍ng ca̤̍ hāi dṳ̂ siū-kô ē náng;
 7 buh sâi dṳ̂ siū huāng-nāng ē náng gah guâ-go̤h-náng cá̤ hiô̤ng bíng-ang, cuh sī leo̍h Cṳ̂ Á̤-So gah I cái-néng ē ce̤̍ng teng-seo̍, cé̤ng ting lē hêng-hēng sí-cā̤,
 8 ē̤ng hôi-iāng bo̤̍-i̍ng ca̤̍ n̄g-beh Siō̤ng-Da̤̍, n̄g tiaⁿ-bíng guâ Cṳ̂ Á̤-So Gi-Do̤h ho̤h-ing ē náng:
 9 ca̤̍ náng dih-dih siū híng-hua̍h, ṳ̂ng-ê̤ng díng-leóng, lī Cṳ̂ ē mi̍ng léng I duā cái-néng ē ṳ́ng-go̤ng;
@@ -6037,8 +6037,8 @@ Sing-guaⁿ iā bōi seo-niāng.
 11 Teng-seo̍ sui-céng gé̤ng-ba̍ⁿ cái-néng piāⁿ i ā̤-duā, ho̤h n̄g-gô̤ⁿ leo̍h Cṳ̂ mi̍ng-sá̤ⁿ lâ̤-mo̤̍ i.
 12 Nō̤ ca̤̍ gô̤-seng-saⁿ, chā̤uⁿ beó léng-si̍ng bú-di ē gíng-siu̍, láu keoh náng dia̍h kṳ̍ tái; i hûi-bo̤̍ng sê̤ n̄g-cai ē seō, é̤ng-ce̤̍ng ga̍i ē seo-e̤̍h, dih-dih be̍h-mó̤ng;
 13 i héng-o̤h, cuh siū héng-o̤h ē bo̤̍-i̍ng, i huaⁿ-hî leo̍h di̍h-dng e̍ng-lo̤̍h, gah dṳ̂ ceo̍-seo̍h éng-si̍h cá̤ sia̍h, buh chā̤uⁿ ngā̤-baⁿ ē heóng, o-diâng ē cih, ta̤̍h i ē kûi-ca̍ ceo̍ hî-lo̤̍h;
-14 i kua̍ⁿ gang-íng da̍i sā̤uⁿ-ngâng, hāng-cōi beó hē̤; buh iû-he̍h sing-lî bōi geng-go̍ ē náng; i iā cīng gua̍ng-se̤̍h tang-sing, sī siū mo̤̍ ē náng: i lī cia̍ⁿ-dō̤, giáⁿ heong-bá̤ ē dō, do̍i To̤̍-so̤h giô̤ⁿ Ba-láng ē dō; cāi-cô̤ Ba-láng tang beoh-gī ē cíng-cái;
-15 
+14 i kua̍ⁿ gang-íng da̍i sā̤uⁿ-ngâng, hāng-cōi beó hē̤; buh iû-he̍h sing-lî bōi geng-go̍ ē náng; i iā cīng gua̍ng-se̤̍h tang-sing, sī siū mo̤̍ ē náng:
+15 i lī cia̍ⁿ-dō̤, giáⁿ heong-bá̤ ē dō, do̍i To̤̍-so̤h giô̤ⁿ Ba-láng ē dō; cāi-cô̤ Ba-láng tang beoh-gī ē cíng-cái;
 16 i héng-o̤h siū ceh-bī: bā̤ gô̤ng-uā ē lṳ́ ē̤ng náng ē siaⁿ-ing, gi̍ng-cî ca̤̍ seng-di ē gó̤ng-mō̤ng.
 17 Ca̤̍ gô̤-seng-saⁿ chā̤uⁿ beó cûi ē câⁿ, chā̤uⁿ gó̤ng-ho̤ng sê̤ pā ē eóng; ū duā o-a̍ng láu hiô̤ dêng i.
 18 Ū náng no̤̍ tuah-lī seo̍h bang luāng-ceo̍ ē náng, ca̤̍ gô̤-seng-saⁿ cuh kua-kâ̤u luāng-gô̤ng, ta̤̍h cíng-e̤̍h siá-íng iû-he̍h
@@ -6053,14 +6053,14 @@ Sing-guaⁿ iā bōi seo-niāng.
 4 Cṳ̂ ṳ̂ng-síng beoh ca̍i-lí, deoh-leo ū ca̤̍ seō lē? cé̤ng le̍h-cô geo̍-sa̤̍ āu, māng-beo̍h cíng-céng gah cho̤̍ng-sa̤̍ sí-cā̤ deo seo̍h-ā̤uⁿ.
 5 I de̍h-go̍ beoh-gi̍-lē kî-táu iú Siō̤ng-Da̤̍ ē mīng cuh ū ting, buh ū dā̤ iú cûi lē cheoh, léng leo̍h cûi do̤-ng geh dā̤ⁿ-dā̤-
 6 do̤ng-sí ē sa̤̍-ga̍i, cuh sī cāi duā-cûi ha̍ng-lāng ē sí-cā̤, iā keoh cûi deo be̍h kṳ̍;
-7 nō̤ da ē ting-dā̤, iā sī ciā Siō̤ng-Da̤̍ ē mīng-līng, ceóng ga̍u sîng-pua̍ng gái náng, hua̍h i díng-leóng ē di̍h-cî, cuh ē̤ng hôi sa̤u kṳ̍. Ching-a̍i ē hiaⁿ-dī, dṳ̂ n̄g tang beoh-gi̍-lē cî seo̍h hāng, Cṳ̂ kua̍ⁿ seo̍h di̍h chā̤uⁿ seo̍h-cha̤ⁿ níng, seo̍h-cha̤ⁿ níng chā̤uⁿ seo̍h di̍h.
-8 
+7 nō̤ da ē ting-dā̤, iā sī ciā Siō̤ng-Da̤̍ ē mīng-līng, ceóng ga̍u sîng-pua̍ng gái náng, hua̍h i díng-leóng ē di̍h-cî, cuh ē̤ng hôi sa̤u kṳ̍.
+8 Ching-a̍i ē hiaⁿ-dī, dṳ̂ n̄g tang beoh-gi̍-lē cî seo̍h hāng, Cṳ̂ kua̍ⁿ seo̍h di̍h chā̤uⁿ seo̍h-cha̤ⁿ níng, seo̍h-cha̤ⁿ níng chā̤uⁿ seo̍h di̍h.
 9 Cṳ̂ sê̤ ṳ̂ng-hṳ̂ ē, bā̤ cheng-éng, bíng náng sua̍ⁿ sī cheng-éng, gí-si̍h sī Cṳ̂ kuang-é̤ng dṳ̂-go̤h-náng, a̍i-dí ce̤̍ng-náng hôi-gâi, n̄g a̍i-dí seo̍h gá̤ náng díng-leóng kṳ̍.
 10 Nō̤ Cṳ̂ ē di̍h-cî beoh ga̍u, chā̤uⁿ che̍h chíng má-láu lí seo̍h-ā̤uⁿ; ga̍u hiô̤ sí-cā̤, ting dih-dih duā hâ̤uⁿ, cuh bang kṳ̍, ū híng-cih ē mo̍ih-nō̤ deo keoh ce̍h-hôi sa̤u a̤uⁿ kṳ̍, dā̤ léng dā̤ lē ciô̤ gá̤ mo̍ih-nō̤ deo sa̤u kṳ̍.
 11 Māng-beo̍h gi̍-céng beoh sa̤u-hua̍ kṳ̍, dṳ̂ sê̤ héng-úi ē, gai-dng seh-na tā-gā̤ gi̍ng-géng lē?
 12 Da̤u̍h seo-bō duā ai-mō̤ng Siō̤ng-Da̤̍ ē di̍h-cî ga̍u, leo̍h ca̤̍ di̍h-cî, ting cuh beoh keoh hôi sa̤u-hua̍, ū híng-cih ē mo̍ih-nō̤ keoh ce̍h-hôi sa̤u a̤uⁿ kṳ̍.
-13 Nō̤ guâ-go̤h-náng bíng Siō̤ng-Da̤̍ sê̤ ṳ̂ng-hṳ̂ ē, n̍g ca̤̍ sing ē ting, sing ē dā̤, ū gī-lî gṳ-cṳ̄ leo̍h hn̄g-lî. Ching-a̍i ē hiaⁿ-dī ā, céng n̍g ca̤̍ seō, cuh da̤u̍h gṳ́ng-gîng, sâi dṳ̂ beó u̍-o̍i, beó mo̍ih ceh-bī, ang-sing gi̍ng Cṳ̂.
-14 
+13 Nō̤ guâ-go̤h-náng bíng Siō̤ng-Da̤̍ sê̤ ṳ̂ng-hṳ̂ ē, n̍g ca̤̍ sing ē ting, sing ē dā̤,
+14 ū gī-lî gṳ-cṳ̄ leo̍h hn̄g-lî. Ching-a̍i ē hiaⁿ-dī ā, céng n̍g ca̤̍ seō, cuh da̤u̍h gṳ́ng-gîng, sâi dṳ̂ beó u̍-o̍i, beó mo̍ih ceh-bī, ang-sing gi̍ng Cṳ̂.
 15 Dṳ̂ da̤u̍h siô̤ng guâ Cṳ̂ kuang-é̤ng guâ-go̤h-náng, sī sâi guâ ā̤ deh-giu̍; chā̤uⁿ guâ ching-a̍i ē ā-hiaⁿ Bô̤-ló̤, bíng sê̤ seo̍ i ē di̍-hā̤, iā ū siâng gah dṳ̂ gô̤ng lâ̤u;
 16 I leo̍h ih-cheh ē cṳ, deo ū leōng ca̤̍ seō; gí-de̤ng ū gûi-ā̤uⁿ gang-náng míng-be̍h ē; eo̍h bōi to̤ng ē náng gah se̍ng beó geng-go̍ ē náng, cuh giô̤ng-mêng luāng-sōi ca̤̍ gang-náng míng-be̍h ē uā, iā ah-na luāng-sōi beh-mo̍ih Si̍ng-ging, sâi ga̍i díng-leóng kṳ̍.
 17 Ching-a̍i ē hiaⁿ-dī, dṳ̂ gi̍-céng sa̤ⁿ cai ca̤̍ seō cuh da̤u̍h sa̤̍-cī, mêng-dih keoh gái náng ē siá-ga̍u îng-iû, ceh sih kô̤ dṳ̂ geng-go̍ ē sing
