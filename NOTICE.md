@@ -29,6 +29,10 @@ The 1912 source text is long in the public domain. What this project claims is o
 editorial work -- transcription, proofreading, Han-character correspondence, tokenization.
 Attribute to the Hinghua Bible Digital Project and its contributors.
 
+`data/cuv-verse-lengths.json` 只是新標點和合本（公有領域，取自 eBible.org）每節的字數統計，不含經文。
+`data/cuv-verse-lengths.json` holds only per-verse character counts of the public-domain
+Chinese Union Version (from eBible.org), no text.
+
 選擇 CC BY 而非 CC BY-SA，是為了讓這批語料能無障礙地用於訓練模型等下游用途；
 相同條款（share-alike）在這類場景會造成授權範圍的爭議。
 
