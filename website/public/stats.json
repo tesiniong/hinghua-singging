@@ -2,21 +2,21 @@
   "rom": {
     "ot": {
       "books": 3,
-      "chapters": 38,
-      "verses": 1074,
-      "draft_verses": 466
+      "chapters": 55,
+      "verses": 1702,
+      "draft_verses": 1094
     },
     "nt": {
       "books": 12,
       "chapters": 106,
-      "verses": 3904,
-      "draft_verses": 3000
+      "verses": 4066,
+      "draft_verses": 3162
     },
     "total": {
       "books": 15,
-      "chapters": 144,
-      "verses": 4978,
-      "draft_verses": 3466
+      "chapters": 161,
+      "verses": 5768,
+      "draft_verses": 4256
     }
   },
   "han": {

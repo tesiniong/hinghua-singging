@@ -308,7 +308,7 @@
     "book_rom": "Cho̤̍ng-sa̤̍ Gi̍"
   },
   "0053": {
-    "chapter": 34,
+    "chapter": 37,
     "verse": 17,
     "book_english": "Genesis",
     "book_han": "創世記",
@@ -1437,9 +1437,9 @@
   "0214": {
     "chapter": 1,
     "verse": 1,
-    "book_english": "Numbers",
-    "book_han": "民數記",
-    "book_rom": "Míng-so̍ Gi̍"
+    "book_english": "Deuteronomy",
+    "book_han": "申命記",
+    "book_rom": "Sing-mīng Gi̍"
   },
   "0215": {
     "chapter": 1,
@@ -3017,7 +3017,7 @@
     "book_rom": "Le̍h-ó̤ng Siō̤ng-ge̤̍ng"
   },
   "0440": {
-    "chapter": 5,
+    "chapter": 15,
     "verse": 30,
     "book_english": "1 Kings",
     "book_han": "列王上卷",
@@ -5327,7 +5327,7 @@
     "book_rom": "Si-peng"
   },
   "0770": {
-    "chapter": 19,
+    "chapter": 119,
     "verse": 176,
     "book_english": "Psalms",
     "book_han": "詩篇",
@@ -7329,14 +7329,14 @@
     "book_rom": "Î-sa̤-geh Cṳ"
   },
   "1056": {
-    "chapter": 41,
+    "chapter": 44,
     "verse": 8,
     "book_english": "Ezekiel",
     "book_han": "以西結書",
     "book_rom": "Î-sa̤-geh Cṳ"
   },
   "1057": {
-    "chapter": 41,
+    "chapter": 44,
     "verse": 29,
     "book_english": "Ezekiel",
     "book_han": "以西結書",
@@ -9732,23 +9732,23 @@
   "1403": {
     "chapter": 1,
     "verse": 1,
-    "book_english": "Philippians",
-    "book_han": "保羅寄腓立比儂書",
-    "book_rom": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ"
+    "book_english": "Colossians",
+    "book_han": "保羅寄歌羅西儂書",
+    "book_rom": "Bô̤-ló̤ Gio̤̍ Go̤-ló̤-sa̤ Náng Cṳ"
   },
   "1404": {
     "chapter": 1,
     "verse": 23,
-    "book_english": "Philippians",
-    "book_han": "保羅寄腓立比儂書",
-    "book_rom": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ"
+    "book_english": "Colossians",
+    "book_han": "保羅寄歌羅西儂書",
+    "book_rom": "Bô̤-ló̤ Gio̤̍ Go̤-ló̤-sa̤ Náng Cṳ"
   },
   "1405": {
     "chapter": 2,
     "verse": 15,
-    "book_english": "Philippians",
-    "book_han": "保羅寄腓立比儂書",
-    "book_rom": "Bô̤-ló̤ Gio̤̍ Hi-li̍h-bî Náng Cṳ"
+    "book_english": "Colossians",
+    "book_han": "保羅寄歌羅西儂書",
+    "book_rom": "Bô̤-ló̤ Gio̤̍ Go̤-ló̤-sa̤ Náng Cṳ"
   },
   "1406": {
     "chapter": 3,
@@ -10110,9 +10110,9 @@
   "1457": {
     "chapter": 2,
     "verse": 11,
-    "book_english": "2 Peter",
-    "book_han": "彼得後書",
-    "book_rom": "Bî-deh Hā̤u-cṳ"
+    "book_english": "1 John",
+    "book_han": "約翰一書",
+    "book_rom": "Io̤h-hāng Ih Cṳ"
   },
   "1458": {
     "chapter": 3,

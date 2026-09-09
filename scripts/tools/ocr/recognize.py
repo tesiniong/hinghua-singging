@@ -15,7 +15,7 @@ import json
 import sys
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageOps
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
@@ -45,10 +45,16 @@ class BeamRecognizer:
     def __call__(self, im, name="line"):
         if im.width < 4 or im.height < 4:
             return "", 0.0, 0.0  # 空框（rpred 也是直接回空字串）
-        try:
-            t = self.ts(im.convert("L") if im.mode != "L" else im)
-        except Exception as e:  # 極端長寬比的碎片會讓 kraken 的縮放失敗
-            print(f"  {name}: 行圖轉換失敗（{e}），略過", file=sys.stderr)
+        im = im.convert("L") if im.mode != "L" else im
+        t = None
+        for pad in (0, 2, 4, 8):  # kraken 的去彎曲偶爾在特定尺寸失敗，補幾個像素白邊再試
+            try:
+                t = self.ts(ImageOps.expand(im, border=pad, fill=255) if pad else im)
+                break
+            except Exception as e:  # 極端長寬比的碎片會讓 kraken 的縮放失敗
+                err = e
+        if t is None:
+            print(f"  {name}: 行圖轉換失敗（{err}），略過", file=sys.stderr)
             return "", 0.0, 0.0
         if t.max() == t.min():
             return "", 0.0, 0.0

@@ -460,6 +460,22 @@ def fill_rom(eng, cands, path=DATA / "rom.txt", overwrite=frozenset()):
                 break
         lines[insert_at:insert_at] = block
         b1 += len(block)
+    # 人工錄到一半就停的章節（節號行只到某一節）：在該章最後一節（含詩體續行）之後補上其餘節號行
+    for c in sorted({c for c, _ in cands} & have):
+        c0 = next(i for i in range(b0, b1) if lines[i].startswith("## ") and int(lines[i][3:]) == c)
+        c1 = next((i for i in range(c0 + 1, b1) if lines[i].startswith("## ")), b1)
+        verse_rows = [i for i in range(c0 + 1, c1) if re.match(r"^\d+(\s|$)", lines[i])]
+        if not verse_rows:
+            continue
+        last_v = max(int(lines[i].split()[0]) for i in verse_rows)
+        missing = [v for v in range(last_v + 1, BOOKS[eng]["verses_per_chapter"][c - 1] + 1)]
+        if not missing or not any((c, v) in cands for v in missing):
+            continue
+        insert_at = max(verse_rows) + 1
+        while insert_at < c1 and lines[insert_at].strip() and not lines[insert_at].startswith("#"):
+            insert_at += 1  # 跳過最後一節的詩體續行
+        lines[insert_at:insert_at] = [str(v) for v in missing]
+        b1 += len(missing)
     done = set()
     ch = None
     for i in range(b0, b1):
